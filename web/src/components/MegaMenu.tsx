@@ -41,7 +41,7 @@ export const MegaMenu: React.FC = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
-  const menuItems = (navMenuData as any).menu_items || [];
+  const menuItems = Array.isArray(navMenuData) ? navMenuData : ((navMenuData as any).menu_items || []);
 
   return (
     <nav className="w-full bg-[#1e293b] text-white border-b border-amber-400/40 sticky top-0 z-40 shadow-xs transition-colors">
@@ -152,15 +152,8 @@ export const MegaMenu: React.FC = () => {
                     <div className="col-span-full pt-2.5 mt-1 border-t border-stone-100 flex items-center justify-between text-[11px] text-slate-500">
                       <span className="flex items-center gap-1.5 font-normal text-slate-600">
                         <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                        <span>{language === 'mr' ? 'केवळ राहुरी मुख्यालय अधिकृत माहिती' : 'Official Rahuri HQ Scope'}</span>
+                        <span>{language === 'mr' ? 'राहुरी मध्यवर्ती परिसर अधिकृत माहिती' : 'Official Rahuri HQ Scope'}</span>
                       </span>
-                      <Link
-                        href="/seeds-availability"
-                        onClick={() => setActiveDropdown(null)}
-                        className="text-amber-800 font-medium hover:underline inline-flex items-center gap-1"
-                      >
-                        <span>{language === 'mr' ? 'राहुरी बियाणे साठा तपासा →' : 'Check Rahuri Seeds Stock →'}</span>
-                      </Link>
                     </div>
                   </div>
                 )}
