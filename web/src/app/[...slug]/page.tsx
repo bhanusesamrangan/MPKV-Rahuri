@@ -1,5 +1,5 @@
 import { DynamicPageView } from '@/components/DynamicPageView';
-import pagesDataRaw from '@/data/scraped/rahuri_pages.json';
+import { getPageData } from '@/lib/pageLoader';
 
 interface PageProps {
   params: Promise<{
@@ -10,14 +10,17 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps) {
   const resolvedParams = await params;
   const slugArray = resolvedParams.slug || [];
-  const slugKey = slugArray.length > 0 ? slugArray[slugArray.length - 1] : '';
-  const pages = pagesDataRaw as Record<string, any>;
-  const page = pages[slugKey];
+  const page = getPageData(slugArray);
 
   if (page?.title) {
+    const enTitle = typeof page.title === 'object' ? page.title.en : page.title;
+    const mrTitle = typeof page.title === 'object' ? page.title.mr : page.title;
     return {
-      title: `${page.title.en} | MPKV Rahuri`,
-      description: page.hero?.subheadline?.en || 'Mahatma Phule Krishi Vidyapeeth, Rahuri Central Headquarters.',
+      title: `${mrTitle || enTitle} | MPKV Rahuri`,
+      description:
+        page.hero?.subtitle?.en ||
+        page.hero?.subheadline?.en ||
+        'Official Portal of Mahatma Phule Krishi Vidyapeeth, Rahuri Central Headquarters.',
     };
   }
 
@@ -30,8 +33,13 @@ export async function generateMetadata({ params }: PageProps) {
 export default async function CatchAllPage({ params }: PageProps) {
   const resolvedParams = await params;
   const slugArray = resolvedParams.slug || [];
-  const slugKey = slugArray.length > 0 ? slugArray[slugArray.length - 1] : '';
-  const fullPath = slugArray.join('/');
+  const page = getPageData(slugArray);
 
-  return <DynamicPageView slug={slugKey} path={fullPath} />;
+  return (
+    <DynamicPageView
+      slug={slugArray.join('/')}
+      path={slugArray.join('/')}
+      initialPageData={page}
+    />
+  );
 }

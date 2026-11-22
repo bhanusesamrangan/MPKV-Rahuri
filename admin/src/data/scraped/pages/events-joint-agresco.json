@@ -1,0 +1,1560 @@
+{
+  "slug": "events-joint-agresco",
+  "url": "https://mpkv.ac.in/PeriodicalEvent/JointAGRESCO",
+  "route": "/PeriodicalEvent/JointAGRESCO",
+  "sourcePage": "events-joint-agresco",
+  "scrapedAt": "2026-11-22T20:36:01.380865",
+  "title": {
+    "en": "Periodical Events",
+    "mr": "नियतकालिक कार्यक्रम"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "href": "/PeriodicalEvent/Convocation"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Periodical Events",
+      "mr": "नियतकालिक कार्यक्रम"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Periodical Events",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — नियतकालिक कार्यक्रम"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "order": 55
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "44th Joint AGRESCO",
+        "mr": "44th Joint AGRESCO"
+      },
+      "order": 56
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "45th Joint AGRESCO",
+        "mr": "45th Joint AGRESCO"
+      },
+      "order": 57
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "46th Joint AGRESCO",
+        "mr": "46th Joint AGRESCO"
+      },
+      "order": 58
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "47th Joint AGRESCO",
+        "mr": "47th Joint AGRESCO"
+      },
+      "order": 59
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "48th Joint AGRESCO",
+        "mr": "48th Joint AGRESCO"
+      },
+      "order": 60
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "49th Joint AGRESCO",
+        "mr": "49th Joint AGRESCO"
+      },
+      "order": 61
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "50th Joint AGRESCO",
+        "mr": "50th Joint AGRESCO"
+      },
+      "order": 62
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "51th Joint AGRESCO",
+        "mr": "51th Joint AGRESCO"
+      },
+      "order": 63
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "52th Joint AGRESCO",
+        "mr": "52th Joint AGRESCO"
+      },
+      "order": 64
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "53th Joint AGRESCO",
+        "mr": "53th Joint AGRESCO"
+      },
+      "order": 65
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "54th Joint AGRESCO",
+        "mr": "54th Joint AGRESCO"
+      },
+      "order": 66
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. Recently, 47th Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 29-31 May, 2019. The inaugural function was Chaired by Dr. K. P. Viswanath, Hon’ble Vice Chancellor, MPKV, Rahuri while Shri Chandrakant Patil, Hon’ble Minister of Revenue, Agriculture, PWD (excluding undertakings) and Relief &amp; Rehabilitation of Maharashtra State was the Chairman for concluding session. In 47th Joint AGRESCO Meet 2019, 08 crop varieties, 01 farm implement and machineries, and 5 abiotic resistant sources of plant varieties and 47 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. Recently, 47th Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 29-31 May, 2019. The inaugural function was Chaired by Dr. K. P. Viswanath, Hon’ble Vice Chancellor, MPKV, Rahuri while Shri Chandrakant Patil, Hon’ble Minister of Revenue, Agriculture, PWD (excluding undertakings) and Relief &amp; Rehabilitation of Maharashtra State was the Chairman for concluding session. In 47th Joint AGRESCO Meet 2019, 08 crop varieties, 01 farm implement and machineries, and 5 abiotic resistant sources of plant varieties and 47 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community."
+      },
+      "order": 67
+    },
+    {
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. In context of pandemic spread of COVID-19 disease, 48th Joint AGRESCO Meet was organized on virtual mode during on 27-31 October, 2020. The Hon’ble Chief Minister, Maharashtra State Shri Uddhavjee Thackeray inaugurated the Joint Agresco Meet. Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. Shri Sanjayjee Dhotre, Minister of State for Electronics and Information Technology Government of India was also joined the inaugural function. The valedictory function was Chaired by Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. In 48th Joint AGRESCO Meet 2020, 07 crop varieties, 03 farm implement and machineries, and 59 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. In context of pandemic spread of COVID-19 disease, 48th Joint AGRESCO Meet was organized on virtual mode during on 27-31 October, 2020. The Hon’ble Chief Minister, Maharashtra State Shri Uddhavjee Thackeray inaugurated the Joint Agresco Meet. Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. Shri Sanjayjee Dhotre, Minister of State for Electronics and Information Technology Government of India was also joined the inaugural function. The valedictory function was Chaired by Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. In 48th Joint AGRESCO Meet 2020, 07 crop varieties, 03 farm implement and machineries, and 59 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community."
+      },
+      "order": 68
+    },
+    {
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 49 Joint AGRESCO Meet was organized at Vasantrao Naik Marathwada Krishi Vidyapeeth, Parbhani on 24-30 December, 2021. The inaugural function was chaired by Dr. Vilas Bhale, Hon. Vice- Chancellor, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola. In 49 Joint AGRESCO Meet 2021, 10 crop varieties, 01 farm implement and machineries, and 2 abiotic resistant sources of plant varieties and 56 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 49 Joint AGRESCO Meet was organized at Vasantrao Naik Marathwada Krishi Vidyapeeth, Parbhani on 24-30 December, 2021. The inaugural function was chaired by Dr. Vilas Bhale, Hon. Vice- Chancellor, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola. In 49 Joint AGRESCO Meet 2021, 10 crop varieties, 01 farm implement and machineries, and 2 abiotic resistant sources of plant varieties and 56 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community."
+      },
+      "order": 69
+    },
+    {
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 50 Joint AGRESCO Meet was organized at Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth, Dapoli on 14-16 December, 2022. The inaugural function was chaired by Shri. Abdul Sattar, Hon. Minister (Agriculture), Government of Maharashtra. In 50 Joint AGRESCO Meet 2022, 06 crop varieties, 04 farm implement and machineries, 2 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 50 Joint AGRESCO Meet was organized at Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth, Dapoli on 14-16 December, 2022. The inaugural function was chaired by Shri. Abdul Sattar, Hon. Minister (Agriculture), Government of Maharashtra. In 50 Joint AGRESCO Meet 2022, 06 crop varieties, 04 farm implement and machineries, 2 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community."
+      },
+      "order": 70
+    },
+    {
+      "text": {
+        "en": "The 51st Joint Agresco meet -2023 of four SAUs in Maharashtra was organized at MPKV, Rahuri during May 25-27, 2023. The function was inaugurated by Shri Abdul Sattar, Hon’ble State Minister of Agriculture. Dr. Parimal Singh(IAS), Hon’ble Project Director, PoCRA was the chief guest. Vice- Chancellors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 69 recommendations, released 5 varieties &amp; 3 farm implements. Directorate of Extension Education, MPKV, Rahuri has organized Agril. Exibition to showcase the University technology. All departments of four SAUs in Maharashtra participated in Agril. exhibition and showcased their activities.",
+        "mr": "The 51st Joint Agresco meet -2023 of four SAUs in Maharashtra was organized at MPKV, Rahuri during May 25-27, 2023. The function was inaugurated by Shri Abdul Sattar, Hon’ble State Minister of Agriculture. Dr. Parimal Singh(IAS), Hon’ble Project Director, PoCRA was the chief guest. Vice- Chancellors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 69 recommendations, released 5 varieties &amp; 3 farm implements. Directorate of Extension Education, MPKV, Rahuri has organized Agril. Exibition to showcase the University technology. All departments of four SAUs in Maharashtra participated in Agril. exhibition and showcased their activities."
+      },
+      "order": 71
+    },
+    {
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 51st Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 25-27 May, 2023. The inaugural function was chaired by Shri. Abdul Sattar, Hon'ble Minister (Agriculture), Government of Maharashtra, Dr. P. G. Patil, Hon’ble Vice Chancellor, MPKV, Rahuri. In 51st Joint AGRESCO Meet -2023, 04 crop varieties, 03 farm implement and machineries, and 1 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 51st Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 25-27 May, 2023. The inaugural function was chaired by Shri. Abdul Sattar, Hon'ble Minister (Agriculture), Government of Maharashtra, Dr. P. G. Patil, Hon’ble Vice Chancellor, MPKV, Rahuri. In 51st Joint AGRESCO Meet -2023, 04 crop varieties, 03 farm implement and machineries, and 1 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community."
+      },
+      "order": 72
+    },
+    {
+      "text": {
+        "en": "The 52nd Joint Agresco meet -2024 of four SAUs in Maharashtra was organized at MPKV, Rahuri during June 7-9, 2024. The function was chaired by Dr. S. R. Gadakh, Hon&#39;ble Vice Chancellor, Dr.PDKV, Akola. Vice- Chancellors Dr. P.G. Patil, MPKV, Rahuri, Dr. Indra Mani, VNMKV, Parbhani, Dr. S.G. Bhave, Dr. BSKKV, Dapoli, Directors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 92 recommendations, released 6 varieties &amp;amp; 5 farm implements.",
+        "mr": "The 52nd Joint Agresco meet -2024 of four SAUs in Maharashtra was organized at MPKV, Rahuri during June 7-9, 2024. The function was chaired by Dr. S. R. Gadakh, Hon&#39;ble Vice Chancellor, Dr.PDKV, Akola. Vice- Chancellors Dr. P.G. Patil, MPKV, Rahuri, Dr. Indra Mani, VNMKV, Parbhani, Dr. S.G. Bhave, Dr. BSKKV, Dapoli, Directors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 92 recommendations, released 6 varieties &amp;amp; 5 farm implements."
+      },
+      "order": 73
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Periodical Events",
+          "mr": "नियतकालिक कार्यक्रम"
+        },
+        {
+          "en": "Convocation",
+          "mr": "Convocation"
+        },
+        {
+          "en": "Joint AGRESCO",
+          "mr": "Joint AGRESCO"
+        },
+        {
+          "en": "Retrospection",
+          "mr": "Retrospection"
+        },
+        {
+          "en": "Vanmohotsav",
+          "mr": "Vanmohotsav"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "University Foundation Day",
+          "mr": "University Foundation Day"
+        }
+      ],
+      "order": 74
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/44JointAgrosco_17_14_19_20191127031240.JPG",
+      "localPath": "/media/images/44JointAgrosco_17_14_19_20191127031240.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/45JointAgrosco_17_15_19_20191127031229.JPG",
+      "localPath": "/media/images/45JointAgrosco_17_15_19_20191127031229.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/45JointAgrosco_17_15_19_20191127031148.JPG",
+      "localPath": "/media/images/45JointAgrosco_17_15_19_20191127031148.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/JointAgro47_17_15_19_20191127021316.JPG",
+      "localPath": "/media/images/JointAgro47_17_15_19_20191127021316.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Inaugral_20210607094009.jpg",
+      "localPath": "/media/images/Inaugral_20210607094009.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/49 Photo_20230911052847.JPG",
+      "localPath": "/media/images/49_Photo_20230911052847.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/50 Photo_20230911053110.JPG",
+      "localPath": "/media/images/50_Photo_20230911053110.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Joint AGRESCO 2023_20240801095932.jpg",
+      "localPath": "/media/images/Joint_AGRESCO_2023_20240801095932.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Joint AGRESCO 2023_20240730035930.jpg",
+      "localPath": "/media/images/Joint_AGRESCO_2023_20240730035930.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Joint AGRESCO 2024_20240801101307.jpg",
+      "localPath": "/media/images/Joint_AGRESCO_2024_20240801101307.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Joint AGRESCO 2024_20240730040056.jpg",
+      "localPath": "/media/images/Joint_AGRESCO_2024_20240730040056.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/47th Final Proceedings- 2019_20231013042236.pdf",
+      "localPath": "/media/docs/47th_Final_Proceedings-_2019_20231013042236.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/48th Joint Agresco 2020 Proceedings_20231013041018.pdf",
+      "localPath": "/media/docs/48th_Joint_Agresco_2020_Proceedings_20231013041018.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/49th pdf_20230911053828.pdf",
+      "localPath": "/media/docs/49th_pdf_20230911053828.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/50 Proceedings  Joint Agresco-2022 Karyavrutant......._20230911053744.pdf",
+      "localPath": "/media/docs/50_Proceedings_Joint_Agresco-2022_Karyavrutant......._20230911053744.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Final 51 Joint Agresco Proceedings 2023_20240801095932.pdf",
+      "localPath": "/media/docs/Final_51_Joint_Agresco_Proceedings_2023_20240801095932.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Final 51 Joint Agresco Proceedings 2023_20240730035930.pdf",
+      "localPath": "/media/docs/Final_51_Joint_Agresco_Proceedings_2023_20240730035930.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Proceedings of Jt. Agresco 2024 Final_compressed_20250916125151.pdf",
+      "localPath": "/media/docs/Proceedings_of_Jt._Agresco_2024_Final_compressed_20250916125151.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Proceedings of Jt. Agresco 2024 Final_compressed_20250916125600.pdf",
+      "localPath": "/media/docs/Proceedings_of_Jt._Agresco_2024_Final_compressed_20250916125600.pdf",
+      "category": "docs",
+      "label": "Proceeding"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "order": 55
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "44th Joint AGRESCO",
+        "mr": "44th Joint AGRESCO"
+      },
+      "order": 56
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "45th Joint AGRESCO",
+        "mr": "45th Joint AGRESCO"
+      },
+      "order": 57
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "46th Joint AGRESCO",
+        "mr": "46th Joint AGRESCO"
+      },
+      "order": 58
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "47th Joint AGRESCO",
+        "mr": "47th Joint AGRESCO"
+      },
+      "order": 59
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "48th Joint AGRESCO",
+        "mr": "48th Joint AGRESCO"
+      },
+      "order": 60
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "49th Joint AGRESCO",
+        "mr": "49th Joint AGRESCO"
+      },
+      "order": 61
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "50th Joint AGRESCO",
+        "mr": "50th Joint AGRESCO"
+      },
+      "order": 62
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "51th Joint AGRESCO",
+        "mr": "51th Joint AGRESCO"
+      },
+      "order": 63
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "52th Joint AGRESCO",
+        "mr": "52th Joint AGRESCO"
+      },
+      "order": 64
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "53th Joint AGRESCO",
+        "mr": "53th Joint AGRESCO"
+      },
+      "order": 65
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "54th Joint AGRESCO",
+        "mr": "54th Joint AGRESCO"
+      },
+      "order": 66
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. Recently, 47th Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 29-31 May, 2019. The inaugural function was Chaired by Dr. K. P. Viswanath, Hon’ble Vice Chancellor, MPKV, Rahuri while Shri Chandrakant Patil, Hon’ble Minister of Revenue, Agriculture, PWD (excluding undertakings) and Relief &amp; Rehabilitation of Maharashtra State was the Chairman for concluding session. In 47th Joint AGRESCO Meet 2019, 08 crop varieties, 01 farm implement and machineries, and 5 abiotic resistant sources of plant varieties and 47 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. Recently, 47th Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 29-31 May, 2019. The inaugural function was Chaired by Dr. K. P. Viswanath, Hon’ble Vice Chancellor, MPKV, Rahuri while Shri Chandrakant Patil, Hon’ble Minister of Revenue, Agriculture, PWD (excluding undertakings) and Relief &amp; Rehabilitation of Maharashtra State was the Chairman for concluding session. In 47th Joint AGRESCO Meet 2019, 08 crop varieties, 01 farm implement and machineries, and 5 abiotic resistant sources of plant varieties and 47 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community."
+      },
+      "order": 67
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. In context of pandemic spread of COVID-19 disease, 48th Joint AGRESCO Meet was organized on virtual mode during on 27-31 October, 2020. The Hon’ble Chief Minister, Maharashtra State Shri Uddhavjee Thackeray inaugurated the Joint Agresco Meet. Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. Shri Sanjayjee Dhotre, Minister of State for Electronics and Information Technology Government of India was also joined the inaugural function. The valedictory function was Chaired by Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. In 48th Joint AGRESCO Meet 2020, 07 crop varieties, 03 farm implement and machineries, and 59 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune are jointly organizes Joint AGRESCO every year on rotational basis. In context of pandemic spread of COVID-19 disease, 48th Joint AGRESCO Meet was organized on virtual mode during on 27-31 October, 2020. The Hon’ble Chief Minister, Maharashtra State Shri Uddhavjee Thackeray inaugurated the Joint Agresco Meet. Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. Shri Sanjayjee Dhotre, Minister of State for Electronics and Information Technology Government of India was also joined the inaugural function. The valedictory function was Chaired by Shri Dadajee Bhuse, Hon’ble Minister of Agriculture, Maharashtra State. In 48th Joint AGRESCO Meet 2020, 07 crop varieties, 03 farm implement and machineries, and 59 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and release for benefits of farming community."
+      },
+      "order": 68
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 49 Joint AGRESCO Meet was organized at Vasantrao Naik Marathwada Krishi Vidyapeeth, Parbhani on 24-30 December, 2021. The inaugural function was chaired by Dr. Vilas Bhale, Hon. Vice- Chancellor, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola. In 49 Joint AGRESCO Meet 2021, 10 crop varieties, 01 farm implement and machineries, and 2 abiotic resistant sources of plant varieties and 56 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 49 Joint AGRESCO Meet was organized at Vasantrao Naik Marathwada Krishi Vidyapeeth, Parbhani on 24-30 December, 2021. The inaugural function was chaired by Dr. Vilas Bhale, Hon. Vice- Chancellor, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola. In 49 Joint AGRESCO Meet 2021, 10 crop varieties, 01 farm implement and machineries, and 2 abiotic resistant sources of plant varieties and 56 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community."
+      },
+      "order": 69
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 50 Joint AGRESCO Meet was organized at Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth, Dapoli on 14-16 December, 2022. The inaugural function was chaired by Shri. Abdul Sattar, Hon. Minister (Agriculture), Government of Maharashtra. In 50 Joint AGRESCO Meet 2022, 06 crop varieties, 04 farm implement and machineries, 2 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 50 Joint AGRESCO Meet was organized at Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth, Dapoli on 14-16 December, 2022. The inaugural function was chaired by Shri. Abdul Sattar, Hon. Minister (Agriculture), Government of Maharashtra. In 50 Joint AGRESCO Meet 2022, 06 crop varieties, 04 farm implement and machineries, 2 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community."
+      },
+      "order": 70
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The 51st Joint Agresco meet -2023 of four SAUs in Maharashtra was organized at MPKV, Rahuri during May 25-27, 2023. The function was inaugurated by Shri Abdul Sattar, Hon’ble State Minister of Agriculture. Dr. Parimal Singh(IAS), Hon’ble Project Director, PoCRA was the chief guest. Vice- Chancellors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 69 recommendations, released 5 varieties &amp; 3 farm implements. Directorate of Extension Education, MPKV, Rahuri has organized Agril. Exibition to showcase the University technology. All departments of four SAUs in Maharashtra participated in Agril. exhibition and showcased their activities.",
+        "mr": "The 51st Joint Agresco meet -2023 of four SAUs in Maharashtra was organized at MPKV, Rahuri during May 25-27, 2023. The function was inaugurated by Shri Abdul Sattar, Hon’ble State Minister of Agriculture. Dr. Parimal Singh(IAS), Hon’ble Project Director, PoCRA was the chief guest. Vice- Chancellors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 69 recommendations, released 5 varieties &amp; 3 farm implements. Directorate of Extension Education, MPKV, Rahuri has organized Agril. Exibition to showcase the University technology. All departments of four SAUs in Maharashtra participated in Agril. exhibition and showcased their activities."
+      },
+      "order": 71
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 51st Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 25-27 May, 2023. The inaugural function was chaired by Shri. Abdul Sattar, Hon'ble Minister (Agriculture), Government of Maharashtra, Dr. P. G. Patil, Hon’ble Vice Chancellor, MPKV, Rahuri. In 51st Joint AGRESCO Meet -2023, 04 crop varieties, 03 farm implement and machineries, and 1 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community.",
+        "mr": "State Agricultural Universities in Maharashtra and Maharashtra Council of Agriculture Education and Research (MCAER) Pune jointly organize Joint AGRESCO every year on rotational basis. Recently, 51st Joint AGRESCO Meet was organized at Mahatma Phule Krishi Vidyappeeth, Rahuri on 25-27 May, 2023. The inaugural function was chaired by Shri. Abdul Sattar, Hon'ble Minister (Agriculture), Government of Maharashtra, Dr. P. G. Patil, Hon’ble Vice Chancellor, MPKV, Rahuri. In 51st Joint AGRESCO Meet -2023, 04 crop varieties, 03 farm implement and machineries, and 1 abiotic resistant sources of plant varieties and 68 production technologies developed by Mahatma Phule Krishi Vidyapeeth, Rahuri were accepted and released for benefits of farming community."
+      },
+      "order": 72
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The 52nd Joint Agresco meet -2024 of four SAUs in Maharashtra was organized at MPKV, Rahuri during June 7-9, 2024. The function was chaired by Dr. S. R. Gadakh, Hon&#39;ble Vice Chancellor, Dr.PDKV, Akola. Vice- Chancellors Dr. P.G. Patil, MPKV, Rahuri, Dr. Indra Mani, VNMKV, Parbhani, Dr. S.G. Bhave, Dr. BSKKV, Dapoli, Directors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 92 recommendations, released 6 varieties &amp;amp; 5 farm implements.",
+        "mr": "The 52nd Joint Agresco meet -2024 of four SAUs in Maharashtra was organized at MPKV, Rahuri during June 7-9, 2024. The function was chaired by Dr. S. R. Gadakh, Hon&#39;ble Vice Chancellor, Dr.PDKV, Akola. Vice- Chancellors Dr. P.G. Patil, MPKV, Rahuri, Dr. Indra Mani, VNMKV, Parbhani, Dr. S.G. Bhave, Dr. BSKKV, Dapoli, Directors of all SAUs of Maharashtra were present for this meeting. University scientists presented their recommendations. In all MPKV has given 92 recommendations, released 6 varieties &amp;amp; 5 farm implements."
+      },
+      "order": 73
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Periodical Events",
+          "mr": "नियतकालिक कार्यक्रम"
+        },
+        {
+          "en": "Convocation",
+          "mr": "Convocation"
+        },
+        {
+          "en": "Joint AGRESCO",
+          "mr": "Joint AGRESCO"
+        },
+        {
+          "en": "Retrospection",
+          "mr": "Retrospection"
+        },
+        {
+          "en": "Vanmohotsav",
+          "mr": "Vanmohotsav"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "University Foundation Day",
+          "mr": "University Foundation Day"
+        }
+      ],
+      "order": 74
+    }
+  ],
+  "stats": {
+    "headingCount": 66,
+    "paragraphCount": 7,
+    "listCount": 1,
+    "tableCount": 0,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 33,
+    "totalRecords": 106
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "portal-login",
+  "url": "https://mpkv.ac.in/Home/Login",
+  "route": "/Home/Login",
+  "sourcePage": "portal-login",
+  "scrapedAt": "2026-11-22T20:35:43.194811",
+  "title": {
+    "en": "Department Login",
+    "mr": "Department Login"
+  },
+  "breadcrumb": [],
+  "hero": {
+    "title": {
+      "en": "Department Login",
+      "mr": "Department Login"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Department Login",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Department Login"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [],
+  "paragraphs": [],
+  "lists": [],
+  "tables": [],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": "Logo"
+    }
+  ],
+  "contentBlocks": [],
+  "stats": {
+    "headingCount": 0,
+    "paragraphCount": 0,
+    "listCount": 0,
+    "tableCount": 0,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 1,
+    "totalRecords": 1
+  }
+}

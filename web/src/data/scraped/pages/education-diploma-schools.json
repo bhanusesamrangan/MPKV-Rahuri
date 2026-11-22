@@ -1,0 +1,5232 @@
+{
+  "slug": "education-diploma-schools",
+  "url": "https://mpkv.ac.in/Education/EduDiplomaSchool",
+  "route": "/Education/EduDiplomaSchool",
+  "sourcePage": "education-diploma-schools",
+  "scrapedAt": "2026-11-22T20:35:28.554166",
+  "title": {
+    "en": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+    "mr": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+  },
+  "breadcrumb": [],
+  "hero": {
+    "title": {
+      "en": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "order": 55
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Constituent Agricultural Technical Schools",
+        "mr": "Constituent Agricultural Technical Schools"
+      },
+      "order": 56
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Affiliated Agricultural Technical Schools",
+        "mr": "Affiliated Agricultural Technical Schools"
+      },
+      "order": 57
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Constitute Agricultural Polytechnic",
+        "mr": "Constitute Agricultural Polytechnic"
+      },
+      "order": 58
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Affiliated Agricultural Polytechnic",
+        "mr": "Affiliated Agricultural Polytechnic"
+      },
+      "order": 59
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "Lower agricultural education was started in Maharashtra before independence of the India. The concept of lower agricultural education revolves around improving the competency of participating students as well as providing trained manpower at the grass root level. In view of this, the Government of Maharashtra has started constituent and affiliated Agricultural Technical School in the state for generation of skilled and trained manpower in field of agriculture.",
+        "mr": "Lower agricultural education was started in Maharashtra before independence of the India. The concept of lower agricultural education revolves around improving the competency of participating students as well as providing trained manpower at the grass root level. In view of this, the Government of Maharashtra has started constituent and affiliated Agricultural Technical School in the state for generation of skilled and trained manpower in field of agriculture."
+      },
+      "order": 60
+    },
+    {
+      "text": {
+        "en": "The division Lower Agricultural Education is headed by Associate Dean who is responsible for maintaining and imparting the quality of Lower Agricultural Education as diploma course.",
+        "mr": "The division Lower Agricultural Education is headed by Associate Dean who is responsible for maintaining and imparting the quality of Lower Agricultural Education as diploma course."
+      },
+      "order": 61
+    },
+    {
+      "text": {
+        "en": "At present, University has nine constituent and seventy six affiliated Agricultural Technical School. The annul intake capacity is 60 students in each Agricultural Technical School. The students those who passes 10th standard ( S.S.C.) examination are admitted strictly on district merit list in constituent and affiliated Agricultural Technical School. Since inception, the University has produced 60,546 skilled manpower in the lower agricultural education.",
+        "mr": "At present, University has nine constituent and seventy six affiliated Agricultural Technical School. The annul intake capacity is 60 students in each Agricultural Technical School. The students those who passes 10th standard ( S.S.C.) examination are admitted strictly on district merit list in constituent and affiliated Agricultural Technical School. Since inception, the University has produced 60,546 skilled manpower in the lower agricultural education."
+      },
+      "order": 62
+    },
+    {
+      "text": {
+        "en": "Every year more than 5000 students were admitted to agricultural diploma course.Hence, there is growing unemployment for diploma holders. The remedy lies in reorienting the lower agricultural education and their delivery system so as to produce diploma holders who are job creators rather than job seekers. With the changing social , political and economic structure in our country in different periods, agricultural education also has to undergo changes in its present curricula and its impact to face the rural youth challenges.",
+        "mr": "Every year more than 5000 students were admitted to agricultural diploma course.Hence, there is growing unemployment for diploma holders. The remedy lies in reorienting the lower agricultural education and their delivery system so as to produce diploma holders who are job creators rather than job seekers. With the changing social , political and economic structure in our country in different periods, agricultural education also has to undergo changes in its present curricula and its impact to face the rural youth challenges."
+      },
+      "order": 63
+    },
+    {
+      "text": {
+        "en": "With this view in mind, this University has taken initiatives in restructuring the curriculum of lower agricultural education by including practical oriented subjects such as Seed production, Seed Technology, Organic Farming, Agril. Processing, Farm Mechanization and Irrigation Systems, Plant Production and Fruits and vegetables production Technology etc. with addition of agro based units for skill development in diploma holders .This skilled and young manpower will create self employment and work at grass root level.",
+        "mr": "With this view in mind, this University has taken initiatives in restructuring the curriculum of lower agricultural education by including practical oriented subjects such as Seed production, Seed Technology, Organic Farming, Agril. Processing, Farm Mechanization and Irrigation Systems, Plant Production and Fruits and vegetables production Technology etc. with addition of agro based units for skill development in diploma holders .This skilled and young manpower will create self employment and work at grass root level."
+      },
+      "order": 64
+    },
+    {
+      "text": {
+        "en": "These Diploma course helps to the students to start their own agri-business and act as Agri-entrepreneur. After completion of Diploma course the skilled human resources were developed for agro based industries. This programme act as media for students to make carrier after 10th standard and develop human resource development in agriculture.",
+        "mr": "These Diploma course helps to the students to start their own agri-business and act as Agri-entrepreneur. After completion of Diploma course the skilled human resources were developed for agro based industries. This programme act as media for students to make carrier after 10th standard and develop human resource development in agriculture."
+      },
+      "order": 65
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        {
+          "en": "Education at a Glance",
+          "mr": "Education at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "FacultyAgricultural ScienceAgricultural Engineering",
+          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
+        },
+        {
+          "en": "CollegesConstituent CollegesAffiliated Colleges",
+          "mr": "CollegesConstituent CollegesAffiliated Colleges"
+        },
+        {
+          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
+          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
+        },
+        {
+          "en": "Academic Regulations",
+          "mr": "Academic Regulations"
+        },
+        {
+          "en": "Diploma (Agril. Tech. Schools)",
+          "mr": "Diploma (Agril. Tech. Schools)"
+        },
+        {
+          "en": "Certificate Courses",
+          "mr": "Certificate Courses"
+        }
+      ],
+      "order": 66
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Agricultural Science",
+          "mr": "Agricultural Science"
+        },
+        {
+          "en": "Agricultural Engineering",
+          "mr": "Agricultural Engineering"
+        }
+      ],
+      "order": 67
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Constituent Colleges",
+          "mr": "Constituent Colleges"
+        },
+        {
+          "en": "Affiliated Colleges",
+          "mr": "Affiliated Colleges"
+        }
+      ],
+      "order": 68
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Diploma",
+          "mr": "Diploma"
+        },
+        {
+          "en": "Bachelor's",
+          "mr": "Bachelor's"
+        },
+        {
+          "en": "Doctoral",
+          "mr": "Doctoral"
+        }
+      ],
+      "order": 69
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "To impart the agricultural education to the students after 10th standard.",
+          "mr": "To impart the agricultural education to the students after 10th standard."
+        },
+        {
+          "en": "To create awareness regarding generation of self employment in rural areas and to provide skilled resource for government services as extension workers.",
+          "mr": "To create awareness regarding generation of self employment in rural areas and to provide skilled resource for government services as extension workers."
+        }
+      ],
+      "order": 70
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "caption": {
+        "en": "Future Prospective:",
+        "mr": "Future Prospective:"
+      },
+      "headers": [
+        {
+          "en": "Sr.No.",
+          "mr": "Sr.No."
+        },
+        {
+          "en": "Name & Address of School",
+          "mr": "Name & Address of School"
+        },
+        {
+          "en": "Intake",
+          "mr": "Intake"
+        },
+        {
+          "en": "Phone No.",
+          "mr": "Phone No."
+        },
+        {
+          "en": "Email",
+          "mr": "Email"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Puntamba, Tal. Rahata, Dist. Ahilyanagar- 423 107",
+              "mr": "Agricultural Technical School, Puntamba, Tal. Rahata, Dist. Ahilyanagar- 423 107"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02423) 274224",
+              "mr": "(02423) 274224"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atspuntamba@gmail.com princagri.puntmba_mh@gov.in",
+              "mr": "atspuntamba@gmail.com princagri.puntmba_mh@gov.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Manjari Farm, Tal. Haveli, Dist, Pune- 412 307",
+              "mr": "Agricultural Technical School, Manjari Farm, Tal. Haveli, Dist, Pune- 412 307"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(020) 26996557",
+              "mr": "(020) 26996557"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atsmanjrifarm@gmail.com",
+              "mr": "atsmanjrifarm@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Borgaon, Tal. Borgaon, Dist. Satara- 416 419",
+              "mr": "Agricultural Technical School, Borgaon, Tal. Borgaon, Dist. Satara- 416 419"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02162) 265227",
+              "mr": "(02162) 265227"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "patsborgaon@yahoo.com",
+              "mr": "patsborgaon@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Kasaba Bavada, Kolhapur, Tal. & Dist. Kolhapur- 416 006",
+              "mr": "Agricultural Technical School, Kasaba Bavada, Kolhapur, Tal. & Dist. Kolhapur- 416 006"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(0231) 2601846",
+              "mr": "(0231) 2601846"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "psatskolhapur@gmail.com",
+              "mr": "psatskolhapur@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Kasabe Digraj, Tal. Miraj, Dist. Sangli- 416 305",
+              "mr": "Agricultural Technical School, Kasabe Digraj, Tal. Miraj, Dist. Sangli- 416 305"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(0233) 2427279",
+              "mr": "(0233) 2427279"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atskdigraj1@gmail.com",
+              "mr": "atskdigraj1@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Solapur, Tal. & Dist. Solapur-413 002",
+              "mr": "Agricultural Technical School, Solapur, Tal. & Dist. Solapur-413 002"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(0217) 2373703",
+              "mr": "(0217) 2373703"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atssolapur@yahoo.in",
+              "mr": "atssolapur@yahoo.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Jalgaon, Tal. & Dist. Jalgaon-425 001",
+              "mr": "Agricultural Technical School, Jalgaon, Tal. & Dist. Jalgaon-425 001"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(0257) 2252950",
+              "mr": "(0257) 2252950"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktvjalgaon@gmail.com",
+              "mr": "ktvjalgaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Dhule, Tal. & Dist. Dhule- 424 004",
+              "mr": "Agricultural Technical School, Dhule, Tal. & Dist. Dhule- 424 004"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02562) 230544",
+              "mr": "(02562) 230544"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atsdhule@gmail.com",
+              "mr": "atsdhule@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Malegaon Camp, Tal. Malegaon, Dist. Nashik- 423 105",
+              "mr": "Agricultural Technical School, Malegaon Camp, Tal. Malegaon, Dist. Nashik- 423 105"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02554) 256459",
+              "mr": "(02554) 256459"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atsmalegaon1955@gmail.com",
+              "mr": "atsmalegaon1955@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 9,
+      "columnCount": 5
+    },
+    {
+      "id": "table_2",
+      "caption": {
+        "en": "Future Prospective:",
+        "mr": "Future Prospective:"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of School",
+          "mr": "Name & Address of School"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone / Mobile No.",
+          "mr": "Phone / Mobile No."
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Supa, Tal. Parner, Dist. Ahilyanagar- 414 301",
+              "mr": "Agricultural Technical School, Supa, Tal. Parner, Dist. Ahilyanagar- 414 301"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02488) 213447 9890508499",
+              "mr": "(02488) 213447 9890508499"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "maheshdethe1991@gmail.com",
+              "mr": "maheshdethe1991@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Dynaneshwar Nagar, Bhenda, Tal. Newasa, Dist. Ahilyanagar- 413 736",
+              "mr": "Agricultural Technical School, Dynaneshwar Nagar, Bhenda, Tal. Newasa, Dist. Ahilyanagar- 413 736"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02427) 255166 9637966141",
+              "mr": "(02427) 255166 9637966141"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sopanmate111@gmail.com atsbhenda1995@gmail.com",
+              "mr": "sopanmate111@gmail.com atsbhenda1995@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Takali Dhokeshwar, Tal. Parner, Dist. Ahilyanagar- 414 304",
+              "mr": "Agricultural Technical School, Takali Dhokeshwar, Tal. Parner, Dist. Ahilyanagar- 414 304"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02488) 282799 9552522169",
+              "mr": "(02488) 282799 9552522169"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sampadaagripoly@gmail.com",
+              "mr": "sampadaagripoly@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Mirajgaon, Tal. Karjat, Dist. Ahilyanagar- 414 401",
+              "mr": "Agricultural Technical School, Mirajgaon, Tal. Karjat, Dist. Ahilyanagar- 414 401"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02489) 263253 / 263153 9730655024",
+              "mr": "(02489) 263253 / 263153 9730655024"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "apsmirajgaon@gmail.com",
+              "mr": "apsmirajgaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Sidhatek Berdi, Tal. Karjat, Dist. Ahilyanagar- 414 402",
+              "mr": "Agricultural Technical School, Sidhatek Berdi, Tal. Karjat, Dist. Ahilyanagar- 414 402"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02589) 270501 9921475555",
+              "mr": "(02589) 270501 9921475555"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "siddhivinayakagri2004@gmail.com",
+              "mr": "siddhivinayakagri2004@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Dolasane Pathar, Tal. Sangamner, Dist. Ahilyanagar- 422 605",
+              "mr": "Agricultural Technical School, Dolasane Pathar, Tal. Sangamner, Dist. Ahilyanagar- 422 605"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02425) 292923 7588094640",
+              "mr": "(02425) 292923 7588094640"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktndolasane@gmail.com",
+              "mr": "ktndolasane@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Walunj, Tal. Ahilyanagar, Dist. Ahilyanagar- 414 005",
+              "mr": "Agricultural Technical School, Walunj, Tal. Ahilyanagar, Dist. Ahilyanagar- 414 005"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(0241) 2675254 8766584118",
+              "mr": "(0241) 2675254 8766584118"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "apswalunj@gmail.com",
+              "mr": "apswalunj@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Ghargaon, Tal. Shrigonda, Dist. Ahilyanagar- 413 728",
+              "mr": "Agricultural Technical School, Ghargaon, Tal. Shrigonda, Dist. Ahilyanagar- 413 728"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02487) 272526 9921475555",
+              "mr": "(02487) 272526 9921475555"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sdskgvp@gmail.com bhujbalashok9@gmail.com",
+              "mr": "sdskgvp@gmail.com bhujbalashok9@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Adinathnagar, Tal. Pathardi, Dist. Ahilyanagar- 414 102",
+              "mr": "Agricultural Technical School, Adinathnagar, Tal. Pathardi, Dist. Ahilyanagar- 414 102"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02428) 245445 9420637312",
+              "mr": "(02428) 245445 9420637312"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atsadinathnagar@gmail.com",
+              "mr": "atsadinathnagar@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Pandharewadi, Tal. Shrigonda, Dist. Ahilyanagar- 413 728",
+              "mr": "Agricultural Technical School, Pandharewadi, Tal. Shrigonda, Dist. Ahilyanagar- 413 728"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9921475555 9583729999",
+              "mr": "9921475555 9583729999"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "pkmandavgan258@gmail.com",
+              "mr": "pkmandavgan258@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Bavada, Tal. Indapur, Dist. Pune- 413 106",
+              "mr": "Agricultural Technical School, Bavada, Tal. Indapur, Dist. Pune- 413 106"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9860435091",
+              "mr": "9860435091"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agripolytech.bavada@gmail.com",
+              "mr": "agripolytech.bavada@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Chincholi Morachi, Tal. Shirur, Dist. Pune- 412 218",
+              "mr": "Agricultural Technical School, Chincholi Morachi, Tal. Shirur, Dist. Pune- 412 218"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9011296500",
+              "mr": "9011296500"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sunilthorat777@gmail.com",
+              "mr": "sunilthorat777@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Chinchwad, Tal. Trimbakeshwar, Dist. Nashik- 422 204",
+              "mr": "Agricultural Technical School, Chinchwad, Tal. Trimbakeshwar, Dist. Nashik- 422 204"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7391045579",
+              "mr": "7391045579"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrichinchwad@gmail.com",
+              "mr": "agrichinchwad@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Daregaon, Tal. Malegaon, Dist. Nashik- 423104",
+              "mr": "Agricultural Technical School, Daregaon, Tal. Malegaon, Dist. Nashik- 423104"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9175092123",
+              "mr": "9175092123"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ppkmktvdaregaon@yahoo.in",
+              "mr": "ppkmktvdaregaon@yahoo.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "15",
+              "mr": "15"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Chandanpuri, Tal. Malegaon, Dist. Nashik- 423 212",
+              "mr": "Agricultural Technical School, Chandanpuri, Tal. Malegaon, Dist. Nashik- 423 212"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9403155281",
+              "mr": "9403155281"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atschandanpuri221@gmail.com",
+              "mr": "atschandanpuri221@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "16",
+              "mr": "16"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Yeola, Tal. Yeola, Dist. Nashik- 423 401",
+              "mr": "Agricultural Technical School, Yeola, Tal. Yeola, Dist. Nashik- 423 401"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9422603574/9561176700",
+              "mr": "9422603574/9561176700"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "krushiyeola@gmail.com",
+              "mr": "krushiyeola@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "17",
+              "mr": "17"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Babhulgaon, Tal. Yeola, Dist. Nashik- 423 401",
+              "mr": "Agricultural Technical School, Babhulgaon, Tal. Yeola, Dist. Nashik- 423 401"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9604502878",
+              "mr": "9604502878"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktvbabhulgaon@gmail.com",
+              "mr": "ktvbabhulgaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "18",
+              "mr": "18"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Manur, Tal. Kalvan, Dist. Nashik- 423 501",
+              "mr": "Agricultural Technical School, Manur, Tal. Kalvan, Dist. Nashik- 423 501"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8275586229",
+              "mr": "8275586229"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "kbhagritechmanur@gmail.com",
+              "mr": "kbhagritechmanur@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "19",
+              "mr": "19"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Saundane, Tal. Malegaon, Dist. Nashik- 423 208",
+              "mr": "Agricultural Technical School, Saundane, Tal. Malegaon, Dist. Nashik- 423 208"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9975360123",
+              "mr": "9975360123"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ssktvsaundane2000@gmail.com",
+              "mr": "ssktvsaundane2000@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "20",
+              "mr": "20"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Bolthan, Tal. Nandgaon, Dist. Nashik- 423 106",
+              "mr": "Agricultural Technical School, Bolthan, Tal. Nandgaon, Dist. Nashik- 423 106"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8605883763",
+              "mr": "8605883763"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ckpagripolytech99@gmail.com",
+              "mr": "ckpagripolytech99@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "21",
+              "mr": "21"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Amalner, Tal. Amalner, Dist. Jalgaon- 425 401",
+              "mr": "Agricultural Technical School, Amalner, Tal. Amalner, Dist. Jalgaon- 425 401"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8788896529",
+              "mr": "8788896529"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "navalbhaukrushiv@gmail.com",
+              "mr": "navalbhaukrushiv@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "22",
+              "mr": "22"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Adawad, Tal. Chopada, Dist. Jalgaon- 425 303",
+              "mr": "Agricultural Technical School, Adawad, Tal. Chopada, Dist. Jalgaon- 425 303"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9420228035",
+              "mr": "9420228035"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktvadavad@gmail.com",
+              "mr": "ktvadavad@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "23",
+              "mr": "23"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Chandsar, Tal. Dharangaon, Dist. Jalgaon-425103",
+              "mr": "Agricultural Technical School, Chandsar, Tal. Dharangaon, Dist. Jalgaon-425103"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7499972887",
+              "mr": "7499972887"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agriktnc@gmail.com",
+              "mr": "agriktnc@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "24",
+              "mr": "24"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Diksai, Tal. Jalgaon, Dist. Jalgaon- 425 002",
+              "mr": "Agricultural Technical School, Diksai, Tal. Jalgaon, Dist. Jalgaon- 425 002"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8080500332",
+              "mr": "8080500332"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktnvdiksai@gmail.com",
+              "mr": "ktnvdiksai@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "25",
+              "mr": "25"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Nimbhora, Tal. Raver, Dist. Jalgaon- 425 506",
+              "mr": "Agricultural Technical School, Nimbhora, Tal. Raver, Dist. Jalgaon- 425 506"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9923791075",
+              "mr": "9923791075"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "atsnimbhora@gmail.com",
+              "mr": "atsnimbhora@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "26",
+              "mr": "26"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Pilkhod, Tal. Chalisgaon, Dist. Jalgaon- 424 101",
+              "mr": "Agricultural Technical School, Pilkhod, Tal. Chalisgaon, Dist. Jalgaon- 424 101"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9850641551",
+              "mr": "9850641551"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktnpilkhod@gmail.com",
+              "mr": "ktnpilkhod@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "27",
+              "mr": "27"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Muktainagar, Tal. Muktainagar, Dist. Jalgaon-425 306",
+              "mr": "Agricultural Technical School, Muktainagar, Tal. Muktainagar, Dist. Jalgaon-425 306"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9665446892",
+              "mr": "9665446892"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "a.p.muktainagar@gmail.com",
+              "mr": "a.p.muktainagar@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "28",
+              "mr": "28"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Chopada, Tal. Chopada, Dist. Jalgaon- 425 107",
+              "mr": "Agricultural Technical School, Chopada, Tal. Chopada, Dist. Jalgaon- 425 107"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "758853712",
+              "mr": "758853712"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agripolychopda@gmail.com",
+              "mr": "agripolychopda@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "29",
+              "mr": "29"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Kolhe, Tal. Pachora, Dist. Jalgaon- 424 203",
+              "mr": "Agricultural Technical School, Kolhe, Tal. Pachora, Dist. Jalgaon- 424 203"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9359801031",
+              "mr": "9359801031"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agribafna26@gmail.com",
+              "mr": "agribafna26@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Kingoan, Tal. Yaval, Dist. Jalgaon- 425 302",
+              "mr": "Agricultural Technical School, Kingoan, Tal. Yaval, Dist. Jalgaon- 425 302"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9730292961",
+              "mr": "9730292961"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktnkingaon@gmail.com",
+              "mr": "ktnkingaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "31",
+              "mr": "31"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Pal, Tal. Raver, Dist. Jalgaon-425 504",
+              "mr": "Agricultural Technical School, Pal, Tal. Raver, Dist. Jalgaon-425 504"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9860669198",
+              "mr": "9860669198"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktnpal2014@gmail.com",
+              "mr": "ktnpal2014@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "32",
+              "mr": "32"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Wakod, Tal. Jamner, Dist. Jalgaon- 424 206",
+              "mr": "Agricultural Technical School, Wakod, Tal. Jamner, Dist. Jalgaon- 424 206"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8459597945",
+              "mr": "8459597945"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "gktnwakod@gmail.com",
+              "mr": "gktnwakod@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "33",
+              "mr": "33"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Boradi, Tal. Shirpur, Dist. Dhule- 425 428",
+              "mr": "Agricultural Technical School, Boradi, Tal. Shirpur, Dist. Dhule- 425 428"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9623298943",
+              "mr": "9623298943"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "mahaheshwarimk@rediffmail.com",
+              "mr": "mahaheshwarimk@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "34",
+              "mr": "34"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Sakri, Tal. Dhule, Dist. Dhule-424 304",
+              "mr": "Agricultural Technical School, Sakri, Tal. Dhule, Dist. Dhule-424 304"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7620850126",
+              "mr": "7620850126"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "krushitantrasakri2000@gmail.com",
+              "mr": "krushitantrasakri2000@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "35",
+              "mr": "35"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Mehergaon, Tal. Dhule, Dist. Dhule- 424 002",
+              "mr": "Agricultural Technical School, Mehergaon, Tal. Dhule, Dist. Dhule- 424 002"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9420813083",
+              "mr": "9420813083"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "krishividyalaymehergaon@gmail.com",
+              "mr": "krishividyalaymehergaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "36",
+              "mr": "36"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Mandane, Tal. Shahada, Dist. Nandurbar- 425 444",
+              "mr": "Agricultural Technical School, Mandane, Tal. Shahada, Dist. Nandurbar- 425 444"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9404577857",
+              "mr": "9404577857"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "waghsuresh78@yahoo.in",
+              "mr": "waghsuresh78@yahoo.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "37",
+              "mr": "37"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Umarde, Tal. Nandurbar, Dist. Nandurbar- 425 412",
+              "mr": "Agricultural Technical School, Umarde, Tal. Nandurbar, Dist. Nandurbar- 425 412"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9423564956",
+              "mr": "9423564956"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktniketanumarde@rediffmail.com",
+              "mr": "ktniketanumarde@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "38",
+              "mr": "38"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Ranjani, Tal. Taloda, Dist. Nandurbar- 425 413",
+              "mr": "Agricultural Technical School, Ranjani, Tal. Taloda, Dist. Nandurbar- 425 413"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9423943391",
+              "mr": "9423943391"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "jainpravin022@gmail.com",
+              "mr": "jainpravin022@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "39",
+              "mr": "39"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Barshi, Tal. Barshi, Dist. Solapur- 413 401",
+              "mr": "Agricultural Technical School, Barshi, Tal. Barshi, Dist. Solapur- 413 401"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02184) 229364 9405548727",
+              "mr": "(02184) 229364 9405548727"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktn2130barshi@gmail.com",
+              "mr": "ktn2130barshi@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Gaudgaon, Tal. Barshi, Dist. Solapur- 413 406",
+              "mr": "Agricultural Technical School, Gaudgaon, Tal. Barshi, Dist. Solapur- 413 406"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7588797434",
+              "mr": "7588797434"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "kuldipsonawane036@gmail.com",
+              "mr": "kuldipsonawane036@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "41",
+              "mr": "41"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Kadlas, Tal. Sangola, Dist. Solapur- 413 309",
+              "mr": "Agricultural Technical School, Kadlas, Tal. Sangola, Dist. Solapur- 413 309"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9561436979",
+              "mr": "9561436979"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrikadlas@gmail.com",
+              "mr": "agrikadlas@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "42",
+              "mr": "42"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Anagar, Tal. Mohol, Dist. Solapur- 413 214",
+              "mr": "Agricultural Technical School, Anagar, Tal. Mohol, Dist. Solapur- 413 214"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9763217489",
+              "mr": "9763217489"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "anagarkrishi2001@gmail.com",
+              "mr": "anagarkrishi2001@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "43",
+              "mr": "43"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Akluj, Tal. Malshiras, Dist. Solapur- 413 301",
+              "mr": "Agricultural Technical School, Akluj, Tal. Malshiras, Dist. Solapur- 413 301"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9665369896",
+              "mr": "9665369896"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agri.tech@rediffmail.com",
+              "mr": "agri.tech@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "44",
+              "mr": "44"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Borale, Tal. Mangalveda, Dist. Solapur- 413 305",
+              "mr": "Agricultural Technical School, Borale, Tal. Mangalveda, Dist. Solapur- 413 305"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9975799921",
+              "mr": "9975799921"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "kshrkborale@gmail.com",
+              "mr": "kshrkborale@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "45",
+              "mr": "45"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Talsande, Tal. Hatkanangale, Dist. Kolhapur- 416 112",
+              "mr": "Agricultural Technical School, Talsande, Tal. Hatkanangale, Dist. Kolhapur- 416 112"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9420053397",
+              "mr": "9420053397"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "dypaptalsande@gmail.com",
+              "mr": "dypaptalsande@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "46",
+              "mr": "46"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Tarale, Tal. Radhanagari, Dist. Kolhapur- 416 211",
+              "mr": "Agricultural Technical School, Tarale, Tal. Radhanagari, Dist. Kolhapur- 416 211"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9970728540",
+              "mr": "9970728540"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "krushipolytarale2016@gmail.com",
+              "mr": "krushipolytarale2016@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "47",
+              "mr": "47"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Parite, Tal. Karveer, Dist. Kolhapur- 416 211",
+              "mr": "Agricultural Technical School, Parite, Tal. Karveer, Dist. Kolhapur- 416 211"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9325009842",
+              "mr": "9325009842"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "prinagripolytechparite@gmail.com",
+              "mr": "prinagripolytechparite@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "48",
+              "mr": "48"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Rahimatpur, Tal. Koregaon, Dist. Satara- 415 511",
+              "mr": "Agricultural Technical School, Rahimatpur, Tal. Koregaon, Dist. Satara- 415 511"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9890912628",
+              "mr": "9890912628"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sdmaps@rediffmail.com",
+              "mr": "sdmaps@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "49",
+              "mr": "49"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Karangali Aarala,Tal. Shirala, Dist. Sangali- 415 408",
+              "mr": "Agricultural Technical School, Karangali Aarala,Tal. Shirala, Dist. Sangali- 415 408"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7709032483",
+              "mr": "7709032483"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ushaarjun12@gmail.com",
+              "mr": "ushaarjun12@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Umadi, Tal. Jath, Dist. Sangali- 416 413",
+              "mr": "Agricultural Technical School, Umadi, Tal. Jath, Dist. Sangali- 416 413"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02344) 228329 9511640840",
+              "mr": "(02344) 228329 9511640840"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ujwalumadi@rediffmail.com",
+              "mr": "ujwalumadi@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "51",
+              "mr": "51"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Kaneri Math, Tal. Karveer, Dist. Kolhapur",
+              "mr": "Agricultural Technical School, Kaneri Math, Tal. Karveer, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9607079549",
+              "mr": "9607079549"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ssatskaneri@gmail.com",
+              "mr": "ssatskaneri@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "52",
+              "mr": "52"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Nawalenagar, Tal. and Dist. Dhule",
+              "mr": "Agricultural Technical School, Nawalenagar, Tal. and Dist. Dhule"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8087320419",
+              "mr": "8087320419"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktvnnavalnagar@gmail.com",
+              "mr": "ktvnnavalnagar@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "53",
+              "mr": "53"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Padli Khurd, Tal. Karveer, Dist. Kolhapur",
+              "mr": "Agricultural Technical School, Padli Khurd, Tal. Karveer, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9975301817",
+              "mr": "9975301817"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "prinagripolytechpadali@gmail.com",
+              "mr": "prinagripolytechpadali@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "54",
+              "mr": "54"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Khanapur, Tal. Khanapur, Dist. Sangli",
+              "mr": "Agricultural Technical School, Khanapur, Tal. Khanapur, Dist. Sangli"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9405063633",
+              "mr": "9405063633"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "rsmaneatdsk@gmail.com",
+              "mr": "rsmaneatdsk@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "55",
+              "mr": "55"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Vita, Tal. Khanapur, Dist. Sangli",
+              "mr": "Agricultural Technical School, Vita, Tal. Khanapur, Dist. Sangli"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9175831791",
+              "mr": "9175831791"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "adarshkrushivita@gmail.com",
+              "mr": "adarshkrushivita@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "56",
+              "mr": "56"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agricultural Technical School, Pathrai, Tal. and Dist. Nandurbar",
+              "mr": "Agricultural Technical School, Pathrai, Tal. and Dist. Nandurbar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9422288646",
+              "mr": "9422288646"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "adesndbr@gmail.com",
+              "mr": "adesndbr@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 56,
+      "columnCount": 5
+    },
+    {
+      "id": "table_3",
+      "caption": {
+        "en": "Future Prospective:",
+        "mr": "Future Prospective:"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of Polytechnic",
+          "mr": "Name & Address of Polytechnic"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone / Mobile No.",
+          "mr": "Phone / Mobile No."
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Kashti Tal. Malegaon Dist. Nashik-423 206",
+              "mr": "Agriculture Polytechnic, Kashti Tal. Malegaon Dist. Nashik-423 206"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9423784535",
+              "mr": "9423784535"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agripolytechnickashti@gmail.com",
+              "mr": "agripolytechnickashti@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 1,
+      "columnCount": 5
+    },
+    {
+      "id": "table_4",
+      "caption": {
+        "en": "Future Prospective:",
+        "mr": "Future Prospective:"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of Polytechnic",
+          "mr": "Name & Address of Polytechnic"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone / Mobile No.",
+          "mr": "Phone / Mobile No."
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Baramati, Tal. Baramati, Dist. Pune- 413 102",
+              "mr": "Agriculture Polytechnic, Baramati, Tal. Baramati, Dist. Pune- 413 102"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02112)-25518/255618 9921587143",
+              "mr": "(02112)-25518/255618 9921587143"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agripolybaramati@rediffmail.com",
+              "mr": "agripolybaramati@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Maldad, Tal. Sangamner, Dist. Ahilyanagar- 422 608",
+              "mr": "Agriculture Polytechnic, Maldad, Tal. Sangamner, Dist. Ahilyanagar- 422 608"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9075559119/9766200211/9689986359",
+              "mr": "9075559119/9766200211/9689986359"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "shramshaktipoly@gmail.com",
+              "mr": "shramshaktipoly@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Loni, Tal. Rahata, Dist. Ahilyanagar- 413 713",
+              "mr": "Agriculture Polytechnic, Loni, Tal. Rahata, Dist. Ahilyanagar- 413 713"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02422)-273684 8766880966",
+              "mr": "(02422)-273684 8766880966"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "iads@pravara.in",
+              "mr": "iads@pravara.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Jamgaon, Tal. Parner, Dist. Ahilyanagar- 414 103",
+              "mr": "Agriculture Polytechnic, Jamgaon, Tal. Parner, Dist. Ahilyanagar- 414 103"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02488)-273225 9850223637",
+              "mr": "(02488)-273225 9850223637"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "jamgaon.mmsnr@gmail.com",
+              "mr": "jamgaon.mmsnr@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Narayangaon, Tal. Junnar, Dist. Pune- 410 504",
+              "mr": "Agriculture Polytechnic, Narayangaon, Tal. Junnar, Dist. Pune- 410 504"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9860492070/9730804768",
+              "mr": "9860492070/9730804768"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "maliprashikshan@rediffmail.com principalgmkrishi@gmail.com",
+              "mr": "maliprashikshan@rediffmail.com principalgmkrishi@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Ekhatpur, Tal. Sangola, Dist. Solapur- 413 307",
+              "mr": "Agriculture Polytechnic, Ekhatpur, Tal. Sangola, Dist. Solapur- 413 307"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9766827249/8459572193",
+              "mr": "9766827249/8459572193"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "krushiekhatpur@gmail.com",
+              "mr": "krushiekhatpur@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Wadala, Tal. North Solapur, Dist. Solapur- 413 222",
+              "mr": "Agriculture Polytechnic, Wadala, Tal. North Solapur, Dist. Solapur- 413 222"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9960200109",
+              "mr": "9960200109"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "lokagridiploma@gmail.com",
+              "mr": "lokagridiploma@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Phaltan, Tal. Phaltan, Dist. Satara- 415 523",
+              "mr": "Agriculture Polytechnic, Phaltan, Tal. Phaltan, Dist. Satara- 415 523"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9881265972",
+              "mr": "9881265972"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "psiaphn@gmail.com",
+              "mr": "psiaphn@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Khandala, Tal. Khandala, Dist. Satara- 412 801",
+              "mr": "Agriculture Polytechnic, Khandala, Tal. Khandala, Dist. Satara- 412 801"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9850118728",
+              "mr": "9850118728"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "rdkapkhandala@gmail.com",
+              "mr": "rdkapkhandala@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Aatpadi, Tal. Aatpadi, Dist. Sangali- 415 301",
+              "mr": "Agriculture Polytechnic, Aatpadi, Tal. Aatpadi, Dist. Sangali- 415 301"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(02343)-220562 9890808952",
+              "mr": "(02343)-220562 9890808952"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "manganga.krishi@gmail.com",
+              "mr": "manganga.krishi@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Gargoti, Tal. Bhudargad, Dist. Kolhapur- 416 209",
+              "mr": "Agriculture Polytechnic, Gargoti, Tal. Bhudargad, Dist. Kolhapur- 416 209"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7350573464",
+              "mr": "7350573464"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "krushitngrt@gmail.com",
+              "mr": "krushitngrt@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Wakod, Tal. Jamner, Dist. Jalgaon- 425 201",
+              "mr": "Agriculture Polytechnic, Wakod, Tal. Jamner, Dist. Jalgaon- 425 201"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8308035989",
+              "mr": "8308035989"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "gktnwakod@gmail.com",
+              "mr": "gktnwakod@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Chachadgaon,  Tal.- Dindori, Dist. Nashik",
+              "mr": "Agriculture Polytechnic, Chachadgaon,  Tal.- Dindori, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "(053) 2574511 2573422",
+              "mr": "(053) 2574511 2573422"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ndmvpsamajnashik@yahoo.co.in",
+              "mr": "ndmvpsamajnashik@yahoo.co.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Dhanore, Tal. Yeola, Dist. Nashik",
+              "mr": "Agriculture Polytechnic, Dhanore, Tal. Yeola, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02559-225001",
+              "mr": "02559-225001"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "eduyeola@gmail.com",
+              "mr": "eduyeola@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "15",
+              "mr": "15"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Mirajgaon, Tal. Karjat, Dist. Ahilyanagar",
+              "mr": "Agriculture Polytechnic, Mirajgaon, Tal. Karjat, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7057932125",
+              "mr": "7057932125"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agripolytechnicmirajgaon2026@gmail.com",
+              "mr": "agripolytechnicmirajgaon2026@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "16",
+              "mr": "16"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Takli Dhokeshwar, Tal. Parner, Dist. Ahilyanagar",
+              "mr": "Agriculture Polytechnic, Takli Dhokeshwar, Tal. Parner, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9552522169/9309863406",
+              "mr": "9552522169/9309863406"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sampadaagripoly@gmail.com",
+              "mr": "sampadaagripoly@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "17",
+              "mr": "17"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Parite, Dist. Kolhapur",
+              "mr": "Agriculture Polytechnic, Parite, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9579722510",
+              "mr": "9579722510"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "prinagripolytechparite@gmail.com",
+              "mr": "prinagripolytechparite@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "18",
+              "mr": "18"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Malwadi (Bota), Tal. Sangamner, Dist. Ahilyanagar",
+              "mr": "Agriculture Polytechnic, Malwadi (Bota), Tal. Sangamner, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7588094642/8421210457",
+              "mr": "7588094642/8421210457"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ktndolasane@gmail.com",
+              "mr": "ktndolasane@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "19",
+              "mr": "19"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Banpuri, Tal. Patan, Dist. Satara",
+              "mr": "Agriculture Polytechnic, Banpuri, Tal. Patan, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9975233273/9975096075",
+              "mr": "9975233273/9975096075"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "mokashiagridiploma@gmail.com",
+              "mr": "mokashiagridiploma@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "20",
+              "mr": "20"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Dattawad-Ghosarwad, Tal. Shirol, Dist. Kolhapur",
+              "mr": "Agriculture Polytechnic, Dattawad-Ghosarwad, Tal. Shirol, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8530578108",
+              "mr": "8530578108"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agripolytech123@gmail.com",
+              "mr": "agripolytech123@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "21",
+              "mr": "21"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture Polytechnic, Kagal, Tal. Kagal, Dist. Kolhapur",
+              "mr": "Agriculture Polytechnic, Kagal, Tal. Kagal, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9890584623",
+              "mr": "9890584623"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principalapkagal@gmail.com",
+              "mr": "principalapkagal@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 21,
+      "columnCount": 5
+    }
+  ],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "order": 55
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Constituent Agricultural Technical Schools",
+        "mr": "Constituent Agricultural Technical Schools"
+      },
+      "order": 56
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Affiliated Agricultural Technical Schools",
+        "mr": "Affiliated Agricultural Technical Schools"
+      },
+      "order": 57
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Constitute Agricultural Polytechnic",
+        "mr": "Constitute Agricultural Polytechnic"
+      },
+      "order": 58
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Affiliated Agricultural Polytechnic",
+        "mr": "Affiliated Agricultural Polytechnic"
+      },
+      "order": 59
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Lower agricultural education was started in Maharashtra before independence of the India. The concept of lower agricultural education revolves around improving the competency of participating students as well as providing trained manpower at the grass root level. In view of this, the Government of Maharashtra has started constituent and affiliated Agricultural Technical School in the state for generation of skilled and trained manpower in field of agriculture.",
+        "mr": "Lower agricultural education was started in Maharashtra before independence of the India. The concept of lower agricultural education revolves around improving the competency of participating students as well as providing trained manpower at the grass root level. In view of this, the Government of Maharashtra has started constituent and affiliated Agricultural Technical School in the state for generation of skilled and trained manpower in field of agriculture."
+      },
+      "order": 60
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The division Lower Agricultural Education is headed by Associate Dean who is responsible for maintaining and imparting the quality of Lower Agricultural Education as diploma course.",
+        "mr": "The division Lower Agricultural Education is headed by Associate Dean who is responsible for maintaining and imparting the quality of Lower Agricultural Education as diploma course."
+      },
+      "order": 61
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "At present, University has nine constituent and seventy six affiliated Agricultural Technical School. The annul intake capacity is 60 students in each Agricultural Technical School. The students those who passes 10th standard ( S.S.C.) examination are admitted strictly on district merit list in constituent and affiliated Agricultural Technical School. Since inception, the University has produced 60,546 skilled manpower in the lower agricultural education.",
+        "mr": "At present, University has nine constituent and seventy six affiliated Agricultural Technical School. The annul intake capacity is 60 students in each Agricultural Technical School. The students those who passes 10th standard ( S.S.C.) examination are admitted strictly on district merit list in constituent and affiliated Agricultural Technical School. Since inception, the University has produced 60,546 skilled manpower in the lower agricultural education."
+      },
+      "order": 62
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Every year more than 5000 students were admitted to agricultural diploma course.Hence, there is growing unemployment for diploma holders. The remedy lies in reorienting the lower agricultural education and their delivery system so as to produce diploma holders who are job creators rather than job seekers. With the changing social , political and economic structure in our country in different periods, agricultural education also has to undergo changes in its present curricula and its impact to face the rural youth challenges.",
+        "mr": "Every year more than 5000 students were admitted to agricultural diploma course.Hence, there is growing unemployment for diploma holders. The remedy lies in reorienting the lower agricultural education and their delivery system so as to produce diploma holders who are job creators rather than job seekers. With the changing social , political and economic structure in our country in different periods, agricultural education also has to undergo changes in its present curricula and its impact to face the rural youth challenges."
+      },
+      "order": 63
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "With this view in mind, this University has taken initiatives in restructuring the curriculum of lower agricultural education by including practical oriented subjects such as Seed production, Seed Technology, Organic Farming, Agril. Processing, Farm Mechanization and Irrigation Systems, Plant Production and Fruits and vegetables production Technology etc. with addition of agro based units for skill development in diploma holders .This skilled and young manpower will create self employment and work at grass root level.",
+        "mr": "With this view in mind, this University has taken initiatives in restructuring the curriculum of lower agricultural education by including practical oriented subjects such as Seed production, Seed Technology, Organic Farming, Agril. Processing, Farm Mechanization and Irrigation Systems, Plant Production and Fruits and vegetables production Technology etc. with addition of agro based units for skill development in diploma holders .This skilled and young manpower will create self employment and work at grass root level."
+      },
+      "order": 64
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "These Diploma course helps to the students to start their own agri-business and act as Agri-entrepreneur. After completion of Diploma course the skilled human resources were developed for agro based industries. This programme act as media for students to make carrier after 10th standard and develop human resource development in agriculture.",
+        "mr": "These Diploma course helps to the students to start their own agri-business and act as Agri-entrepreneur. After completion of Diploma course the skilled human resources were developed for agro based industries. This programme act as media for students to make carrier after 10th standard and develop human resource development in agriculture."
+      },
+      "order": 65
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        {
+          "en": "Education at a Glance",
+          "mr": "Education at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "FacultyAgricultural ScienceAgricultural Engineering",
+          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
+        },
+        {
+          "en": "CollegesConstituent CollegesAffiliated Colleges",
+          "mr": "CollegesConstituent CollegesAffiliated Colleges"
+        },
+        {
+          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
+          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
+        },
+        {
+          "en": "Academic Regulations",
+          "mr": "Academic Regulations"
+        },
+        {
+          "en": "Diploma (Agril. Tech. Schools)",
+          "mr": "Diploma (Agril. Tech. Schools)"
+        },
+        {
+          "en": "Certificate Courses",
+          "mr": "Certificate Courses"
+        }
+      ],
+      "order": 66
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Agricultural Science",
+          "mr": "Agricultural Science"
+        },
+        {
+          "en": "Agricultural Engineering",
+          "mr": "Agricultural Engineering"
+        }
+      ],
+      "order": 67
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Constituent Colleges",
+          "mr": "Constituent Colleges"
+        },
+        {
+          "en": "Affiliated Colleges",
+          "mr": "Affiliated Colleges"
+        }
+      ],
+      "order": 68
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Diploma",
+          "mr": "Diploma"
+        },
+        {
+          "en": "Bachelor's",
+          "mr": "Bachelor's"
+        },
+        {
+          "en": "Doctoral",
+          "mr": "Doctoral"
+        }
+      ],
+      "order": 69
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "To impart the agricultural education to the students after 10th standard.",
+          "mr": "To impart the agricultural education to the students after 10th standard."
+        },
+        {
+          "en": "To create awareness regarding generation of self employment in rural areas and to provide skilled resource for government services as extension workers.",
+          "mr": "To create awareness regarding generation of self employment in rural areas and to provide skilled resource for government services as extension workers."
+        }
+      ],
+      "order": 70
+    }
+  ],
+  "stats": {
+    "headingCount": 59,
+    "paragraphCount": 6,
+    "listCount": 5,
+    "tableCount": 4,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 14,
+    "totalRecords": 166
+  }
+}

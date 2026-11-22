@@ -1,0 +1,44 @@
+{
+  "slug": "akmu-rahuri",
+  "url": "https://mpkv.ac.in/Akmu/Introduction",
+  "route": "/akmu-rahuri",
+  "sourcePage": "akmu-rahuri",
+  "scrapedAt": "2026-11-22T20:36:22.761516",
+  "title": {
+    "en": "Agricultural Knowledge Management Unit (AKMU), Rahuri",
+    "mr": "कृषि माहिती व्यवस्थापन विभाग (एकेएमयू), राहुरी"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "AKMU Rahuri",
+        "mr": "एकेएमयू राहुरी"
+      },
+      "href": "/akmu-rahuri"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Agricultural Knowledge Management Unit",
+      "mr": "कृषि माहिती व्यवस्थापन विभाग (AKMU), राहुरी"
+    },
+    "subtitle": {
+      "en": "Spearheading Campus Networking, IT Services, ERP & University Portal Administration",
+      "mr": "विद्यापीठ नेटवर्किंग, संकेतस्थळ, ईआरपी व आयटी पायाभूत सुविधांचे संचालन"
+    },
+    "badge": {
+      "en": "High-Speed NKN Optical Fiber Backbone",
+      "mr": "राष्ट्रीय ज्ञान नेटवर्क (NKN) ब्रॉडबँड"
+    }
+  },
+  "stats": {
+    "totalRecords": 1
+  }
+}

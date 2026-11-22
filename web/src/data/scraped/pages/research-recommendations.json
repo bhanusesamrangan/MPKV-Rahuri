@@ -1,0 +1,2177 @@
+{
+  "slug": "research-recommendations",
+  "url": "https://mpkv.ac.in/Research/ResearchTechRecomm",
+  "route": "/Research/ResearchTechRecomm",
+  "sourcePage": "research-recommendations",
+  "scrapedAt": "2026-11-22T20:36:16.636323",
+  "title": {
+    "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+    "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+  },
+  "breadcrumb": [],
+  "hero": {
+    "title": {
+      "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "order": 55
+    }
+  ],
+  "paragraphs": [],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        {
+          "en": "Research at a Glance",
+          "mr": "Research at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Directorates",
+          "mr": "Directorates"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "Research Review Mechanism",
+          "mr": "Research Review Mechanism"
+        },
+        {
+          "en": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone",
+          "mr": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone"
+        },
+        {
+          "en": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects",
+          "mr": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects"
+        },
+        {
+          "en": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties",
+          "mr": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties"
+        }
+      ],
+      "order": 56
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Western Ghat Zone",
+          "mr": "Western Ghat Zone"
+        },
+        {
+          "en": "Sub-Montane Zone",
+          "mr": "Sub-Montane Zone"
+        },
+        {
+          "en": "Plain Zone",
+          "mr": "Plain Zone"
+        },
+        {
+          "en": "Scarcity Zone",
+          "mr": "Scarcity Zone"
+        },
+        {
+          "en": "Central Plateau Zone",
+          "mr": "Central Plateau Zone"
+        }
+      ],
+      "order": 57
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "ICAR-AICRP",
+          "mr": "ICAR-AICRP"
+        },
+        {
+          "en": "Non-Plan State Schemes",
+          "mr": "Non-Plan State Schemes"
+        },
+        {
+          "en": "Externally Funded Projects",
+          "mr": "Externally Funded Projects"
+        }
+      ],
+      "order": 58
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Varieties",
+          "mr": "Varieties"
+        },
+        {
+          "en": "Recommendations",
+          "mr": "Recommendations"
+        },
+        {
+          "en": "Farm Implements",
+          "mr": "Farm Implements"
+        },
+        {
+          "en": "Patents",
+          "mr": "Patents"
+        },
+        {
+          "en": "Economic impact of released varieties",
+          "mr": "Economic impact of released varieties"
+        }
+      ],
+      "order": 59
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Title",
+          "mr": "Title"
+        },
+        {
+          "en": "Marathi File",
+          "mr": "Marathi File"
+        },
+        {
+          "en": "English File",
+          "mr": "English File"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शिफारशी-२०२६ / Recommendations-2026",
+              "mr": "शिफारशी-२०२६ / Recommendations-2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/20261027_115327_18a1e7ab94c9b553f6c5e5604178c005.pdf",
+            "originalLink": "~/../../Uploads/Research/20261027_115327_18a1e7ab94c9b553f6c5e5604178c005.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/20261027_115327_5b42efd8f990e9156cab3c7d463b64f9.pdf",
+            "originalLink": "~/../../Uploads/Research/20261027_115327_5b42efd8f990e9156cab3c7d463b64f9.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शिफारशी-२०२५ / Recommendations-2025",
+              "mr": "शिफारशी-२०२५ / Recommendations-2025"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2025-Marathi_20250808051343.pdf",
+            "originalLink": "~/../../Uploads/Research/2025-Marathi_20250808051343.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2025-English_20250808061909.pdf",
+            "originalLink": "~/../../Uploads/Research/2025-English_20250808061909.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शिफारशी-२०२४ / Recommendations-2024",
+              "mr": "शिफारशी-२०२४ / Recommendations-2024"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2024-Marathi_20241017111319.pdf",
+            "originalLink": "~/../../Uploads/Research/2024-Marathi_20241017111319.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2024-English_20241017111319.pdf",
+            "originalLink": "~/../../Uploads/Research/2024-English_20241017111319.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शिफारशी-२०२३ / Recommendations-2023",
+              "mr": "शिफारशी-२०२३ / Recommendations-2023"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2023-Marathi_20230913025314.pdf",
+            "originalLink": "~/../../Uploads/Research/2023-Marathi_20230913025314.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2023-English_20230913025314.pdf",
+            "originalLink": "~/../../Uploads/Research/2023-English_20230913025314.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शिफारशी-२०२२  / Recommendations-2022",
+              "mr": "शिफारशी-२०२२  / Recommendations-2022"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2022-Marathi_20230913025026.pdf",
+            "originalLink": "~/../../Uploads/Research/2022-Marathi_20230913025026.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2022-English_20230913025026.pdf",
+            "originalLink": "~/../../Uploads/Research/2022-English_20230913025026.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "भात / Paddy",
+              "mr": "भात / Paddy"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Paddy.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Paddy.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/1._Paddy_20200110043402.pdf",
+            "originalLink": "~/../../Uploads/Research/1. Paddy_20200110043402.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "बाजरी / Pearlmillet",
+              "mr": "बाजरी / Pearlmillet"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Bajara.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Bajara.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/2._Pearlmillet_20200110053501.pdf",
+            "originalLink": "~/../../Uploads/Research/2. Pearlmillet_20200110053501.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ज्वारी / Sorghum",
+              "mr": "ज्वारी / Sorghum"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Rabbi_Jawar.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Rabbi Jawar.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/3._Sorghum_20200110053526.pdf",
+            "originalLink": "~/../../Uploads/Research/3. Sorghum_20200110053526.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "गहु / 4. Wheat",
+              "mr": "गहु / 4. Wheat"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Wheat.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Wheat.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/4._Wheat_20200110053545.pdf",
+            "originalLink": "~/../../Uploads/Research/4. Wheat_20200110053545.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "मका / 5. Maize",
+              "mr": "मका / 5. Maize"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Maiz.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Maiz.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/5._Maize_20200110053602.pdf",
+            "originalLink": "~/../../Uploads/Research/5. Maize_20200110053602.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ईतर पोषक भरड धान्य /",
+              "mr": "ईतर पोषक भरड धान्य /"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Minor_Milletes.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Minor Milletes.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "कडधान्ये / Chickpea",
+              "mr": "कडधान्ये / Chickpea"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Pulses.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Pulses.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/7._Chickpea_20200110053711.pdf",
+            "originalLink": "~/../../Uploads/Research/7. Chickpea_20200110053711.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "गळीतधान्ये /",
+              "mr": "गळीतधान्ये /"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Oil_seed.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Oil seed.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ऊस / Sugarcane",
+              "mr": "ऊस / Sugarcane"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Sugarcane.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Sugarcane.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/9._Sugarcane_20200110053812.pdf",
+            "originalLink": "~/../../Uploads/Research/9. Sugarcane_20200110053812.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "15",
+              "mr": "15"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "कापूस / Cotton",
+              "mr": "कापूस / Cotton"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Cotton.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Cotton.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/10._Cotton_20200110053832.pdf",
+            "originalLink": "~/../../Uploads/Research/10. Cotton_20200110053832.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "16",
+              "mr": "16"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "चारापिके /",
+              "mr": "चारापिके /"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Fodder_crop.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Fodder crop.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "17",
+              "mr": "17"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "भाजीपाला पिके / Vegetable",
+              "mr": "भाजीपाला पिके / Vegetable"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Vegetable.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Vegetable.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/12._Vegetable_20200110053854.pdf",
+            "originalLink": "~/../../Uploads/Research/12. Vegetable_20200110053854.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "18",
+              "mr": "18"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "फळ पिके / Fruit crops",
+              "mr": "फळ पिके / Fruit crops"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Fruit_crops.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Fruit crops.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/13._Fruit_crops_20200110060006.pdf",
+            "originalLink": "~/../../Uploads/Research/13. Fruit crops_20200110060006.pdf"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "19",
+              "mr": "19"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "फुल पिके /",
+              "mr": "फुल पिके /"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "/media/docs/Flower_Crops.pdf",
+            "originalLink": "..\\..\\Uploads\\Research\\Flower Crops.pdf"
+          },
+          {
+            "text": {
+              "en": "",
+              "mr": ""
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 19,
+      "columnCount": 4
+    }
+  ],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/20261027_115327_18a1e7ab94c9b553f6c5e5604178c005.pdf",
+      "localPath": "/media/docs/20261027_115327_18a1e7ab94c9b553f6c5e5604178c005.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/20261027_115327_5b42efd8f990e9156cab3c7d463b64f9.pdf",
+      "localPath": "/media/docs/20261027_115327_5b42efd8f990e9156cab3c7d463b64f9.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2025-Marathi_20250808051343.pdf",
+      "localPath": "/media/docs/2025-Marathi_20250808051343.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2025-English_20250808061909.pdf",
+      "localPath": "/media/docs/2025-English_20250808061909.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2024-Marathi_20241017111319.pdf",
+      "localPath": "/media/docs/2024-Marathi_20241017111319.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2024-English_20241017111319.pdf",
+      "localPath": "/media/docs/2024-English_20241017111319.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2023-Marathi_20230913025314.pdf",
+      "localPath": "/media/docs/2023-Marathi_20230913025314.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2023-English_20230913025314.pdf",
+      "localPath": "/media/docs/2023-English_20230913025314.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2022-Marathi_20230913025026.pdf",
+      "localPath": "/media/docs/2022-Marathi_20230913025026.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2022-English_20230913025026.pdf",
+      "localPath": "/media/docs/2022-English_20230913025026.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Paddy.pdf",
+      "localPath": "/media/docs/Paddy.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/1. Paddy_20200110043402.pdf",
+      "localPath": "/media/docs/1._Paddy_20200110043402.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Bajara.pdf",
+      "localPath": "/media/docs/Bajara.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/2. Pearlmillet_20200110053501.pdf",
+      "localPath": "/media/docs/2._Pearlmillet_20200110053501.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Rabbi Jawar.pdf",
+      "localPath": "/media/docs/Rabbi_Jawar.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/3. Sorghum_20200110053526.pdf",
+      "localPath": "/media/docs/3._Sorghum_20200110053526.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Wheat.pdf",
+      "localPath": "/media/docs/Wheat.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/4. Wheat_20200110053545.pdf",
+      "localPath": "/media/docs/4._Wheat_20200110053545.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Maiz.pdf",
+      "localPath": "/media/docs/Maiz.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/5. Maize_20200110053602.pdf",
+      "localPath": "/media/docs/5._Maize_20200110053602.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Minor Milletes.pdf",
+      "localPath": "/media/docs/Minor_Milletes.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Pulses.pdf",
+      "localPath": "/media/docs/Pulses.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/7. Chickpea_20200110053711.pdf",
+      "localPath": "/media/docs/7._Chickpea_20200110053711.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Oil seed.pdf",
+      "localPath": "/media/docs/Oil_seed.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Sugarcane.pdf",
+      "localPath": "/media/docs/Sugarcane.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/9. Sugarcane_20200110053812.pdf",
+      "localPath": "/media/docs/9._Sugarcane_20200110053812.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Cotton.pdf",
+      "localPath": "/media/docs/Cotton.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/10. Cotton_20200110053832.pdf",
+      "localPath": "/media/docs/10._Cotton_20200110053832.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Fodder crop.pdf",
+      "localPath": "/media/docs/Fodder_crop.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Vegetable.pdf",
+      "localPath": "/media/docs/Vegetable.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/12. Vegetable_20200110053854.pdf",
+      "localPath": "/media/docs/12._Vegetable_20200110053854.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Fruit crops.pdf",
+      "localPath": "/media/docs/Fruit_crops.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/13. Fruit crops_20200110060006.pdf",
+      "localPath": "/media/docs/13._Fruit_crops_20200110060006.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/..\\..\\Uploads\\Research\\Flower Crops.pdf",
+      "localPath": "/media/docs/Flower_Crops.pdf",
+      "category": "docs",
+      "label": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "order": 55
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        {
+          "en": "Research at a Glance",
+          "mr": "Research at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Directorates",
+          "mr": "Directorates"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "Research Review Mechanism",
+          "mr": "Research Review Mechanism"
+        },
+        {
+          "en": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone",
+          "mr": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone"
+        },
+        {
+          "en": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects",
+          "mr": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects"
+        },
+        {
+          "en": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties",
+          "mr": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties"
+        }
+      ],
+      "order": 56
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Western Ghat Zone",
+          "mr": "Western Ghat Zone"
+        },
+        {
+          "en": "Sub-Montane Zone",
+          "mr": "Sub-Montane Zone"
+        },
+        {
+          "en": "Plain Zone",
+          "mr": "Plain Zone"
+        },
+        {
+          "en": "Scarcity Zone",
+          "mr": "Scarcity Zone"
+        },
+        {
+          "en": "Central Plateau Zone",
+          "mr": "Central Plateau Zone"
+        }
+      ],
+      "order": 57
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "ICAR-AICRP",
+          "mr": "ICAR-AICRP"
+        },
+        {
+          "en": "Non-Plan State Schemes",
+          "mr": "Non-Plan State Schemes"
+        },
+        {
+          "en": "Externally Funded Projects",
+          "mr": "Externally Funded Projects"
+        }
+      ],
+      "order": 58
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Varieties",
+          "mr": "Varieties"
+        },
+        {
+          "en": "Recommendations",
+          "mr": "Recommendations"
+        },
+        {
+          "en": "Farm Implements",
+          "mr": "Farm Implements"
+        },
+        {
+          "en": "Patents",
+          "mr": "Patents"
+        },
+        {
+          "en": "Economic impact of released varieties",
+          "mr": "Economic impact of released varieties"
+        }
+      ],
+      "order": 59
+    }
+  ],
+  "stats": {
+    "headingCount": 55,
+    "paragraphCount": 0,
+    "listCount": 4,
+    "tableCount": 1,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 48,
+    "totalRecords": 122
+  }
+}

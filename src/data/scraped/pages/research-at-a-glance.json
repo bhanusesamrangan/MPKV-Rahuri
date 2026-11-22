@@ -1,0 +1,1454 @@
+{
+  "slug": "research-at-a-glance",
+  "url": "https://mpkv.ac.in/Research/ResearchAtaGalance",
+  "route": "/Research/ResearchAtaGalance",
+  "sourcePage": "research-at-a-glance",
+  "scrapedAt": "2026-11-22T20:36:03.345155",
+  "title": {
+    "en": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+    "mr": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+  },
+  "breadcrumb": [],
+  "hero": {
+    "title": {
+      "en": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "order": 55
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "The university has a very good network of 27 research stations spread over 5 different agro-climatic zones having 82 non-plan schemes funded by State Govt., 45 AICRPs on different crops /plant sciences and one Centrally Sponsored Research Schemes funded by the Central Govt., Ministry of Agriculture, where varietal development and technology verification of more than 100 crops (cereals, pulses, oilseeds, vegetable , cash crops protected cultivation , exotic vegetables and fruit crops) is being carried out. In addition to this management of natural resource management, development of integrated farming system model research is undertaken for the upliftment of resource poor farming community.",
+        "mr": "पश्चिम महाराष्ट्रातील दहा जिल्हयांचा समावेश असलेले घाट विभाग, उप-पर्वतीय विभाग, मैदानी विभाग, अवर्षण प्रवण विभाग व मध्य महाराष्ट्रातील पठारी विभाग या 5 हवामान विभागात असलेली तृणधान्‍ये, कडधान्‍ये, गळीताची धान्‍ये, फळे-भाजीपाला, नगदी पिके, विदेशी भाजीपाला इत्‍यादी १०० हून अधिक पिकावर, मध्यवर्ती परिसरासह एकूण 27 संशोधन केंद्रावर असलेल्‍या राज्य शासन अनुदानित 82 योजनेतर योजना, भारतीय कृषि संशोधन परिषद (75 %) आणि राज्य शासन (25 %) अनुदानीत 45 अखिल भारतीय समन्वीत संशोधन प्रकल्प आणि केंद्र पुरस्कृत 100 टक्के अनुदानीत 1 संशोधन प्रकल्पामार्फत संशोधन केले जाते."
+      },
+      "order": 56
+    },
+    {
+      "text": {
+        "en": "To improve production and productivity of cereals, pulses, oilseeds, sugarcane, cotton, fruits, vegetables, flowers and farm animals. To conserve natural resources and improve their efficiency for sustainable production of crops and animal produce. Conservation of genetic resource and their maintenance.",
+        "mr": "राज्यातील मर्यादित सिंचन सुविधा लक्षात घेऊन, शाश्‍वत उत्‍पादनासाठी कोरडवाहू शेती तंत्रज्ञान विकसित करणे. मृद आणि जलसंधारणाच्या पध्दती, जमीन, पाऊसमान आणि हंगामानुसार पीक व्यवस्थापन, मध्य हंगाम दुरुस्ती, पडणाऱ्या पाऊस पाण्याचा अधिक कार्यक्षमतेने वापर, पिकांचे सुधारित वाण आणि पीक पध्दती विकसित करणे, शेतक-यांच्या गरजा लक्षात घेऊन विविध प्रकारची शेती औजारे व यंत्रे विकसीत करणे याविषयी बहुमोल संशोधनवर भर देण्‍यात येत आहे. गेल्या 53 वर्षात कृषि क्षेत्रात भरीव संशोधन करुन एकूण 270 वाण विकसीत केलेले आहेत. मृद व जलसंधारण, विविध पिके आणि पीक लागवड पध्दती, अन्नद्रव्य व्यवस्थापन, पाणी व्यवस्थापन, आंतरमशागत, तण, रोग आणि किडींचे एकात्मिक व्यवस्थापन, नियंत्रीत शेती, प्रक्रिया आणि विपणन  याविषयी सखोल संशोधन करुन विद्यापीठाने एकूण 1577 शिफारशी दिल्या आहेत. जैवतंत्रज्ञान, वनस्पती ऊती संवर्धन, अणुजीवशास्र, जैविक कीड नियंत्रण व जीवाणू खते निर्मिती याकडे विशेष लक्ष देण्यात येत आहे."
+      },
+      "order": 57
+    },
+    {
+      "text": {
+        "en": "To develop technology with integrated pest, disease and nutrient management to increase production for making agricultural production cost effective and sustainable. To develop post-harvest technology for minimizing post-harvest losses and production of value-added products. To design and develop farm implements and technology for mechanization of agriculture. To evaluate and modify technology for protected cultivation of flowers and vegetables.",
+        "mr": "तसेच विद्यापीठाचे भूषण असलेली फुले-त्रिवेणी ही तिहेरी संकरीत गाय, तिची दुध देण्याची क्षमता, वातावरणाशी जुळवून घेण्याची क्षमता व स्निग्धता इतर संकरित गायींपेक्षा जास्त आहे.विद्यापीठाने विकसीत केलेले लक्ष्मी विळा, ज्योती कांदा रोप लागवड यंत्र, ज्योती लसूण घास कापणी यंत्र, ट्रॅक्टरचलित फुले सरीवरंबा बहुपीक टोकण यंत्र, ट्रॅक्टरचलित फुले ऊस आंतरमशागत यंत्र, पॉवरटिलरचलित फुले बहुपीक टोकण यंत्र, मनुष्यचलीत फुले भुईमूग शेंगा फोडणी आणि सफाई यंत्र, ट्रॅक्टरचलित फुले मोल नांगर, बैलचलीत फुले बहुपीक टोकण यंत्र, फुले सरीवरंबा बहुपीक टोकण यंत्र, ट्रॅक्टरचलित फुले ऊस आंतर मशागत यंत्र, मानवचलीत फुले ज्वारी काढणी यंत्र, मानवचलीत फुले औषधी बिया फोडणी यंत्र, विद्युतचलित फुले कडबा कुट्टी यंत्र, फुले पीव्हीसी भात लावणी चौकट व ट्रॅक्टरचलित ऊस बांधणी यंत्र या 35 सुधारित यंञे व औजारांमुळे शेतक-यांचे काबाड कष्ट कमी होवून मजुरांची बचत होत असल्याने शेतक-यांमध्ये ती लोकप्रिय आहेत."
+      },
+      "order": 58
+    },
+    {
+      "text": {
+        "en": "Taking into consideration the availability of land, water and weather conditions and other existing resources, the university has concentrated its efforts to develop suitable technologies for dryland agriculture, irrigated farming as well as hi-tech agriculture. During the last 53 years, the University has developed about 39 different types of Farm Implements and Machineries for the ease of sowing, transplanting, burring, interculturing and harvesting operations on the farms and 270 improved / F1 hybrids varieties of field crops, forages, vegetables, horticultural and ornamental crops, cash crops, spices, aromatic and medicinal plants and also registered pure breeds of cattle-Khillar, goat-Osmanabadi & Sangamneri, sheep-Deccani and buffalo-Pandharpuri with NBAGR, Karnal, and one Phule Trivni cattle breed , etc. More than 1577 crop production technologies pertaining to agro-techniques, soil and water management, farming and cropping systems, integrated nutrient, water, pest, disease management, post harvest technology, farm machinery, etc are developed and recommended for productivity improvement. The university has focused its attention on location specific and need based research activities and also seed production and seedlings/saplings activities on large scale in order to cater the needs of all types of farmers and farming groups. Organic farming, crop diversification, development of transgenic and export oriented quality production and post harvest handling and process engineering are the priority areas to face the challenges of WTO regime. Biotechnology with its vast potential and challenges is important to agricultural development. This university is developing biotechnological competence in the areas of plant tissue culture, genetic engineering, molecular biology, and molecular characterization for IPR issues, biocontrol and biofertilizers.",
+        "mr": "भारताची सतत वाढणारी लोकसंख्या तसेच,  भविष्यातील शेती ही पाणी टंचाई, हवामानातील बदल व जागतिकीकरण यांचा सर्वांगीण विचार करुन शाश्‍वत उत्पादनाची गरज भागविणारी आहे. याकरीता उपलब्ध नैसर्गिक साधनसंपत्तीचा सुयोग्य वापरावर आधारीत उत्पादकता वाढवणारी शेती पध्दतीची उभारणी, अन्नधान्यामध्ये स्वयंपूर्णता व निर्यातक्षम कृषिउत्पादने, शास्रज्ञ व तांत्रिक मनुष्यबळ निर्मिती ही देशातील कृषि विद्यापीठांची प्राथमिक ध्येय धोरणे आहेत. याशिवाय, प्रक्रिया, साठवण, शीतसाखळी, कृषिजन्य उत्पादनाची निर्यात या क्षेत्रात संशोधनाची गरज असणार आहे. हे ध्येय साध्य करण्यासाठी कृषि संशोधनाची धोरणे ठरवितांना सर्वोच्च उत्पादन आणि उत्पादकतेबरोबरच, उत्पादन खर्च कमी करुन उच्च गुणवत्तेचे कृषि उत्पादन मिळवण्यासाठी आधुनिक तंत्रज्ञानाचा समावेश करण्यावर भर देण्यात येत आहे."
+      },
+      "order": 59
+    },
+    {
+      "text": {
+        "en": "This includes sugarcane (Co-86032, CoM-265), pomegranate (Bhagwa, Phule Super Bhagwa), gram (Vikas, Vishwas, Vijay, Digvijay, Vikram), rabi sorghum (Phule Vasudha, Phule Revati, Phule Suchitra), onion (Phule Samarth, Baswant 780, N-53, N-2-4-1), rice (Indrayani, Samruddhi), acid lime (Sai Sarbati, Phule Sarbati), pearl millet (Shraddha, Saburi), sweet lime (Phule Mosambi, Nucellar), soybean (Phule Sangam, Phule Kimaya), guava (Sardar), aster (Phule Ganesh Pink), okra (Phule Utkarsha), kidney bean (Varun), hyacinth bean (Phule Suyash), ridge gourd (Phule Prajakta), tuberose (Phule Rajani), etc.",
+        "mr": "This includes sugarcane (Co-86032, CoM-265), pomegranate (Bhagwa, Phule Super Bhagwa), gram (Vikas, Vishwas, Vijay, Digvijay, Vikram), rabi sorghum (Phule Vasudha, Phule Revati, Phule Suchitra), onion (Phule Samarth, Baswant 780, N-53, N-2-4-1), rice (Indrayani, Samruddhi), acid lime (Sai Sarbati, Phule Sarbati), pearl millet (Shraddha, Saburi), sweet lime (Phule Mosambi, Nucellar), soybean (Phule Sangam, Phule Kimaya), guava (Sardar), aster (Phule Ganesh Pink), okra (Phule Utkarsha), kidney bean (Varun), hyacinth bean (Phule Suyash), ridge gourd (Phule Prajakta), tuberose (Phule Rajani), etc."
+      },
+      "order": 60
+    },
+    {
+      "text": {
+        "en": "In the year 2025-26, six patents were granted to Mahatma Phule Agricultural University. These include a device and method for producing custard apple pulp flakes, a method for preparing and storing amla (Indian gooseberry) pulp, a process for making 'Phule' ragi (finger millet) biscuits, a plant identification module for orchard crops, and a method for preparing tamarind-based beverages and Shrikhand Based Confectionary and Process For Preparation Thereof.",
+        "mr": "In the year 2025-26, six patents were granted to Mahatma Phule Agricultural University. These include a device and method for producing custard apple pulp flakes, a method for preparing and storing amla (Indian gooseberry) pulp, a process for making 'Phule' ragi (finger millet) biscuits, a plant identification module for orchard crops, and a method for preparing tamarind-based beverages and Shrikhand Based Confectionary and Process For Preparation Thereof."
+      },
+      "order": 61
+    },
+    {
+      "text": {
+        "en": "The university has developed a total of 62 mobile and web-based apps. The university has registered 125 varieties of various crops developed by the university and farmers with the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) and has sent 26 proposals for registration. The university has been honored by the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) for registering the highest number of crop varieties in the year 2017 and 2025.The university has registered 35 copyrights, 13 design patents.",
+        "mr": "The university has developed a total of 62 mobile and web-based apps. The university has registered 125 varieties of various crops developed by the university and farmers with the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) and has sent 26 proposals for registration. The university has been honored by the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) for registering the highest number of crop varieties in the year 2017 and 2025.The university has registered 35 copyrights, 13 design patents."
+      },
+      "order": 62
+    },
+    {
+      "text": {
+        "en": "The university has signed MoUs with various international and national research institutes, universities etc. for research collaboration. These include Washington State University, Pullman (USA), Mississippi State University, Staskwole (USA), International Water Management Institute, Colombo (Sri Lanka), Asian Institute of Technology Bangkok (Thailand), Loughborough University (England), Kisan Hub Technology Pvt. Ltd., Cambridge (England), Ministry of Tourism, Israel, Murdoch University (Australia), National Agricultural University (Bennon) etc. international institutions are included. This is leading to research collaboration, training opportunities for scientists and students, study tours, etc.",
+        "mr": "The university has signed MoUs with various international and national research institutes, universities etc. for research collaboration. These include Washington State University, Pullman (USA), Mississippi State University, Staskwole (USA), International Water Management Institute, Colombo (Sri Lanka), Asian Institute of Technology Bangkok (Thailand), Loughborough University (England), Kisan Hub Technology Pvt. Ltd., Cambridge (England), Ministry of Tourism, Israel, Murdoch University (Australia), National Agricultural University (Bennon) etc. international institutions are included. This is leading to research collaboration, training opportunities for scientists and students, study tours, etc."
+      },
+      "order": 63
+    },
+    {
+      "text": {
+        "en": "The university has also signed MoUs with renowned research institutions at the National Level. These include IIT, Mumbai; Indian Institute of Remote Sensing, Dehradun; National Institute of Biological Stress Management, Baramati; Central Institute of Agricultural Research, Kordwadu, Hyderabad; National Bureau of Soil Survey and Land Use Planning, Nagpur; National Institute of Soil Science, Bhopal; Nehru Science Centre, Mumbai; Central Animal Research Institute, Meerut; Onion and Garlic Research Centre, Rajgurunagar, Pune; Institute of Electrical and Electronics Engineers, Pune; All India Sugarcane Research Institute, Lucknow, Maharashtra Agribusiness Network Project (Magnet), Pune; Bureau of Indian Standards (BIS); TCS and Shivaji University, Kolhapur, Rashtriya Chemicals and Fertilizers Limited, Mumbai, ICICI Foundation, Pune, BAIF, Pune, John Deere India Private Limited. The university has signed 2900+ MoUs for distribution of breeder seed with FPOâ€™s, Private Seed Companies and NGOâ€™s.",
+        "mr": "The university has also signed MoUs with renowned research institutions at the National Level. These include IIT, Mumbai; Indian Institute of Remote Sensing, Dehradun; National Institute of Biological Stress Management, Baramati; Central Institute of Agricultural Research, Kordwadu, Hyderabad; National Bureau of Soil Survey and Land Use Planning, Nagpur; National Institute of Soil Science, Bhopal; Nehru Science Centre, Mumbai; Central Animal Research Institute, Meerut; Onion and Garlic Research Centre, Rajgurunagar, Pune; Institute of Electrical and Electronics Engineers, Pune; All India Sugarcane Research Institute, Lucknow, Maharashtra Agribusiness Network Project (Magnet), Pune; Bureau of Indian Standards (BIS); TCS and Shivaji University, Kolhapur, Rashtriya Chemicals and Fertilizers Limited, Mumbai, ICICI Foundation, Pune, BAIF, Pune, John Deere India Private Limited. The university has signed 2900+ MoUs for distribution of breeder seed with FPOâ€™s, Private Seed Companies and NGOâ€™s."
+      },
+      "order": 64
+    },
+    {
+      "text": {
+        "en": "The external funding projects functioning in the University are Chief Minister Agricultural Research Assistant Funds (13), Rajiv Gandhi Science and Technology Commission, Mumbai (17), Rastriy Krishi Vikas Yojna (5), Gramnin Krishi Mausam Seva (4), Department of Biotechnolgy (3), DPCC(2), Plant Variety Registration and Farmers Rights Authority (4), CIMMYT (4), Government of Maharashtra (15),ICAR and Central Government (8),other institutions (7),  Krushi Samruddhi Yojna (5), Artificial Intelligence Innovation and Incubation Centre (2), Deshi cow research and training centre.",
+        "mr": "The external funding projects functioning in the University are Chief Minister Agricultural Research Assistant Funds (13), Rajiv Gandhi Science and Technology Commission, Mumbai (17), Rastriy Krishi Vikas Yojna (5), Gramnin Krishi Mausam Seva (4), Department of Biotechnolgy (3), DPCC(2), Plant Variety Registration and Farmers Rights Authority (4), CIMMYT (4), Government of Maharashtra (15),ICAR and Central Government (8),other institutions (7),  Krushi Samruddhi Yojna (5), Artificial Intelligence Innovation and Incubation Centre (2), Deshi cow research and training centre."
+      },
+      "order": 65
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        {
+          "en": "Research at a Glance",
+          "mr": "Research at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Directorates",
+          "mr": "Directorates"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "Research Review Mechanism",
+          "mr": "Research Review Mechanism"
+        },
+        {
+          "en": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone",
+          "mr": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone"
+        },
+        {
+          "en": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects",
+          "mr": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects"
+        },
+        {
+          "en": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties",
+          "mr": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties"
+        }
+      ],
+      "order": 66
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Western Ghat Zone",
+          "mr": "Western Ghat Zone"
+        },
+        {
+          "en": "Sub-Montane Zone",
+          "mr": "Sub-Montane Zone"
+        },
+        {
+          "en": "Plain Zone",
+          "mr": "Plain Zone"
+        },
+        {
+          "en": "Scarcity Zone",
+          "mr": "Scarcity Zone"
+        },
+        {
+          "en": "Central Plateau Zone",
+          "mr": "Central Plateau Zone"
+        }
+      ],
+      "order": 67
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "ICAR-AICRP",
+          "mr": "ICAR-AICRP"
+        },
+        {
+          "en": "Non-Plan State Schemes",
+          "mr": "Non-Plan State Schemes"
+        },
+        {
+          "en": "Externally Funded Projects",
+          "mr": "Externally Funded Projects"
+        }
+      ],
+      "order": 68
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Varieties",
+          "mr": "Varieties"
+        },
+        {
+          "en": "Recommendations",
+          "mr": "Recommendations"
+        },
+        {
+          "en": "Farm Implements",
+          "mr": "Farm Implements"
+        },
+        {
+          "en": "Patents",
+          "mr": "Patents"
+        },
+        {
+          "en": "Economic impact of released varieties",
+          "mr": "Economic impact of released varieties"
+        }
+      ],
+      "order": 69
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Research/Dr. PS Bodke_20260212103504.jpg",
+      "localPath": "/media/images/Dr._PS_Bodke_20260212103504.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "order": 55
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The university has a very good network of 27 research stations spread over 5 different agro-climatic zones having 82 non-plan schemes funded by State Govt., 45 AICRPs on different crops /plant sciences and one Centrally Sponsored Research Schemes funded by the Central Govt., Ministry of Agriculture, where varietal development and technology verification of more than 100 crops (cereals, pulses, oilseeds, vegetable , cash crops protected cultivation , exotic vegetables and fruit crops) is being carried out. In addition to this management of natural resource management, development of integrated farming system model research is undertaken for the upliftment of resource poor farming community.",
+        "mr": "पश्चिम महाराष्ट्रातील दहा जिल्हयांचा समावेश असलेले घाट विभाग, उप-पर्वतीय विभाग, मैदानी विभाग, अवर्षण प्रवण विभाग व मध्य महाराष्ट्रातील पठारी विभाग या 5 हवामान विभागात असलेली तृणधान्‍ये, कडधान्‍ये, गळीताची धान्‍ये, फळे-भाजीपाला, नगदी पिके, विदेशी भाजीपाला इत्‍यादी १०० हून अधिक पिकावर, मध्यवर्ती परिसरासह एकूण 27 संशोधन केंद्रावर असलेल्‍या राज्य शासन अनुदानित 82 योजनेतर योजना, भारतीय कृषि संशोधन परिषद (75 %) आणि राज्य शासन (25 %) अनुदानीत 45 अखिल भारतीय समन्वीत संशोधन प्रकल्प आणि केंद्र पुरस्कृत 100 टक्के अनुदानीत 1 संशोधन प्रकल्पामार्फत संशोधन केले जाते."
+      },
+      "order": 56
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "To improve production and productivity of cereals, pulses, oilseeds, sugarcane, cotton, fruits, vegetables, flowers and farm animals. To conserve natural resources and improve their efficiency for sustainable production of crops and animal produce. Conservation of genetic resource and their maintenance.",
+        "mr": "राज्यातील मर्यादित सिंचन सुविधा लक्षात घेऊन, शाश्‍वत उत्‍पादनासाठी कोरडवाहू शेती तंत्रज्ञान विकसित करणे. मृद आणि जलसंधारणाच्या पध्दती, जमीन, पाऊसमान आणि हंगामानुसार पीक व्यवस्थापन, मध्य हंगाम दुरुस्ती, पडणाऱ्या पाऊस पाण्याचा अधिक कार्यक्षमतेने वापर, पिकांचे सुधारित वाण आणि पीक पध्दती विकसित करणे, शेतक-यांच्या गरजा लक्षात घेऊन विविध प्रकारची शेती औजारे व यंत्रे विकसीत करणे याविषयी बहुमोल संशोधनवर भर देण्‍यात येत आहे. गेल्या 53 वर्षात कृषि क्षेत्रात भरीव संशोधन करुन एकूण 270 वाण विकसीत केलेले आहेत. मृद व जलसंधारण, विविध पिके आणि पीक लागवड पध्दती, अन्नद्रव्य व्यवस्थापन, पाणी व्यवस्थापन, आंतरमशागत, तण, रोग आणि किडींचे एकात्मिक व्यवस्थापन, नियंत्रीत शेती, प्रक्रिया आणि विपणन  याविषयी सखोल संशोधन करुन विद्यापीठाने एकूण 1577 शिफारशी दिल्या आहेत. जैवतंत्रज्ञान, वनस्पती ऊती संवर्धन, अणुजीवशास्र, जैविक कीड नियंत्रण व जीवाणू खते निर्मिती याकडे विशेष लक्ष देण्यात येत आहे."
+      },
+      "order": 57
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "To develop technology with integrated pest, disease and nutrient management to increase production for making agricultural production cost effective and sustainable. To develop post-harvest technology for minimizing post-harvest losses and production of value-added products. To design and develop farm implements and technology for mechanization of agriculture. To evaluate and modify technology for protected cultivation of flowers and vegetables.",
+        "mr": "तसेच विद्यापीठाचे भूषण असलेली फुले-त्रिवेणी ही तिहेरी संकरीत गाय, तिची दुध देण्याची क्षमता, वातावरणाशी जुळवून घेण्याची क्षमता व स्निग्धता इतर संकरित गायींपेक्षा जास्त आहे.विद्यापीठाने विकसीत केलेले लक्ष्मी विळा, ज्योती कांदा रोप लागवड यंत्र, ज्योती लसूण घास कापणी यंत्र, ट्रॅक्टरचलित फुले सरीवरंबा बहुपीक टोकण यंत्र, ट्रॅक्टरचलित फुले ऊस आंतरमशागत यंत्र, पॉवरटिलरचलित फुले बहुपीक टोकण यंत्र, मनुष्यचलीत फुले भुईमूग शेंगा फोडणी आणि सफाई यंत्र, ट्रॅक्टरचलित फुले मोल नांगर, बैलचलीत फुले बहुपीक टोकण यंत्र, फुले सरीवरंबा बहुपीक टोकण यंत्र, ट्रॅक्टरचलित फुले ऊस आंतर मशागत यंत्र, मानवचलीत फुले ज्वारी काढणी यंत्र, मानवचलीत फुले औषधी बिया फोडणी यंत्र, विद्युतचलित फुले कडबा कुट्टी यंत्र, फुले पीव्हीसी भात लावणी चौकट व ट्रॅक्टरचलित ऊस बांधणी यंत्र या 35 सुधारित यंञे व औजारांमुळे शेतक-यांचे काबाड कष्ट कमी होवून मजुरांची बचत होत असल्याने शेतक-यांमध्ये ती लोकप्रिय आहेत."
+      },
+      "order": 58
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Taking into consideration the availability of land, water and weather conditions and other existing resources, the university has concentrated its efforts to develop suitable technologies for dryland agriculture, irrigated farming as well as hi-tech agriculture. During the last 53 years, the University has developed about 39 different types of Farm Implements and Machineries for the ease of sowing, transplanting, burring, interculturing and harvesting operations on the farms and 270 improved / F1 hybrids varieties of field crops, forages, vegetables, horticultural and ornamental crops, cash crops, spices, aromatic and medicinal plants and also registered pure breeds of cattle-Khillar, goat-Osmanabadi & Sangamneri, sheep-Deccani and buffalo-Pandharpuri with NBAGR, Karnal, and one Phule Trivni cattle breed , etc. More than 1577 crop production technologies pertaining to agro-techniques, soil and water management, farming and cropping systems, integrated nutrient, water, pest, disease management, post harvest technology, farm machinery, etc are developed and recommended for productivity improvement. The university has focused its attention on location specific and need based research activities and also seed production and seedlings/saplings activities on large scale in order to cater the needs of all types of farmers and farming groups. Organic farming, crop diversification, development of transgenic and export oriented quality production and post harvest handling and process engineering are the priority areas to face the challenges of WTO regime. Biotechnology with its vast potential and challenges is important to agricultural development. This university is developing biotechnological competence in the areas of plant tissue culture, genetic engineering, molecular biology, and molecular characterization for IPR issues, biocontrol and biofertilizers.",
+        "mr": "भारताची सतत वाढणारी लोकसंख्या तसेच,  भविष्यातील शेती ही पाणी टंचाई, हवामानातील बदल व जागतिकीकरण यांचा सर्वांगीण विचार करुन शाश्‍वत उत्पादनाची गरज भागविणारी आहे. याकरीता उपलब्ध नैसर्गिक साधनसंपत्तीचा सुयोग्य वापरावर आधारीत उत्पादकता वाढवणारी शेती पध्दतीची उभारणी, अन्नधान्यामध्ये स्वयंपूर्णता व निर्यातक्षम कृषिउत्पादने, शास्रज्ञ व तांत्रिक मनुष्यबळ निर्मिती ही देशातील कृषि विद्यापीठांची प्राथमिक ध्येय धोरणे आहेत. याशिवाय, प्रक्रिया, साठवण, शीतसाखळी, कृषिजन्य उत्पादनाची निर्यात या क्षेत्रात संशोधनाची गरज असणार आहे. हे ध्येय साध्य करण्यासाठी कृषि संशोधनाची धोरणे ठरवितांना सर्वोच्च उत्पादन आणि उत्पादकतेबरोबरच, उत्पादन खर्च कमी करुन उच्च गुणवत्तेचे कृषि उत्पादन मिळवण्यासाठी आधुनिक तंत्रज्ञानाचा समावेश करण्यावर भर देण्यात येत आहे."
+      },
+      "order": 59
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "This includes sugarcane (Co-86032, CoM-265), pomegranate (Bhagwa, Phule Super Bhagwa), gram (Vikas, Vishwas, Vijay, Digvijay, Vikram), rabi sorghum (Phule Vasudha, Phule Revati, Phule Suchitra), onion (Phule Samarth, Baswant 780, N-53, N-2-4-1), rice (Indrayani, Samruddhi), acid lime (Sai Sarbati, Phule Sarbati), pearl millet (Shraddha, Saburi), sweet lime (Phule Mosambi, Nucellar), soybean (Phule Sangam, Phule Kimaya), guava (Sardar), aster (Phule Ganesh Pink), okra (Phule Utkarsha), kidney bean (Varun), hyacinth bean (Phule Suyash), ridge gourd (Phule Prajakta), tuberose (Phule Rajani), etc.",
+        "mr": "This includes sugarcane (Co-86032, CoM-265), pomegranate (Bhagwa, Phule Super Bhagwa), gram (Vikas, Vishwas, Vijay, Digvijay, Vikram), rabi sorghum (Phule Vasudha, Phule Revati, Phule Suchitra), onion (Phule Samarth, Baswant 780, N-53, N-2-4-1), rice (Indrayani, Samruddhi), acid lime (Sai Sarbati, Phule Sarbati), pearl millet (Shraddha, Saburi), sweet lime (Phule Mosambi, Nucellar), soybean (Phule Sangam, Phule Kimaya), guava (Sardar), aster (Phule Ganesh Pink), okra (Phule Utkarsha), kidney bean (Varun), hyacinth bean (Phule Suyash), ridge gourd (Phule Prajakta), tuberose (Phule Rajani), etc."
+      },
+      "order": 60
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "In the year 2025-26, six patents were granted to Mahatma Phule Agricultural University. These include a device and method for producing custard apple pulp flakes, a method for preparing and storing amla (Indian gooseberry) pulp, a process for making 'Phule' ragi (finger millet) biscuits, a plant identification module for orchard crops, and a method for preparing tamarind-based beverages and Shrikhand Based Confectionary and Process For Preparation Thereof.",
+        "mr": "In the year 2025-26, six patents were granted to Mahatma Phule Agricultural University. These include a device and method for producing custard apple pulp flakes, a method for preparing and storing amla (Indian gooseberry) pulp, a process for making 'Phule' ragi (finger millet) biscuits, a plant identification module for orchard crops, and a method for preparing tamarind-based beverages and Shrikhand Based Confectionary and Process For Preparation Thereof."
+      },
+      "order": 61
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The university has developed a total of 62 mobile and web-based apps. The university has registered 125 varieties of various crops developed by the university and farmers with the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) and has sent 26 proposals for registration. The university has been honored by the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) for registering the highest number of crop varieties in the year 2017 and 2025.The university has registered 35 copyrights, 13 design patents.",
+        "mr": "The university has developed a total of 62 mobile and web-based apps. The university has registered 125 varieties of various crops developed by the university and farmers with the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) and has sent 26 proposals for registration. The university has been honored by the Protection of Plant Varieties and Farmers' Rights Authority (PPV & FRA) for registering the highest number of crop varieties in the year 2017 and 2025.The university has registered 35 copyrights, 13 design patents."
+      },
+      "order": 62
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The university has signed MoUs with various international and national research institutes, universities etc. for research collaboration. These include Washington State University, Pullman (USA), Mississippi State University, Staskwole (USA), International Water Management Institute, Colombo (Sri Lanka), Asian Institute of Technology Bangkok (Thailand), Loughborough University (England), Kisan Hub Technology Pvt. Ltd., Cambridge (England), Ministry of Tourism, Israel, Murdoch University (Australia), National Agricultural University (Bennon) etc. international institutions are included. This is leading to research collaboration, training opportunities for scientists and students, study tours, etc.",
+        "mr": "The university has signed MoUs with various international and national research institutes, universities etc. for research collaboration. These include Washington State University, Pullman (USA), Mississippi State University, Staskwole (USA), International Water Management Institute, Colombo (Sri Lanka), Asian Institute of Technology Bangkok (Thailand), Loughborough University (England), Kisan Hub Technology Pvt. Ltd., Cambridge (England), Ministry of Tourism, Israel, Murdoch University (Australia), National Agricultural University (Bennon) etc. international institutions are included. This is leading to research collaboration, training opportunities for scientists and students, study tours, etc."
+      },
+      "order": 63
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The university has also signed MoUs with renowned research institutions at the National Level. These include IIT, Mumbai; Indian Institute of Remote Sensing, Dehradun; National Institute of Biological Stress Management, Baramati; Central Institute of Agricultural Research, Kordwadu, Hyderabad; National Bureau of Soil Survey and Land Use Planning, Nagpur; National Institute of Soil Science, Bhopal; Nehru Science Centre, Mumbai; Central Animal Research Institute, Meerut; Onion and Garlic Research Centre, Rajgurunagar, Pune; Institute of Electrical and Electronics Engineers, Pune; All India Sugarcane Research Institute, Lucknow, Maharashtra Agribusiness Network Project (Magnet), Pune; Bureau of Indian Standards (BIS); TCS and Shivaji University, Kolhapur, Rashtriya Chemicals and Fertilizers Limited, Mumbai, ICICI Foundation, Pune, BAIF, Pune, John Deere India Private Limited. The university has signed 2900+ MoUs for distribution of breeder seed with FPOâ€™s, Private Seed Companies and NGOâ€™s.",
+        "mr": "The university has also signed MoUs with renowned research institutions at the National Level. These include IIT, Mumbai; Indian Institute of Remote Sensing, Dehradun; National Institute of Biological Stress Management, Baramati; Central Institute of Agricultural Research, Kordwadu, Hyderabad; National Bureau of Soil Survey and Land Use Planning, Nagpur; National Institute of Soil Science, Bhopal; Nehru Science Centre, Mumbai; Central Animal Research Institute, Meerut; Onion and Garlic Research Centre, Rajgurunagar, Pune; Institute of Electrical and Electronics Engineers, Pune; All India Sugarcane Research Institute, Lucknow, Maharashtra Agribusiness Network Project (Magnet), Pune; Bureau of Indian Standards (BIS); TCS and Shivaji University, Kolhapur, Rashtriya Chemicals and Fertilizers Limited, Mumbai, ICICI Foundation, Pune, BAIF, Pune, John Deere India Private Limited. The university has signed 2900+ MoUs for distribution of breeder seed with FPOâ€™s, Private Seed Companies and NGOâ€™s."
+      },
+      "order": 64
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The external funding projects functioning in the University are Chief Minister Agricultural Research Assistant Funds (13), Rajiv Gandhi Science and Technology Commission, Mumbai (17), Rastriy Krishi Vikas Yojna (5), Gramnin Krishi Mausam Seva (4), Department of Biotechnolgy (3), DPCC(2), Plant Variety Registration and Farmers Rights Authority (4), CIMMYT (4), Government of Maharashtra (15),ICAR and Central Government (8),other institutions (7),  Krushi Samruddhi Yojna (5), Artificial Intelligence Innovation and Incubation Centre (2), Deshi cow research and training centre.",
+        "mr": "The external funding projects functioning in the University are Chief Minister Agricultural Research Assistant Funds (13), Rajiv Gandhi Science and Technology Commission, Mumbai (17), Rastriy Krishi Vikas Yojna (5), Gramnin Krishi Mausam Seva (4), Department of Biotechnolgy (3), DPCC(2), Plant Variety Registration and Farmers Rights Authority (4), CIMMYT (4), Government of Maharashtra (15),ICAR and Central Government (8),other institutions (7),  Krushi Samruddhi Yojna (5), Artificial Intelligence Innovation and Incubation Centre (2), Deshi cow research and training centre."
+      },
+      "order": 65
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        {
+          "en": "Research at a Glance",
+          "mr": "Research at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Directorates",
+          "mr": "Directorates"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "Research Review Mechanism",
+          "mr": "Research Review Mechanism"
+        },
+        {
+          "en": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone",
+          "mr": "Research StationsWestern Ghat ZoneSub-Montane ZonePlain ZoneScarcity ZoneCentral Plateau Zone"
+        },
+        {
+          "en": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects",
+          "mr": "Research SchemesICAR-AICRPNon-Plan State SchemesExternally Funded Projects"
+        },
+        {
+          "en": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties",
+          "mr": "TechnologyVarietiesRecommendationsFarm ImplementsPatentsEconomic impact of released varieties"
+        }
+      ],
+      "order": 66
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Western Ghat Zone",
+          "mr": "Western Ghat Zone"
+        },
+        {
+          "en": "Sub-Montane Zone",
+          "mr": "Sub-Montane Zone"
+        },
+        {
+          "en": "Plain Zone",
+          "mr": "Plain Zone"
+        },
+        {
+          "en": "Scarcity Zone",
+          "mr": "Scarcity Zone"
+        },
+        {
+          "en": "Central Plateau Zone",
+          "mr": "Central Plateau Zone"
+        }
+      ],
+      "order": 67
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "ICAR-AICRP",
+          "mr": "ICAR-AICRP"
+        },
+        {
+          "en": "Non-Plan State Schemes",
+          "mr": "Non-Plan State Schemes"
+        },
+        {
+          "en": "Externally Funded Projects",
+          "mr": "Externally Funded Projects"
+        }
+      ],
+      "order": 68
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Varieties",
+          "mr": "Varieties"
+        },
+        {
+          "en": "Recommendations",
+          "mr": "Recommendations"
+        },
+        {
+          "en": "Farm Implements",
+          "mr": "Farm Implements"
+        },
+        {
+          "en": "Patents",
+          "mr": "Patents"
+        },
+        {
+          "en": "Economic impact of released varieties",
+          "mr": "Economic impact of released varieties"
+        }
+      ],
+      "order": 69
+    }
+  ],
+  "stats": {
+    "headingCount": 55,
+    "paragraphCount": 10,
+    "listCount": 4,
+    "tableCount": 0,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 15,
+    "totalRecords": 80
+  }
+}

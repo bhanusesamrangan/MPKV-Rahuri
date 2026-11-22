@@ -1,0 +1,1331 @@
+{
+  "slug": "farmer-kisan-aadhar",
+  "url": "https://mpkv.ac.in/Farmer/FarmerKisanAdhar",
+  "route": "/Farmer/FarmerKisanAdhar",
+  "sourcePage": "farmer-kisan-aadhar",
+  "scrapedAt": "2026-11-22T20:35:37.154205",
+  "title": {
+    "en": "Farmer",
+    "mr": "शेतकरी"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "href": "/Farmer/FarmerSciForum"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Farmer",
+      "mr": "शेतकरी"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Farmer",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — शेतकरी"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "order": 55
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "किसान आधार संमेलन 2019",
+        "mr": "किसान आधार संमेलन 2019"
+      },
+      "order": 56
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "किसान आधार संमेलन 2018",
+        "mr": "किसान आधार संमेलन 2018"
+      },
+      "order": 57
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "किसान आधार संमेलन 2017",
+        "mr": "किसान आधार संमेलन 2017"
+      },
+      "order": 58
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ सन 2017 पासुन भव्य किसान आधार संमेलनाचे आयोजन करण्यात येत आहे. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात येत असते. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, भाजीपाला, चारा आणि नगदी पिकांमधील विविध वाणांचे विद्यापीठाच्या प्रक्षेत्रावर प्रात्यक्षिके आयोजित केली जातात. या प्रात्यक्षिकांमध्ये ड्रॅगन फळ लागवड, शेडनेटमधील फुल शेती व भाजीपाला लागवड याचा समावेश केलेला आहे. याचबरोबर सिंचन प्रणाली, निचरा पध्दती, माती परिक्षण प्रात्यक्षिके, एकात्मिक शेती पध्दतीचे मॉडेल, गांडूळ खत उत्पादन प्रकल्प, मधुमक्षिका पालन, जिवाणू खते, जैविक किड नियंत्रण, एकात्मिक किड व्यवस्थापन इत्यादी कृषि तंत्रज्ञान पाहण्याची व जाणून घेण्याची संधी या निमित्त उपलब्ध करुण देण्यात येते. किसान आधार संमेलनामध्ये भव्य असे कृषि पदर्शनाचे आयोजन करण्यात येते. या कृषि पदर्शनामध्ये शेतकर्‍यांना शासकीय संस्था तसेच खाजगी कंपन्या, कृषि निविष्ठा, कृषि अवजारे, प्रक्रिया उद्योग, कृषि पूरक व्यवसाय, आळिंबी उत्पादन, सुंगधी व औषधी वनस्पती अशा आधुनिक कृषि तंत्रज्ञान दालने उभारण्यात येतात. या व्यतिरीक्त भव्य असे पशु-पक्षी प्रदर्शन आयोजित करण्यात येते. प्रदर्शनस्थळी कृषि विद्यापीठांनी विकसीत केलेले तंत्रज्ञान, कृषि विभागाच्या योजना, विविध खाजगी कंपंन्यांनी विकसीत केलेले तंत्रज्ञान शेतकर्‍यांना एकाच दालनाखाली पाहण्यास मिळतात. या प्रसंगी प्रत्येक दिवशी विविध विषयांवर कृषि शास्त्रज्ञांचे आणि प्रगतशील शेतकर्‍यांचे व्याख्याणे आणि चर्चासत्रांचे आयोजन करण्यात येते. या माध्यमातुन विद्यापीठ विविध लोकाभीमुख उपक्रम राबविण्यावर भर देत आहे.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ सन 2017 पासुन भव्य किसान आधार संमेलनाचे आयोजन करण्यात येत आहे. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात येत असते. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, भाजीपाला, चारा आणि नगदी पिकांमधील विविध वाणांचे विद्यापीठाच्या प्रक्षेत्रावर प्रात्यक्षिके आयोजित केली जातात. या प्रात्यक्षिकांमध्ये ड्रॅगन फळ लागवड, शेडनेटमधील फुल शेती व भाजीपाला लागवड याचा समावेश केलेला आहे. याचबरोबर सिंचन प्रणाली, निचरा पध्दती, माती परिक्षण प्रात्यक्षिके, एकात्मिक शेती पध्दतीचे मॉडेल, गांडूळ खत उत्पादन प्रकल्प, मधुमक्षिका पालन, जिवाणू खते, जैविक किड नियंत्रण, एकात्मिक किड व्यवस्थापन इत्यादी कृषि तंत्रज्ञान पाहण्याची व जाणून घेण्याची संधी या निमित्त उपलब्ध करुण देण्यात येते. किसान आधार संमेलनामध्ये भव्य असे कृषि पदर्शनाचे आयोजन करण्यात येते. या कृषि पदर्शनामध्ये शेतकर्‍यांना शासकीय संस्था तसेच खाजगी कंपन्या, कृषि निविष्ठा, कृषि अवजारे, प्रक्रिया उद्योग, कृषि पूरक व्यवसाय, आळिंबी उत्पादन, सुंगधी व औषधी वनस्पती अशा आधुनिक कृषि तंत्रज्ञान दालने उभारण्यात येतात. या व्यतिरीक्त भव्य असे पशु-पक्षी प्रदर्शन आयोजित करण्यात येते. प्रदर्शनस्थळी कृषि विद्यापीठांनी विकसीत केलेले तंत्रज्ञान, कृषि विभागाच्या योजना, विविध खाजगी कंपंन्यांनी विकसीत केलेले तंत्रज्ञान शेतकर्‍यांना एकाच दालनाखाली पाहण्यास मिळतात. या प्रसंगी प्रत्येक दिवशी विविध विषयांवर कृषि शास्त्रज्ञांचे आणि प्रगतशील शेतकर्‍यांचे व्याख्याणे आणि चर्चासत्रांचे आयोजन करण्यात येते. या माध्यमातुन विद्यापीठ विविध लोकाभीमुख उपक्रम राबविण्यावर भर देत आहे."
+      },
+      "order": 59
+    },
+    {
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 25 ते 26 ऑक्टोबर, 2019 या कालावधीत किसान आधार संमेलनाचे आयोजन करण्यात आले होते. किसान आधार संमेलनातील प्रदर्शन, पशुप्रदर्शन, पीक प्रात्यक्षिके यांचे उद्घाटन नवी दिल्ली येथील राष्ट्रीय कोरडवाहू क्षेत्र प्राधिकरणाचे मुख्य कार्यकारी अधिकारी डॉ. अशोक दलवाई यांनी केले.  कार्यक्रमाच्या अध्यक्षस्थानी महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा होते. कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे संचालक विस्तार शिक्षण तथा संचालक संशोधन डॉ. शरद गडाख यांनी केले. यावेळी महाराष्ट्र कृषि शिक्षण व संशोधन परिषदेचे महासंचालक मा. श्री. विश्वजीत माने, डॉ. पंजाबराव देशमुख कृषि विद्यापीठाचे माजी कुलगरु डॉ. रविप्रकाश दाणी, उझबेकिस्तान येथील नमणगन अभियांत्रिकी आणि तंत्रज्ञान संस्थेचे डॉ. रावश्यान इस्मायलो, कामधेनु विद्यापीठाचे कार्यकारी परिषद सदस्य मा. श्री. प्रतापराव भोसले, जिल्हा अधिक्षक कृषि अधिकारी श्री. शिवाजी जगताप, अधिष्ठाता (कृषि) डॉ. अशोक फरांदे, कुलसचिव श्री. सोपान कासार, नियंत्रक श्री. विजय कोते, विद्यापीठ अभियंता इंजि. मिलिंद ढोके उपस्थित होते. या प्रसंगी सौ सुनिता पाटील, श्री. नाथाजी चौगुले, उपस्थित होते. याप्रसंगी मान्यवरांच्या हस्ते महात्मा फुले कृषि विद्यापीठाची संशोधन कार्यावर बनविलेल्या चित्रफितीचे तसेच पशुप्रदर्शन आणि प्रदर्शनाचे उद्घाटन करण्यात आले. यावेळी कृषि विभाग, जिल्हा मत्स्य विकास विभाग, आत्मा, अहमदनगर या विभागांचे प्रदर्शन स्थळी स्टॉल लावण्यात आलेले होते. कार्यक्रमाचे आभार डॉ. अशोक फरांदे यांनी मानले. या किसान आधार संमेलनाला विद्यापीठातील विभाग प्रमुख, प्राध्यापक, विद्यार्थी, विर्थ्याथींनी तसेच विविध जिल्ह्यातून मोठ्या संखेने शेतकर्यांनी उपस्थिती नोंदवली.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 25 ते 26 ऑक्टोबर, 2019 या कालावधीत किसान आधार संमेलनाचे आयोजन करण्यात आले होते. किसान आधार संमेलनातील प्रदर्शन, पशुप्रदर्शन, पीक प्रात्यक्षिके यांचे उद्घाटन नवी दिल्ली येथील राष्ट्रीय कोरडवाहू क्षेत्र प्राधिकरणाचे मुख्य कार्यकारी अधिकारी डॉ. अशोक दलवाई यांनी केले.  कार्यक्रमाच्या अध्यक्षस्थानी महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा होते. कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे संचालक विस्तार शिक्षण तथा संचालक संशोधन डॉ. शरद गडाख यांनी केले. यावेळी महाराष्ट्र कृषि शिक्षण व संशोधन परिषदेचे महासंचालक मा. श्री. विश्वजीत माने, डॉ. पंजाबराव देशमुख कृषि विद्यापीठाचे माजी कुलगरु डॉ. रविप्रकाश दाणी, उझबेकिस्तान येथील नमणगन अभियांत्रिकी आणि तंत्रज्ञान संस्थेचे डॉ. रावश्यान इस्मायलो, कामधेनु विद्यापीठाचे कार्यकारी परिषद सदस्य मा. श्री. प्रतापराव भोसले, जिल्हा अधिक्षक कृषि अधिकारी श्री. शिवाजी जगताप, अधिष्ठाता (कृषि) डॉ. अशोक फरांदे, कुलसचिव श्री. सोपान कासार, नियंत्रक श्री. विजय कोते, विद्यापीठ अभियंता इंजि. मिलिंद ढोके उपस्थित होते. या प्रसंगी सौ सुनिता पाटील, श्री. नाथाजी चौगुले, उपस्थित होते. याप्रसंगी मान्यवरांच्या हस्ते महात्मा फुले कृषि विद्यापीठाची संशोधन कार्यावर बनविलेल्या चित्रफितीचे तसेच पशुप्रदर्शन आणि प्रदर्शनाचे उद्घाटन करण्यात आले. यावेळी कृषि विभाग, जिल्हा मत्स्य विकास विभाग, आत्मा, अहमदनगर या विभागांचे प्रदर्शन स्थळी स्टॉल लावण्यात आलेले होते. कार्यक्रमाचे आभार डॉ. अशोक फरांदे यांनी मानले. या किसान आधार संमेलनाला विद्यापीठातील विभाग प्रमुख, प्राध्यापक, विद्यार्थी, विर्थ्याथींनी तसेच विविध जिल्ह्यातून मोठ्या संखेने शेतकर्यांनी उपस्थिती नोंदवली."
+      },
+      "order": 60
+    },
+    {
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 15 ते 18 ऑक्टोबर, 2018 या कालावधीत भव्य किसान आधार संमेलनाचे आयोजन करण्यात आले होते. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात आले होते. या किसान आधार संमेलनाचे उद्घाटन राज्याचे महसुल, मदत व पुनर्वसन, सार्वजनीक बांधकाम, कृषि व फलोत्पादन मंत्री ना. श्री. चंद्रकांत (दादा) पाटील यांनी केले. कार्यक्रमाच्या अध्यक्षस्थानी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, उपस्थित होते. यावेळी प्रमुख अतिथी म्हणुन ना. श्री. संजय धोत्रे, खासदार व उपाध्यक्ष महाराष्ट्र कृषि शिक्षण व संशोधन परिषद, पुणे, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर उपस्थित होते. या प्रसंगी खा. श्री. दिलीपकुमार गांधी लोकसभा सदस्य, आ. श्री. शिवाजी कर्डीले, विधानसभा सदस्य, राहुरी, श्री. सचिंद्र प्रताप सिंह (भाप्रसे), आयुक्त (कृषि), श्री. राहुल द्विवेदी, जिल्हाधिकारी, अहमदनगर, माजी आ. श्री. चंद्रशेखर कदम, शिर्डी संस्थान उपाध्यक्ष, कार्यकारी परिषद सदस्य डॉ. भास्कर पाटील, सौ सुनिता पाटील, श्री. नाथाजी चौगुले, डॉ. पंकजकुमार महाले, डॉ. विजयप्रकाश ठोंबरे उपस्थित होत. या कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा यांनी केले. या किसाना आधार संमेलनाला पशुसंवर्धन, दुग्धविकास व मत्स्यविकास मंत्री महादेव जानकर, राज्य कृषिमुल्य आयोगाचे अध्यक्ष ना. पाशा पटेल भेटी दिल्या. या किसान आधार संमेलनाचा समारोप कुलगुरु डॉ. के.पी. विश्वनाथा यांचे अध्यक्षतेखाली संपन्न झाला. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 15 भाजीपाला पिकांचे 30 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर आयोजित करण्यात आली होती.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 15 ते 18 ऑक्टोबर, 2018 या कालावधीत भव्य किसान आधार संमेलनाचे आयोजन करण्यात आले होते. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात आले होते. या किसान आधार संमेलनाचे उद्घाटन राज्याचे महसुल, मदत व पुनर्वसन, सार्वजनीक बांधकाम, कृषि व फलोत्पादन मंत्री ना. श्री. चंद्रकांत (दादा) पाटील यांनी केले. कार्यक्रमाच्या अध्यक्षस्थानी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, उपस्थित होते. यावेळी प्रमुख अतिथी म्हणुन ना. श्री. संजय धोत्रे, खासदार व उपाध्यक्ष महाराष्ट्र कृषि शिक्षण व संशोधन परिषद, पुणे, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर उपस्थित होते. या प्रसंगी खा. श्री. दिलीपकुमार गांधी लोकसभा सदस्य, आ. श्री. शिवाजी कर्डीले, विधानसभा सदस्य, राहुरी, श्री. सचिंद्र प्रताप सिंह (भाप्रसे), आयुक्त (कृषि), श्री. राहुल द्विवेदी, जिल्हाधिकारी, अहमदनगर, माजी आ. श्री. चंद्रशेखर कदम, शिर्डी संस्थान उपाध्यक्ष, कार्यकारी परिषद सदस्य डॉ. भास्कर पाटील, सौ सुनिता पाटील, श्री. नाथाजी चौगुले, डॉ. पंकजकुमार महाले, डॉ. विजयप्रकाश ठोंबरे उपस्थित होत. या कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा यांनी केले. या किसाना आधार संमेलनाला पशुसंवर्धन, दुग्धविकास व मत्स्यविकास मंत्री महादेव जानकर, राज्य कृषिमुल्य आयोगाचे अध्यक्ष ना. पाशा पटेल भेटी दिल्या. या किसान आधार संमेलनाचा समारोप कुलगुरु डॉ. के.पी. विश्वनाथा यांचे अध्यक्षतेखाली संपन्न झाला. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 15 भाजीपाला पिकांचे 30 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर आयोजित करण्यात आली होती."
+      },
+      "order": 61
+    },
+    {
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ, राहुरी, कृषि विभाग महाराष्ट्र शासन व आत्मा अहमदनगर यांचे सहकार्याने न्यू इंडिया मंथन संकल्प से सिध्दी, उन्नत शेती - समृध्द शेतकरी, किसान आधार संमेलन 2017 चे दिनांक 25-29 सप्टेंबर, 2017 दरम्यान आयोजित करण्यात आले होते.दिनांक 27 सप्टेंबर, 2017 रोजी किसान आधार संमेलन 2017 चे उद्घाटन राज्याचे कृषि व फलोत्पादन मंत्री आणि प्रतिकुलपती, मफुकृवि ना.श्री. पांडुरंग फुंदकर यांचे शुभहस्ते झाले. याप्रसंगी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर, प्रमुख आतिथी म्हणून उपस्थित होते. अध्यक्षस्थानी विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा उपस्थित होते. याप्रसंगी व्यासपीठावर खा.श्री. दिलीप गांधी, लोकसभा सदस्य, अहमदनगर, आ.श्री. प्रकाश गजभिये, विधान परिषद सदस्य, आ.श्री. शिवाजीराव कर्डीले विधानसभा सदस्य, राहुरी, श्री. सचिद्रं प्रतापसिंह (भाप्रसे) आयुक्त (कृषि), महाराष्ट्र राज्य, आ. श्री. भाऊसाहेब कांबळे, श्री. चंद्रशेखर कदम, उपाध्यक्ष, शिर्डी संस्थान, श्री. श्रीपाद छिंदम उपमहापोर, अहमदनगर, श्री. भास्करराव पाटील, कार्यकारी परिषद सदस्य, विस्तार शिक्षण संचालक डॉ. किरण कोकाटे, अधिष्ठाता (कृषि), डॉ. अशोक फरांदे आणि संशोधन संचालक डॉ. शरद गडाख उपस्थित होते. दिनांक 25 सप्टेंबर, 2017 रोजी किसान आधार संमेलनातील पशुप्रदर्शन आणि शेतकरी शास्त्रज्ञ चर्चासत्राचे उद्घाटन राज्याचे पशुसंवर्धन, दुग्धव्यवसाय विकास व मत्स्य विकास मंत्री ना.श्री. महादेव जानकर यांच्या हस्ते करण्यात आले. या किसान आधार संमेलनाचा समारोप प्रसंगी प्रमुख पाहुणे म्हणुन राज्याचे गृह, ग्रामीन, वित्त व नियोजन राज्य मंत्री ना. श्री. दिपक केसरकर उपस्थित होते. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 14 भाजीपाला पिकांचे 28 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर अयोजित करण्यात आली होती.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी, कृषि विभाग महाराष्ट्र शासन व आत्मा अहमदनगर यांचे सहकार्याने न्यू इंडिया मंथन संकल्प से सिध्दी, उन्नत शेती - समृध्द शेतकरी, किसान आधार संमेलन 2017 चे दिनांक 25-29 सप्टेंबर, 2017 दरम्यान आयोजित करण्यात आले होते.दिनांक 27 सप्टेंबर, 2017 रोजी किसान आधार संमेलन 2017 चे उद्घाटन राज्याचे कृषि व फलोत्पादन मंत्री आणि प्रतिकुलपती, मफुकृवि ना.श्री. पांडुरंग फुंदकर यांचे शुभहस्ते झाले. याप्रसंगी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर, प्रमुख आतिथी म्हणून उपस्थित होते. अध्यक्षस्थानी विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा उपस्थित होते. याप्रसंगी व्यासपीठावर खा.श्री. दिलीप गांधी, लोकसभा सदस्य, अहमदनगर, आ.श्री. प्रकाश गजभिये, विधान परिषद सदस्य, आ.श्री. शिवाजीराव कर्डीले विधानसभा सदस्य, राहुरी, श्री. सचिद्रं प्रतापसिंह (भाप्रसे) आयुक्त (कृषि), महाराष्ट्र राज्य, आ. श्री. भाऊसाहेब कांबळे, श्री. चंद्रशेखर कदम, उपाध्यक्ष, शिर्डी संस्थान, श्री. श्रीपाद छिंदम उपमहापोर, अहमदनगर, श्री. भास्करराव पाटील, कार्यकारी परिषद सदस्य, विस्तार शिक्षण संचालक डॉ. किरण कोकाटे, अधिष्ठाता (कृषि), डॉ. अशोक फरांदे आणि संशोधन संचालक डॉ. शरद गडाख उपस्थित होते. दिनांक 25 सप्टेंबर, 2017 रोजी किसान आधार संमेलनातील पशुप्रदर्शन आणि शेतकरी शास्त्रज्ञ चर्चासत्राचे उद्घाटन राज्याचे पशुसंवर्धन, दुग्धव्यवसाय विकास व मत्स्य विकास मंत्री ना.श्री. महादेव जानकर यांच्या हस्ते करण्यात आले. या किसान आधार संमेलनाचा समारोप प्रसंगी प्रमुख पाहुणे म्हणुन राज्याचे गृह, ग्रामीन, वित्त व नियोजन राज्य मंत्री ना. श्री. दिपक केसरकर उपस्थित होते. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 14 भाजीपाला पिकांचे 28 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर अयोजित करण्यात आली होती."
+      },
+      "order": 62
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Farmer",
+          "mr": "शेतकरी"
+        },
+        {
+          "en": "Farmer Scientist Forum",
+          "mr": "Farmer Scientist Forum"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "Inputs",
+          "mr": "Inputs"
+        },
+        {
+          "en": "Services",
+          "mr": "Services"
+        },
+        {
+          "en": "Publications",
+          "mr": "Publications"
+        },
+        {
+          "en": "Success Stories",
+          "mr": "Success Stories"
+        }
+      ],
+      "order": 63
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/KASHome.jpg",
+      "localPath": "/media/images/KASHome.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KAS 2019 (1)_20200110061243.JPG",
+      "localPath": "/media/images/KAS_2019_1_20200110061243.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KAS-2018_19_07_19_20191127120642.JPG",
+      "localPath": "/media/images/KAS-2018_19_07_19_20191127120642.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KAS-2017_17_07_19_20191126051511.JPG",
+      "localPath": "/media/images/KAS-2017_17_07_19_20191126051511.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASBrochure2018_19_07_19_20191127120642.pdf",
+      "localPath": "/media/docs/KASBrochure2018_19_07_19_20191127120642.pdf",
+      "category": "docs",
+      "label": "माहितीपत्रक"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASPoster2018_19_07_19_20191127120642.pdf",
+      "localPath": "/media/docs/KASPoster2018_19_07_19_20191127120642.pdf",
+      "category": "docs",
+      "label": "भीत्तीपत्रक"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASTechnicalProgramme2018_19_07_19_20191127120642.pdf",
+      "localPath": "/media/docs/KASTechnicalProgramme2018_19_07_19_20191127120642.pdf",
+      "category": "docs",
+      "label": "चर्चासत्रे"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASBrochure2017_17_07_19_20191126051511.pdf",
+      "localPath": "/media/docs/KASBrochure2017_17_07_19_20191126051511.pdf",
+      "category": "docs",
+      "label": "माहितीपत्रक"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASPoster2017_17_07_19_20191126051511.pdf",
+      "localPath": "/media/docs/KASPoster2017_17_07_19_20191126051511.pdf",
+      "category": "docs",
+      "label": "भीत्तीपत्रक"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/Technical Programme KAs 2017_17_07_19_20191127115956.pdf",
+      "localPath": "/media/docs/Technical_Programme_KAs_2017_17_07_19_20191127115956.pdf",
+      "category": "docs",
+      "label": "चर्चासत्रे"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "order": 55
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "किसान आधार संमेलन 2019",
+        "mr": "किसान आधार संमेलन 2019"
+      },
+      "order": 56
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "किसान आधार संमेलन 2018",
+        "mr": "किसान आधार संमेलन 2018"
+      },
+      "order": 57
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "किसान आधार संमेलन 2017",
+        "mr": "किसान आधार संमेलन 2017"
+      },
+      "order": 58
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ सन 2017 पासुन भव्य किसान आधार संमेलनाचे आयोजन करण्यात येत आहे. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात येत असते. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, भाजीपाला, चारा आणि नगदी पिकांमधील विविध वाणांचे विद्यापीठाच्या प्रक्षेत्रावर प्रात्यक्षिके आयोजित केली जातात. या प्रात्यक्षिकांमध्ये ड्रॅगन फळ लागवड, शेडनेटमधील फुल शेती व भाजीपाला लागवड याचा समावेश केलेला आहे. याचबरोबर सिंचन प्रणाली, निचरा पध्दती, माती परिक्षण प्रात्यक्षिके, एकात्मिक शेती पध्दतीचे मॉडेल, गांडूळ खत उत्पादन प्रकल्प, मधुमक्षिका पालन, जिवाणू खते, जैविक किड नियंत्रण, एकात्मिक किड व्यवस्थापन इत्यादी कृषि तंत्रज्ञान पाहण्याची व जाणून घेण्याची संधी या निमित्त उपलब्ध करुण देण्यात येते. किसान आधार संमेलनामध्ये भव्य असे कृषि पदर्शनाचे आयोजन करण्यात येते. या कृषि पदर्शनामध्ये शेतकर्‍यांना शासकीय संस्था तसेच खाजगी कंपन्या, कृषि निविष्ठा, कृषि अवजारे, प्रक्रिया उद्योग, कृषि पूरक व्यवसाय, आळिंबी उत्पादन, सुंगधी व औषधी वनस्पती अशा आधुनिक कृषि तंत्रज्ञान दालने उभारण्यात येतात. या व्यतिरीक्त भव्य असे पशु-पक्षी प्रदर्शन आयोजित करण्यात येते. प्रदर्शनस्थळी कृषि विद्यापीठांनी विकसीत केलेले तंत्रज्ञान, कृषि विभागाच्या योजना, विविध खाजगी कंपंन्यांनी विकसीत केलेले तंत्रज्ञान शेतकर्‍यांना एकाच दालनाखाली पाहण्यास मिळतात. या प्रसंगी प्रत्येक दिवशी विविध विषयांवर कृषि शास्त्रज्ञांचे आणि प्रगतशील शेतकर्‍यांचे व्याख्याणे आणि चर्चासत्रांचे आयोजन करण्यात येते. या माध्यमातुन विद्यापीठ विविध लोकाभीमुख उपक्रम राबविण्यावर भर देत आहे.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ सन 2017 पासुन भव्य किसान आधार संमेलनाचे आयोजन करण्यात येत आहे. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात येत असते. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, भाजीपाला, चारा आणि नगदी पिकांमधील विविध वाणांचे विद्यापीठाच्या प्रक्षेत्रावर प्रात्यक्षिके आयोजित केली जातात. या प्रात्यक्षिकांमध्ये ड्रॅगन फळ लागवड, शेडनेटमधील फुल शेती व भाजीपाला लागवड याचा समावेश केलेला आहे. याचबरोबर सिंचन प्रणाली, निचरा पध्दती, माती परिक्षण प्रात्यक्षिके, एकात्मिक शेती पध्दतीचे मॉडेल, गांडूळ खत उत्पादन प्रकल्प, मधुमक्षिका पालन, जिवाणू खते, जैविक किड नियंत्रण, एकात्मिक किड व्यवस्थापन इत्यादी कृषि तंत्रज्ञान पाहण्याची व जाणून घेण्याची संधी या निमित्त उपलब्ध करुण देण्यात येते. किसान आधार संमेलनामध्ये भव्य असे कृषि पदर्शनाचे आयोजन करण्यात येते. या कृषि पदर्शनामध्ये शेतकर्‍यांना शासकीय संस्था तसेच खाजगी कंपन्या, कृषि निविष्ठा, कृषि अवजारे, प्रक्रिया उद्योग, कृषि पूरक व्यवसाय, आळिंबी उत्पादन, सुंगधी व औषधी वनस्पती अशा आधुनिक कृषि तंत्रज्ञान दालने उभारण्यात येतात. या व्यतिरीक्त भव्य असे पशु-पक्षी प्रदर्शन आयोजित करण्यात येते. प्रदर्शनस्थळी कृषि विद्यापीठांनी विकसीत केलेले तंत्रज्ञान, कृषि विभागाच्या योजना, विविध खाजगी कंपंन्यांनी विकसीत केलेले तंत्रज्ञान शेतकर्‍यांना एकाच दालनाखाली पाहण्यास मिळतात. या प्रसंगी प्रत्येक दिवशी विविध विषयांवर कृषि शास्त्रज्ञांचे आणि प्रगतशील शेतकर्‍यांचे व्याख्याणे आणि चर्चासत्रांचे आयोजन करण्यात येते. या माध्यमातुन विद्यापीठ विविध लोकाभीमुख उपक्रम राबविण्यावर भर देत आहे."
+      },
+      "order": 59
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 25 ते 26 ऑक्टोबर, 2019 या कालावधीत किसान आधार संमेलनाचे आयोजन करण्यात आले होते. किसान आधार संमेलनातील प्रदर्शन, पशुप्रदर्शन, पीक प्रात्यक्षिके यांचे उद्घाटन नवी दिल्ली येथील राष्ट्रीय कोरडवाहू क्षेत्र प्राधिकरणाचे मुख्य कार्यकारी अधिकारी डॉ. अशोक दलवाई यांनी केले.  कार्यक्रमाच्या अध्यक्षस्थानी महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा होते. कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे संचालक विस्तार शिक्षण तथा संचालक संशोधन डॉ. शरद गडाख यांनी केले. यावेळी महाराष्ट्र कृषि शिक्षण व संशोधन परिषदेचे महासंचालक मा. श्री. विश्वजीत माने, डॉ. पंजाबराव देशमुख कृषि विद्यापीठाचे माजी कुलगरु डॉ. रविप्रकाश दाणी, उझबेकिस्तान येथील नमणगन अभियांत्रिकी आणि तंत्रज्ञान संस्थेचे डॉ. रावश्यान इस्मायलो, कामधेनु विद्यापीठाचे कार्यकारी परिषद सदस्य मा. श्री. प्रतापराव भोसले, जिल्हा अधिक्षक कृषि अधिकारी श्री. शिवाजी जगताप, अधिष्ठाता (कृषि) डॉ. अशोक फरांदे, कुलसचिव श्री. सोपान कासार, नियंत्रक श्री. विजय कोते, विद्यापीठ अभियंता इंजि. मिलिंद ढोके उपस्थित होते. या प्रसंगी सौ सुनिता पाटील, श्री. नाथाजी चौगुले, उपस्थित होते. याप्रसंगी मान्यवरांच्या हस्ते महात्मा फुले कृषि विद्यापीठाची संशोधन कार्यावर बनविलेल्या चित्रफितीचे तसेच पशुप्रदर्शन आणि प्रदर्शनाचे उद्घाटन करण्यात आले. यावेळी कृषि विभाग, जिल्हा मत्स्य विकास विभाग, आत्मा, अहमदनगर या विभागांचे प्रदर्शन स्थळी स्टॉल लावण्यात आलेले होते. कार्यक्रमाचे आभार डॉ. अशोक फरांदे यांनी मानले. या किसान आधार संमेलनाला विद्यापीठातील विभाग प्रमुख, प्राध्यापक, विद्यार्थी, विर्थ्याथींनी तसेच विविध जिल्ह्यातून मोठ्या संखेने शेतकर्यांनी उपस्थिती नोंदवली.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 25 ते 26 ऑक्टोबर, 2019 या कालावधीत किसान आधार संमेलनाचे आयोजन करण्यात आले होते. किसान आधार संमेलनातील प्रदर्शन, पशुप्रदर्शन, पीक प्रात्यक्षिके यांचे उद्घाटन नवी दिल्ली येथील राष्ट्रीय कोरडवाहू क्षेत्र प्राधिकरणाचे मुख्य कार्यकारी अधिकारी डॉ. अशोक दलवाई यांनी केले.  कार्यक्रमाच्या अध्यक्षस्थानी महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा होते. कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे संचालक विस्तार शिक्षण तथा संचालक संशोधन डॉ. शरद गडाख यांनी केले. यावेळी महाराष्ट्र कृषि शिक्षण व संशोधन परिषदेचे महासंचालक मा. श्री. विश्वजीत माने, डॉ. पंजाबराव देशमुख कृषि विद्यापीठाचे माजी कुलगरु डॉ. रविप्रकाश दाणी, उझबेकिस्तान येथील नमणगन अभियांत्रिकी आणि तंत्रज्ञान संस्थेचे डॉ. रावश्यान इस्मायलो, कामधेनु विद्यापीठाचे कार्यकारी परिषद सदस्य मा. श्री. प्रतापराव भोसले, जिल्हा अधिक्षक कृषि अधिकारी श्री. शिवाजी जगताप, अधिष्ठाता (कृषि) डॉ. अशोक फरांदे, कुलसचिव श्री. सोपान कासार, नियंत्रक श्री. विजय कोते, विद्यापीठ अभियंता इंजि. मिलिंद ढोके उपस्थित होते. या प्रसंगी सौ सुनिता पाटील, श्री. नाथाजी चौगुले, उपस्थित होते. याप्रसंगी मान्यवरांच्या हस्ते महात्मा फुले कृषि विद्यापीठाची संशोधन कार्यावर बनविलेल्या चित्रफितीचे तसेच पशुप्रदर्शन आणि प्रदर्शनाचे उद्घाटन करण्यात आले. यावेळी कृषि विभाग, जिल्हा मत्स्य विकास विभाग, आत्मा, अहमदनगर या विभागांचे प्रदर्शन स्थळी स्टॉल लावण्यात आलेले होते. कार्यक्रमाचे आभार डॉ. अशोक फरांदे यांनी मानले. या किसान आधार संमेलनाला विद्यापीठातील विभाग प्रमुख, प्राध्यापक, विद्यार्थी, विर्थ्याथींनी तसेच विविध जिल्ह्यातून मोठ्या संखेने शेतकर्यांनी उपस्थिती नोंदवली."
+      },
+      "order": 60
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 15 ते 18 ऑक्टोबर, 2018 या कालावधीत भव्य किसान आधार संमेलनाचे आयोजन करण्यात आले होते. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात आले होते. या किसान आधार संमेलनाचे उद्घाटन राज्याचे महसुल, मदत व पुनर्वसन, सार्वजनीक बांधकाम, कृषि व फलोत्पादन मंत्री ना. श्री. चंद्रकांत (दादा) पाटील यांनी केले. कार्यक्रमाच्या अध्यक्षस्थानी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, उपस्थित होते. यावेळी प्रमुख अतिथी म्हणुन ना. श्री. संजय धोत्रे, खासदार व उपाध्यक्ष महाराष्ट्र कृषि शिक्षण व संशोधन परिषद, पुणे, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर उपस्थित होते. या प्रसंगी खा. श्री. दिलीपकुमार गांधी लोकसभा सदस्य, आ. श्री. शिवाजी कर्डीले, विधानसभा सदस्य, राहुरी, श्री. सचिंद्र प्रताप सिंह (भाप्रसे), आयुक्त (कृषि), श्री. राहुल द्विवेदी, जिल्हाधिकारी, अहमदनगर, माजी आ. श्री. चंद्रशेखर कदम, शिर्डी संस्थान उपाध्यक्ष, कार्यकारी परिषद सदस्य डॉ. भास्कर पाटील, सौ सुनिता पाटील, श्री. नाथाजी चौगुले, डॉ. पंकजकुमार महाले, डॉ. विजयप्रकाश ठोंबरे उपस्थित होत. या कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा यांनी केले. या किसाना आधार संमेलनाला पशुसंवर्धन, दुग्धविकास व मत्स्यविकास मंत्री महादेव जानकर, राज्य कृषिमुल्य आयोगाचे अध्यक्ष ना. पाशा पटेल भेटी दिल्या. या किसान आधार संमेलनाचा समारोप कुलगुरु डॉ. के.पी. विश्वनाथा यांचे अध्यक्षतेखाली संपन्न झाला. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 15 भाजीपाला पिकांचे 30 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर आयोजित करण्यात आली होती.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ आणि कृषि विभाग, महाराष्ट्र शासन यांच्या संयुक्त विद्यमाने महात्मा फुले कृषि विद्यापीठ, राहुरी येथे दि. 15 ते 18 ऑक्टोबर, 2018 या कालावधीत भव्य किसान आधार संमेलनाचे आयोजन करण्यात आले होते. या किसान आधार संमेलनात शेतकर्‍यांसाठी कृषि प्रदर्शन, विविध पिकांचे प्रात्यक्षिके, पशु प्रदर्शन आणि विविध कृषि विषयांवर व्याख्याणे व चर्चासत्रांचे आयोजन करण्यात आले होते. या किसान आधार संमेलनाचे उद्घाटन राज्याचे महसुल, मदत व पुनर्वसन, सार्वजनीक बांधकाम, कृषि व फलोत्पादन मंत्री ना. श्री. चंद्रकांत (दादा) पाटील यांनी केले. कार्यक्रमाच्या अध्यक्षस्थानी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, उपस्थित होते. यावेळी प्रमुख अतिथी म्हणुन ना. श्री. संजय धोत्रे, खासदार व उपाध्यक्ष महाराष्ट्र कृषि शिक्षण व संशोधन परिषद, पुणे, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर उपस्थित होते. या प्रसंगी खा. श्री. दिलीपकुमार गांधी लोकसभा सदस्य, आ. श्री. शिवाजी कर्डीले, विधानसभा सदस्य, राहुरी, श्री. सचिंद्र प्रताप सिंह (भाप्रसे), आयुक्त (कृषि), श्री. राहुल द्विवेदी, जिल्हाधिकारी, अहमदनगर, माजी आ. श्री. चंद्रशेखर कदम, शिर्डी संस्थान उपाध्यक्ष, कार्यकारी परिषद सदस्य डॉ. भास्कर पाटील, सौ सुनिता पाटील, श्री. नाथाजी चौगुले, डॉ. पंकजकुमार महाले, डॉ. विजयप्रकाश ठोंबरे उपस्थित होत. या कार्यक्रमाचे प्रास्ताविक आणि स्वागत महात्मा फुले कृषि विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा यांनी केले. या किसाना आधार संमेलनाला पशुसंवर्धन, दुग्धविकास व मत्स्यविकास मंत्री महादेव जानकर, राज्य कृषिमुल्य आयोगाचे अध्यक्ष ना. पाशा पटेल भेटी दिल्या. या किसान आधार संमेलनाचा समारोप कुलगुरु डॉ. के.पी. विश्वनाथा यांचे अध्यक्षतेखाली संपन्न झाला. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 15 भाजीपाला पिकांचे 30 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर आयोजित करण्यात आली होती."
+      },
+      "order": 61
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "महात्मा फुले कृषि विद्यापीठ, राहुरी, कृषि विभाग महाराष्ट्र शासन व आत्मा अहमदनगर यांचे सहकार्याने न्यू इंडिया मंथन संकल्प से सिध्दी, उन्नत शेती - समृध्द शेतकरी, किसान आधार संमेलन 2017 चे दिनांक 25-29 सप्टेंबर, 2017 दरम्यान आयोजित करण्यात आले होते.दिनांक 27 सप्टेंबर, 2017 रोजी किसान आधार संमेलन 2017 चे उद्घाटन राज्याचे कृषि व फलोत्पादन मंत्री आणि प्रतिकुलपती, मफुकृवि ना.श्री. पांडुरंग फुंदकर यांचे शुभहस्ते झाले. याप्रसंगी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर, प्रमुख आतिथी म्हणून उपस्थित होते. अध्यक्षस्थानी विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा उपस्थित होते. याप्रसंगी व्यासपीठावर खा.श्री. दिलीप गांधी, लोकसभा सदस्य, अहमदनगर, आ.श्री. प्रकाश गजभिये, विधान परिषद सदस्य, आ.श्री. शिवाजीराव कर्डीले विधानसभा सदस्य, राहुरी, श्री. सचिद्रं प्रतापसिंह (भाप्रसे) आयुक्त (कृषि), महाराष्ट्र राज्य, आ. श्री. भाऊसाहेब कांबळे, श्री. चंद्रशेखर कदम, उपाध्यक्ष, शिर्डी संस्थान, श्री. श्रीपाद छिंदम उपमहापोर, अहमदनगर, श्री. भास्करराव पाटील, कार्यकारी परिषद सदस्य, विस्तार शिक्षण संचालक डॉ. किरण कोकाटे, अधिष्ठाता (कृषि), डॉ. अशोक फरांदे आणि संशोधन संचालक डॉ. शरद गडाख उपस्थित होते. दिनांक 25 सप्टेंबर, 2017 रोजी किसान आधार संमेलनातील पशुप्रदर्शन आणि शेतकरी शास्त्रज्ञ चर्चासत्राचे उद्घाटन राज्याचे पशुसंवर्धन, दुग्धव्यवसाय विकास व मत्स्य विकास मंत्री ना.श्री. महादेव जानकर यांच्या हस्ते करण्यात आले. या किसान आधार संमेलनाचा समारोप प्रसंगी प्रमुख पाहुणे म्हणुन राज्याचे गृह, ग्रामीन, वित्त व नियोजन राज्य मंत्री ना. श्री. दिपक केसरकर उपस्थित होते. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 14 भाजीपाला पिकांचे 28 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर अयोजित करण्यात आली होती.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी, कृषि विभाग महाराष्ट्र शासन व आत्मा अहमदनगर यांचे सहकार्याने न्यू इंडिया मंथन संकल्प से सिध्दी, उन्नत शेती - समृध्द शेतकरी, किसान आधार संमेलन 2017 चे दिनांक 25-29 सप्टेंबर, 2017 दरम्यान आयोजित करण्यात आले होते.दिनांक 27 सप्टेंबर, 2017 रोजी किसान आधार संमेलन 2017 चे उद्घाटन राज्याचे कृषि व फलोत्पादन मंत्री आणि प्रतिकुलपती, मफुकृवि ना.श्री. पांडुरंग फुंदकर यांचे शुभहस्ते झाले. याप्रसंगी ना. प्रा. राम शिंदे, मंत्री जलसंधारण व राजशिष्टाचार तथा पालकमंत्री अहमदनगर जिल्हा, ना. सौ. शालीनीताई विखे पाटील अध्यक्षा, जिल्हा परिषद अहमदनगर, प्रमुख आतिथी म्हणून उपस्थित होते. अध्यक्षस्थानी विद्यापीठाचे कुलगुरु डॉ. के.पी. विश्वनाथा उपस्थित होते. याप्रसंगी व्यासपीठावर खा.श्री. दिलीप गांधी, लोकसभा सदस्य, अहमदनगर, आ.श्री. प्रकाश गजभिये, विधान परिषद सदस्य, आ.श्री. शिवाजीराव कर्डीले विधानसभा सदस्य, राहुरी, श्री. सचिद्रं प्रतापसिंह (भाप्रसे) आयुक्त (कृषि), महाराष्ट्र राज्य, आ. श्री. भाऊसाहेब कांबळे, श्री. चंद्रशेखर कदम, उपाध्यक्ष, शिर्डी संस्थान, श्री. श्रीपाद छिंदम उपमहापोर, अहमदनगर, श्री. भास्करराव पाटील, कार्यकारी परिषद सदस्य, विस्तार शिक्षण संचालक डॉ. किरण कोकाटे, अधिष्ठाता (कृषि), डॉ. अशोक फरांदे आणि संशोधन संचालक डॉ. शरद गडाख उपस्थित होते. दिनांक 25 सप्टेंबर, 2017 रोजी किसान आधार संमेलनातील पशुप्रदर्शन आणि शेतकरी शास्त्रज्ञ चर्चासत्राचे उद्घाटन राज्याचे पशुसंवर्धन, दुग्धव्यवसाय विकास व मत्स्य विकास मंत्री ना.श्री. महादेव जानकर यांच्या हस्ते करण्यात आले. या किसान आधार संमेलनाचा समारोप प्रसंगी प्रमुख पाहुणे म्हणुन राज्याचे गृह, ग्रामीन, वित्त व नियोजन राज्य मंत्री ना. श्री. दिपक केसरकर उपस्थित होते. या किसान आधार संमेलनाला माजी कुलगुरु, शास्त्रज्ञ, समाजसुधारक, शेतकरी, विद्यार्थ्यांनी मोठ्या संख्येने भेट दिली. या किसान आधार संमेलनातील पीक प्रात्यक्षिकांमध्ये तेलबिया, कडधान्य, तृणधान्य, चारा आणि नगदी पिकांमधील विविध 30 पिकांचे 101 वाण, 14 भाजीपाला पिकांचे 28 वाणांचे प्रात्यक्षिके 100 एकर क्षेत्रावर अयोजित करण्यात आली होती."
+      },
+      "order": 62
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Farmer",
+          "mr": "शेतकरी"
+        },
+        {
+          "en": "Farmer Scientist Forum",
+          "mr": "Farmer Scientist Forum"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "Inputs",
+          "mr": "Inputs"
+        },
+        {
+          "en": "Services",
+          "mr": "Services"
+        },
+        {
+          "en": "Publications",
+          "mr": "Publications"
+        },
+        {
+          "en": "Success Stories",
+          "mr": "Success Stories"
+        }
+      ],
+      "order": 63
+    }
+  ],
+  "stats": {
+    "headingCount": 58,
+    "paragraphCount": 4,
+    "listCount": 1,
+    "tableCount": 0,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 25,
+    "totalRecords": 87
+  }
+}

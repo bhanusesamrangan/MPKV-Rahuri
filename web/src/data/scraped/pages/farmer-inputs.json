@@ -1,0 +1,6068 @@
+{
+  "slug": "farmer-inputs",
+  "url": "https://mpkv.ac.in/Farmer/FarmerInputes",
+  "route": "/Farmer/FarmerInputes",
+  "sourcePage": "farmer-inputs",
+  "scrapedAt": "2026-11-22T20:35:36.613822",
+  "title": {
+    "en": "Farmer",
+    "mr": "शेतकरी"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "href": "/Farmer/FarmerSciForum"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Farmer",
+      "mr": "शेतकरी"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Farmer",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — शेतकरी"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "order": 55
+    },
+    {
+      "level": "h1",
+      "text": {
+        "en": "बियाणे उपलब्धता",
+        "mr": "बियाणे उपलब्धता"
+      },
+      "order": 56
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "तृणधान्य बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)",
+        "mr": "तृणधान्य बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)"
+      },
+      "order": 57
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "भाजीपाला बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)",
+        "mr": "भाजीपाला बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)"
+      },
+      "order": 58
+    },
+    {
+      "level": "h1",
+      "text": {
+        "en": "रोपे/कलमे उपलब्धता",
+        "mr": "रोपे/कलमे उपलब्धता"
+      },
+      "order": 59
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "उद्यानविद्या रोपवाटिका,प्रक्षेत्र मफुकृवि राहुरी,०२४२६-२४३४४२",
+        "mr": "उद्यानविद्या रोपवाटिका,प्रक्षेत्र मफुकृवि राहुरी,०२४२६-२४३४४२"
+      },
+      "order": 60
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "मध्यवर्ती रोपवाटिका,बियाणे विभाग  मफुकृवि राहुरी,०२४२६-२४३३३८",
+        "mr": "मध्यवर्ती रोपवाटिका,बियाणे विभाग  मफुकृवि राहुरी,०२४२६-२४३३३८"
+      },
+      "order": 61
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "मोदी बाग रोपवाटिका,उद्यानविद्या विभाग कृषी विद्यालय, पुणे",
+        "mr": "मोदी बाग रोपवाटिका,उद्यानविद्या विभाग कृषी विद्यालय, पुणे"
+      },
+      "order": 62
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प ,गणेशखिंड, पुणे  ०२०-२५६९३७५०",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प ,गणेशखिंड, पुणे  ०२०-२५६९३७५०"
+      },
+      "order": 63
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "उद्यानविद्या रोपवाटिका, रा.छ.शा.म. कृषी महाविद्यालय कोल्हापूर ०२३१-२६०७५९०",
+        "mr": "उद्यानविद्या रोपवाटिका, रा.छ.शा.म. कृषी महाविद्यालय कोल्हापूर ०२३१-२६०७५९०"
+      },
+      "order": 64
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "कृषी संशोधन प्रकल्प,कसबे दिग्रज,सांगली- ०२३३ -२४३७२७५",
+        "mr": "कृषी संशोधन प्रकल्प,कसबे दिग्रज,सांगली- ०२३३ -२४३७२७५"
+      },
+      "order": 65
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प,सोलापूर -०२१७-२३७३०४७",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प,सोलापूर -०२१७-२३७३०४७"
+      },
+      "order": 66
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "अखिल भारतीय समन्वयीत फळपिके , संशोधन प्रकल्प,उपकेंद्र श्रीरामपूर- ०२४२२-२२७२५४/ ०२४२६-२४३३४४",
+        "mr": "अखिल भारतीय समन्वयीत फळपिके , संशोधन प्रकल्प,उपकेंद्र श्रीरामपूर- ०२४२२-२२७२५४/ ०२४२६-२४३३४४"
+      },
+      "order": 67
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "डाळिंब संशोधन व तंत्रज्ञान प्रसारण केंद्र ,लखमापूर  ता. बागलाण जि. नाशिक- ०२५५५-२३५५५५ , २३५४४४",
+        "mr": "डाळिंब संशोधन व तंत्रज्ञान प्रसारण केंद्र ,लखमापूर  ता. बागलाण जि. नाशिक- ०२५५५-२३५५५५ , २३५४४४"
+      },
+      "order": 68
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "कृषी महाविद्यालय धुळे  - ०२५६२-२३०३६८",
+        "mr": "कृषी महाविद्यालय धुळे  - ०२५६२-२३०३६८"
+      },
+      "order": 69
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प, शेंडापार्क,कोल्हापूर- ०२३१-२६९२४१६",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प, शेंडापार्क,कोल्हापूर- ०२३१-२६९२४१६"
+      },
+      "order": 70
+    },
+    {
+      "level": "h3",
+      "text": {
+        "en": "कृषी अवजारे व यंत्रे उत्पादने उपलब्धता",
+        "mr": "कृषी अवजारे व यंत्रे उत्पादने उपलब्धता"
+      },
+      "order": 71
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Tractor Operated",
+        "mr": "Tractor Operated"
+      },
+      "order": 72
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Power Operated",
+        "mr": "Power Operated"
+      },
+      "order": 73
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Bullock Drawn",
+        "mr": "Bullock Drawn"
+      },
+      "order": 74
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Manually Operated",
+        "mr": "Manually Operated"
+      },
+      "order": 75
+    }
+  ],
+  "paragraphs": [],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Farmer",
+          "mr": "शेतकरी"
+        },
+        {
+          "en": "Farmer Scientist Forum",
+          "mr": "Farmer Scientist Forum"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "Inputs",
+          "mr": "Inputs"
+        },
+        {
+          "en": "Services",
+          "mr": "Services"
+        },
+        {
+          "en": "Publications",
+          "mr": "Publications"
+        },
+        {
+          "en": "Success Stories",
+          "mr": "Success Stories"
+        }
+      ],
+      "order": 76
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Seeds   /बियाणे",
+          "mr": "Seeds   /बियाणे"
+        },
+        {
+          "en": "Planting Material   /लागवड साहित्य",
+          "mr": "Planting Material   /लागवड साहित्य"
+        },
+        {
+          "en": "Farm Implements   / शेतीची अवजारे",
+          "mr": "Farm Implements   / शेतीची अवजारे"
+        }
+      ],
+      "order": 77
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Bio-Fertilizers",
+          "mr": "Bio-Fertilizers"
+        },
+        {
+          "en": "Bio-Pesticides / जैविक कीटकनाशके",
+          "mr": "Bio-Pesticides / जैविक कीटकनाशके"
+        },
+        {
+          "en": "Bakery Products / बेकरी उत्पादने",
+          "mr": "Bakery Products / बेकरी उत्पादने"
+        },
+        {
+          "en": "Phule Drinking Water / फुले पिण्याचे पाणी",
+          "mr": "Phule Drinking Water / फुले पिण्याचे पाणी"
+        },
+        {
+          "en": "Phule Liquid Micrograde II / फुले लिक्विड मायक्रोग्रेड II",
+          "mr": "Phule Liquid Micrograde II / फुले लिक्विड मायक्रोग्रेड II"
+        },
+        {
+          "en": "Bio-Fertilizers",
+          "mr": "Bio-Fertilizers"
+        }
+      ],
+      "order": 78
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "caption": {
+        "en": "तृणधान्य बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)",
+        "mr": "तृणधान्य बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "पिक",
+          "mr": "पिक"
+        },
+        {
+          "en": "वाण",
+          "mr": "वाण"
+        },
+        {
+          "en": "बियाणाचे प्रकार",
+          "mr": "बियाणाचे प्रकार"
+        },
+        {
+          "en": "दर प्रती ब्यॉग",
+          "mr": "दर प्रती ब्यॉग"
+        },
+        {
+          "en": "विक्रीसाठी उपलब्ध ब्यॉग",
+          "mr": "विक्रीसाठी उपलब्ध ब्यॉग"
+        },
+        {
+          "en": "क्विंटल",
+          "mr": "क्विंटल"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "बरसीम",
+              "mr": "बरसीम"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "फुले -वरदान",
+              "mr": "फुले -वरदान"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सत्यप्रत  बियाणे",
+              "mr": "सत्यप्रत  बियाणे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )",
+              "mr": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "१५०  बॅगा",
+              "mr": "१५०  बॅगा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "१.५  क्विं.",
+              "mr": "१.५  क्विं."
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "हरभरा",
+              "mr": "हरभरा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "फुले -विश्वराज",
+              "mr": "फुले -विश्वराज"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "प्रमाणित बियाणे",
+              "mr": "प्रमाणित बियाणे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
+              "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "५८ बॅगा",
+              "mr": "५८ बॅगा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "१७.४ क्विं.",
+              "mr": "१७.४ क्विं."
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "गहू",
+              "mr": "गहू"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "फुले - अनुपम",
+              "mr": "फुले - अनुपम"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सत्यप्रत  बियाणे",
+              "mr": "सत्यप्रत  बियाणे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
+              "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "११० बॅगा",
+              "mr": "११० बॅगा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "४४ क्विं.",
+              "mr": "४४ क्विं."
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "हरभरा",
+              "mr": "हरभरा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "फुले -विक्रम",
+              "mr": "फुले -विक्रम"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "प्रमाणित बियाणे",
+              "mr": "प्रमाणित बियाणे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
+              "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "१० बॅगा",
+              "mr": "१० बॅगा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "३  क्विं.",
+              "mr": "३  क्विं."
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "गहू",
+              "mr": "गहू"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "फुले -समाधान",
+              "mr": "फुले -समाधान"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सत्यप्रत  बियाणे",
+              "mr": "सत्यप्रत  बियाणे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
+              "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "११६ बॅगा",
+              "mr": "११६ बॅगा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "४६.४  क्विं",
+              "mr": "४६.४  क्विं"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 5,
+      "columnCount": 7
+    },
+    {
+      "id": "table_2",
+      "caption": {
+        "en": "भाजीपाला बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)",
+        "mr": "भाजीपाला बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "पिक",
+          "mr": "पिक"
+        },
+        {
+          "en": "वाण",
+          "mr": "वाण"
+        },
+        {
+          "en": "बियाणाचे प्रकार",
+          "mr": "बियाणाचे प्रकार"
+        },
+        {
+          "en": "दर प्रती ब्यॉग",
+          "mr": "दर प्रती ब्यॉग"
+        },
+        {
+          "en": "विक्रीसाठी उपलब्ध ब्यॉग",
+          "mr": "विक्रीसाठी उपलब्ध ब्यॉग"
+        },
+        {
+          "en": "क्विंटल",
+          "mr": "क्विंटल"
+        }
+      ],
+      "rows": [],
+      "rowCount": 0,
+      "columnCount": 7
+    },
+    {
+      "id": "table_3",
+      "caption": {
+        "en": "उद्यानविद्या रोपवाटिका,प्रक्षेत्र मफुकृवि राहुरी,०२४२६-२४३४४२",
+        "mr": "उद्यानविद्या रोपवाटिका,प्रक्षेत्र मफुकृवि राहुरी,०२४२६-२४३४४२"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण फुले भगवा सुपर",
+              "mr": "डाळिंब वाण फुले भगवा सुपर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "70000",
+              "mr": "70000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "15/10/2026",
+              "mr": "15/10/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती",
+              "mr": "लिंबू वाण फुले सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "5083",
+              "mr": "5083"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "15/10/2026",
+              "mr": "15/10/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8531",
+              "mr": "8531"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "15/10/2026",
+              "mr": "15/10/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "अंजीर लोकल",
+              "mr": "अंजीर लोकल"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "189",
+              "mr": "189"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "15/10/2026",
+              "mr": "15/10/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "चिकू वाण कालीपत्ती",
+              "mr": "चिकू वाण कालीपत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "150",
+              "mr": "150"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "154",
+              "mr": "154"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "15/10/2026",
+              "mr": "15/10/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सीताफळ वाण फुले पुरंदर",
+              "mr": "सीताफळ वाण फुले पुरंदर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "16722",
+              "mr": "16722"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "15/10/2026",
+              "mr": "15/10/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 6,
+      "columnCount": 5
+    },
+    {
+      "id": "table_4",
+      "caption": {
+        "en": "मध्यवर्ती रोपवाटिका,बियाणे विभाग  मफुकृवि राहुरी,०२४२६-२४३३३८",
+        "mr": "मध्यवर्ती रोपवाटिका,बियाणे विभाग  मफुकृवि राहुरी,०२४२६-२४३३३८"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण फुले भगवा सुपर",
+              "mr": "डाळिंब वाण फुले भगवा सुपर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "2163",
+              "mr": "2163"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21/09/2026",
+              "mr": "21/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "70885",
+              "mr": "70885"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21/09/2026",
+              "mr": "21/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "नारळ बाणवली गादीवाफयावरील रोप",
+              "mr": "नारळ बाणवली गादीवाफयावरील रोप"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "100",
+              "mr": "100"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21/09/2026",
+              "mr": "21/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण साई सरबती",
+              "mr": "लिंबू वाण साई सरबती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1493",
+              "mr": "1493"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21/09/2026",
+              "mr": "21/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सिताफळ  वाण फुले पुरंदर",
+              "mr": "सिताफळ  वाण फुले पुरंदर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "11229",
+              "mr": "11229"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21/09/2026",
+              "mr": "21/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "चिकू वाण कालीपत्ती",
+              "mr": "चिकू वाण कालीपत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "150",
+              "mr": "150"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "844",
+              "mr": "844"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21/09/2026",
+              "mr": "21/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "पेरू वाण सरदार",
+              "mr": "पेरू वाण सरदार"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "11830",
+              "mr": "11830"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21/09/2026",
+              "mr": "21/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 7,
+      "columnCount": 5
+    },
+    {
+      "id": "table_5",
+      "caption": {
+        "en": "मोदी बाग रोपवाटिका,उद्यानविद्या विभाग कृषी विद्यालय, पुणे",
+        "mr": "मोदी बाग रोपवाटिका,उद्यानविद्या विभाग कृषी विद्यालय, पुणे"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शोभिवंत रोपे",
+              "mr": "शोभिवंत रोपे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1566",
+              "mr": "1566"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती",
+              "mr": "लिंबू वाण फुले सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1440",
+              "mr": "1440"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सीताफळ वाण फुले पुरंदर",
+              "mr": "सीताफळ वाण फुले पुरंदर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "4183",
+              "mr": "4183"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण फुले भगवा सुपर",
+              "mr": "डाळिंब वाण फुले भगवा सुपर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "6634",
+              "mr": "6634"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण भगवा",
+              "mr": "डाळिंब वाण भगवा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "550",
+              "mr": "550"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "पेरू वाण सरदार",
+              "mr": "पेरू वाण सरदार"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "6697",
+              "mr": "6697"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "20810",
+              "mr": "20810"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 7,
+      "columnCount": 5
+    },
+    {
+      "id": "table_6",
+      "caption": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प ,गणेशखिंड, पुणे  ०२०-२५६९३७५०",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प ,गणेशखिंड, पुणे  ०२०-२५६९३७५०"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "पेरू वाण फुले अमृत",
+              "mr": "पेरू वाण फुले अमृत"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "3781",
+              "mr": "3781"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आवळा लोकल",
+              "mr": "आवळा लोकल"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "414",
+              "mr": "414"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण भगवा",
+              "mr": "डाळिंब वाण भगवा"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "6612",
+              "mr": "6612"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण फुले भगवा सुपर",
+              "mr": "डाळिंब वाण फुले भगवा सुपर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "4982",
+              "mr": "4982"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "नारळ बाणवली",
+              "mr": "नारळ बाणवली"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "250",
+              "mr": "250"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "531",
+              "mr": "531"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "चिकू वाण कालीपत्ती",
+              "mr": "चिकू वाण कालीपत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "150",
+              "mr": "150"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "3812",
+              "mr": "3812"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शोभिवंत रोपे",
+              "mr": "शोभिवंत रोपे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "18418",
+              "mr": "18418"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "इतर रोपे",
+              "mr": "इतर रोपे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "3680",
+              "mr": "3680"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "चिंच लोकल",
+              "mr": "चिंच लोकल"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "2292",
+              "mr": "2292"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सीताफळ वाण फुले पुरंदर",
+              "mr": "सीताफळ वाण फुले पुरंदर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "2970",
+              "mr": "2970"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती",
+              "mr": "लिंबू वाण फुले सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "4864",
+              "mr": "4864"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "पेरू वाण सरदार",
+              "mr": "पेरू वाण सरदार"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "11545",
+              "mr": "11545"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर ,तोतापुरी, फुले अभिरुची",
+              "mr": "आंबा वाण केशर ,तोतापुरी, फुले अभिरुची"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "14101",
+              "mr": "14101"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "22/09/2026",
+              "mr": "22/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 13,
+      "columnCount": 5
+    },
+    {
+      "id": "table_7",
+      "caption": {
+        "en": "उद्यानविद्या रोपवाटिका, रा.छ.शा.म. कृषी महाविद्यालय कोल्हापूर ०२३१-२६०७५९०",
+        "mr": "उद्यानविद्या रोपवाटिका, रा.छ.शा.म. कृषी महाविद्यालय कोल्हापूर ०२३१-२६०७५९०"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "शोभिवंत रोपे",
+              "mr": "शोभिवंत रोपे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "4106",
+              "mr": "4106"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "इतर रोपे",
+              "mr": "इतर रोपे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "92",
+              "mr": "92"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "जांभूळ वाण लोकल",
+              "mr": "जांभूळ वाण लोकल"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "943",
+              "mr": "943"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती",
+              "mr": "लिंबू वाण फुले सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1779",
+              "mr": "1779"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "चिंच वाण लोकल",
+              "mr": "चिंच वाण लोकल"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "4080",
+              "mr": "4080"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 6,
+      "columnCount": 5
+    },
+    {
+      "id": "table_8",
+      "caption": {
+        "en": "कृषी संशोधन प्रकल्प,कसबे दिग्रज,सांगली- ०२३३ -२४३७२७५",
+        "mr": "कृषी संशोधन प्रकल्प,कसबे दिग्रज,सांगली- ०२३३ -२४३७२७५"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण फुले भगवा सुपर",
+              "mr": "डाळिंब वाण फुले भगवा सुपर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "2850",
+              "mr": "2850"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1670",
+              "mr": "1670"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 2,
+      "columnCount": 5
+    },
+    {
+      "id": "table_9",
+      "caption": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प,सोलापूर -०२१७-२३७३०४७",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प,सोलापूर -०२१७-२३७३०४७"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "674",
+              "mr": "674"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती",
+              "mr": "लिंबू वाण फुले सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1863",
+              "mr": "1863"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सीताफळ वाण फुले पुरंदर",
+              "mr": "सीताफळ वाण फुले पुरंदर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1871",
+              "mr": "1871"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण फुले भगवा सुपर",
+              "mr": "डाळिंब वाण फुले भगवा सुपर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1321",
+              "mr": "1321"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 4,
+      "columnCount": 5
+    },
+    {
+      "id": "table_10",
+      "caption": {
+        "en": "अखिल भारतीय समन्वयीत फळपिके , संशोधन प्रकल्प,उपकेंद्र श्रीरामपूर- ०२४२२-२२७२५४/ ०२४२६-२४३३४४",
+        "mr": "अखिल भारतीय समन्वयीत फळपिके , संशोधन प्रकल्प,उपकेंद्र श्रीरामपूर- ०२४२२-२२७२५४/ ०२४२६-२४३३४४"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण साई  सरबत्ती (पिशवीतील )",
+              "mr": "लिंबू वाण साई  सरबत्ती (पिशवीतील )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1270",
+              "mr": "1270"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती (पिशवीतील )",
+              "mr": "लिंबू वाण फुले सरबत्ती (पिशवीतील )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "5354",
+              "mr": "5354"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "मोसंबी वाण फुले रसिका  (पिशवीतील )",
+              "mr": "मोसंबी वाण फुले रसिका  (पिशवीतील )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "152",
+              "mr": "152"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "मोसंबी वाण फुले मोसंबी (पिशवीतील )",
+              "mr": "मोसंबी वाण फुले मोसंबी (पिशवीतील )"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7315",
+              "mr": "7315"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 4,
+      "columnCount": 5
+    },
+    {
+      "id": "table_11",
+      "caption": {
+        "en": "डाळिंब संशोधन व तंत्रज्ञान प्रसारण केंद्र ,लखमापूर  ता. बागलाण जि. नाशिक- ०२५५५-२३५५५५ , २३५४४४",
+        "mr": "डाळिंब संशोधन व तंत्रज्ञान प्रसारण केंद्र ,लखमापूर  ता. बागलाण जि. नाशिक- ०२५५५-२३५५५५ , २३५४४४"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "डाळिंब वाण फुले भगवा सुपर",
+              "mr": "डाळिंब वाण फुले भगवा सुपर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1000",
+              "mr": "1000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 1,
+      "columnCount": 5
+    },
+    {
+      "id": "table_12",
+      "caption": {
+        "en": "कृषी महाविद्यालय धुळे  - ०२५६२-२३०३६८",
+        "mr": "कृषी महाविद्यालय धुळे  - ०२५६२-२३०३६८"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती",
+              "mr": "लिंबू वाण फुले सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1500",
+              "mr": "1500"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण साई सरबत्ती",
+              "mr": "लिंबू वाण साई सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1500",
+              "mr": "1500"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "200",
+              "mr": "200"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 3,
+      "columnCount": 5
+    },
+    {
+      "id": "table_13",
+      "caption": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प, शेंडापार्क,कोल्हापूर- ०२३१-२६९२४१६",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प, शेंडापार्क,कोल्हापूर- ०२३१-२६९२४१६"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "रोपांचे नाव",
+          "mr": "रोपांचे नाव"
+        },
+        {
+          "en": "रोपांचे दर",
+          "mr": "रोपांचे दर"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "उपलब्धता दिनांक",
+          "mr": "उपलब्धता दिनांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "इतर रोपे",
+              "mr": "इतर रोपे"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "500",
+              "mr": "500"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "सीताफळ वाण फुले पुरंदर",
+              "mr": "सीताफळ वाण फुले पुरंदर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1000",
+              "mr": "1000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "लिंबू वाण फुले सरबत्ती",
+              "mr": "लिंबू वाण फुले सरबत्ती"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1600",
+              "mr": "1600"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "आंबा वाण केशर",
+              "mr": "आंबा वाण केशर"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90",
+              "mr": "90"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "300",
+              "mr": "300"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "30/09/2026",
+              "mr": "30/09/2026"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 4,
+      "columnCount": 5
+    },
+    {
+      "id": "table_14",
+      "caption": {
+        "en": "Tractor Operated",
+        "mr": "Tractor Operated"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "उत्पादनाचे नाव",
+          "mr": "उत्पादनाचे नाव"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "दर रुपये",
+          "mr": "दर रुपये"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sugarcane Leaf Detrasher cun Shredder",
+              "mr": "Sugarcane Leaf Detrasher cun Shredder"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "150000",
+              "mr": "150000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Orchard Grass Cutter",
+              "mr": "Orchard Grass Cutter"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "130000",
+              "mr": "130000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Hydro Mechanically Controlled Offset Orchard Manager",
+              "mr": "Hydro Mechanically Controlled Offset Orchard Manager"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "225000",
+              "mr": "225000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Horizontal Two Side Discharge Shredder for Orchards",
+              "mr": "Horizontal Two Side Discharge Shredder for Orchards"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "340000",
+              "mr": "340000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Manure Spreader for Orchards",
+              "mr": "Manure Spreader for Orchards"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "400000",
+              "mr": "400000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Spade Plough with Disc Harrow",
+              "mr": "Spade Plough with Disc Harrow"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "230000",
+              "mr": "230000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Banana Stem Shredder",
+              "mr": "Banana Stem Shredder"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01",
+              "mr": "01"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "170000",
+              "mr": "170000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Automatic Reversible Two Bottom MB Plough",
+              "mr": "Automatic Reversible Two Bottom MB Plough"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "110000",
+              "mr": "110000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop",
+              "mr": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "210000",
+              "mr": "210000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards",
+              "mr": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "270000",
+              "mr": "270000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule Sugarcane Seedling Transplanter",
+              "mr": "Phule Sugarcane Seedling Transplanter"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01",
+              "mr": "01"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "250000",
+              "mr": "250000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Tractor Drawn Nine Tyne Multicrop Planter",
+              "mr": "Tractor Drawn Nine Tyne Multicrop Planter"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "95000",
+              "mr": "95000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule Check Basin Former",
+              "mr": "Phule Check Basin Former"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "90000",
+              "mr": "90000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Tractor Operated Phule Mole Plough",
+              "mr": "Tractor Operated Phule Mole Plough"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02",
+              "mr": "02"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "70000",
+              "mr": "70000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 14,
+      "columnCount": 4
+    },
+    {
+      "id": "table_15",
+      "caption": {
+        "en": "Power Operated",
+        "mr": "Power Operated"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "उत्पादनाचे नाव",
+          "mr": "उत्पादनाचे नाव"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "दर रुपये",
+          "mr": "दर रुपये"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Groundnut Stripper",
+              "mr": "Groundnut Stripper"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "65000",
+              "mr": "65000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)",
+              "mr": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01",
+              "mr": "01"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "72000",
+              "mr": "72000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)",
+              "mr": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01",
+              "mr": "01"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "85000",
+              "mr": "85000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)",
+              "mr": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "75000",
+              "mr": "75000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)",
+              "mr": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02",
+              "mr": "02"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "70000",
+              "mr": "70000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)",
+              "mr": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40000",
+              "mr": "40000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 6,
+      "columnCount": 4
+    },
+    {
+      "id": "table_16",
+      "caption": {
+        "en": "Bullock Drawn",
+        "mr": "Bullock Drawn"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "उत्पादनाचे नाव",
+          "mr": "उत्पादनाचे नाव"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "दर रुपये",
+          "mr": "दर रुपये"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Bullocks Drawn Jyoti Multicrop Planter",
+              "mr": "Bullocks Drawn Jyoti Multicrop Planter"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40000",
+              "mr": "40000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 1,
+      "columnCount": 4
+    },
+    {
+      "id": "table_17",
+      "caption": {
+        "en": "Manually Operated",
+        "mr": "Manually Operated"
+      },
+      "headers": [
+        {
+          "en": "अ.क्र",
+          "mr": "अ.क्र"
+        },
+        {
+          "en": "उत्पादनाचे नाव",
+          "mr": "उत्पादनाचे नाव"
+        },
+        {
+          "en": "उपलब्धता",
+          "mr": "उपलब्धता"
+        },
+        {
+          "en": "दर रुपये",
+          "mr": "दर रुपये"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Phule Lemon Harvester",
+              "mr": "Phule Lemon Harvester"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "00",
+              "mr": "00"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "2500",
+              "mr": "2500"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Fig Plucker",
+              "mr": "Fig Plucker"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01",
+              "mr": "01"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "1100",
+              "mr": "1100"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Coconut dehusker",
+              "mr": "Coconut dehusker"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "139",
+              "mr": "139"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "400",
+              "mr": "400"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Drumstick Harvester",
+              "mr": "Drumstick Harvester"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "19",
+              "mr": "19"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "3500",
+              "mr": "3500"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Vaibhav Sickle",
+              "mr": "Vaibhav Sickle"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "301",
+              "mr": "301"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "150",
+              "mr": "150"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Laxmi Sickle",
+              "mr": "Laxmi Sickle"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "66",
+              "mr": "66"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "150",
+              "mr": "150"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Khurpee",
+              "mr": "Khurpee"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "169",
+              "mr": "169"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "130",
+              "mr": "130"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Maize Sheller",
+              "mr": "Maize Sheller"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "232",
+              "mr": "232"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "240",
+              "mr": "240"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Groundnut Decorticator",
+              "mr": "Groundnut Decorticator"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "136",
+              "mr": "136"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "3900",
+              "mr": "3900"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Cycle Hoe",
+              "mr": "Cycle Hoe"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "07",
+              "mr": "07"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "2000",
+              "mr": "2000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Mango Harvester",
+              "mr": "Mango Harvester"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "23",
+              "mr": "23"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "350",
+              "mr": "350"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Bhendi Plucker",
+              "mr": "Bhendi Plucker"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "46",
+              "mr": "46"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "260",
+              "mr": "260"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sapota Harvester",
+              "mr": "Sapota Harvester"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "350",
+              "mr": "350"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sorghum Uprooter",
+              "mr": "Sorghum Uprooter"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "21",
+              "mr": "21"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "2000",
+              "mr": "2000"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 14,
+      "columnCount": 4
+    }
+  ],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Maruti Gite.pdf",
+      "localPath": "/media/docs/Maruti_Gite.pdf",
+      "category": "docs",
+      "label": "Success Stories"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/MpkvProduct/20261015_154316_53f7fad7c73c6dc43f4a50006ef727eb.pdf",
+      "localPath": "/media/docs/20261015_154316_53f7fad7c73c6dc43f4a50006ef727eb.pdf",
+      "category": "docs",
+      "label": "Bio-Fertilizers"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/MpkvProduct/4. Biopestisides (01.02.2023)_20230201115401.pdf",
+      "localPath": "/media/docs/4._Biopestisides_01.02.2023_20230201115401.pdf",
+      "category": "docs",
+      "label": "Bio-Pesticides / जैविक कीटकनाशके"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/MpkvProduct/Bakery products_20220817053418.pdf",
+      "localPath": "/media/docs/Bakery_products_20220817053418.pdf",
+      "category": "docs",
+      "label": "Bakery Products / बेकरी उत्पादने"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/MpkvProduct/WhatsApp Image 2022-06-28 at 10.53.04 AM_20220725042902.pdf",
+      "localPath": "/media/docs/WhatsApp_Image_2022-06-28_at_10.53.04_AM_20220725042902.pdf",
+      "category": "docs",
+      "label": "Phule Liquid Micrograde II / फुले लिक्विड मायक्रोग्रेड II"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/MpkvProduct/20261015_154222_577f870986d757b22050d53a72d91bb8.pdf",
+      "localPath": "/media/docs/20261015_154222_577f870986d757b22050d53a72d91bb8.pdf",
+      "category": "docs",
+      "label": "Bio-Fertilizers"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "order": 55
+    },
+    {
+      "type": "heading",
+      "level": "h1",
+      "text": {
+        "en": "बियाणे उपलब्धता",
+        "mr": "बियाणे उपलब्धता"
+      },
+      "order": 56
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "तृणधान्य बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)",
+        "mr": "तृणधान्य बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)"
+      },
+      "order": 57
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "भाजीपाला बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)",
+        "mr": "भाजीपाला बियाणे उपलब्धतासाठा(Update On : 11/17/2026 4:53:58 PM)"
+      },
+      "order": 58
+    },
+    {
+      "type": "heading",
+      "level": "h1",
+      "text": {
+        "en": "रोपे/कलमे उपलब्धता",
+        "mr": "रोपे/कलमे उपलब्धता"
+      },
+      "order": 59
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "उद्यानविद्या रोपवाटिका,प्रक्षेत्र मफुकृवि राहुरी,०२४२६-२४३४४२",
+        "mr": "उद्यानविद्या रोपवाटिका,प्रक्षेत्र मफुकृवि राहुरी,०२४२६-२४३४४२"
+      },
+      "order": 60
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "मध्यवर्ती रोपवाटिका,बियाणे विभाग  मफुकृवि राहुरी,०२४२६-२४३३३८",
+        "mr": "मध्यवर्ती रोपवाटिका,बियाणे विभाग  मफुकृवि राहुरी,०२४२६-२४३३३८"
+      },
+      "order": 61
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "मोदी बाग रोपवाटिका,उद्यानविद्या विभाग कृषी विद्यालय, पुणे",
+        "mr": "मोदी बाग रोपवाटिका,उद्यानविद्या विभाग कृषी विद्यालय, पुणे"
+      },
+      "order": 62
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प ,गणेशखिंड, पुणे  ०२०-२५६९३७५०",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प ,गणेशखिंड, पुणे  ०२०-२५६९३७५०"
+      },
+      "order": 63
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "उद्यानविद्या रोपवाटिका, रा.छ.शा.म. कृषी महाविद्यालय कोल्हापूर ०२३१-२६०७५९०",
+        "mr": "उद्यानविद्या रोपवाटिका, रा.छ.शा.म. कृषी महाविद्यालय कोल्हापूर ०२३१-२६०७५९०"
+      },
+      "order": 64
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "कृषी संशोधन प्रकल्प,कसबे दिग्रज,सांगली- ०२३३ -२४३७२७५",
+        "mr": "कृषी संशोधन प्रकल्प,कसबे दिग्रज,सांगली- ०२३३ -२४३७२७५"
+      },
+      "order": 65
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प,सोलापूर -०२१७-२३७३०४७",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प,सोलापूर -०२१७-२३७३०४७"
+      },
+      "order": 66
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "अखिल भारतीय समन्वयीत फळपिके , संशोधन प्रकल्प,उपकेंद्र श्रीरामपूर- ०२४२२-२२७२५४/ ०२४२६-२४३३४४",
+        "mr": "अखिल भारतीय समन्वयीत फळपिके , संशोधन प्रकल्प,उपकेंद्र श्रीरामपूर- ०२४२२-२२७२५४/ ०२४२६-२४३३४४"
+      },
+      "order": 67
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "डाळिंब संशोधन व तंत्रज्ञान प्रसारण केंद्र ,लखमापूर  ता. बागलाण जि. नाशिक- ०२५५५-२३५५५५ , २३५४४४",
+        "mr": "डाळिंब संशोधन व तंत्रज्ञान प्रसारण केंद्र ,लखमापूर  ता. बागलाण जि. नाशिक- ०२५५५-२३५५५५ , २३५४४४"
+      },
+      "order": 68
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "कृषी महाविद्यालय धुळे  - ०२५६२-२३०३६८",
+        "mr": "कृषी महाविद्यालय धुळे  - ०२५६२-२३०३६८"
+      },
+      "order": 69
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "राष्ट्रीय कृषी संशोधन प्रकल्प, शेंडापार्क,कोल्हापूर- ०२३१-२६९२४१६",
+        "mr": "राष्ट्रीय कृषी संशोधन प्रकल्प, शेंडापार्क,कोल्हापूर- ०२३१-२६९२४१६"
+      },
+      "order": 70
+    },
+    {
+      "type": "heading",
+      "level": "h3",
+      "text": {
+        "en": "कृषी अवजारे व यंत्रे उत्पादने उपलब्धता",
+        "mr": "कृषी अवजारे व यंत्रे उत्पादने उपलब्धता"
+      },
+      "order": 71
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Tractor Operated",
+        "mr": "Tractor Operated"
+      },
+      "order": 72
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Power Operated",
+        "mr": "Power Operated"
+      },
+      "order": 73
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Bullock Drawn",
+        "mr": "Bullock Drawn"
+      },
+      "order": 74
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Manually Operated",
+        "mr": "Manually Operated"
+      },
+      "order": 75
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Farmer",
+          "mr": "शेतकरी"
+        },
+        {
+          "en": "Farmer Scientist Forum",
+          "mr": "Farmer Scientist Forum"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "Inputs",
+          "mr": "Inputs"
+        },
+        {
+          "en": "Services",
+          "mr": "Services"
+        },
+        {
+          "en": "Publications",
+          "mr": "Publications"
+        },
+        {
+          "en": "Success Stories",
+          "mr": "Success Stories"
+        }
+      ],
+      "order": 76
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Seeds   /बियाणे",
+          "mr": "Seeds   /बियाणे"
+        },
+        {
+          "en": "Planting Material   /लागवड साहित्य",
+          "mr": "Planting Material   /लागवड साहित्य"
+        },
+        {
+          "en": "Farm Implements   / शेतीची अवजारे",
+          "mr": "Farm Implements   / शेतीची अवजारे"
+        }
+      ],
+      "order": 77
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Bio-Fertilizers",
+          "mr": "Bio-Fertilizers"
+        },
+        {
+          "en": "Bio-Pesticides / जैविक कीटकनाशके",
+          "mr": "Bio-Pesticides / जैविक कीटकनाशके"
+        },
+        {
+          "en": "Bakery Products / बेकरी उत्पादने",
+          "mr": "Bakery Products / बेकरी उत्पादने"
+        },
+        {
+          "en": "Phule Drinking Water / फुले पिण्याचे पाणी",
+          "mr": "Phule Drinking Water / फुले पिण्याचे पाणी"
+        },
+        {
+          "en": "Phule Liquid Micrograde II / फुले लिक्विड मायक्रोग्रेड II",
+          "mr": "Phule Liquid Micrograde II / फुले लिक्विड मायक्रोग्रेड II"
+        },
+        {
+          "en": "Bio-Fertilizers",
+          "mr": "Bio-Fertilizers"
+        }
+      ],
+      "order": 78
+    }
+  ],
+  "stats": {
+    "headingCount": 75,
+    "paragraphCount": 0,
+    "listCount": 3,
+    "tableCount": 17,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 21,
+    "totalRecords": 193
+  }
+}

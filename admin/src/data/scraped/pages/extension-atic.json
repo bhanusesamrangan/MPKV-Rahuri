@@ -1,0 +1,1345 @@
+{
+  "slug": "extension-atic",
+  "url": "https://mpkv.ac.in/Extension/ExtensionATIC",
+  "route": "/Extension/ExtensionATIC",
+  "sourcePage": "extension-atic",
+  "scrapedAt": "2026-11-22T20:35:31.203966",
+  "title": {
+    "en": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+    "mr": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+  },
+  "breadcrumb": [],
+  "hero": {
+    "title": {
+      "en": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "order": 55
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "The Agricultural Technology Information Center (ATIC) is single window delivery dissemination and supporting system for various innovative and farm worthy techniques evolved at the university and affiliated organization in the pursuit of research and excellence. This Center started its actual functioning w.e.f. 13th August, 2001 with the following objectives.To empower farmers through direct access to information and knowledge.To create strong linkage between different research divisions, units and user of technology.To help farmers in problem solving and decision making.To facilitate and dynamic feed forward and feed back mechanism.To bridge the gap between attainable and attained in the crop, livestock development and production.To generate financial resources through sales and services.To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions.",
+        "mr": "The Agricultural Technology Information Center (ATIC) is single window delivery dissemination and supporting system for various innovative and farm worthy techniques evolved at the university and affiliated organization in the pursuit of research and excellence. This Center started its actual functioning w.e.f. 13th August, 2001 with the following objectives.To empower farmers through direct access to information and knowledge.To create strong linkage between different research divisions, units and user of technology.To help farmers in problem solving and decision making.To facilitate and dynamic feed forward and feed back mechanism.To bridge the gap between attainable and attained in the crop, livestock development and production.To generate financial resources through sales and services.To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions."
+      },
+      "order": 56
+    },
+    {
+      "text": {
+        "en": "The ATIC is supervised by the Manager with four subject matter specialists (SMS) from the disciplines viz., Agronomy, Horticulture, Plant protection and Animal husbandry and Dairy and Public Relation Officer (PRO). The extension activities like field visits, replying the queries of the farmers and other stakeholders and the center performs diagnostic services in coordination with the other departments of University. Besides, the seed and seedlings, processed products and publications are also sold through ATIC to the end users.",
+        "mr": "The ATIC is supervised by the Manager with four subject matter specialists (SMS) from the disciplines viz., Agronomy, Horticulture, Plant protection and Animal husbandry and Dairy and Public Relation Officer (PRO). The extension activities like field visits, replying the queries of the farmers and other stakeholders and the center performs diagnostic services in coordination with the other departments of University. Besides, the seed and seedlings, processed products and publications are also sold through ATIC to the end users."
+      },
+      "order": 57
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        {
+          "en": "Extension at a Glance",
+          "mr": "Extension at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "Agricultural Technology\r\n                            Information Center",
+          "mr": "Agricultural Technology\r\n                            Information Center"
+        },
+        {
+          "en": "Extension CentersRegional Extension CentersDistrict Extension Centers",
+          "mr": "Extension CentersRegional Extension CentersDistrict Extension Centers"
+        },
+        {
+          "en": "Krishi Vigyan Kendras",
+          "mr": "Krishi Vigyan Kendras"
+        },
+        {
+          "en": "Communication Center",
+          "mr": "Communication Center"
+        },
+        {
+          "en": "Publications",
+          "mr": "Publications"
+        },
+        {
+          "en": "Ad-hoc Extension Projects",
+          "mr": "Ad-hoc Extension Projects"
+        }
+      ],
+      "order": 58
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Regional Extension Centers",
+          "mr": "Regional Extension Centers"
+        },
+        {
+          "en": "District Extension Centers",
+          "mr": "District Extension Centers"
+        }
+      ],
+      "order": 59
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "To empower farmers through direct access to information and knowledge.",
+          "mr": "To empower farmers through direct access to information and knowledge."
+        },
+        {
+          "en": "To create strong linkage between different research divisions, units and user of technology.",
+          "mr": "To create strong linkage between different research divisions, units and user of technology."
+        },
+        {
+          "en": "To help farmers in problem solving and decision making.",
+          "mr": "To help farmers in problem solving and decision making."
+        },
+        {
+          "en": "To facilitate and dynamic feed forward and feed back mechanism.",
+          "mr": "To facilitate and dynamic feed forward and feed back mechanism."
+        },
+        {
+          "en": "To bridge the gap between attainable and attained in the crop, livestock development and production.",
+          "mr": "To bridge the gap between attainable and attained in the crop, livestock development and production."
+        },
+        {
+          "en": "To generate financial resources through sales and services.",
+          "mr": "To generate financial resources through sales and services."
+        },
+        {
+          "en": "To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions.",
+          "mr": "To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions."
+        }
+      ],
+      "order": 60
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/AticMainPhoto.jpg",
+      "localPath": "/media/images/AticMainPhoto.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/atic1.jpg",
+      "localPath": "/media/images/atic1.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/atic2.jpg",
+      "localPath": "/media/images/atic2.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/atic3.jpg",
+      "localPath": "/media/images/atic3.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/atic13.jpg",
+      "localPath": "/media/images/atic13.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/aitic14.jpg",
+      "localPath": "/media/images/aitic14.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/atic16.jpg",
+      "localPath": "/media/images/atic16.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/atic17.jpg",
+      "localPath": "/media/images/atic17.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/main/atic18.jpg",
+      "localPath": "/media/images/atic18.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "order": 55
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The Agricultural Technology Information Center (ATIC) is single window delivery dissemination and supporting system for various innovative and farm worthy techniques evolved at the university and affiliated organization in the pursuit of research and excellence. This Center started its actual functioning w.e.f. 13th August, 2001 with the following objectives.To empower farmers through direct access to information and knowledge.To create strong linkage between different research divisions, units and user of technology.To help farmers in problem solving and decision making.To facilitate and dynamic feed forward and feed back mechanism.To bridge the gap between attainable and attained in the crop, livestock development and production.To generate financial resources through sales and services.To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions.",
+        "mr": "The Agricultural Technology Information Center (ATIC) is single window delivery dissemination and supporting system for various innovative and farm worthy techniques evolved at the university and affiliated organization in the pursuit of research and excellence. This Center started its actual functioning w.e.f. 13th August, 2001 with the following objectives.To empower farmers through direct access to information and knowledge.To create strong linkage between different research divisions, units and user of technology.To help farmers in problem solving and decision making.To facilitate and dynamic feed forward and feed back mechanism.To bridge the gap between attainable and attained in the crop, livestock development and production.To generate financial resources through sales and services.To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions."
+      },
+      "order": 56
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The ATIC is supervised by the Manager with four subject matter specialists (SMS) from the disciplines viz., Agronomy, Horticulture, Plant protection and Animal husbandry and Dairy and Public Relation Officer (PRO). The extension activities like field visits, replying the queries of the farmers and other stakeholders and the center performs diagnostic services in coordination with the other departments of University. Besides, the seed and seedlings, processed products and publications are also sold through ATIC to the end users.",
+        "mr": "The ATIC is supervised by the Manager with four subject matter specialists (SMS) from the disciplines viz., Agronomy, Horticulture, Plant protection and Animal husbandry and Dairy and Public Relation Officer (PRO). The extension activities like field visits, replying the queries of the farmers and other stakeholders and the center performs diagnostic services in coordination with the other departments of University. Besides, the seed and seedlings, processed products and publications are also sold through ATIC to the end users."
+      },
+      "order": 57
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        {
+          "en": "Extension at a Glance",
+          "mr": "Extension at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "Agricultural Technology\r\n                            Information Center",
+          "mr": "Agricultural Technology\r\n                            Information Center"
+        },
+        {
+          "en": "Extension CentersRegional Extension CentersDistrict Extension Centers",
+          "mr": "Extension CentersRegional Extension CentersDistrict Extension Centers"
+        },
+        {
+          "en": "Krishi Vigyan Kendras",
+          "mr": "Krishi Vigyan Kendras"
+        },
+        {
+          "en": "Communication Center",
+          "mr": "Communication Center"
+        },
+        {
+          "en": "Publications",
+          "mr": "Publications"
+        },
+        {
+          "en": "Ad-hoc Extension Projects",
+          "mr": "Ad-hoc Extension Projects"
+        }
+      ],
+      "order": 58
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Regional Extension Centers",
+          "mr": "Regional Extension Centers"
+        },
+        {
+          "en": "District Extension Centers",
+          "mr": "District Extension Centers"
+        }
+      ],
+      "order": 59
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "To empower farmers through direct access to information and knowledge.",
+          "mr": "To empower farmers through direct access to information and knowledge."
+        },
+        {
+          "en": "To create strong linkage between different research divisions, units and user of technology.",
+          "mr": "To create strong linkage between different research divisions, units and user of technology."
+        },
+        {
+          "en": "To help farmers in problem solving and decision making.",
+          "mr": "To help farmers in problem solving and decision making."
+        },
+        {
+          "en": "To facilitate and dynamic feed forward and feed back mechanism.",
+          "mr": "To facilitate and dynamic feed forward and feed back mechanism."
+        },
+        {
+          "en": "To bridge the gap between attainable and attained in the crop, livestock development and production.",
+          "mr": "To bridge the gap between attainable and attained in the crop, livestock development and production."
+        },
+        {
+          "en": "To generate financial resources through sales and services.",
+          "mr": "To generate financial resources through sales and services."
+        },
+        {
+          "en": "To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions.",
+          "mr": "To disseminate the new technologies developed by the University through organizing Farmers Rallies, Field Visits and\r\n                            Agril. Exhibitions."
+        }
+      ],
+      "order": 60
+    }
+  ],
+  "stats": {
+    "headingCount": 55,
+    "paragraphCount": 2,
+    "listCount": 3,
+    "tableCount": 0,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 23,
+    "totalRecords": 80
+  }
+}

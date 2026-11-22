@@ -1,0 +1,1770 @@
+{
+  "slug": "farm-implements",
+  "url": "https://mpkv.ac.in/Research/ResearchFarmImplement",
+  "route": "/farm-implements",
+  "sourcePage": "farm-implements",
+  "scrapedAt": "2026-11-22T20:36:22.761307",
+  "title": {
+    "en": "Farm Implements & Machinery Developed at MPKV Rahuri",
+    "mr": "मफुकृवि राहुरी विकसित शेती अवजारे व यंत्रे"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "#"
+    },
+    {
+      "title": {
+        "en": "Farm Implements",
+        "mr": "शेती अवजारे"
+      },
+      "href": "/farm-implements"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Rahuri Mechanization & Agricultural Implements",
+      "mr": "राहुरी विकसित कृषि यांत्रिकीकरण व अवजारे"
+    },
+    "subtitle": {
+      "en": "Engineered by Dr. Annasaheb Shinde CAET, MPKV Rahuri for Western Maharashtra farmers",
+      "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी महाविद्यालय, राहुरी द्वारा शेतकर्‍यांसाठी विकसित"
+    },
+    "badge": {
+      "en": "39+ Patented / Recommended Designs",
+      "mr": "३९+ पेटंटेड व शिफारशीत अवजारे"
+    }
+  },
+  "items": [
+    {
+      "category": "Tractor Operated",
+      "sr_no": "1",
+      "implement_name": {
+        "mr": "Sugarcane Leaf Detrasher cun Shredder",
+        "en": "Sugarcane Leaf Detrasher cun Shredder"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "150000",
+        "en": "150000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "2",
+      "implement_name": {
+        "mr": "Orchard Grass Cutter",
+        "en": "Orchard Grass Cutter"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "130000",
+        "en": "130000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "3",
+      "implement_name": {
+        "mr": "Hydro Mechanically Controlled Offset Orchard Manager",
+        "en": "Hydro Mechanically Controlled Offset Orchard Manager"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "225000",
+        "en": "225000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "4",
+      "implement_name": {
+        "mr": "Horizontal Two Side Discharge Shredder for Orchards",
+        "en": "Horizontal Two Side Discharge Shredder for Orchards"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "340000",
+        "en": "340000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "5",
+      "implement_name": {
+        "mr": "Manure Spreader for Orchards",
+        "en": "Manure Spreader for Orchards"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "400000",
+        "en": "400000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "6",
+      "implement_name": {
+        "mr": "Spade Plough with Disc Harrow",
+        "en": "Spade Plough with Disc Harrow"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "230000",
+        "en": "230000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "7",
+      "implement_name": {
+        "mr": "Banana Stem Shredder",
+        "en": "Banana Stem Shredder"
+      },
+      "details": {
+        "mr": "01",
+        "en": "01"
+      },
+      "price": {
+        "mr": "170000",
+        "en": "170000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "8",
+      "implement_name": {
+        "mr": "Automatic Reversible Two Bottom MB Plough",
+        "en": "Automatic Reversible Two Bottom MB Plough"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "110000",
+        "en": "110000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "9",
+      "implement_name": {
+        "mr": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop",
+        "en": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "210000",
+        "en": "210000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "10",
+      "implement_name": {
+        "mr": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards",
+        "en": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "270000",
+        "en": "270000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "11",
+      "implement_name": {
+        "mr": "Phule Sugarcane Seedling Transplanter",
+        "en": "Phule Sugarcane Seedling Transplanter"
+      },
+      "details": {
+        "mr": "01",
+        "en": "01"
+      },
+      "price": {
+        "mr": "250000",
+        "en": "250000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "12",
+      "implement_name": {
+        "mr": "Tractor Drawn Nine Tyne Multicrop Planter",
+        "en": "Tractor Drawn Nine Tyne Multicrop Planter"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "95000",
+        "en": "95000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "13",
+      "implement_name": {
+        "mr": "Phule Check Basin Former",
+        "en": "Phule Check Basin Former"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "90000",
+        "en": "90000"
+      }
+    },
+    {
+      "category": "Tractor Operated",
+      "sr_no": "14",
+      "implement_name": {
+        "mr": "Tractor Operated Phule Mole Plough",
+        "en": "Tractor Operated Phule Mole Plough"
+      },
+      "details": {
+        "mr": "02",
+        "en": "02"
+      },
+      "price": {
+        "mr": "70000",
+        "en": "70000"
+      }
+    },
+    {
+      "category": "Power Operated",
+      "sr_no": "1",
+      "implement_name": {
+        "mr": "Groundnut Stripper",
+        "en": "Groundnut Stripper"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "65000",
+        "en": "65000"
+      }
+    },
+    {
+      "category": "Power Operated",
+      "sr_no": "2",
+      "implement_name": {
+        "mr": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)",
+        "en": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)"
+      },
+      "details": {
+        "mr": "01",
+        "en": "01"
+      },
+      "price": {
+        "mr": "72000",
+        "en": "72000"
+      }
+    },
+    {
+      "category": "Power Operated",
+      "sr_no": "3",
+      "implement_name": {
+        "mr": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)",
+        "en": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)"
+      },
+      "details": {
+        "mr": "01",
+        "en": "01"
+      },
+      "price": {
+        "mr": "85000",
+        "en": "85000"
+      }
+    },
+    {
+      "category": "Power Operated",
+      "sr_no": "4",
+      "implement_name": {
+        "mr": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)",
+        "en": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "75000",
+        "en": "75000"
+      }
+    },
+    {
+      "category": "Power Operated",
+      "sr_no": "5",
+      "implement_name": {
+        "mr": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)",
+        "en": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)"
+      },
+      "details": {
+        "mr": "02",
+        "en": "02"
+      },
+      "price": {
+        "mr": "70000",
+        "en": "70000"
+      }
+    },
+    {
+      "category": "Power Operated",
+      "sr_no": "6",
+      "implement_name": {
+        "mr": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)",
+        "en": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "40000",
+        "en": "40000"
+      }
+    },
+    {
+      "category": "Bullock Drawn",
+      "sr_no": "1",
+      "implement_name": {
+        "mr": "Bullocks Drawn Jyoti Multicrop Planter",
+        "en": "Bullocks Drawn Jyoti Multicrop Planter"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "40000",
+        "en": "40000"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "1",
+      "implement_name": {
+        "mr": "Phule Lemon Harvester",
+        "en": "Phule Lemon Harvester"
+      },
+      "details": {
+        "mr": "00",
+        "en": "00"
+      },
+      "price": {
+        "mr": "2500",
+        "en": "2500"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "2",
+      "implement_name": {
+        "mr": "Fig Plucker",
+        "en": "Fig Plucker"
+      },
+      "details": {
+        "mr": "01",
+        "en": "01"
+      },
+      "price": {
+        "mr": "1100",
+        "en": "1100"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "3",
+      "implement_name": {
+        "mr": "Coconut dehusker",
+        "en": "Coconut dehusker"
+      },
+      "details": {
+        "mr": "139",
+        "en": "139"
+      },
+      "price": {
+        "mr": "400",
+        "en": "400"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "4",
+      "implement_name": {
+        "mr": "Drumstick Harvester",
+        "en": "Drumstick Harvester"
+      },
+      "details": {
+        "mr": "19",
+        "en": "19"
+      },
+      "price": {
+        "mr": "3500",
+        "en": "3500"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "5",
+      "implement_name": {
+        "mr": "Vaibhav Sickle",
+        "en": "Vaibhav Sickle"
+      },
+      "details": {
+        "mr": "301",
+        "en": "301"
+      },
+      "price": {
+        "mr": "150",
+        "en": "150"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "6",
+      "implement_name": {
+        "mr": "Laxmi Sickle",
+        "en": "Laxmi Sickle"
+      },
+      "details": {
+        "mr": "66",
+        "en": "66"
+      },
+      "price": {
+        "mr": "150",
+        "en": "150"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "7",
+      "implement_name": {
+        "mr": "Khurpee",
+        "en": "Khurpee"
+      },
+      "details": {
+        "mr": "169",
+        "en": "169"
+      },
+      "price": {
+        "mr": "130",
+        "en": "130"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "8",
+      "implement_name": {
+        "mr": "Maize Sheller",
+        "en": "Maize Sheller"
+      },
+      "details": {
+        "mr": "232",
+        "en": "232"
+      },
+      "price": {
+        "mr": "240",
+        "en": "240"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "9",
+      "implement_name": {
+        "mr": "Groundnut Decorticator",
+        "en": "Groundnut Decorticator"
+      },
+      "details": {
+        "mr": "136",
+        "en": "136"
+      },
+      "price": {
+        "mr": "3900",
+        "en": "3900"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "10",
+      "implement_name": {
+        "mr": "Cycle Hoe",
+        "en": "Cycle Hoe"
+      },
+      "details": {
+        "mr": "07",
+        "en": "07"
+      },
+      "price": {
+        "mr": "2000",
+        "en": "2000"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "11",
+      "implement_name": {
+        "mr": "Mango Harvester",
+        "en": "Mango Harvester"
+      },
+      "details": {
+        "mr": "23",
+        "en": "23"
+      },
+      "price": {
+        "mr": "350",
+        "en": "350"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "12",
+      "implement_name": {
+        "mr": "Bhendi Plucker",
+        "en": "Bhendi Plucker"
+      },
+      "details": {
+        "mr": "46",
+        "en": "46"
+      },
+      "price": {
+        "mr": "260",
+        "en": "260"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "13",
+      "implement_name": {
+        "mr": "Sapota Harvester",
+        "en": "Sapota Harvester"
+      },
+      "details": {
+        "mr": "12",
+        "en": "12"
+      },
+      "price": {
+        "mr": "350",
+        "en": "350"
+      }
+    },
+    {
+      "category": "Manually Operated",
+      "sr_no": "14",
+      "implement_name": {
+        "mr": "Sorghum Uprooter",
+        "en": "Sorghum Uprooter"
+      },
+      "details": {
+        "mr": "21",
+        "en": "21"
+      },
+      "price": {
+        "mr": "2000",
+        "en": "2000"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "id": "implements_catalog",
+      "caption": {
+        "en": "MPKV Rahuri Farm Implements Catalog",
+        "mr": "मफुकृवि राहुरी विकसित शेती अवजारे तालिका"
+      },
+      "headers": [
+        {
+          "en": "Category",
+          "mr": "प्रवर्ग"
+        },
+        {
+          "en": "Sr. No.",
+          "mr": "अ. क्र."
+        },
+        {
+          "en": "Implement Name",
+          "mr": "अवजाराचे नाव"
+        },
+        {
+          "en": "Specifications",
+          "mr": "तपशील"
+        },
+        {
+          "en": "Price / Availability",
+          "mr": "किंमत / उपलब्धता"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            }
+          },
+          {
+            "text": {
+              "mr": "Sugarcane Leaf Detrasher cun Shredder",
+              "en": "Sugarcane Leaf Detrasher cun Shredder"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "150000",
+              "en": "150000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            }
+          },
+          {
+            "text": {
+              "mr": "Orchard Grass Cutter",
+              "en": "Orchard Grass Cutter"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "130000",
+              "en": "130000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            }
+          },
+          {
+            "text": {
+              "mr": "Hydro Mechanically Controlled Offset Orchard Manager",
+              "en": "Hydro Mechanically Controlled Offset Orchard Manager"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "225000",
+              "en": "225000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            }
+          },
+          {
+            "text": {
+              "mr": "Horizontal Two Side Discharge Shredder for Orchards",
+              "en": "Horizontal Two Side Discharge Shredder for Orchards"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "340000",
+              "en": "340000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            }
+          },
+          {
+            "text": {
+              "mr": "Manure Spreader for Orchards",
+              "en": "Manure Spreader for Orchards"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "400000",
+              "en": "400000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            }
+          },
+          {
+            "text": {
+              "mr": "Spade Plough with Disc Harrow",
+              "en": "Spade Plough with Disc Harrow"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "230000",
+              "en": "230000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            }
+          },
+          {
+            "text": {
+              "mr": "Banana Stem Shredder",
+              "en": "Banana Stem Shredder"
+            }
+          },
+          {
+            "text": {
+              "mr": "01",
+              "en": "01"
+            }
+          },
+          {
+            "text": {
+              "mr": "170000",
+              "en": "170000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            }
+          },
+          {
+            "text": {
+              "mr": "Automatic Reversible Two Bottom MB Plough",
+              "en": "Automatic Reversible Two Bottom MB Plough"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "110000",
+              "en": "110000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop",
+              "en": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "210000",
+              "en": "210000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards",
+              "en": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "270000",
+              "en": "270000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule Sugarcane Seedling Transplanter",
+              "en": "Phule Sugarcane Seedling Transplanter"
+            }
+          },
+          {
+            "text": {
+              "mr": "01",
+              "en": "01"
+            }
+          },
+          {
+            "text": {
+              "mr": "250000",
+              "en": "250000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            }
+          },
+          {
+            "text": {
+              "mr": "Tractor Drawn Nine Tyne Multicrop Planter",
+              "en": "Tractor Drawn Nine Tyne Multicrop Planter"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "95000",
+              "en": "95000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule Check Basin Former",
+              "en": "Phule Check Basin Former"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "90000",
+              "en": "90000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Tractor Operated",
+              "mr": "Tractor Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            }
+          },
+          {
+            "text": {
+              "mr": "Tractor Operated Phule Mole Plough",
+              "en": "Tractor Operated Phule Mole Plough"
+            }
+          },
+          {
+            "text": {
+              "mr": "02",
+              "en": "02"
+            }
+          },
+          {
+            "text": {
+              "mr": "70000",
+              "en": "70000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Power Operated",
+              "mr": "Power Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            }
+          },
+          {
+            "text": {
+              "mr": "Groundnut Stripper",
+              "en": "Groundnut Stripper"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "65000",
+              "en": "65000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Power Operated",
+              "mr": "Power Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            }
+          },
+          {
+            "text": {
+              "mr": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)",
+              "en": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)"
+            }
+          },
+          {
+            "text": {
+              "mr": "01",
+              "en": "01"
+            }
+          },
+          {
+            "text": {
+              "mr": "72000",
+              "en": "72000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Power Operated",
+              "mr": "Power Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            }
+          },
+          {
+            "text": {
+              "mr": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)",
+              "en": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)"
+            }
+          },
+          {
+            "text": {
+              "mr": "01",
+              "en": "01"
+            }
+          },
+          {
+            "text": {
+              "mr": "85000",
+              "en": "85000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Power Operated",
+              "mr": "Power Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)",
+              "en": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "75000",
+              "en": "75000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Power Operated",
+              "mr": "Power Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)",
+              "en": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)"
+            }
+          },
+          {
+            "text": {
+              "mr": "02",
+              "en": "02"
+            }
+          },
+          {
+            "text": {
+              "mr": "70000",
+              "en": "70000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Power Operated",
+              "mr": "Power Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)",
+              "en": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "40000",
+              "en": "40000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Bullock Drawn",
+              "mr": "Bullock Drawn"
+            }
+          },
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            }
+          },
+          {
+            "text": {
+              "mr": "Bullocks Drawn Jyoti Multicrop Planter",
+              "en": "Bullocks Drawn Jyoti Multicrop Planter"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "40000",
+              "en": "40000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            }
+          },
+          {
+            "text": {
+              "mr": "Phule Lemon Harvester",
+              "en": "Phule Lemon Harvester"
+            }
+          },
+          {
+            "text": {
+              "mr": "00",
+              "en": "00"
+            }
+          },
+          {
+            "text": {
+              "mr": "2500",
+              "en": "2500"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            }
+          },
+          {
+            "text": {
+              "mr": "Fig Plucker",
+              "en": "Fig Plucker"
+            }
+          },
+          {
+            "text": {
+              "mr": "01",
+              "en": "01"
+            }
+          },
+          {
+            "text": {
+              "mr": "1100",
+              "en": "1100"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            }
+          },
+          {
+            "text": {
+              "mr": "Coconut dehusker",
+              "en": "Coconut dehusker"
+            }
+          },
+          {
+            "text": {
+              "mr": "139",
+              "en": "139"
+            }
+          },
+          {
+            "text": {
+              "mr": "400",
+              "en": "400"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            }
+          },
+          {
+            "text": {
+              "mr": "Drumstick Harvester",
+              "en": "Drumstick Harvester"
+            }
+          },
+          {
+            "text": {
+              "mr": "19",
+              "en": "19"
+            }
+          },
+          {
+            "text": {
+              "mr": "3500",
+              "en": "3500"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            }
+          },
+          {
+            "text": {
+              "mr": "Vaibhav Sickle",
+              "en": "Vaibhav Sickle"
+            }
+          },
+          {
+            "text": {
+              "mr": "301",
+              "en": "301"
+            }
+          },
+          {
+            "text": {
+              "mr": "150",
+              "en": "150"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            }
+          },
+          {
+            "text": {
+              "mr": "Laxmi Sickle",
+              "en": "Laxmi Sickle"
+            }
+          },
+          {
+            "text": {
+              "mr": "66",
+              "en": "66"
+            }
+          },
+          {
+            "text": {
+              "mr": "150",
+              "en": "150"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            }
+          },
+          {
+            "text": {
+              "mr": "Khurpee",
+              "en": "Khurpee"
+            }
+          },
+          {
+            "text": {
+              "mr": "169",
+              "en": "169"
+            }
+          },
+          {
+            "text": {
+              "mr": "130",
+              "en": "130"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            }
+          },
+          {
+            "text": {
+              "mr": "Maize Sheller",
+              "en": "Maize Sheller"
+            }
+          },
+          {
+            "text": {
+              "mr": "232",
+              "en": "232"
+            }
+          },
+          {
+            "text": {
+              "mr": "240",
+              "en": "240"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            }
+          },
+          {
+            "text": {
+              "mr": "Groundnut Decorticator",
+              "en": "Groundnut Decorticator"
+            }
+          },
+          {
+            "text": {
+              "mr": "136",
+              "en": "136"
+            }
+          },
+          {
+            "text": {
+              "mr": "3900",
+              "en": "3900"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            }
+          },
+          {
+            "text": {
+              "mr": "Cycle Hoe",
+              "en": "Cycle Hoe"
+            }
+          },
+          {
+            "text": {
+              "mr": "07",
+              "en": "07"
+            }
+          },
+          {
+            "text": {
+              "mr": "2000",
+              "en": "2000"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            }
+          },
+          {
+            "text": {
+              "mr": "Mango Harvester",
+              "en": "Mango Harvester"
+            }
+          },
+          {
+            "text": {
+              "mr": "23",
+              "en": "23"
+            }
+          },
+          {
+            "text": {
+              "mr": "350",
+              "en": "350"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            }
+          },
+          {
+            "text": {
+              "mr": "Bhendi Plucker",
+              "en": "Bhendi Plucker"
+            }
+          },
+          {
+            "text": {
+              "mr": "46",
+              "en": "46"
+            }
+          },
+          {
+            "text": {
+              "mr": "260",
+              "en": "260"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            }
+          },
+          {
+            "text": {
+              "mr": "Sapota Harvester",
+              "en": "Sapota Harvester"
+            }
+          },
+          {
+            "text": {
+              "mr": "12",
+              "en": "12"
+            }
+          },
+          {
+            "text": {
+              "mr": "350",
+              "en": "350"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "Manually Operated",
+              "mr": "Manually Operated"
+            }
+          },
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            }
+          },
+          {
+            "text": {
+              "mr": "Sorghum Uprooter",
+              "en": "Sorghum Uprooter"
+            }
+          },
+          {
+            "text": {
+              "mr": "21",
+              "en": "21"
+            }
+          },
+          {
+            "text": {
+              "mr": "2000",
+              "en": "2000"
+            }
+          }
+        ]
+      ],
+      "rowCount": 35,
+      "columnCount": 5
+    }
+  ],
+  "stats": {
+    "implementCount": 35,
+    "tableCount": 1,
+    "totalRecords": 35
+  }
+}

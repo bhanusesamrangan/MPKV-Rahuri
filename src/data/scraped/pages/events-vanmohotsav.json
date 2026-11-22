@@ -1,0 +1,1414 @@
+{
+  "slug": "events-vanmohotsav",
+  "url": "https://mpkv.ac.in/PeriodicalEvent/Vanmahostav",
+  "route": "/PeriodicalEvent/Vanmahostav",
+  "sourcePage": "events-vanmohotsav",
+  "scrapedAt": "2026-11-22T20:36:01.875508",
+  "title": {
+    "en": "Periodical Events",
+    "mr": "नियतकालिक कार्यक्रम"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "href": "/PeriodicalEvent/Convocation"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Periodical Events",
+      "mr": "नियतकालिक कार्यक्रम"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Periodical Events",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — नियतकालिक कार्यक्रम"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "order": 55
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2017",
+        "mr": "Vanmohotsav 2017"
+      },
+      "order": 56
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2018",
+        "mr": "Vanmohotsav 2018"
+      },
+      "order": 57
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2019",
+        "mr": "Vanmohotsav 2019"
+      },
+      "order": 58
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2020",
+        "mr": "Vanmohotsav 2020"
+      },
+      "order": 59
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2021",
+        "mr": "Vanmohotsav 2021"
+      },
+      "order": 60
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2022",
+        "mr": "Vanmohotsav 2022"
+      },
+      "order": 61
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2023",
+        "mr": "Vanmohotsav 2023"
+      },
+      "order": 62
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "A Green Campus and Clan Campus is a place where environmental friendly practices and education combine to promote sustainable and eco-friendly practices in the campus. Mahatma Phule Krishi Vidyapeeth, Rahuri is incorporating these strategies into the institutional planning processes with the aim of develop a clean and green campus. On this line this university is celebrating 1st July as a Krishidin and also organizing the massive tree plantation programme under the university jurisdiction every year. The tree plantation initiative includes neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants.",
+        "mr": "A Green Campus and Clan Campus is a place where environmental friendly practices and education combine to promote sustainable and eco-friendly practices in the campus. Mahatma Phule Krishi Vidyapeeth, Rahuri is incorporating these strategies into the institutional planning processes with the aim of develop a clean and green campus. On this line this university is celebrating 1st July as a Krishidin and also organizing the massive tree plantation programme under the university jurisdiction every year. The tree plantation initiative includes neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants."
+      },
+      "order": 63
+    },
+    {
+      "text": {
+        "en": "A massive tree plantation programme Vanmohotsav -2017 and Krishidin was organized on July 01, 2017 at MPKV, Rahuri. The programme was chaired by Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri. Dr. V. P. Chahal, ADG (AE), ICAR, New Delhi, Dr. Lakhan Singh, Director, ICAR-ATARI, Zone-VIII, Pune were the chief guests. Dr. K. D. Kokate, Director, Extension Education, Dr. R.S. Patil, Director of Research and other university authorities guided the scientists, staff, students. In all 52 Plantation Groups were formed and more than one thousand University staff including scientists, supporting staff etc. participated in the plantation programme.",
+        "mr": "A massive tree plantation programme Vanmohotsav -2017 and Krishidin was organized on July 01, 2017 at MPKV, Rahuri. The programme was chaired by Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri. Dr. V. P. Chahal, ADG (AE), ICAR, New Delhi, Dr. Lakhan Singh, Director, ICAR-ATARI, Zone-VIII, Pune were the chief guests. Dr. K. D. Kokate, Director, Extension Education, Dr. R.S. Patil, Director of Research and other university authorities guided the scientists, staff, students. In all 52 Plantation Groups were formed and more than one thousand University staff including scientists, supporting staff etc. participated in the plantation programme."
+      },
+      "order": 64
+    },
+    {
+      "text": {
+        "en": "A massive tree plantation programme Vanmohotsav -2018 and Krishidin was organized on July 02, 2018 at the Mahatma Phule Krishi Vidyapeeth, Rahuri to celebrate the birth anniversary of former Chief Minister of Maharashtra late Vasantrao Naik. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Adarsha Reddy, District Conservator of Forests, Ahmednagar was the chief guest. Dr. K. D. Kokate, Director, Extension Education, Dr. S. R. Gadakh, Director of Research, Mrs. Kirti Jamdhade, Divisional Forest Officer, Shri. Anil Dound, Tahsildar, Rahuri, Registrar Dr. D. D. Pawar, Comptroller Shri. Vijay Kote, Shri. Pandit Lonare, District Superintendent Agricultural Officer, Ahmednagar were present for the programme. After the programme, the university staff and students planted around 23,655 trees at the central campus. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. A target of 1,06,182 trees for planting this year has been set by the university in its ten district jurisdiction.",
+        "mr": "A massive tree plantation programme Vanmohotsav -2018 and Krishidin was organized on July 02, 2018 at the Mahatma Phule Krishi Vidyapeeth, Rahuri to celebrate the birth anniversary of former Chief Minister of Maharashtra late Vasantrao Naik. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Adarsha Reddy, District Conservator of Forests, Ahmednagar was the chief guest. Dr. K. D. Kokate, Director, Extension Education, Dr. S. R. Gadakh, Director of Research, Mrs. Kirti Jamdhade, Divisional Forest Officer, Shri. Anil Dound, Tahsildar, Rahuri, Registrar Dr. D. D. Pawar, Comptroller Shri. Vijay Kote, Shri. Pandit Lonare, District Superintendent Agricultural Officer, Ahmednagar were present for the programme. After the programme, the university staff and students planted around 23,655 trees at the central campus. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. A target of 1,06,182 trees for planting this year has been set by the university in its ten district jurisdiction."
+      },
+      "order": 65
+    },
+    {
+      "text": {
+        "en": "A tree plantation programme Vanmohotsav -2019 and Krishidin was organized on July 08, 2019 at the Mahatma Phule Krishi Vidyapeeth, Rahuri. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Devkhile, Assistant Conservator of Forest, Shri. Faisuddin Shaikh, Tahsildar Rahuri was the chief guest. Dr. S. R. Gadakh, Director of Research and Director of Extension Education, Dr. A.L. Pharande, Dean (F/A), Associate Deans of PGI, LAE and Dr. ASCAE &T, Comptroller Shri. Vijay Kote, University Enggineer Shri. Milind Dhoke were present for the programme. In all a target of plantation of 53000 trees has been set by the university in its ten district jurisdiction during this year. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. In all large number of university staff and all the students were participated in the said programme.",
+        "mr": "A tree plantation programme Vanmohotsav -2019 and Krishidin was organized on July 08, 2019 at the Mahatma Phule Krishi Vidyapeeth, Rahuri. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Devkhile, Assistant Conservator of Forest, Shri. Faisuddin Shaikh, Tahsildar Rahuri was the chief guest. Dr. S. R. Gadakh, Director of Research and Director of Extension Education, Dr. A.L. Pharande, Dean (F/A), Associate Deans of PGI, LAE and Dr. ASCAE &T, Comptroller Shri. Vijay Kote, University Enggineer Shri. Milind Dhoke were present for the programme. In all a target of plantation of 53000 trees has been set by the university in its ten district jurisdiction during this year. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. In all large number of university staff and all the students were participated in the said programme."
+      },
+      "order": 66
+    },
+    {
+      "text": {
+        "en": "The tree plantation programme Vanmahotsav-2021 was organized by the university on July 7, 2021. Hon’ble Minister for Rural Development and Labour, Govt. of Maharashtra Shri. Hasan Mushrif, President Adarsha Gaon Yojana Shri. Popatrao Pawar, Vice Chancellor Dr. Dr. P. G. Patil, District Collector, Ahmednagar Shri. Rajendra Bhosale, Dr. A. L. Pharande, Dean, Faculty of Agriculture, Dr. S. R. Gadakh, Director of Research and Extension Education and Associate Deans and other dignitaries were participated in the programme and planted the saplings. Large number of university staff members participated in this tree plantation programme. In all 75,000 saplings of various trees including fruit crops will be planted under university jurisdiction.",
+        "mr": "The tree plantation programme Vanmahotsav-2021 was organized by the university on July 7, 2021. Hon’ble Minister for Rural Development and Labour, Govt. of Maharashtra Shri. Hasan Mushrif, President Adarsha Gaon Yojana Shri. Popatrao Pawar, Vice Chancellor Dr. Dr. P. G. Patil, District Collector, Ahmednagar Shri. Rajendra Bhosale, Dr. A. L. Pharande, Dean, Faculty of Agriculture, Dr. S. R. Gadakh, Director of Research and Extension Education and Associate Deans and other dignitaries were participated in the programme and planted the saplings. Large number of university staff members participated in this tree plantation programme. In all 75,000 saplings of various trees including fruit crops will be planted under university jurisdiction."
+      },
+      "order": 67
+    },
+    {
+      "text": {
+        "en": "The Krishi Din Vamnmohotsav was organized on July 4, 2022 by MPKV, Rahuri in the university jurisdiction. This programme was organized in memory of Former Chief Minister of Maharashtra Late Vasantrao Naik.  The programme was participated by Vice Chancellor Dr. P. G. Patil, Dean (F/A) Dr. P.N. Rasal and Director of Research and Extension Education Dr. S. R. Gadakh, Registrar Shri. Pramod Lahale and other university scientists. The university has planned tree plantation drive during 1-7 July, 2022. In all target of more than 100000 saplings of various trees including fruit crops will be planted under university jurisdiction.",
+        "mr": "The Krishi Din Vamnmohotsav was organized on July 4, 2022 by MPKV, Rahuri in the university jurisdiction. This programme was organized in memory of Former Chief Minister of Maharashtra Late Vasantrao Naik.  The programme was participated by Vice Chancellor Dr. P. G. Patil, Dean (F/A) Dr. P.N. Rasal and Director of Research and Extension Education Dr. S. R. Gadakh, Registrar Shri. Pramod Lahale and other university scientists. The university has planned tree plantation drive during 1-7 July, 2022. In all target of more than 100000 saplings of various trees including fruit crops will be planted under university jurisdiction."
+      },
+      "order": 68
+    },
+    {
+      "text": {
+        "en": "On the eve of birthday anniversary of Former Chief Minister, Maharashtra state Late Shri. Vasantrao Naik has been celebrated as a Krishi Din on 1st July. On this occasion a tree plantation programme was organized under the able guidance of Hon’ble Vice Chancellor Dr. P. G. Patil on July 27, 2023 at CC MPKV Rahuri. Shri. Sachin Kand, Regional Forest Officer, Social Forest Dept. Ahmednagar, was the chief guest. Director of Research Dr.  S.D. Gorantiwar, Dean (F/A) Dr. S.A. Ranpise, Director of Extension Education, Dr. C.S. Patil, Registrar Dr. V.S. Shirke, Comptroller, Shri. V.T. Patil, University Engg. Shri M.P. Dhoke and Mrs. Shubhangi Dhote Madam, Forest Dept. Rahuri and all university staff and students were participated in the said programme. On this occasion nearly 10,000 bamboo plants, 3000 Mohgani saplings and other plants were planted. In all, a target of more than 81,500 of various saplings including fruit crops planted under university jurisdiction.",
+        "mr": "On the eve of birthday anniversary of Former Chief Minister, Maharashtra state Late Shri. Vasantrao Naik has been celebrated as a Krishi Din on 1st July. On this occasion a tree plantation programme was organized under the able guidance of Hon’ble Vice Chancellor Dr. P. G. Patil on July 27, 2023 at CC MPKV Rahuri. Shri. Sachin Kand, Regional Forest Officer, Social Forest Dept. Ahmednagar, was the chief guest. Director of Research Dr.  S.D. Gorantiwar, Dean (F/A) Dr. S.A. Ranpise, Director of Extension Education, Dr. C.S. Patil, Registrar Dr. V.S. Shirke, Comptroller, Shri. V.T. Patil, University Engg. Shri M.P. Dhoke and Mrs. Shubhangi Dhote Madam, Forest Dept. Rahuri and all university staff and students were participated in the said programme. On this occasion nearly 10,000 bamboo plants, 3000 Mohgani saplings and other plants were planted. In all, a target of more than 81,500 of various saplings including fruit crops planted under university jurisdiction."
+      },
+      "order": 69
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Periodical Events",
+          "mr": "नियतकालिक कार्यक्रम"
+        },
+        {
+          "en": "Convocation",
+          "mr": "Convocation"
+        },
+        {
+          "en": "Joint AGRESCO",
+          "mr": "Joint AGRESCO"
+        },
+        {
+          "en": "Retrospection",
+          "mr": "Retrospection"
+        },
+        {
+          "en": "Vanmohotsav",
+          "mr": "Vanmohotsav"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "University Foundation Day",
+          "mr": "University Foundation Day"
+        }
+      ],
+      "order": 70
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Vanmohotsav 2017_17_34_19_20191126050846.JPG",
+      "localPath": "/media/images/Vanmohotsav_2017_17_34_19_20191126050846.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Vanmohotsav 2018_17_35_19_20191126050833.jpg",
+      "localPath": "/media/images/Vanmohotsav_2018_17_35_19_20191126050833.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Vanmohotsav 2019_18_57_19_20191126050757.jpg",
+      "localPath": "/media/images/Vanmohotsav_2019_18_57_19_20191126050757.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/2021_20230608025053.JPG",
+      "localPath": "/media/images/2021_20230608025053.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/2022_20230609101645.JPG",
+      "localPath": "/media/images/2022_20230609101645.JPG",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Vanmohotsav 2023_20240730040503.jpg",
+      "localPath": "/media/images/Vanmohotsav_2023_20240730040503.jpg",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "order": 55
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2017",
+        "mr": "Vanmohotsav 2017"
+      },
+      "order": 56
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2018",
+        "mr": "Vanmohotsav 2018"
+      },
+      "order": 57
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2019",
+        "mr": "Vanmohotsav 2019"
+      },
+      "order": 58
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2020",
+        "mr": "Vanmohotsav 2020"
+      },
+      "order": 59
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2021",
+        "mr": "Vanmohotsav 2021"
+      },
+      "order": 60
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2022",
+        "mr": "Vanmohotsav 2022"
+      },
+      "order": 61
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Vanmohotsav 2023",
+        "mr": "Vanmohotsav 2023"
+      },
+      "order": 62
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "A Green Campus and Clan Campus is a place where environmental friendly practices and education combine to promote sustainable and eco-friendly practices in the campus. Mahatma Phule Krishi Vidyapeeth, Rahuri is incorporating these strategies into the institutional planning processes with the aim of develop a clean and green campus. On this line this university is celebrating 1st July as a Krishidin and also organizing the massive tree plantation programme under the university jurisdiction every year. The tree plantation initiative includes neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants.",
+        "mr": "A Green Campus and Clan Campus is a place where environmental friendly practices and education combine to promote sustainable and eco-friendly practices in the campus. Mahatma Phule Krishi Vidyapeeth, Rahuri is incorporating these strategies into the institutional planning processes with the aim of develop a clean and green campus. On this line this university is celebrating 1st July as a Krishidin and also organizing the massive tree plantation programme under the university jurisdiction every year. The tree plantation initiative includes neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants."
+      },
+      "order": 63
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "A massive tree plantation programme Vanmohotsav -2017 and Krishidin was organized on July 01, 2017 at MPKV, Rahuri. The programme was chaired by Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri. Dr. V. P. Chahal, ADG (AE), ICAR, New Delhi, Dr. Lakhan Singh, Director, ICAR-ATARI, Zone-VIII, Pune were the chief guests. Dr. K. D. Kokate, Director, Extension Education, Dr. R.S. Patil, Director of Research and other university authorities guided the scientists, staff, students. In all 52 Plantation Groups were formed and more than one thousand University staff including scientists, supporting staff etc. participated in the plantation programme.",
+        "mr": "A massive tree plantation programme Vanmohotsav -2017 and Krishidin was organized on July 01, 2017 at MPKV, Rahuri. The programme was chaired by Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri. Dr. V. P. Chahal, ADG (AE), ICAR, New Delhi, Dr. Lakhan Singh, Director, ICAR-ATARI, Zone-VIII, Pune were the chief guests. Dr. K. D. Kokate, Director, Extension Education, Dr. R.S. Patil, Director of Research and other university authorities guided the scientists, staff, students. In all 52 Plantation Groups were formed and more than one thousand University staff including scientists, supporting staff etc. participated in the plantation programme."
+      },
+      "order": 64
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "A massive tree plantation programme Vanmohotsav -2018 and Krishidin was organized on July 02, 2018 at the Mahatma Phule Krishi Vidyapeeth, Rahuri to celebrate the birth anniversary of former Chief Minister of Maharashtra late Vasantrao Naik. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Adarsha Reddy, District Conservator of Forests, Ahmednagar was the chief guest. Dr. K. D. Kokate, Director, Extension Education, Dr. S. R. Gadakh, Director of Research, Mrs. Kirti Jamdhade, Divisional Forest Officer, Shri. Anil Dound, Tahsildar, Rahuri, Registrar Dr. D. D. Pawar, Comptroller Shri. Vijay Kote, Shri. Pandit Lonare, District Superintendent Agricultural Officer, Ahmednagar were present for the programme. After the programme, the university staff and students planted around 23,655 trees at the central campus. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. A target of 1,06,182 trees for planting this year has been set by the university in its ten district jurisdiction.",
+        "mr": "A massive tree plantation programme Vanmohotsav -2018 and Krishidin was organized on July 02, 2018 at the Mahatma Phule Krishi Vidyapeeth, Rahuri to celebrate the birth anniversary of former Chief Minister of Maharashtra late Vasantrao Naik. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Adarsha Reddy, District Conservator of Forests, Ahmednagar was the chief guest. Dr. K. D. Kokate, Director, Extension Education, Dr. S. R. Gadakh, Director of Research, Mrs. Kirti Jamdhade, Divisional Forest Officer, Shri. Anil Dound, Tahsildar, Rahuri, Registrar Dr. D. D. Pawar, Comptroller Shri. Vijay Kote, Shri. Pandit Lonare, District Superintendent Agricultural Officer, Ahmednagar were present for the programme. After the programme, the university staff and students planted around 23,655 trees at the central campus. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. A target of 1,06,182 trees for planting this year has been set by the university in its ten district jurisdiction."
+      },
+      "order": 65
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "A tree plantation programme Vanmohotsav -2019 and Krishidin was organized on July 08, 2019 at the Mahatma Phule Krishi Vidyapeeth, Rahuri. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Devkhile, Assistant Conservator of Forest, Shri. Faisuddin Shaikh, Tahsildar Rahuri was the chief guest. Dr. S. R. Gadakh, Director of Research and Director of Extension Education, Dr. A.L. Pharande, Dean (F/A), Associate Deans of PGI, LAE and Dr. ASCAE &T, Comptroller Shri. Vijay Kote, University Enggineer Shri. Milind Dhoke were present for the programme. In all a target of plantation of 53000 trees has been set by the university in its ten district jurisdiction during this year. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. In all large number of university staff and all the students were participated in the said programme.",
+        "mr": "A tree plantation programme Vanmohotsav -2019 and Krishidin was organized on July 08, 2019 at the Mahatma Phule Krishi Vidyapeeth, Rahuri. Dr. K. P. Viswanatha, Vice Chancellor, MPKV, Rahuri presided over the function. Shri. Devkhile, Assistant Conservator of Forest, Shri. Faisuddin Shaikh, Tahsildar Rahuri was the chief guest. Dr. S. R. Gadakh, Director of Research and Director of Extension Education, Dr. A.L. Pharande, Dean (F/A), Associate Deans of PGI, LAE and Dr. ASCAE &T, Comptroller Shri. Vijay Kote, University Enggineer Shri. Milind Dhoke were present for the programme. In all a target of plantation of 53000 trees has been set by the university in its ten district jurisdiction during this year. These include neem, jamun, mango, bamboo, karanj, aonla, hirda, behada, kagzi lime and various medicinal plants. In all large number of university staff and all the students were participated in the said programme."
+      },
+      "order": 66
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The tree plantation programme Vanmahotsav-2021 was organized by the university on July 7, 2021. Hon’ble Minister for Rural Development and Labour, Govt. of Maharashtra Shri. Hasan Mushrif, President Adarsha Gaon Yojana Shri. Popatrao Pawar, Vice Chancellor Dr. Dr. P. G. Patil, District Collector, Ahmednagar Shri. Rajendra Bhosale, Dr. A. L. Pharande, Dean, Faculty of Agriculture, Dr. S. R. Gadakh, Director of Research and Extension Education and Associate Deans and other dignitaries were participated in the programme and planted the saplings. Large number of university staff members participated in this tree plantation programme. In all 75,000 saplings of various trees including fruit crops will be planted under university jurisdiction.",
+        "mr": "The tree plantation programme Vanmahotsav-2021 was organized by the university on July 7, 2021. Hon’ble Minister for Rural Development and Labour, Govt. of Maharashtra Shri. Hasan Mushrif, President Adarsha Gaon Yojana Shri. Popatrao Pawar, Vice Chancellor Dr. Dr. P. G. Patil, District Collector, Ahmednagar Shri. Rajendra Bhosale, Dr. A. L. Pharande, Dean, Faculty of Agriculture, Dr. S. R. Gadakh, Director of Research and Extension Education and Associate Deans and other dignitaries were participated in the programme and planted the saplings. Large number of university staff members participated in this tree plantation programme. In all 75,000 saplings of various trees including fruit crops will be planted under university jurisdiction."
+      },
+      "order": 67
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "The Krishi Din Vamnmohotsav was organized on July 4, 2022 by MPKV, Rahuri in the university jurisdiction. This programme was organized in memory of Former Chief Minister of Maharashtra Late Vasantrao Naik.  The programme was participated by Vice Chancellor Dr. P. G. Patil, Dean (F/A) Dr. P.N. Rasal and Director of Research and Extension Education Dr. S. R. Gadakh, Registrar Shri. Pramod Lahale and other university scientists. The university has planned tree plantation drive during 1-7 July, 2022. In all target of more than 100000 saplings of various trees including fruit crops will be planted under university jurisdiction.",
+        "mr": "The Krishi Din Vamnmohotsav was organized on July 4, 2022 by MPKV, Rahuri in the university jurisdiction. This programme was organized in memory of Former Chief Minister of Maharashtra Late Vasantrao Naik.  The programme was participated by Vice Chancellor Dr. P. G. Patil, Dean (F/A) Dr. P.N. Rasal and Director of Research and Extension Education Dr. S. R. Gadakh, Registrar Shri. Pramod Lahale and other university scientists. The university has planned tree plantation drive during 1-7 July, 2022. In all target of more than 100000 saplings of various trees including fruit crops will be planted under university jurisdiction."
+      },
+      "order": 68
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "On the eve of birthday anniversary of Former Chief Minister, Maharashtra state Late Shri. Vasantrao Naik has been celebrated as a Krishi Din on 1st July. On this occasion a tree plantation programme was organized under the able guidance of Hon’ble Vice Chancellor Dr. P. G. Patil on July 27, 2023 at CC MPKV Rahuri. Shri. Sachin Kand, Regional Forest Officer, Social Forest Dept. Ahmednagar, was the chief guest. Director of Research Dr.  S.D. Gorantiwar, Dean (F/A) Dr. S.A. Ranpise, Director of Extension Education, Dr. C.S. Patil, Registrar Dr. V.S. Shirke, Comptroller, Shri. V.T. Patil, University Engg. Shri M.P. Dhoke and Mrs. Shubhangi Dhote Madam, Forest Dept. Rahuri and all university staff and students were participated in the said programme. On this occasion nearly 10,000 bamboo plants, 3000 Mohgani saplings and other plants were planted. In all, a target of more than 81,500 of various saplings including fruit crops planted under university jurisdiction.",
+        "mr": "On the eve of birthday anniversary of Former Chief Minister, Maharashtra state Late Shri. Vasantrao Naik has been celebrated as a Krishi Din on 1st July. On this occasion a tree plantation programme was organized under the able guidance of Hon’ble Vice Chancellor Dr. P. G. Patil on July 27, 2023 at CC MPKV Rahuri. Shri. Sachin Kand, Regional Forest Officer, Social Forest Dept. Ahmednagar, was the chief guest. Director of Research Dr.  S.D. Gorantiwar, Dean (F/A) Dr. S.A. Ranpise, Director of Extension Education, Dr. C.S. Patil, Registrar Dr. V.S. Shirke, Comptroller, Shri. V.T. Patil, University Engg. Shri M.P. Dhoke and Mrs. Shubhangi Dhote Madam, Forest Dept. Rahuri and all university staff and students were participated in the said programme. On this occasion nearly 10,000 bamboo plants, 3000 Mohgani saplings and other plants were planted. In all, a target of more than 81,500 of various saplings including fruit crops planted under university jurisdiction."
+      },
+      "order": 69
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Periodical Events",
+          "mr": "नियतकालिक कार्यक्रम"
+        },
+        {
+          "en": "Convocation",
+          "mr": "Convocation"
+        },
+        {
+          "en": "Joint AGRESCO",
+          "mr": "Joint AGRESCO"
+        },
+        {
+          "en": "Retrospection",
+          "mr": "Retrospection"
+        },
+        {
+          "en": "Vanmohotsav",
+          "mr": "Vanmohotsav"
+        },
+        {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "Kisan Aadhar Sammelan"
+        },
+        {
+          "en": "University Foundation Day",
+          "mr": "University Foundation Day"
+        }
+      ],
+      "order": 70
+    }
+  ],
+  "stats": {
+    "headingCount": 62,
+    "paragraphCount": 7,
+    "listCount": 1,
+    "tableCount": 0,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 20,
+    "totalRecords": 89
+  }
+}

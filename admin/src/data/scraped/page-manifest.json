@@ -1,0 +1,1655 @@
+{
+  "generatedAt": "2026-11-22T20:36:23.354812",
+  "totalPages": 103,
+  "totalRecordsAcrossAllPages": 11417,
+  "pages": [
+    {
+      "slug": "about-mahatma-phule",
+      "route": "/Home/aboutphule",
+      "title": {
+        "en": "About Mahatma Phule",
+        "mr": "About Mahatma Phule"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 69,
+      "jsonPath": "src/data/scraped/pages/about-mahatma-phule.json"
+    },
+    {
+      "slug": "act-and-statute",
+      "route": "/Home/ActStatute",
+      "title": {
+        "en": "Act & Statute",
+        "mr": "कायदे"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 2,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 23,
+      "totalRecords": 87,
+      "jsonPath": "src/data/scraped/pages/act-and-statute.json"
+    },
+    {
+      "slug": "administration-profile",
+      "route": "/Adminstration/AdminsProfile",
+      "title": {
+        "en": "Administration",
+        "mr": "प्रशासन"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 70,
+      "jsonPath": "src/data/scraped/pages/administration-profile.json"
+    },
+    {
+      "slug": "agricultural-universities",
+      "route": "/Home/AgriUniversities",
+      "title": {
+        "en": "Internal Quality Assurance Cell",
+        "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 133,
+      "jsonPath": "src/data/scraped/pages/agricultural-universities.json"
+    },
+    {
+      "slug": "agro-advisories",
+      "route": "/Home/AgroAdd",
+      "title": {
+        "en": "Agro Advisory",
+        "mr": "कृषि सल्ला"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 44,
+      "totalRecords": 109,
+      "jsonPath": "src/data/scraped/pages/agro-advisories.json"
+    },
+    {
+      "slug": "akmu-introduction",
+      "route": "/Akmu/Introduction",
+      "title": {
+        "en": "Agricultural Knowledge Management Unit",
+        "mr": "कृषि माहिती व्यवस्थापन विभाग"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 16,
+      "totalRecords": 72,
+      "jsonPath": "src/data/scraped/pages/akmu-introduction.json"
+    },
+    {
+      "slug": "akmu-rahuri",
+      "route": "/akmu-rahuri",
+      "title": {
+        "en": "Agricultural Knowledge Management Unit (AKMU), Rahuri",
+        "mr": "कृषि माहिती व्यवस्थापन विभाग (एकेएमयू), राहुरी"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 1,
+      "jsonPath": "src/data/scraped/pages/akmu-rahuri.json"
+    },
+    {
+      "slug": "akmu-training",
+      "route": "/Akmu/Traning",
+      "title": {
+        "en": "Trainings",
+        "mr": "प्रशिक्षण"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 18,
+      "totalRecords": 77,
+      "jsonPath": "src/data/scraped/pages/akmu-training.json"
+    },
+    {
+      "slug": "atic-rahuri",
+      "route": "/atic-rahuri",
+      "title": {
+        "en": "Agricultural Technology Information Centre (ATIC), Rahuri",
+        "mr": "कृषि तंत्रज्ञान माहिती केंद्र (एटीआयसी), राहुरी"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 1,
+      "jsonPath": "src/data/scraped/pages/atic-rahuri.json"
+    },
+    {
+      "slug": "audio-center",
+      "route": "/audio-center",
+      "title": {
+        "en": "Official Audio Center & Phule Krishi Vahini 90.8 FM",
+        "mr": "अधिकृत ध्वनी दालन व फुले कृषिवाहिनी ९०.८ एफएम"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 4,
+      "jsonPath": "src/data/scraped/pages/audio-center.json"
+    },
+    {
+      "slug": "central-library-rahuri",
+      "route": "/central-library-rahuri",
+      "title": {
+        "en": "Vasantrao Naik Memorial Central Library, Rahuri",
+        "mr": "वसंतराव नाईक स्मृती मध्यवर्ती ग्रंथालय, राहुरी"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 4,
+      "jsonPath": "src/data/scraped/pages/central-library-rahuri.json"
+    },
+    {
+      "slug": "circulars",
+      "route": "/AllCircular/Circular",
+      "title": {
+        "en": "Circulars",
+        "mr": "परिपत्रके"
+      },
+      "headingCount": 58,
+      "paragraphCount": 0,
+      "tableCount": 3,
+      "noticeCount": 201,
+      "cardCount": 0,
+      "mediaCount": 215,
+      "totalRecords": 474,
+      "jsonPath": "src/data/scraped/pages/circulars.json"
+    },
+    {
+      "slug": "colleges-campus",
+      "route": "/Home/campus",
+      "title": {
+        "en": "Campus",
+        "mr": "Campus"
+      },
+      "headingCount": 58,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 16,
+      "totalRecords": 74,
+      "jsonPath": "src/data/scraped/pages/colleges-campus.json"
+    },
+    {
+      "slug": "committees",
+      "route": "/Home/Commity",
+      "title": {
+        "en": "Committee",
+        "mr": "समिती"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 87,
+      "jsonPath": "src/data/scraped/pages/committees.json"
+    },
+    {
+      "slug": "contacts-directory",
+      "route": "/Officers/Contacts",
+      "title": {
+        "en": "Contacts",
+        "mr": "संपर्क"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 79,
+      "jsonPath": "src/data/scraped/pages/contacts-directory.json"
+    },
+    {
+      "slug": "dr-as-caet-rahuri",
+      "route": "/dr-as-caet-rahuri",
+      "title": {
+        "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology, Rahuri",
+        "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 5,
+      "jsonPath": "src/data/scraped/pages/dr-as-caet-rahuri.json"
+    },
+    {
+      "slug": "education-academic-regulations",
+      "route": "/Education/EduAcademicRegulations",
+      "title": {
+        "en": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 58,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 18,
+      "totalRecords": 76,
+      "jsonPath": "src/data/scraped/pages/education-academic-regulations.json"
+    },
+    {
+      "slug": "education-affiliated-colleges",
+      "route": "/Education/EduAffiletedClg",
+      "title": {
+        "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 62,
+      "paragraphCount": 2,
+      "tableCount": 7,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 143,
+      "jsonPath": "src/data/scraped/pages/education-affiliated-colleges.json"
+    },
+    {
+      "slug": "education-at-a-glance",
+      "route": "/Education/AtaGlance",
+      "title": {
+        "en": "At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 8,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 78,
+      "jsonPath": "src/data/scraped/pages/education-at-a-glance.json"
+    },
+    {
+      "slug": "education-certificate-courses",
+      "route": "/Education/EduCirtificateCourse",
+      "title": {
+        "en": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 57,
+      "paragraphCount": 0,
+      "tableCount": 2,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 76,
+      "jsonPath": "src/data/scraped/pages/education-certificate-courses.json"
+    },
+    {
+      "slug": "education-constituent-colleges",
+      "route": "/Education/EduConstituenClg",
+      "title": {
+        "en": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 57,
+      "paragraphCount": 3,
+      "tableCount": 2,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 17,
+      "totalRecords": 120,
+      "jsonPath": "src/data/scraped/pages/education-constituent-colleges.json"
+    },
+    {
+      "slug": "education-courses-bachelors",
+      "route": "/Education/EduCourseBachlor",
+      "title": {
+        "en": "Bachelor Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Bachelor Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 20,
+      "totalRecords": 81,
+      "jsonPath": "src/data/scraped/pages/education-courses-bachelors.json"
+    },
+    {
+      "slug": "education-courses-diploma",
+      "route": "/Education/EduCourseDiploma",
+      "title": {
+        "en": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 16,
+      "totalRecords": 73,
+      "jsonPath": "src/data/scraped/pages/education-courses-diploma.json"
+    },
+    {
+      "slug": "education-courses-doctoral",
+      "route": "/Education/EduCourseDoctoral",
+      "title": {
+        "en": "Doctoral Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Doctoral Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 57,
+      "paragraphCount": 0,
+      "tableCount": 2,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 22,
+      "totalRecords": 89,
+      "jsonPath": "src/data/scraped/pages/education-courses-doctoral.json"
+    },
+    {
+      "slug": "education-courses-masters",
+      "route": "/Education/EduCourseMaster",
+      "title": {
+        "en": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 60,
+      "paragraphCount": 0,
+      "tableCount": 5,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 39,
+      "totalRecords": 124,
+      "jsonPath": "src/data/scraped/pages/education-courses-masters.json"
+    },
+    {
+      "slug": "education-diploma-schools",
+      "route": "/Education/EduDiplomaSchool",
+      "title": {
+        "en": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 59,
+      "paragraphCount": 6,
+      "tableCount": 4,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 166,
+      "jsonPath": "src/data/scraped/pages/education-diploma-schools.json"
+    },
+    {
+      "slug": "education-faculty-agricultural-engineering",
+      "route": "/Education/EduFaclatyEngg",
+      "title": {
+        "en": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 2,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 19,
+      "totalRecords": 81,
+      "jsonPath": "src/data/scraped/pages/education-faculty-agricultural-engineering.json"
+    },
+    {
+      "slug": "education-faculty-agricultural-science",
+      "route": "/Education/EduFaclatyScience",
+      "title": {
+        "en": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 2,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 30,
+      "totalRecords": 103,
+      "jsonPath": "src/data/scraped/pages/education-faculty-agricultural-science.json"
+    },
+    {
+      "slug": "education-organizational-profile",
+      "route": "/Education/EduProfile",
+      "title": {
+        "en": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 70,
+      "jsonPath": "src/data/scraped/pages/education-organizational-profile.json"
+    },
+    {
+      "slug": "education-thrust-areas",
+      "route": "/Education/EduThrustAreas",
+      "title": {
+        "en": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 69,
+      "jsonPath": "src/data/scraped/pages/education-thrust-areas.json"
+    },
+    {
+      "slug": "employee-corner",
+      "route": "/Home/empCorner",
+      "title": {
+        "en": "Employee Corner",
+        "mr": "Employee Corner"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 19,
+      "totalRecords": 79,
+      "jsonPath": "src/data/scraped/pages/employee-corner.json"
+    },
+    {
+      "slug": "events-convocation",
+      "route": "/PeriodicalEvent/Convocation",
+      "title": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "headingCount": 66,
+      "paragraphCount": 7,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 49,
+      "totalRecords": 122,
+      "jsonPath": "src/data/scraped/pages/events-convocation.json"
+    },
+    {
+      "slug": "events-joint-agresco",
+      "route": "/PeriodicalEvent/JointAGRESCO",
+      "title": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "headingCount": 66,
+      "paragraphCount": 7,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 33,
+      "totalRecords": 106,
+      "jsonPath": "src/data/scraped/pages/events-joint-agresco.json"
+    },
+    {
+      "slug": "events-vanmohotsav",
+      "route": "/PeriodicalEvent/Vanmahostav",
+      "title": {
+        "en": "Periodical Events",
+        "mr": "नियतकालिक कार्यक्रम"
+      },
+      "headingCount": 62,
+      "paragraphCount": 7,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 20,
+      "totalRecords": 89,
+      "jsonPath": "src/data/scraped/pages/events-vanmohotsav.json"
+    },
+    {
+      "slug": "executive-council",
+      "route": "/Officers/ExConcil",
+      "title": {
+        "en": "Contacts",
+        "mr": "संपर्क"
+      },
+      "headingCount": 56,
+      "paragraphCount": 5,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 29,
+      "totalRecords": 116,
+      "jsonPath": "src/data/scraped/pages/executive-council.json"
+    },
+    {
+      "slug": "extension-adhoc-projects",
+      "route": "/Extension/ExtensionAdProj",
+      "title": {
+        "en": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 5,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 16,
+      "totalRecords": 76,
+      "jsonPath": "src/data/scraped/pages/extension-adhoc-projects.json"
+    },
+    {
+      "slug": "extension-at-a-glance",
+      "route": "/Extension/ExtensionAtaGalance",
+      "title": {
+        "en": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 3,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 73,
+      "jsonPath": "src/data/scraped/pages/extension-at-a-glance.json"
+    },
+    {
+      "slug": "extension-atic",
+      "route": "/Extension/ExtensionATIC",
+      "title": {
+        "en": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 2,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 23,
+      "totalRecords": 80,
+      "jsonPath": "src/data/scraped/pages/extension-atic.json"
+    },
+    {
+      "slug": "extension-communication-center",
+      "route": "/Extension/ExtensionCC",
+      "title": {
+        "en": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 2,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 19,
+      "totalRecords": 76,
+      "jsonPath": "src/data/scraped/pages/extension-communication-center.json"
+    },
+    {
+      "slug": "extension-district-centers",
+      "route": "/Extension/ExtensionCenterDEC",
+      "title": {
+        "en": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 76,
+      "jsonPath": "src/data/scraped/pages/extension-district-centers.json"
+    },
+    {
+      "slug": "extension-krishi-vigyan-kendras",
+      "route": "/Extension/ExtensionKVK",
+      "title": {
+        "en": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 4,
+      "tableCount": 2,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 90,
+      "jsonPath": "src/data/scraped/pages/extension-krishi-vigyan-kendras.json"
+    },
+    {
+      "slug": "extension-organizational-profile",
+      "route": "/Extension/ExtensionProfile",
+      "title": {
+        "en": "Extension Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Extension Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 70,
+      "jsonPath": "src/data/scraped/pages/extension-organizational-profile.json"
+    },
+    {
+      "slug": "extension-publications",
+      "route": "/Extension/ExtensionPublication",
+      "title": {
+        "en": "Extension Publications - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Extension Publications - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 77,
+      "paragraphCount": 3,
+      "tableCount": 25,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 271,
+      "totalRecords": 609,
+      "jsonPath": "src/data/scraped/pages/extension-publications.json"
+    },
+    {
+      "slug": "extension-regional-centers",
+      "route": "/Extension/ExtensionCenter",
+      "title": {
+        "en": "Extension Centers - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Extension Centers - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 3,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 77,
+      "jsonPath": "src/data/scraped/pages/extension-regional-centers.json"
+    },
+    {
+      "slug": "extension-thrust-areas",
+      "route": "/Extension/ExtensionThrustArea",
+      "title": {
+        "en": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 69,
+      "jsonPath": "src/data/scraped/pages/extension-thrust-areas.json"
+    },
+    {
+      "slug": "faculty-directory",
+      "route": "/Home/factDada",
+      "title": {
+        "en": "Faculty",
+        "mr": "Faculty"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 20,
+      "totalRecords": 75,
+      "jsonPath": "src/data/scraped/pages/faculty-directory.json"
+    },
+    {
+      "slug": "farm-implements",
+      "route": "/farm-implements",
+      "title": {
+        "en": "Farm Implements & Machinery Developed at MPKV Rahuri",
+        "mr": "मफुकृवि राहुरी विकसित शेती अवजारे व यंत्रे"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 35,
+      "jsonPath": "src/data/scraped/pages/farm-implements.json"
+    },
+    {
+      "slug": "farmer-inputs",
+      "route": "/Farmer/FarmerInputes",
+      "title": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "headingCount": 75,
+      "paragraphCount": 0,
+      "tableCount": 17,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 21,
+      "totalRecords": 193,
+      "jsonPath": "src/data/scraped/pages/farmer-inputs.json"
+    },
+    {
+      "slug": "farmer-kisan-aadhar",
+      "route": "/Farmer/FarmerKisanAdhar",
+      "title": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "headingCount": 58,
+      "paragraphCount": 4,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 25,
+      "totalRecords": 87,
+      "jsonPath": "src/data/scraped/pages/farmer-kisan-aadhar.json"
+    },
+    {
+      "slug": "farmer-scientist-forum",
+      "route": "/Farmer/FarmerSciForum",
+      "title": {
+        "en": "Farmer",
+        "mr": "शेतकरी"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 20,
+      "totalRecords": 76,
+      "jsonPath": "src/data/scraped/pages/farmer-scientist-forum.json"
+    },
+    {
+      "slug": "finance",
+      "route": "/Finance/AboutFinance",
+      "title": {
+        "en": "Finance",
+        "mr": "वित्त"
+      },
+      "headingCount": 55,
+      "paragraphCount": 2,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 71,
+      "jsonPath": "src/data/scraped/pages/finance.json"
+    },
+    {
+      "slug": "grievance-redressal",
+      "route": "/Officers/Grivence",
+      "title": {
+        "en": "Grievance Redressal",
+        "mr": "Grievance Redressal"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 69,
+      "jsonPath": "src/data/scraped/pages/grievance-redressal.json"
+    },
+    {
+      "slug": "home",
+      "route": "/Home/IndexNew",
+      "title": {
+        "en": "MPKV Rahuri",
+        "mr": "MPKV Rahuri"
+      },
+      "headingCount": 32,
+      "paragraphCount": 32,
+      "tableCount": 18,
+      "noticeCount": 0,
+      "cardCount": 3,
+      "mediaCount": 123,
+      "totalRecords": 288,
+      "jsonPath": "src/data/scraped/pages/home.json"
+    },
+    {
+      "slug": "iqac",
+      "route": "/Home/Iqac",
+      "title": {
+        "en": "Internal Quality Assurance Cell",
+        "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+      },
+      "headingCount": 55,
+      "paragraphCount": 2,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 74,
+      "jsonPath": "src/data/scraped/pages/iqac.json"
+    },
+    {
+      "slug": "krishi-calendar",
+      "route": "/farmer/calendar",
+      "title": {
+        "en": "Annual Agricultural Calendar (12 Months)",
+        "mr": "वार्षिक कृषि वेळापत्रक (१२ महिने)"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 12,
+      "totalRecords": 12,
+      "jsonPath": "src/data/scraped/pages/krishi-calendar.json"
+    },
+    {
+      "slug": "library-about",
+      "route": "/Library/About",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 2,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 72,
+      "jsonPath": "src/data/scraped/pages/library-about.json"
+    },
+    {
+      "slug": "library-activities",
+      "route": "/Library/LibActivities",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 4,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 73,
+      "jsonPath": "src/data/scraped/pages/library-activities.json"
+    },
+    {
+      "slug": "library-collections",
+      "route": "/Library/LibCollections",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 80,
+      "jsonPath": "src/data/scraped/pages/library-collections.json"
+    },
+    {
+      "slug": "library-contact",
+      "route": "/Library/LibContact",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 80,
+      "jsonPath": "src/data/scraped/pages/library-contact.json"
+    },
+    {
+      "slug": "library-facilities",
+      "route": "/Library/LibFacilities",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 4,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 78,
+      "jsonPath": "src/data/scraped/pages/library-facilities.json"
+    },
+    {
+      "slug": "library-links",
+      "route": "/Library/LibLinks",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 69,
+      "jsonPath": "src/data/scraped/pages/library-links.json"
+    },
+    {
+      "slug": "library-news-events",
+      "route": "/Library/LibNewsEvents",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 18,
+      "totalRecords": 74,
+      "jsonPath": "src/data/scraped/pages/library-news-events.json"
+    },
+    {
+      "slug": "library-off-campus",
+      "route": "/Library/LibOffCampus",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 73,
+      "jsonPath": "src/data/scraped/pages/library-off-campus.json"
+    },
+    {
+      "slug": "library-sections",
+      "route": "/Library/LibSections",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 6,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 19,
+      "totalRecords": 80,
+      "jsonPath": "src/data/scraped/pages/library-sections.json"
+    },
+    {
+      "slug": "library-services",
+      "route": "/Library/LibServices",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "headingCount": 55,
+      "paragraphCount": 5,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 75,
+      "jsonPath": "src/data/scraped/pages/library-services.json"
+    },
+    {
+      "slug": "mpkv-at-a-glance",
+      "route": "/Home/MpkvAtaGlance",
+      "title": {
+        "en": "MPKV At a Glance",
+        "mr": "MPKV At a Glance"
+      },
+      "headingCount": 66,
+      "paragraphCount": 16,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 19,
+      "totalRecords": 101,
+      "jsonPath": "src/data/scraped/pages/mpkv-at-a-glance.json"
+    },
+    {
+      "slug": "nodal-cell",
+      "route": "/PmeAndNodel/NodelGuidelines",
+      "title": {
+        "en": "Nodal Cell",
+        "mr": "नोडल सेल"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 25,
+      "totalRecords": 81,
+      "jsonPath": "src/data/scraped/pages/nodal-cell.json"
+    },
+    {
+      "slug": "nursery-stock",
+      "route": "/nursery-stock",
+      "title": {
+        "en": "Nursery Plants & Grafts Availability (MPKV Rahuri)",
+        "mr": "रोपे व कलमे उपलब्धता साठा (मफुकृवि राहुरी)"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 2,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 13,
+      "jsonPath": "src/data/scraped/pages/nursery-stock.json"
+    },
+    {
+      "slug": "officers-directory",
+      "route": "/Officers/OfficersContacts",
+      "title": {
+        "en": "Officers Contacts",
+        "mr": "अधिकारी संपर्क"
+      },
+      "headingCount": 62,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 7,
+      "mediaCount": 21,
+      "totalRecords": 90,
+      "jsonPath": "src/data/scraped/pages/officers-directory.json"
+    },
+    {
+      "slug": "photo-gallery",
+      "route": "/Home/HomeGalleryAll",
+      "title": {
+        "en": "Gallery",
+        "mr": "गॅलरी"
+      },
+      "headingCount": 137,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 946,
+      "totalRecords": 1083,
+      "jsonPath": "src/data/scraped/pages/photo-gallery.json"
+    },
+    {
+      "slug": "pme-cell",
+      "route": "/PmeAndNodel/PmeIntroduction",
+      "title": {
+        "en": "PME Cell",
+        "mr": "पीएमई सेल"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 70,
+      "jsonPath": "src/data/scraped/pages/pme-cell.json"
+    },
+    {
+      "slug": "portal-login",
+      "route": "/Home/Login",
+      "title": {
+        "en": "Department Login",
+        "mr": "Department Login"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 1,
+      "totalRecords": 1,
+      "jsonPath": "src/data/scraped/pages/portal-login.json"
+    },
+    {
+      "slug": "post-graduate-institute-rahuri",
+      "route": "/post-graduate-institute-rahuri",
+      "title": {
+        "en": "Post Graduate Institute (PGI), Rahuri",
+        "mr": "पदव्युत्तर महाविद्यालय, मफुकृवि, राहुरी"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 14,
+      "jsonPath": "src/data/scraped/pages/post-graduate-institute-rahuri.json"
+    },
+    {
+      "slug": "privacy-policy",
+      "route": "/Home/PrivacePolicy",
+      "title": {
+        "en": "Privacy Policy",
+        "mr": "गोपनीयता धोरण"
+      },
+      "headingCount": 55,
+      "paragraphCount": 3,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 72,
+      "jsonPath": "src/data/scraped/pages/privacy-policy.json"
+    },
+    {
+      "slug": "recruitment",
+      "route": "/Adminstration/AdminsRecruitment",
+      "title": {
+        "en": "Administration",
+        "mr": "प्रशासन"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 376,
+      "cardCount": 0,
+      "mediaCount": 390,
+      "totalRecords": 821,
+      "jsonPath": "src/data/scraped/pages/recruitment.json"
+    },
+    {
+      "slug": "research-at-a-glance",
+      "route": "/Research/ResearchAtaGalance",
+      "title": {
+        "en": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 10,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 80,
+      "jsonPath": "src/data/scraped/pages/research-at-a-glance.json"
+    },
+    {
+      "slug": "research-central-plateau-zone",
+      "route": "/Research/ResearchCentralZone",
+      "title": {
+        "en": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 16,
+      "totalRecords": 71,
+      "jsonPath": "src/data/scraped/pages/research-central-plateau-zone.json"
+    },
+    {
+      "slug": "research-externally-funded-projects",
+      "route": "/Research/ResearchSchemFundedProj",
+      "title": {
+        "en": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 71,
+      "jsonPath": "src/data/scraped/pages/research-externally-funded-projects.json"
+    },
+    {
+      "slug": "research-farm-implements",
+      "route": "/Research/ResearchFarmImplement",
+      "title": {
+        "en": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 71,
+      "jsonPath": "src/data/scraped/pages/research-farm-implements.json"
+    },
+    {
+      "slug": "research-icar-aicrp",
+      "route": "/Research/ResearchSchemIcar",
+      "title": {
+        "en": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 59,
+      "totalRecords": 159,
+      "jsonPath": "src/data/scraped/pages/research-icar-aicrp.json"
+    },
+    {
+      "slug": "research-non-plan-state-schemes",
+      "route": "/Research/ResearchSchemNonPlan",
+      "title": {
+        "en": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 68,
+      "totalRecords": 177,
+      "jsonPath": "src/data/scraped/pages/research-non-plan-state-schemes.json"
+    },
+    {
+      "slug": "research-organizational-profile",
+      "route": "/Research/ResearchProfile",
+      "title": {
+        "en": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 70,
+      "jsonPath": "src/data/scraped/pages/research-organizational-profile.json"
+    },
+    {
+      "slug": "research-patents",
+      "route": "/Research/ResearchTechPatents",
+      "title": {
+        "en": "Research Technology Patents - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Technology Patents - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 69,
+      "jsonPath": "src/data/scraped/pages/research-patents.json"
+    },
+    {
+      "slug": "research-plain-zone",
+      "route": "/Research/ResearchPlianZone",
+      "title": {
+        "en": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 19,
+      "totalRecords": 74,
+      "jsonPath": "src/data/scraped/pages/research-plain-zone.json"
+    },
+    {
+      "slug": "research-recommendations",
+      "route": "/Research/ResearchTechRecomm",
+      "title": {
+        "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 48,
+      "totalRecords": 122,
+      "jsonPath": "src/data/scraped/pages/research-recommendations.json"
+    },
+    {
+      "slug": "research-review-mechanism",
+      "route": "/Research/ResearchReviewMech",
+      "title": {
+        "en": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 4,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 73,
+      "jsonPath": "src/data/scraped/pages/research-review-mechanism.json"
+    },
+    {
+      "slug": "research-scarcity-zone",
+      "route": "/Research/ResearchScarcityZone",
+      "title": {
+        "en": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 23,
+      "totalRecords": 78,
+      "jsonPath": "src/data/scraped/pages/research-scarcity-zone.json"
+    },
+    {
+      "slug": "research-sub-montane-zone",
+      "route": "/Research/ResearchSMZone",
+      "title": {
+        "en": "Research Sub Montane Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Sub Montane Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 19,
+      "totalRecords": 74,
+      "jsonPath": "src/data/scraped/pages/research-sub-montane-zone.json"
+    },
+    {
+      "slug": "research-thrust-areas",
+      "route": "/Research/ResearchThrustArea",
+      "title": {
+        "en": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 70,
+      "jsonPath": "src/data/scraped/pages/research-thrust-areas.json"
+    },
+    {
+      "slug": "research-varieties",
+      "route": "/Research/ResearchTechVariety",
+      "title": {
+        "en": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 42,
+      "totalRecords": 111,
+      "jsonPath": "src/data/scraped/pages/research-varieties.json"
+    },
+    {
+      "slug": "research-western-ghat-zone",
+      "route": "/Research/ResearchWZone",
+      "title": {
+        "en": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+        "mr": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 18,
+      "totalRecords": 73,
+      "jsonPath": "src/data/scraped/pages/research-western-ghat-zone.json"
+    },
+    {
+      "slug": "seeds-availability",
+      "route": "/seeds-availability",
+      "title": {
+        "en": "Certified Seed Availability (MPKV Rahuri Central Seed Department)",
+        "mr": "प्रमाणित बियाणे उपलब्धता साठा (मफुकृवि राहुरी मध्यवर्ती बियाणे विभाग)"
+      },
+      "headingCount": 0,
+      "paragraphCount": 0,
+      "tableCount": 2,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 0,
+      "totalRecords": 5,
+      "jsonPath": "src/data/scraped/pages/seeds-availability.json"
+    },
+    {
+      "slug": "student-admission-procedure",
+      "route": "/Student/AdmissionProcedure",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 71,
+      "jsonPath": "src/data/scraped/pages/student-admission-procedure.json"
+    },
+    {
+      "slug": "student-circulars",
+      "route": "/Student/StudCircular",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "headingCount": 56,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 3,
+      "cardCount": 0,
+      "mediaCount": 17,
+      "totalRecords": 76,
+      "jsonPath": "src/data/scraped/pages/student-circulars.json"
+    },
+    {
+      "slug": "student-complaints",
+      "route": "/Student/StudentComplaints",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 69,
+      "jsonPath": "src/data/scraped/pages/student-complaints.json"
+    },
+    {
+      "slug": "student-hostels",
+      "route": "/Student/StudHostel",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "headingCount": 57,
+      "paragraphCount": 0,
+      "tableCount": 3,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 14,
+      "totalRecords": 89,
+      "jsonPath": "src/data/scraped/pages/student-hostels.json"
+    },
+    {
+      "slug": "student-international-cell",
+      "route": "/Student/InternationalHome",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "headingCount": 55,
+      "paragraphCount": 4,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 74,
+      "jsonPath": "src/data/scraped/pages/student-international-cell.json"
+    },
+    {
+      "slug": "student-pgi-form",
+      "route": "/Student/StudentForm",
+      "title": {
+        "en": "Students",
+        "mr": "Students"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 26,
+      "totalRecords": 93,
+      "jsonPath": "src/data/scraped/pages/student-pgi-form.json"
+    },
+    {
+      "slug": "student-sports",
+      "route": "/Student/SportHome",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "headingCount": 58,
+      "paragraphCount": 1,
+      "tableCount": 1,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 22,
+      "totalRecords": 83,
+      "jsonPath": "src/data/scraped/pages/student-sports.json"
+    },
+    {
+      "slug": "tenders",
+      "route": "/Akmu/Tender",
+      "title": {
+        "en": "Tenders",
+        "mr": "निविदा"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 1,
+      "noticeCount": 269,
+      "cardCount": 0,
+      "mediaCount": 283,
+      "totalRecords": 607,
+      "jsonPath": "src/data/scraped/pages/tenders.json"
+    },
+    {
+      "slug": "transparency-and-grievance",
+      "route": "/Home/GrievanceRedressalSystem",
+      "title": {
+        "en": "Transparency",
+        "mr": "पारदर्शकता"
+      },
+      "headingCount": 55,
+      "paragraphCount": 0,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 24,
+      "totalRecords": 79,
+      "jsonPath": "src/data/scraped/pages/transparency-and-grievance.json"
+    },
+    {
+      "slug": "university-engineer-works",
+      "route": "/Work/AtaGlance",
+      "title": {
+        "en": "Works",
+        "mr": "कामे"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 18,
+      "totalRecords": 74,
+      "jsonPath": "src/data/scraped/pages/university-engineer-works.json"
+    },
+    {
+      "slug": "vc-desk",
+      "route": "/VC/VCDesk",
+      "title": {
+        "en": "Vice Chancellor",
+        "mr": "Vice Chancellor"
+      },
+      "headingCount": 55,
+      "paragraphCount": 1,
+      "tableCount": 0,
+      "noticeCount": 0,
+      "cardCount": 0,
+      "mediaCount": 15,
+      "totalRecords": 71,
+      "jsonPath": "src/data/scraped/pages/vc-desk.json"
+    }
+  ]
+}

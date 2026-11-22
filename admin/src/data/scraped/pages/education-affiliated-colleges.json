@@ -1,0 +1,4917 @@
+{
+  "slug": "education-affiliated-colleges",
+  "url": "https://mpkv.ac.in/Education/EduAffiletedClg",
+  "route": "/Education/EduAffiletedClg",
+  "sourcePage": "education-affiliated-colleges",
+  "scrapedAt": "2026-11-22T20:35:24.731387",
+  "title": {
+    "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+    "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+  },
+  "breadcrumb": [],
+  "hero": {
+    "title": {
+      "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "order": 55
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Agriculture",
+        "mr": "Agriculture"
+      },
+      "order": 56
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Horticulture",
+        "mr": "Horticulture"
+      },
+      "order": 57
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Biotechnology",
+        "mr": "Biotechnology"
+      },
+      "order": 58
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Food Technology",
+        "mr": "Food Technology"
+      },
+      "order": 59
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Agricultural Engineering",
+        "mr": "Agricultural Engineering"
+      },
+      "order": 60
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Agricultural Business Management",
+        "mr": "Agricultural Business Management"
+      },
+      "order": 61
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Animal Husbandry",
+        "mr": "Animal Husbandry"
+      },
+      "order": 62
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "At present University has 66 unaided affiliated Agriculture and Allied colleges offering degree programmes in Agriculture and Allied subjects on non-grant basis with intake capacity of 60 students in Agriculture, Horticlture and Agri. Business Management colleges; 40 students in Agril. Engineering and Food Technology; 50 students in Agril. Biotechnology and some of the colleges have additional division",
+        "mr": "At present University has 66 unaided affiliated Agriculture and Allied colleges offering degree programmes in Agriculture and Allied subjects on non-grant basis with intake capacity of 60 students in Agriculture, Horticlture and Agri. Business Management colleges; 40 students in Agril. Engineering and Food Technology; 50 students in Agril. Biotechnology and some of the colleges have additional division"
+      },
+      "order": 63
+    },
+    {
+      "text": {
+        "en": "Further, PG programme is also started in one affiliated college at Baramati in 11 disciplines with intake capacity of 3 students per year in each discipline and M.B.A. (Agri.) degree programme with intake capacity of 30 students per year",
+        "mr": "Further, PG programme is also started in one affiliated college at Baramati in 11 disciplines with intake capacity of 3 students per year in each discipline and M.B.A. (Agri.) degree programme with intake capacity of 30 students per year"
+      },
+      "order": 64
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        {
+          "en": "Education at a Glance",
+          "mr": "Education at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "FacultyAgricultural ScienceAgricultural Engineering",
+          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
+        },
+        {
+          "en": "CollegesConstituent CollegesAffiliated Colleges",
+          "mr": "CollegesConstituent CollegesAffiliated Colleges"
+        },
+        {
+          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
+          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
+        },
+        {
+          "en": "Academic Regulations",
+          "mr": "Academic Regulations"
+        },
+        {
+          "en": "Diploma (Agril. Tech. Schools)",
+          "mr": "Diploma (Agril. Tech. Schools)"
+        },
+        {
+          "en": "Certificate Courses",
+          "mr": "Certificate Courses"
+        }
+      ],
+      "order": 65
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Agricultural Science",
+          "mr": "Agricultural Science"
+        },
+        {
+          "en": "Agricultural Engineering",
+          "mr": "Agricultural Engineering"
+        }
+      ],
+      "order": 66
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Constituent Colleges",
+          "mr": "Constituent Colleges"
+        },
+        {
+          "en": "Affiliated Colleges",
+          "mr": "Affiliated Colleges"
+        }
+      ],
+      "order": 67
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Diploma",
+          "mr": "Diploma"
+        },
+        {
+          "en": "Bachelor's",
+          "mr": "Bachelor's"
+        },
+        {
+          "en": "Doctoral",
+          "mr": "Doctoral"
+        }
+      ],
+      "order": 68
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of College",
+          "mr": "Name & Address of College"
+        },
+        {
+          "en": "Degree Nomenclature",
+          "mr": "Degree Nomenclature"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone Number",
+          "mr": "Phone Number"
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Akluj, Tal. Malshiras, Dist. Solapur",
+              "mr": "College of Agriculture, Akluj, Tal. Malshiras, Dist. Solapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9860875729/9890959248",
+              "mr": "9860875729/9890959248"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agri.akluj@gmail.com",
+              "mr": "agri.akluj@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr. Sharadchandra Pawar College of Agriculture, Baramati At. Post. Shardanagar, Tal. Baramati, Dist. Pune",
+              "mr": "Dr. Sharadchandra Pawar College of Agriculture, Baramati At. Post. Shardanagar, Tal. Baramati, Dist. Pune"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "180",
+              "mr": "180"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9881149467",
+              "mr": "9881149467"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agricolbmt@rediffmail.com",
+              "mr": "agricolbmt@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Loknete Mohanrao Kadam College of Agriculture, Sonsal Hingangaon, Tal. Kadegaon, Dist. Sangli",
+              "mr": "Loknete Mohanrao Kadam College of Agriculture, Sonsal Hingangaon, Tal. Kadegaon, Dist. Sangli"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9604124252",
+              "mr": "9604124252"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrikadegaon2003@gmail.com",
+              "mr": "agrikadegaon2003@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Karmyogi Dulaji Sitaram Patil College of Agriculture At. Post. Chachadgaon, Tal. Dindori, Dist. Nashik",
+              "mr": "Karmyogi Dulaji Sitaram Patil College of Agriculture At. Post. Chachadgaon, Tal. Dindori, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9403929617/7588005890",
+              "mr": "9403929617/7588005890"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "acn_13@rediffmail.com",
+              "mr": "acn_13@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Jaywantrao Bhosale Krishna College of Agriculture, Rethare BK., Post- Shivnagar, Tal. Karad, Dist. Satara",
+              "mr": "Jaywantrao Bhosale Krishna College of Agriculture, Rethare BK., Post- Shivnagar, Tal. Karad, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02164-266625 9834276011/8275456243",
+              "mr": "02164-266625 9834276011/8275456243"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "krishnaagricollege.retharebk@gmail.com",
+              "mr": "krishnaagricollege.retharebk@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Sonai, Tal. Newasa, Dist. Ahilyanagar",
+              "mr": "College of Agriculture, Sonai, Tal. Newasa, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "180",
+              "mr": "180"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9172440773",
+              "mr": "9172440773"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "acsonai@yahoo.co.in",
+              "mr": "acsonai@yahoo.co.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "K. K. Wagh College of Agriculture, Saraswatinagar, Panchawati, Nashik",
+              "mr": "K. K. Wagh College of Agriculture, Saraswatinagar, Panchawati, Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0253-2555221 9422534228",
+              "mr": "0253-2555221 9422534228"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal-bscagri@kkwagh.edu.in",
+              "mr": "principal-bscagri@kkwagh.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dadasaheb Mokashi College of Agriculture, Rajmachi, Tal. Karad,  Dist. Satara",
+              "mr": "Dadasaheb Mokashi College of Agriculture, Rajmachi, Tal. Karad,  Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9975233273/9764201123",
+              "mr": "9975233273/9764201123"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "dmcarajmachi@gmail.com",
+              "mr": "dmcarajmachi@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr. Ulhas Patil College of Agriculture, Jalgaon",
+              "mr": "Dr. Ulhas Patil College of Agriculture, Jalgaon"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9714947131",
+              "mr": "9714947131"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrigodavari@rediffmail.com",
+              "mr": "agrigodavari@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Shahada,  Dist. Nandurbar",
+              "mr": "College of Agriculture, Shahada,  Dist. Nandurbar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02565-229562 7588733233",
+              "mr": "02565-229562 7588733233"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principalagri@rediffmail.com",
+              "mr": "principalagri@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Lokmangal College of Agriculture, At. Post. Wadala, Tal. Uttar Solapur, Dist. Solapur",
+              "mr": "Lokmangal College of Agriculture, At. Post. Wadala, Tal. Uttar Solapur, Dist. Solapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9923404691",
+              "mr": "9923404691"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "lokmangalagriculture@gmail.com",
+              "mr": "lokmangalagriculture@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr. D. Y. Patil College of Agriculture, At. Post. Talsande, Tal. Hatkanangale, Dist. Kolhapur",
+              "mr": "Dr. D. Y. Patil College of Agriculture, At. Post. Talsande, Tal. Hatkanangale, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7066944959/9637605606",
+              "mr": "7066944959/9637605606"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.dypcaet@yahoo.in",
+              "mr": "principal.dypcaet@yahoo.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Phaltan, Tal. Phaltan, Dist. Satara",
+              "mr": "College of Agriculture, Phaltan, Tal. Phaltan, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9657214838/9860595005",
+              "mr": "9657214838/9860595005"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "acphaltan2009@gmail.com",
+              "mr": "acphaltan2009@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Shramshakti College of Agriculture, At. Maldad, Tal. Sangamner, Dist. Ahilyanagar",
+              "mr": "Shramshakti College of Agriculture, At. Maldad, Tal. Sangamner, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9890408093/9420860055",
+              "mr": "9890408093/9420860055"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principalagrimaldad@gmail.com",
+              "mr": "principalagrimaldad@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "15",
+              "mr": "15"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sadguru College of Agriculture, Mirajgaon, Tal. Karjat, Dist. Ahilyanagar",
+              "mr": "Sadguru College of Agriculture, Mirajgaon, Tal. Karjat, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7722053503/9423830088",
+              "mr": "7722053503/9423830088"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sadguruagri@rediffmail.com",
+              "mr": "sadguruagri@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "16",
+              "mr": "16"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Dondaicha, Tal. Sindkhed, Dist. Dhule",
+              "mr": "College of Agriculture, Dondaicha, Tal. Sindkhed, Dist. Dhule"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "180",
+              "mr": "180"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9767650817",
+              "mr": "9767650817"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal1.acdondaicha@gmail.com",
+              "mr": "principal1.acdondaicha@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "17",
+              "mr": "17"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Babhulgaon, Tal. Yeola, Dist. Nashik",
+              "mr": "College of Agriculture, Babhulgaon, Tal. Yeola, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8329567552/8999362302",
+              "mr": "8329567552/8999362302"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "acbabhulgaon@gmail.com",
+              "mr": "acbabhulgaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "18",
+              "mr": "18"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Loni, Tal. Rahata, Dist. Ahilyanagar",
+              "mr": "College of Agriculture, Loni, Tal. Rahata, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9766562320",
+              "mr": "9766562320"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.agriloni@pravara.i",
+              "mr": "principal.agriloni@pravara.i"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "19",
+              "mr": "19"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Saikrupa College of Agriculture, Ghargaon, Tal. Shrigonda, Dist. Ahilyanagar",
+              "mr": "Saikrupa College of Agriculture, Ghargaon, Tal. Shrigonda, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9921475555/9583729999",
+              "mr": "9921475555/9583729999"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "saikrupabscagri@gmail.com",
+              "mr": "saikrupabscagri@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "20",
+              "mr": "20"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sharad College of Agriculture, Jainapur, Tal. Shirol, Dist. Kolhapur",
+              "mr": "Sharad College of Agriculture, Jainapur, Tal. Shirol, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9764974496/9960734124",
+              "mr": "9764974496/9960734124"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sharadagri.jainapur@yahoo.com",
+              "mr": "sharadagri.jainapur@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "21",
+              "mr": "21"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, At. Post. Paniv, Tal. Malshiras, Dist. Solapur",
+              "mr": "College of Agriculture, At. Post. Paniv, Tal. Malshiras, Dist. Solapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9766701487/8793833633",
+              "mr": "9766701487/8793833633"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "shriramagripaniv@gmail.com",
+              "mr": "shriramagripaniv@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "22",
+              "mr": "22"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr. Vithalrao Vikhe Patil Foundation’s College of Agriculture,Wadgaon Gupta (Vilad Ghat), P.O.-MIDC, Ahilyanagar",
+              "mr": "Dr. Vithalrao Vikhe Patil Foundation’s College of Agriculture,Wadgaon Gupta (Vilad Ghat), P.O.-MIDC, Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8554990236/9420397920",
+              "mr": "8554990236/9420397920"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "vikheagri@gmail.com",
+              "mr": "vikheagri@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "23",
+              "mr": "23"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Roshanbi Shamanji College of Agriculture, Bahirewadi, Tal. Ajra, Dist. Kolhapur",
+              "mr": "Roshanbi Shamanji College of Agriculture, Bahirewadi, Tal. Ajra, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9112386834",
+              "mr": "9112386834"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "rsagricollege14@gmail.com",
+              "mr": "rsagricollege14@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "24",
+              "mr": "24"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Malegaon Camp, Tal. Malegaon, Dist. Nashik",
+              "mr": "College of Agriculture, Malegaon Camp, Tal. Malegaon, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7066031189",
+              "mr": "7066031189"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "mgv.agricollegemalegaon@gmail.com",
+              "mr": "mgv.agricollegemalegaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "25",
+              "mr": "25"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Bhanashiware, Tal. Newasa Dist. Ahilyanagar",
+              "mr": "College of Agriculture, Bhanashiware, Tal. Newasa Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9881132550/9850745449",
+              "mr": "9881132550/9850745449"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principalcoabhanashiware@gmail.com",
+              "mr": "principalcoabhanashiware@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "26",
+              "mr": "26"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Gargoti Pal, Tal. Bhudargad, Dist. Kolhapur",
+              "mr": "College of Agriculture, Gargoti Pal, Tal. Bhudargad, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9049711305/9112861102",
+              "mr": "9049711305/9112861102"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agripal11305@gmail.com",
+              "mr": "agripal11305@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "27",
+              "mr": "27"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sahakarmaharshi BhausahebThorat College of Agriculture, Amrutnagar, Tal. Sangamner, Dist. Ahilyanagar",
+              "mr": "Sahakarmaharshi BhausahebThorat College of Agriculture, Amrutnagar, Tal. Sangamner, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02425-259017/18      9075559199",
+              "mr": "02425-259017/18      9075559199"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.agri.assvs@gmail.com",
+              "mr": "principal.agri.assvs@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "28",
+              "mr": "28"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Madadgaon, Post. Bhatodi, Tal., Dist. Ahilyanagar",
+              "mr": "College of Agriculture, Madadgaon, Post. Bhatodi, Tal., Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8788140980",
+              "mr": "8788140980"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrimadadgaon@gmail.com",
+              "mr": "agrimadadgaon@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "29",
+              "mr": "29"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Vrindavan College of Agriculture, Gunjalwadi Pathar Chandanapuri Ghat, Tal. Sangamner, Dist. Ahilyanagar",
+              "mr": "Vrindavan College of Agriculture, Gunjalwadi Pathar Chandanapuri Ghat, Tal. Sangamner, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9763234749/9822878709",
+              "mr": "9763234749/9822878709"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "vrindavanagriculture@gmail.com",
+              "mr": "vrindavanagriculture@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sahyadri College of Agriculture, Yashwantnagar, Tal. Karad, Dist. Satara",
+              "mr": "Sahyadri College of Agriculture, Yashwantnagar, Tal. Karad, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7397902830/9527859883",
+              "mr": "7397902830/9527859883"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "sahyadriagricollege@gmail.com",
+              "mr": "sahyadriagricollege@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "31",
+              "mr": "31"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Aarya College of Agriculture, Manegaon, Tal. Madha, Dist. Solapur",
+              "mr": "Aarya College of Agriculture, Manegaon, Tal. Madha, Dist. Solapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9975678175/9356806379",
+              "mr": "9975678175/9356806379"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "vitthalpratishthan55@gmail.com",
+              "mr": "vitthalpratishthan55@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "32",
+              "mr": "32"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Loknete Balasaheb Desai College of Agriculture, Daulatnagar (Marali), Tal. Patan, Dist. Satara",
+              "mr": "Loknete Balasaheb Desai College of Agriculture, Daulatnagar (Marali), Tal. Patan, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02372 /299320  9921443029",
+              "mr": "02372 /299320  9921443029"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "lbdcapatan@gmail.com",
+              "mr": "lbdcapatan@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "33",
+              "mr": "33"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Karmaveer Dr. Mamasaheb Jagdale College of Agriculture, Barshi, Tal. Barshi, Dist. Solapur",
+              "mr": "Karmaveer Dr. Mamasaheb Jagdale College of Agriculture, Barshi, Tal. Barshi, Dist. Solapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9096565942",
+              "mr": "9096565942"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "kdrmjcoabarshi2024@gmail.com",
+              "mr": "kdrmjcoabarshi2024@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "34",
+              "mr": "34"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Shindhutai Vikhe Patil College of Agriculture, At. Post. Moh-Chincholi, Tal. Sinner, Dist. Nashik",
+              "mr": "Shindhutai Vikhe Patil College of Agriculture, At. Post. Moh-Chincholi, Tal. Sinner, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7758854314/9423787402",
+              "mr": "7758854314/9423787402"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "svp.coasinnar@pravara.in",
+              "mr": "svp.coasinnar@pravara.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "35",
+              "mr": "35"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, At. Post. Tardi, Tal. Shirpur, Dist. Dhule",
+              "mr": "College of Agriculture, At. Post. Tardi, Tal. Shirpur, Dist. Dhule"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8888893586",
+              "mr": "8888893586"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "indarchand.chavan@nmims.edu",
+              "mr": "indarchand.chavan@nmims.edu"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "36",
+              "mr": "36"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Diwanmala (Laling), Tal. and Dist. Dhule",
+              "mr": "College of Agriculture, Diwanmala (Laling), Tal. and Dist. Dhule"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7798580902",
+              "mr": "7798580902"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.sspmagridhule@gmail.com",
+              "mr": "principal.sspmagridhule@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "37",
+              "mr": "37"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Mahirawani, Dist. Nashik",
+              "mr": "College of Agriculture, Mahirawani, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9545453267",
+              "mr": "9545453267"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "vivek.nikam@sandipfoundation.org",
+              "mr": "vivek.nikam@sandipfoundation.org"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "38",
+              "mr": "38"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Khandala, Tal. Khandala, Dist. Satara",
+              "mr": "College of Agriculture, Khandala, Tal. Khandala, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "B.Sc. (Hons) Agriculture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9850578425",
+              "mr": "9850578425"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrickhandala@gmail.com",
+              "mr": "agrickhandala@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 38,
+      "columnCount": 6
+    },
+    {
+      "id": "table_2",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of College",
+          "mr": "Name & Address of College"
+        },
+        {
+          "en": "Degree Nomenclature",
+          "mr": "Degree Nomenclature"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone Number",
+          "mr": "Phone Number"
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Shrimant Shivajiraje College of Horticulture, Phaltan, Tal. Phaltan, Dist. Satara",
+              "mr": "Shrimant Shivajiraje College of Horticulture, Phaltan, Tal. Phaltan, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Horticulture",
+              "mr": "B.Sc. (Hons) Horticulture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9423884887/9423967567",
+              "mr": "9423884887/9423967567"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "ssch2003@gmail.com",
+              "mr": "ssch2003@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Horticulture, Sonsal-Hingangaon, Tal. Kadegaon, Dist. Sangli",
+              "mr": "College of Horticulture, Sonsal-Hingangaon, Tal. Kadegaon, Dist. Sangli"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Horticulture",
+              "mr": "B.Sc. (Hons) Horticulture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7588586958",
+              "mr": "7588586958"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "hortikadegaon2006@gmail.com",
+              "mr": "hortikadegaon2006@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "K. K. Wagh College of Horticulture, Saraswatinagar, Panchawati, Nashik",
+              "mr": "K. K. Wagh College of Horticulture, Saraswatinagar, Panchawati, Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Horticulture",
+              "mr": "B.Sc. (Hons) Horticulture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02532/ 555261/62  7757053109",
+              "mr": "02532/ 555261/62  7757053109"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal-bschorti@kkwagh.edu.in",
+              "mr": "principal-bschorti@kkwagh.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "H. H. Shri. Shri. M. S. College of Horticulture, Malegaon Camp, Tal. Malegaon, Dist. Nashik",
+              "mr": "H. H. Shri. Shri. M. S. College of Horticulture, Malegaon Camp, Tal. Malegaon, Dist. Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Horticulture",
+              "mr": "B.Sc. (Hons) Horticulture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7066031188",
+              "mr": "7066031188"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "mgv.horticollege@gmail.com",
+              "mr": "mgv.horticollege@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Shriram College of Horticulture, At. Post. Paniv, Tal. Malshiras, Dist. Solapur",
+              "mr": "Shriram College of Horticulture, At. Post. Paniv, Tal. Malshiras, Dist. Solapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Horticulture",
+              "mr": "B.Sc. (Hons) Horticulture"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9657274358/9860665543",
+              "mr": "9657274358/9860665543"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "shriramhortipaniv@gmail.com",
+              "mr": "shriramhortipaniv@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 5,
+      "columnCount": 6
+    },
+    {
+      "id": "table_3",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of College",
+          "mr": "Name & Address of College"
+        },
+        {
+          "en": "Degree Nomenclature",
+          "mr": "Degree Nomenclature"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone Number",
+          "mr": "Phone Number"
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agri. Biotechnology, Loni Bk., Tal. Rahata, Dist. Ahilyanagar",
+              "mr": "College of Agri. Biotechnology, Loni Bk., Tal. Rahata, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Biotechnology)",
+              "mr": "B.Tech. (Biotechnology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "100",
+              "mr": "100"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7448059788",
+              "mr": "7448059788"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.agribiotech@pravara.in",
+              "mr": "principal.agribiotech@pravara.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "K. K. Wagh College of Agri. Biotechnology, Saraswatinagar, Panchawati, Nashik",
+              "mr": "K. K. Wagh College of Agri. Biotechnology, Saraswatinagar, Panchawati, Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Biotechnology)",
+              "mr": "B.Tech. (Biotechnology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "100",
+              "mr": "100"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0253-2555241 9850240649",
+              "mr": "0253-2555241 9850240649"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal-bscbiotech@kkwagh.edu.in",
+              "mr": "principal-bscbiotech@kkwagh.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Vidya Pratisthan’s College of Agri. Biotechnology, Baramati, Dist. Pune",
+              "mr": "Vidya Pratisthan’s College of Agri. Biotechnology, Baramati, Dist. Pune"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Biotechnology)",
+              "mr": "B.Tech. (Biotechnology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02112- 239386/88 9975937347",
+              "mr": "02112- 239386/88 9975937347"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "vpsoab@vidyapratishthan.com",
+              "mr": "vpsoab@vidyapratishthan.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 3,
+      "columnCount": 6
+    },
+    {
+      "id": "table_4",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of College",
+          "mr": "Name & Address of College"
+        },
+        {
+          "en": "Degree Nomenclature",
+          "mr": "Degree Nomenclature"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone Number",
+          "mr": "Phone Number"
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dadasaheb Mokashi College of Food Technology, Rajmachi, Tal. Karad, Dist. Satara",
+              "mr": "Dadasaheb Mokashi College of Food Technology, Rajmachi, Tal. Karad, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Food Technology)",
+              "mr": "B.Tech. (Food Technology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7030505757/9764201123",
+              "mr": "7030505757/9764201123"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "mcftrajmachi@gmail.com",
+              "mr": "mcftrajmachi@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "K. K. Wagh College of Food Technology, Saraswati Nagar, Panchvati, Nashik",
+              "mr": "K. K. Wagh College of Food Technology, Saraswati Nagar, Panchvati, Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Food Technology)",
+              "mr": "B.Tech. (Food Technology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0253-2555281 7666180972 9503549272",
+              "mr": "0253-2555281 7666180972 9503549272"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal-btechfood@kkwagh.edu.in",
+              "mr": "principal-btechfood@kkwagh.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Shramshakti College of Food Technology, At. Maldad, Tal. Sangamner, Dist. Ahilynagar",
+              "mr": "Shramshakti College of Food Technology, At. Maldad, Tal. Sangamner, Dist. Ahilynagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Food Technology)",
+              "mr": "B.Tech. (Food Technology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9689863599/8699593746",
+              "mr": "9689863599/8699593746"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "shramshaktimaldad@rediffmail.com",
+              "mr": "shramshaktimaldad@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Food Technology, Khirdi Shivar, Jalgaon",
+              "mr": "College of Food Technology, Khirdi Shivar, Jalgaon"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Food Technology)",
+              "mr": "B.Tech. (Food Technology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0257-2200829 9403249640 7588520676",
+              "mr": "0257-2200829 9403249640 7588520676"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrigodavari@rediffmail.com",
+              "mr": "agrigodavari@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Food Technology, Khadkewake, Tal. Rahata, Dist. Ahilyanagar",
+              "mr": "College of Food Technology, Khadkewake, Tal. Rahata, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Food Technology)",
+              "mr": "B.Tech. (Food Technology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "8408970937/7972999464",
+              "mr": "8408970937/7972999464"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.foodtech@pravara.in",
+              "mr": "principal.foodtech@pravara.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Food Technology, Amrutnagar, Sangamner, Tal. Sangamner, Dist. Ahilyanagar",
+              "mr": "College of Food Technology, Amrutnagar, Sangamner, Tal. Sangamner, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Food Technology)",
+              "mr": "B.Tech. (Food Technology)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9075559199",
+              "mr": "9075559199"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.cof.assvs@gmail.com",
+              "mr": "principal.cof.assvs@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 6,
+      "columnCount": 6
+    },
+    {
+      "id": "table_5",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of College",
+          "mr": "Name & Address of College"
+        },
+        {
+          "en": "Degree Nomenclature",
+          "mr": "Degree Nomenclature"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone Number",
+          "mr": "Phone Number"
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr. Ulhas Patil College of Agril. Engineering and Technology, Khirdi Shivar, Jalgaon",
+              "mr": "Dr. Ulhas Patil College of Agril. Engineering and Technology, Khirdi Shivar, Jalgaon"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Agrilcultural Engineering)",
+              "mr": "B.Tech. (Agrilcultural Engineering)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9403565926",
+              "mr": "9403565926"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "agrigodavari@rediffmail.com",
+              "mr": "agrigodavari@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr. D. Y. Patil College of Agril. Engineering and Technology, At. Post. Talsande, Tal. Hatkanangale, Dist. Kolhapur",
+              "mr": "Dr. D. Y. Patil College of Agril. Engineering and Technology, At. Post. Talsande, Tal. Hatkanangale, Dist. Kolhapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Agrilcultural Engineering)",
+              "mr": "B.Tech. (Agrilcultural Engineering)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9356801183/9637605606",
+              "mr": "9356801183/9637605606"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal.dypcaet@yahoo.in",
+              "mr": "principal.dypcaet@yahoo.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "K. K. Wagh College of Agril. Engineering and Technology, Saraswatinagar, Panchawati, Nashik",
+              "mr": "K. K. Wagh College of Agril. Engineering and Technology, Saraswatinagar, Panchawati, Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Agrilcultural Engineering)",
+              "mr": "B.Tech. (Agrilcultural Engineering)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "80",
+              "mr": "80"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0253-2555201/203 8275023803",
+              "mr": "0253-2555201/203 8275023803"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal-btechagri@kkwagh.edu.in disp-btechagri@kkwagh.edn.in",
+              "mr": "principal-btechagri@kkwagh.edu.in disp-btechagri@kkwagh.edn.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agril. Engineering and Technology, At. Post. Maldad, Tal. Sangamner, Dist. Ahilyanagar",
+              "mr": "College of Agril. Engineering and Technology, At. Post. Maldad, Tal. Sangamner, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Agrilcultural Engineering)",
+              "mr": "B.Tech. (Agrilcultural Engineering)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9322687551/9689863599",
+              "mr": "9322687551/9689863599"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "shramshaktienggmaldad@rediffmail.com",
+              "mr": "shramshaktienggmaldad@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dadasaheb Mokashi College of Agril. Engineering and Technology, Rajmachi, Tal. Karad, Dist. Satara",
+              "mr": "Dadasaheb Mokashi College of Agril. Engineering and Technology, Rajmachi, Tal. Karad, Dist. Satara"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Agrilcultural Engineering)",
+              "mr": "B.Tech. (Agrilcultural Engineering)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7741001759/9764201123",
+              "mr": "7741001759/9764201123"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "dmcaetrajmachi@gmail.com",
+              "mr": "dmcaetrajmachi@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 5,
+      "columnCount": 6
+    },
+    {
+      "id": "table_6",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of College",
+          "mr": "Name & Address of College"
+        },
+        {
+          "en": "Degree Nomenclature",
+          "mr": "Degree Nomenclature"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone Number",
+          "mr": "Phone Number"
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr. D .Y. Patil College of Agri. Business Management, Akurdi, Pune",
+              "mr": "Dr. D .Y. Patil College of Agri. Business Management, Akurdi, Pune"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri. Business Management",
+              "mr": "B.Sc. (Hons) Agri. Business Management"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "020-27655059 7030452762",
+              "mr": "020-27655059 7030452762"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "principal@dypagribusiness.ac.in",
+              "mr": "principal@dypagribusiness.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agri. Business Management, Narayangaon, Tal. Junner, Dist. Pune",
+              "mr": "College of Agri. Business Management, Narayangaon, Tal. Junner, Dist. Pune"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri. Business Management",
+              "mr": "B.Sc. (Hons) Agri. Business Management"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9970718198/8801729191",
+              "mr": "9970718198/8801729191"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "abm_narayangaon@yahoo.com",
+              "mr": "abm_narayangaon@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Rajarshi Chatrapati Shahu Maharaj College of Agri. Business Management, Sangli",
+              "mr": "Rajarshi Chatrapati Shahu Maharaj College of Agri. Business Management, Sangli"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri. Business Management",
+              "mr": "B.Sc. (Hons) Agri. Business Management"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0233-2956203 9224340985 9960223882",
+              "mr": "0233-2956203 9224340985 9960223882"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "rcsmcabm2009@gmail.com",
+              "mr": "rcsmcabm2009@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agri. Business Management, Loni, Tal. Rahata, Dist. Ahilyanagar",
+              "mr": "College of Agri. Business Management, Loni, Tal. Rahata, Dist. Ahilyanagar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri. Business Management",
+              "mr": "B.Sc. (Hons) Agri. Business Management"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "7387442046",
+              "mr": "7387442046"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "pravara.cabm@pravara.in",
+              "mr": "pravara.cabm@pravara.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "K. K. Wagh College of Agri. Business Management, Saraswatinagar, Panchwati, Nashik",
+              "mr": "K. K. Wagh College of Agri. Business Management, Saraswatinagar, Panchwati, Nashik"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri. Business Management",
+              "mr": "B.Sc. (Hons) Agri. Business Management"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0253-2555291/93 7378943842",
+              "mr": "0253-2555291/93 7378943842"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "disp-abm@kkwagh.edu.in",
+              "mr": "disp-abm@kkwagh.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agri. Business Management, At. Post. Wadala, Tal. North Solapur, Dist. Solapur",
+              "mr": "College of Agri. Business Management, At. Post. Wadala, Tal. North Solapur, Dist. Solapur"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri. Business Management",
+              "mr": "B.Sc. (Hons) Agri. Business Management"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "9923046991/9921489601",
+              "mr": "9923046991/9921489601"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "lcabmwadala@gmail.com",
+              "mr": "lcabmwadala@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "College of Agriculture business Management, At. Post. Shardanagar, Tal. Baramati, Dist. Pune",
+              "mr": "College of Agriculture business Management, At. Post. Shardanagar, Tal. Baramati, Dist. Pune"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri. Business Management",
+              "mr": "B.Sc. (Hons) Agri. Business Management"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "120",
+              "mr": "120"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02112-255518 7038425076",
+              "mr": "02112-255518 7038425076"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "abmcolbmt@gmail.com",
+              "mr": "abmcolbmt@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 7,
+      "columnCount": 6
+    },
+    {
+      "id": "table_7",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name & Address of College",
+          "mr": "Name & Address of College"
+        },
+        {
+          "en": "Degree Nomenclature",
+          "mr": "Degree Nomenclature"
+        },
+        {
+          "en": "Intake Capacity",
+          "mr": "Intake Capacity"
+        },
+        {
+          "en": "Phone Number",
+          "mr": "Phone Number"
+        },
+        {
+          "en": "E-mail",
+          "mr": "E-mail"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Programme Suspended",
+              "mr": "Programme Suspended"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 1,
+      "columnCount": 6
+    }
+  ],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "order": 55
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Agriculture",
+        "mr": "Agriculture"
+      },
+      "order": 56
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Horticulture",
+        "mr": "Horticulture"
+      },
+      "order": 57
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Biotechnology",
+        "mr": "Biotechnology"
+      },
+      "order": 58
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Food Technology",
+        "mr": "Food Technology"
+      },
+      "order": 59
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Agricultural Engineering",
+        "mr": "Agricultural Engineering"
+      },
+      "order": 60
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Agricultural Business Management",
+        "mr": "Agricultural Business Management"
+      },
+      "order": 61
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Animal Husbandry",
+        "mr": "Animal Husbandry"
+      },
+      "order": 62
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "At present University has 66 unaided affiliated Agriculture and Allied colleges offering degree programmes in Agriculture and Allied subjects on non-grant basis with intake capacity of 60 students in Agriculture, Horticlture and Agri. Business Management colleges; 40 students in Agril. Engineering and Food Technology; 50 students in Agril. Biotechnology and some of the colleges have additional division",
+        "mr": "At present University has 66 unaided affiliated Agriculture and Allied colleges offering degree programmes in Agriculture and Allied subjects on non-grant basis with intake capacity of 60 students in Agriculture, Horticlture and Agri. Business Management colleges; 40 students in Agril. Engineering and Food Technology; 50 students in Agril. Biotechnology and some of the colleges have additional division"
+      },
+      "order": 63
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "Further, PG programme is also started in one affiliated college at Baramati in 11 disciplines with intake capacity of 3 students per year in each discipline and M.B.A. (Agri.) degree programme with intake capacity of 30 students per year",
+        "mr": "Further, PG programme is also started in one affiliated college at Baramati in 11 disciplines with intake capacity of 3 students per year in each discipline and M.B.A. (Agri.) degree programme with intake capacity of 30 students per year"
+      },
+      "order": 64
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        {
+          "en": "Education at a Glance",
+          "mr": "Education at a Glance"
+        },
+        {
+          "en": "Organizational Profile",
+          "mr": "Organizational Profile"
+        },
+        {
+          "en": "Thrust Areas",
+          "mr": "Thrust Areas"
+        },
+        {
+          "en": "FacultyAgricultural ScienceAgricultural Engineering",
+          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
+        },
+        {
+          "en": "CollegesConstituent CollegesAffiliated Colleges",
+          "mr": "CollegesConstituent CollegesAffiliated Colleges"
+        },
+        {
+          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
+          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
+        },
+        {
+          "en": "Academic Regulations",
+          "mr": "Academic Regulations"
+        },
+        {
+          "en": "Diploma (Agril. Tech. Schools)",
+          "mr": "Diploma (Agril. Tech. Schools)"
+        },
+        {
+          "en": "Certificate Courses",
+          "mr": "Certificate Courses"
+        }
+      ],
+      "order": 65
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Agricultural Science",
+          "mr": "Agricultural Science"
+        },
+        {
+          "en": "Agricultural Engineering",
+          "mr": "Agricultural Engineering"
+        }
+      ],
+      "order": 66
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Constituent Colleges",
+          "mr": "Constituent Colleges"
+        },
+        {
+          "en": "Affiliated Colleges",
+          "mr": "Affiliated Colleges"
+        }
+      ],
+      "order": 67
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Diploma",
+          "mr": "Diploma"
+        },
+        {
+          "en": "Bachelor's",
+          "mr": "Bachelor's"
+        },
+        {
+          "en": "Doctoral",
+          "mr": "Doctoral"
+        }
+      ],
+      "order": 68
+    }
+  ],
+  "stats": {
+    "headingCount": 62,
+    "paragraphCount": 2,
+    "listCount": 4,
+    "tableCount": 7,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 14,
+    "totalRecords": 143
+  }
+}

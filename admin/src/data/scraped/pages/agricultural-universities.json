@@ -1,0 +1,3282 @@
+{
+  "slug": "agricultural-universities",
+  "url": "https://mpkv.ac.in/Home/AgriUniversities",
+  "route": "/Home/AgriUniversities",
+  "sourcePage": "agricultural-universities",
+  "scrapedAt": "2026-11-22T20:35:39.168832",
+  "title": {
+    "en": "Internal Quality Assurance Cell",
+    "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Internal Quality Assurance Cell",
+      "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Internal Quality Assurance Cell",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — अंतर्गत गुणवत्ता हमी कक्ष"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Internal Quality Assurance Cell",
+        "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+      },
+      "order": 55
+    }
+  ],
+  "paragraphs": [],
+  "lists": [],
+  "tables": [
+    {
+      "id": "table_1",
+      "caption": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "Sr.No"
+        },
+        {
+          "en": "Name, Email, Websites",
+          "mr": "Name, Email, Websites"
+        },
+        {
+          "en": "Address",
+          "mr": "Address"
+        },
+        {
+          "en": "Telephone Fax No.",
+          "mr": "Telephone Fax No."
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "Sr.No",
+              "mr": "Sr.No"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Name, Email, Websites",
+              "mr": "Name, Email, Websites"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Address",
+              "mr": "Address"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Telephone Fax No.",
+              "mr": "Telephone Fax No."
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "1"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Acharya NG Ranga Agricultural UniversityWebsite:http://www.angrau.netEmail: angrau_vc@yahoo.com",
+              "mr": "Acharya NG Ranga Agricultural UniversityWebsite:http://www.angrau.netEmail: angrau_vc@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": " http://www.angrau.net"
+          },
+          {
+            "text": {
+              "en": "Adminstrative Office, Rajendra Nagar, Hyderabad-500030, Andhra Pradesh",
+              "mr": "Adminstrative Office, Rajendra Nagar, Hyderabad-500030, Andhra Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "040-24015035, 24013095\r\n                            Fax:\r\n                            040-24015031",
+              "mr": "040-24015035, 24013095\r\n                            Fax:\r\n                            040-24015031"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "2"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture University JodhpurWebsite:http://www.au-ju.orgEmail: vcunivag@gmail.com",
+              "mr": "Agriculture University JodhpurWebsite:http://www.au-ju.orgEmail: vcunivag@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": " http://www.au-ju.org"
+          },
+          {
+            "text": {
+              "en": "Mandor, Jodhpur-342304",
+              "mr": "Mandor, Jodhpur-342304"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0291--2570711\r\n                            Fax: 0291-2570710",
+              "mr": "0291--2570711\r\n                            Fax: 0291-2570710"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "3"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Agriculture University KotaWebsite:http://aukota.orgEmail: vcaukota@gmail.com",
+              "mr": "Agriculture University KotaWebsite:http://aukota.orgEmail: vcaukota@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://aukota.org"
+          },
+          {
+            "text": {
+              "en": "Borkhera, Kota-324001",
+              "mr": "Borkhera, Kota-324001"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0744--2207212",
+              "mr": "0744--2207212"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "4"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Anand Agricultural UniversityWebsite:http://www.aau.inEmail: vc@aau.in, vc_aau@yahoo.com",
+              "mr": "Anand Agricultural UniversityWebsite:http://www.aau.inEmail: vc@aau.in, vc_aau@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.aau.in"
+          },
+          {
+            "text": {
+              "en": "Anand 388110, Gujarat",
+              "mr": "Anand 388110, Gujarat"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02692-261273\r\n                            Fax: 02692-261520",
+              "mr": "02692-261273\r\n                            Fax: 02692-261520"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "5"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Assam Agricultural UniversityWebsite:http://www.aau.ac.inEmail: vc@aau.ac.in, kmbujarbaruah@rediffmail.com",
+              "mr": "Assam Agricultural UniversityWebsite:http://www.aau.ac.inEmail: vc@aau.ac.in, kmbujarbaruah@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.aau.ac.in"
+          },
+          {
+            "text": {
+              "en": "Jorhat 785013, Assam",
+              "mr": "Jorhat 785013, Assam"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0376-2340013\r\n                            Fax: 0376-2340001",
+              "mr": "0376-2340013\r\n                            Fax: 0376-2340001"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "6"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Bidhan Chandra Krishi ViswavidyalayaWebsite:http://www.bckv.edu.inEmail:bckvvc@gmail.com,sarojsanyal@yahoo.co.in",
+              "mr": "Bidhan Chandra Krishi ViswavidyalayaWebsite:http://www.bckv.edu.inEmail:bckvvc@gmail.com,sarojsanyal@yahoo.co.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.bckv.edu.in"
+          },
+          {
+            "text": {
+              "en": "Mohanpur, Nadia-741252, West Bengal",
+              "mr": "Mohanpur, Nadia-741252, West Bengal"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "033-25879772, 03473-222666\r\n                            Fax:03473-222275",
+              "mr": "033-25879772, 03473-222666\r\n                            Fax:03473-222275"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "7"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Bihar Agricultural UniversityWebsite:http://www.bausabour.ac.inEmail:vcbausabour@gmail.com",
+              "mr": "Bihar Agricultural UniversityWebsite:http://www.bausabour.ac.inEmail:vcbausabour@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.bausabour.ac.in"
+          },
+          {
+            "text": {
+              "en": "Sabour,\r\n                            Bhagalpur 813210, Bihar",
+              "mr": "Sabour,\r\n                            Bhagalpur 813210, Bihar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0641-2452606\r\n                            Fax:0641-2452604",
+              "mr": "0641-2452606\r\n                            Fax:0641-2452604"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "8",
+              "mr": "8"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Birsa Agricultural UniversityWebsite:http://www.baujharkhand.orgEmail: vc_bau@rediffmail.com",
+              "mr": "Birsa Agricultural UniversityWebsite:http://www.baujharkhand.orgEmail: vc_bau@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.baujharkhand.org"
+          },
+          {
+            "text": {
+              "en": "Kanke, Ranchi-834006, Jharkhand",
+              "mr": "Kanke, Ranchi-834006, Jharkhand"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0651-2450500\r\n                            Fax:0651-2450850",
+              "mr": "0651-2450500\r\n                            Fax:0651-2450850"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "9",
+              "mr": "9"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Central Agricultural UniversityWebsite:http://www.cau.org.inEmail:snpuri04@yahoo.co.in, snpuri@rediffmail.com",
+              "mr": "Central Agricultural UniversityWebsite:http://www.cau.org.inEmail:snpuri04@yahoo.co.in, snpuri@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.cau.org.in"
+          },
+          {
+            "text": {
+              "en": "Sabour,\r\n                            Bhagalpur 813210, Bihar",
+              "mr": "Sabour,\r\n                            Bhagalpur 813210, Bihar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0385-2415933\r\n                            Fax:0385-2410414",
+              "mr": "0385-2415933\r\n                            Fax:0385-2410414"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "10",
+              "mr": "10"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Chandra Shekar Azad University of Agriculture & TechnologyWebsite:http://www.csauk.ac.inEmail:vc@csauk.ac.in",
+              "mr": "Chandra Shekar Azad University of Agriculture & TechnologyWebsite:http://www.csauk.ac.inEmail:vc@csauk.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.csauk.ac.in"
+          },
+          {
+            "text": {
+              "en": "Kanpur-208002, Uttar Pradesh",
+              "mr": "Kanpur-208002, Uttar Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0512-2534155\r\n                            Fax:0512-2533808",
+              "mr": "0512-2534155\r\n                            Fax:0512-2533808"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "11",
+              "mr": "11"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Chaudhary Charan Singh Haryana Agricultural UniversityWebsite:http://www.hau.ernet.inEmail:vc@hau.ernet.in",
+              "mr": "Chaudhary Charan Singh Haryana Agricultural UniversityWebsite:http://www.hau.ernet.inEmail:vc@hau.ernet.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.csauk.ac.in"
+          },
+          {
+            "text": {
+              "en": "Hisar-125004, Haryana",
+              "mr": "Hisar-125004, Haryana"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01662-231640, 284301\r\n                            Fax:01662-234952",
+              "mr": "01662-231640, 284301\r\n                            Fax:01662-234952"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "12",
+              "mr": "12"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "CSK Himachal Pradesh Krishi VishvavidyalayaWebsite:http://www.hillagric.ac.inEmail: vc@hillagric.ac.in",
+              "mr": "CSK Himachal Pradesh Krishi VishvavidyalayaWebsite:http://www.hillagric.ac.inEmail: vc@hillagric.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.hillagric.ac.in"
+          },
+          {
+            "text": {
+              "en": "Palampur-176062, Himachal Pradesh",
+              "mr": "Palampur-176062, Himachal Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01894-230521\r\n                            Fax:01894-230465",
+              "mr": "01894-230521\r\n                            Fax:01894-230465"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "13",
+              "mr": "13"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Chhattisgarh Kamdhenu VishwavidyalayaWebsite:http://cgkv.ac.in",
+              "mr": "Chhattisgarh Kamdhenu VishwavidyalayaWebsite:http://cgkv.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": " http://cgkv.ac.in"
+          },
+          {
+            "text": {
+              "en": "Anjora ,Durg, Chhattisgarh",
+              "mr": "Anjora ,Durg, Chhattisgarh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "--",
+              "mr": "--"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "14",
+              "mr": "14"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr Balasaheb Sawant Konkan Krishi VidyapeethWebsite:www.dbskkv.orgEmail: vcbskkv@yahoo.co.in",
+              "mr": "Dr Balasaheb Sawant Konkan Krishi VidyapeethWebsite:www.dbskkv.orgEmail: vcbskkv@yahoo.co.in"
+            },
+            "fileLink": "",
+            "originalLink": "www.dbskkv.org"
+          },
+          {
+            "text": {
+              "en": "Dapoli Distt, Ratnagiri 415 712, Maharashtra",
+              "mr": "Dapoli Distt, Ratnagiri 415 712, Maharashtra"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02358-282064\r\n                            Fax:02358-282074",
+              "mr": "02358-282064\r\n                            Fax:02358-282074"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "15",
+              "mr": "15"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr Panjabrao Deshmukh Krishi VidyapeethWebsite:http://www.pdkv.ac.inEmail: vc@pdkv.ac.in",
+              "mr": "Dr Panjabrao Deshmukh Krishi VidyapeethWebsite:http://www.pdkv.ac.inEmail: vc@pdkv.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": " http://www.pdkv.ac.in"
+          },
+          {
+            "text": {
+              "en": "Krishinagar,Akola-444104, Maharashtra",
+              "mr": "Krishinagar,Akola-444104, Maharashtra"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0724-2258365\r\n                            Fax:0724-2258219",
+              "mr": "0724-2258365\r\n                            Fax:0724-2258219"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "16",
+              "mr": "16"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr Yashwant Singh Parmar Univ of Horticulture & ForestryWebsite:http://www.yspuniversity.ac.inEmail:vc@yspuniversity.ac.in, vcuhf@yahoo.com",
+              "mr": "Dr Yashwant Singh Parmar Univ of Horticulture & ForestryWebsite:http://www.yspuniversity.ac.inEmail:vc@yspuniversity.ac.in, vcuhf@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.yspuniversity.ac.in"
+          },
+          {
+            "text": {
+              "en": "Solan, Nauni-173230, Himachal Pradesh",
+              "mr": "Solan, Nauni-173230, Himachal Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01792-252363\r\n                            Fax:01792-252242",
+              "mr": "01792-252363\r\n                            Fax:01792-252242"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "17",
+              "mr": "17"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Dr YSR Horticultural UniversityWebsite:http://www.drysrhu.edu.inEmail: vc@drysrhu.edu.in",
+              "mr": "Dr YSR Horticultural UniversityWebsite:http://www.drysrhu.edu.inEmail: vc@drysrhu.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.drysrhu.edu.in"
+          },
+          {
+            "text": {
+              "en": "Adminstrative office, Venkataramannagudem, PB No. 7,\r\n                            West Godavari Dist., Tadepalligudem-534101\r\n                            Andhra Pradesh",
+              "mr": "Adminstrative office, Venkataramannagudem, PB No. 7,\r\n                            West Godavari Dist., Tadepalligudem-534101\r\n                            Andhra Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "08818-284311\r\n                            Fax: 08818-284223",
+              "mr": "08818-284311\r\n                            Fax: 08818-284223"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "18",
+              "mr": "18"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Govind Ballabh Pant University of Agriculture & TechnologyWebsite:http://www.gbpuat.ac.inEmail:vcgbpuat@gmail.com",
+              "mr": "Govind Ballabh Pant University of Agriculture & TechnologyWebsite:http://www.gbpuat.ac.inEmail:vcgbpuat@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": " http://www.gbpuat.ac.in"
+          },
+          {
+            "text": {
+              "en": "Pantnagar-263145,Distt Udham Singh , Nagar , Uttaranchal",
+              "mr": "Pantnagar-263145,Distt Udham Singh , Nagar , Uttaranchal"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "05944-233333,233500\r\n                            Fax: 05944-233500",
+              "mr": "05944-233333,233500\r\n                            Fax: 05944-233500"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "19",
+              "mr": "19"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Guru Angad Dev Veterinary and Animal Science UniversityWebsite:http://www.gadvasu.inEmail:vijay_taneja@hotmail.com, vcgadvasu@gmail.com",
+              "mr": "Guru Angad Dev Veterinary and Animal Science UniversityWebsite:http://www.gadvasu.inEmail:vijay_taneja@hotmail.com, vcgadvasu@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.gadvasu.in"
+          },
+          {
+            "text": {
+              "en": "Ludhiana - 141004, Punjab",
+              "mr": "Ludhiana - 141004, Punjab"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0161-2553320,2553360\r\n                            Fax:0161-2553340",
+              "mr": "0161-2553320,2553360\r\n                            Fax:0161-2553340"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "20",
+              "mr": "20"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Indira Gandhi Krishi VishwavidyalayaWebsite:www.igau.edu.inEmail: vcigkv@gmail.com",
+              "mr": "Indira Gandhi Krishi VishwavidyalayaWebsite:www.igau.edu.inEmail: vcigkv@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.igau.edu.in"
+          },
+          {
+            "text": {
+              "en": "Krishak Nagar, Raipur-492006, Chhattisgarh",
+              "mr": "Krishak Nagar, Raipur-492006, Chhattisgarh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0771-2443419\r\n                            Fax:0771-2442302, 2443121",
+              "mr": "0771-2443419\r\n                            Fax:0771-2442302, 2443121"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "21",
+              "mr": "21"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Jawaharlal Nehru Krishi ViswavidyalayaWebsite:http://www.jnkvv.nic.inEmail: vst.vcjnkvv@gmail.com",
+              "mr": "Jawaharlal Nehru Krishi ViswavidyalayaWebsite:http://www.jnkvv.nic.inEmail: vst.vcjnkvv@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.jnkvv.nic.in"
+          },
+          {
+            "text": {
+              "en": "Krishi Nagar, Adhartal\r\n                            Jabalpur-482004, Madhya Pradesh",
+              "mr": "Krishi Nagar, Adhartal\r\n                            Jabalpur-482004, Madhya Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0761-2681706\r\n                            Fax:0761-2681389",
+              "mr": "0761-2681706\r\n                            Fax:0761-2681389"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "22",
+              "mr": "22"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Junagadh Agricultural UniversityWebsite:http://www.jau.inEmail: vc@jau.in",
+              "mr": "Junagadh Agricultural UniversityWebsite:http://www.jau.inEmail: vc@jau.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.jau.in"
+          },
+          {
+            "text": {
+              "en": "Univ. Bhavan, Motibagh\r\n                            Junagadh-362001, Gujarat",
+              "mr": "Univ. Bhavan, Motibagh\r\n                            Junagadh-362001, Gujarat"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0285-2671784\r\n                            Fax:0285-2672004",
+              "mr": "0285-2671784\r\n                            Fax:0285-2672004"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "23",
+              "mr": "23"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Karnataka Veterinary, Animal and Fisheries Sciences UniversityWebsite:http://www.kvafsu.kar.nic.inEmail: vckvafsu@yahoo.co.in",
+              "mr": "Karnataka Veterinary, Animal and Fisheries Sciences UniversityWebsite:http://www.kvafsu.kar.nic.inEmail: vckvafsu@yahoo.co.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.kvafsu.kar.nic.in"
+          },
+          {
+            "text": {
+              "en": "Nandinagar, PB No 6, BIDAR 585401, Karnataka",
+              "mr": "Nandinagar, PB No 6, BIDAR 585401, Karnataka"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "08482-245264\r\n                            Fax:08482- 245107",
+              "mr": "08482-245264\r\n                            Fax:08482- 245107"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "24",
+              "mr": "24"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Kerala Agricultural University\r\n                            Website:http://www.kau.eduEmail: vc@kau.in, vicechancellorkau@gmail.com",
+              "mr": "Kerala Agricultural University\r\n                            Website:http://www.kau.eduEmail: vc@kau.in, vicechancellorkau@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.jau.in"
+          },
+          {
+            "text": {
+              "en": "Vellanikara, Trichur 680656, Kerala",
+              "mr": "Vellanikara, Trichur 680656, Kerala"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0487-2371928, 2370034, 2438001\r\n                            Fax:0487-2370019",
+              "mr": "0487-2371928, 2370034, 2438001\r\n                            Fax:0487-2370019"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "25",
+              "mr": "25"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Kerala University of Fisheries & Ocean StudiesWebsite:http://www.kufos.ac.inEmail: kurup424@gmail.com",
+              "mr": "Kerala University of Fisheries & Ocean StudiesWebsite:http://www.kufos.ac.inEmail: kurup424@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.kufos.ac.in"
+          },
+          {
+            "text": {
+              "en": "Papangad, Kochi-682506 Kerala",
+              "mr": "Papangad, Kochi-682506 Kerala"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0487-2370117, 2703781, 2700964",
+              "mr": "0487-2370117, 2703781, 2700964"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "26",
+              "mr": "26"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Kerala Veterinary and Animal Sciences University\r\n                            Website:http://www.kcasu.ac.inEmail: vc@kvasu.ac.in, vc.vetuny@gmail.com",
+              "mr": "Kerala Veterinary and Animal Sciences University\r\n                            Website:http://www.kcasu.ac.inEmail: vc@kvasu.ac.in, vc.vetuny@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.kcasu.ac.in"
+          },
+          {
+            "text": {
+              "en": "Liason Office, Directorate of Dairy\r\n                            Development, Pattom,Thiruvananthapuram, 695004, Kerala",
+              "mr": "Liason Office, Directorate of Dairy\r\n                            Development, Pattom,Thiruvananthapuram, 695004, Kerala"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0471-2550058\r\n                            Fax: 0471-2550480",
+              "mr": "0471-2550058\r\n                            Fax: 0471-2550480"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "27",
+              "mr": "27"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Lala Lajpat Rai University of Veterinary & Animal SciencesWebsite:http://www.llruvas.edu.in/Email: vc@llruvas.edu.in",
+              "mr": "Lala Lajpat Rai University of Veterinary & Animal SciencesWebsite:http://www.llruvas.edu.in/Email: vc@llruvas.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.llruvas.edu.in"
+          },
+          {
+            "text": {
+              "en": "Hisar, Haryana",
+              "mr": "Hisar, Haryana"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "01662 289332\r\n                            01662- 272002",
+              "mr": "01662 289332\r\n                            01662- 272002"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "28",
+              "mr": "28"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Nanaji Deshmukh Veterinary Science UniversityWebsite:http://www.mppcvv.orgEmail: vcnduvs@gmail.com",
+              "mr": "Nanaji Deshmukh Veterinary Science UniversityWebsite:http://www.mppcvv.orgEmail: vcnduvs@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.mppcvv.org"
+          },
+          {
+            "text": {
+              "en": "South Civil Lines, Jabalpur-482001, Madhya Pradesh",
+              "mr": "South Civil Lines, Jabalpur-482001, Madhya Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0761-2678007\r\n                            Fax: 0761-2620783",
+              "mr": "0761-2678007\r\n                            Fax: 0761-2620783"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "29",
+              "mr": "29"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Maharana Pratap Univ. of Agriculture & TechnologyWebsite:http://www.mpuat.ac.inEmail: vc@mpuat.ac.in",
+              "mr": "Maharana Pratap Univ. of Agriculture & TechnologyWebsite:http://www.mpuat.ac.inEmail: vc@mpuat.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.mpuat.ac.in"
+          },
+          {
+            "text": {
+              "en": "Udaipur, Rajasthan 313001",
+              "mr": "Udaipur, Rajasthan 313001"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0294-2471101\r\n                            Fax:0294-2470682",
+              "mr": "0294-2471101\r\n                            Fax:0294-2470682"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "30",
+              "mr": "30"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Maharashtra Animal Science & Fishery UniversityWebsite:http://www.mafsu.inEmail: vcmatsu@gmail.com, cadaba_prasad@yahoo.co.in",
+              "mr": "Maharashtra Animal Science & Fishery UniversityWebsite:http://www.mafsu.inEmail: vcmatsu@gmail.com, cadaba_prasad@yahoo.co.in"
+            },
+            "fileLink": "",
+            "originalLink": " http://www.mafsu.in"
+          },
+          {
+            "text": {
+              "en": "Seminary Hills, Nagpur-440006, Maharashtra",
+              "mr": "Seminary Hills, Nagpur-440006, Maharashtra"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0712-2511088\r\n                            Fax:0712-2511282",
+              "mr": "0712-2511088\r\n                            Fax:0712-2511282"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "31",
+              "mr": "31"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Mahatma Phule Krishi VidyapeethWebsite:http://mpkv.mah.nic.inEmail: vcmpkv@rediffmail.com",
+              "mr": "Mahatma Phule Krishi VidyapeethWebsite:http://mpkv.mah.nic.inEmail: vcmpkv@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": " http://mpkv.mah.nic.in"
+          },
+          {
+            "text": {
+              "en": "Rahuri-413722, Maharashtra",
+              "mr": "Rahuri-413722, Maharashtra"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02426-243208\r\n                            Fax:02426-243302",
+              "mr": "02426-243208\r\n                            Fax:02426-243302"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "32",
+              "mr": "32"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Manyavar Shri Kanshiram Ji University of Agriculture and TechnologyWebsite:http://www.mskjuat.edu.in/Email: vc.mskjuat@gmail.com",
+              "mr": "Manyavar Shri Kanshiram Ji University of Agriculture and TechnologyWebsite:http://www.mskjuat.edu.in/Email: vc.mskjuat@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.mskjuat.edu.in/"
+          },
+          {
+            "text": {
+              "en": "Banda - 210001,\r\n                            Uttar Pradesh",
+              "mr": "Banda - 210001,\r\n                            Uttar Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "05192-221605\r\n                            Fax:02426-243302",
+              "mr": "05192-221605\r\n                            Fax:02426-243302"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "33",
+              "mr": "33"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Narendra Deva University of Agriculture & TechnologyWebsite:http://www.nduat.ernet.inEmail:vc_nduat2010@yaho.co.in",
+              "mr": "Narendra Deva University of Agriculture & TechnologyWebsite:http://www.nduat.ernet.inEmail:vc_nduat2010@yaho.co.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.nduat.ernet.in"
+          },
+          {
+            "text": {
+              "en": "Kumarganj, Faizabad -224229, Uttar Pradesh",
+              "mr": "Kumarganj, Faizabad -224229, Uttar Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "05270-262097, 262161\r\n                            Fax:05270-262097",
+              "mr": "05270-262097, 262161\r\n                            Fax:05270-262097"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "34",
+              "mr": "34"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Navsari Agricultural UniversityWebsite:http://www.nau.inEmail: vc_2004@yahoo.co.in",
+              "mr": "Navsari Agricultural UniversityWebsite:http://www.nau.inEmail: vc_2004@yahoo.co.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.nau.in"
+          },
+          {
+            "text": {
+              "en": "Navsari-396450 Gujarat",
+              "mr": "Navsari-396450 Gujarat"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02673-283869\r\n                            Fax:02673-284254",
+              "mr": "02673-283869\r\n                            Fax:02673-284254"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "35",
+              "mr": "35"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Orissa Univ. of Agriculture & TechnologyWebsite:http://www.ouat.ac.inEmail: ouat_dproy@yahoo.co.in, bsenapati1942@yahoo.com",
+              "mr": "Orissa Univ. of Agriculture & TechnologyWebsite:http://www.ouat.ac.inEmail: ouat_dproy@yahoo.co.in, bsenapati1942@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.ouat.ac.in "
+          },
+          {
+            "text": {
+              "en": "Bhubaneshwar-751003, Orissa",
+              "mr": "Bhubaneshwar-751003, Orissa"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0674-2397700\r\n                            Fax:0674-2397780",
+              "mr": "0674-2397700\r\n                            Fax:0674-2397780"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "36",
+              "mr": "36"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Prof. Jayashankar Telangana State Agricultural UniversityWebsite:www.pjtsau.ac.inEmail: vcpjtsau@gmail.com",
+              "mr": "Prof. Jayashankar Telangana State Agricultural UniversityWebsite:www.pjtsau.ac.inEmail: vcpjtsau@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.pjtsau.ac.in"
+          },
+          {
+            "text": {
+              "en": "Admn. Office: Rajendranagar, Hyderabad - 500 030",
+              "mr": "Admn. Office: Rajendranagar, Hyderabad - 500 030"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "040-24015122\r\n                            Fax:040-24018653\r\n                            (M):09849029245",
+              "mr": "040-24015122\r\n                            Fax:040-24018653\r\n                            (M):09849029245"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "37",
+              "mr": "37"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Punjab Agricultural UniversityWebsite:http://www.pau.eduEmail: vcpau@pau.edu",
+              "mr": "Punjab Agricultural UniversityWebsite:http://www.pau.eduEmail: vcpau@pau.edu"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.pau.edu "
+          },
+          {
+            "text": {
+              "en": "Ludhiana-141004, Punjab",
+              "mr": "Ludhiana-141004, Punjab"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0161-2401794\r\n                            Fax:0161-2402483",
+              "mr": "0161-2401794\r\n                            Fax:0161-2402483"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "38",
+              "mr": "38"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Rajasthan University of Veterinary and Animal SciencesWebsite:http://www.rajuvas.orgEmail: vcrajuvas@gmail.com",
+              "mr": "Rajasthan University of Veterinary and Animal SciencesWebsite:http://www.rajuvas.orgEmail: vcrajuvas@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.rajuvas.org"
+          },
+          {
+            "text": {
+              "en": "Bijey Bhavan Place Complex\r\n                            (Pt Deen Dayal circle) Bikaner 334006 Rajasthan",
+              "mr": "Bijey Bhavan Place Complex\r\n                            (Pt Deen Dayal circle) Bikaner 334006 Rajasthan"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0151-2543419\r\n                            Fax: 0151-2549348",
+              "mr": "0151-2543419\r\n                            Fax: 0151-2549348"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "39",
+              "mr": "39"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Rajendra Agricultural UniversityWebsite:http://www.pusavarsity.org.inEmail: : vcrau@sify.com",
+              "mr": "Rajendra Agricultural UniversityWebsite:http://www.pusavarsity.org.inEmail: : vcrau@sify.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.pusavarsity.org.in "
+          },
+          {
+            "text": {
+              "en": "Pusa, Samastipur 848125, Bihar",
+              "mr": "Pusa, Samastipur 848125, Bihar"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "06274-240226\r\n                            Fax:06274-240255",
+              "mr": "06274-240226\r\n                            Fax:06274-240255"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "40",
+              "mr": "40"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Rajmata Vijayraje Sciendia Krishi Vishwa VidyalayaWebsite:http://www.rvskvv.nic.inEmail: vcrvskvv@gmail.com",
+              "mr": "Rajmata Vijayraje Sciendia Krishi Vishwa VidyalayaWebsite:http://www.rvskvv.nic.inEmail: vcrvskvv@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.rvskvv.nic.in"
+          },
+          {
+            "text": {
+              "en": "Race Cource Road, Gwalior 474002 Madhya Pradesh",
+              "mr": "Race Cource Road, Gwalior 474002 Madhya Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0751-2467673\r\n                            Fax: 0751-2467673",
+              "mr": "0751-2467673\r\n                            Fax: 0751-2467673"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "41",
+              "mr": "41"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Rani Laxmi Bai Central Agricultural UniversityWebsite:http://www.rlbcau.ac.inEmail: : ddgedn@icar.org.in",
+              "mr": "Rani Laxmi Bai Central Agricultural UniversityWebsite:http://www.rlbcau.ac.inEmail: : ddgedn@icar.org.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.rlbcau.ac.in "
+          },
+          {
+            "text": {
+              "en": "Jhansi, Uttar Pradesh",
+              "mr": "Jhansi, Uttar Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "011-25841760\r\n                            Fax:011-25843932",
+              "mr": "011-25841760\r\n                            Fax:011-25843932"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "42",
+              "mr": "42"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sardar Vallabhbhai Patel University of Agriculture and TechnologyWebsite:http://www.svbpmeerut.ac.inEmail:vc_agunivmeerut@yahoo.com",
+              "mr": "Sardar Vallabhbhai Patel University of Agriculture and TechnologyWebsite:http://www.svbpmeerut.ac.inEmail:vc_agunivmeerut@yahoo.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.svbpmeerut.ac.in"
+          },
+          {
+            "text": {
+              "en": "Modipuram, Meerut - 250110 Uttar Pradesh",
+              "mr": "Modipuram, Meerut - 250110 Uttar Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0121-2888522,\r\n                            Fax:0121-2888505",
+              "mr": "0121-2888522,\r\n                            Fax:0121-2888505"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "43",
+              "mr": "43"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sardarkrushinagar-Dantiwada Agricultural UniversityWebsite:http://www.sdau.edu.inEmail: vc@sdau.edu.in",
+              "mr": "Sardarkrushinagar-Dantiwada Agricultural UniversityWebsite:http://www.sdau.edu.inEmail: vc@sdau.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.sdau.edu.in"
+          },
+          {
+            "text": {
+              "en": "Sardar Krushinagar, Distt Banaskantha, Gujarat-385506",
+              "mr": "Sardar Krushinagar, Distt Banaskantha, Gujarat-385506"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02748-278222\r\n                            Fax:02748-278261",
+              "mr": "02748-278222\r\n                            Fax:02748-278261"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "44",
+              "mr": "44"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sher-E-Kashmir Univ of Agricultural Sciences & TechnologyWebsite:http://www.skuast.orgEmail: vc@skuast.org",
+              "mr": "Sher-E-Kashmir Univ of Agricultural Sciences & TechnologyWebsite:http://www.skuast.orgEmail: vc@skuast.org"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.skuast.org"
+          },
+          {
+            "text": {
+              "en": "Railway Road, Jammu 18009, J&K",
+              "mr": "Railway Road, Jammu 18009, J&K"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0191-2263714\r\n                            Fax:0191-2262073",
+              "mr": "0191-2263714\r\n                            Fax:0191-2262073"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "45",
+              "mr": "45"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sher-E-Kashmir Univ of Agricultural Sciences & Technology of KashmirWebsite:http://www.skuastkashmir.ac.inEmail: vc@skuastkashmir.ac.in, skuastkvc@gmail.com",
+              "mr": "Sher-E-Kashmir Univ of Agricultural Sciences & Technology of KashmirWebsite:http://www.skuastkashmir.ac.inEmail: vc@skuastkashmir.ac.in, skuastkvc@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.skuastkashmir.ac.in"
+          },
+          {
+            "text": {
+              "en": "Shalimar Campus, Shrinagar-191121, Jammu & Kashmir",
+              "mr": "Shalimar Campus, Shrinagar-191121, Jammu & Kashmir"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0194-2464028, 2462159\r\n                            Fax:0194-2462160, 2461543",
+              "mr": "0194-2464028, 2462159\r\n                            Fax:0194-2462160, 2461543"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "46",
+              "mr": "46"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sri Karan Narendra Agriculture UniversityWebsite:http://www.sknau.ac.inEmail:nsrdsr@gmail.com, vc@sknau.ac.in",
+              "mr": "Sri Karan Narendra Agriculture UniversityWebsite:http://www.sknau.ac.inEmail:nsrdsr@gmail.com, vc@sknau.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.sknau.ac.in"
+          },
+          {
+            "text": {
+              "en": "Jobner-303329",
+              "mr": "Jobner-303329"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0877-2248986\r\n                            Fax:0877-2249222",
+              "mr": "0877-2248986\r\n                            Fax:0877-2249222"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "47",
+              "mr": "47"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sri Venkateswara Veterinary UniversityWebsite:http://www.svvu.edu.inEmail:prabhakarvrao@yahoo.com\r\n                            her",
+              "mr": "Sri Venkateswara Veterinary UniversityWebsite:http://www.svvu.edu.inEmail:prabhakarvrao@yahoo.com\r\n                            her"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.svvu.edu.in"
+          },
+          {
+            "text": {
+              "en": "Admn office, Regional Library Building, Tirupati-517502",
+              "mr": "Admn office, Regional Library Building, Tirupati-517502"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0877-2248986\r\n                            Fax:0877-2249222",
+              "mr": "0877-2248986\r\n                            Fax:0877-2249222"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "48",
+              "mr": "48"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Swami Keshwanand Rajasthan Agricultural UniversityWebsite:http://www.raubikaner.orgEmail: vcrau@raubikaner.org",
+              "mr": "Swami Keshwanand Rajasthan Agricultural UniversityWebsite:http://www.raubikaner.orgEmail: vcrau@raubikaner.org"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.raubikaner.org"
+          },
+          {
+            "text": {
+              "en": "Bikaner-334006,Rajasthan",
+              "mr": "Bikaner-334006,Rajasthan"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0151-2250443, 2250488\r\n                            Fax:0151-2250336",
+              "mr": "0151-2250443, 2250488\r\n                            Fax:0151-2250336"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "49",
+              "mr": "49"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Tamil Nadu Agricultural UniversityWebsite:http://www.tnau.ac.inEmail: vc@tnau.ac.in",
+              "mr": "Tamil Nadu Agricultural UniversityWebsite:http://www.tnau.ac.inEmail: vc@tnau.ac.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.tnau.ac.in"
+          },
+          {
+            "text": {
+              "en": "Coimbatore-641003, Tamil Nadu",
+              "mr": "Coimbatore-641003, Tamil Nadu"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0422-2431788, 2431672\r\n                            Fax:0422-2431672",
+              "mr": "0422-2431788, 2431672\r\n                            Fax:0422-2431672"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "50",
+              "mr": "50"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Tamil Nadu Fisheries UniversityWebsite:http://www.tnfu.org.in",
+              "mr": "Tamil Nadu Fisheries UniversityWebsite:http://www.tnfu.org.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.tnfu.org.in"
+          },
+          {
+            "text": {
+              "en": "Nagapattinam – 611 003, Tamil Nadu",
+              "mr": "Nagapattinam – 611 003, Tamil Nadu"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "04365-253011",
+              "mr": "04365-253011"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "51",
+              "mr": "51"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Tamil Nadu Veterinary & Animal Science UniversityWebsite:http://www.tanuvas.ac.inEmail:vc@tanuvas.org.in, karanmgk@gmail.com",
+              "mr": "Tamil Nadu Veterinary & Animal Science UniversityWebsite:http://www.tanuvas.ac.inEmail:vc@tanuvas.org.in, karanmgk@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.tanuvas.ac.in "
+          },
+          {
+            "text": {
+              "en": "Chennai-600051, Tamilnadu",
+              "mr": "Chennai-600051, Tamilnadu"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "044-25551574, 25551575\r\n                            Fax:0444-225551576",
+              "mr": "044-25551574, 25551575\r\n                            Fax:0444-225551576"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "52",
+              "mr": "52"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "University of Agricultural Sciences, BangaloreWebsite:http://www.uasbangalore.edu.inEmail:vcuasb1964@gmail.com, vc@uasbangalore.edu.in",
+              "mr": "University of Agricultural Sciences, BangaloreWebsite:http://www.uasbangalore.edu.inEmail:vcuasb1964@gmail.com, vc@uasbangalore.edu.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.uasbangalore.edu.in"
+          },
+          {
+            "text": {
+              "en": "GKVK,Bengaluru-560065, Karnataka",
+              "mr": "GKVK,Bengaluru-560065, Karnataka"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "080-23332442\r\n                            Fax:080-23330277",
+              "mr": "080-23332442\r\n                            Fax:080-23330277"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "53",
+              "mr": "53"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "University of Agricultural Sciences, DharwadWebsite:http://www.uasd.eduEmail: vc_uasd@rediffmail.com",
+              "mr": "University of Agricultural Sciences, DharwadWebsite:http://www.uasd.eduEmail: vc_uasd@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.uasd.edu "
+          },
+          {
+            "text": {
+              "en": "Dharwad-580005, Karnataka",
+              "mr": "Dharwad-580005, Karnataka"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0836-2447783,\r\n                            Fax:0836-2448349",
+              "mr": "0836-2447783,\r\n                            Fax:0836-2448349"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "54",
+              "mr": "54"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "University of Agricultural Sciences, ShimogaWebsite:http://www.uasbangalore.edu.in/asp/agriShimoga.asp",
+              "mr": "University of Agricultural Sciences, ShimogaWebsite:http://www.uasbangalore.edu.in/asp/agriShimoga.asp"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.uasbangalore.edu.in/asp/agriShimoga.asp"
+          },
+          {
+            "text": {
+              "en": "Shimoga, Karnataka",
+              "mr": "Shimoga, Karnataka"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "-----",
+              "mr": "-----"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "55",
+              "mr": "55"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "University of Horticultural SciencesWebsite:http://uhsbagalkot.edu.in/Email: dandinbnm@gmail.com",
+              "mr": "University of Horticultural SciencesWebsite:http://uhsbagalkot.edu.in/Email: dandinbnm@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.uhsbagalkot.edu.in "
+          },
+          {
+            "text": {
+              "en": "Sector No 60 Navanagar Bagalkot 587102 Karnataka",
+              "mr": "Sector No 60 Navanagar Bagalkot 587102 Karnataka"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "08354 201310\r\n                            Fax: 08354 235152",
+              "mr": "08354 201310\r\n                            Fax: 08354 235152"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "56",
+              "mr": "56"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "University of Agricultural SciencesWebsite:http://www.uasraichur.edu.inEmail: vcuasraichur10@rediffmail.com",
+              "mr": "University of Agricultural SciencesWebsite:http://www.uasraichur.edu.inEmail: vcuasraichur10@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.uasraichur.edu.in"
+          },
+          {
+            "text": {
+              "en": "PB 329, Raichur – 584101 Karnataka",
+              "mr": "PB 329, Raichur – 584101 Karnataka"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "08532-221444\r\n                            Fax: 08532- 220444",
+              "mr": "08532-221444\r\n                            Fax: 08532- 220444"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "57",
+              "mr": "57"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "UP Pandit Deen Dayal Upadhaya Pashu Chikitsa Vigyan Vishwa Vidhyalaya evam Go Anusandhan SansthanWebsite:http://www.upvetuniv.edu.inEmail: singhambika1945@gmail.com, duvasuvc@gmail.com",
+              "mr": "UP Pandit Deen Dayal Upadhaya Pashu Chikitsa Vigyan Vishwa Vidhyalaya evam Go Anusandhan SansthanWebsite:http://www.upvetuniv.edu.inEmail: singhambika1945@gmail.com, duvasuvc@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": " http://www.upvetuniv.edu.in"
+          },
+          {
+            "text": {
+              "en": "Mathura-281001 , Uttar Pradesh",
+              "mr": "Mathura-281001 , Uttar Pradesh"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "0565-2470199\r\n                            Fax:0565-2404819",
+              "mr": "0565-2470199\r\n                            Fax:0565-2404819"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "58",
+              "mr": "58"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Uttarakhand University of Horticulture and ForestryWebsite:http://www.uuhf.ac.in/niversity of Agricultural Sciences",
+              "mr": "Uttarakhand University of Horticulture and ForestryWebsite:http://www.uuhf.ac.in/niversity of Agricultural Sciences"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.uuhf.ac.in/"
+          },
+          {
+            "text": {
+              "en": "Pauri Garhwal, Uttarakhand",
+              "mr": "Pauri Garhwal, Uttarakhand"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "09412051976",
+              "mr": "09412051976"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "59",
+              "mr": "59"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Uttar Banga Krishi ViswavidyalayaWebsite:http://www.ubkv.ac.inEmail: vcubkv@gmail.com, vcubkv@rediffmail.com",
+              "mr": "Uttar Banga Krishi ViswavidyalayaWebsite:http://www.ubkv.ac.inEmail: vcubkv@gmail.com, vcubkv@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.ubkv.ac.in"
+          },
+          {
+            "text": {
+              "en": "P.O. Pundibari, Dist. Coach Bihar-736165,West Bengal",
+              "mr": "P.O. Pundibari, Dist. Coach Bihar-736165,West Bengal"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "03582-270141, 270013\r\n                            Fax:03582-270249",
+              "mr": "03582-270141, 270013\r\n                            Fax:03582-270249"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "60",
+              "mr": "60"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Vasantrao Naik Marathwada Agricultural UniversityWebsite:http://www.mkv2.mah.nic.inEmail: vcmau@rediffmail.com",
+              "mr": "Vasantrao Naik Marathwada Agricultural UniversityWebsite:http://www.mkv2.mah.nic.inEmail: vcmau@rediffmail.com"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.mkv2.mah.nic.in"
+          },
+          {
+            "text": {
+              "en": "Parbhani-431402, Maharashtra",
+              "mr": "Parbhani-431402, Maharashtra"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "02452-223002\r\n                            Fax:02452-223582",
+              "mr": "02452-223002\r\n                            Fax:02452-223582"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "61",
+              "mr": "61"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "West Bengal University of Animal & Fishery SciencesWebsite:http://www.wbuafscl.ac.inEmail: wbuafs@wb.nic.in",
+              "mr": "West Bengal University of Animal & Fishery SciencesWebsite:http://www.wbuafscl.ac.inEmail: wbuafs@wb.nic.in"
+            },
+            "fileLink": "",
+            "originalLink": "http://www.mkv2.mah.nic.in"
+          },
+          {
+            "text": {
+              "en": "68 KB Sarani, Kolkata-700037, West Benga",
+              "mr": "68 KB Sarani, Kolkata-700037, West Benga"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "033-25563450\r\n                            Fax:033-25571986",
+              "mr": "033-25563450\r\n                            Fax:033-25571986"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "62",
+              "mr": "62"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Sri Konda Laxman Telangana State Horticultural UniversityEmail: vcskltshu@gmail.com,registrarskltshu@gmail.com",
+              "mr": "Sri Konda Laxman Telangana State Horticultural UniversityEmail: vcskltshu@gmail.com,registrarskltshu@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Rajendra Nagar Campus, Hyderabad",
+              "mr": "Rajendra Nagar Campus, Hyderabad"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Vice-Chancellor 040-24014301 , Registrar 09908216634(M)",
+              "mr": "Vice-Chancellor 040-24014301 , Registrar 09908216634(M)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "63",
+              "mr": "63"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Kamdhenu UniversityEmail: vc.kamdhenu.university@gmail.com",
+              "mr": "Kamdhenu UniversityEmail: vc.kamdhenu.university@gmail.com"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Karmayogi Bhavan, Block-1, B1-wing,4th Floor,Room No.414, Sector-10-A,\r\n                            Gandhinagar-382010",
+              "mr": "Karmayogi Bhavan, Block-1, B1-wing,4th Floor,Room No.414, Sector-10-A,\r\n                            Gandhinagar-382010"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          },
+          {
+            "text": {
+              "en": "Vice-Chancellor 8980009803(M), Registrar 9725001060(M)",
+              "mr": "Vice-Chancellor 8980009803(M), Registrar 9725001060(M)"
+            },
+            "fileLink": "",
+            "originalLink": ""
+          }
+        ]
+      ],
+      "rowCount": 64,
+      "columnCount": 4
+    }
+  ],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Internal Quality Assurance Cell",
+        "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+      },
+      "order": 55
+    }
+  ],
+  "stats": {
+    "headingCount": 55,
+    "paragraphCount": 0,
+    "listCount": 0,
+    "tableCount": 1,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 14,
+    "totalRecords": 133
+  }
+}

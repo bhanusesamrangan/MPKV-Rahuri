@@ -1,0 +1,71 @@
+{
+  "slug": "central-library-rahuri",
+  "url": "https://mpkv.ac.in/Library/About",
+  "route": "/central-library-rahuri",
+  "sourcePage": "central-library-rahuri",
+  "scrapedAt": "2026-11-22T20:36:22.761512",
+  "title": {
+    "en": "Vasantrao Naik Memorial Central Library, Rahuri",
+    "mr": "वसंतराव नाईक स्मृती मध्यवर्ती ग्रंथालय, राहुरी"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      },
+      "href": "/central-library-rahuri"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Vasantrao Naik Memorial Central Library",
+      "mr": "वसंतराव नाईक स्मृती मध्यवर्ती ग्रंथालय, राहुरी"
+    },
+    "subtitle": {
+      "en": "Repository of Agricultural Knowledge, E-Journals, CeRA & Doctoral Theses",
+      "mr": "कृषि ज्ञानभांडार, ई-जर्नल्स, सेरा (CeRA) व प्रबंधांचे मध्यवर्ती केंद्र"
+    },
+    "badge": {
+      "en": "RFID-Enabled Digital Library",
+      "mr": "आरएफआयडी सक्षम डिजिटल ग्रंथालय"
+    }
+  },
+  "services": [
+    {
+      "title": {
+        "en": "Circulation & Book Bank",
+        "mr": "पुस्तक देवाणघेवाण व ग्रंथपेढी योजना"
+      }
+    },
+    {
+      "title": {
+        "en": "CeRA Consortium for e-Resources in Agriculture",
+        "mr": "आयसीएआर सेरा (CeRA) ई-जर्नल सुविधा"
+      }
+    },
+    {
+      "title": {
+        "en": "KrishiKosh Institutional Repository",
+        "mr": "कृषिकोश प्रबंध व डिजिटल संग्रह"
+      }
+    },
+    {
+      "title": {
+        "en": "Photocopying & Digitization Unit",
+        "mr": "दस्तऐवज स्कॅनिंग व झेरॉक्स सुविधा"
+      }
+    }
+  ],
+  "stats": {
+    "serviceCount": 4,
+    "totalRecords": 4
+  }
+}

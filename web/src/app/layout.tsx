@@ -5,6 +5,18 @@ import ClientProviders from '@/components/ClientProviders';
 export const metadata: Metadata = {
   title: 'Mahatma Phule Krishi Vidyapeeth, Rahuri | म.फु.कृ.वि. राहुरी',
   description: 'Official Portal of Mahatma Phule Krishi Vidyapeeth (MPKV), Central Campus, Rahuri, Ahilyanagar',
+  icons: {
+    icon: [
+      { url: '/media/logos/Logo.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/icon.png', type: 'image/png', sizes: '192x192' },
+    ],
+    shortcut: '/media/logos/Logo.png',
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({

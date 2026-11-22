@@ -1,0 +1,1320 @@
+{
+  "slug": "nodal-cell",
+  "url": "https://mpkv.ac.in/PmeAndNodel/NodelGuidelines",
+  "route": "/PmeAndNodel/NodelGuidelines",
+  "sourcePage": "nodal-cell",
+  "scrapedAt": "2026-11-22T20:36:02.334951",
+  "title": {
+    "en": "Nodal Cell",
+    "mr": "नोडल सेल"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Nodal Cell",
+        "mr": "नोडल सेल"
+      },
+      "href": "/PmeAndNodel/NodelGuidelines"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Nodal Cell",
+      "mr": "नोडल सेल"
+    },
+    "subtitle": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Nodal Cell",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — नोडल सेल"
+    },
+    "badge": {
+      "en": "Official University Portal",
+      "mr": "अधिकृत विद्यापीठ दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "level": "h2",
+      "text": {
+        "en": "Nodal Cell",
+        "mr": "नोडल सेल"
+      },
+      "order": 55
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "ICAR Nodal Cell has been established in the University in 2016 for effective coordination between University and Agricultural Education Division, ICAR, New Delhi for better education, planning, strengthening linkages, human resources development and quality assurance of the higher agricultural education.",
+        "mr": "ICAR Nodal Cell has been established in the University in 2016 for effective coordination between University and Agricultural Education Division, ICAR, New Delhi for better education, planning, strengthening linkages, human resources development and quality assurance of the higher agricultural education."
+      },
+      "order": 56
+    }
+  ],
+  "lists": [
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Nodal Cell",
+          "mr": "नोडल सेल"
+        },
+        {
+          "en": "Guidelines",
+          "mr": "Guidelines"
+        },
+        {
+          "en": "Proforma",
+          "mr": "Proforma"
+        },
+        {
+          "en": "Circulars",
+          "mr": "Circulars"
+        },
+        {
+          "en": "Nodal Officer",
+          "mr": "Nodal Officer"
+        }
+      ],
+      "order": 57
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "en": "Minimum Requirements for Establishment of New College in Agriculture and allied disciplines",
+          "mr": "Minimum Requirements for Establishment of New College in Agriculture and allied disciplines"
+        },
+        {
+          "en": "Guidelines for Accreditation of Higher Agricultural Educational Institutions in India",
+          "mr": "Guidelines for Accreditation of Higher Agricultural Educational Institutions in India"
+        },
+        {
+          "en": "Student ID under Ekikrit Krishi-shiksha Takniki Ayaam (EKTA) and ICAR-Education Portal",
+          "mr": "Student ID under Ekikrit Krishi-shiksha Takniki Ayaam (EKTA) and ICAR-Education Portal"
+        },
+        {
+          "en": "Guidelines for National Talent Scholarships (2016) Terms and ConditionsGuidelines for Student Ready (Rural Entrepreneurship and Awareness Development Yojana)",
+          "mr": "Guidelines for National Talent Scholarships (2016) Terms and ConditionsGuidelines for Student Ready (Rural Entrepreneurship and Awareness Development Yojana)"
+        },
+        {
+          "en": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”",
+          "mr": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”"
+        },
+        {
+          "en": "Guidelines for ” Experiential Learning – Setting up Facilities for Hands on Training”",
+          "mr": "Guidelines for ” Experiential Learning – Setting up Facilities for Hands on Training”"
+        },
+        {
+          "en": "Guidelines for National Talent Scholarships Terms and Conditions",
+          "mr": "Guidelines for National Talent Scholarships Terms and Conditions"
+        },
+        {
+          "en": "Guidelines for ” Niche Area of Excellence Programme”",
+          "mr": "Guidelines for ” Niche Area of Excellence Programme”"
+        },
+        {
+          "en": "RULES/ GUIDELINES GOVERNING THE AWARD OF RAWE (RURAL AWARENESS WORKS EXPERIENCE) SCHEME FOR GRADUATES IN AGRICULTURAL SCIENCES OTHER THAN VETERINARY SCIENCE TRAINED BY AGRICULTURAL UNIVERSITIES.",
+          "mr": "RULES/ GUIDELINES GOVERNING THE AWARD OF RAWE (RURAL AWARENESS WORKS EXPERIENCE) SCHEME FOR GRADUATES IN AGRICULTURAL SCIENCES OTHER THAN VETERINARY SCIENCE TRAINED BY AGRICULTURAL UNIVERSITIES."
+        },
+        {
+          "en": "Revised Guidelines for Implementation of SCSP/TSP by the States/UTs",
+          "mr": "Revised Guidelines for Implementation of SCSP/TSP by the States/UTs"
+        },
+        {
+          "en": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”",
+          "mr": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”"
+        }
+      ],
+      "order": 58
+    }
+  ],
+  "tables": [],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
+      "localPath": "/media/images/mpkv_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
+      "localPath": "/media/images/seed_icon.png",
+      "category": "images",
+      "alt": ""
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "localPath": "/media/docs/RTI.pdf",
+      "category": "docs",
+      "label": "RTI"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
+      "localPath": "/media/docs/Right_to_Service_1_.pdf",
+      "category": "docs",
+      "label": "Right to Service"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
+      "localPath": "/media/docs/EligibilityDoctor.pdf",
+      "category": "docs",
+      "label": "Doctoral"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
+      "localPath": "/media/docs/EligibilityMaster_.pdf",
+      "category": "docs",
+      "label": "Master's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
+      "localPath": "/media/docs/EligibilityBachelor.pdf",
+      "category": "docs",
+      "label": "Bachelor's"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
+      "localPath": "/media/docs/EligibilityDiploma.pdf",
+      "category": "docs",
+      "label": "Diploma"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
+      "localPath": "/media/docs/Right_to_Service.pdf",
+      "category": "docs",
+      "label": "Services"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/minreq-incolleges-18_20191127045914.pdf",
+      "localPath": "/media/docs/minreq-incolleges-18_20191127045914.pdf",
+      "category": "docs",
+      "label": "Minimum Requirements for Establishment of New College in Agriculture and allied disciplines"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/Guideline-Accredit-ICAR_20191127045943.pdf",
+      "localPath": "/media/docs/Guideline-Accredit-ICAR_20191127045943.pdf",
+      "category": "docs",
+      "label": "Guidelines for Accreditation of Higher Agricultural Educational Institutions in India"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/USID-under-EKTA_20191127050823.pdf",
+      "localPath": "/media/docs/USID-under-EKTA_20191127050823.pdf",
+      "category": "docs",
+      "label": "Student ID under Ekikrit Krishi-shiksha Takniki Ayaam (EKTA) and ICAR-Education Portal"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/FINALGuidelinesNationalTalent Scholarship(GNTS)_20191127050843.pdf",
+      "localPath": "/media/docs/FINALGuidelinesNationalTalent_Scholarship_GNTS_20191127050843.pdf",
+      "category": "docs",
+      "label": "Guidelines for National Talent Scholarships (2016) Terms and ConditionsGuidelines for Student Ready (Rural Entrepreneurship and Awareness Development Yojana)"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/GuidelinesDevelopmentGrantandLibraryStrengthening(DGandLS)_20191127050911.pdf",
+      "localPath": "/media/docs/GuidelinesDevelopmentGrantandLibraryStrengthening_DGandLS_20191127050911.pdf",
+      "category": "docs",
+      "label": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/GuidelinesExperimentalLearning(ELP)_20191127050936.pdf",
+      "localPath": "/media/docs/GuidelinesExperimentalLearning_ELP_20191127050936.pdf",
+      "category": "docs",
+      "label": "Guidelines for ” Experiential Learning – Setting up Facilities for Hands on Training”"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/GuidelinesNationalTalentScholarship(NTS)_20191127051001.pdf",
+      "localPath": "/media/docs/GuidelinesNationalTalentScholarship_NTS_20191127051001.pdf",
+      "category": "docs",
+      "label": "Guidelines for National Talent Scholarships Terms and Conditions"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/GuidelinesNicheAreaofExcellence(NAE)_20191127051031.pdf",
+      "localPath": "/media/docs/GuidelinesNicheAreaofExcellence_NAE_20191127051031.pdf",
+      "category": "docs",
+      "label": "Guidelines for ” Niche Area of Excellence Programme”"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/GuidelinesRural_ AgricultuiralWorksExperience(RAWE)_20191127051053.pdf",
+      "localPath": "/media/docs/GuidelinesRural_AgricultuiralWorksExperience_RAWE_20191127051053.pdf",
+      "category": "docs",
+      "label": "RULES/ GUIDELINES GOVERNING THE AWARD OF RAWE (RURAL AWARENESS WORKS EXPERIENCE) SCHEME FOR GRADUATES IN AGRICULTURAL SCIENCES OTHER THAN VETERINARY SCIENCE TRAINED BY AGRICULTURAL UNIVERSITIES."
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/GuidelinesTribalSubPlan(TSP)_20191127051112.pdf",
+      "localPath": "/media/docs/GuidelinesTribalSubPlan_TSP_20191127051112.pdf",
+      "category": "docs",
+      "label": "Revised Guidelines for Implementation of SCSP/TSP by the States/UTs"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/Uploads/PmeCell/LibraryStrengthening(DGandLS)_20191127051132.pdf",
+      "localPath": "/media/docs/LibraryStrengthening_DGandLS_20191127051132.pdf",
+      "category": "docs",
+      "label": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”"
+    },
+    {
+      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
+      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
+      "category": "docs",
+      "label": "Citizens Charter"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Education at a Glance",
+        "mr": "Education at a Glance"
+      },
+      "order": 1
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 2
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 3
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "order": 4
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम"
+      },
+      "order": 5
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Faculty",
+        "mr": "विद्याशाखा"
+      },
+      "order": 6
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 7
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "Diploma (Agril. Tech. Schools)"
+      },
+      "order": 8
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
+      },
+      "order": 9
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research at a Glance",
+        "mr": "Research at a Glance"
+      },
+      "order": 10
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 11
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 12
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Stations",
+        "mr": "संशोधन केंद्रे"
+      },
+      "order": 13
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "order": 14
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Technology",
+        "mr": "तंत्रज्ञान"
+      },
+      "order": 15
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
+      },
+      "order": 16
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension at a Glance",
+        "mr": "Extension at a Glance"
+      },
+      "order": 17
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Organizational Profile",
+        "mr": "Organizational Profile"
+      },
+      "order": 18
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Thrust Areas",
+        "mr": "Thrust Areas"
+      },
+      "order": 19
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 20
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Krishi Vigyan Kendras",
+        "mr": "Krishi Vigyan Kendras"
+      },
+      "order": 21
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Communication Center",
+        "mr": "Communication Center"
+      },
+      "order": 22
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "Ad-hoc Extension Projects"
+      },
+      "order": 23
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Agricultural Technology\n                                                        Information Centre",
+        "mr": "Agricultural Technology\n                                                        Information Centre"
+      },
+      "order": 24
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Extension Centers",
+        "mr": "विस्तार केंद्रे"
+      },
+      "order": 25
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "About",
+        "mr": "About"
+      },
+      "order": 26
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Collections",
+        "mr": "Collections"
+      },
+      "order": 27
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sections",
+        "mr": "Sections"
+      },
+      "order": 28
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Facilities",
+        "mr": "Facilities"
+      },
+      "order": 29
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 30
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Links",
+        "mr": "Links"
+      },
+      "order": 31
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Activities",
+        "mr": "Activities"
+      },
+      "order": 32
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Off Campus Libraries",
+        "mr": "Off Campus Libraries"
+      },
+      "order": 33
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "News & Events",
+        "mr": "News & Events"
+      },
+      "order": 34
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Contacts",
+        "mr": "Contacts"
+      },
+      "order": 35
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Procedure",
+        "mr": "Admission Procedure"
+      },
+      "order": 36
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Sports",
+        "mr": "Sports"
+      },
+      "order": 37
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Hostels",
+        "mr": "Hostels"
+      },
+      "order": 38
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Circulars",
+        "mr": "Circulars"
+      },
+      "order": 39
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "International Students",
+        "mr": "International Students"
+      },
+      "order": 40
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
+      },
+      "order": 41
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Student's Form (PGI)",
+        "mr": "Student's Form (PGI)"
+      },
+      "order": 42
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Students Complaints",
+        "mr": "Students Complaints"
+      },
+      "order": 43
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Admission Eligibility",
+        "mr": "प्रवेश पात्रता"
+      },
+      "order": 44
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Farmer\n                                                        Scientist Forum",
+        "mr": "Farmer\n                                                        Scientist Forum"
+      },
+      "order": 45
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "Kisan Aadhar Sammelan"
+      },
+      "order": 46
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Services",
+        "mr": "Services"
+      },
+      "order": 47
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Publications",
+        "mr": "Publications"
+      },
+      "order": 48
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Success Stories",
+        "mr": "Success Stories"
+      },
+      "order": 49
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Inputs",
+        "mr": "निविष्ठा"
+      },
+      "order": 50
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Pune",
+        "mr": "College of Agriculture, Pune"
+      },
+      "order": 51
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "College of Agriculture, Dhule",
+        "mr": "College of Agriculture, Dhule"
+      },
+      "order": 52
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "R. C. S. M. College of Agriculture, Kolhapur",
+        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      },
+      "order": 53
+    },
+    {
+      "type": "heading",
+      "level": "h6",
+      "text": {
+        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      },
+      "order": 54
+    },
+    {
+      "type": "heading",
+      "level": "h2",
+      "text": {
+        "en": "Nodal Cell",
+        "mr": "नोडल सेल"
+      },
+      "order": 55
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "en": "ICAR Nodal Cell has been established in the University in 2016 for effective coordination between University and Agricultural Education Division, ICAR, New Delhi for better education, planning, strengthening linkages, human resources development and quality assurance of the higher agricultural education.",
+        "mr": "ICAR Nodal Cell has been established in the University in 2016 for effective coordination between University and Agricultural Education Division, ICAR, New Delhi for better education, planning, strengthening linkages, human resources development and quality assurance of the higher agricultural education."
+      },
+      "order": 56
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Nodal Cell",
+          "mr": "नोडल सेल"
+        },
+        {
+          "en": "Guidelines",
+          "mr": "Guidelines"
+        },
+        {
+          "en": "Proforma",
+          "mr": "Proforma"
+        },
+        {
+          "en": "Circulars",
+          "mr": "Circulars"
+        },
+        {
+          "en": "Nodal Officer",
+          "mr": "Nodal Officer"
+        }
+      ],
+      "order": 57
+    },
+    {
+      "type": "list",
+      "listType": "ul",
+      "items": [
+        {
+          "en": "Minimum Requirements for Establishment of New College in Agriculture and allied disciplines",
+          "mr": "Minimum Requirements for Establishment of New College in Agriculture and allied disciplines"
+        },
+        {
+          "en": "Guidelines for Accreditation of Higher Agricultural Educational Institutions in India",
+          "mr": "Guidelines for Accreditation of Higher Agricultural Educational Institutions in India"
+        },
+        {
+          "en": "Student ID under Ekikrit Krishi-shiksha Takniki Ayaam (EKTA) and ICAR-Education Portal",
+          "mr": "Student ID under Ekikrit Krishi-shiksha Takniki Ayaam (EKTA) and ICAR-Education Portal"
+        },
+        {
+          "en": "Guidelines for National Talent Scholarships (2016) Terms and ConditionsGuidelines for Student Ready (Rural Entrepreneurship and Awareness Development Yojana)",
+          "mr": "Guidelines for National Talent Scholarships (2016) Terms and ConditionsGuidelines for Student Ready (Rural Entrepreneurship and Awareness Development Yojana)"
+        },
+        {
+          "en": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”",
+          "mr": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”"
+        },
+        {
+          "en": "Guidelines for ” Experiential Learning – Setting up Facilities for Hands on Training”",
+          "mr": "Guidelines for ” Experiential Learning – Setting up Facilities for Hands on Training”"
+        },
+        {
+          "en": "Guidelines for National Talent Scholarships Terms and Conditions",
+          "mr": "Guidelines for National Talent Scholarships Terms and Conditions"
+        },
+        {
+          "en": "Guidelines for ” Niche Area of Excellence Programme”",
+          "mr": "Guidelines for ” Niche Area of Excellence Programme”"
+        },
+        {
+          "en": "RULES/ GUIDELINES GOVERNING THE AWARD OF RAWE (RURAL AWARENESS WORKS EXPERIENCE) SCHEME FOR GRADUATES IN AGRICULTURAL SCIENCES OTHER THAN VETERINARY SCIENCE TRAINED BY AGRICULTURAL UNIVERSITIES.",
+          "mr": "RULES/ GUIDELINES GOVERNING THE AWARD OF RAWE (RURAL AWARENESS WORKS EXPERIENCE) SCHEME FOR GRADUATES IN AGRICULTURAL SCIENCES OTHER THAN VETERINARY SCIENCE TRAINED BY AGRICULTURAL UNIVERSITIES."
+        },
+        {
+          "en": "Revised Guidelines for Implementation of SCSP/TSP by the States/UTs",
+          "mr": "Revised Guidelines for Implementation of SCSP/TSP by the States/UTs"
+        },
+        {
+          "en": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”",
+          "mr": "Guidelines for funding Support under Plan Scheme ” Strengthening and Development of Higher Agricultural Education in India”"
+        }
+      ],
+      "order": 58
+    }
+  ],
+  "stats": {
+    "headingCount": 55,
+    "paragraphCount": 1,
+    "listCount": 2,
+    "tableCount": 0,
+    "cardCount": 0,
+    "noticeCount": 0,
+    "mediaCount": 25,
+    "totalRecords": 81
+  }
+}
