@@ -1,0 +1,421 @@
+[
+  {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    },
+    "href": "/",
+    "icon": "Home"
+  },
+  {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    },
+    "href": "#",
+    "icon": "GraduationCap",
+    "children": [
+      {
+        "id": "edu_group_1",
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संस्थेची माहिती"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Education at a Glance",
+              "mr": "दृष्टीक्षेपात शिक्षण"
+            },
+            "href": "/education/at-a-glance"
+          },
+          {
+            "title": {
+              "en": "Organizational Profile",
+              "mr": "संस्थात्मक संरचना"
+            },
+            "href": "/education/profile"
+          },
+          {
+            "title": {
+              "en": "Thrust Areas",
+              "mr": "प्राधान्यक्रम"
+            },
+            "href": "/education/thrust-areas"
+          },
+          {
+            "title": {
+              "en": "Academic Regulations",
+              "mr": "शैक्षणिक नियमावली"
+            },
+            "href": "/education/regulations"
+          }
+        ]
+      },
+      {
+        "id": "edu_group_2",
+        "title": {
+          "en": "Rahuri Central Colleges",
+          "mr": "राहुरी मध्यवर्ती महाविद्यालये"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Post Graduate Institute (PGI), Rahuri",
+              "mr": "पदव्युत्तर महाविद्यालय (PGI), राहुरी"
+            },
+            "href": "/post-graduate-institute-rahuri"
+          },
+          {
+            "title": {
+              "en": "Dr. A.S. College of Agril. Engg. & Tech., Rahuri",
+              "mr": "डॉ. अ. शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+            },
+            "href": "/dr-as-caet-rahuri"
+          }
+        ]
+      },
+      {
+        "id": "edu_group_3",
+        "title": {
+          "en": "Courses & Degrees (Rahuri)",
+          "mr": "अभ्यासक्रम व पदव्या"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Doctoral (Ph.D.) Programmes",
+              "mr": "आचार्य (Ph.D.) पदवी"
+            },
+            "href": "/education/doctoral"
+          },
+          {
+            "title": {
+              "en": "Master's (M.Sc. / M.Tech.) Programmes",
+              "mr": "पदव्युत्तर (M.Sc. / M.Tech.) पदवी"
+            },
+            "href": "/education/masters"
+          },
+          {
+            "title": {
+              "en": "Bachelor's (B.Tech. Agril. Engg.)",
+              "mr": "पदवी (बी.टेक. कृषि अभियांत्रिकी)"
+            },
+            "href": "/education/bachelors"
+          },
+          {
+            "title": {
+              "en": "Diploma (Agril. Tech. School, Rahuri)",
+              "mr": "पदविका (कृषि तंत्र विद्यालय, राहुरी)"
+            },
+            "href": "/education/diploma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    },
+    "href": "#",
+    "icon": "Microscope",
+    "children": [
+      {
+        "id": "res_group_1",
+        "title": {
+          "en": "Overview & Technology",
+          "mr": "संशोधन व तंत्रज्ञान"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Research at a Glance",
+              "mr": "दृष्टीक्षेपात संशोधन"
+            },
+            "href": "/research/at-a-glance"
+          },
+          {
+            "title": {
+              "en": "Crop Varieties Released",
+              "mr": "विकसित पीक वाण"
+            },
+            "href": "/research/varieties"
+          },
+          {
+            "title": {
+              "en": "Agro Recommendations",
+              "mr": "कृषि शिफारसी"
+            },
+            "href": "/research/recommendations"
+          },
+          {
+            "title": {
+              "en": "Farm Implements (Rahuri)",
+              "mr": "शेती अवजारे"
+            },
+            "href": "/research/implements"
+          },
+          {
+            "title": {
+              "en": "Patents Granted",
+              "mr": "पेटंट्स"
+            },
+            "href": "/research/patents"
+          }
+        ]
+      },
+      {
+        "id": "res_group_2",
+        "title": {
+          "en": "Rahuri Research Schemes",
+          "mr": "राहुरी संशोधन योजना"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "ICAR-AICRP Projects",
+              "mr": "अखिल भारतीय समन्वित प्रकल्प (AICRP)"
+            },
+            "href": "/research/aicrp"
+          },
+          {
+            "title": {
+              "en": "Non-Plan State Schemes",
+              "mr": "राज्य शासन योजना"
+            },
+            "href": "/research/state-schemes"
+          },
+          {
+            "title": {
+              "en": "Externally Funded Projects",
+              "mr": "बाह्य अनुदानीत प्रकल्प"
+            },
+            "href": "/research/funded-projects"
+          },
+          {
+            "title": {
+              "en": "Research Review Mechanism",
+              "mr": "संशोधन पुनरावलोकन यंत्रणा"
+            },
+            "href": "/research/review-mechanism"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    },
+    "href": "#",
+    "icon": "Users",
+    "children": [
+      {
+        "id": "ext_group_1",
+        "title": {
+          "en": "Extension Centres",
+          "mr": "विस्तार केंद्रे"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "ATIC Rahuri (Technology Information)",
+              "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
+            },
+            "href": "/atic-rahuri"
+          },
+          {
+            "title": {
+              "en": "Communication Centre & Radio 90.8 FM",
+              "mr": "संप्रेषण केंद्र व ९०.८ एफएम वाहिनी"
+            },
+            "href": "/communication-centre"
+          },
+          {
+            "title": {
+              "en": "Extension Publications & Krishidarshani",
+              "mr": "विस्तार प्रकाशने व कृषिदर्शनी"
+            },
+            "href": "/extension/publications"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    },
+    "href": "/central-library-rahuri",
+    "icon": "BookOpen"
+  },
+  {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    },
+    "href": "#",
+    "icon": "UserCheck",
+    "children": [
+      {
+        "id": "stud_group_1",
+        "title": {
+          "en": "Student Welfare",
+          "mr": "विद्यार्थी सुविधा"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Admission Procedure (PGI / CAET)",
+              "mr": "प्रवेश प्रक्रिया"
+            },
+            "href": "/students/admission"
+          },
+          {
+            "title": {
+              "en": "Rahuri Campus Hostels",
+              "mr": "राहुरी वसतिगृहे"
+            },
+            "href": "/students/hostels"
+          },
+          {
+            "title": {
+              "en": "Sports & Gymnasium (Rahuri)",
+              "mr": "क्रीडा व व्यायामशाळा"
+            },
+            "href": "/students/sports"
+          },
+          {
+            "title": {
+              "en": "International Students Cell",
+              "mr": "आंतरराष्ट्रीय विद्यार्थी कक्ष"
+            },
+            "href": "/students/international"
+          },
+          {
+            "title": {
+              "en": "Student Grievance & Anti-Ragging",
+              "mr": "तक्रार निवारण व अँटी रॅगिंग"
+            },
+            "href": "/students/grievance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    },
+    "href": "#",
+    "icon": "Sprout",
+    "children": [
+      {
+        "id": "farm_group_1",
+        "title": {
+          "en": "Seeds & Farm Inputs (Rahuri)",
+          "mr": "बियाणे व निविष्ठा (राहुरी)"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Rahuri Seed Availability",
+              "mr": "बियाणे उपलब्धता (राहुरी)"
+            },
+            "href": "/seeds-availability"
+          },
+          {
+            "title": {
+              "en": "Rahuri Central Nursery Stock",
+              "mr": "रोपवाटिका साठा (राहुरी)"
+            },
+            "href": "/nursery-stock"
+          },
+          {
+            "title": {
+              "en": "Rahuri Farm Implements Catalog",
+              "mr": "शेती अवजारे सूची"
+            },
+            "href": "/farm-implements"
+          },
+          {
+            "title": {
+              "en": "Bio-Fertilizers & Bio-Pesticides",
+              "mr": "जैविक खते व कीटकनाशके"
+            },
+            "href": "/farmer/bio-inputs"
+          }
+        ]
+      },
+      {
+        "id": "farm_group_2",
+        "title": {
+          "en": "Advisory & Weather",
+          "mr": "कृषि सल्ला व हवामान"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Weekly Agro Advisory",
+              "mr": "साप्ताहिक शेतकरी सल्ला"
+            },
+            "href": "/farmer/advisories"
+          },
+          {
+            "title": {
+              "en": "Rahuri Campus Weather Forecast",
+              "mr": "हवामान अंदाज (राहुरी)"
+            },
+            "href": "/farmer/weather"
+          },
+          {
+            "title": {
+              "en": "Agriculture Calendar (12 Months)",
+              "mr": "कृषि वेळापत्रक (१२ महिने)"
+            },
+            "href": "/farmer/calendar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    },
+    "href": "/officers/directory",
+    "icon": "Building2"
+  },
+  {
+    "id": "menu_contacts",
+    "title": {
+      "en": "Contacts",
+      "mr": "संपर्क"
+    },
+    "href": "/contact-us",
+    "icon": "PhoneCall"
+  }
+]

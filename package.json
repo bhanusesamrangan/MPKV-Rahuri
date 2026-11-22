@@ -1,0 +1,11 @@
+{
+  "name": "mpkv-rahuri-portal",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:web": "npm --prefix web run dev",
+    "dev:admin": "npm --prefix admin run dev",
+    "build:web": "npm --prefix web run build",
+    "build:admin": "npm --prefix admin run build"
+  }
+}

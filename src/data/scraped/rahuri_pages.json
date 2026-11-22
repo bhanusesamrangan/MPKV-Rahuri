@@ -1,0 +1,336 @@
+{
+  "mpkv-at-a-glance": {
+    "slug": "mpkv-at-a-glance",
+    "templateKey": "BasicFeatureGrid",
+    "isPrimary": true,
+    "title": {
+      "en": "MPKV Rahuri at a Glance",
+      "mr": "दृष्टीक्षेपात महात्मा फुले कृषि विद्यापीठ, राहुरी"
+    },
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "MPKV at a Glance",
+          "mr": "दृष्टीक्षेपात मफुकृवि"
+        },
+        "href": "/mpkv-at-a-glance"
+      }
+    ],
+    "hero": {
+      "headline": {
+        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी"
+      },
+      "subheadline": {
+        "en": "The Premier Agricultural University in Western Maharashtra (Established 1968)",
+        "mr": "पश्चिम महाराष्ट्रातील अग्रगण्य राज्य कृषि विद्यापीठ (स्थापना १९६८)"
+      },
+      "badge": {
+        "en": "ICAR 'A' Grade Accredited",
+        "mr": "भा.कृ.अनु.प. 'अ' श्रेणी मान्यताप्राप्त"
+      }
+    },
+    "content": {
+      "p1": {
+        "en": "The Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri is the premier Agricultural University in Maharashtra that renders services to the farmers through Education, Research and Extension Education. In pursuance of the Maharashtra Agricultural University (Krishi Vidyapeeth) Act 1967, initially, the Maharashtra Agricultural University (Krishi Vidyapeeth) was established for the entire Maharashtra State and started functioning in March, 1968 with its office at Mumbai.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी हे महाराष्ट्रातील एक अग्रणी कृषि विद्यापीठ आहे जे शिक्षण , संशोधन आणि विस्तार शिक्षणाद्वारे शेतकऱ्यांना सेवा देते. महाराष्ट्र कृषि विद्यापीठ (कृषि विद्यापीठ) अधिनियम , 1967 अन्वये सुरुवातीला संपुर्ण महराष्ट्र राज्यासाठी महाराष्ट्र कृषि विद्यापीठाची स्थापना केली गेली आणि मार्च, 1968 मध्ये मुंबई येथे त्याचे कार्यालय सुरु झाले."
+      },
+      "p2": {
+        "en": "The office was shifted to College of Agriculture, Pune in 1969. Later on in 1972, four agricultural universities were established in Maharashtra. Mahatma Phule Krishi Vidyapeeth, Rahuri is one of them established in 1969 for the western Maharashtra having jurisdiction spread over 10 districts viz. Jalgaon, Nandurbar, Dhule, Nashik, Ahilyanagar,Pune, Solapur, Satara, Sangli and Kolhapur. The University is named after the great social reformer 'Mahatma Jyotiba Phule'.",
+        "mr": "सन्न 1969 मध्ये पुणे येथील कृषि महाविद्यालयात हे कार्यालय हलविण्यात आले. नंतर , सन 1972 मध्ये महाराष्ट्रात चार कृषि विद्यापीठे स्थापन झाली. सन 1969 मध्ये स्थापन झालेले महात्मा फुले कृषि विद्यापीठ, राहुरी हे त्यापौकी एक आहे. या विद्यापीठाचे कार्यक्षेत्र जळगाव, नंदुरबार , धुळे, नाशिक , अहिल्यानगर , पुणे, सोलापूर, सातारा, सांगली आणि कोल्हापूर या 10 जिल्हयामध्ये पसरलेले आहे. महान समाज सुधारक 'महात्मा ज्योतिबा फुले' यांचे नाव या विद्यापीठास देण्यात आले."
+      },
+      "mandate": {
+        "title": {
+          "en": "Core Mandate & Objectives",
+          "mr": "प्रमुख ध्येय व उद्दिष्टे"
+        },
+        "items": [
+          {
+            "en": "Imparting world-class agricultural education in undergraduate, postgraduate, and doctorate programmes.",
+            "mr": "कृषि व संलग्न शाखांमध्ये पदविका, पदवी, पदव्युत्तर व आचार्य पदवी स्तरावरील उच्च दर्जाचे शिक्षण देणे."
+          },
+          {
+            "en": "Conducting pioneer, need-based research in crops, dryland farming, water management, farm machinery, and climate resilience.",
+            "mr": "पिके, कोरडवाहू शेती, जलव्यवस्थापन, शेती अवजारे आणि हवामान अनुकूल शेतीविषयक अग्रगण्य संशोधन करणे."
+          },
+          {
+            "en": "Effective lab-to-land transfer of technology to farmers, agri-entrepreneurs, and rural communities.",
+            "mr": "प्रयोगशाळा ते प्रक्षेत्र तंत्रज्ञान हस्तांतरणाद्वारे शेतकरी, कृषि उद्योजक व ग्रामीण समुदायाची सर्वांगीण प्रगती साधणे."
+          }
+        ]
+      }
+    }
+  },
+  "about-mahatma-phule": {
+    "slug": "about-mahatma-phule",
+    "templateKey": "HeroBannerWithArticles",
+    "isPrimary": false,
+    "title": {
+      "en": "About Mahatma Jyotiba Phule",
+      "mr": "क्रांतिसूर्य महात्मा ज्योतिबा फुले यांच्या विषयी"
+    },
+    "hero": {
+      "headline": {
+        "en": "Mahatma Jyotirao Govindrao Phule (1827–1890)",
+        "mr": "क्रांतिसूर्य महात्मा जोतीराव गोविंदराव फुले (१८२७-१८९०)"
+      },
+      "subheadline": {
+        "en": "Visionary Social Reformer, Educationist, and Pioneer of Modern Indian Agricultural Thought",
+        "mr": "महान समाजसुधारक, शिक्षणतज्ज्ञ आणि आधुनिक भारतीय कृषि विचारांचे जनक"
+      }
+    },
+    "content": {
+      "bio": {
+        "en": "Mahatma Jyotirao Phule was an Indian social activist, thinker, anti-caste social reformer and writer from Maharashtra. He led the movement against untouchability and the caste system, and fought for women's education and empowerment. In 1883, he authored the historic treatise 'Shetkaryacha Asud' (The Cultivator's Whipcord), advocating for agrarian irrigation, soil conservation, education of peasant children, and modern agricultural scientific methods.",
+        "mr": "महात्मा जोतीराव फुले हे महाराष्ट्रातील एक महान समाजसुधारक, शिक्षणतज्ज्ञ, सत्यशोधक व लेखक होते. त्यांनी शूद्रातिशूद्रांच्या शिक्षणासाठी आणि महिलांच्या हक्कांसाठी आयुष्यभर संघर्ष केला. १८८३ मध्ये त्यांनी लिहिलेला 'शेतकऱ्याचा आसूड' हा ग्रंथ शेतकऱ्यांच्या शोषणाचे विदारक वास्तव मांडणारा आणि शेतीला पाण्याचा पुरवठा, बंधारे बांधणे, आधुनिक तंत्रज्ञान व शेतीविषयक शिक्षणाचा पुरस्कार करणारा ऐतिहासिक दस्तऐवज ठरला. त्यांच्या या महान कृषि योगदानाचा सन्मान म्हणून राहुरी येथील कृषि विद्यापीठाला त्यांचे नाव देण्यात आले."
+      }
+    }
+  },
+  "vc-desk": {
+    "slug": "vc-desk",
+    "templateKey": "ContentWithRightSidebar",
+    "isPrimary": true,
+    "title": {
+      "en": "From the Vice-Chancellor's Desk",
+      "mr": "मा. कुलगुरूंच्या डेस्कवरून"
+    },
+    "hero": {
+      "headline": {
+        "en": "Dr. Vilas K. Kharche",
+        "mr": "डॉ. विलास के. खर्चे"
+      },
+      "subheadline": {
+        "en": "Hon’ble Vice-Chancellor, MPKV Rahuri",
+        "mr": "मा. कुलगुरू, महात्मा फुले कृषि विद्यापीठ, राहुरी"
+      }
+    },
+    "content": {
+      "address": {
+        "en": "Welcome to Mahatma Phule Krishi Vidyapeeth, Rahuri. Our central campus at Rahuri is committed to driving agricultural excellence through cutting-edge education, climate-resilient research, and proactive extension services. With our dedicated Post Graduate Institute (PGI) and Dr. Annasaheb Shinde College of Agricultural Engineering and Technology, we prepare students to lead the second Green Revolution with digital technologies, drone applications, and sustainable farming systems.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरीच्या अधिकृत संकेतस्थळावर आपले सहर्ष स्वागत. राहुरी येथील मध्यवर्ती परिसर आधुनिक शिक्षण, हवामान अनुकूल संशोधन आणि तंत्रज्ञान विस्ताराद्वारे शेतकऱ्यांची आर्थिक समृद्धी साधण्यासाठी निरंतर कार्यरत आहे. पदव्युत्तर महाविद्यालय (PGI) आणि डॉ. अ.शि. कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालयाच्या माध्यमातून आम्ही विद्यार्थ्यांना कृषी तंत्रज्ञानातील अत्याधुनिक संशोधनासाठी सक्षम बनवत आहोत."
+      }
+    }
+  },
+  "dr-as-caet-rahuri": {
+    "slug": "dr-as-caet-rahuri",
+    "templateKey": "HeroFeaturesTimelineLayout",
+    "isPrimary": false,
+    "title": {
+      "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology, Rahuri",
+      "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+    },
+    "hero": {
+      "headline": {
+        "en": "Dr. A.S. College of Agricultural Engineering & Technology",
+        "mr": "डॉ. अ. शि. कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय"
+      },
+      "subheadline": {
+        "en": "Pioneering Agricultural Engineering Education & Mechanization Research at Rahuri",
+        "mr": "मफुकृवि मध्यवर्ती परिसर, राहुरी येथील अग्रगण्य कृषि अभियांत्रिकी महाविद्यालय"
+      }
+    },
+    "departments": [
+      {
+        "name": {
+          "en": "Farm Machinery and Power Engineering",
+          "mr": "शेती अवजारे आणि शक्ती अभियांत्रिकी विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Soil and Water Conservation Engineering",
+          "mr": "मृद व जलसंधारण अभियांत्रिकी विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Irrigation and Drainage Engineering",
+          "mr": "जलसिंचन आणि निचरा अभियांत्रिकी विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Agricultural Process Engineering",
+          "mr": "कृषि प्रक्रिया अभियांत्रिकी विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Unconventional Energy Sources and Electrical Engineering",
+          "mr": "अपारंपरिक ऊर्जा साधने व विद्युत अभियांत्रिकी विभाग"
+        }
+      }
+    ]
+  },
+  "post-graduate-institute-rahuri": {
+    "slug": "post-graduate-institute-rahuri",
+    "templateKey": "ContentWithTabs",
+    "isPrimary": false,
+    "title": {
+      "en": "Post Graduate Institute (PGI), Rahuri",
+      "mr": "पदव्युत्तर महाविद्यालय, मफुकृवि, राहुरी"
+    },
+    "hero": {
+      "headline": {
+        "en": "Post Graduate Institute (PGI), Central Campus, Rahuri",
+        "mr": "पदव्युत्तर महाविद्यालय, मध्यवर्ती परिसर, राहुरी"
+      },
+      "subheadline": {
+        "en": "Centre of Advanced Master's and Doctoral Studies in Agriculture",
+        "mr": "कृषि विषयातील पदव्युत्तर (M.Sc.) व आचार्य (Ph.D.) शिक्षणाचे प्रगत केंद्र"
+      }
+    },
+    "departments": [
+      {
+        "name": {
+          "en": "Department of Agronomy",
+          "mr": "कृषि विद्या विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Genetics and Plant Breeding",
+          "mr": "वनस्पती पैदास व आनुवंशिकी विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Soil Science and Agricultural Chemistry",
+          "mr": "मृद विज्ञान आणि कृषि रसायनशास्त्र विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Agricultural Entomology",
+          "mr": "कृषि कीटकशास्त्र विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Plant Pathology",
+          "mr": "वनस्पती रोगशास्त्र विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Horticulture",
+          "mr": "उद्यानविद्या विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Agricultural Economics",
+          "mr": "कृषि अर्थशास्त्र विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Agricultural Extension",
+          "mr": "कृषि विस्तार शिक्षण विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Animal Science and Dairy Science",
+          "mr": "पशुसंवर्धन व दुग्धशास्त्र विभाग"
+        }
+      },
+      {
+        "name": {
+          "en": "Department of Agricultural Meteorology",
+          "mr": "कृषि हवामानशास्त्र विभाग"
+        }
+      }
+    ]
+  },
+  "central-library-rahuri": {
+    "slug": "central-library-rahuri",
+    "templateKey": "HeroSplitTimeline",
+    "isPrimary": false,
+    "title": {
+      "en": "Central University Library, Rahuri",
+      "mr": "मध्यवर्ती विद्यापीठ ग्रंथालय (वसंतराव नाईक स्मृती ग्रंथालय), राहुरी"
+    },
+    "hero": {
+      "headline": {
+        "en": "Vasantrao Naik Memorial Central Library, Rahuri",
+        "mr": "वसंतराव नाईक स्मृती मध्यवर्ती ग्रंथालय, राहुरी"
+      },
+      "subheadline": {
+        "en": "Repository of Agricultural Knowledge, E-Journals, CeRA & Theses",
+        "mr": "कृषि ज्ञानभांडार, ई-जर्नल्स, सेरा (CeRA) व प्रबंधांचे मध्यवर्ती केंद्र"
+      }
+    },
+    "services": [
+      {
+        "title": {
+          "en": "Circulation & Book Bank",
+          "mr": "पुस्तक देवाणघेवाण व ग्रंथपेढी योजना"
+        }
+      },
+      {
+        "title": {
+          "en": "CeRA Consortium for e-Resources in Agriculture",
+          "mr": "आयसीएआर सेरा (CeRA) ई-जर्नल सुविधा"
+        }
+      },
+      {
+        "title": {
+          "en": "KrishiKosh Institutional Repository",
+          "mr": "कृषिकोश प्रबंध व डिजिटल संग्रह"
+        }
+      },
+      {
+        "title": {
+          "en": "Photocopying & Digitization Unit",
+          "mr": "दस्तऐवज स्कॅनिंग व झेरॉक्स सुविधा"
+        }
+      }
+    ]
+  },
+  "akmu-rahuri": {
+    "slug": "akmu-rahuri",
+    "templateKey": "IconsListWithTimeline",
+    "isPrimary": false,
+    "title": {
+      "en": "Agricultural Knowledge Management Unit (AKMU), Rahuri",
+      "mr": "कृषि माहिती व्यवस्थापन विभाग (एकेएमयू), राहुरी"
+    },
+    "hero": {
+      "headline": {
+        "en": "Agricultural Knowledge Management Unit (AKMU)",
+        "mr": "कृषि माहिती व्यवस्थापन विभाग (AKMU), राहुरी"
+      },
+      "subheadline": {
+        "en": "Spearheading Campus Networking, IT Services, ERP & Digital Initiatives",
+        "mr": "विद्यापीठ नेटवर्किंग, संकेतस्थळ, ईआरपी व आयटी पायाभूत सुविधांचे संचालन"
+      }
+    }
+  },
+  "atic-rahuri": {
+    "slug": "atic-rahuri",
+    "templateKey": "HeroWithMenuGrid",
+    "isPrimary": false,
+    "title": {
+      "en": "Agricultural Technology Information Centre (ATIC), Rahuri",
+      "mr": "कृषि तंत्रज्ञान माहिती केंद्र (एटीआयसी), राहुरी"
+    },
+    "hero": {
+      "headline": {
+        "en": "Agricultural Technology Information Centre (ATIC)",
+        "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
+      },
+      "subheadline": {
+        "en": "Single Window Delivery System for Seeds, Planting Materials, Advisory & Farm Publications",
+        "mr": "शेतकऱ्यांसाठी बियाणे, रोपे, कृषि सल्ला व प्रकाशनांची एकाच छताखाली सेवा"
+      }
+    }
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "generated_at": "2026-11-21T11:57:22.300094",
+  "total_assets": 69,
+  "successful_downloads": 57,
+  "failed_downloads": 12,
+  "assets": [
+    {
+      "original_url": "https://mpkv.ac.in/assetsNew/img/Logo.png",
+      "local_path": "/media/logos/Logo.png",
+      "category": "logos",
+      "download_time": "2026-11-21T11:56:15.321649",
+      "status": "SUCCESS",
+      "file_size": 1399235,
+      "error": null,
+      "content_type": "image/png"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/assetsNew/img/putula.png",
+      "local_path": "/media/images/putula.png",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:18.391634",
+      "status": "SUCCESS",
+      "file_size": 231900,
+      "error": null,
+      "content_type": "image/png"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/assetsNew/img/001_1.gif",
+      "local_path": "/media/logos/001_1.gif",
+      "category": "logos",
+      "download_time": "2026-11-21T11:56:18.713262",
+      "status": "SUCCESS",
+      "file_size": 9608243,
+      "error": null,
+      "content_type": "image/gif"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/assetsNew/img/RajyaGeet.mp3",
+      "local_path": "/media/audio/RajyaGeet.mp3",
+      "category": "audio",
+      "download_time": "2026-11-21T11:56:30.955301",
+      "status": "SUCCESS",
+      "file_size": 3574428,
+      "error": null,
+      "content_type": "audio/mpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/assetsNew/img/MPKV Song.mp3",
+      "local_path": "/media/audio/MPKV_Song.mp3",
+      "category": "audio",
+      "download_time": "2026-11-21T11:56:35.322929",
+      "status": "SUCCESS",
+      "file_size": 4506782,
+      "error": null,
+      "content_type": "audio/mpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/assetsNew/img/IcarThemeSong.mp3",
+      "local_path": "/media/audio/IcarThemeSong.mp3",
+      "category": "audio",
+      "download_time": "2026-11-21T11:56:39.567941",
+      "status": "SUCCESS",
+      "file_size": 1168071,
+      "error": null,
+      "content_type": "audio/mpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/20261119_102849_731654792883264199be91029bb18329.png",
+      "local_path": "/media/images/20261119_102849_731654792883264199be91029bb18329.png",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:39.998732",
+      "status": "SUCCESS",
+      "file_size": 970907,
+      "error": null,
+      "content_type": "image/png"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/IMGM0607_20260612125954_20260619122404.jpg",
+      "local_path": "/media/images/IMGM0607_20260612125954_20260619122404.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:40.481741",
+      "status": "SUCCESS",
+      "file_size": 5967500,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/WhatsApp Image 2026-06-10 at 9.45.55 PM_20260612125904_20260619122343.jpeg",
+      "local_path": "/media/images/WhatsApp_Image_2026-06-10_at_9.45.55_PM_20260612125904_20260619122343.jpeg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:43.835061",
+      "status": "SUCCESS",
+      "file_size": 1035531,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/WhatsApp Image 2026-06-10 at 2.33.11 PM (1)_20260612125554_20260619122303.jpeg",
+      "local_path": "/media/images/WhatsApp_Image_2026-06-10_at_2.33.11_PM__1__20260612125554_20260619122303.jpeg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:44.266804",
+      "status": "SUCCESS",
+      "file_size": 780020,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/WhatsApp Image 2026-06-10 at 2.33.11 PM_20260612125447 (1)_20260619122209.jpeg",
+      "local_path": "/media/images/WhatsApp_Image_2026-06-10_at_2.33.11_PM_20260612125447__1__20260619122209.jpeg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:44.713669",
+      "status": "SUCCESS",
+      "file_size": 935291,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/WhatsApp Image 2026-06-10 at 2.33.11 PM (2)_20260612125340_20260619122121.jpeg",
+      "local_path": "/media/images/WhatsApp_Image_2026-06-10_at_2.33.11_PM__2__20260612125340_20260619122121.jpeg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:45.242396",
+      "status": "SUCCESS",
+      "file_size": 998501,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/mou_20260713122725.jpeg",
+      "local_path": "/media/images/mou_20260713122725.jpeg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:47.510852",
+      "status": "SUCCESS",
+      "file_size": 344748,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/Corel 02_20260619121712.jpg",
+      "local_path": "/media/images/Corel_02_20260619121712.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:47.851052",
+      "status": "SUCCESS",
+      "file_size": 3088983,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/WhatsApp Image 2026-06-10 at 2.33.10 PM_20260612124901.jpeg",
+      "local_path": "/media/images/WhatsApp_Image_2026-06-10_at_2.33.10_PM_20260612124901.jpeg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:50.946432",
+      "status": "SUCCESS",
+      "file_size": 695385,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/WhatsApp Image 2026-06-10 at 2.33.12 PM (2)_20260612124946.jpeg",
+      "local_path": "/media/images/WhatsApp_Image_2026-06-10_at_2.33.12_PM__2__20260612124946.jpeg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:51.330951",
+      "status": "SUCCESS",
+      "file_size": 768140,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/A 02 NCC Engineering_20260130024914_20260612123909.jpg",
+      "local_path": "/media/images/A_02_NCC_Engineering_20260130024914_20260612123909.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:51.767447",
+      "status": "SUCCESS",
+      "file_size": 4568283,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/A 03_20240819025857_20260612123829.jpg",
+      "local_path": "/media/images/A_03_20240819025857_20260612123829.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:56.233396",
+      "status": "SUCCESS",
+      "file_size": 3550663,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/A 02_20240819025731.jpg",
+      "local_path": "/media/images/A_02_20240819025731.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:56:57.729451",
+      "status": "SUCCESS",
+      "file_size": 3227318,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/InterNational Hostel_20200109041929.jpg",
+      "local_path": "/media/images/InterNational_Hostel_20200109041929.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:02.937244",
+      "status": "SUCCESS",
+      "file_size": 1075983,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/11_20200108023214.jpg",
+      "local_path": "/media/images/11_20200108023214.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:03.876143",
+      "status": "SUCCESS",
+      "file_size": 568841,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/3_20200108022721.jpg",
+      "local_path": "/media/images/3_20200108022721.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:04.303091",
+      "status": "SUCCESS",
+      "file_size": 397094,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/4_20200108022714.jpg",
+      "local_path": "/media/images/4_20200108022714.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:04.688014",
+      "status": "SUCCESS",
+      "file_size": 503447,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/10_20200108022702.jpg",
+      "local_path": "/media/images/10_20200108022702.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:05.547429",
+      "status": "SUCCESS",
+      "file_size": 484997,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/7_20200108022652.jpg",
+      "local_path": "/media/images/7_20200108022652.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:05.985387",
+      "status": "SUCCESS",
+      "file_size": 389725,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/Nanasaheb AAA_20200109041947.jpg",
+      "local_path": "/media/images/Nanasaheb_AAA_20200109041947.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:06.421897",
+      "status": "SUCCESS",
+      "file_size": 884759,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/Aticc_20200109041808.jpg",
+      "local_path": "/media/images/Aticc_20200109041808.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:07.056583",
+      "status": "SUCCESS",
+      "file_size": 760555,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/Administration Building only_20200102043951.jpg",
+      "local_path": "/media/images/Administration_Building_only_20200102043951.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:07.626419",
+      "status": "SUCCESS",
+      "file_size": 898696,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Slider/Putal Full Wide 00002 copy_20200107050312 AAA_20200109034804.jpg",
+      "local_path": "/media/images/Putal_Full_Wide_00002_copy_20200107050312_AAA_20200109034804.jpg",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:08.007707",
+      "status": "SUCCESS",
+      "file_size": 988035,
+      "error": null,
+      "content_type": "image/jpeg"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/AKMU/202603101141314445-removebg-preview_20260311103015.png",
+      "local_path": "/media/images/202603101141314445-removebg-preview_20260311103015.png",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:08.726368",
+      "status": "SUCCESS",
+      "file_size": 310156,
+      "error": null,
+      "content_type": "image/png"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/AKMU/Dattatray Vithoba Bharne_20250801052913.png",
+      "local_path": "/media/images/Dattatray_Vithoba_Bharne_20250801052913.png",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:09.073621",
+      "status": "SUCCESS",
+      "file_size": 104600,
+      "error": null,
+      "content_type": "image/png"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/AKMU/PP_Web_02_copy_20251215020646-removebg-preview_20260101025236.png",
+      "local_path": "/media/images/PP_Web_02_copy_20251215020646-removebg-preview_20260101025236.png",
+      "category": "images",
+      "download_time": "2026-11-21T11:57:09.331449",
+      "status": "SUCCESS",
+      "file_size": 122379,
+      "error": null,
+      "content_type": "image/png"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261118_103401_31fd4c831ed0a09ed0185947e83ac07d.pdf",
+      "local_path": "/media/docs/20261118_103401_31fd4c831ed0a09ed0185947e83ac07d.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:10.018038",
+      "status": "SUCCESS",
+      "file_size": 1132481,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261118_103343_211e1172066f30b6ba72af9b38d1dea1.pdf",
+      "local_path": "/media/docs/20261118_103343_211e1172066f30b6ba72af9b38d1dea1.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:10.669805",
+      "status": "SUCCESS",
+      "file_size": 836958,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261117_160948_9ce404dba955b1b1cd65dbc6e3cecd3a.pdf",
+      "local_path": "/media/docs/20261117_160948_9ce404dba955b1b1cd65dbc6e3cecd3a.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:11.167202",
+      "status": "SUCCESS",
+      "file_size": 1693304,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261116_144733_b3b7d393f7ae3902c37750f232d60c04.pdf",
+      "local_path": "/media/docs/20261116_144733_b3b7d393f7ae3902c37750f232d60c04.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:11.913629",
+      "status": "SUCCESS",
+      "file_size": 446540,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261116_144712_03d67ab0eed1beecb71ac10b6800ebe5.pdf",
+      "local_path": "/media/docs/20261116_144712_03d67ab0eed1beecb71ac10b6800ebe5.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:12.331869",
+      "status": "SUCCESS",
+      "file_size": 964078,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261116_144653_6f7a926b5b197c8f25a7397d5e3a3270.pdf",
+      "local_path": "/media/docs/20261116_144653_6f7a926b5b197c8f25a7397d5e3a3270.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:14.243486",
+      "status": "SUCCESS",
+      "file_size": 1134588,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261116_144633_64210a46c2577a23672ffb93f0b9b7f4.pdf",
+      "local_path": "/media/docs/20261116_144633_64210a46c2577a23672ffb93f0b9b7f4.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:14.898879",
+      "status": "SUCCESS",
+      "file_size": 1201141,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261116_144616_257da843f934f4ab36e8d6a5738587ee.pdf",
+      "local_path": "/media/docs/20261116_144616_257da843f934f4ab36e8d6a5738587ee.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:15.549595",
+      "status": "SUCCESS",
+      "file_size": 1403783,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261029_170823_076f9e632d377675d7eac8cfb5f5e60e.pdf",
+      "local_path": "/media/docs/20261029_170823_076f9e632d377675d7eac8cfb5f5e60e.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:16.180791",
+      "status": "SUCCESS",
+      "file_size": 705681,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/Comunication/20261023_130053_1fbfc1813c46b15f8b89ce15a8d04ca0.pdf",
+      "local_path": "/media/docs/20261023_130053_1fbfc1813c46b15f8b89ce15a8d04ca0.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:16.858775",
+      "status": "SUCCESS",
+      "file_size": 726317,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/1 January 2025_20250210033134.pdf",
+      "local_path": "/media/docs/1_January_2025_20250210033134.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.417971",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/2 February 2025_20250210033148.pdf",
+      "local_path": "/media/docs/2_February_2025_20250210033148.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.492759",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/3 March 2025_20250210033202.pdf",
+      "local_path": "/media/docs/3_March_2025_20250210033202.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.561275",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/4 April 2025_20250210033220.pdf",
+      "local_path": "/media/docs/4_April_2025_20250210033220.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.641771",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/5 May 2025_20250210033235.pdf",
+      "local_path": "/media/docs/5_May_2025_20250210033235.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.713057",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/6 June 2025_20250210033253.pdf",
+      "local_path": "/media/docs/6_June_2025_20250210033253.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.791637",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/7 Jully 2025_20250210033308.pdf",
+      "local_path": "/media/docs/7_Jully_2025_20250210033308.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.864205",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/8 August 2025_20250210033323.pdf",
+      "local_path": "/media/docs/8_August_2025_20250210033323.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:17.941256",
+      "status": "SUCCESS",
+      "file_size": 198956,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/9 September 2025_20250210033336.pdf",
+      "local_path": "/media/docs/9_September_2025_20250210033336.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:18.782588",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/10 October 2025_20250210033351.pdf",
+      "local_path": "/media/docs/10_October_2025_20250210033351.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:18.858254",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/11 November 2025_20250210033606.pdf",
+      "local_path": "/media/docs/11_November_2025_20250210033606.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:18.938413",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/KrishiCalender/12 December 2025_20250210033619.pdf",
+      "local_path": "/media/docs/12_December_2025_20250210033619.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:19.030139",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/1 January 2025_20250210033134.pdf",
+      "local_path": "/media/docs/1_January_2025_20250210033134.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:19.125022",
+      "status": "SUCCESS",
+      "file_size": 154284,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/2 February 2025_20250210033148.pdf",
+      "local_path": "/media/docs/2_February_2025_20250210033148.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:19.408441",
+      "status": "SUCCESS",
+      "file_size": 165756,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/3 March 2025_20250210033202.pdf",
+      "local_path": "/media/docs/3_March_2025_20250210033202.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:19.676988",
+      "status": "SUCCESS",
+      "file_size": 185262,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/4 April 2025_20250210033220.pdf",
+      "local_path": "/media/docs/4_April_2025_20250210033220.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:19.914708",
+      "status": "SUCCESS",
+      "file_size": 214044,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/5 May 2025_20250210033235.pdf",
+      "local_path": "/media/docs/5_May_2025_20250210033235.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:20.232128",
+      "status": "SUCCESS",
+      "file_size": 170708,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/6 June 2025_20250210033253.pdf",
+      "local_path": "/media/docs/6_June_2025_20250210033253.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:20.491594",
+      "status": "SUCCESS",
+      "file_size": 230235,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/7 Jully 2025_20250210033308.pdf",
+      "local_path": "/media/docs/7_Jully_2025_20250210033308.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:20.780711",
+      "status": "SUCCESS",
+      "file_size": 231821,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/9 September 2025_20250210033336.pdf",
+      "local_path": "/media/docs/9_September_2025_20250210033336.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:21.084914",
+      "status": "SUCCESS",
+      "file_size": 232202,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/10 October 2025_20250210033351.pdf",
+      "local_path": "/media/docs/10_October_2025_20250210033351.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:21.414390",
+      "status": "SUCCESS",
+      "file_size": 197313,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/11 November 2025_20250210033606.pdf",
+      "local_path": "/media/docs/11_November_2025_20250210033606.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:21.655020",
+      "status": "SUCCESS",
+      "file_size": 213738,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:81/Uploads/KrishiCalender/12 December 2025_20250210033619.pdf",
+      "local_path": "/media/docs/12_December_2025_20250210033619.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:21.919574",
+      "status": "SUCCESS",
+      "file_size": 187912,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "http://mpkv.ac.in:/Uploads/Weather/Last week Weather Details at University Campus, MPKV, Rahuri 13_20260613085334.pdf",
+      "local_path": "/media/docs/Last_week_Weather_Details_at_University_Campus__MPKV__Rahuri_13_20260613085334.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:57:22.210598",
+      "status": "FAILED",
+      "file_size": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/AKMU/20261113_160343_37ddc2dd404570a7625383e11909fb03.pdf",
+      "local_path": "/media/docs/Young_Professional_II_Agril_Engg_Rahuri.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:59:56.769686",
+      "status": "SUCCESS",
+      "file_size": 402915,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/AKMU/20261105_164647_28056c6380cac8a3f955fedb234db962.pdf",
+      "local_path": "/media/docs/Young_Professional_I_Entomology_Rahuri.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:59:57.336490",
+      "status": "SUCCESS",
+      "file_size": 1177643,
+      "error": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "original_url": "https://mpkv.ac.in/Uploads/AKMU/20261102_160801_6bfaffa99451f6899db9c5e43666cd6f.pdf",
+      "local_path": "/media/docs/SRF_DUS_Chickpea_Pulses_Project_Rahuri.pdf",
+      "category": "docs",
+      "download_time": "2026-11-21T11:59:57.982550",
+      "status": "SUCCESS",
+      "file_size": 1709228,
+      "error": null,
+      "content_type": "application/pdf"
+    }
+  ]
+}

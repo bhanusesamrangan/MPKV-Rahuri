@@ -1,0 +1,117 @@
+'use client';
+
+import React, { useState } from 'react';
+import { Volume2, VolumeX, Moon, Sun, Eye, ExternalLink, Music, Radio } from 'lucide-react';
+import { useLanguage } from '../../context/LanguageContext';
+import { useAccessibility } from '../../context/AccessibilityContext';
+
+export const Topbar: React.FC = () => {
+  const { language, setLanguage } = useLanguage();
+  const {
+    fontScale,
+    cycleFontScale,
+    theme,
+    toggleHighContrast,
+    toggleDarkMode,
+    isSpeaking,
+    speakContent,
+    stopSpeech
+  } = useAccessibility();
+
+  return (
+    <div className="w-full bg-[#090d16] text-slate-300 text-xs py-1.5 px-4 sm:px-8 xl:px-12 border-b border-slate-800 select-none transition-colors">
+      <div className="w-full max-w-[1536px] mx-auto flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-3 overflow-x-auto whitespace-nowrap scrollbar-none py-0.5">
+          <a
+            href="https://mpkv.irins.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-amber-300 transition-colors inline-flex items-center gap-1 font-medium"
+          >
+            <ExternalLink className="w-3 h-3 text-amber-400" />
+            <span>{language === 'mr' ? 'प्राध्यापक माहिती (IRINS)' : 'Faculty Profiles (IRINS)'}</span>
+          </a>
+        </div>
+
+        <div className="flex items-center gap-2.5 sm:gap-3">
+          <button
+            onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
+            className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg font-semibold text-[11px] transition-all shadow-xs ${
+              isSpeaking
+                ? 'bg-amber-400 text-slate-950 font-bold ring-2 ring-amber-300 animate-pulse'
+                : 'bg-slate-800/80 hover:bg-slate-700 text-slate-200'
+            }`}
+            title={language === 'mr' ? 'मजकूर ऐका (Screen Reader)' : 'Listen to Content'}
+          >
+            {isSpeaking ? (
+              <>
+                <VolumeX className="w-3.5 h-3.5 text-red-500" />
+                <span>{language === 'mr' ? 'थांबवा' : 'Stop'}</span>
+              </>
+            ) : (
+              <>
+                <Volume2 className="w-3.5 h-3.5 text-amber-400" />
+                <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
+              </>
+            )}
+          </button>
+
+          <div className="flex items-center bg-slate-800 rounded-lg p-0.5 border border-slate-700 text-[11px] font-bold">
+            <button
+              onClick={() => cycleFontScale('down')}
+              className={`px-2 py-0.5 rounded transition-all ${
+                fontScale === 'sm' ? 'bg-amber-400 text-slate-950 font-black' : 'text-slate-300 hover:text-white'
+              }`}
+              title="A-"
+            >
+              A-
+            </button>
+            <button
+              onClick={() => cycleFontScale('reset')}
+              className={`px-2 py-0.5 rounded transition-all ${
+                fontScale === 'md' ? 'bg-amber-400 text-slate-950 font-black' : 'text-slate-300 hover:text-white'
+              }`}
+              title="A (Default)"
+            >
+              A
+            </button>
+            <button
+              onClick={() => cycleFontScale('up')}
+              className={`px-2 py-0.5 rounded transition-all ${
+                fontScale === 'lg' ? 'bg-amber-400 text-slate-950 font-black' : 'text-slate-300 hover:text-white'
+              }`}
+              title="A+"
+            >
+              A+
+            </button>
+          </div>
+
+          <div className="flex items-center bg-slate-800/80 rounded-lg p-0.5 border border-slate-700 text-[11px] font-semibold">
+            <button
+              onClick={() => setLanguage('mr')}
+              className={`px-2.5 py-0.5 rounded transition-all ${
+                language === 'mr'
+                  ? 'bg-amber-400 text-slate-950 shadow-sm'
+                  : 'text-slate-300 hover:text-white'
+              }`}
+            >
+              मराठी
+            </button>
+            <button
+              onClick={() => setLanguage('en')}
+              className={`px-2.5 py-0.5 rounded transition-all ${
+                language === 'en'
+                  ? 'bg-amber-400 text-slate-950 shadow-sm'
+                  : 'text-slate-300 hover:text-white'
+              }`}
+            >
+              English
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Topbar;

@@ -1,0 +1,951 @@
+{
+  "scope": "Strictly MPKV Rahuri Central Headquarters Only",
+  "last_updated": "17/11/2026",
+  "cereal_seeds": {
+    "title": {
+      "en": "Cereal Seed Stock (MPKV Rahuri Central Seed Department)",
+      "mr": "तृणधान्य बियाणे उपलब्धतासाठा (मफुकृवि राहुरी मध्यवर्ती बियाणे विभाग)"
+    },
+    "contact": "02426-243345, 243279, 243051",
+    "items": [
+      {
+        "sr_no": "1",
+        "crop": {
+          "mr": "बरसीम",
+          "en": "बरसीम"
+        },
+        "variety": {
+          "mr": "फुले -वरदान",
+          "en": "फुले -वरदान"
+        },
+        "seed_type": {
+          "mr": "सत्यप्रत  बियाणे",
+          "en": "सत्यप्रत  बियाणे"
+        },
+        "rate_per_bag": {
+          "mr": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )",
+          "en": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )"
+        },
+        "available_bags": {
+          "mr": "१५०  बॅगा",
+          "en": "१५०  बॅगा"
+        },
+        "quintal": {
+          "mr": "१.५  क्विं.",
+          "en": "१.५  क्विं."
+        }
+      },
+      {
+        "sr_no": "2",
+        "crop": {
+          "mr": "हरभरा",
+          "en": "हरभरा"
+        },
+        "variety": {
+          "mr": "फुले -विश्वराज",
+          "en": "फुले -विश्वराज"
+        },
+        "seed_type": {
+          "mr": "प्रमाणित बियाणे",
+          "en": "प्रमाणित बियाणे"
+        },
+        "rate_per_bag": {
+          "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
+          "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
+        },
+        "available_bags": {
+          "mr": "५८ बॅगा",
+          "en": "५८ बॅगा"
+        },
+        "quintal": {
+          "mr": "१७.४ क्विं.",
+          "en": "१७.४ क्विं."
+        }
+      },
+      {
+        "sr_no": "3",
+        "crop": {
+          "mr": "गहू",
+          "en": "गहू"
+        },
+        "variety": {
+          "mr": "फुले - अनुपम",
+          "en": "फुले - अनुपम"
+        },
+        "seed_type": {
+          "mr": "सत्यप्रत  बियाणे",
+          "en": "सत्यप्रत  बियाणे"
+        },
+        "rate_per_bag": {
+          "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
+          "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
+        },
+        "available_bags": {
+          "mr": "११० बॅगा",
+          "en": "११० बॅगा"
+        },
+        "quintal": {
+          "mr": "४४ क्विं.",
+          "en": "४४ क्विं."
+        }
+      },
+      {
+        "sr_no": "4",
+        "crop": {
+          "mr": "हरभरा",
+          "en": "हरभरा"
+        },
+        "variety": {
+          "mr": "फुले -विक्रम",
+          "en": "फुले -विक्रम"
+        },
+        "seed_type": {
+          "mr": "प्रमाणित बियाणे",
+          "en": "प्रमाणित बियाणे"
+        },
+        "rate_per_bag": {
+          "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
+          "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
+        },
+        "available_bags": {
+          "mr": "१० बॅगा",
+          "en": "१० बॅगा"
+        },
+        "quintal": {
+          "mr": "३  क्विं.",
+          "en": "३  क्विं."
+        }
+      },
+      {
+        "sr_no": "5",
+        "crop": {
+          "mr": "गहू",
+          "en": "गहू"
+        },
+        "variety": {
+          "mr": "फुले -समाधान",
+          "en": "फुले -समाधान"
+        },
+        "seed_type": {
+          "mr": "सत्यप्रत  बियाणे",
+          "en": "सत्यप्रत  बियाणे"
+        },
+        "rate_per_bag": {
+          "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
+          "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
+        },
+        "available_bags": {
+          "mr": "११६ बॅगा",
+          "en": "११६ बॅगा"
+        },
+        "quintal": {
+          "mr": "४६.४  क्विं",
+          "en": "४६.४  क्विं"
+        }
+      }
+    ]
+  },
+  "vegetable_seeds": {
+    "title": {
+      "en": "Vegetable Seed Stock (MPKV Rahuri Central Seed Department)",
+      "mr": "भाजीपाला बियाणे उपलब्धतासाठा (मफुकृवि राहुरी मध्यवर्ती बियाणे विभाग)"
+    },
+    "contact": "02426-243345, 243279",
+    "items": []
+  },
+  "horticulture_nursery_rahuri": {
+    "title": {
+      "en": "Horticulture Nursery & Farm, MPKV Rahuri",
+      "mr": "उद्यानविद्या रोपवाटिका, प्रक्षेत्र मफुकृवि राहुरी"
+    },
+    "contact": "02426-243442",
+    "items": [
+      {
+        "sr_no": "1",
+        "plant_name": {
+          "mr": "डाळिंब वाण फुले भगवा सुपर",
+          "en": "डाळिंब वाण फुले भगवा सुपर"
+        },
+        "rate_per_plant": {
+          "mr": "30",
+          "en": "30"
+        },
+        "available_qty": {
+          "mr": "70000",
+          "en": "70000"
+        },
+        "update_date": "15/10/2026"
+      },
+      {
+        "sr_no": "2",
+        "plant_name": {
+          "mr": "लिंबू वाण फुले सरबत्ती",
+          "en": "लिंबू वाण फुले सरबत्ती"
+        },
+        "rate_per_plant": {
+          "mr": "40",
+          "en": "40"
+        },
+        "available_qty": {
+          "mr": "5083",
+          "en": "5083"
+        },
+        "update_date": "15/10/2026"
+      },
+      {
+        "sr_no": "3",
+        "plant_name": {
+          "mr": "आंबा वाण केशर",
+          "en": "आंबा वाण केशर"
+        },
+        "rate_per_plant": {
+          "mr": "90",
+          "en": "90"
+        },
+        "available_qty": {
+          "mr": "8531",
+          "en": "8531"
+        },
+        "update_date": "15/10/2026"
+      },
+      {
+        "sr_no": "4",
+        "plant_name": {
+          "mr": "अंजीर लोकल",
+          "en": "अंजीर लोकल"
+        },
+        "rate_per_plant": {
+          "mr": "50",
+          "en": "50"
+        },
+        "available_qty": {
+          "mr": "189",
+          "en": "189"
+        },
+        "update_date": "15/10/2026"
+      },
+      {
+        "sr_no": "5",
+        "plant_name": {
+          "mr": "चिकू वाण कालीपत्ती",
+          "en": "चिकू वाण कालीपत्ती"
+        },
+        "rate_per_plant": {
+          "mr": "150",
+          "en": "150"
+        },
+        "available_qty": {
+          "mr": "154",
+          "en": "154"
+        },
+        "update_date": "15/10/2026"
+      },
+      {
+        "sr_no": "6",
+        "plant_name": {
+          "mr": "सीताफळ वाण फुले पुरंदर",
+          "en": "सीताफळ वाण फुले पुरंदर"
+        },
+        "rate_per_plant": {
+          "mr": "50",
+          "en": "50"
+        },
+        "available_qty": {
+          "mr": "16722",
+          "en": "16722"
+        },
+        "update_date": "15/10/2026"
+      }
+    ]
+  },
+  "central_nursery_rahuri": {
+    "title": {
+      "en": "Central Nursery, Seed Department, MPKV Rahuri",
+      "mr": "मध्यवर्ती रोपवाटिका, बियाणे विभाग मफुकृवि राहुरी"
+    },
+    "contact": "02426-243338",
+    "items": [
+      {
+        "sr_no": "1",
+        "plant_name": {
+          "mr": "डाळिंब वाण फुले भगवा सुपर",
+          "en": "डाळिंब वाण फुले भगवा सुपर"
+        },
+        "rate_per_plant": {
+          "mr": "30",
+          "en": "30"
+        },
+        "available_qty": {
+          "mr": "2163",
+          "en": "2163"
+        },
+        "update_date": "21/09/2026"
+      },
+      {
+        "sr_no": "2",
+        "plant_name": {
+          "mr": "आंबा वाण केशर",
+          "en": "आंबा वाण केशर"
+        },
+        "rate_per_plant": {
+          "mr": "90",
+          "en": "90"
+        },
+        "available_qty": {
+          "mr": "70885",
+          "en": "70885"
+        },
+        "update_date": "21/09/2026"
+      },
+      {
+        "sr_no": "3",
+        "plant_name": {
+          "mr": "नारळ बाणवली गादीवाफयावरील रोप",
+          "en": "नारळ बाणवली गादीवाफयावरील रोप"
+        },
+        "rate_per_plant": {
+          "mr": "120",
+          "en": "120"
+        },
+        "available_qty": {
+          "mr": "100",
+          "en": "100"
+        },
+        "update_date": "21/09/2026"
+      },
+      {
+        "sr_no": "4",
+        "plant_name": {
+          "mr": "लिंबू वाण साई सरबती",
+          "en": "लिंबू वाण साई सरबती"
+        },
+        "rate_per_plant": {
+          "mr": "40",
+          "en": "40"
+        },
+        "available_qty": {
+          "mr": "1493",
+          "en": "1493"
+        },
+        "update_date": "21/09/2026"
+      },
+      {
+        "sr_no": "5",
+        "plant_name": {
+          "mr": "सिताफळ  वाण फुले पुरंदर",
+          "en": "सिताफळ  वाण फुले पुरंदर"
+        },
+        "rate_per_plant": {
+          "mr": "50",
+          "en": "50"
+        },
+        "available_qty": {
+          "mr": "11229",
+          "en": "11229"
+        },
+        "update_date": "21/09/2026"
+      },
+      {
+        "sr_no": "6",
+        "plant_name": {
+          "mr": "चिकू वाण कालीपत्ती",
+          "en": "चिकू वाण कालीपत्ती"
+        },
+        "rate_per_plant": {
+          "mr": "150",
+          "en": "150"
+        },
+        "available_qty": {
+          "mr": "844",
+          "en": "844"
+        },
+        "update_date": "21/09/2026"
+      },
+      {
+        "sr_no": "7",
+        "plant_name": {
+          "mr": "पेरू वाण सरदार",
+          "en": "पेरू वाण सरदार"
+        },
+        "rate_per_plant": {
+          "mr": "60",
+          "en": "60"
+        },
+        "available_qty": {
+          "mr": "11830",
+          "en": "11830"
+        },
+        "update_date": "21/09/2026"
+      }
+    ]
+  },
+  "farm_implements": {
+    "title": {
+      "en": "Farm Implements & Machinery Developed at MPKV Rahuri",
+      "mr": "मफुकृवि राहुरी विकसित शेती अवजारे व यंत्रे"
+    },
+    "contact": "02426-243219",
+    "items": [
+      {
+        "category": "Tractor Operated",
+        "sr_no": "1",
+        "implement_name": {
+          "mr": "Sugarcane Leaf Detrasher cun Shredder",
+          "en": "Sugarcane Leaf Detrasher cun Shredder"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "150000",
+          "en": "150000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "2",
+        "implement_name": {
+          "mr": "Orchard Grass Cutter",
+          "en": "Orchard Grass Cutter"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "130000",
+          "en": "130000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "3",
+        "implement_name": {
+          "mr": "Hydro Mechanically Controlled Offset Orchard Manager",
+          "en": "Hydro Mechanically Controlled Offset Orchard Manager"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "225000",
+          "en": "225000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "4",
+        "implement_name": {
+          "mr": "Horizontal Two Side Discharge Shredder for Orchards",
+          "en": "Horizontal Two Side Discharge Shredder for Orchards"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "340000",
+          "en": "340000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "5",
+        "implement_name": {
+          "mr": "Manure Spreader for Orchards",
+          "en": "Manure Spreader for Orchards"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "400000",
+          "en": "400000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "6",
+        "implement_name": {
+          "mr": "Spade Plough with Disc Harrow",
+          "en": "Spade Plough with Disc Harrow"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "230000",
+          "en": "230000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "7",
+        "implement_name": {
+          "mr": "Banana Stem Shredder",
+          "en": "Banana Stem Shredder"
+        },
+        "details": {
+          "mr": "01",
+          "en": "01"
+        },
+        "price": {
+          "mr": "170000",
+          "en": "170000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "8",
+        "implement_name": {
+          "mr": "Automatic Reversible Two Bottom MB Plough",
+          "en": "Automatic Reversible Two Bottom MB Plough"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "110000",
+          "en": "110000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "9",
+        "implement_name": {
+          "mr": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop",
+          "en": "Phule Two Row Forward-Reverse Rotavator for Sugarcane Crop"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "210000",
+          "en": "210000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "10",
+        "implement_name": {
+          "mr": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards",
+          "en": "Phule hydro Mechanically controlled Inter Row cum Intra Row Weeder for Orchards"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "270000",
+          "en": "270000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "11",
+        "implement_name": {
+          "mr": "Phule Sugarcane Seedling Transplanter",
+          "en": "Phule Sugarcane Seedling Transplanter"
+        },
+        "details": {
+          "mr": "01",
+          "en": "01"
+        },
+        "price": {
+          "mr": "250000",
+          "en": "250000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "12",
+        "implement_name": {
+          "mr": "Tractor Drawn Nine Tyne Multicrop Planter",
+          "en": "Tractor Drawn Nine Tyne Multicrop Planter"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "95000",
+          "en": "95000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "13",
+        "implement_name": {
+          "mr": "Phule Check Basin Former",
+          "en": "Phule Check Basin Former"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "90000",
+          "en": "90000"
+        }
+      },
+      {
+        "category": "Tractor Operated",
+        "sr_no": "14",
+        "implement_name": {
+          "mr": "Tractor Operated Phule Mole Plough",
+          "en": "Tractor Operated Phule Mole Plough"
+        },
+        "details": {
+          "mr": "02",
+          "en": "02"
+        },
+        "price": {
+          "mr": "70000",
+          "en": "70000"
+        }
+      },
+      {
+        "category": "Power Operated",
+        "sr_no": "1",
+        "implement_name": {
+          "mr": "Groundnut Stripper",
+          "en": "Groundnut Stripper"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "65000",
+          "en": "65000"
+        }
+      },
+      {
+        "category": "Power Operated",
+        "sr_no": "2",
+        "implement_name": {
+          "mr": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)",
+          "en": "Maize Dehusker cum Sheller (02 HP, Single Phase Electrical Motor)"
+        },
+        "details": {
+          "mr": "01",
+          "en": "01"
+        },
+        "price": {
+          "mr": "72000",
+          "en": "72000"
+        }
+      },
+      {
+        "category": "Power Operated",
+        "sr_no": "3",
+        "implement_name": {
+          "mr": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)",
+          "en": "Sugarcane Sett Cutter (04 Station, 01 HP, Single Phase Electrical Motor)"
+        },
+        "details": {
+          "mr": "01",
+          "en": "01"
+        },
+        "price": {
+          "mr": "85000",
+          "en": "85000"
+        }
+      },
+      {
+        "category": "Power Operated",
+        "sr_no": "4",
+        "implement_name": {
+          "mr": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)",
+          "en": "Phule Groundnut Decorticator cum Sorter (01 HP, Single Phase Electrical Motor)"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "75000",
+          "en": "75000"
+        }
+      },
+      {
+        "category": "Power Operated",
+        "sr_no": "5",
+        "implement_name": {
+          "mr": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)",
+          "en": "Phule Mechanical Nut Sheller for Medicinal Nuts (01 HP, Single Phase Electrical Motor)"
+        },
+        "details": {
+          "mr": "02",
+          "en": "02"
+        },
+        "price": {
+          "mr": "70000",
+          "en": "70000"
+        }
+      },
+      {
+        "category": "Power Operated",
+        "sr_no": "6",
+        "implement_name": {
+          "mr": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)",
+          "en": "Phule Chaff Cutter (01 HP, Single Phase Electrical Motor)"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "40000",
+          "en": "40000"
+        }
+      },
+      {
+        "category": "Bullock Drawn",
+        "sr_no": "1",
+        "implement_name": {
+          "mr": "Bullocks Drawn Jyoti Multicrop Planter",
+          "en": "Bullocks Drawn Jyoti Multicrop Planter"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "40000",
+          "en": "40000"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "1",
+        "implement_name": {
+          "mr": "Phule Lemon Harvester",
+          "en": "Phule Lemon Harvester"
+        },
+        "details": {
+          "mr": "00",
+          "en": "00"
+        },
+        "price": {
+          "mr": "2500",
+          "en": "2500"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "2",
+        "implement_name": {
+          "mr": "Fig Plucker",
+          "en": "Fig Plucker"
+        },
+        "details": {
+          "mr": "01",
+          "en": "01"
+        },
+        "price": {
+          "mr": "1100",
+          "en": "1100"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "3",
+        "implement_name": {
+          "mr": "Coconut dehusker",
+          "en": "Coconut dehusker"
+        },
+        "details": {
+          "mr": "139",
+          "en": "139"
+        },
+        "price": {
+          "mr": "400",
+          "en": "400"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "4",
+        "implement_name": {
+          "mr": "Drumstick Harvester",
+          "en": "Drumstick Harvester"
+        },
+        "details": {
+          "mr": "19",
+          "en": "19"
+        },
+        "price": {
+          "mr": "3500",
+          "en": "3500"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "5",
+        "implement_name": {
+          "mr": "Vaibhav Sickle",
+          "en": "Vaibhav Sickle"
+        },
+        "details": {
+          "mr": "301",
+          "en": "301"
+        },
+        "price": {
+          "mr": "150",
+          "en": "150"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "6",
+        "implement_name": {
+          "mr": "Laxmi Sickle",
+          "en": "Laxmi Sickle"
+        },
+        "details": {
+          "mr": "66",
+          "en": "66"
+        },
+        "price": {
+          "mr": "150",
+          "en": "150"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "7",
+        "implement_name": {
+          "mr": "Khurpee",
+          "en": "Khurpee"
+        },
+        "details": {
+          "mr": "169",
+          "en": "169"
+        },
+        "price": {
+          "mr": "130",
+          "en": "130"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "8",
+        "implement_name": {
+          "mr": "Maize Sheller",
+          "en": "Maize Sheller"
+        },
+        "details": {
+          "mr": "232",
+          "en": "232"
+        },
+        "price": {
+          "mr": "240",
+          "en": "240"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "9",
+        "implement_name": {
+          "mr": "Groundnut Decorticator",
+          "en": "Groundnut Decorticator"
+        },
+        "details": {
+          "mr": "136",
+          "en": "136"
+        },
+        "price": {
+          "mr": "3900",
+          "en": "3900"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "10",
+        "implement_name": {
+          "mr": "Cycle Hoe",
+          "en": "Cycle Hoe"
+        },
+        "details": {
+          "mr": "07",
+          "en": "07"
+        },
+        "price": {
+          "mr": "2000",
+          "en": "2000"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "11",
+        "implement_name": {
+          "mr": "Mango Harvester",
+          "en": "Mango Harvester"
+        },
+        "details": {
+          "mr": "23",
+          "en": "23"
+        },
+        "price": {
+          "mr": "350",
+          "en": "350"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "12",
+        "implement_name": {
+          "mr": "Bhendi Plucker",
+          "en": "Bhendi Plucker"
+        },
+        "details": {
+          "mr": "46",
+          "en": "46"
+        },
+        "price": {
+          "mr": "260",
+          "en": "260"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "13",
+        "implement_name": {
+          "mr": "Sapota Harvester",
+          "en": "Sapota Harvester"
+        },
+        "details": {
+          "mr": "12",
+          "en": "12"
+        },
+        "price": {
+          "mr": "350",
+          "en": "350"
+        }
+      },
+      {
+        "category": "Manually Operated",
+        "sr_no": "14",
+        "implement_name": {
+          "mr": "Sorghum Uprooter",
+          "en": "Sorghum Uprooter"
+        },
+        "details": {
+          "mr": "21",
+          "en": "21"
+        },
+        "price": {
+          "mr": "2000",
+          "en": "2000"
+        }
+      }
+    ]
+  }
+}

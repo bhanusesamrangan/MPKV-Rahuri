@@ -1,0 +1,1050 @@
+{
+  "AKMU": {
+    "en": "AKMU",
+    "mr": "एकेएमयू"
+  },
+  "ATIC": {
+    "en": "ATIC",
+    "mr": "एटीआयसी"
+  },
+  "About": {
+    "en": "About",
+    "mr": "आमच्या विषयी"
+  },
+  "About_MPKV": {
+    "en": "About MPKV",
+    "mr": "म.फु.कृ.वि विषयी"
+  },
+  "About_MPKVhome": {
+    "en": "About Mahatma Phule Krishi Vidyapeeth (Agriculture University), Rahuri",
+    "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी विषयी"
+  },
+  "About_Vice_Chancellor": {
+    "en": "About Vice Chancellor",
+    "mr": "कुलगुरू विषयी"
+  },
+  "Academic_Council": {
+    "en": "Academic Council",
+    "mr": "विद्या  परिषद"
+  },
+  "Academic_Regulations": {
+    "en": "Academic Regulations",
+    "mr": "शैक्षणिक नियमावली"
+  },
+  "Account_Related_Documents": {
+    "en": "Account Related Documents",
+    "mr": "खाते संबंधित कागदपत्रे"
+  },
+  "Act_&_Statute": {
+    "en": "Act & Statute",
+    "mr": "कायदे"
+  },
+  "Activities": {
+    "en": "Activities",
+    "mr": "उपक्रम"
+  },
+  "Ad-hoc_Extension_Projects": {
+    "en": "Ad-hoc Extension Projects",
+    "mr": "तदर्थ विस्तार प्रकल्प"
+  },
+  "Administration": {
+    "en": "Administration",
+    "mr": "प्रशासन"
+  },
+  "Administrative_Orders": {
+    "en": "Administrative Orders",
+    "mr": "प्रशासकीय आदेश"
+  },
+  "Admission": {
+    "en": "Admission",
+    "mr": "प्रवेश"
+  },
+  "Admission_Eligibility": {
+    "en": "Admission Eligibility",
+    "mr": "प्रवेश पात्रता"
+  },
+  "Admission_Procedure": {
+    "en": "Admission Procedure",
+    "mr": "प्रवेश प्रक्रिया"
+  },
+  "Affiliated_Colleges": {
+    "en": "Affiliated Colleges",
+    "mr": "संलग्न महाविद्यालये"
+  },
+  "Agricultural_Education_Portal": {
+    "en": "Agricultural Education Portal",
+    "mr": "कृषि शिक्षण पोर्टल"
+  },
+  "Agricultural_Engineering": {
+    "en": "Agricultural Engineering",
+    "mr": "कृषि अभियांत्रिकी"
+  },
+  "Agricultural_Knowledge_Management_Unit": {
+    "en": "Agricultural Knowledge Management Unit",
+    "mr": "कृषि माहिती व्यवस्थापन विभाग"
+  },
+  "Agricultural_Research_Council": {
+    "en": "Agricultural Research Council",
+    "mr": "कृषि संशोधन परिषद"
+  },
+  "Agricultural_Science": {
+    "en": "Agricultural Science",
+    "mr": "कृषि विज्ञान"
+  },
+  "Agricultural_Technology_Information_Center": {
+    "en": "Agricultural Technology Information Center",
+    "mr": "कृषि तंत्रज्ञान माहिती केंद्र"
+  },
+  "Agricultural_Technology_Information_Centre": {
+    "en": "Agricultural Technology Information Center",
+    "mr": "कृषि तंत्रज्ञान माहिती केंद्र"
+  },
+  "Agricultural_Universities": {
+    "en": "Agricultural Universities",
+    "mr": "कृषि विद्यापीठे"
+  },
+  "Agro_Advisory": {
+    "en": "Agro Advisory",
+    "mr": "कृषि सल्ला"
+  },
+  "Alumni": {
+    "en": "Alumni",
+    "mr": "माजी विद्यार्थी"
+  },
+  "Anti_Ragging": {
+    "en": "Anti Ragging",
+    "mr": "अँटी रॅगिंग"
+  },
+  "Anti_Sexual_Harassment": {
+    "en": "Anti Sexual Harassment",
+    "mr": "लैंगिक छळविरोधी"
+  },
+  "At_a_Glance": {
+    "en": "At a Glance",
+    "mr": "दृष्टीक्षेप"
+  },
+  "Bachelor": {
+    "en": "Bachelor's",
+    "mr": "पदवी"
+  },
+  "Bachelor_Courses_and_Curriculum": {
+    "en": "Bachelor's Courses and Curriculum",
+    "mr": "पदवी अभ्यासक्रम"
+  },
+  "Bakery Products": {
+    "en": "Bakery Products",
+    "mr": "बेकरी उत्पादने"
+  },
+  "Bhartiya_Chhatra_Sansad": {
+    "en": "Bhartiya Chhatra Sansad",
+    "mr": "भारतीय विद्यार्थी संसद"
+  },
+  "Bio-Fertilizers": {
+    "en": "Bio-Fertilizers",
+    "mr": "जैविक खते"
+  },
+  "Bio-Pesticides": {
+    "en": "Bio-Pesticides",
+    "mr": "जैविक कीटकनाशके"
+  },
+  "Board_of_Studies": {
+    "en": "Board of Studies",
+    "mr": "अभ्यास मंडळ"
+  },
+  "Budget": {
+    "en": "Budget",
+    "mr": "अर्थसंकल्प"
+  },
+  "Central_Plateau_Zone": {
+    "en": "Central Plateau Zone",
+    "mr": "मध्य पठार विभाग"
+  },
+  "Certificate_Courses": {
+    "en": "Certificate Courses",
+    "mr": "प्रमाणपत्र अभ्यासक्रम"
+  },
+  "Circulars": {
+    "en": "Circulars",
+    "mr": "परिपत्रके"
+  },
+  "Citizens_Charter": {
+    "en": "Citizens Charter",
+    "mr": "नागरिकांची सनद"
+  },
+  "Cnt_Admission_Process": {
+    "en": "Admission Process",
+    "mr": "प्रवेश प्रक्रिया"
+  },
+  "Cnt_Contact_Number": {
+    "en": "Contact Number",
+    "mr": "दूरध्वनी क्रमांक"
+  },
+  "Cnt_Msg": {
+    "en": "For other contacts see:",
+    "mr": "इतर संपर्कासाठी पहा :"
+  },
+  "Cnt_Particulars_of_work": {
+    "en": "Particulars of work",
+    "mr": "कामाचा तपशील"
+  },
+  "Cnt_SrNo": {
+    "en": "Sr.No.",
+    "mr": "अ. क्र."
+  },
+  "Collections": {
+    "en": "Collections",
+    "mr": "संग्रह"
+  },
+  "College_of_Agriculture_Dhule": {
+    "en": "College of Agriculture, Dhule",
+    "mr": "कृषि महाविद्यालय, धुळे"
+  },
+  "College_of_Agriculture_Pune": {
+    "en": "College of Agriculture, Pune",
+    "mr": "कृषि महाविद्यालय, पुणे"
+  },
+  "Colleges": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
+  },
+  "Committee": {
+    "en": "Committee",
+    "mr": "समिती"
+  },
+  "Communication_Centre": {
+    "en": "Communication Center",
+    "mr": "संप्रेषण केंद्र"
+  },
+  "Constituent_Colleges": {
+    "en": "Constituent Colleges",
+    "mr": "घटक  महाविद्यालये"
+  },
+  "Contact": {
+    "en": "Contact",
+    "mr": "संपर्क"
+  },
+  "Contacts": {
+    "en": "Contacts",
+    "mr": "संपर्क"
+  },
+  "Convocation": {
+    "en": "Convocation",
+    "mr": "पदवीदान सभारंभ"
+  },
+  "Courses_&_Curriculum": {
+    "en": "Courses & Curriculum",
+    "mr": "अभ्यासक्रम"
+  },
+  "Delegation_of_Powers": {
+    "en": "Delegation of Powers",
+    "mr": "अधिकार"
+  },
+  "Developed_&_Maintained_by_Agriculture_Knowledge_Management_Unit": {
+    "en": "Developed & Maintained by Agriculture Knowledge Management Unit, MPKV, Rahuri",
+    "mr": "कृषि माहिती व्यवस्थापन विभाग, म.फु.कृ.वि , राहुरी यांनी विकसित व देखभाल केली"
+  },
+  "Diploma": {
+    "en": "Diploma",
+    "mr": "पदविका"
+  },
+  "Diploma(Agril.Tech.Schools)": {
+    "en": "Diploma (Agril. Tech. Schools)",
+    "mr": "पदविका ( कृषि तंत्र विद्यालये )"
+  },
+  "Diploma_Courses_and_Curriculum": {
+    "en": "Diploma Courses and Curriculum",
+    "mr": "पदविका अभ्यासक्रम"
+  },
+  "Disclaimer": {
+    "en": "Disclaimer",
+    "mr": "अस्वीकरण"
+  },
+  "District_Extension_Centres": {
+    "en": "District Extension Centers",
+    "mr": "जिल्हा विस्तार केंद्रे"
+  },
+  "Doctoral": {
+    "en": "Master's & Doctoral",
+    "mr": "पदव्युत्तर व डॉक्टरेट"
+  },
+  "Doctoral_Courses_and_Curriculum": {
+    "en": "Master's & Doctoral Courses and Curriculum",
+    "mr": "पदव्युत्तर आणि डॉक्टरेट अभ्यासक्रम"
+  },
+  "Dr_A.S._College_of_Agril._Engg._&_Tech.Rahuri": {
+    "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
+    "mr": "डॉ. अ. शि. कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+  },
+  "Duties": {
+    "en": "Duties",
+    "mr": "कर्तव्ये"
+  },
+  "Education": {
+    "en": "Education",
+    "mr": "शिक्षण"
+  },
+  "Education_at_a_Glance": {
+    "en": "Education at a Glance",
+    "mr": "दृष्टीक्षेपात शिक्षण"
+  },
+  "Education_at_a_Glance_text_p1": {
+    "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri is the first State Agriculture University in Maharashtra established in 1969 having its jurisdiction in 10 districts of Western Maharashtra. Director of Instruction shoulders the responsibility of leading the education of the University. Director of Instruction is responsible for preparing the academic programme as regrads to courses offered, curricula and co-ordinate and guide education, in all the constituent and affiliated colleges, technical schools of the University in close co-operation with the Deans of Faculties, Head of Departments and other officers.",
+    "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी हे महाराष्ट्रातील पहिले राज्य कृषि विद्यापीठ सन 1969 मध्ये स्थापन झाले असून विद्यापीठाच्या कार्यक्षेत्रात पश्चिम महाराष्ट्रातील 10 जिल्ह्यांचा समावेश होतो. संचालक शिक्षण हे विद्यापीठातील कृषि शिक्षणाची जबाबदारी सांभाळत आहेत. संचालक शिक्षण हे विविध विषय, अभ्यासक्रम राबविणेचे अनुषंगाने विद्याविषयक अभ्यासक्रम तयार करणेकामी उत्तरदायी असून विद्याशाखांचे अधिष्ठाता, विभागप्रमुख आणि इतर अधिकारी यांचे सहकार्याने सर्व घटक व संलग्न महाविद्यालये, तंत्र विद्यालयांतील शैक्षणिक विषयक समन्वय आणि मार्गदर्शनाची जबाबदारी सांभाळत आहेत."
+  },
+  "Education_at_a_Glance_text_p2": {
+    "en": "The mandate is to provide Diploma, Graduate, Post-graduate and Doctorate level quality education in agriculture and allied fields for skill development and producing the competent human resource.",
+    "mr": "कौशल्य विकास आणि सक्षम मनुष्यबळ निर्मिती करणेकरीता कृषि व संलग्न क्षेत्रात पदविका, पदवी, पदव्युत्तर आणि आचार्य पदवी स्तरावरील उच्च दर्जाचे शिक्षण प्रदान करणेचे विद्यापीठाचे शैक्षणिक उत्तरदायित्व आहे."
+  },
+  "Education_at_a_Glance_text_p3": {
+    "en": "The University offers various educational programmes viz., Under graduate [B.Sc. (Hons) Agriculture, B.Sc. (Hons) Horticulture, B. Tech. (Agricultural Engineering), B.Tech. (Biotechnology), B. Tech. (Food Technology), B.Sc. (Hons) Agri. Business Management, B.Sc. (Hons) Animal husbandry], Post-graduate (M.Sc. (Agri.) and Ph.D.), and Diploma in Agriculture (Agrilcutural Technology). There is a Post-Graduate Institute at the Central Campus, Rahuri for M.Sc. and Ph.D. programmes, seven colleges of Agriculture at Pune, Kolhapur, Dhule, Nandurbar, Karad, Muktainagar and Halgaon for B.Sc. (Hons) Agriculture programme, one College of Horticulture at Pune for B.Sc. (Hons) Horticulture programme, one College of Agri. Business Management at Kashti, Malegaon for B.Sc. (Hons) Agri. Business Management programme and one College of Agricultural Engineering at Rahuri for B.Tech. (Agril. Engg.), M.Tech. (Agril. Engg.) and Ph.D. programmes. The post graduate programme is also started at College of Agriculture, Pune, Dhule and Kolhapur leading to M.Sc.(Agri.) degree and Ph.D. programme in Agril. Meteorology at College of Agriculture, Pune. The new Post-graduate degree programme in Agricultural Business Management i.e. M.B.A. (Agri.) is started at Colleges of Agriculture, Pune. During the last decade, successful efforts have been made in improving the course curricula of Undergraduate and Post-graduate programmes. Undergraduate curriculum is revised as per the V Deans recommendation, implemented from the year 2017-18, Post- graduate progamme is revised as per the NCG recommendations, and implemented from the year 2009-10. Constituent colleges provided with additional facilities and amenities viz., ladies hostels, library buildings, tissue culture laboratories and polyhouse facilities. In addition, a Hi-Tech Floriculture and Vegetable Project at Pune and Radioisotope, Biotechnology laboratories, Post Harvest Management Laboratory and Biodiversity Center at Rahuri are established.",
+    "mr": "विद्यापीठांतर्गत विविध शैक्षणिक अभ्यासक्रम राबविले जात आहेत. पदवी अभ्यासक्रमांतर्गत [बी . एस्सी. (ऑनर्स) कृषि, बी. एस्सी. (ऑनर्स) उद्यानविद्या, बी. टेक. (कृषि अभियांत्रिकी),बी. टेक. (जैवतंत्रज्ञान), बी. टेक. (अन्न तंत्रज्ञान), बी. एस्सी. (ऑनर्स) कृषि व्यवसाय व्यवस्थापन, बी. एस्सी. (ऑनर्स) पशु संवर्धन], पदव्युत्तर अभ्यासक्रमांतर्गत [एम . एस्सी. (कृषि), एम. टेक. (कृषि अभियांत्रिकी), पीएच.डी. (कृषि व कृषि अभियांत्रिकी ) आणि कृषि पदविका अभ्यासक्रम राबविले जातात. पदव्युत्तर महाविद्यालय मध्यवर्ती परिसर, मफुकृवि, राहुरी येथे पदव्युत्तर कृषि आणि आचार्य कृषि अभ्यासक्रम राबविले जातात. पुणे, धुळे, कोल्हापूर, कराड, नंदुरबार, मुक्ताईनगर आणि हाळगांव येथील घटक कृषि महाविद्यालयांमार्फत बी. एस्सी. (ऑनर्स) कृषि हा अभ्यासक्रम राबविला जातो. पुणे येथील उद्यानविद्या महाविद्यालयांमार्फत बी. एस्सी. (ऑनर्स) उद्यानविद्या हा अभ्यासक्रम राबविला जातो. शासकीय कृषी व्यवसाय व्यस्थापन महाविद्यालय, काष्टी, मालेगाव येथे  कृषी व्यवसाय व्यस्थापन  हा अभ्यासक्रम राबविला जातो. डॉ. अ. शि. कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, मफुकृवि, राहुरी येथे बी. टेक. (कृषि अभियांत्रिकी), एम. टेक. (कृषि अभियांत्रिकी) आणि पीएच.डी. (कृषि अभियांत्रिकी) हे अभ्यासक्रम राबविले जातात. तसेच, कृषि महाविद्यालय, पुणे, धुळे आणि कोल्हापूर येथे पदव्युत्तर कृषि अभ्यासक्रमांतर्गतम सुरू करणेत आलेला असून कृषि महाविद्यालय, पुणे येथे कृषि हवामानशास्त्र विषयातील आचार्य पदवी अभ्यासक्रम राबविला जातो.कृषि महाविद्यालय, पुणे येथे कृषि व्यवसाय व्यवस्थापन या विषयातील नवीन पदव्युत्तर अभ्यासक्रम एम. बी. ए. (कृषि) सुरू करणेत आलेला आहे."
+  },
+  "Education_at_a_Glance_text_p4": {
+    "en": "The University has been awarded with the World Bank sponsored Centre for Advanced Agricultural Science and Technology for Climate Smart Agriculture and Water Management under National Agricultural Higher Education Programme (NAHEP) of Indian Council of Agricultural Research (ICAR), New Delhi. This Centre has started the Post Doctoral programme and will soon start the Post Graduate Diploma in climate smart agriculture and water management.",
+    "mr": "गेल्या दशकात, पदवी आणि पदव्युत्तर अभ्यासक्रम सुधारणेकरीता विशेष प्रयत्न केले गेले आहेत. पाचव्या अधिष्ठाता समितीच्या शिफरशीनुसार सुधारीत पदवी अभ्यासक्रम सन 2017-18 या शैक्षणिक वर्षापासून राबविणेत येत असून एनसीजीच्या शिफारशीनुसार सुधारीत पदव्युत्तर अभ्यासक्रम सन 2009-10 पासून राबविणेत येत आहे. घटक कृषि व संलग्न महाविद्यालयांना अतिरिक्त सोई-सुविधा जसे की, मुलींचे वसतिगृह, ग्रंथालय, उती संवर्धन प्रयोगशाळा आणि पॉलीहाऊस इ. उपलब्ध करून देण्यात आल्या आहेत.या व्यतिरिक्त पुणे येथे उच्च तंत्रज्ञान फुले व भाजीपाला प्रकल्प, राहुरी येथे जैवतंत्रज्ञान प्रयोगशाळा, काढणी पश्चात व्यवस्थापन प्रयोगशाळा आणि जैवविविधता केंद्राची स्थापन करणेत आली आहे."
+  },
+  "Education_at_a_Glance_text_p5": {
+    "en": "Utmost effort has been made in providing quality education with students development, and amenities with state of art facilities. As a result, since inception University has produced more than one lakh skilled human resource engaged in various public, private and agriculture sectors.",
+    "mr": "भारतीय कृषि अनुसंधान परिषद, नवी दिल्लीच्या राष्ट्रीय उच्च कृषि शिक्षण कार्यक्रमांतर्गत जागतिक बँक प्रायोजित आधुनिक कृषि विज्ञान आणि तंत्रज्ञान केंद्रान्वये 'हवामान अद्ययावत कृषि आणि पाणी व्यवस्थापन' प्रकल्प विद्यापीठास पुरस्कृत केला आहे. सदर प्रकल्पांतर्गत पोस्ट डॉक्टरेट अभ्यासक्रम सुरू करणेत आला असून लवकरच पदव्युत्तर पदविका अभ्यासक्रम सुरू करणेत येईल."
+  },
+  "Education_at_a_Glance_text_p6": {
+    "en": "The students are encouraged for participation in various educational, social and cultural activities. As a result, the students of this University have excelled in various public service competitive examinations, SRF, JRF fellowships, GATE, ARS and extracurricular activities like sports, NCC, NSS etc. In today’s changing climate situation, natural resource degradation, food and nutrition security and its relation to sustainable agriculture and rural development have increasingly become a matter of concern. Thus, agriculture education plays important role for facing such a challenges through use of ICT, weather forecasting, training and transfer new technology. Hope that the young skilled graduates will overcome all these constraints by innovative research and Lab to Land extension of innovations leading to second Green Revolution.",
+    "mr": "विद्यार्थ्यांच्या सर्वांगिण विकासासह, दर्जेदार शिक्षण आणि अत्याधुनिक पायाभूत सोईसुविधा उपलब्ध करूण देणेसाठी सर्वतोपरी प्रयत्न केले गेले आहेत. परिणामी, स्थापनेपासून आजयतागत विद्यापीठाने विविध सार्वजनिक, खाजगी आणि कृषि क्षेत्रात कार्यरत असलेला एक लाखाहून अधिक कुशल मनुष्यबाळाची निर्मिती केली आहे. विद्यार्थ्यांना विविध शैक्षणिक, सामाजिक आणि सांस्कृतिक उपक्रमांमध्ये सहभागी होणेकामी प्रोत्साहित केले जात आहे. त्याचाच परिणाम म्हणून, या विद्यापीठाच्या विद्यार्थ्यांनी सार्वजनिक क्षेत्रांतील विविध स्पर्धा परीक्षा, कनिष्ठ संशोधन शिष्यवृत्ती (JRF), वरिष्ठ संशोधन शिष्यवृत्ती (SRF), राष्ट्रीय निवड चाचणी (NET), कृषि संशोधन शास्त्रज्ञ (ARS), इतर क्रिडा स्पर्धा, राष्ट्रीय छात्र सेना, राष्ट्रीय सेवा योजना इत्यादीमध्ये देदीप्यमान यश संपादन केले आहे."
+  },
+  "Education_at_a_Glance_text_p7": {
+    "en": "",
+    "mr": "सद्य स्थितीतील बदलते हवामान, नैसर्गिक संसाधनांचा -हास, अन्न व पोषण द्रव्ये सुरक्षितता आणि या सर्वांचा शाश्वत कृषि आणि ग्रामीण विकासाशी निगडीत असलेला संबंध हा एक चिंताजनक विषय बनला आहे. तद्अनुषंगाने, माहिती व तंत्रज्ञान, हवामान अंदाज, अद्ययावत प्रशिक्षण आणि तंत्रज्ञान विस्ताराच्या माध्यमांद्वारे अशा आव्हानांचा सामना करणेकरीता कृषि शिक्षण मोलाची भूमिका बजावत आहे. आशा आहे की, युवा कुशल पदवीधर अत्याधुनिक संशोधन आणि प्रयोगशाळा ते प्रक्षेत्र तंत्रज्ञान हस्तांतरणाद्वारे सदरील आव्हानांचा यशस्वीपणे तोंड देऊन द्वितीय हरीतक्रांतीचे द्योतक बनतील."
+  },
+  "Executive_Council": {
+    "en": "Executive Council",
+    "mr": "कार्यकारी परिषद"
+  },
+  "Extension": {
+    "en": "Extension",
+    "mr": "विस्तार"
+  },
+  "Extension_Centres": {
+    "en": "Extension Centers",
+    "mr": "विस्तार केंद्रे"
+  },
+  "Extension_Education_Council": {
+    "en": "Extension Education Council",
+    "mr": "विस्तार शिक्षण परिषद"
+  },
+  "Extension_at_a_Glance": {
+    "en": "Extension at a Glance",
+    "mr": "दृष्टीक्षेपात विस्तार"
+  },
+  "Externally_Funded_Projects": {
+    "en": "Externally Funded Projects",
+    "mr": "बाह्य अनुदानीत प्रकल्प"
+  },
+  "Facilities": {
+    "en": "Facilities",
+    "mr": "सुविधा"
+  },
+  "Faculty": {
+    "en": "Faculty",
+    "mr": "विद्याशाखा"
+  },
+  "Farm_Implements": {
+    "en": "Farm Implements",
+    "mr": "शेती अवजारे"
+  },
+  "Farm_Implements_&-Machineries": {
+    "en": "Farm Implements & Machineries",
+    "mr": "Farm Implements & Machineries"
+  },
+  "Farm_Implements_&_Machineries": {
+    "en": "शेती अवजारे आणि यंत्र",
+    "mr": "शेती अवजारे आणि यंत्र"
+  },
+  "Farmer": {
+    "en": "Farmer",
+    "mr": "शेतकरी"
+  },
+  "Farmer_Scientist_Forum": {
+    "en": "Farmer Scientist Forum",
+    "mr": "शेतकरी वैज्ञानिक मंच"
+  },
+  "Farmers_Portal": {
+    "en": "Farmers' Portal",
+    "mr": "शेतकरी पोर्टल"
+  },
+  "Finance": {
+    "en": "Finance",
+    "mr": "वित्त"
+  },
+  "Former_Vice_Chancellors": {
+    "en": "Former Vice Chancellors",
+    "mr": "माजी कुलगुरू"
+  },
+  "From_Vice_Chancellor_Desk": {
+    "en": "From Vice Chancellor's Desk",
+    "mr": "कुलगुरूंच्या डेस्कवरून"
+  },
+  "Gallery": {
+    "en": "Gallery",
+    "mr": "गॅलरी"
+  },
+  "Government_Resolutions": {
+    "en": "Government Resolutions",
+    "mr": "शासकीय ठराव"
+  },
+  "Govt._of_Maharashtra": {
+    "en": "Govt. of Maharashtra",
+    "mr": "महाराष्ट्र सरकार"
+  },
+  "Grievance_Redressal_System": {
+    "en": "Grievance Redressal System",
+    "mr": "तक्रार निवारण समिती"
+  },
+  "Guest_Houses": {
+    "en": "Guest Houses",
+    "mr": "अतिथी गृह"
+  },
+  "Guidelines": {
+    "en": "Guidelines",
+    "mr": "मार्गदर्शक तत्त्वे"
+  },
+  "HFaculty": {
+    "en": "Faculty",
+    "mr": "विद्वत सभा"
+  },
+  "Home": {
+    "en": "Home",
+    "mr": "मुख्यपृष्ठ"
+  },
+  "Hostels": {
+    "en": "Hostels",
+    "mr": "वसतिगृहे"
+  },
+  "Human_Resource": {
+    "en": "Human Resource",
+    "mr": "मानव संसाधन"
+  },
+  "ICAR": {
+    "en": "ICAR",
+    "mr": "आयसीएआर"
+  },
+  "ICAR-AICRP": {
+    "en": "ICAR-AICRP",
+    "mr": "अखिल भारतीय समन्वित संशोधन योजना"
+  },
+  "IWRA_Service": {
+    "en": "IWRA Service",
+    "mr": "आयडब्ल्यूआरए सेवा"
+  },
+  "Inputs": {
+    "en": "Inputs",
+    "mr": "निविष्ठा"
+  },
+  "Internal_Quality_Assurance_Cell": {
+    "en": "Internal Quality Assurance Cell",
+    "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+  },
+  "International_Students": {
+    "en": "International Students",
+    "mr": "आंतरराष्ट्रीय विद्यार्थी"
+  },
+  "Introduction": {
+    "en": "Introduction",
+    "mr": "परिचय"
+  },
+  "Joint_AGRESCO": {
+    "en": "Joint Agresco",
+    "mr": "जॉईंट अग्रेसको"
+  },
+  "KVK_Portal": {
+    "en": "KVK Portal",
+    "mr": "केव्हीके पोर्टल"
+  },
+  "Kisan_Aadhar_Sammelan": {
+    "en": "Kisan Aadhar Sammelan",
+    "mr": "किसान आधार सम्मेलन"
+  },
+  "Knowledge_Initiatives": {
+    "en": "Knowledge Initiatives",
+    "mr": "ज्ञान उपक्रम"
+  },
+  "Krishi_Vigyan_Kendras": {
+    "en": "Krishi Vigyan Kendras",
+    "mr": "कृषि विज्ञान केंद्रे"
+  },
+  "Krishidarshani": {
+    "en": "Krishidarshani",
+    "mr": "कृषिदर्शनी"
+  },
+  "Krishikosh": {
+    "en": "Krishikosh",
+    "mr": "कृषिकोश"
+  },
+  "Library": {
+    "en": "Library",
+    "mr": "ग्रंथालय"
+  },
+  "Linking_Policy": {
+    "en": "Linking Policy",
+    "mr": "दुवा धोरण"
+  },
+  "Links": {
+    "en": "Links",
+    "mr": "दुवे"
+  },
+  "Login": {
+    "en": "Login",
+    "mr": "लॉगिन"
+  },
+  "MCAER": {
+    "en": "MCAER",
+    "mr": "एमसीएईआर"
+  },
+  "MPKV_Products": {
+    "en": "MPKV Products",
+    "mr": "म.फु.कृ.वि उत्पादने"
+  },
+  "Maha_Agri_Admission": {
+    "en": "Maha Agri Admission",
+    "mr": "महा कृषि प्रवेश"
+  },
+  "Master": {
+    "en": "Master's",
+    "mr": "पदव्युत्तर"
+  },
+  "Master_Courses_and_Curriculum": {
+    "en": "Master's Courses and Curriculum",
+    "mr": "पदव्युत्तर अभ्यासक्रम"
+  },
+  "News_&_Events": {
+    "en": "News & Events",
+    "mr": "बातम्या आणि आगामी कार्यक्रम"
+  },
+  "News_Recent_Happenings": {
+    "en": "News / Recent Happenings",
+    "mr": "बातम्या / अलीकडील घटना"
+  },
+  "Nodal_Cell": {
+    "en": "Nodal Cell",
+    "mr": "नोडल सेल"
+  },
+  "Nodal_Officer": {
+    "en": "Nodal Officer",
+    "mr": "नोडल अधिकारी"
+  },
+  "Non-Plan_State_Schemes": {
+    "en": "Non-Plan State Schemes",
+    "mr": "राज्य योजना"
+  },
+  "Off_Campus_Libraries": {
+    "en": "Off Campus Libraries",
+    "mr": "ऑफ कँम्पस लाइब्ररी"
+  },
+  "Officers": {
+    "en": "Officers",
+    "mr": "अधिकारी"
+  },
+  "Officers_Contacts": {
+    "en": "Officers Contacts",
+    "mr": "अधिकारी संपर्क"
+  },
+  "Online_Payment": {
+    "en": "Online Payment",
+    "mr": "ऑनलाईन पेमेंट"
+  },
+  "Online_Payments": {
+    "en": "Online Payments",
+    "mr": "ऑनलाईन पेमेंट"
+  },
+  "Organizational_Profile": {
+    "en": "Organizational Profile",
+    "mr": "संस्थात्मक संरचना"
+  },
+  "PME_Cell": {
+    "en": "PME Cell",
+    "mr": "पीएमई सेल"
+  },
+  "Patents": {
+    "en": "Patents",
+    "mr": "पेटंट्स"
+  },
+  "Pensioners_Information": {
+    "en": "Pensioners Information",
+    "mr": "निवृत्तीवेतनाची माहिती"
+  },
+  "Periodical_Events": {
+    "en": "Periodical Events",
+    "mr": "नियतकालिक कार्यक्रम"
+  },
+  "Photo_Gallery": {
+    "en": "Photo Gallery",
+    "mr": "फोटो गॅलरी"
+  },
+  "Phule Drinking Water": {
+    "en": "Phule Drinking Water",
+    "mr": "फुले पिण्याचे पाणी"
+  },
+  "Phule_Irrigation_Scheduler": {
+    "en": "Phule Irrigation Scheduler",
+    "mr": "फुले जलसिंचन"
+  },
+  "Phule_Jal": {
+    "en": "Phule Jal",
+    "mr": "फुले जल"
+  },
+  "Phule_Krishidarshani": {
+    "en": "Phule Krishidarshani",
+    "mr": "फुले कृषिदर्शनी"
+  },
+  "Plain_Zone": {
+    "en": "Plain Zone",
+    "mr": "पठार विभाग"
+  },
+  "Planting _Materials": {
+    "en": "लागवड साहित्य",
+    "mr": "लागवड साहित्य"
+  },
+  "Planting_Material": {
+    "en": "Planting Material",
+    "mr": "लागवड साहित्य"
+  },
+  "Planting_Material_Availability": {
+    "en": "Planting Material Availability",
+    "mr": "लागवड साहित्य उपलब्धता"
+  },
+  "Planting_Materials": {
+    "en": "Planting  Materials",
+    "mr": "लागवड साहित्य"
+  },
+  "Post_Graduate_Institute_Rahuri": {
+    "en": "Post Graduate Institute,Rahuri",
+    "mr": "पदव्युत्तर महाविद्यालय,राहुरी"
+  },
+  "Privacy_Policy": {
+    "en": "Privacy Policy",
+    "mr": "गोपनीयता धोरण"
+  },
+  "Product_Testing": {
+    "en": "Product Testing",
+    "mr": "उत्पादन चाचणी"
+  },
+  "Proforma": {
+    "en": "Proforma",
+    "mr": "उपचारात्मक"
+  },
+  "Publications": {
+    "en": "Publications",
+    "mr": "प्रकाशने"
+  },
+  "Quick_Links": {
+    "en": "Quick Links",
+    "mr": "जलद दुवे"
+  },
+  "R.C.S.M.College_of_Agriculture_Kolhapur": {
+    "en": "R.C.S.M. College of Agriculture Kolhapur",
+    "mr": "आर.सी.एस.एम. कृषि महाविद्यालय, कोल्हापूर"
+  },
+  "RTI": {
+    "en": "RTI",
+    "mr": "माहिती अधिकार"
+  },
+  "Recommendations": {
+    "en": "Recommendations",
+    "mr": "शिफारसी"
+  },
+  "Recruitment": {
+    "en": "Recruitment",
+    "mr": "भरती प्रक्रिया"
+  },
+  "Regional_Extension_Centres": {
+    "en": "Regional Extension Centers",
+    "mr": "प्रादेशिक विस्तार केंद्रे"
+  },
+  "Research": {
+    "en": "Research",
+    "mr": "संशोधन"
+  },
+  "Research_Review_Mechanism": {
+    "en": "Research Review Mechanism",
+    "mr": "संशोधन पुनरावलोकन यंत्रणा"
+  },
+  "Research_Schemes": {
+    "en": "Research Schemes",
+    "mr": "संशोधन योजना"
+  },
+  "Research_Stations": {
+    "en": "Research Stations",
+    "mr": "संशोधन केंद्रे"
+  },
+  "Research_at_a_Glance": {
+    "en": "Research at a Glance",
+    "mr": "दृष्टीक्षेपात संशोधन"
+  },
+  "Research_at_a_Glance_text_p1": {
+    "en": "The university has a very good network of 27 research stations spread over 5 different agro-climatic zones having 82 non-plan schemes funded by State Govt., 45 AICRPs on different crops /plant sciences and one Centrally Sponsored Research Schemes funded by the Central Govt., Ministry of Agriculture, where varietal development and technology verification of more than 100 crops (cereals, pulses, oilseeds, vegetable , cash crops protected cultivation , exotic vegetables and fruit crops) is being carried out. In addition to this management of natural resource management, development of integrated farming system model research is undertaken for the upliftment of resource poor farming community.",
+    "mr": "पश्चिम महाराष्ट्रातील दहा जिल्हयांचा समावेश असलेले घाट विभाग, उप-पर्वतीय विभाग, मैदानी विभाग, अवर्षण प्रवण विभाग व मध्य महाराष्ट्रातील पठारी विभाग या 5 हवामान विभागात असलेली तृणधान्‍ये, कडधान्‍ये, गळीताची धान्‍ये, फळे-भाजीपाला, नगदी पिके, विदेशी भाजीपाला इत्‍यादी १०० हून अधिक पिकावर, मध्यवर्ती परिसरासह एकूण 27 संशोधन केंद्रावर असलेल्‍या राज्य शासन अनुदानित 82 योजनेतर योजना, भारतीय कृषि संशोधन परिषद (75 %) आणि राज्य शासन (25 %) अनुदानीत 45 अखिल भारतीय समन्वीत संशोधन प्रकल्प आणि केंद्र पुरस्कृत 100 टक्के अनुदानीत 1 संशोधन प्रकल्पामार्फत संशोधन केले जाते."
+  },
+  "Research_at_a_Glance_text_p2": {
+    "en": "To improve production and productivity of cereals, pulses, oilseeds, sugarcane, cotton, fruits, vegetables, flowers and farm animals. To conserve natural resources and improve their efficiency for sustainable production of crops and animal produce. Conservation of genetic resource and their maintenance.",
+    "mr": "राज्यातील मर्यादित सिंचन सुविधा लक्षात घेऊन, शाश्‍वत उत्‍पादनासाठी कोरडवाहू शेती तंत्रज्ञान विकसित करणे. मृद आणि जलसंधारणाच्या पध्दती, जमीन, पाऊसमान आणि हंगामानुसार पीक व्यवस्थापन, मध्य हंगाम दुरुस्ती, पडणाऱ्या पाऊस पाण्याचा अधिक कार्यक्षमतेने वापर, पिकांचे सुधारित वाण आणि पीक पध्दती विकसित करणे, शेतक-यांच्या गरजा लक्षात घेऊन विविध प्रकारची शेती औजारे व यंत्रे विकसीत करणे याविषयी बहुमोल संशोधनवर भर देण्‍यात येत आहे. गेल्या 53 वर्षात कृषि क्षेत्रात भरीव संशोधन करुन एकूण 270 वाण विकसीत केलेले आहेत. मृद व जलसंधारण, विविध पिके आणि पीक लागवड पध्दती, अन्नद्रव्य व्यवस्थापन, पाणी व्यवस्थापन, आंतरमशागत, तण, रोग आणि किडींचे एकात्मिक व्यवस्थापन, नियंत्रीत शेती, प्रक्रिया आणि विपणन  याविषयी सखोल संशोधन करुन विद्यापीठाने एकूण 1577 शिफारशी दिल्या आहेत. जैवतंत्रज्ञान, वनस्पती ऊती संवर्धन, अणुजीवशास्र, जैविक कीड नियंत्रण व जीवाणू खते निर्मिती याकडे विशेष लक्ष देण्यात येत आहे."
+  },
+  "Research_at_a_Glance_text_p3": {
+    "en": "To develop technology with integrated pest, disease and nutrient management to increase production for making agricultural production cost effective and sustainable. To develop post-harvest technology for minimizing post-harvest losses and production of value-added products. To design and develop farm implements and technology for mechanization of agriculture. To evaluate and modify technology for protected cultivation of flowers and vegetables.",
+    "mr": "तसेच विद्यापीठाचे भूषण असलेली फुले-त्रिवेणी ही तिहेरी संकरीत गाय, तिची दुध देण्याची क्षमता, वातावरणाशी जुळवून घेण्याची क्षमता व स्निग्धता इतर संकरित गायींपेक्षा जास्त आहे.विद्यापीठाने विकसीत केलेले लक्ष्मी विळा, ज्योती कांदा रोप लागवड यंत्र, ज्योती लसूण घास कापणी यंत्र, ट्रॅक्टरचलित फुले सरीवरंबा बहुपीक टोकण यंत्र, ट्रॅक्टरचलित फुले ऊस आंतरमशागत यंत्र, पॉवरटिलरचलित फुले बहुपीक टोकण यंत्र, मनुष्यचलीत फुले भुईमूग शेंगा फोडणी आणि सफाई यंत्र, ट्रॅक्टरचलित फुले मोल नांगर, बैलचलीत फुले बहुपीक टोकण यंत्र, फुले सरीवरंबा बहुपीक टोकण यंत्र, ट्रॅक्टरचलित फुले ऊस आंतर मशागत यंत्र, मानवचलीत फुले ज्वारी काढणी यंत्र, मानवचलीत फुले औषधी बिया फोडणी यंत्र, विद्युतचलित फुले कडबा कुट्टी यंत्र, फुले पीव्हीसी भात लावणी चौकट व ट्रॅक्टरचलित ऊस बांधणी यंत्र या 35 सुधारित यंञे व औजारांमुळे शेतक-यांचे काबाड कष्ट कमी होवून मजुरांची बचत होत असल्याने शेतक-यांमध्ये ती लोकप्रिय आहेत."
+  },
+  "Research_at_a_Glance_text_p4": {
+    "en": "Taking into consideration the availability of land, water and weather conditions and other existing resources, the university has concentrated its efforts to develop suitable technologies for dryland agriculture, irrigated farming as well as hi-tech agriculture. During the last 53 years, the University has developed about 39 different types of Farm Implements and Machineries for the ease of sowing, transplanting, burring, interculturing and harvesting operations on the farms and 270 improved / F1 hybrids varieties of field crops, forages, vegetables, horticultural and ornamental crops, cash crops, spices, aromatic and medicinal plants and also registered pure breeds of cattle-Khillar, goat-Osmanabadi & Sangamneri, sheep-Deccani and buffalo-Pandharpuri with NBAGR, Karnal, and one Phule Trivni cattle breed , etc. More than 1577 crop production technologies pertaining to agro-techniques, soil and water management, farming and cropping systems, integrated nutrient, water, pest, disease management, post harvest technology, farm machinery, etc are developed and recommended for productivity improvement. The university has focused its attention on location specific and need based research activities and also seed production and seedlings/saplings activities on large scale in order to cater the needs of all types of farmers and farming groups. Organic farming, crop diversification, development of transgenic and export oriented quality production and post harvest handling and process engineering are the priority areas to face the challenges of WTO regime. Biotechnology with its vast potential and challenges is important to agricultural development. This university is developing biotechnological competence in the areas of plant tissue culture, genetic engineering, molecular biology, and molecular characterization for IPR issues, biocontrol and biofertilizers.",
+    "mr": "भारताची सतत वाढणारी लोकसंख्या तसेच,  भविष्यातील शेती ही पाणी टंचाई, हवामानातील बदल व जागतिकीकरण यांचा सर्वांगीण विचार करुन शाश्‍वत उत्पादनाची गरज भागविणारी आहे. याकरीता उपलब्ध नैसर्गिक साधनसंपत्तीचा सुयोग्य वापरावर आधारीत उत्पादकता वाढवणारी शेती पध्दतीची उभारणी, अन्नधान्यामध्ये स्वयंपूर्णता व निर्यातक्षम कृषिउत्पादने, शास्रज्ञ व तांत्रिक मनुष्यबळ निर्मिती ही देशातील कृषि विद्यापीठांची प्राथमिक ध्येय धोरणे आहेत. याशिवाय, प्रक्रिया, साठवण, शीतसाखळी, कृषिजन्य उत्पादनाची निर्यात या क्षेत्रात संशोधनाची गरज असणार आहे. हे ध्येय साध्य करण्यासाठी कृषि संशोधनाची धोरणे ठरवितांना सर्वोच्च उत्पादन आणि उत्पादकतेबरोबरच, उत्पादन खर्च कमी करुन उच्च गुणवत्तेचे कृषि उत्पादन मिळवण्यासाठी आधुनिक तंत्रज्ञानाचा समावेश करण्यावर भर देण्यात येत आहे."
+  },
+  "Retrospection": {
+    "en": "Retrospection",
+    "mr": "सिंहावलोकन"
+  },
+  "Right_to_Service": {
+    "en": "Right to Service",
+    "mr": "सेवेचा अधिकार"
+  },
+  "Scarcity_Zone": {
+    "en": "Scarcity Zone",
+    "mr": "अवर्षणग्रस्त विभाग"
+  },
+  "Search": {
+    "en": "Search",
+    "mr": "शोधा"
+  },
+  "Secretariat": {
+    "en": "Secretariat",
+    "mr": "सचिवालय"
+  },
+  "Sections": {
+    "en": "Sections",
+    "mr": "विभाग"
+  },
+  "Seed_Availability": {
+    "en": "Seed Availability",
+    "mr": "बियाणे उपलब्धता"
+  },
+  "Seed_Council": {
+    "en": "Seed Council",
+    "mr": "बियाणे परिषद"
+  },
+  "Seeds": {
+    "en": "Seeds",
+    "mr": "बियाणे"
+  },
+  "Seniority_Lists": {
+    "en": "Seniority Lists",
+    "mr": "ज्येष्ठता याद्या"
+  },
+  "Services": {
+    "en": "Services",
+    "mr": "सेवा"
+  },
+  "Sports": {
+    "en": "Sports",
+    "mr": "खेळ"
+  },
+  "Statutory_Bodies": {
+    "en": "Statutory Bodies",
+    "mr": "वैधानिक संस्था"
+  },
+  "Students": {
+    "en": "Students",
+    "mr": "विद्यार्थी"
+  },
+  "Students_Complaints": {
+    "en": "Students Complaints",
+    "mr": "विद्यार्थ्यांच्या तक्रारी"
+  },
+  "Sub-Montane_Zone": {
+    "en": "Sub-Montane Zone",
+    "mr": "उप-पर्वतीय विभाग"
+  },
+  "Success_Stories": {
+    "en": "Success Stories",
+    "mr": "यशोगाथा"
+  },
+  "Technologies_Developed": {
+    "en": "Technologies Developed",
+    "mr": "विकसित तंत्रज्ञान"
+  },
+  "Technology": {
+    "en": "Technology",
+    "mr": "तंत्रज्ञान"
+  },
+  "Tenders": {
+    "en": "Tenders",
+    "mr": "निविदा"
+  },
+  "Thrust_Areas": {
+    "en": "Thrust Areas",
+    "mr": "प्राधान्यक्रम"
+  },
+  "Total_Visitor": {
+    "en": "Total Visitor",
+    "mr": "एकूण पाहुणे"
+  },
+  "Trainings": {
+    "en": "Trainings",
+    "mr": "प्रशिक्षण"
+  },
+  "Trainings_Conducted": {
+    "en": "Trainings Conducted",
+    "mr": "प्रशिक्षण आयोजित"
+  },
+  "Transparency": {
+    "en": "Transparency",
+    "mr": "पारदर्शकता"
+  },
+  "UGC": {
+    "en": "UGC",
+    "mr": "यूजीसी"
+  },
+  "University_Foundation_Day": {
+    "en": "University Foundation Day",
+    "mr": "विद्यापीठ स्थापना दिन"
+  },
+  "University_Resolutions": {
+    "en": "University Resolutions",
+    "mr": "विद्यापीठाचे ठराव"
+  },
+  "University_Services": {
+    "en": "University Services",
+    "mr": "विद्यापीठ सुविधा"
+  },
+  "University_Web_&_Mobile_Apps": {
+    "en": "University Web & Mobile Apps",
+    "mr": "विद्यापीठ वेब आणि मोबाइल अ‍ॅप"
+  },
+  "Upcoming_Events": {
+    "en": "Upcoming Events",
+    "mr": "पुढील कार्यक्रम"
+  },
+  "Vacant_Position": {
+    "en": "Vacant Position",
+    "mr": "रिक्त  पदांची स्थिती"
+  },
+  "Vanmohotsav": {
+    "en": "Vanmohotsav",
+    "mr": "वनमोहोत्सव"
+  },
+  "Varieties": {
+    "en": "Varieties",
+    "mr": "वाण"
+  },
+  "Video_Gallery": {
+    "en": "Video Gallery",
+    "mr": "व्हिडिओ गॅलरी"
+  },
+  "View_More": {
+    "en": "View More",
+    "mr": "अधिक पहा"
+  },
+  "Vigilance_and_Grievance_Redressal_System": {
+    "en": "Vigilance and Grievance Redressal System",
+    "mr": "जागरूकता आणि तक्रार निवारण समिती"
+  },
+  "Weather": {
+    "en": "Weather",
+    "mr": "हवामान"
+  },
+  "Web_PIS": {
+    "en": "Web PIS",
+    "mr": "वेब पीआयएस"
+  },
+  "Web_PT": {
+    "en": "Web Product Testing",
+    "mr": "वेब प्रॉडक्ट टेस्टिंग"
+  },
+  "Web_Phule_Jal": {
+    "en": "Web Phule Jal",
+    "mr": "वेब फुले जल"
+  },
+  "Western_Ghat_Zone": {
+    "en": "Western Ghat Zone",
+    "mr": "पश्चिम घाट विभाग"
+  },
+  "Works": {
+    "en": "Works",
+    "mr": "कामे"
+  },
+  "cnt_Administra": {
+    "en": "02426-243366",
+    "mr": "०२४६२६- २४३३६६"
+  },
+  "cnt_Administrative_Matters": {
+    "en": "Administrative Matters",
+    "mr": "प्रशासकीय बाबी"
+  },
+  "cnt_Admission": {
+    "en": "02426-243215",
+    "mr": "०२४२६-२४३२१५"
+  },
+  "cnt_Attic": {
+    "en": "ATIC",
+    "mr": "कृषि तंत्रज्ञान माहिती केंद्र"
+  },
+  "cnt_Atticno": {
+    "en": "02426-243861",
+    "mr": "०२४२६-२४३८६१"
+  },
+  "cnt_Farm": {
+    "en": "02426-243219",
+    "mr": "०२४२६-२४३२१९"
+  },
+  "cnt_Farm_Machinery": {
+    "en": "Farm Machinery",
+    "mr": "शेती अवजारे"
+  },
+  "cnt_Ferti": {
+    "en": "02426-243231",
+    "mr": "०२४२६-२४३२३१"
+  },
+  "cnt_Fertilizers": {
+    "en": "Fertilizers",
+    "mr": "जैविक खते"
+  },
+  "cnt_Guest": {
+    "en": "02426-243358,243235",
+    "mr": "०२४६२६- २४३३५८,२४३२३५"
+  },
+  "cnt_Guest_Houses": {
+    "en": "Guest Houses",
+    "mr": "विश्रामगृहे"
+  },
+  "cnt_Plant": {
+    "en": "02426-243338,243442",
+    "mr": "०२४२६-२४३३३८,२४३४४२"
+  },
+  "cnt_Planting_Material": {
+    "en": "Planting Material",
+    "mr": "रोपवाटिका उपलब्धता"
+  },
+  "cnt_SecurityNo": {
+    "en": "02426-243271",
+    "mr": "०२४२६-२४३२७१"
+  },
+  "cnt_SecurityOffice": {
+    "en": "Security Office",
+    "mr": "सुरक्षा विभाग"
+  },
+  "cnt_Seed": {
+    "en": "02426-243345,243279,243051",
+    "mr": "०२४२६-२४३३४५,२४३२७९,२४३०५१"
+  },
+  "cnt_Seed_Availability": {
+    "en": "Seed Availability",
+    "mr": "बियाणे उपलब्धता"
+  },
+  "copyrights": {
+    "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri",
+    "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी"
+  },
+  "copyrights2": {
+    "en": "New Admin Building, MPKV, Ahilyanagar, Maharashtra-413722.",
+    "mr": "अहिल्यानगर, महाराष्ट्र - 413722. भारत"
+  },
+  "copyrights3": {
+    "en": "2019 © GST No- 27PNEA17163G1D4",
+    "mr": "2019 © GST No- 27PNEA17163G1D4"
+  },
+  "copyrights4": {
+    "en": "Legal Name - Asstt. Registrar OFM.",
+    "mr": "Legal Name - Asstt. Registrar OFM."
+  },
+  "krucalender": {
+    "en": "Agricultural Calender",
+    "mr": "कृषि वेळापत्रक"
+  },
+  "krushiVelapatrak_1": {
+    "en": "Jan",
+    "mr": "जानेवारी"
+  },
+  "krushiVelapatrak_10": {
+    "en": "Oct",
+    "mr": "ऑक्टोम्बर"
+  },
+  "krushiVelapatrak_11": {
+    "en": "Nov",
+    "mr": "नोव्हेंबर"
+  },
+  "krushiVelapatrak_12": {
+    "en": "Dec",
+    "mr": "डिसेंबर"
+  },
+  "krushiVelapatrak_2": {
+    "en": "Feb",
+    "mr": "फेब्रुवारी"
+  },
+  "krushiVelapatrak_3": {
+    "en": "March",
+    "mr": "मार्च"
+  },
+  "krushiVelapatrak_4": {
+    "en": "April",
+    "mr": "एप्रिल"
+  },
+  "krushiVelapatrak_5": {
+    "en": "May",
+    "mr": "मे"
+  },
+  "krushiVelapatrak_6": {
+    "en": "Jun",
+    "mr": "जून"
+  },
+  "krushiVelapatrak_7": {
+    "en": "July",
+    "mr": "जुलै"
+  },
+  "krushiVelapatrak_8": {
+    "en": "Aug",
+    "mr": "ऑगस्ट"
+  },
+  "krushiVelapatrak_9": {
+    "en": "Sept",
+    "mr": "सप्टेंबर"
+  },
+  "mainhomepara1": {
+    "en": "The Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri is the premier Agricultural University in Maharashtra that renders services to the farmers through Education, Research and Extension Education. In pursuance of the Maharashtra Agricultural University (Krishi Vidyapeeth) Act 1967, initially, the Maharashtra Agricultural University (Krishi Vidyapeeth) was established for the entire Maharashtra State and started functioning in March, 1968 with its office at Mumbai.",
+    "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी हे महाराष्ट्रातील एक अग्रणी कृषि विद्यापीठ आहे जे शिक्षण , संशोधन आणि विस्तार शिक्षणाद्वारे शेतकऱ्यांना सेवा देते. महाराष्ट्र कृषि विद्यापीठ (कृषि विद्यापीठ) अधिनियम , 1967 अन्वये सुरुवातीला संपुर्ण महराष्ट्र राज्यासाठी महाराष्ट्र कृषि विद्यापीठाची स्थापना केली गेली आणि मार्च, 1968 मध्ये मुंबई येथे त्याचे कार्यालय सुरु झाले."
+  },
+  "mainhomepara2": {
+    "en": "The office was shifted to College of Agriculture, Pune in 1969. Later on in 1972, four agricultural universities were established in Maharashtra. Mahatma Phule Krishi Vidyapeeth, Rahuri is one of them established in 1969 for the western Maharashtra having jurisdiction spread over 10 districts viz. Jalgaon, Nandurbar, Dhule, Nashik, Ahilyanagar,Pune, Solapur, Satara, Sangli and Kolhapur. The University is named after the great social reformer 'Mahatma Jyotiba Phule'.",
+    "mr": "सन्न 1969 मध्ये पुणे येथील कृषि महाविद्यालयात हे कार्यालय हलविण्यात आले. नंतर , सन 1972 मध्ये महाराष्ट्रात चार कृषि विद्यापीठे स्थापन झाली. सन 1969 मध्ये स्थापन झालेले महात्मा फुले कृषि विद्यापीठ, राहुरी हे त्यापौकी एक आहे. या विद्यापीठाचे कार्यक्षेत्र जळगाव, नंदुरबार , धुळे, नाशिक , अहिल्यानगर , पुणे, सोलापूर, सातारा, सांगली आणि कोल्हापूर या 10 जिल्हयामध्ये पसरलेले आहे. महान समाज सुधारक 'महात्मा ज्योतिबा फुले' यांचे नाव या विद्यापीठास देण्यात आले."
+  },
+  "mainhomeparabtn": {
+    "en": "MPKV at a Glance",
+    "mr": "दृष्टीक्षेपात म.फु.कृ.वि"
+  },
+  "mous": {
+    "en": "MoUs",
+    "mr": "सामंजस्य करार"
+  },
+  "topWebName": {
+    "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri",
+    "mr": "महात्मा फुले कृषि विद्यापीठ,राहुरी"
+  },
+  "topnavmnnme": {
+    "en": "Mahatma Phule Krishi Vidyapeeth (Agriculture University), Rahuri",
+    "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी"
+  },
+  "topnavmnnmesec": {
+    "en": "Dist.- Ahilyanagar (M.S.)",
+    "mr": "जि. - अहिल्यानगर (महाराष्ट्र)"
+  },
+  "university_name": {
+    "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri",
+    "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी"
+  },
+  "university_tagline": {
+    "en": "Central University Headquarters · Rahuri · Dist. Ahilyanagar (Ahmednagar), Maharashtra",
+    "mr": "मध्यवर्ती विद्यापीठ मुख्यालय · राहुरी · जि. अहिल्यानगर, महाराष्ट्र"
+  },
+  "accreditation": {
+    "en": "Accredited by ICAR, New Delhi with 'A' Grade",
+    "mr": "भारतीय कृषि अनुसंधान परिषद (ICAR), नवी दिल्ली द्वारे 'अ' श्रेणी मान्यताप्राप्त"
+  },
+  "rahuri_exclusive_notice": {
+    "en": "Portal exclusively dedicated to MPKV Central Headquarters, PGI, Dr. A.S. CAET & Central Research Stations at Rahuri.",
+    "mr": "हे पोर्टल केवळ मफुकृवि मध्यवर्ती मुख्यालय, पदव्युत्तर महाविद्यालय, डॉ. अ.शि. कृषि अभियांत्रिकी व राहुरी मध्यवर्ती संशोधन केंद्रांसाठी आहे."
+  }
+}
