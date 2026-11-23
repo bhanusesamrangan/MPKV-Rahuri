@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
 
   return (
     <header className="w-full bg-[#fdfcf9] border-b border-stone-200/60 relative z-30 transition-colors">
-      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 py-2.5 sm:py-3.5 flex items-center justify-between">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-2.5 sm:py-3.5 flex items-center justify-between">
         {/* Brand identity: Emblem + University Typography */}
         <div className="flex items-center gap-3 sm:gap-4 w-full">
           <Link href="/" className="relative flex items-center gap-2.5 sm:gap-3.5 w-full">

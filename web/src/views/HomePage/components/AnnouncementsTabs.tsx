@@ -50,15 +50,15 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
 
   return (
     <section className="w-full py-16 bg-[#fafaf7] border-t border-stone-200/60">
-      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px]">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 mb-8 pb-5 border-b border-stone-200/70">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-xs sm:text-sm font-semibold tracking-wide mb-2.5">
+            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-[11px] sm:text-xs font-semibold tracking-wide mb-2.5">
               <Bell className="w-4 h-4 text-emerald-600" />
               <span>{language === 'mr' ? 'अधिकृत घोषणा व प्रसिद्धीपत्रके' : 'Official Notices & Gazettes'}</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-slate-800 tracking-tight">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-[28px] font-semibold text-slate-800 tracking-tight">
               {language === 'mr' ? 'सूचना, भरती व निविदा केंद्र' : 'Notices, Recruitment & Tender Desk'}
             </h2>
           </div>
@@ -67,60 +67,56 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
           <div className="flex flex-wrap gap-2 bg-stone-100 p-1.5 rounded-2xl border border-stone-200/70">
             <button
               onClick={() => setActiveTab('news')}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 ${
-                activeTab === 'news'
-                  ? 'bg-white text-slate-900 shadow-2xs font-semibold'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`px-3.5 py-1.5 rounded-xl text-xs sm:text-[13px] font-medium transition-all flex items-center gap-2 ${activeTab === 'news'
+                ? 'bg-white text-slate-900 shadow-2xs font-semibold'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
-              <Bell className="w-4 h-4 text-amber-500" />
+              <Bell className="w-3.5 h-3.5 text-amber-500" />
               <span>{language === 'mr' ? 'बातम्या व सल्ला' : 'News'}</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
+              <span className="text-[11px] px-1.5 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
                 {news.length}
               </span>
             </button>
 
             <button
               onClick={() => setActiveTab('recruitment')}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 ${
-                activeTab === 'recruitment'
-                  ? 'bg-white text-slate-900 shadow-2xs font-semibold'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`px-3.5 py-1.5 rounded-xl text-xs sm:text-[13px] font-medium transition-all flex items-center gap-2 ${activeTab === 'recruitment'
+                ? 'bg-white text-slate-900 shadow-2xs font-semibold'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
-              <Briefcase className="w-4 h-4 text-sky-600" />
+              <Briefcase className="w-3.5 h-3.5 text-sky-600" />
               <span>{language === 'mr' ? 'भरती प्रक्रिया' : 'Recruitment'}</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
+              <span className="text-[11px] px-1.5 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
                 {recruitment.length}
               </span>
             </button>
 
             <button
               onClick={() => setActiveTab('tenders')}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 ${
-                activeTab === 'tenders'
-                  ? 'bg-white text-slate-900 shadow-2xs font-semibold'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`px-3.5 py-1.5 rounded-xl text-xs sm:text-[13px] font-medium transition-all flex items-center gap-2 ${activeTab === 'tenders'
+                ? 'bg-white text-slate-900 shadow-2xs font-semibold'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
-              <FileText className="w-4 h-4 text-emerald-600" />
+              <FileText className="w-3.5 h-3.5 text-emerald-600" />
               <span>{language === 'mr' ? 'ई-निविदा' : 'E-Tenders'}</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
+              <span className="text-[11px] px-1.5 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
                 {tenders.length}
               </span>
             </button>
 
             <button
               onClick={() => setActiveTab('circulars')}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 ${
-                activeTab === 'circulars'
-                  ? 'bg-white text-slate-900 shadow-2xs font-semibold'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
+              className={`px-3.5 py-1.5 rounded-xl text-xs sm:text-[13px] font-medium transition-all flex items-center gap-2 ${activeTab === 'circulars'
+                ? 'bg-white text-slate-900 shadow-2xs font-semibold'
+                : 'text-slate-600 hover:text-slate-900'
+                }`}
             >
-              <Download className="w-4 h-4 text-indigo-500" />
+              <Download className="w-3.5 h-3.5 text-indigo-500" />
               <span>{language === 'mr' ? 'परिपत्रके' : 'Circulars'}</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
+              <span className="text-[11px] px-1.5 py-0.5 rounded-full bg-stone-100 text-slate-600 font-semibold">
                 {circulars.length}
               </span>
             </button>
@@ -134,30 +130,27 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
             news.map((item, idx) => (
               <div
                 key={item.id || idx}
-                className="p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-emerald-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
+                className="p-5 sm:p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-emerald-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
               >
-                <div className="space-y-3.5">
-                  <div className="flex items-center justify-between text-xs text-slate-500">
+                <div className="space-y-3">
+                  <div className="flex items-center text-[11px] sm:text-xs text-slate-500">
                     <span className="flex items-center gap-1.5 font-medium">
                       <Calendar className="w-3.5 h-3.5 text-slate-400" />
                       <span>{item.date || 'नोव्हेंबर २०२६'}</span>
                     </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-800 text-xs font-semibold border border-amber-200/50">
-                      {language === 'mr' ? 'राहुरी परिसर' : 'Rahuri Campus'}
-                    </span>
                   </div>
-                  <h3 className="text-base sm:text-lg font-semibold text-slate-800 group-hover:text-emerald-800 leading-snug transition-colors line-clamp-3">
+                  <h3 className="text-sm sm:text-base font-semibold text-slate-800 group-hover:text-emerald-800 leading-snug transition-colors line-clamp-3">
                     {getBilingual(item.title)}
                   </h3>
                 </div>
 
-                <div className="pt-4 mt-4 border-t border-stone-100 flex items-center justify-between">
-                  <span className="text-xs text-slate-400 font-normal">
+                <div className="pt-3.5 mt-3.5 border-t border-stone-100 flex items-center justify-between">
+                  <span className="text-[11px] text-slate-400 font-normal">
                     {language === 'mr' ? 'अधिकृत बातमी' : 'Official Press'}
                   </span>
                   <a
                     href={item.link || '#'}
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-800 hover:text-emerald-950 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs sm:text-[13px] font-semibold text-emerald-800 hover:text-emerald-950 transition-colors"
                   >
                     <span>{language === 'mr' ? 'वाचा' : 'Read'}</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
@@ -171,30 +164,27 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
             recruitment.map((item, idx) => (
               <div
                 key={item.id || idx}
-                className="p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-sky-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
+                className="p-5 sm:p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-sky-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
               >
-                <div className="space-y-3.5">
-                  <div className="flex items-center justify-between text-xs text-slate-500">
+                <div className="space-y-3">
+                  <div className="flex items-center text-[11px] sm:text-xs text-slate-500">
                     <span className="flex items-center gap-1.5 font-medium">
                       <Calendar className="w-3.5 h-3.5 text-slate-400" />
                       <span>{item.date || 'नोव्हेंबर २०२६'}</span>
                     </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-sky-50 text-sky-800 text-xs font-semibold border border-sky-200/50">
-                      {language === 'mr' ? 'राहुरी मध्यवर्ती' : 'Central Campus'}
-                    </span>
                   </div>
-                  <h3 className="text-base sm:text-lg font-semibold text-slate-800 group-hover:text-sky-800 leading-snug transition-colors line-clamp-3">
+                  <h3 className="text-sm sm:text-base font-semibold text-slate-800 group-hover:text-sky-800 leading-snug transition-colors line-clamp-3">
                     {getBilingual(item.title)}
                   </h3>
                 </div>
 
-                <div className="pt-4 mt-4 border-t border-stone-100 flex items-center justify-between">
-                  <span className="text-xs text-slate-400 font-normal">PDF जाहिरात</span>
+                <div className="pt-3.5 mt-3.5 border-t border-stone-100 flex items-center justify-between">
+                  <span className="text-[11px] text-slate-400 font-normal">PDF जाहिरात</span>
                   <a
                     href={item.file_path || '#'}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-700 hover:text-sky-900 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs sm:text-[13px] font-semibold text-sky-700 hover:text-sky-900 transition-colors"
                   >
                     <span>{language === 'mr' ? 'जाहिरात डाउनलोड' : 'View PDF'}</span>
                     <Download className="w-3.5 h-3.5" />
@@ -208,30 +198,27 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
             tenders.map((item, idx) => (
               <div
                 key={item.id || idx}
-                className="p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-emerald-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
+                className="p-5 sm:p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-emerald-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
               >
-                <div className="space-y-3.5">
-                  <div className="flex items-center justify-between text-xs text-slate-500">
+                <div className="space-y-3">
+                  <div className="flex items-center text-[11px] sm:text-xs text-slate-500">
                     <span className="flex items-center gap-1.5 font-medium">
                       <Calendar className="w-3.5 h-3.5 text-slate-400" />
                       <span>{item.date || 'नोव्हेंबर २०२६'}</span>
                     </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold border border-emerald-200/50">
-                      {language === 'mr' ? 'ई-निविदा' : 'E-Tender'}
-                    </span>
                   </div>
-                  <h3 className="text-base sm:text-lg font-semibold text-slate-800 group-hover:text-emerald-800 leading-snug transition-colors line-clamp-3">
+                  <h3 className="text-sm sm:text-base font-semibold text-slate-800 group-hover:text-emerald-800 leading-snug transition-colors line-clamp-3">
                     {getBilingual(item.title)}
                   </h3>
                 </div>
 
-                <div className="pt-4 mt-4 border-t border-stone-100 flex items-center justify-between">
-                  <span className="text-xs text-slate-400 font-normal">दस्तऐवज</span>
+                <div className="pt-3.5 mt-3.5 border-t border-stone-100 flex items-center justify-between">
+                  <span className="text-[11px] text-slate-400 font-normal">दस्तऐवज</span>
                   <a
                     href={item.file_path || '#'}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-800 hover:text-emerald-950 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs sm:text-[13px] font-semibold text-emerald-800 hover:text-emerald-950 transition-colors"
                   >
                     <span>{language === 'mr' ? 'निविदा प्रत' : 'Download'}</span>
                     <Download className="w-3.5 h-3.5" />
@@ -245,30 +232,27 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
             circulars.map((item, idx) => (
               <div
                 key={item.id || idx}
-                className="p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-indigo-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
+                className="p-5 sm:p-6 rounded-2xl bg-white border border-stone-200/70 hover:border-indigo-300 transition-all duration-300 flex flex-col justify-between shadow-2xs hover:shadow-xs group"
               >
-                <div className="space-y-3.5">
-                  <div className="flex items-center justify-between text-xs text-slate-500">
+                <div className="space-y-3">
+                  <div className="flex items-center text-[11px] sm:text-xs text-slate-500">
                     <span className="flex items-center gap-1.5 font-medium">
                       <Calendar className="w-3.5 h-3.5 text-slate-400" />
                       <span>{item.date}</span>
                     </span>
-                    <span className="px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-800 text-xs font-semibold border border-indigo-200/50">
-                      {language === 'mr' ? 'परिपत्रक' : 'Circular'}
-                    </span>
                   </div>
-                  <h3 className="text-base sm:text-lg font-semibold text-slate-800 group-hover:text-indigo-800 leading-snug transition-colors line-clamp-3">
+                  <h3 className="text-sm sm:text-base font-semibold text-slate-800 group-hover:text-indigo-800 leading-snug transition-colors line-clamp-3">
                     {getBilingual(item.title)}
                   </h3>
                 </div>
 
-                <div className="pt-4 mt-4 border-t border-stone-100 flex items-center justify-between">
-                  <span className="text-xs text-slate-400 font-normal">PDF प्रत</span>
+                <div className="pt-3.5 mt-3.5 border-t border-stone-100 flex items-center justify-between">
+                  <span className="text-[11px] text-slate-400 font-normal">PDF प्रत</span>
                   <a
                     href={item.file_path}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-700 hover:text-indigo-900 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs sm:text-[13px] font-semibold text-indigo-700 hover:text-indigo-900 transition-colors"
                   >
                     <span>{language === 'mr' ? 'परिपत्रक पहा' : 'View PDF'}</span>
                     <Download className="w-3.5 h-3.5" />

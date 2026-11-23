@@ -79,7 +79,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
   };
 
   return (
-    <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 py-8 space-y-8 transition-colors">
+    <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-8 space-y-8 transition-colors">
       {/* Breadcrumb Navigation */}
       <nav className="flex items-center gap-2 text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
         <Link href="/" className="hover:text-emerald-700 flex items-center gap-1 font-medium">
@@ -155,11 +155,10 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 1: Cereal Seeds */}
         <div
           onClick={() => setActiveTab('cereal')}
-          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
-            activeTab === 'cereal'
-              ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
-              : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
-          }`}
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${activeTab === 'cereal'
+            ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
+            : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
+            }`}
         >
           <div className="flex items-center justify-between">
             <span className="text-sm font-medium text-slate-600">
@@ -178,11 +177,10 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 2: Central Nursery */}
         <div
           onClick={() => setActiveTab('central')}
-          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
-            activeTab === 'central'
-              ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
-              : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
-          }`}
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${activeTab === 'central'
+            ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
+            : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
+            }`}
         >
           <div className="flex items-center justify-between">
             <span className="text-sm font-medium text-slate-600">
@@ -201,11 +199,10 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 3: Horticulture Nursery */}
         <div
           onClick={() => setActiveTab('horticulture')}
-          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
-            activeTab === 'horticulture'
-              ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
-              : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
-          }`}
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${activeTab === 'horticulture'
+            ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
+            : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
+            }`}
         >
           <div className="flex items-center justify-between">
             <span className="text-sm font-medium text-slate-600">
@@ -224,11 +221,10 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 4: Farm Implements */}
         <div
           onClick={() => setActiveTab('implements')}
-          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
-            activeTab === 'implements'
-              ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
-              : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
-          }`}
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${activeTab === 'implements'
+            ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
+            : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
+            }`}
         >
           <div className="flex items-center justify-between">
             <span className="text-sm font-medium text-slate-600">
@@ -251,41 +247,37 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => setActiveTab('cereal')}
-            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-              activeTab === 'cereal'
-                ? 'bg-slate-900 text-white shadow-sm'
-                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-            }`}
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${activeTab === 'cereal'
+              ? 'bg-slate-900 text-white shadow-sm'
+              : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+              }`}
           >
             {language === 'mr' ? 'तृणधान्य बियाणे' : 'Cereal Seeds'} ({cerealItems.length})
           </button>
           <button
             onClick={() => setActiveTab('central')}
-            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-              activeTab === 'central'
-                ? 'bg-slate-900 text-white shadow-sm'
-                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-            }`}
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${activeTab === 'central'
+              ? 'bg-slate-900 text-white shadow-sm'
+              : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+              }`}
           >
             {language === 'mr' ? 'मध्यवर्ती रोपवाटिका (राहुरी)' : 'Central Nursery'} ({centralItems.length})
           </button>
           <button
             onClick={() => setActiveTab('horticulture')}
-            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-              activeTab === 'horticulture'
-                ? 'bg-slate-900 text-white shadow-sm'
-                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-            }`}
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${activeTab === 'horticulture'
+              ? 'bg-slate-900 text-white shadow-sm'
+              : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+              }`}
           >
             {language === 'mr' ? 'उद्यानविद्या रोपवाटिका' : 'Horticulture Nursery'} ({hortItems.length})
           </button>
           <button
             onClick={() => setActiveTab('implements')}
-            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-              activeTab === 'implements'
-                ? 'bg-slate-900 text-white shadow-sm'
-                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-            }`}
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${activeTab === 'implements'
+              ? 'bg-slate-900 text-white shadow-sm'
+              : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+              }`}
           >
             {language === 'mr' ? 'शेती अवजारे' : 'Farm Implements'} ({implementItems.length})
           </button>

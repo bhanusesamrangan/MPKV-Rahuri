@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-[#f4f7f5] text-slate-600 text-sm border-t border-stone-200/80 mt-12 transition-colors">
       {/* Upper Footer: Full-Width 4-Column Directory */}
-      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 xl:gap-12">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 xl:gap-12">
         {/* Col 1: About Rahuri HQ */}
         <div className="space-y-3.5">
           <div className="flex items-center gap-3">
@@ -168,7 +168,7 @@ export const Footer: React.FC = () => {
 
       {/* Bottom Bar: Full-Width Copyright & Stats */}
       <div className="w-full bg-[#e9eee9] py-4 border-t border-stone-200 text-slate-600 text-xs sm:text-sm">
-        <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 flex flex-col md:flex-row items-center justify-between gap-2.5 text-center md:text-left">
+        <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] flex flex-col md:flex-row items-center justify-between gap-2.5 text-center md:text-left">
           <div>
             © {new Date().getFullYear()}{' '}
             <span className="text-slate-800 font-semibold">

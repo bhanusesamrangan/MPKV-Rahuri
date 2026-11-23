@@ -14,7 +14,7 @@ export const LeadershipShowcase: React.FC<LeadershipShowcaseProps> = ({ authorit
 
   return (
     <section className="w-full py-16 bg-[#faf9f5] relative overflow-hidden border-t border-stone-200/50">
-      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 relative z-10">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-50/80 border border-amber-200/60 text-amber-900 text-xs sm:text-sm font-medium tracking-wide mb-2.5">

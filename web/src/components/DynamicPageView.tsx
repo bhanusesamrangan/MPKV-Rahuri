@@ -55,7 +55,7 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
 
   if (!page) {
     return (
-      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 py-16 text-center space-y-5">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-16 text-center space-y-5">
         <div className="w-16 h-16 rounded-3xl bg-amber-50 text-amber-600 mx-auto flex items-center justify-center font-bold text-2xl border border-amber-200">
           404
         </div>
@@ -98,7 +98,7 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
   const heroBadge = page.hero?.badge ? getBilingual(page.hero.badge) : null;
 
   return (
-    <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 py-6 sm:py-8 space-y-6 sm:space-y-8 transition-colors">
+    <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-6 sm:space-y-8 transition-colors">
       {/* 1. Breadcrumb Navigation */}
       <nav className="flex items-center gap-2 text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
         <Link href="/" className="hover:text-emerald-700 flex items-center gap-1 font-medium">

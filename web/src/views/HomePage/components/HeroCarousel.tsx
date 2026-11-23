@@ -9,6 +9,21 @@ interface HeroCarouselProps {
   slides: any[];
 }
 
+// Helper to ensure English text is consistently formatted in Camel / Title Case
+const toCamelCaseTitle = (str: string): string => {
+  if (!str) return '';
+  const acronyms = new Set(['MPKV', 'ICAR', 'NCC', 'PGI', 'AICRP', 'ATIC', 'MOU', 'M.SC.', 'M.TECH.', 'PH.D.', 'D.SC.', '₹25']);
+  return str
+    .split(' ')
+    .map((word) => {
+      const clean = word.replace(/[^a-zA-Z.]/g, '').toUpperCase();
+      if (acronyms.has(clean)) return word;
+      if (word.length <= 1) return word;
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(' ');
+};
+
 export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
   const { language, getBilingual } = useLanguage();
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -33,12 +48,21 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
   };
 
   const activeSlide = slides[currentSlide] || {};
+  const rawTitleEn = typeof activeSlide?.title === 'object' ? activeSlide.title?.en : activeSlide?.title || '';
+  const rawTitleMr = typeof activeSlide?.title === 'object' ? activeSlide.title?.mr : activeSlide?.title || '';
+
+  const titleEn = toCamelCaseTitle(rawTitleEn);
+  const titleMr = rawTitleMr || '';
+
+  // Show both languages simultaneously, prioritizing the active language on top
+  const primaryTitle = language === 'en' ? (titleEn || titleMr) : (titleMr || titleEn);
+  const secondaryTitle = language === 'en' ? (titleMr !== titleEn ? titleMr : null) : (titleEn !== titleMr ? titleEn : null);
 
   return (
-    <section className="w-full max-w-[1720px] mx-auto px-2 sm:px-4 lg:px-6 my-4 sm:my-6 select-none">
-      {/* VH Formatted, Unattached Floating Canvas with Left & Right Margins */}
+    <section className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] my-3 sm:my-4 md:my-5 select-none">
+      {/* Proportionally Calibrated Floating Canvas with Viewport Balancing (+50px elevated height) */}
       <div
-        className="relative w-full h-[62vh] sm:h-[70vh] lg:h-[76vh] min-h-[440px] max-h-[720px] rounded-3xl sm:rounded-[2rem] overflow-hidden bg-slate-900 shadow-[0_12px_45px_rgba(15,23,42,0.08)] border border-slate-200/80 group"
+        className="relative w-full h-[calc(38vh+50px)] sm:h-[calc(46vh+50px)] md:h-[calc(52vh+50px)] lg:h-[calc(58vh+50px)] xl:h-[calc(62vh+50px)] min-h-[290px] sm:min-h-[370px] md:min-h-[430px] lg:min-h-[470px] max-h-[610px] rounded-2xl sm:rounded-3xl lg:rounded-[2rem] overflow-hidden bg-slate-900 shadow-[0_12px_45px_rgba(15,23,42,0.08)] border border-slate-200/80 group"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
@@ -66,16 +90,16 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
         </AnimatePresence>
 
         {/* Top-Right Minimal Slide Counter Badge */}
-        <div className="absolute top-4 right-4 sm:top-6 sm:right-6 z-20">
-          <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-medium tracking-wide">
+        <div className="absolute top-3 right-3 sm:top-5 sm:right-5 z-20">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-[11px] sm:text-xs font-medium tracking-wide">
             <span className="text-amber-300 font-semibold">{String(currentSlide + 1).padStart(2, '0')}</span>
             <span className="text-white/40">/</span>
             <span className="text-white/70">{String(slides.length).padStart(2, '0')}</span>
           </div>
         </div>
 
-        {/* Text Capsule at Left Bottom of Image */}
-        <div className="absolute bottom-5 left-5 sm:bottom-7 sm:left-7 z-20 max-w-[90%] sm:max-w-lg pointer-events-none">
+        {/* Bilingual Text Capsule at Left Bottom of Image */}
+        <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 z-20 max-w-[calc(100%-110px)] sm:max-w-xl pointer-events-none">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentSlide}
@@ -83,50 +107,58 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.35 }}
-              className="p-4 sm:p-5 rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 text-white shadow-xl space-y-1.5"
+              className="p-3 sm:p-4.5 lg:p-5 rounded-xl sm:rounded-2xl bg-black/55 backdrop-blur-md border border-white/20 text-white shadow-xl space-y-1.5"
             >
-              <div className="flex items-center gap-1.5 text-xs font-semibold tracking-wider text-amber-300 uppercase">
-                <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                <span>
-                  {language === 'mr'
-                    ? 'राहुरी मध्यवर्ती परिसर'
-                    : 'Rahuri Central Campus'}
+              {/* Capsule Pill - Bilingual in Camel Case */}
+              <div className="flex items-center gap-1.5 text-[10.5px] sm:text-xs font-semibold tracking-wide text-amber-300">
+                <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 flex-shrink-0" />
+                <span className="line-clamp-1">
+                  राहुरी मध्यवर्ती परिसर · Rahuri Central Campus
                 </span>
               </div>
-              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-white/95 leading-snug drop-shadow-sm">
-                {getBilingual(activeSlide?.title)}
-              </h2>
+
+              {/* Bilingual Titles - Both Languages Rendered in Camel Case */}
+              <div className="space-y-0.5 sm:space-y-1">
+                <h2 className="text-xs sm:text-base md:text-lg lg:text-xl font-semibold text-white/95 leading-snug drop-shadow-sm line-clamp-2">
+                  {primaryTitle}
+                </h2>
+                {secondaryTitle && (
+                  <p className="text-[11px] sm:text-xs md:text-sm font-medium text-amber-200/90 leading-snug drop-shadow-sm line-clamp-2">
+                    {secondaryTitle}
+                  </p>
+                )}
+              </div>
             </motion.div>
           </AnimatePresence>
         </div>
 
         {/* Subtle, Leisurely Prev/Next Controls at Bottom Right */}
-        <div className="absolute bottom-5 right-5 sm:bottom-7 sm:right-7 z-20 flex items-center gap-2">
+        <div className="absolute bottom-3 right-3 sm:bottom-6 sm:right-6 z-20 flex items-center gap-1.5 sm:gap-2">
           {/* Pause / Play */}
           <button
             onClick={() => setIsPaused(!isPaused)}
-            className="p-2 rounded-full bg-black/35 hover:bg-black/60 text-white/80 hover:text-white backdrop-blur-md border border-white/15 transition-all text-xs"
+            className="p-1.5 sm:p-2 rounded-full bg-black/35 hover:bg-black/60 text-white/80 hover:text-white backdrop-blur-md border border-white/15 transition-all text-xs"
             title={isPaused ? 'Play' : 'Pause'}
           >
-            {isPaused ? <Play className="w-3.5 h-3.5" /> : <Pause className="w-3.5 h-3.5" />}
+            {isPaused ? <Play className="w-3 h-3 sm:w-3.5 sm:h-3.5" /> : <Pause className="w-3 h-3 sm:w-3.5 sm:h-3.5" />}
           </button>
 
           {/* Prev */}
           <button
             onClick={handlePrev}
-            className="p-2 rounded-full bg-black/35 hover:bg-black/60 text-white backdrop-blur-md border border-white/15 hover:border-amber-300/60 transition-all active:scale-95"
+            className="p-1.5 sm:p-2 rounded-full bg-black/35 hover:bg-black/60 text-white backdrop-blur-md border border-white/15 hover:border-amber-300/60 transition-all active:scale-95"
             aria-label="Previous Slide"
           >
-            <ChevronLeft className="w-4 h-4" />
+            <ChevronLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>
 
           {/* Next */}
           <button
             onClick={handleNext}
-            className="p-2 rounded-full bg-black/35 hover:bg-black/60 text-white backdrop-blur-md border border-white/15 hover:border-amber-300/60 transition-all active:scale-95"
+            className="p-1.5 sm:p-2 rounded-full bg-black/35 hover:bg-black/60 text-white backdrop-blur-md border border-white/15 hover:border-amber-300/60 transition-all active:scale-95"
             aria-label="Next Slide"
           >
-            <ChevronRight className="w-4 h-4" />
+            <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>
         </div>
 
