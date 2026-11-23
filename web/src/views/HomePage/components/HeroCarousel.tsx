@@ -54,9 +54,9 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
   const titleEn = toCamelCaseTitle(rawTitleEn);
   const titleMr = rawTitleMr || '';
 
-  // Show both languages simultaneously, prioritizing the active language on top
-  const primaryTitle = language === 'en' ? (titleEn || titleMr) : (titleMr || titleEn);
-  const secondaryTitle = language === 'en' ? (titleMr !== titleEn ? titleMr : null) : (titleEn !== titleMr ? titleEn : null);
+  // Show only selected language text at a time per user preference
+  const currentTitle = language === 'en' ? (titleEn || titleMr) : (titleMr || titleEn);
+  const campusLabel = language === 'en' ? 'Rahuri Central Campus' : 'राहुरी मध्यवर्ती परिसर';
 
   return (
     <section className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] my-3 sm:my-4 md:my-5 select-none">
@@ -109,24 +109,19 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
               transition={{ duration: 0.35 }}
               className="p-3 sm:p-4.5 lg:p-5 rounded-xl sm:rounded-2xl bg-black/55 backdrop-blur-md border border-white/20 text-white shadow-xl space-y-1.5"
             >
-              {/* Capsule Pill - Bilingual in Camel Case */}
+              {/* Capsule Pill - Selected Language Only */}
               <div className="flex items-center gap-1.5 text-[10.5px] sm:text-xs font-semibold tracking-wide text-amber-300">
                 <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 flex-shrink-0" />
                 <span className="line-clamp-1">
-                  राहुरी मध्यवर्ती परिसर · Rahuri Central Campus
+                  {campusLabel}
                 </span>
               </div>
 
-              {/* Bilingual Titles - Both Languages Rendered in Camel Case */}
-              <div className="space-y-0.5 sm:space-y-1">
+              {/* Title - Selected Language Only */}
+              <div>
                 <h2 className="text-xs sm:text-base md:text-lg lg:text-xl font-semibold text-white/95 leading-snug drop-shadow-sm line-clamp-2">
-                  {primaryTitle}
+                  {currentTitle}
                 </h2>
-                {secondaryTitle && (
-                  <p className="text-[11px] sm:text-xs md:text-sm font-medium text-amber-200/90 leading-snug drop-shadow-sm line-clamp-2">
-                    {secondaryTitle}
-                  </p>
-                )}
               </div>
             </motion.div>
           </AnimatePresence>

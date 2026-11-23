@@ -105,15 +105,15 @@ export const AccessibilityProvider: React.FC<{ children: React.ReactNode }> = ({
 
     const updateRootFontSize = () => {
       const width = window.innerWidth;
-      let basePercent = 106.25;
+      let basePercent = 93.75;
       if (width < 640) {
-        basePercent = 87.5; // 14px base for sleek, proportional mobile views
+        basePercent = 81.25; // 13px base for sleek, proportional mobile views
       } else if (width < 1024) {
-        basePercent = 93.75; // 15px base for tablets
+        basePercent = 87.5; // 14px base for tablets
       } else if (width < 1280) {
-        basePercent = 106.25; // 17px base for standard desktop
+        basePercent = 93.75; // 15px base for standard desktop
       } else {
-        basePercent = 112.5; // 18px base for wide desktop readability
+        basePercent = 100; // 16px base for wide desktop
       }
 
       const sizeMultiplier = 1.0 + fontSize * 0.1;

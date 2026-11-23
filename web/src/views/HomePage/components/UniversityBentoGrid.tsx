@@ -1,162 +1,290 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import {
-  Sprout,
-  Wrench,
-  Radio,
-  CloudSun,
-  BookOpen,
   GraduationCap,
+  Sprout,
+  Users,
+  BookOpen,
   ArrowRight,
   Layers,
-  Sparkles
+  Atom,
+  Flame
 } from 'lucide-react';
 
 export const UniversityBentoGrid: React.FC = () => {
   const { language } = useLanguage();
+  const [activeFilter, setActiveFilter] = useState<'all' | 'education' | 'research' | 'extension'>('all');
 
   const bentoCards = [
     {
+      id: 'education',
+      category: 'education',
       span: 'lg:col-span-2 md:col-span-2',
-      icon: Sprout,
-      iconBg: 'bg-emerald-100 text-emerald-800',
-      title: language === 'mr' ? 'पीक पैदास व बियाणे संशोधन' : 'Crop Breeding & Seed Heritage',
-      desc: language === 'mr'
-        ? 'तृणधान्ये, कडधान्ये, गळीत धान्ये व फळबागांचे २७० हून अधिक सुधारित वाण विकसित. फुले वरदान, फुले समाधान व फुले भगवा संपूर्ण भारतात नामांकित.'
-        : 'Over 270 high-yielding notified crop varieties across cereals, pulses, and horticulture developed by central Rahuri scientists.',
-      link: '/seeds-availability',
-      linkText: language === 'mr' ? 'बियाणे साठा तपासा' : 'Check Seed Stock',
-      cardBg: 'bg-[#f0fdf4] hover:bg-[#e6f9ed] border-emerald-100'
-    },
-    {
-      span: 'lg:col-span-1 md:col-span-1',
-      icon: Wrench,
-      iconBg: 'bg-amber-100 text-amber-800',
-      title: language === 'mr' ? 'शेती यांत्रिकीकरण' : 'Farm Mechanization',
-      desc: language === 'mr'
-        ? 'शेतकऱ्यांचे श्रम कमी करणारी फुले टोकण यंत्र, कांदा रोप लागवड यंत्र व ३५+ विकसित अवजारे.'
-        : 'Innovative tractor and bullock-drawn farm tools designed by Dr. A.S. CAET Rahuri.',
-      link: '/farm-implements',
-      linkText: language === 'mr' ? 'अवजारे सूची' : 'Explore Tools',
-      cardBg: 'bg-[#fffbeb] hover:bg-[#fef3c7] border-amber-100'
-    },
-    {
-      span: 'lg:col-span-1 md:col-span-1',
-      icon: Radio,
-      iconBg: 'bg-rose-100 text-rose-800',
-      title: language === 'mr' ? 'फुले कृषिवाहिनी' : 'Phule FM 90.8',
-      desc: language === 'mr'
-        ? 'राहुरी परिसरातील मध्यवर्ती स्टुडिओवरून दररोज थेट शेती सल्ला, हवामान अंदाज व तज्ज्ञ मार्गदर्शन.'
-        : 'Daily community radio broadcast from Central Studio Rahuri delivering farming advisory.',
-      link: '#radio',
-      linkText: language === 'mr' ? 'रेडिओ ऐका' : 'Listen Live',
-      cardBg: 'bg-[#fff1f2] hover:bg-[#ffe4e6] border-rose-100'
-    },
-    {
-      span: 'lg:col-span-1 md:col-span-1',
-      icon: CloudSun,
-      iconBg: 'bg-sky-100 text-sky-800',
-      title: language === 'mr' ? 'हवामान शेती व ड्रोन्स' : 'Climate Ag & Drones',
-      desc: language === 'mr'
-        ? 'शेतीत ड्रोन्स तंत्रज्ञान, सूक्ष्म सिंचन ऑटोमेशन आणि हवामान अंदाज अचूक मॉडेलिंग.'
-        : 'High-tech center equipped with agricultural drones, spatial analytics, and IoT irrigation.',
-      link: '/research/aicrp',
-      linkText: language === 'mr' ? 'प्रकल्प माहिती' : 'View CAAST',
-      cardBg: 'bg-[#f0f9ff] hover:bg-[#e0f2fe] border-sky-100'
-    },
-    {
-      span: 'lg:col-span-1 md:col-span-1',
-      icon: BookOpen,
-      iconBg: 'bg-purple-100 text-purple-800',
-      title: language === 'mr' ? 'डिजिटल ज्ञानभांडार' : 'Knowledge Repository',
-      desc: language === 'mr'
-        ? '१.५ लाखांहून अधिक ग्रंथ, CeRA ई-जर्नल्स, कृषिकोश डिजिटल प्रबंध आणि वाचन कक्ष सुविधा.'
-        : '150,000+ volumes, ICAR CeRA consortium e-journals, student halls, and digital archives.',
-      link: '/central-library-rahuri',
-      linkText: language === 'mr' ? 'ग्रंथालय सेवा' : 'Library Portal',
-      cardBg: 'bg-[#faf5ff] hover:bg-[#f3e8ff] border-purple-100'
-    },
-    {
-      span: 'lg:col-span-2 md:col-span-2',
+      categoryBadge: language === 'mr' ? 'शिक्षण' : 'Education',
+      metric: language === 'mr' ? '७,५००+ विद्यार्थी' : '7,500+ Students',
       icon: GraduationCap,
-      iconBg: 'bg-teal-100 text-teal-800',
-      title: language === 'mr' ? 'पदव्युत्तर व अभियांत्रिकी शिक्षण' : 'Post Graduate & Engineering Hub',
+      title: language === 'mr' ? 'पदव्युत्तर महाविद्यालय व अभियांत्रिकी संकुल' : 'PG Institute & Engineering Colleges',
       desc: language === 'mr'
-        ? 'पदव्युत्तर महाविद्यालय (PGI) मध्यवर्ती परिसर येथे १० विषयांत M.Sc. व Ph.D. अभ्यासक्रम. डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी महाविद्यालयात B.Tech, M.Tech व Ph.D. पदव्यांचे अध्यापन.'
-        : 'Central Campus Rahuri houses the Post Graduate Institute across 10 specialized departments, alongside Dr. A.S. CAET for agricultural engineering.',
+        ? 'PGI राहुरी येथे १० विषयांत M.Sc. व Ph.D. अध्यापन. डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी (CAET) आणि पुणे, धुळे, कोल्हापूर महाविद्यालये.'
+        : 'PGI Rahuri across 10 PG departments, alongside Dr. A.S. CAET Engineering and constituent colleges at Pune, Dhule, and Kolhapur.',
       link: '/post-graduate-institute-rahuri',
-      linkText: language === 'mr' ? 'महाविद्यालये पहा' : 'Explore Colleges',
-      cardBg: 'bg-[#f0fdfa] hover:bg-[#ccfbf1] border-teal-100'
+      linkText: language === 'mr' ? 'महाविद्यालये' : 'Explore Colleges',
+      styles: {
+        cardBg: 'bg-gradient-to-br from-white via-emerald-50/40 to-teal-50/50 hover:to-teal-50/80',
+        border: 'border-emerald-200/90 hover:border-emerald-400',
+        badgeBg: 'bg-emerald-100 text-emerald-950 border-emerald-300/80',
+        iconBg: 'bg-gradient-to-br from-emerald-600 to-teal-700 text-white shadow-xs',
+        metricBg: 'bg-white/90 border-emerald-200 text-emerald-900',
+        linkText: 'text-emerald-800 hover:text-emerald-950'
+      }
+    },
+    {
+      id: 'research',
+      category: 'research',
+      span: 'lg:col-span-2 md:col-span-2',
+      categoryBadge: language === 'mr' ? 'संशोधन' : 'Research',
+      metric: language === 'mr' ? '२७०+ वाण · १३+ पेटंट्स' : '270+ Varieties · 13+ Patents',
+      icon: Sprout,
+      title: language === 'mr' ? 'पीक पैदास, बियाणे तंत्रज्ञान व पेटंट्स' : 'Crop Breeding, Seed Heritage & Patents',
+      desc: language === 'mr'
+        ? '२७०+ सुधारित वाण (फुले वरदान, समाधान, भगवा). PPV&FRA अंतर्गत ३६ वाणांची राष्ट्रीय विक्रमी नोंदणी व २७ संशोधन केंद्रे.'
+        : 'Over 270 notified crop varieties, national PPV&FRA record holder (36 registered varieties), and 27 research stations.',
+      link: '/seeds-availability',
+      linkText: language === 'mr' ? 'वाण व तंत्रज्ञान' : 'View Research',
+      styles: {
+        cardBg: 'bg-gradient-to-br from-white via-amber-50/40 to-orange-50/50 hover:to-orange-50/80',
+        border: 'border-amber-200/90 hover:border-amber-400',
+        badgeBg: 'bg-amber-100 text-amber-950 border-amber-300/80',
+        iconBg: 'bg-gradient-to-br from-amber-500 to-orange-600 text-slate-950 shadow-xs',
+        metricBg: 'bg-white/90 border-amber-200 text-amber-950',
+        linkText: 'text-amber-800 hover:text-amber-950'
+      }
+    },
+    {
+      id: 'precision',
+      category: 'research',
+      span: 'lg:col-span-1 md:col-span-1',
+      categoryBadge: language === 'mr' ? 'अचूक शेती' : 'Agri-Tech',
+      metric: language === 'mr' ? 'ड्रोन्स व IoT' : 'Drones & IoT',
+      icon: Atom,
+      title: language === 'mr' ? 'हवामान शेती व कृषी ड्रोन्स' : 'Climate Ag & Drones',
+      desc: language === 'mr'
+        ? 'CAAST-CSAWM प्रकल्पांतर्गत अचूक शेती, ड्रोन फवारणी व सूक्ष्म सिंचन ऑटोमेशन मॉडेल.'
+        : 'High-tech center for agricultural drones, spatial analytics, and IoT irrigation models.',
+      link: '/research/aicrp',
+      linkText: language === 'mr' ? 'प्रकल्प माहिती' : 'Explore CAAST',
+      styles: {
+        cardBg: 'bg-gradient-to-br from-white via-cyan-50/40 to-sky-50/50 hover:to-sky-50/80',
+        border: 'border-cyan-200/90 hover:border-cyan-400',
+        badgeBg: 'bg-cyan-100 text-cyan-950 border-cyan-300/80',
+        iconBg: 'bg-gradient-to-br from-cyan-500 to-blue-600 text-white shadow-xs',
+        metricBg: 'bg-white/90 border-cyan-200 text-cyan-900',
+        linkText: 'text-cyan-800 hover:text-cyan-950'
+      }
+    },
+    {
+      id: 'extension',
+      category: 'extension',
+      span: 'lg:col-span-1 md:col-span-1',
+      categoryBadge: language === 'mr' ? 'विस्तार' : 'Extension',
+      metric: language === 'mr' ? '१० जिल्हे' : '10 Districts',
+      icon: Users,
+      title: language === 'mr' ? 'KVK नेटवर्क व शेतकरी ज्ञान' : 'KVK Outreach',
+      desc: language === 'mr'
+        ? '१० जिल्ह्यांत थेट शेतकरी प्रात्यक्षिके, ATIC केंद्र, तंत्रज्ञान हस्तांतरण व कृषी मेळावे.'
+        : 'Direct farmer extension through KVKs, ATIC single-window center, and training camps.',
+      link: '/contact-us',
+      linkText: language === 'mr' ? 'विस्तार सेवा' : 'View Services',
+      styles: {
+        cardBg: 'bg-gradient-to-br from-white via-rose-50/40 to-pink-50/50 hover:to-pink-50/80',
+        border: 'border-rose-200/90 hover:border-rose-400',
+        badgeBg: 'bg-rose-100 text-rose-950 border-rose-300/80',
+        iconBg: 'bg-gradient-to-br from-rose-500 to-pink-600 text-white shadow-xs',
+        metricBg: 'bg-white/90 border-rose-200 text-rose-900',
+        linkText: 'text-rose-800 hover:text-rose-950'
+      }
+    },
+    {
+      id: 'livestock',
+      category: 'research',
+      span: 'lg:col-span-1 md:col-span-1',
+      categoryBadge: language === 'mr' ? 'पशुसंवर्धन' : 'Livestock',
+      metric: language === 'mr' ? 'गीर व त्रिवेणी' : 'Gir Cattle',
+      icon: Flame,
+      title: language === 'mr' ? 'देशी गोवंश व फुले त्रिवेणी' : 'Indigenous Cattle',
+      desc: language === 'mr'
+        ? 'गीर गोवंश संवर्धन, फुले त्रिवेणी संकरित गाय संशोधन आणि उच्च जनुकीय रेतमात्रा.'
+        : 'Indigenous Gir cattle conservation, Phule Triveni milch cow project, and dairy genetics.',
+      link: '/seeds-availability',
+      linkText: language === 'mr' ? 'दुग्ध प्रकल्प' : 'Dairy Project',
+      styles: {
+        cardBg: 'bg-gradient-to-br from-white via-yellow-50/40 to-amber-50/50 hover:to-amber-50/80',
+        border: 'border-yellow-200/90 hover:border-amber-400',
+        badgeBg: 'bg-amber-100 text-amber-950 border-amber-300/80',
+        iconBg: 'bg-gradient-to-br from-amber-500 to-yellow-600 text-slate-950 shadow-xs',
+        metricBg: 'bg-white/90 border-amber-200 text-amber-900',
+        linkText: 'text-amber-800 hover:text-amber-950'
+      }
+    },
+    {
+      id: 'library',
+      category: 'education',
+      span: 'lg:col-span-1 md:col-span-1',
+      categoryBadge: language === 'mr' ? 'ज्ञानभांडार' : 'Library',
+      metric: language === 'mr' ? '१.५ लाख+ ग्रंथ' : '1.5L+ Volumes',
+      icon: BookOpen,
+      title: language === 'mr' ? 'मध्यवर्ती ग्रंथालय व ई-रिसोर्सेस' : 'Central Library',
+      desc: language === 'mr'
+        ? '१.५ लाख+ ग्रंथ, CeRA राष्ट्रीय ई-जर्नल्स, कृषिकोश डिजिटल प्रबंध व अभ्यास कक्ष.'
+        : 'Over 150,000 volumes, CeRA e-journals, KrishiKosh repository, and digital archives.',
+      link: '/central-library-rahuri',
+      linkText: language === 'mr' ? 'ग्रंथालय पोर्टल' : 'Library Portal',
+      styles: {
+        cardBg: 'bg-gradient-to-br from-white via-purple-50/40 to-indigo-50/50 hover:to-indigo-50/80',
+        border: 'border-purple-200/90 hover:border-purple-400',
+        badgeBg: 'bg-purple-100 text-purple-950 border-purple-300/80',
+        iconBg: 'bg-gradient-to-br from-purple-600 to-indigo-700 text-white shadow-xs',
+        metricBg: 'bg-white/90 border-purple-200 text-purple-900',
+        linkText: 'text-purple-800 hover:text-purple-950'
+      }
     }
   ];
 
+  const filteredCards = bentoCards.filter((card) => {
+    if (activeFilter === 'all') return true;
+    return card.category === activeFilter;
+  });
+
   return (
-    <section className="w-full py-16 bg-[#f8faf8] relative overflow-hidden border-t border-stone-200/60">
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] relative z-10">
-        {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 mb-8">
+    <section className="w-full py-10 sm:py-12 bg-[#edf3ed] relative overflow-hidden border-t border-stone-300">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] relative z-10 space-y-6">
+        
+        {/* Compact Section Header with Fast Pillar Tabs */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-stone-300">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-[11px] sm:text-xs font-semibold tracking-wide mb-2">
-              <Layers className="w-3.5 h-3.5 text-emerald-600" />
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 border border-emerald-300 text-emerald-950 text-[11px] font-bold uppercase tracking-wider mb-1.5 shadow-2xs">
+              <Layers className="w-3.5 h-3.5 text-emerald-700" />
               <span>{language === 'mr' ? 'मफुकृवि राहुरी: एक दृष्टिक्षेप' : 'MPKV Rahuri at a Glance'}</span>
             </div>
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-[28px] font-semibold text-slate-800 tracking-tight">
-              {language === 'mr' ? 'प्रमुख शक्तिस्थळे व कार्यक्षेत्र' : 'Core Research & Academic Pillars'}
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
+              {language === 'mr' ? 'प्रमुख शक्तिस्थळे व कार्यक्षेत्र' : 'Core Institutional Pillars'}
             </h2>
           </div>
 
-          <Link
-            href="/mpkv-at-a-glance"
-            className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white hover:bg-stone-50 text-slate-700 font-semibold text-xs sm:text-sm border border-stone-200 transition-colors shadow-2xs"
-          >
-            <span>{language === 'mr' ? 'सर्व संस्थात्मक माहिती' : 'Explore All Centers'}</span>
-            <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
-          </Link>
+          {/* Compact View Switcher */}
+          <div className="flex flex-wrap gap-1 bg-stone-200/90 p-1 rounded-xl border border-stone-300 select-none text-xs">
+            <button
+              onClick={() => setActiveFilter('all')}
+              className={`px-3 py-1 rounded-lg font-bold transition-all ${
+                activeFilter === 'all'
+                  ? 'bg-emerald-900 text-white shadow-xs'
+                  : 'text-stone-700 hover:text-stone-950'
+              }`}
+            >
+              {language === 'mr' ? 'सर्व (६)' : 'All (6)'}
+            </button>
+            <button
+              onClick={() => setActiveFilter('education')}
+              className={`px-3 py-1 rounded-lg font-bold transition-all flex items-center gap-1 ${
+                activeFilter === 'education'
+                  ? 'bg-emerald-800 text-white shadow-xs'
+                  : 'text-stone-700 hover:text-stone-950'
+              }`}
+            >
+              <GraduationCap className="w-3.5 h-3.5" />
+              <span>{language === 'mr' ? 'शिक्षण' : 'Education'}</span>
+            </button>
+            <button
+              onClick={() => setActiveFilter('research')}
+              className={`px-3 py-1 rounded-lg font-bold transition-all flex items-center gap-1 ${
+                activeFilter === 'research'
+                  ? 'bg-amber-700 text-white shadow-xs'
+                  : 'text-stone-700 hover:text-stone-950'
+              }`}
+            >
+              <Sprout className="w-3.5 h-3.5" />
+              <span>{language === 'mr' ? 'संशोधन' : 'Research'}</span>
+            </button>
+            <button
+              onClick={() => setActiveFilter('extension')}
+              className={`px-3 py-1 rounded-lg font-bold transition-all flex items-center gap-1 ${
+                activeFilter === 'extension'
+                  ? 'bg-rose-700 text-white shadow-xs'
+                  : 'text-stone-700 hover:text-stone-950'
+              }`}
+            >
+              <Users className="w-3.5 h-3.5" />
+              <span>{language === 'mr' ? 'विस्तार' : 'Extension'}</span>
+            </button>
+          </div>
         </div>
 
-        {/* Bento Grid - Soft Pastel Leisurely Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 auto-rows-fr">
-          {bentoCards.map((card, idx) => {
+        {/* Compact Dynamic Bento Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4 auto-rows-fr">
+          {filteredCards.map((card) => {
             const IconComponent = card.icon;
 
             return (
               <div
-                key={idx}
-                className={`${card.span} ${card.cardBg} rounded-2xl p-5 sm:p-6 border transition-all duration-300 hover:-translate-y-1 shadow-2xs hover:shadow-sm flex flex-col justify-between group`}
+                key={card.id}
+                className={`${card.span} ${card.styles.cardBg} rounded-2xl p-4 sm:p-5 border ${card.styles.border} transition-all duration-300 hover:-translate-y-0.5 shadow-2xs hover:shadow-sm flex flex-col justify-between group cursor-pointer`}
               >
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <div className={`w-10 h-10 rounded-xl ${card.iconBg} flex items-center justify-center font-medium shadow-2xs`}>
-                      <IconComponent className="w-5 h-5" />
+                <div className="space-y-2.5">
+                  {/* Top Bar: Icon + Badge + Metric */}
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <div
+                        className={`w-9 h-9 rounded-xl ${card.styles.iconBg} flex items-center justify-center font-medium shadow-xs group-hover:scale-105 transition-transform`}
+                      >
+                        <IconComponent className="w-4 h-4" />
+                      </div>
+                      <span
+                        className={`text-[10px] font-extrabold px-2 py-0.5 rounded-md border ${card.styles.badgeBg}`}
+                      >
+                        {card.categoryBadge}
+                      </span>
                     </div>
+
+                    <span
+                      className={`text-[10px] font-bold px-2 py-0.5 rounded-md border ${card.styles.metricBg}`}
+                    >
+                      {card.metric}
+                    </span>
                   </div>
 
+                  {/* Title & Short Description */}
                   <div>
-                    <h3 className="text-sm sm:text-base md:text-lg font-semibold text-slate-800 leading-snug group-hover:text-slate-950 transition-colors">
+                    <h3 className="text-sm sm:text-base font-bold text-slate-900 leading-snug group-hover:text-slate-950 transition-colors">
                       {card.title}
                     </h3>
-                    <p className="text-xs sm:text-[13px] md:text-sm text-slate-600 mt-1.5 leading-relaxed font-normal">
+                    <p className="text-xs text-slate-700 mt-1 leading-relaxed font-medium line-clamp-2">
                       {card.desc}
                     </p>
                   </div>
                 </div>
 
-                <div className="pt-3 mt-3.5 border-t border-black/5 flex items-center justify-between">
+                {/* Footer Action Link */}
+                <div className="pt-2.5 mt-3 border-t border-stone-200/70 flex items-center justify-between">
                   <Link
                     href={card.link}
-                    className="text-xs sm:text-sm font-semibold text-slate-700 hover:text-slate-900 inline-flex items-center gap-1.5 transition-colors"
+                    className={`text-xs font-bold inline-flex items-center gap-1 transition-all ${card.styles.linkText}`}
                   >
                     <span>{card.linkText}</span>
-                    <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:translate-x-0.5 transition-transform" />
+                    <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                   </Link>
+
+                  <span className="text-[10.5px] font-medium text-slate-400 group-hover:text-slate-600 transition-colors">
+                    {language === 'mr' ? 'सविस्तर' : 'Details'}
+                  </span>
                 </div>
               </div>
             );
           })}
         </div>
+
       </div>
     </section>
   );

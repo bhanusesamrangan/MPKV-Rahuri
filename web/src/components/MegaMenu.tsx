@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLanguage } from '@/context/LanguageContext';
@@ -42,6 +42,35 @@ export const MegaMenu: React.FC = () => {
   const [toolbarHeight, setToolbarHeight] = useState(38);
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
   const [expandedGroup, setExpandedGroup] = useState<string | null>(null);
+
+  // Debounce timeout ref to prevent dropdown disappearing on mouse transition
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = (id: string) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setActiveDropdown(id);
+  };
+
+  const handleMouseLeave = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    timeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null);
+    }, 200);
+  };
+
+  // Cleanup timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   const toggleCategory = (id: string, childrenCount: number, firstGroupId?: string) => {
     if (expandedCategory === id) {
@@ -121,7 +150,7 @@ export const MegaMenu: React.FC = () => {
     <>
       <nav
         style={{ top: `${toolbarHeight}px` }}
-        className="w-full bg-[#2d6445] text-white border-b border-[#214f35] sticky z-40 shadow-sm transition-colors"
+        className="w-full bg-gradient-to-r from-[#133523] via-[#1f4e34] via-35% via-[#265e3f] via-65% to-[#163c27] text-white border-b border-[#0e2619] shadow-md sticky z-40 transition-all border-t border-emerald-500/20"
       >
         <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] flex items-center justify-between">
           {/* Mobile Navigation Header Trigger - Menu Icon Only */}
@@ -143,88 +172,123 @@ export const MegaMenu: React.FC = () => {
               const isDropdownActive = activeDropdown === item.id;
               const isActive = pathname === item.href;
 
+              // Dynamic width and layout based on number of child groups
+              const childrenCount = (item.children || []).length;
+              let gridCols = 'grid-cols-1';
+              let widthClass = 'min-w-[390px] max-w-[460px]';
+              let alignClass = 'left-0';
+
+              if (childrenCount === 2) {
+                gridCols = 'grid-cols-2';
+                widthClass = 'min-w-[720px] xl:min-w-[790px] max-w-[880px]';
+                alignClass = item.id === 'menu_farmer' ? 'right-0' : 'left-0';
+              } else if (childrenCount >= 3) {
+                gridCols = 'grid-cols-3';
+                widthClass = 'min-w-[980px] xl:min-w-[1100px] max-w-[1240px]';
+                alignClass = 'left-0';
+              }
+
               return (
                 <li
                   key={item.id}
                   className="relative group"
-                  onMouseEnter={() => hasChildren && setActiveDropdown(item.id)}
-                  onMouseLeave={() => hasChildren && setActiveDropdown(null)}
+                  onMouseEnter={() => hasChildren && handleMouseEnter(item.id)}
+                  onMouseLeave={() => hasChildren && handleMouseLeave()}
                 >
                   {hasChildren ? (
                     <button
-                      className={`flex items-center gap-1.5 px-3.5 py-2.5 text-sm xl:text-[15px] font-medium rounded-xl transition-all relative ${isDropdownActive
-                        ? 'bg-white/20 text-white shadow-2xs border border-white/25'
-                        : 'text-white hover:bg-white/15'
+                      onClick={() => {
+                        if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                        setActiveDropdown(isDropdownActive ? null : item.id);
+                      }}
+                      className={`flex items-center gap-1.5 px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative ${isDropdownActive
+                        ? 'bg-white/20 text-white shadow-xs border border-white/25'
+                        : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
                     >
-                      {IconComponent && <IconComponent className="w-4 h-4 text-white/80" />}
+                      {IconComponent && <IconComponent className="w-3.5 h-3.5 text-emerald-200" />}
                       <span>{getBilingual(item.title)}</span>
                       <ChevronDown
-                        className={`w-3.5 h-3.5 transition-transform duration-150 ${isDropdownActive ? 'rotate-180 text-white' : 'text-white/75'
+                        className={`w-3.5 h-3.5 transition-transform duration-150 ${isDropdownActive ? 'rotate-180 text-white' : 'text-emerald-200/80'
                           }`}
                       />
                       {isDropdownActive && (
-                        <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-white rounded-full" />
+                        <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
                       )}
                     </button>
                   ) : (
                     <Link
                       href={item.href}
-                      className={`flex items-center gap-1.5 px-3.5 py-2.5 text-sm xl:text-[15px] font-medium rounded-xl transition-all relative ${isActive
-                        ? 'bg-white/20 text-white shadow-2xs border border-white/25'
-                        : 'text-white hover:bg-white/15'
+                      className={`flex items-center gap-1.5 px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative ${isActive
+                        ? 'bg-white/20 text-white shadow-xs border border-white/25'
+                        : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
                     >
-                      {IconComponent && <IconComponent className="w-4 h-4 text-white/80" />}
+                      {IconComponent && <IconComponent className="w-3.5 h-3.5 text-emerald-200" />}
                       <span>{getBilingual(item.title)}</span>
                       {isActive && (
-                        <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-white rounded-full" />
+                        <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
                       )}
                     </Link>
                   )}
 
-                  {/* 3-Level Mega Dropdown Panel */}
+                  {/* 3-Level Mega Dropdown Panel - Single-Lined Visible Content with Zero-Gap Hover Bridge */}
                   {hasChildren && isDropdownActive && (
-                    <div className="absolute left-0 top-full mt-1 min-w-[620px] max-w-[850px] bg-white text-slate-800 shadow-xl rounded-2xl border border-slate-200/90 p-5 grid grid-cols-2 md:grid-cols-3 gap-5 animate-in fade-in slide-in-from-top-1 duration-150 z-50">
-                      {item.children.map((group: any, idx: number) => (
-                        <div key={idx} className="space-y-2">
-                          {group.is_group && (
-                            <div className="flex items-center gap-1.5 border-b border-slate-100 pb-1.5">
-                              <span className="w-1.5 h-3.5 bg-[#2d6445] rounded-full" />
-                              <h5 className="text-xs font-semibold uppercase tracking-wider text-slate-800">
-                                {getBilingual(group.title)}
-                              </h5>
-                            </div>
-                          )}
-                          <ul className="space-y-0.5">
-                            {(group.children || [group]).map((leaf: any, lIdx: number) => {
-                              const isLeafActive = pathname === leaf.href;
-                              return (
-                                <li key={lIdx}>
-                                  <Link
-                                    href={leaf.href}
-                                    onClick={() => setActiveDropdown(null)}
-                                    className={`group/link flex items-center justify-between text-sm py-2 px-2.5 rounded-xl transition-all ${isLeafActive
-                                      ? 'bg-slate-100 text-slate-950 font-semibold border-l-2 border-[#2d6445]'
-                                      : 'text-slate-700 hover:bg-slate-50 hover:text-slate-950'
-                                      }`}
-                                  >
-                                    <span className="line-clamp-2">{getBilingual(leaf.title)}</span>
-                                    <ArrowRight className="w-3.5 h-3.5 text-slate-400 opacity-0 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all flex-shrink-0 ml-1" />
-                                  </Link>
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
-                      ))}
+                    <div
+                      className={`absolute ${alignClass} top-full pt-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150`}
+                      onMouseEnter={() => handleMouseEnter(item.id)}
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      {/* Invisible Hover Shield Bridge connecting navbar button to dropdown */}
+                      <div className="absolute -top-3 left-0 right-0 h-4 bg-transparent" />
 
-                      {/* Bottom MegaMenu Quick Footer Tag */}
-                      <div className="col-span-full pt-3 mt-1 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
-                        <span className="flex items-center gap-1.5 font-medium text-slate-600">
-                          <ShieldCheck className="w-4 h-4 text-slate-700" />
-                          <span>{language === 'mr' ? 'राहुरी मध्यवर्ती परिसर अधिकृत माहिती' : 'Official Rahuri HQ Scope'}</span>
-                        </span>
+                      <div className={`${widthClass} bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 p-5 grid ${gridCols} gap-6 relative`}>
+                        {/* Top Accent Gradient Line */}
+                        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-600 via-amber-400 to-emerald-600 rounded-t-2xl" />
+
+                        {item.children.map((group: any, idx: number) => (
+                          <div key={idx} className="space-y-2">
+                            {group.is_group && (
+                              <div className="flex items-center gap-2 border-b border-stone-200 pb-2 mb-1.5">
+                                <span className="w-1.5 h-3.5 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-full" />
+                                <h5 className="text-[11px] xl:text-xs font-bold uppercase tracking-wider text-slate-900 whitespace-nowrap">
+                                  {getBilingual(group.title)}
+                                </h5>
+                              </div>
+                            )}
+                            <ul className="space-y-1">
+                              {(group.children || [group]).map((leaf: any, lIdx: number) => {
+                                const isLeafActive = pathname === leaf.href;
+                                return (
+                                  <li key={lIdx}>
+                                    <Link
+                                      href={leaf.href}
+                                      onClick={() => setActiveDropdown(null)}
+                                      className={`group/link flex items-center justify-between text-xs xl:text-[13px] py-1.5 px-2.5 rounded-xl transition-all ${isLeafActive
+                                        ? 'bg-emerald-50 text-emerald-950 font-bold border-l-2 border-emerald-600 shadow-2xs'
+                                        : 'text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950'
+                                        }`}
+                                    >
+                                      <span className="whitespace-nowrap font-medium group-hover/link:font-semibold">{getBilingual(leaf.title)}</span>
+                                      <ArrowRight className="w-3.5 h-3.5 text-emerald-700 opacity-0 group-hover/link:opacity-100 group-hover/link:translate-x-1 transition-all flex-shrink-0 ml-3" />
+                                    </Link>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          </div>
+                        ))}
+
+                        {/* Bottom MegaMenu Quick Footer Tag */}
+                        <div className="col-span-full pt-3 mt-1 border-t border-stone-200 flex items-center justify-between text-[11px] text-slate-500">
+                          <span className="flex items-center gap-1.5 font-medium text-slate-600">
+                            <ShieldCheck className="w-4 h-4 text-emerald-700" />
+                            <span>{language === 'mr' ? 'राहुरी मध्यवर्ती परिसर अधिकृत पोर्टल माहिती' : 'Official Rahuri HQ Scope'}</span>
+                          </span>
+                          <span className="text-[10.5px] text-slate-400">
+                            {language === 'mr' ? 'थेट माहिती पृष्ठावर जा' : 'Navigate directly to section'}
+                          </span>
+                        </div>
                       </div>
                     </div>
                   )}

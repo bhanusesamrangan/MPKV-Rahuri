@@ -7,6 +7,7 @@ import { Topbar } from '@/components/Topbar';
 import { Header } from '@/components/Header';
 import { MegaMenu } from '@/components/MegaMenu';
 import { Footer } from '@/components/Footer';
+import { ScrollToTop } from '@/components/ScrollToTop';
 
 export default function ClientProviders({ children }: { children: React.ReactNode }) {
   return (
@@ -29,6 +30,9 @@ export default function ClientProviders({ children }: { children: React.ReactNod
 
           {/* Universal Footer */}
           <Footer />
+
+          {/* Floating Scroll to Top Action Button */}
+          <ScrollToTop />
         </div>
       </AccessibilityProvider>
     </LanguageProvider>
