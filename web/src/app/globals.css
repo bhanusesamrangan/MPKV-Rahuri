@@ -11,13 +11,13 @@
   }
 
   html {
-    font-size: 81.25%; /* 13px base on mobile screens (<640px) */
+    font-size: 100%; /* 16px base on mobile screens (<640px) for standard, legible, comfortable mobile reading */
     scroll-behavior: smooth;
   }
 
   @media (min-width: 640px) {
     html {
-      font-size: 87.5%; /* 14px base for tablets (640px-1023px) */
+      font-size: 93.75%; /* 15px base for tablets (640px-1023px) */
     }
   }
 
@@ -35,10 +35,10 @@
 
   /* Font Scaling Modes */
   html.font-scale-sm {
-    font-size: 75%;
+    font-size: 87.5%;
   }
   @media (min-width: 640px) {
-    html.font-scale-sm { font-size: 81.25%; }
+    html.font-scale-sm { font-size: 87.5%; }
   }
   @media (min-width: 1024px) {
     html.font-scale-sm { font-size: 87.5%; }
@@ -48,10 +48,10 @@
   }
 
   html.font-scale-md {
-    font-size: 81.25%;
+    font-size: 100%;
   }
   @media (min-width: 640px) {
-    html.font-scale-md { font-size: 87.5%; }
+    html.font-scale-md { font-size: 93.75%; }
   }
   @media (min-width: 1024px) {
     html.font-scale-md { font-size: 93.75%; }
@@ -61,10 +61,10 @@
   }
 
   html.font-scale-lg {
-    font-size: 87.5%;
+    font-size: 106.25%;
   }
   @media (min-width: 640px) {
-    html.font-scale-lg { font-size: 93.75%; }
+    html.font-scale-lg { font-size: 100%; }
   }
   @media (min-width: 1024px) {
     html.font-scale-lg { font-size: 100%; }

@@ -135,7 +135,7 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
                     
                     {/* Micro Category Tag */}
                     <div className="absolute bottom-1.5 left-1.5 right-1.5 sm:bottom-2 sm:left-2 sm:right-2 flex items-center justify-center">
-                      <span className="px-2 py-0.5 rounded-full bg-slate-950/70 backdrop-blur-md text-white text-[8px] sm:text-[9.5px] font-bold border border-white/20 shadow-xs tracking-wide truncate max-w-full">
+                      <span className="px-2 py-0.5 rounded-full bg-slate-950/70 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-bold border border-white/20 shadow-xs tracking-wide truncate max-w-full">
                         {theme.tag}
                       </span>
                     </div>
@@ -143,20 +143,20 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
 
                   {/* Bold Metric Number */}
                   <div className="text-center pt-0.5">
-                    <div className={`text-xl sm:text-2xl lg:text-[28px] font-black tracking-tight leading-none ${theme.numberColor}`}>
+                    <div className={`text-2xl sm:text-2xl lg:text-[28px] font-black tracking-tight leading-none ${theme.numberColor}`}>
                       {stat.number}
                     </div>
                   </div>
 
                   {/* Bilingual Descriptive Title */}
-                  <div className="text-[11px] sm:text-xs lg:text-[13px] font-bold text-slate-800 text-center leading-snug line-clamp-2 min-h-[28px] sm:min-h-[34px] flex items-center justify-center px-0.5">
+                  <div className="text-xs sm:text-[13px] lg:text-[14px] font-bold text-slate-800 text-center leading-snug line-clamp-2 min-h-[28px] sm:min-h-[34px] flex items-center justify-center px-0.5">
                     {getBilingual(stat.label)}
                   </div>
 
                 </div>
 
                 {/* Subtle Hover Action Footer */}
-                <div className="pt-2 mt-2.5 border-t border-stone-100 flex items-center justify-center text-[9.5px] sm:text-[10.5px] font-bold text-slate-500 group-hover:text-slate-900 transition-colors">
+                <div className="pt-2 mt-2.5 border-t border-stone-100 flex items-center justify-center text-[11px] sm:text-xs font-bold text-slate-500 group-hover:text-slate-900 transition-colors">
                   <span className="inline-flex items-center gap-1">
                     <span>{language === 'mr' ? 'सविस्तर' : 'Explore'}</span>
                     <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3 group-hover:translate-x-1 transition-transform" />
