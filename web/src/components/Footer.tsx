@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
-import { Mail, Phone, MapPin, ExternalLink, ShieldCheck, Sparkles } from 'lucide-react';
+import { Mail, Phone, MapPin, ExternalLink, ShieldCheck } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const { language } = useLanguage();
@@ -166,28 +166,52 @@ export const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Bottom Bar: Full-Width Copyright & Stats */}
-      <div className="w-full bg-[#e9eee9] py-4 border-t border-stone-200 text-slate-600 text-xs sm:text-sm">
-        <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] flex flex-col md:flex-row items-center justify-between gap-2.5 text-center md:text-left">
-          <div>
-            © {new Date().getFullYear()}{' '}
-            <span className="text-slate-800 font-semibold">
-              {language === 'mr'
-                ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी.'
-                : 'Mahatma Phule Krishi Vidyapeeth, Rahuri.'}
-            </span>{' '}
-            {language === 'mr' ? 'सर्व हक्क राखीव.' : 'All Rights Reserved.'}
+      {/* Bottom Bar: Full-Width Copyright, Developer Attribution & Stats */}
+      <div className="w-full bg-[#e3eae3] py-5 border-t border-stone-300/80 text-slate-600 text-xs sm:text-sm">
+        <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+          
+          {/* Left: Copyright & Developer Attribution */}
+          <div className="space-y-1.5 flex flex-col items-center md:items-start">
+            <div>
+              © {new Date().getFullYear()}{' '}
+              <span className="text-slate-900 font-semibold">
+                {language === 'mr'
+                  ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी.'
+                  : 'Mahatma Phule Krishi Vidyapeeth, Rahuri.'}
+              </span>{' '}
+              {language === 'mr' ? 'सर्व हक्क राखीव.' : 'All Rights Reserved.'}
+            </div>
+
+            {/* Developer attribution with Analytica Business Solutions Logo */}
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 pt-0.5 text-xs text-slate-600">
+              <span className="font-medium">
+                {language === 'mr'
+                  ? 'Analytica Business Solutions द्वारे विकसित आणि होस्ट केलेले'
+                  : 'Developed and hosted by Analytica Business Solutions'}
+              </span>
+              <a
+                href="https://abs-solutions.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-white px-2 py-0.5 rounded-md border border-stone-200/90 shadow-2xs hover:shadow-xs transition-all hover:scale-105"
+                title="Analytica Business Solutions"
+              >
+                <img
+                  src="/analytica-business-solutions-logo.png"
+                  alt="Analytica Business Solutions"
+                  className="h-5 sm:h-5.5 w-auto object-contain"
+                />
+              </a>
+            </div>
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <span>{language === 'mr' ? 'शेवटचे अद्यतन: २१ नोव्हेंबर २०२६' : 'Last Updated: 21 Nov 2026'}</span>
-            <span className="hidden sm:inline text-stone-300">•</span>
+
+          {/* Right: Portal Update & Visitor Stats (with 'राहुरी कॅम्पस विशेष' removed) */}
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-2.5 sm:gap-3 text-xs text-slate-600">
+            <span>{language === 'mr' ? 'शेवटचे अद्यतन: २३ नोव्हेंबर २०२६' : 'Last Updated: 23 Nov 2026'}</span>
+            <span className="text-stone-300">•</span>
             <span>{language === 'mr' ? 'एकूण दर्शक: १,४२,८५०' : 'Total Visitors: 1,42,850'}</span>
-            <span className="hidden sm:inline text-stone-300">•</span>
-            <span className="text-amber-800 font-medium flex items-center gap-1">
-              <Sparkles className="w-3 h-3 text-amber-600" />
-              <span>{language === 'mr' ? 'राहुरी कॅम्पस विशेष' : 'Rahuri Campus Exclusive'}</span>
-            </span>
           </div>
+
         </div>
       </div>
     </footer>
