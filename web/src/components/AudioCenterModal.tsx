@@ -135,10 +135,10 @@ export const AudioCenterModal: React.FC<AudioCenterModalProps> = ({
                 <div className="inline-flex p-3 rounded-full bg-red-100 text-red-600 mb-2">
                   <Radio className="w-8 h-8 animate-pulse" />
                 </div>
-                <h4 className="font-bold text-slate-800 text-base">
+                <h4 className="font-semibold text-slate-800 text-base sm:text-lg">
                   {language === 'mr' ? 'फुले कृषिवाहिनी (९०.८ FM)' : 'Phule Krishi Vahini 90.8 FM'}
                 </h4>
-                <p className="text-xs text-slate-600 font-medium mb-4">
+                <p className="text-sm text-slate-600 font-normal mb-4">
                   {language === 'mr' ? 'मफुकृवि राहुरी मध्यवर्ती स्टुडिओवरून थेट प्रक्षेपण' : 'Live Broadcast from Central Studio, MPKV Rahuri Campus'}
                 </p>
                 <audio
@@ -150,7 +150,7 @@ export const AudioCenterModal: React.FC<AudioCenterModalProps> = ({
                 >
                   Your browser does not support live streaming.
                 </audio>
-                <p className="text-[11px] text-slate-500 mt-2">
+                <p className="text-xs sm:text-sm text-slate-500 mt-2.5">
                   {language === 'mr' ? 'टीप: लाईव्ह प्रसारण ऐकताना अडचण आल्यास कृपया प्ले बटणावर पुन्हा क्लिक करा.' : 'Note: If stream disconnects, click play again to reconnect.'}
                 </p>
               </div>

@@ -107,65 +107,65 @@ export const UniversityBentoGrid: React.FC = () => {
 
   return (
     <section className="w-full py-16 bg-[#f8faf8] relative overflow-hidden border-t border-stone-200/60">
-      <div className="w-full max-w-[1536px] mx-auto px-4 sm:px-8 xl:px-12 relative z-10">
+      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 relative z-10">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-xs font-medium tracking-wide mb-2.5">
-              <Layers className="w-3.5 h-3.5 text-emerald-600" />
+            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-xs sm:text-sm font-semibold tracking-wide mb-2.5">
+              <Layers className="w-4 h-4 text-emerald-600" />
               <span>{language === 'mr' ? 'मफुकृवि राहुरी: एक दृष्टिक्षेप' : 'MPKV Rahuri at a Glance'}</span>
             </div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-slate-800 tracking-tight">
               {language === 'mr' ? 'प्रमुख शक्तिस्थळे व कार्यक्षेत्र' : 'Core Research & Academic Pillars'}
             </h2>
           </div>
 
           <Link
             href="/mpkv-at-a-glance"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white hover:bg-stone-50 text-slate-700 font-medium text-xs border border-stone-200 transition-colors shadow-2xs"
+            className="inline-flex items-center gap-1.5 px-4.5 py-2.5 rounded-xl bg-white hover:bg-stone-50 text-slate-700 font-semibold text-sm border border-stone-200 transition-colors shadow-2xs"
           >
             <span>{language === 'mr' ? 'सर्व संस्थात्मक माहिती' : 'Explore All Centers'}</span>
-            <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
+            <ArrowRight className="w-4 h-4 text-slate-400" />
           </Link>
         </div>
 
         {/* Bento Grid - Soft Pastel Leisurely Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-fr">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 auto-rows-fr">
           {bentoCards.map((card, idx) => {
             const IconComponent = card.icon;
 
             return (
               <div
                 key={idx}
-                className={`${card.span} ${card.cardBg} rounded-2xl p-5 sm:p-6 border transition-all duration-300 hover:-translate-y-1 shadow-2xs hover:shadow-sm flex flex-col justify-between group`}
+                className={`${card.span} ${card.cardBg} rounded-2xl p-6 sm:p-7 border transition-all duration-300 hover:-translate-y-1 shadow-2xs hover:shadow-sm flex flex-col justify-between group`}
               >
-                <div className="space-y-3">
+                <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
-                    <div className={`w-10 h-10 rounded-xl ${card.iconBg} flex items-center justify-center font-medium shadow-2xs`}>
+                    <div className={`w-11 h-11 rounded-xl ${card.iconBg} flex items-center justify-center font-medium shadow-2xs`}>
                       <IconComponent className="w-5 h-5" />
                     </div>
-                    <span className={`text-[10px] font-medium tracking-wide px-2.5 py-0.5 rounded-full ${card.badgeStyle}`}>
+                    <span className={`text-xs font-semibold tracking-wide px-3 py-1 rounded-full ${card.badgeStyle}`}>
                       {card.badge}
                     </span>
                   </div>
 
                   <div>
-                    <h3 className="text-sm sm:text-base font-semibold text-slate-800 leading-snug group-hover:text-slate-950 transition-colors">
+                    <h3 className="text-base sm:text-lg md:text-xl font-semibold text-slate-800 leading-snug group-hover:text-slate-950 transition-colors">
                       {card.title}
                     </h3>
-                    <p className="text-xs text-slate-600 mt-1.5 leading-relaxed font-normal">
+                    <p className="text-sm sm:text-base text-slate-600 mt-2 leading-relaxed font-normal">
                       {card.desc}
                     </p>
                   </div>
                 </div>
 
-                <div className="pt-3 mt-4 border-t border-black/5 flex items-center justify-between">
+                <div className="pt-3.5 mt-4 border-t border-black/5 flex items-center justify-between">
                   <Link
                     href={card.link}
-                    className="text-xs font-medium text-slate-700 hover:text-slate-900 inline-flex items-center gap-1.5 transition-colors"
+                    className="text-sm font-semibold text-slate-700 hover:text-slate-900 inline-flex items-center gap-1.5 transition-colors"
                   >
                     <span>{card.linkText}</span>
-                    <ArrowRight className="w-3 h-3 text-slate-400 group-hover:translate-x-0.5 transition-transform" />
+                    <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:translate-x-0.5 transition-transform" />
                   </Link>
                 </div>
               </div>

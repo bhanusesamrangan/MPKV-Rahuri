@@ -9,32 +9,32 @@ export const Footer: React.FC = () => {
   const { language } = useLanguage();
 
   return (
-    <footer className="w-full bg-[#f4f7f5] text-slate-600 text-xs border-t border-stone-200/80 mt-12 transition-colors">
+    <footer className="w-full bg-[#f4f7f5] text-slate-600 text-sm border-t border-stone-200/80 mt-12 transition-colors">
       {/* Upper Footer: Full-Width 4-Column Directory */}
-      <div className="w-full max-w-[1536px] mx-auto px-4 sm:px-8 xl:px-12 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 xl:gap-12">
+      <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 xl:gap-12">
         {/* Col 1: About Rahuri HQ */}
         <div className="space-y-3.5">
           <div className="flex items-center gap-3">
-            <img src="/media/logos/Logo.png" alt="MPKV Logo" className="w-10 h-10 object-contain rounded-full drop-shadow-2xs" />
+            <img src="/media/logos/Logo.png" alt="MPKV Logo" className="w-11 h-11 object-contain rounded-full drop-shadow-2xs" />
             <div>
-              <h4 className="text-slate-900 font-bold text-sm leading-tight">
+              <h4 className="text-slate-900 font-semibold text-base leading-tight">
                 {language === 'mr' ? 'महात्मा फुले कृषि विद्यापीठ' : 'Mahatma Phule Krishi Vidyapeeth'}
               </h4>
-              <p className="text-amber-800 font-medium text-xs">
+              <p className="text-amber-800 font-medium text-sm">
                 {language === 'mr' ? 'मध्यवर्ती परिसर, राहुरी' : 'Central Campus, Rahuri'}
               </p>
             </div>
           </div>
-          <p className="text-slate-500 leading-relaxed text-justify text-xs font-normal">
+          <p className="text-slate-600 leading-relaxed text-justify text-sm font-normal">
             {language === 'mr'
               ? 'महाराष्ट्र शासनाचे अग्रणी राज्य कृषि विद्यापीठ. हे अधिकृत पोर्टल केवळ मध्यवर्ती विद्यापीठ मुख्यालय, पदव्युत्तर महाविद्यालय, डॉ. अ.शि. कृषि अभियांत्रिकी व राहुरी मध्यवर्ती संशोधन केंद्रांसाठी समर्पित आहे.'
               : 'The premier State Agricultural University of Maharashtra. This portal is exclusively dedicated to the Central University Headquarters, PGI, Dr. A.S. CAET & Central Research Stations at Rahuri.'}
           </p>
           <div className="flex items-center gap-2 pt-1">
-            <span className="px-2.5 py-1 rounded-md bg-white border border-stone-200/80 text-amber-900 font-medium text-[11px] shadow-2xs">
+            <span className="px-3 py-1 rounded-md bg-white border border-stone-200/80 text-amber-900 font-medium text-xs shadow-2xs">
               ICAR Accredited 'A' Grade
             </span>
-            <span className="px-2.5 py-1 rounded-md bg-amber-50 border border-amber-200/60 text-amber-900 font-medium text-[11px]">
+            <span className="px-3 py-1 rounded-md bg-amber-50 border border-amber-200/60 text-amber-900 font-medium text-xs">
               Est. 1968
             </span>
           </div>
@@ -44,11 +44,11 @@ export const Footer: React.FC = () => {
         <div className="space-y-3">
           <div className="flex items-center gap-2 border-b border-stone-200/80 pb-2">
             <span className="w-1 h-3.5 bg-amber-500 rounded-full" />
-            <h4 className="text-slate-800 font-semibold text-xs uppercase tracking-wider">
+            <h4 className="text-slate-800 font-semibold text-xs sm:text-sm uppercase tracking-wider">
               {language === 'mr' ? 'महत्त्वाचे दुवे' : 'Essential Links'}
             </h4>
           </div>
-          <ul className="space-y-2 text-slate-600 font-normal">
+          <ul className="space-y-2 text-slate-600 font-normal text-sm">
             <li>
               <Link href="/mpkv-at-a-glance" className="hover:text-amber-800 transition-colors flex items-center gap-1.5">
                 <span className="text-slate-400">›</span>
@@ -92,11 +92,11 @@ export const Footer: React.FC = () => {
         <div className="space-y-3">
           <div className="flex items-center gap-2 border-b border-stone-200/80 pb-2">
             <span className="w-1 h-3.5 bg-amber-500 rounded-full" />
-            <h4 className="text-slate-800 font-semibold text-xs uppercase tracking-wider">
+            <h4 className="text-slate-800 font-semibold text-xs sm:text-sm uppercase tracking-wider">
               {language === 'mr' ? 'शेतकरी व नागरिक सेवा' : 'Farmer & Citizen Desk'}
             </h4>
           </div>
-          <ul className="space-y-2 text-slate-600 font-normal">
+          <ul className="space-y-2 text-slate-600 font-normal text-sm">
             <li>
               <Link href="/seeds-availability" className="hover:text-amber-800 transition-colors flex items-center gap-1.5 font-medium text-slate-800">
                 <span className="text-amber-600">›</span>
@@ -125,7 +125,7 @@ export const Footer: React.FC = () => {
               <a href="https://icar.org.in" target="_blank" rel="noopener noreferrer" className="hover:text-amber-800 transition-colors inline-flex items-center gap-1">
                 <span className="text-slate-400">›</span>
                 <span>ICAR New Delhi</span>
-                <ExternalLink className="w-2.5 h-2.5 text-slate-400" />
+                <ExternalLink className="w-3 h-3 text-slate-400" />
               </a>
             </li>
           </ul>
@@ -135,14 +135,14 @@ export const Footer: React.FC = () => {
         <div className="space-y-3">
           <div className="flex items-center gap-2 border-b border-stone-200/80 pb-2">
             <span className="w-1 h-3.5 bg-amber-500 rounded-full" />
-            <h4 className="text-slate-800 font-semibold text-xs uppercase tracking-wider">
+            <h4 className="text-slate-800 font-semibold text-xs sm:text-sm uppercase tracking-wider">
               {language === 'mr' ? 'मध्यवर्ती संपर्क (राहुरी)' : 'Headquarters Contact'}
             </h4>
           </div>
-          <div className="space-y-2 text-slate-600 font-normal">
+          <div className="space-y-2.5 text-slate-600 font-normal text-sm">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
-              <span className="leading-relaxed text-xs">
+              <span className="leading-relaxed text-sm">
                 {language === 'mr'
                   ? 'महात्मा फुले कृषि विद्यापीठ, मध्यवर्ती परिसर, राहुरी, जि. अहिल्यानगर (अहमदनगर) - ४१३७२२, महाराष्ट्र'
                   : 'Mahatma Phule Krishi Vidyapeeth, Central Campus, Rahuri, Dist. Ahilyanagar (Ahmednagar) - 413722, Maharashtra'}
@@ -157,7 +157,7 @@ export const Footer: React.FC = () => {
               <span>registrar.mpkv@gov.in</span>
             </div>
             <div className="pt-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-[11px] font-medium">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-xs font-medium">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                 <span>GIGW 3.0 & WCAG 2.1 AA Compliant</span>
               </span>
@@ -167,8 +167,8 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Bar: Full-Width Copyright & Stats */}
-      <div className="w-full bg-[#e9eee9] py-3.5 border-t border-stone-200 text-slate-500 text-[11px]">
-        <div className="w-full max-w-[1536px] mx-auto px-4 sm:px-8 xl:px-12 flex flex-col md:flex-row items-center justify-between gap-2.5 text-center md:text-left">
+      <div className="w-full bg-[#e9eee9] py-4 border-t border-stone-200 text-slate-600 text-xs sm:text-sm">
+        <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 flex flex-col md:flex-row items-center justify-between gap-2.5 text-center md:text-left">
           <div>
             © {new Date().getFullYear()}{' '}
             <span className="text-slate-800 font-semibold">

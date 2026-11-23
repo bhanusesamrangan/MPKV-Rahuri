@@ -79,16 +79,16 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
   };
 
   return (
-    <div className="w-full px-4 sm:px-8 xl:px-12 py-8 space-y-8 transition-colors">
+    <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 xl:px-8 py-8 space-y-8 transition-colors">
       {/* Breadcrumb Navigation */}
-      <nav className="flex items-center gap-2 text-xs text-slate-500 overflow-x-auto whitespace-nowrap">
+      <nav className="flex items-center gap-2 text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
         <Link href="/" className="hover:text-emerald-700 flex items-center gap-1 font-medium">
-          <Home className="w-3.5 h-3.5" />
+          <Home className="w-4 h-4" />
           <span>{language === 'mr' ? 'मुख्यपृष्ठ' : 'Home'}</span>
         </Link>
-        <ChevronRight className="w-3 h-3 text-slate-400 flex-shrink-0" />
+        <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
         <span className="text-slate-600 font-medium">{language === 'mr' ? 'शेतकरी सेवा' : 'Farmer Services'}</span>
-        <ChevronRight className="w-3 h-3 text-slate-400 flex-shrink-0" />
+        <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
         <span className="font-semibold text-emerald-800">
           {language === 'mr' ? 'बियाणे व रोपवाटिका साठा' : 'Certified Seeds & Nursery Stock'}
         </span>
@@ -97,22 +97,22 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
       {/* Hero Header - Soft Pastel Leisurely Banner */}
       <div className="relative overflow-hidden bg-gradient-to-r from-[#f0f7f3] via-[#f7fbf8] to-[#faf9f5] text-slate-800 rounded-3xl p-6 sm:p-10 shadow-xs border border-emerald-100/80">
         <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-          <div className="space-y-2.5 max-w-3xl">
+          <div className="space-y-3 max-w-3xl">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-100/80 text-amber-900 text-xs font-semibold rounded-full uppercase border border-amber-200/60">
-                <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-amber-100/80 text-amber-900 text-xs sm:text-sm font-semibold rounded-full uppercase border border-amber-200/60">
+                <ShieldCheck className="w-4 h-4 text-amber-600" />
                 <span>{language === 'mr' ? 'राहुरी मध्यवर्ती प्रक्षेत्र साठा' : 'Rahuri Central Farm Stock'}</span>
               </span>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 bg-emerald-50 text-emerald-800 border border-emerald-200/60 rounded-full text-xs font-medium">
-                <Calendar className="w-3 h-3 text-emerald-600" />
+              <span className="inline-flex items-center gap-1 px-3 py-1 bg-emerald-50 text-emerald-800 border border-emerald-200/60 rounded-full text-xs sm:text-sm font-medium">
+                <Calendar className="w-3.5 h-3.5 text-emerald-600" />
                 <span>{language === 'mr' ? 'अद्यतन दिनांक: १७/११/२०२६' : 'Verified: 17/11/2026'}</span>
               </span>
             </div>
 
-            <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight text-slate-900">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-900">
               {language === 'mr' ? 'प्रमाणित बियाणे व रोपवाटिका साठा' : 'Certified Seeds & Nursery Plant Stock'}
             </h1>
-            <p className="text-slate-600 text-xs sm:text-sm leading-relaxed text-justify sm:text-left font-normal">
+            <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify sm:text-left font-normal">
               {language === 'mr'
                 ? 'महात्मा फुले कृषि विद्यापीठ, मध्यवर्ती परिसर, राहुरी बियाणे विभाग व मध्यवर्ती रोपवाटिका येथील विक्रीसाठी उपलब्ध अस्सल प्रमाणित साठा. शेतकऱ्यांसाठी थेट विद्यापीठ दर सूचीनुसार उपलब्ध.'
                 : 'Current verified live stock available for farmers at MPKV Rahuri Central Seed Department, Central Nursery & Farm Implements Workshop. Direct university farm procurement.'}
@@ -120,26 +120,26 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </div>
 
           {/* Seed Helpline Card */}
-          <div className="flex flex-col sm:flex-row lg:flex-col gap-2.5 bg-white border border-stone-200/80 rounded-2xl p-4 shadow-2xs flex-shrink-0">
+          <div className="flex flex-col sm:flex-row lg:flex-col gap-2.5 bg-white border border-stone-200/80 rounded-2xl p-4.5 shadow-2xs flex-shrink-0">
             <div className="flex items-center gap-3">
-              <div className="p-2.5 rounded-xl bg-amber-50 text-amber-800 flex-shrink-0 border border-amber-200/60">
-                <Phone className="w-4 h-4" />
+              <div className="p-3 rounded-xl bg-amber-50 text-amber-800 flex-shrink-0 border border-amber-200/60">
+                <Phone className="w-5 h-5" />
               </div>
               <div className="text-left">
-                <div className="text-slate-500 text-xs font-normal">
+                <div className="text-slate-500 text-xs sm:text-sm font-normal">
                   {language === 'mr' ? 'बियाणे विक्री कक्ष थेट संपर्क' : 'Rahuri Seed Desk Direct'}
                 </div>
                 <a
                   href="tel:02426243345"
-                  className="text-slate-800 hover:text-amber-700 font-semibold text-sm sm:text-base tracking-tight transition-colors block"
+                  className="text-slate-800 hover:text-amber-700 font-semibold text-base sm:text-lg tracking-tight transition-colors block"
                 >
                   02426-243345 / 243279
                 </a>
               </div>
             </div>
-            <div className="pt-2 border-t border-stone-100 flex items-center justify-between text-[11px] text-slate-500">
+            <div className="pt-2 border-t border-stone-100 flex items-center justify-between text-xs text-slate-500">
               <span className="flex items-center gap-1 font-normal">
-                <Clock className="w-3 h-3 text-slate-400" />
+                <Clock className="w-3.5 h-3.5 text-slate-400" />
                 <span>{language === 'mr' ? 'सकाळी ९ ते सायं ५:३०' : '9:00 AM - 5:30 PM'}</span>
               </span>
               <span className="text-slate-700 font-medium">
@@ -155,22 +155,22 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 1: Cereal Seeds */}
         <div
           onClick={() => setActiveTab('cereal')}
-          className={`cursor-pointer p-4 rounded-2xl border transition-all duration-200 ${
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
             activeTab === 'cereal'
               ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
               : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
           }`}
         >
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-slate-600">
+            <span className="text-sm font-medium text-slate-600">
               {language === 'mr' ? 'तृणधान्य बियाणे' : 'Cereal Seeds'}
             </span>
-            <Package className="w-4 h-4 text-emerald-600" />
+            <Package className="w-5 h-5 text-emerald-600" />
           </div>
-          <div className="mt-2 text-2xl font-bold text-slate-800">
+          <div className="mt-2 text-3xl font-semibold text-slate-800">
             {cerealItems.length}
           </div>
-          <div className="text-[11px] text-emerald-700 font-medium mt-1">
+          <div className="text-xs sm:text-sm text-emerald-700 font-medium mt-1">
             {language === 'mr' ? 'हरभरा, गहू, बरसीम' : 'Chickpea, Wheat, Berseem'}
           </div>
         </div>
@@ -178,22 +178,22 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 2: Central Nursery */}
         <div
           onClick={() => setActiveTab('central')}
-          className={`cursor-pointer p-4 rounded-2xl border transition-all duration-200 ${
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
             activeTab === 'central'
               ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
               : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
           }`}
         >
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-slate-600">
+            <span className="text-sm font-medium text-slate-600">
               {language === 'mr' ? 'मध्यवर्ती रोपवाटिका' : 'Central Nursery'}
             </span>
-            <Sprout className="w-4 h-4 text-emerald-600" />
+            <Sprout className="w-5 h-5 text-emerald-600" />
           </div>
-          <div className="mt-2 text-2xl font-bold text-slate-800">
+          <div className="mt-2 text-3xl font-semibold text-slate-800">
             {centralItems.length}
           </div>
-          <div className="text-[11px] text-emerald-700 font-medium mt-1">
+          <div className="text-xs sm:text-sm text-emerald-700 font-medium mt-1">
             {language === 'mr' ? 'डाळिंब, आंबा, नारळ, पेरू' : 'Pomegranate, Mango, Guava'}
           </div>
         </div>
@@ -201,22 +201,22 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 3: Horticulture Nursery */}
         <div
           onClick={() => setActiveTab('horticulture')}
-          className={`cursor-pointer p-4 rounded-2xl border transition-all duration-200 ${
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
             activeTab === 'horticulture'
               ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
               : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
           }`}
         >
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-slate-600">
+            <span className="text-sm font-medium text-slate-600">
               {language === 'mr' ? 'उद्यानविद्या रोपवाटिका' : 'Horticulture Nursery'}
             </span>
-            <Layers className="w-4 h-4 text-emerald-600" />
+            <Layers className="w-5 h-5 text-emerald-600" />
           </div>
-          <div className="mt-2 text-2xl font-bold text-slate-800">
+          <div className="mt-2 text-3xl font-semibold text-slate-800">
             {hortItems.length}
           </div>
-          <div className="text-[11px] text-emerald-700 font-medium mt-1">
+          <div className="text-xs sm:text-sm text-emerald-700 font-medium mt-1">
             {language === 'mr' ? 'लिंबू, शेवगा कलमे' : 'Lemon, Drumstick Grafts'}
           </div>
         </div>
@@ -224,34 +224,34 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Card 4: Farm Implements */}
         <div
           onClick={() => setActiveTab('implements')}
-          className={`cursor-pointer p-4 rounded-2xl border transition-all duration-200 ${
+          className={`cursor-pointer p-5 rounded-2xl border transition-all duration-200 ${
             activeTab === 'implements'
               ? 'bg-emerald-50/70 border-emerald-400 shadow-sm ring-2 ring-emerald-400/20'
               : 'bg-white border-slate-200/80 hover:border-emerald-300 shadow-2xs'
           }`}
         >
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-slate-600">
+            <span className="text-sm font-medium text-slate-600">
               {language === 'mr' ? 'विकसित शेती अवजारे' : 'Farm Implements'}
             </span>
-            <Sparkles className="w-4 h-4 text-amber-500" />
+            <Sparkles className="w-5 h-5 text-amber-500" />
           </div>
-          <div className="mt-2 text-2xl font-bold text-slate-800">
+          <div className="mt-2 text-3xl font-semibold text-slate-800">
             {implementItems.length}
           </div>
-          <div className="text-[11px] text-amber-700 font-medium mt-1">
+          <div className="text-xs sm:text-sm text-amber-700 font-medium mt-1">
             {language === 'mr' ? '३५ पेटंट व विकसित अवजारे' : '35 Rahuri Innovations'}
           </div>
         </div>
       </div>
 
       {/* Controls Bar: Category Selector + Search + Print */}
-      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 bg-white p-4.5 rounded-2xl border border-slate-200 shadow-xs">
         {/* Tab Buttons */}
-        <div className="flex flex-wrap items-center gap-1.5">
+        <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => setActiveTab('cereal')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
               activeTab === 'cereal'
                 ? 'bg-slate-900 text-white shadow-sm'
                 : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
@@ -261,7 +261,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </button>
           <button
             onClick={() => setActiveTab('central')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
               activeTab === 'central'
                 ? 'bg-slate-900 text-white shadow-sm'
                 : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
@@ -271,7 +271,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </button>
           <button
             onClick={() => setActiveTab('horticulture')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
               activeTab === 'horticulture'
                 ? 'bg-slate-900 text-white shadow-sm'
                 : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
@@ -281,7 +281,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </button>
           <button
             onClick={() => setActiveTab('implements')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`px-4.5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
               activeTab === 'implements'
                 ? 'bg-slate-900 text-white shadow-sm'
                 : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
@@ -294,7 +294,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         {/* Live Filter & Print */}
         <div className="flex flex-wrap items-center gap-3">
           {/* In-Stock Filter Toggle */}
-          <label className="flex items-center gap-2 text-xs font-bold text-slate-700 cursor-pointer select-none bg-slate-50 border border-slate-200 px-3 py-2 rounded-xl hover:bg-slate-100">
+          <label className="flex items-center gap-2 text-sm font-medium text-slate-700 cursor-pointer select-none bg-slate-50 border border-slate-200 px-3.5 py-2 rounded-xl hover:bg-slate-100">
             <input
               type="checkbox"
               checked={inStockOnly}
@@ -306,20 +306,20 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
 
           {/* Search Box */}
           <div className="relative min-w-[220px]">
-            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+            <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
               placeholder={language === 'mr' ? 'शोध (पिक / वाण / अवजार)...' : 'Filter crop, variety...'}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:bg-white transition-all"
+              className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:bg-white transition-all"
             />
           </div>
 
           {/* Print Sheet */}
           <button
             onClick={handlePrint}
-            className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold transition-all shadow-2xs"
+            className="flex items-center gap-1.5 px-4 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-sm font-semibold transition-all shadow-2xs"
             title="Print Stock Sheet"
           >
             <Printer className="w-4 h-4 text-slate-600" />
@@ -332,12 +332,12 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
       {activeTab === 'cereal' && (
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden transition-all">
           <div className="p-4 sm:p-5 bg-gradient-to-r from-emerald-50/70 to-amber-50/30 border-b border-emerald-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <div className="font-semibold text-slate-800 text-sm sm:text-base flex items-center gap-2.5">
+            <div className="font-semibold text-slate-800 text-base sm:text-lg flex items-center gap-2.5">
               <Package className="w-5 h-5 text-emerald-700 flex-shrink-0" />
               <span>{getBilingual(seedStock.cereal_seeds?.title)}</span>
             </div>
-            <div className="flex items-center gap-3 text-xs">
-              <span className="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
+            <div className="flex items-center gap-3 text-xs sm:text-sm">
+              <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
                 {language === 'mr' ? 'फोन:' : 'Contact:'} {seedStock.cereal_seeds?.contact}
               </span>
               <span className="text-slate-500 font-normal">
@@ -347,9 +347,9 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full text-xs text-left border-collapse">
+            <table className="w-full text-sm sm:text-base text-left border-collapse">
               <thead>
-                <tr className="bg-[#f3f6f4] text-slate-700 uppercase text-[11px] font-semibold tracking-wider border-b border-stone-200">
+                <tr className="bg-[#f3f6f4] text-slate-800 uppercase text-xs sm:text-sm font-semibold tracking-wider border-b border-stone-200">
                   <th className="py-3.5 px-4">{language === 'mr' ? 'अ.क्र' : 'Sr.'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'पिक' : 'Crop'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'वाण' : 'Variety'}</th>
@@ -369,7 +369,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                     return (
                       <tr key={idx} className="hover:bg-emerald-50/40 transition-colors">
                         <td className="py-3.5 px-4 font-medium text-slate-500">{row.sr_no}</td>
-                        <td className="py-3.5 px-4 font-semibold text-slate-800 text-sm">
+                        <td className="py-3.5 px-4 font-semibold text-slate-800">
                           {getBilingual(row.crop)}
                         </td>
                         <td className="py-3.5 px-4 font-medium text-amber-800 bg-amber-50/50">
@@ -381,7 +381,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                         <td className="py-3.5 px-4 font-medium text-slate-800">
                           ₹{getBilingual(row.rate_per_bag)}
                         </td>
-                        <td className="py-3.5 px-4 font-semibold text-emerald-700 text-sm">
+                        <td className="py-3.5 px-4 font-semibold text-emerald-700">
                           {getBilingual(row.available_bags)}
                         </td>
                         <td className="py-3.5 px-4 text-slate-600 font-medium">
@@ -389,12 +389,12 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                         </td>
                         <td className="py-3.5 px-4 text-center">
                           {isAvailable ? (
-                            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[11px] font-medium border border-emerald-200/60">
-                              <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold border border-emerald-200/60">
+                              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                               <span>{language === 'mr' ? 'उपलब्ध' : 'In Stock'}</span>
                             </span>
                           ) : (
-                            <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 text-[11px] font-medium">
+                            <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-slate-100 text-slate-500 text-xs font-medium">
                               {language === 'mr' ? 'चौकशी करा' : 'Inquire'}
                             </span>
                           )}
@@ -419,12 +419,12 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
       {activeTab === 'central' && (
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden transition-all">
           <div className="p-4 sm:p-5 bg-gradient-to-r from-emerald-50/70 to-amber-50/30 border-b border-emerald-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <div className="font-semibold text-slate-800 text-sm sm:text-base flex items-center gap-2.5">
+            <div className="font-semibold text-slate-800 text-base sm:text-lg flex items-center gap-2.5">
               <Sprout className="w-5 h-5 text-emerald-700 flex-shrink-0" />
               <span>{getBilingual(seedStock.central_nursery_rahuri?.title)}</span>
             </div>
-            <div className="flex items-center gap-3 text-xs">
-              <span className="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
+            <div className="flex items-center gap-3 text-xs sm:text-sm">
+              <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
                 {language === 'mr' ? 'फोन:' : 'Contact:'} {seedStock.central_nursery_rahuri?.contact}
               </span>
               <span className="text-slate-500 font-normal">
@@ -434,9 +434,9 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full text-xs text-left border-collapse">
+            <table className="w-full text-sm sm:text-base text-left border-collapse">
               <thead>
-                <tr className="bg-[#f3f6f4] text-slate-700 uppercase text-[11px] font-semibold tracking-wider border-b border-stone-200">
+                <tr className="bg-[#f3f6f4] text-slate-800 uppercase text-xs sm:text-sm font-semibold tracking-wider border-b border-stone-200">
                   <th className="py-3.5 px-4">{language === 'mr' ? 'अ.क्र' : 'Sr.'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'रोपांचे नाव व वाण' : 'Plant / Graft Variety'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'रोपांचे दर (₹)' : 'Rate (₹ / Plant)'}</th>
@@ -450,7 +450,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                   filteredCentral.map((row: any, idx: number) => (
                     <tr key={idx} className="hover:bg-emerald-50/40 transition-colors">
                       <td className="py-3.5 px-4 font-medium text-slate-500">{row.sr_no}</td>
-                      <td className="py-3.5 px-4 font-semibold text-slate-800 text-sm">
+                      <td className="py-3.5 px-4 font-semibold text-slate-800">
                         {getBilingual(row.plant_name)}
                       </td>
                       <td className="py-3.5 px-4 font-medium text-slate-800">
@@ -463,8 +463,8 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                       </td>
                       <td className="py-3.5 px-4 text-slate-500 font-normal">{row.update_date}</td>
                       <td className="py-3.5 px-4 text-center">
-                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[11px] font-medium border border-emerald-200/60">
-                          <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                        <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold border border-emerald-200/60">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                           <span>{language === 'mr' ? 'उपलब्ध' : 'Available'}</span>
                         </span>
                       </td>
@@ -487,12 +487,12 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
       {activeTab === 'horticulture' && (
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden transition-all">
           <div className="p-4 sm:p-5 bg-gradient-to-r from-emerald-50/70 to-amber-50/30 border-b border-emerald-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <div className="font-semibold text-slate-800 text-sm sm:text-base flex items-center gap-2.5">
+            <div className="font-semibold text-slate-800 text-base sm:text-lg flex items-center gap-2.5">
               <Layers className="w-5 h-5 text-emerald-700 flex-shrink-0" />
               <span>{getBilingual(seedStock.horticulture_nursery_rahuri?.title)}</span>
             </div>
-            <div className="flex items-center gap-3 text-xs">
-              <span className="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
+            <div className="flex items-center gap-3 text-xs sm:text-sm">
+              <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
                 {language === 'mr' ? 'फोन:' : 'Contact:'} {seedStock.horticulture_nursery_rahuri?.contact}
               </span>
               <span className="text-slate-500 font-normal">
@@ -502,9 +502,9 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full text-xs text-left border-collapse">
+            <table className="w-full text-sm sm:text-base text-left border-collapse">
               <thead>
-                <tr className="bg-[#f3f6f4] text-slate-700 uppercase text-[11px] font-semibold tracking-wider border-b border-stone-200">
+                <tr className="bg-[#f3f6f4] text-slate-800 uppercase text-xs sm:text-sm font-semibold tracking-wider border-b border-stone-200">
                   <th className="py-3.5 px-4">{language === 'mr' ? 'अ.क्र' : 'Sr.'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'रोपांचे नाव व वाण' : 'Plant / Graft Variety'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'रोपांचे दर (₹)' : 'Rate (₹ / Plant)'}</th>
@@ -518,7 +518,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                   filteredHort.map((row: any, idx: number) => (
                     <tr key={idx} className="hover:bg-emerald-50/40 transition-colors">
                       <td className="py-3.5 px-4 font-medium text-slate-500">{row.sr_no}</td>
-                      <td className="py-3.5 px-4 font-semibold text-slate-800 text-sm">
+                      <td className="py-3.5 px-4 font-semibold text-slate-800">
                         {getBilingual(row.plant_name)}
                       </td>
                       <td className="py-3.5 px-4 font-medium text-slate-800">
@@ -531,8 +531,8 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                       </td>
                       <td className="py-3.5 px-4 text-slate-500 font-normal">{row.update_date}</td>
                       <td className="py-3.5 px-4 text-center">
-                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[11px] font-medium border border-emerald-200/60">
-                          <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                        <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold border border-emerald-200/60">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                           <span>{language === 'mr' ? 'उपलब्ध' : 'Available'}</span>
                         </span>
                       </td>
@@ -555,12 +555,12 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
       {activeTab === 'implements' && (
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden transition-all">
           <div className="p-4 sm:p-5 bg-gradient-to-r from-emerald-50/70 to-amber-50/30 border-b border-emerald-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <div className="font-semibold text-slate-800 text-sm sm:text-base flex items-center gap-2.5">
+            <div className="font-semibold text-slate-800 text-base sm:text-lg flex items-center gap-2.5">
               <Sparkles className="w-5 h-5 text-amber-500 flex-shrink-0" />
               <span>{getBilingual(seedStock.farm_implements?.title)}</span>
             </div>
-            <div className="flex items-center gap-3 text-xs">
-              <span className="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
+            <div className="flex items-center gap-3 text-xs sm:text-sm">
+              <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 font-medium border border-emerald-200/60">
                 {language === 'mr' ? 'फोन:' : 'Contact:'} {seedStock.farm_implements?.contact}
               </span>
               <span className="text-slate-500 font-normal">
@@ -570,9 +570,9 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full text-xs text-left border-collapse">
+            <table className="w-full text-sm sm:text-base text-left border-collapse">
               <thead>
-                <tr className="bg-[#f3f6f4] text-slate-700 uppercase text-[11px] font-semibold tracking-wider border-b border-stone-200">
+                <tr className="bg-[#f3f6f4] text-slate-800 uppercase text-xs sm:text-sm font-semibold tracking-wider border-b border-stone-200">
                   <th className="py-3.5 px-4">{language === 'mr' ? 'अ.क्र' : 'Sr.'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'वर्गवारी' : 'Category'}</th>
                   <th className="py-3.5 px-4">{language === 'mr' ? 'अवजाराचे नाव' : 'Implement Name'}</th>
@@ -586,17 +586,17 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                     <tr key={idx} className="hover:bg-emerald-50/40 transition-colors">
                       <td className="py-3.5 px-4 font-medium text-slate-500">{row.sr_no}</td>
                       <td className="py-3.5 px-4">
-                        <span className="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 font-medium text-[10px] uppercase">
+                        <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-700 font-semibold text-xs uppercase">
                           {row.category}
                         </span>
                       </td>
-                      <td className="py-3.5 px-4 font-semibold text-slate-800 text-sm">
+                      <td className="py-3.5 px-4 font-semibold text-slate-800">
                         {getBilingual(row.implement_name)}
                       </td>
                       <td className="py-3.5 px-4 text-slate-600 leading-relaxed max-w-md font-normal">
                         {getBilingual(row.details)}
                       </td>
-                      <td className="py-3.5 px-4 font-semibold text-amber-800 text-sm whitespace-nowrap">
+                      <td className="py-3.5 px-4 font-semibold text-amber-800 whitespace-nowrap">
                         {getBilingual(row.price)}
                       </td>
                     </tr>

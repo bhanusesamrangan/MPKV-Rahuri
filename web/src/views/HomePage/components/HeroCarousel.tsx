@@ -35,7 +35,7 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
   const activeSlide = slides[currentSlide] || {};
 
   return (
-    <section className="w-full max-w-[1536px] mx-auto px-3 sm:px-6 lg:px-8 my-4 sm:my-6 select-none">
+    <section className="w-full max-w-[1720px] mx-auto px-2 sm:px-4 lg:px-6 my-4 sm:my-6 select-none">
       {/* VH Formatted, Unattached Floating Canvas with Left & Right Margins */}
       <div
         className="relative w-full h-[62vh] sm:h-[70vh] lg:h-[76vh] min-h-[440px] max-h-[720px] rounded-3xl sm:rounded-[2rem] overflow-hidden bg-slate-900 shadow-[0_12px_45px_rgba(15,23,42,0.08)] border border-slate-200/80 group"
@@ -67,15 +67,15 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
 
         {/* Top-Right Minimal Slide Counter Badge */}
         <div className="absolute top-4 right-4 sm:top-6 sm:right-6 z-20">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/35 backdrop-blur-md border border-white/20 text-white text-[11px] font-medium tracking-wide">
+          <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-medium tracking-wide">
             <span className="text-amber-300 font-semibold">{String(currentSlide + 1).padStart(2, '0')}</span>
             <span className="text-white/40">/</span>
             <span className="text-white/70">{String(slides.length).padStart(2, '0')}</span>
           </div>
         </div>
 
-        {/* Small, Tasteful Text Capsule at Left Bottom of Image */}
-        <div className="absolute bottom-5 left-5 sm:bottom-7 sm:left-7 z-20 max-w-[90%] sm:max-w-md pointer-events-none">
+        {/* Text Capsule at Left Bottom of Image */}
+        <div className="absolute bottom-5 left-5 sm:bottom-7 sm:left-7 z-20 max-w-[90%] sm:max-w-lg pointer-events-none">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentSlide}
@@ -83,17 +83,17 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.35 }}
-              className="p-3.5 sm:p-4 rounded-2xl bg-black/40 backdrop-blur-md border border-white/20 text-white shadow-lg space-y-1"
+              className="p-4 sm:p-5 rounded-2xl bg-black/50 backdrop-blur-md border border-white/20 text-white shadow-xl space-y-1.5"
             >
-              <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] font-medium tracking-wider text-amber-300 uppercase">
-                <Sparkles className="w-3 h-3 text-amber-300" />
+              <div className="flex items-center gap-1.5 text-xs font-semibold tracking-wider text-amber-300 uppercase">
+                <Sparkles className="w-3.5 h-3.5 text-amber-300" />
                 <span>
                   {language === 'mr'
                     ? 'राहुरी मध्यवर्ती परिसर'
                     : 'Rahuri Central Campus'}
                 </span>
               </div>
-              <h2 className="text-xs sm:text-sm md:text-base font-semibold text-white/95 leading-snug drop-shadow-sm">
+              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-white/95 leading-snug drop-shadow-sm">
                 {getBilingual(activeSlide?.title)}
               </h2>
             </motion.div>

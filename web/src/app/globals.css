@@ -10,20 +10,89 @@
     --color-mpkv-cream: #faf9f6;
   }
 
-  /* Font Scaling Modes */
-  html.font-scale-sm {
-    font-size: 90%;
-  }
-  html.font-scale-md {
-    font-size: 100%;
-  }
-  html.font-scale-lg {
-    font-size: 115%;
+  html {
+    font-size: 87.5%; /* 14px base on mobile screens (<640px) so typography is never oversized */
+    scroll-behavior: smooth;
   }
 
-  /* STRICTLY POPPINS FOR BOTH MARATHI AND ENGLISH */
+  @media (min-width: 640px) {
+    html {
+      font-size: 93.75%; /* 15px base for tablets (640px-1023px) */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      font-size: 106.25%; /* 17px base for standard desktop */
+    }
+  }
+
+  @media (min-width: 1280px) {
+    html {
+      font-size: 112.5%; /* 18px base for wide screens */
+    }
+  }
+
+  /* Font Scaling Modes */
+  html.font-scale-sm {
+    font-size: 81.25%;
+  }
+  @media (min-width: 640px) {
+    html.font-scale-sm { font-size: 87.5%; }
+  }
+  @media (min-width: 1024px) {
+    html.font-scale-sm { font-size: 93.75%; }
+  }
+  @media (min-width: 1280px) {
+    html.font-scale-sm { font-size: 100%; }
+  }
+
+  html.font-scale-md {
+    font-size: 87.5%;
+  }
+  @media (min-width: 640px) {
+    html.font-scale-md { font-size: 93.75%; }
+  }
+  @media (min-width: 1024px) {
+    html.font-scale-md { font-size: 106.25%; }
+  }
+  @media (min-width: 1280px) {
+    html.font-scale-md { font-size: 112.5%; }
+  }
+
+  html.font-scale-lg {
+    font-size: 100%;
+  }
+  @media (min-width: 640px) {
+    html.font-scale-lg { font-size: 106.25%; }
+  }
+  @media (min-width: 1024px) {
+    html.font-scale-lg { font-size: 118.75%; }
+  }
+  @media (min-width: 1280px) {
+    html.font-scale-lg { font-size: 125%; }
+  }
+
+  /* REFINED POPPINS FOR BOTH MARATHI AND ENGLISH - NON-BULGY, CRISP TYPOGRAPHY */
   *, html, body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, span, a {
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Headings: sleek semi-bold instead of heavy bulgy weights */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600 !important;
+    letter-spacing: -0.01em;
+  }
+
+  strong, b, .font-bold {
+    font-weight: 600;
+  }
+
+  .font-extrabold, .font-black {
+    font-weight: 600 !important;
   }
 
   body {
@@ -31,6 +100,7 @@
     color: #334155;
     transition: background-color 0.25s ease, color 0.25s ease;
     overflow-x: hidden;
+    line-height: 1.6;
   }
 }
 

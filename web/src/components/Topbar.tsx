@@ -1,187 +1,411 @@
 'use client';
 
-import React, { useState } from 'react';
-import { Volume2, VolumeX, Moon, Sun, Eye, ExternalLink, Music, Radio } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import {
+  Volume2,
+  VolumeX,
+  Search,
+  Settings2,
+  Check,
+  Type,
+  ExternalLink,
+  Music,
+  Radio,
+  Eye,
+  Sun,
+  Moon,
+  Trophy,
+  PhoneCall
+} from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
+import { useAccessibility, ContrastMode } from '@/context/AccessibilityContext';
 import { AudioCenterModal } from './AudioCenterModal';
 
 export const Topbar: React.FC = () => {
   const { language, setLanguage } = useLanguage();
   const {
-    fontScale,
-    cycleFontScale,
-    theme,
-    toggleHighContrast,
-    toggleDarkMode,
-    isSpeaking,
-    speakContent,
-    stopSpeech
+    fontSize,
+    fontSizePercent,
+    increaseFontSize,
+    decreaseFontSize,
+    resetFontSize,
+    contrast,
+    setContrast,
+    bhashiniVoiceActive,
+    toggleBhashiniVoice
   } = useAccessibility();
 
+  const [panelOpen, setPanelOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const [isAudioModalOpen, setIsAudioModalOpen] = useState(false);
   const [activeAudioTab, setActiveAudioTab] = useState<'rajya' | 'uni' | 'icar' | 'radio'>('rajya');
+
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close accessibility popover when clicking outside (MahaPrisons pattern)
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setPanelOpen(false);
+      }
+    };
+
+    if (panelOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [panelOpen]);
 
   const openAudioModal = (tab: 'rajya' | 'uni' | 'icar' | 'radio') => {
     setActiveAudioTab(tab);
     setIsAudioModalOpen(true);
   };
 
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      window.location.href = `/?search=${encodeURIComponent(searchQuery.trim())}`;
+    }
+  };
+
+  const getContrastLabel = (mode: ContrastMode) => {
+    switch (mode) {
+      case 'standard':
+        return language === 'mr' ? 'प्रमाणित' : 'Standard';
+      case 'high':
+        return language === 'mr' ? 'उच्च विरोधाभास' : 'High Contrast';
+      case 'dark':
+        return language === 'mr' ? 'गडद थीम' : 'Dark Theme';
+      case 'inverted':
+        return language === 'mr' ? 'कलर इनव्हर्जन' : 'Color Inversion';
+      default:
+        return '';
+    }
+  };
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'mr' ? 'en' : 'mr');
+  };
+
   return (
     <>
-      <div className="w-full bg-[#090d16] text-slate-300 text-xs py-1.5 px-4 sm:px-8 xl:px-12 border-b border-slate-800 select-none transition-colors">
-        <div className="w-full max-w-[1536px] mx-auto flex flex-wrap items-center justify-between gap-2">
-          {/* Left: Quick Academic & Media Portals */}
-          <div className="flex items-center gap-3 overflow-x-auto whitespace-nowrap scrollbar-none py-0.5">
-            <a
-              href="https://mpkv.irins.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-amber-300 transition-colors inline-flex items-center gap-1 font-medium"
-            >
-              <ExternalLink className="w-3 h-3 text-amber-400" />
-              <span>{language === 'mr' ? 'प्राध्यापक माहिती (IRINS)' : 'Faculty Profiles (IRINS)'}</span>
-            </a>
-            <span className="text-slate-700">|</span>
+      <div
+        id="accessibility-toolbar"
+        className="w-full bg-[#f8faf8] text-slate-600 text-[11px] py-1 px-3 sm:px-6 xl:px-8 border-b border-stone-200/80 select-none transition-colors sticky top-0 z-50 backdrop-blur-md"
+      >
+        <div className="w-full max-w-[1720px] mx-auto flex flex-col md:flex-row md:items-center justify-between gap-1 md:gap-2">
+          {/* Primary Top Row (Left Links + Right Utilities / Desktop Badges) */}
+          <div className="w-full flex items-center justify-between gap-2">
+            {/* 1. LEFT SIDE: Quick Academic & Media Links */}
+            <div className="flex-1 min-w-0 flex items-center gap-2.5 sm:gap-3 overflow-x-auto whitespace-nowrap scrollbar-none py-0.5">
+              <a
+                href="https://mpkv.irins.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-slate-900 text-slate-600 transition-colors inline-flex items-center gap-1 font-medium text-[11px]"
+              >
+                <ExternalLink className="w-3 h-3 text-amber-600" />
+                <span>{language === 'mr' ? 'प्राध्यापक (IRINS)' : 'Faculty (IRINS)'}</span>
+              </a>
+              <span className="text-slate-300">|</span>
 
-            {/* Songs Quick Access */}
-            <button
-              onClick={() => openAudioModal('rajya')}
-              className="hover:text-amber-300 transition-colors inline-flex items-center gap-1 font-medium"
-              title="Rajya Geet"
-            >
-              <Music className="w-3 h-3 text-emerald-400" />
-              <span>{language === 'mr' ? 'राज्यगीत' : 'Rajya Geet'}</span>
-            </button>
-            <span className="text-slate-700">|</span>
+              <button
+                onClick={() => openAudioModal('rajya')}
+                className="hover:text-slate-900 text-slate-600 transition-colors inline-flex items-center gap-1 font-medium text-[11px]"
+                title="Rajya Geet"
+              >
+                <Music className="w-3 h-3 text-[#2d6445]" />
+                <span>{language === 'mr' ? 'राज्यगीत' : 'Rajya Geet'}</span>
+              </button>
+              <span className="text-slate-300">|</span>
 
-            <button
-              onClick={() => openAudioModal('uni')}
-              className="hover:text-amber-300 transition-colors inline-flex items-center gap-1 font-medium"
-              title="MPKV University Song"
-            >
-              <Music className="w-3 h-3 text-amber-400" />
-              <span>{language === 'mr' ? 'विद्यापीठ गीत' : 'University Song'}</span>
-            </button>
-            <span className="text-slate-700">|</span>
+              <button
+                onClick={() => openAudioModal('uni')}
+                className="hover:text-slate-900 text-slate-600 transition-colors inline-flex items-center gap-1 font-medium text-[11px]"
+                title="MPKV University Song"
+              >
+                <Music className="w-3 h-3 text-amber-600" />
+                <span>{language === 'mr' ? 'विद्यापीठ गीत' : 'University Song'}</span>
+              </button>
+              <span className="text-slate-300">|</span>
 
-            <button
-              onClick={() => openAudioModal('radio')}
-              className="hover:text-amber-300 transition-colors inline-flex items-center gap-1.5 text-amber-300 font-bold"
-              title="Phule Krishi Vahini 90.8 FM"
-            >
-              <Radio className="w-3.5 h-3.5 text-red-500 animate-pulse" />
-              <span>{language === 'mr' ? 'फुले कृषी वाहिनी ९०.८ FM' : 'Phule FM 90.8'}</span>
-            </button>
-          </div>
+              <button
+                onClick={() => openAudioModal('radio')}
+                className="hover:text-slate-900 text-rose-700 transition-colors inline-flex items-center gap-1 font-semibold text-[11px]"
+                title="Phule Krishi Vahini 90.8 FM"
+              >
+                <Radio className="w-3 h-3 text-red-500 animate-pulse" />
+                <span>{language === 'mr' ? 'फुले FM ९०.८' : 'Phule FM 90.8'}</span>
+              </button>
+            </div>
 
-          {/* Right: Citizen Accessibility Toolbar & Language Switcher */}
-          <div className="flex items-center gap-2.5 sm:gap-3">
-            {/* Screen Reader / Text-To-Speech */}
-            <button
-              onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg font-semibold text-[11px] transition-all shadow-xs ${
-                isSpeaking
-                  ? 'bg-amber-400 text-slate-950 font-bold ring-2 ring-amber-300 animate-pulse'
-                  : 'bg-slate-800/80 hover:bg-slate-700 text-slate-200'
-              }`}
-              title={language === 'mr' ? 'मजकूर ऐका (Screen Reader)' : 'Listen to Content'}
-            >
-              {isSpeaking ? (
-                <>
-                  <VolumeX className="w-3.5 h-3.5 text-red-500" />
-                  <span>{language === 'mr' ? 'थांबवा' : 'Stop'}</span>
-                </>
-              ) : (
-                <>
-                  <Volume2 className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                </>
+            {/* 2. RIGHT SIDE: Utilities & Desktop Badges */}
+            <div className="flex items-center gap-1.5 sm:gap-2 relative flex-shrink-0">
+              {/* Desktop Academic Accreditation & Hotline Badges (Hidden on mobile < md, shown on desktop md+) */}
+              <div className="hidden md:flex items-center gap-1 sm:gap-1.5 flex-shrink-0">
+                {/* 1. ICAR 'A' Grade Trust Badge */}
+                <div className="inline-flex items-center gap-1 bg-white hover:bg-emerald-50/50 border border-slate-200/90 rounded-md px-1.5 sm:px-2 py-0.5 transition-colors shadow-2xs">
+                  <span className="px-1 py-0.2 rounded bg-emerald-100 text-emerald-800 font-bold text-[9.5px] leading-tight border border-emerald-300/60">
+                    ICAR 'A'
+                  </span>
+                  <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
+                    <span>Accredited</span>
+                    <span className="hidden xl:inline text-slate-400 mx-0.5">·</span>
+                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">Grade Univ</span>
+                  </span>
+                </div>
+
+                {/* 2. NIRF 15th Rank Badge */}
+                <div className="inline-flex items-center gap-1 bg-white hover:bg-amber-50/50 border border-slate-200/90 rounded-md px-1.5 sm:px-2 py-0.5 transition-colors shadow-2xs">
+                  <span className="p-0.5 rounded bg-amber-100 text-amber-800">
+                    <Trophy className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-amber-700" />
+                  </span>
+                  <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
+                    <span className="font-semibold text-slate-800">NIRF 15<sup>th</sup></span>
+                    <span className="hidden xl:inline text-slate-400 mx-0.5">·</span>
+                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">Agri Rank</span>
+                  </span>
+                </div>
+
+                {/* 3. Central Seed Desk Hotline */}
+                <a
+                  href="tel:02426243345"
+                  className="inline-flex items-center gap-1 bg-white hover:bg-slate-50 border border-slate-200/90 hover:border-emerald-300 rounded-md px-1.5 sm:px-2 py-0.5 transition-colors shadow-2xs group/phone"
+                  title={language === 'mr' ? 'राहुरी बियाणे विक्री कक्षास कॉल करा' : 'Call Rahuri Central Seed Desk'}
+                >
+                  <span className="p-0.5 rounded bg-slate-100 group-hover/phone:bg-emerald-100 text-slate-600 group-hover/phone:text-[#2d6445] transition-colors">
+                    <PhoneCall className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
+                  </span>
+                  <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
+                    <span className="text-slate-600">{language === 'mr' ? 'बियाणे' : 'Seed Desk'}: </span>
+                    <span className="font-bold text-slate-800 font-mono group-hover/phone:text-[#2d6445] transition-colors">
+                      02426-243345
+                    </span>
+                  </span>
+                </a>
+              </div>
+
+              {/* Toggleable Search Box */}
+              {searchOpen && (
+                <form
+                  onSubmit={handleSearchSubmit}
+                  className="flex items-center relative animate-in slide-in-from-right-3 duration-200"
+                >
+                  <input
+                    type="text"
+                    placeholder={language === 'mr' ? 'पोर्टलवर शोधा...' : 'Search portal...'}
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="pl-2.5 pr-7 py-0.5 w-24 sm:w-44 bg-white border border-slate-200 rounded-lg text-[11px] focus:outline-none focus:border-emerald-600 text-slate-800 placeholder-slate-400 shadow-2xs"
+                    autoFocus
+                  />
+                  <button
+                    type="submit"
+                    className="absolute right-2 text-slate-400 hover:text-slate-700 cursor-pointer"
+                  >
+                    <Search className="w-3.5 h-3.5" />
+                  </button>
+                </form>
               )}
+
+            {/* Search Icon */}
+            <button
+              onClick={() => setSearchOpen(!searchOpen)}
+              className={`p-1.5 rounded-lg transition-colors flex items-center justify-center border ${
+                searchOpen
+                  ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
+                  : 'bg-white hover:bg-slate-50 text-slate-600 hover:text-slate-900 border-slate-200 shadow-2xs'
+              }`}
+              title={language === 'mr' ? 'शोधा' : 'Search'}
+            >
+              <Search className="w-3.5 h-3.5" />
             </button>
 
-            {/* Font Scaling (A- | A | A+) */}
-            <div className="inline-flex items-center bg-slate-800 border border-slate-700 rounded-lg p-0.5 gap-0.5">
+            {/* Accessibility Popover Wrapper (MahaPrisons Core Component) */}
+            <div ref={dropdownRef} className="relative flex items-center">
+              {/* Accessibility Settings Trigger */}
               <button
-                onClick={() => cycleFontScale('down')}
-                className={`px-1.5 py-0.5 rounded text-[11px] font-bold hover:text-white transition-colors ${
-                  fontScale === 'sm' ? 'bg-amber-400 text-slate-950' : 'text-slate-300'
+                onClick={() => setPanelOpen(!panelOpen)}
+                className={`p-1.5 rounded-lg transition-colors flex items-center justify-center border ${
+                  panelOpen
+                    ? 'bg-[#2d6445] text-white border-[#214f35] shadow-xs'
+                    : 'bg-white hover:bg-slate-50 text-slate-600 hover:text-slate-900 border-slate-200 shadow-2xs'
                 }`}
-                title="Decrease Font Size (A-)"
+                title={language === 'mr' ? 'सुगम्यता पर्याय' : 'Accessibility Options'}
+                aria-expanded={panelOpen ? 'true' : 'false'}
               >
-                A-
+                <Settings2 className="w-3.5 h-3.5" />
               </button>
-              <button
-                onClick={() => cycleFontScale('reset')}
-                className={`px-1.5 py-0.5 rounded text-[11px] font-bold hover:text-white transition-colors ${
-                  fontScale === 'md' ? 'bg-amber-400 text-slate-950' : 'text-slate-300'
-                }`}
-                title="Normal Font Size (A)"
-              >
-                A
-              </button>
-              <button
-                onClick={() => cycleFontScale('up')}
-                className={`px-1.5 py-0.5 rounded text-[11px] font-bold hover:text-white transition-colors ${
-                  fontScale === 'lg' ? 'bg-amber-400 text-slate-950' : 'text-slate-300'
-                }`}
-                title="Increase Font Size (A+)"
-              >
-                A+
-              </button>
+
+              {/* Floating Accessibility Settings Card Popover */}
+              {panelOpen && (
+                <div className="absolute right-0 top-full mt-2 w-72 max-w-[calc(100vw-1.5rem)] bg-white/95 backdrop-blur-md text-slate-800 border border-slate-200 shadow-2xl rounded-2xl p-3.5 z-50 text-[11px] select-none animate-in fade-in slide-in-from-top-2 duration-200">
+                  <h4 className="font-semibold text-slate-900 mb-2 text-[11.5px] border-b border-slate-150 pb-1.5 flex items-center gap-1.5">
+                    <Settings2 className="w-3.5 h-3.5 text-[#2d6445]" />
+                    <span>{language === 'mr' ? 'सुगम्यता पर्याय' : 'Accessibility Options'}</span>
+                  </h4>
+
+                  {/* Font Resize Tools (MahaPrisons Style) */}
+                  <div className="mb-3">
+                    <span className="block font-medium text-slate-500 mb-1 uppercase tracking-wider text-[9.5px]">
+                      {language === 'mr' ? 'अक्षर आकार' : 'Font Size Control'}
+                    </span>
+                    <div className="flex items-center justify-between bg-slate-50 rounded-xl p-1 border border-slate-200">
+                      <button
+                        onClick={decreaseFontSize}
+                        className="px-2.5 py-0.5 bg-white hover:bg-slate-50 rounded-lg text-[11px] font-semibold text-slate-700 shadow-2xs transition-all cursor-pointer border border-slate-100"
+                        title={language === 'mr' ? 'अक्षर आकार कमी करा (A-)' : 'Decrease text size'}
+                      >
+                        A-
+                      </button>
+                      <button
+                        onClick={resetFontSize}
+                        className="px-2.5 py-0.5 bg-white hover:bg-slate-50 rounded-lg text-[11px] font-semibold text-[#2d6445] shadow-2xs transition-all cursor-pointer flex items-center gap-1 border border-slate-100"
+                        title={language === 'mr' ? 'मूळ आकार पूर्ववत करा' : 'Reset text size'}
+                      >
+                        <Type className="w-3 h-3 text-[#2d6445]" />
+                        <span>{fontSizePercent}</span>
+                      </button>
+                      <button
+                        onClick={increaseFontSize}
+                        className="px-2.5 py-0.5 bg-white hover:bg-slate-50 rounded-lg text-[11px] font-semibold text-slate-700 shadow-2xs transition-all cursor-pointer border border-slate-100"
+                        title={language === 'mr' ? 'अक्षर आकार वाढवा (A+)' : 'Increase text size'}
+                      >
+                        A+
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Contrast Theme Selectors (MahaPrisons Style 4 Modes) */}
+                  <div className="mb-3">
+                    <span className="block font-medium text-slate-500 mb-1 uppercase tracking-wider text-[9.5px]">
+                      {language === 'mr' ? 'रंगसंगती (विरोधाभास)' : 'Contrast & Color Schemes'}
+                    </span>
+                    <div className="grid grid-cols-2 gap-1.5">
+                      {(['standard', 'high', 'dark', 'inverted'] as ContrastMode[]).map((mode) => (
+                        <button
+                          key={mode}
+                          onClick={() => setContrast(mode)}
+                          className={`px-2 py-1 rounded-xl border text-left font-medium text-[11px] flex items-center justify-between cursor-pointer transition-all ${
+                            contrast === mode
+                              ? 'border-[#2d6445] bg-emerald-50/70 text-[#2d6445] shadow-2xs ring-1 ring-[#2d6445]/20 font-semibold'
+                              : 'border-slate-200 hover:bg-slate-50 text-slate-700'
+                          }`}
+                        >
+                          <span>{getContrastLabel(mode)}</span>
+                          {contrast === mode && <Check className="w-3.5 h-3.5 text-[#2d6445]" />}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Bhashini Screen Reader Narrator Voice (MahaPrisons Feature) */}
+                  <div className="border-t border-slate-150 pt-2 mt-1.5">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <span className="block font-semibold text-slate-800 text-[11px] leading-tight">
+                          {language === 'mr' ? 'भाषिणी आवाज वाचक' : 'Bhashini Voice Narrator'}
+                        </span>
+                        <span className="text-[9.5px] text-slate-500 block mt-0.5">
+                          {bhashiniVoiceActive
+                            ? language === 'mr'
+                              ? 'माऊस फिरवून ऐका (सुरू आहे)'
+                              : 'Hover text to speak (active)'
+                            : language === 'mr'
+                              ? 'आवाज वाचक सुरू करण्यासाठी क्लिक करा'
+                              : 'Click to enable screen reader'}
+                        </span>
+                      </div>
+                      <button
+                        onClick={toggleBhashiniVoice}
+                        className={`p-1.5 rounded-full cursor-pointer transition-all ${
+                          bhashiniVoiceActive
+                            ? 'bg-[#2d6445] text-white shadow-md shadow-[#2d6445]/30 ring-2 ring-emerald-300'
+                            : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+                        }`}
+                        title={bhashiniVoiceActive ? 'Disable Narrator' : 'Enable Narrator'}
+                      >
+                        {bhashiniVoiceActive ? (
+                          <Volume2 className="w-3.5 h-3.5 animate-bounce" />
+                        ) : (
+                          <VolumeX className="w-3.5 h-3.5" />
+                        )}
+                      </button>
+                    </div>
+
+                    {/* Speech Waveform Equalizer Visualization */}
+                    {bhashiniVoiceActive && (
+                      <div className="flex items-center gap-1 mt-2 justify-center bg-emerald-50/70 py-1 rounded-xl border border-emerald-200">
+                        <span className="w-1 h-2.5 bg-[#2d6445] rounded-full animate-pulse" />
+                        <span className="w-1 h-4 bg-[#2d6445] rounded-full animate-pulse delay-75" />
+                        <span className="w-1 h-2 bg-[#2d6445] rounded-full animate-pulse delay-150" />
+                        <span className="w-1 h-5 bg-[#2d6445] rounded-full animate-pulse" />
+                        <span className="w-1 h-3 bg-[#2d6445] rounded-full animate-pulse delay-75" />
+                        <span className="w-1 h-1.5 bg-[#2d6445] rounded-full animate-pulse delay-150" />
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
 
-            {/* High Contrast Mode Toggle */}
+            {/* Language Switcher Button (अ | A - Equal Size Bilingual Button) */}
             <button
-              onClick={toggleHighContrast}
-              className={`p-1.5 rounded-lg transition-colors ${
-                theme === 'high-contrast'
-                  ? 'bg-amber-400 text-slate-950'
-                  : 'bg-slate-800 hover:bg-slate-700 text-slate-300'
-              }`}
-              title={language === 'mr' ? 'उच्च विरोधाभास (High Contrast)' : 'High Contrast Mode'}
+              onClick={toggleLanguage}
+              className="px-2 py-0.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-lg text-[11px] font-semibold flex items-center gap-1 transition-colors cursor-pointer shadow-2xs"
+              title={language === 'mr' ? 'Switch to English' : 'मराठीत बदला'}
             >
-              <Eye className="w-3.5 h-3.5" />
+              <span className="text-[#2d6445] font-semibold">अ</span>
+              <span className="text-slate-300">|</span>
+              <span className="font-semibold text-slate-700">A</span>
             </button>
-
-            {/* Dark Theme Toggle */}
-            <button
-              onClick={toggleDarkMode}
-              className={`p-1.5 rounded-lg transition-colors ${
-                theme === 'dark'
-                  ? 'bg-indigo-600 text-white'
-                  : 'bg-slate-800 hover:bg-slate-700 text-slate-300'
-              }`}
-              title={language === 'mr' ? 'रात्रीचा मोड (Dark Mode)' : 'Dark Theme'}
-            >
-              {theme === 'dark' ? <Sun className="w-3.5 h-3.5" /> : <Moon className="w-3.5 h-3.5" />}
-            </button>
-
-            {/* Marathi / English Switcher */}
-            <div className="inline-flex rounded-lg bg-slate-800 p-0.5 border border-slate-700">
-              <button
-                onClick={() => setLanguage('mr')}
-                className={`px-2.5 py-1 rounded-md text-[11px] font-bold transition-all ${
-                  language === 'mr'
-                    ? 'bg-amber-400 text-slate-950 shadow-sm'
-                    : 'text-slate-300 hover:text-white'
-                }`}
-              >
-                मराठी
-              </button>
-              <button
-                onClick={() => setLanguage('en')}
-                className={`px-2.5 py-1 rounded-md text-[11px] font-bold transition-all ${
-                  language === 'en'
-                    ? 'bg-amber-400 text-slate-950 shadow-sm'
-                    : 'text-slate-300 hover:text-white'
-                }`}
-              >
-                English
-              </button>
-            </div>
           </div>
         </div>
+
+        {/* Mobile Secondary Badges Strip (Shown ONLY on mobile < md) */}
+        <div className="flex md:hidden items-center justify-between sm:justify-center gap-1 pt-1 mt-0.5 border-t border-stone-200/60 overflow-x-auto whitespace-nowrap scrollbar-none py-0.5">
+          {/* 1. ICAR 'A' Grade Trust Badge */}
+          <div className="inline-flex items-center gap-1 bg-white border border-slate-200/90 rounded-md px-1.5 py-0.5 shadow-2xs flex-shrink-0">
+            <span className="px-1 py-0.2 rounded bg-emerald-100 text-emerald-800 font-bold text-[9px] leading-tight border border-emerald-300/60">
+              ICAR 'A'
+            </span>
+            <span className="text-[10px] font-medium text-slate-700 leading-tight">
+              Accredited
+            </span>
+          </div>
+
+          {/* 2. NIRF 15th Rank Badge */}
+          <div className="inline-flex items-center gap-1 bg-white border border-slate-200/90 rounded-md px-1.5 py-0.5 shadow-2xs flex-shrink-0">
+            <span className="p-0.5 rounded bg-amber-100 text-amber-800">
+              <Trophy className="w-2.5 h-2.5 text-amber-700" />
+            </span>
+            <span className="text-[10px] font-medium text-slate-700 leading-tight">
+              <span className="font-semibold text-slate-800">NIRF 15<sup>th</sup></span>
+              <span className="text-slate-500 text-[9px] ml-0.5">Rank</span>
+            </span>
+          </div>
+
+          {/* 3. Central Seed Desk Hotline */}
+          <a
+            href="tel:02426243345"
+            className="inline-flex items-center gap-1 bg-white hover:bg-slate-50 border border-slate-200/90 hover:border-emerald-300 rounded-md px-1.5 sm:px-2 py-0.5 shadow-2xs flex-shrink-0 group/phone"
+            title={language === 'mr' ? 'राहुरी बियाणे विक्री कक्षास कॉल करा' : 'Call Rahuri Central Seed Desk'}
+          >
+            <span className="p-0.5 rounded bg-slate-100 group-hover/phone:bg-emerald-100 text-slate-600 group-hover/phone:text-[#2d6445] transition-colors">
+              <PhoneCall className="w-2.5 h-2.5" />
+            </span>
+            <span className="text-[10px] font-medium text-slate-700 leading-tight">
+              <span className="text-slate-600">{language === 'mr' ? 'बियाणे' : 'Seed'}: </span>
+              <span className="font-bold text-slate-800 font-mono group-hover/phone:text-[#2d6445]">
+                02426-243345
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
       </div>
 
       {/* Audio Modal */}
