@@ -633,12 +633,12 @@
     "icon": "Sprout",
     "children": [
       {
-        "id": "farm_group_1",
+        "id": "farm_col_1",
         "title": {
           "en": "Forums & Publications",
-          "mr": "शेतकरी मंच व प्रकाशने"
+          "mr": "मंच व प्रकाशने"
         },
-        "is_group": true,
+        "is_group": false,
         "children": [
           {
             "title": {
@@ -657,12 +657,12 @@
         ]
       },
       {
-        "id": "farm_group_2",
+        "id": "farm_col_2",
         "title": {
-          "en": "Sammelan & Success Stories",
+          "en": "Sammelan & Stories",
           "mr": "संमेलन व यशोगाथा"
         },
-        "is_group": true,
+        "is_group": false,
         "children": [
           {
             "title": {
@@ -677,7 +677,17 @@
               "mr": "प्रगतीशील शेतकरी यशोगाथा"
             },
             "href": "/farmer/success-stories"
-          },
+          }
+        ]
+      },
+      {
+        "id": "farm_col_3",
+        "title": {
+          "en": "Services",
+          "mr": "शेतकरी सेवा"
+        },
+        "is_group": false,
+        "children": [
           {
             "title": {
               "en": "Services",
@@ -688,7 +698,7 @@
         ]
       },
       {
-        "id": "farm_group_3",
+        "id": "farm_col_4",
         "title": {
           "en": "Inputs",
           "mr": "कृषि निविष्ठा"

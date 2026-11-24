@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-11-22T20:36:23.354812",
-  "totalPages": 105,
+  "totalPages": 106,
   "totalRecordsAcrossAllPages": 11417,
   "pages": [
     {
@@ -708,7 +708,7 @@
         "en": "Academic Regulations",
         "mr": "शैक्षणिक नियमावली"
       },
-      "route": "/Education/EduAcademicRegulations",
+      "route": "/education/regulations",
       "breadcrumb": [
         {
           "title": {
@@ -741,7 +741,7 @@
       ],
       "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 18
+      "mediaCount": 0
     },
     {
       "slug": "education-affiliated-colleges",
@@ -752,7 +752,7 @@
         "en": "Affiliated Colleges",
         "mr": "संलग्न महाविद्यालये"
       },
-      "route": "/Education/EduAffiletedClg",
+      "route": "/education/affiliated-colleges",
       "breadcrumb": [
         {
           "title": {
@@ -796,7 +796,7 @@
         "en": "Education at a Glance",
         "mr": "दृष्टीक्षेपात शिक्षण"
       },
-      "route": "/Education/AtaGlance",
+      "route": "/education/at-a-glance",
       "breadcrumb": [
         {
           "title": {
@@ -829,7 +829,7 @@
       ],
       "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 15
+      "mediaCount": 0
     },
     {
       "slug": "education-certificate-courses",
@@ -840,7 +840,7 @@
         "en": "Certificate Courses",
         "mr": "प्रमाणपत्र अभ्यासक्रम"
       },
-      "route": "/Education/EduCirtificateCourse",
+      "route": "/education/certificate-courses",
       "breadcrumb": [
         {
           "title": {
@@ -871,9 +871,9 @@
           "href": "/education/certificate-courses"
         }
       ],
-      "tableCount": 2,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 14
+      "mediaCount": 0
     },
     {
       "slug": "education-constituent-colleges",
@@ -884,7 +884,7 @@
         "en": "Constituent Colleges",
         "mr": "घटक महाविद्यालये"
       },
-      "route": "/Education/EduConstituenClg",
+      "route": "/education/constituent-colleges",
       "breadcrumb": [
         {
           "title": {
@@ -915,9 +915,9 @@
           "href": "/education/constituent-colleges"
         }
       ],
-      "tableCount": 2,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 17
+      "mediaCount": 0
     },
     {
       "slug": "education-courses-bachelors",
@@ -928,7 +928,7 @@
         "en": "Bachelor's",
         "mr": "पदवी अभ्यासक्रम"
       },
-      "route": "/Education/EduCourseBachlor",
+      "route": "/education/bachelors",
       "breadcrumb": [
         {
           "title": {
@@ -959,9 +959,9 @@
           "href": "/education/bachelors"
         }
       ],
-      "tableCount": 1,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 20
+      "mediaCount": 0
     },
     {
       "slug": "education-courses-diploma",
@@ -972,7 +972,7 @@
         "en": "Diploma",
         "mr": "पदविका"
       },
-      "route": "/Education/EduCourseDiploma",
+      "route": "/education/diploma",
       "breadcrumb": [
         {
           "title": {
@@ -1003,9 +1003,9 @@
           "href": "/education/diploma"
         }
       ],
-      "tableCount": 1,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 16
+      "mediaCount": 0
     },
     {
       "slug": "education-courses-doctoral",
@@ -1016,7 +1016,7 @@
         "en": "Doctoral (Ph.D.) Eligibility",
         "mr": "आचार्य (Ph.D.) पात्रता"
       },
-      "route": "/Education/EduCourseDoctoral",
+      "route": "/education/masters-doctoral",
       "breadcrumb": [
         {
           "title": {
@@ -1047,9 +1047,53 @@
           "href": "/education/doctoral"
         }
       ],
-      "tableCount": 2,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 22
+      "mediaCount": 0
+    },
+    {
+      "slug": "education-courses-masters-doctoral",
+      "menuId": "menu_education",
+      "parentMenu": "Education",
+      "submenuGroup": "Colleges & Curriculum",
+      "title": {
+        "en": "Master's & Doctoral",
+        "mr": "पदव्युत्तर व आचार्य पदवी"
+      },
+      "route": "/education/masters-doctoral",
+      "breadcrumb": [
+        {
+          "title": {
+            "en": "Home",
+            "mr": "मुख्यपृष्ठ"
+          },
+          "href": "/"
+        },
+        {
+          "title": {
+            "en": "Education",
+            "mr": "शिक्षण"
+          },
+          "href": "/education/at-a-glance"
+        },
+        {
+          "title": {
+            "en": "Colleges & Curriculum",
+            "mr": "महाविद्यालये व अभ्यासक्रम"
+          },
+          "href": "/education-courses-masters-doctoral"
+        },
+        {
+          "title": {
+            "en": "Master's & Doctoral",
+            "mr": "पदव्युत्तर व आचार्य पदवी"
+          },
+          "href": "/education-courses-masters-doctoral"
+        }
+      ],
+      "tableCount": 0,
+      "noticeCount": 0,
+      "mediaCount": 0
     },
     {
       "slug": "education-courses-masters",
@@ -1060,7 +1104,7 @@
         "en": "Master's & Doctoral",
         "mr": "पदव्युत्तर व आचार्य पदवी"
       },
-      "route": "/Education/EduCourseMaster",
+      "route": "/education/masters-doctoral",
       "breadcrumb": [
         {
           "title": {
@@ -1091,9 +1135,9 @@
           "href": "/education/masters-doctoral"
         }
       ],
-      "tableCount": 5,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 39
+      "mediaCount": 0
     },
     {
       "slug": "education-diploma-schools",
@@ -1104,7 +1148,7 @@
         "en": "Diploma (Agril. Tech. Schools)",
         "mr": "कृषि तंत्र विद्यालये (पदविका)"
       },
-      "route": "/Education/EduDiplomaSchool",
+      "route": "/education/diploma-schools",
       "breadcrumb": [
         {
           "title": {
@@ -1135,9 +1179,9 @@
           "href": "/education/diploma-schools"
         }
       ],
-      "tableCount": 4,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 14
+      "mediaCount": 0
     },
     {
       "slug": "education-faculty-agricultural-engineering",
@@ -1148,7 +1192,7 @@
         "en": "Agricultural Engineering Faculty",
         "mr": "कृषि अभियांत्रिकी शाखा"
       },
-      "route": "/Education/EduFaclatyEngg",
+      "route": "/education/faculty-agricultural-engineering",
       "breadcrumb": [
         {
           "title": {
@@ -1179,9 +1223,9 @@
           "href": "/education/faculty-agricultural-engineering"
         }
       ],
-      "tableCount": 1,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 19
+      "mediaCount": 0
     },
     {
       "slug": "education-faculty-agricultural-science",
@@ -1192,7 +1236,7 @@
         "en": "Agricultural Science Faculty",
         "mr": "कृषि विज्ञान शाखा"
       },
-      "route": "/Education/EduFaclatyScience",
+      "route": "/education/faculty-agricultural-science",
       "breadcrumb": [
         {
           "title": {
@@ -1223,9 +1267,9 @@
           "href": "/education/faculty-agricultural-science"
         }
       ],
-      "tableCount": 1,
+      "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 30
+      "mediaCount": 0
     },
     {
       "slug": "education-organizational-profile",
@@ -1236,7 +1280,7 @@
         "en": "Organizational Profile",
         "mr": "संस्थात्मक संरचना"
       },
-      "route": "/Education/EduProfile",
+      "route": "/education/profile",
       "breadcrumb": [
         {
           "title": {
@@ -1269,7 +1313,7 @@
       ],
       "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 15
+      "mediaCount": 0
     },
     {
       "slug": "education-thrust-areas",
@@ -1280,7 +1324,7 @@
         "en": "Thrust Areas",
         "mr": "प्राधान्यक्रम"
       },
-      "route": "/Education/EduThrustAreas",
+      "route": "/education/thrust-areas",
       "breadcrumb": [
         {
           "title": {
@@ -1313,7 +1357,7 @@
       ],
       "tableCount": 0,
       "noticeCount": 0,
-      "mediaCount": 14
+      "mediaCount": 0
     },
     {
       "slug": "employee-corner",
@@ -4600,5 +4644,5 @@
       "mediaCount": 15
     }
   ],
-  "updatedAt": "2026-11-24T10:27:11.643Z"
+  "updatedAt": "2026-11-24T11:25:53.976Z"
 }

@@ -1,12 +1,24 @@
 {
   "slug": "education-constituent-colleges",
   "url": "https://mpkv.ac.in/Education/EduConstituenClg",
-  "route": "/Education/EduConstituenClg",
-  "sourcePage": "education-constituent-colleges",
-  "scrapedAt": "2026-11-22T20:35:25.818400",
+  "route": "/education/constituent-colleges",
+  "sourcePage": "Education/EduConstituenClg",
+  "scrapedAt": "2026-11-24T10:47:33.233Z",
   "title": {
     "en": "Constituent Colleges",
     "mr": "घटक महाविद्यालये"
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
   },
   "breadcrumb": [
     {
@@ -40,2422 +52,449 @@
   ],
   "hero": {
     "title": {
-      "en": "Constituent Colleges",
-      "mr": "Constituent Colleges"
+      "en": "Constituent Colleges of MPKV",
+      "mr": "महात्मा फुले कृषि विद्यापीठाची घटक महाविद्यालये"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "14 premier government agricultural and engineering colleges across 10 districts of Western Maharashtra delivering ICAR-accredited education.",
+      "mr": "पश्चिम महाराष्ट्रातील १० जिल्ह्यांमध्ये विस्तारलेली १४ नामांकित शासकीय घटक महाविद्यालये — आयसीएआर अधिस्वीकृती व आधुनिक शैक्षणिक सुविधांसह."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "14 Constituent Colleges | 6 Professional Disciplines",
+      "mr": "१४ घटक महाविद्यालये | ६ व्यावसायिक विद्याशाखा"
     }
   },
-  "headings": [
+  "colleges": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
+      "id": "co-agri-pune",
+      "name": {
         "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
+        "mr": "कृषि महाविद्यालय, पुणे"
       },
-      "order": 51
+      "established": 1907,
+      "district": {
+        "en": "Pune",
+        "mr": "पुणे"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/Administration_Building_only_20200102043951.jpg",
+      "intake": 190,
+      "pgIntake": "60 (M.Sc.) + 6 (Hort.) + 30 (MBA) + 2 (Ph.D.)",
+      "website": "http://acpune.co.in/",
+      "description": {
+        "en": "One of the oldest premier agricultural colleges in India, established in 1907. Sprawling heritage campus featuring high-tech floriculture and biotechnology infrastructure.",
+        "mr": "भारतातील सर्वात जुन्या अग्रगण्य कृषि महाविद्यालयांपैकी एक (स्थापना १९०७). ऐतिहासिक वारसा संकुल, हाय-टेक पुष्पशेती आणि अत्याधुनिक प्रयोगशाळा."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture",
+        "M.Sc. (Agri)",
+        "M.Sc. (Hort)",
+        "M.B.A. (Agri)",
+        "Ph.D. (Agril. Meteorology)"
+      ]
     },
     {
-      "level": "h6",
-      "text": {
+      "id": "co-agri-dhule",
+      "name": {
         "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
+        "mr": "कृषि महाविद्यालय, धुळे"
       },
-      "order": 52
+      "established": 1960,
+      "district": {
+        "en": "Dhule",
+        "mr": "धुळे"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 128,
+      "pgIntake": "24 (M.Sc.) + 4 (Hort.)",
+      "website": "http://www.acdhule.edu.in/",
+      "description": {
+        "en": "Premier agriculture campus catering to Khandesh region with extensive dryland and pulses research farm.",
+        "mr": "खान्देश विभागातील प्रमुख कृषि शिक्षण केंद्र, कोरडवाहू शेती व कडधान्य संशोधन प्रक्षेत्रासह समृद्ध."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture",
+        "M.Sc. (Agri)",
+        "M.Sc. (Hort)"
+      ]
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
+      "id": "co-agri-kolhapur",
+      "name": {
+        "en": "Rajarshee Chhatrapati Shahu Maharaj College of Agriculture, Kolhapur",
+        "mr": "राजर्षी छत्रपती शाहू महाराज कृषि महाविद्यालय, कोल्हापूर"
       },
-      "order": 53
+      "established": 1963,
+      "district": {
+        "en": "Kolhapur",
+        "mr": "कोल्हापूर"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 190,
+      "pgIntake": "48 (M.Sc.) + 6 (Hort.)",
+      "website": "http://www.ackolhapur.edu.in/",
+      "description": {
+        "en": "Named after the visionary Rajarshee Chhatrapati Shahu Maharaj, located in Kasaba Bawada with excellence in sugarcane and subtropical horticulture.",
+        "mr": "लोकराजे राजर्षी छत्रपती शाहू महाराजांच्या नावाने स्थापन, ऊस शेती व उपोष्णकटिबंधीय फलोत्पादनात अग्रेसर."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture",
+        "M.Sc. (Agri)",
+        "M.Sc. (Hort)"
+      ]
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+      "id": "co-agri-nandurbar",
+      "name": {
+        "en": "College of Agriculture, Nandurbar",
+        "mr": "कृषि महाविद्यालय, नंदुरबार"
       },
-      "order": 54
+      "established": 2013,
+      "district": {
+        "en": "Nandurbar",
+        "mr": "नंदुरबार"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 60,
+      "pgIntake": "-",
+      "website": "http://www.acnandurbar.edu.in",
+      "description": {
+        "en": "Empowering tribal youth of Northern Maharashtra with modern agricultural technologies and livelihood farming.",
+        "mr": "उत्तर महाराष्ट्रातील आदिवासी भागातील विद्यार्थ्यांना आधुनिक शेती तंत्रज्ञानाचे दर्जेदार शिक्षण देणारे केंद्र."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture"
+      ]
     },
     {
-      "level": "h2",
-      "text": {
-        "en": "Education",
-        "mr": "शिक्षण"
+      "id": "co-agri-karad",
+      "name": {
+        "en": "Yashwantrao Chavan College of Agriculture, Karad",
+        "mr": "यशवंतराव चव्हाण कृषि महाविद्यालय, कराड"
       },
-      "order": 55
+      "established": 2013,
+      "district": {
+        "en": "Satara",
+        "mr": "सातारा"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 60,
+      "pgIntake": "-",
+      "website": "",
+      "description": {
+        "en": "Established in the sugar-belt region of Satara, focusing on cash crops, agro-forestry, and dairy farming.",
+        "mr": "सातारा जिल्ह्यातील ऊस पट्ट्यात स्थित, नगदी पिके व दुग्ध व्यवसाय शिक्षणावर विशेष भर."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture"
+      ]
     },
     {
-      "level": "h2",
-      "text": {
-        "en": "Constituent Colleges",
-        "mr": "Constituent Colleges"
+      "id": "co-agri-muktainagar",
+      "name": {
+        "en": "College of Agriculture, Muktainagar",
+        "mr": "कृषि महाविद्यालय, मुक्ताईनगर"
       },
-      "order": 56
+      "established": 2013,
+      "district": {
+        "en": "Jalgaon",
+        "mr": "जळगाव"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 60,
+      "pgIntake": "-",
+      "website": "",
+      "description": {
+        "en": "Located in Jalgaon district with specialized instructional farms for banana, cotton, and oilseed cultivation.",
+        "mr": "जळगाव जिल्ह्यातील मुक्ताईनगर येथे केळी, कापूस व गळीतधान्य पिकांवर केंद्रित आधुनिक प्रक्षेत्र."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture"
+      ]
     },
     {
-      "level": "h2",
-      "text": {
-        "en": "Constituent College wise Programmes and Intake Capacity",
-        "mr": "Constituent College wise Programmes and Intake Capacity"
+      "id": "co-agri-halgaon",
+      "name": {
+        "en": "Punyashlok Ahilyadevi Holkar College of Agriculture, Halgaon",
+        "mr": "पुण्यश्लोक अहिल्यादेवी होळकर कृषि महाविद्यालय, हळगाव"
       },
-      "order": 57
+      "established": 2018,
+      "district": {
+        "en": "Ahilyanagar",
+        "mr": "अहिल्यानगर"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 60,
+      "pgIntake": "-",
+      "website": "https://www.achalgaon.in/",
+      "description": {
+        "en": "Modern campus in Jamkhed taluka dedicated to dryland farming technologies, water harvesting, and millets.",
+        "mr": "जामखेड तालुक्यातील दुष्काळी पट्ट्यात आधुनिक कोरडवाहू शेती, जलसंधारण व भरडधान्य संशोधनावर आधारित."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture"
+      ]
+    },
+    {
+      "id": "co-agri-kashti",
+      "name": {
+        "en": "College of Agriculture, Kashti (Malegaon)",
+        "mr": "कृषि महाविद्यालय, काष्टी (मालेगाव)"
+      },
+      "established": 2021,
+      "district": {
+        "en": "Nashik",
+        "mr": "नाशिक"
+      },
+      "discipline": "Agriculture",
+      "disciplineLabel": {
+        "en": "Agriculture",
+        "mr": "कृषि"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 60,
+      "pgIntake": "-",
+      "website": "https://kvskashti.ac.in/CollegeAgri",
+      "description": {
+        "en": "Part of the ultra-modern Krishi Vigyan Sankul at Kashti, Malegaon featuring precision farming models.",
+        "mr": "काष्टी (मालेगाव) येथील भव्य कृषि विज्ञान संकुलाचा भाग, अत्याधुनिक प्रयोगशाळा व प्रक्षेत्रासह."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agriculture"
+      ]
+    },
+    {
+      "id": "co-hort-pune",
+      "name": {
+        "en": "College of Horticulture, Pune",
+        "mr": "उद्यानविद्या महाविद्यालय, पुणे"
+      },
+      "established": 2003,
+      "district": {
+        "en": "Pune",
+        "mr": "पुणे"
+      },
+      "discipline": "Horticulture",
+      "disciplineLabel": {
+        "en": "Horticulture",
+        "mr": "उद्यानविद्या"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 40,
+      "pgIntake": "Post Graduate at CoA Pune",
+      "website": "http://www.cohpune.in/",
+      "description": {
+        "en": "Leading constituent college for protected cultivation, commercial floriculture, and landscape architecture in Maharashtra.",
+        "mr": "संरक्षित शेती, व्यावसायिक पुष्पशेती व निसर्गरम्य लँडस्केपिंग क्षेत्रातील महाराष्ट्रातील अग्रगण्य घटक महाविद्यालय."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Horticulture"
+      ]
+    },
+    {
+      "id": "co-hort-kashti",
+      "name": {
+        "en": "College of Horticulture, Kashti (Malegaon)",
+        "mr": "उद्यानविद्या महाविद्यालय, काष्टी (मालेगाव)"
+      },
+      "established": 2021,
+      "district": {
+        "en": "Nashik",
+        "mr": "नाशिक"
+      },
+      "discipline": "Horticulture",
+      "disciplineLabel": {
+        "en": "Horticulture",
+        "mr": "उद्यानविद्या"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 40,
+      "pgIntake": "-",
+      "website": "https://kvskashti.ac.in/CollegeHorti",
+      "description": {
+        "en": "Focused on pomegranate, onion, table grapes, and vegetable seed production technology in North Maharashtra.",
+        "mr": "डाळिंब, कांदा, द्राक्षे व भाजीपाला बीजोत्पादन तंत्रज्ञानाचे उत्कृष्ट केंद्र."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Horticulture"
+      ]
+    },
+    {
+      "id": "co-engg-rahuri",
+      "name": {
+        "en": "Dr. Annasaheb Shinde College of Agril. Engineering & Technology, Rahuri",
+        "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+      },
+      "established": 1969,
+      "district": {
+        "en": "Ahilyanagar",
+        "mr": "अहिल्यानगर"
+      },
+      "discipline": "Engineering",
+      "disciplineLabel": {
+        "en": "Agril. Engineering",
+        "mr": "कृषि अभियांत्रिकी"
+      },
+      "image": "/media/images/A_02_NCC_Engineering_20260130024914_20260612123909.jpg",
+      "intake": 64,
+      "pgIntake": "30 (M.Tech.) + 12 (Ph.D.)",
+      "website": "https://ascaet.ac.in/",
+      "description": {
+        "en": "Pioneer agricultural engineering college in Maharashtra with national tractor testing center, GIS lab, and drip irrigation hydraulics research.",
+        "mr": "महाराष्ट्रातील पहिले कृषि अभियांत्रिकी महाविद्यालय — राष्ट्रीय ट्रॅक्टर चाचणी केंद्र, जीआयएस लॅब व सूक्ष्म सिंचन संशोधन केंद्र."
+      },
+      "degrees": [
+        "B.Tech. (Agril. Engg)",
+        "M.Tech. (5 Streams)",
+        "Ph.D. (Agril. Engg)"
+      ]
+    },
+    {
+      "id": "co-engg-kashti",
+      "name": {
+        "en": "College of Agricultural Engineering & Technology, Kashti",
+        "mr": "कृषि अभियांत्रिकी महाविद्यालय, काष्टी (मालेगाव)"
+      },
+      "established": 2021,
+      "district": {
+        "en": "Nashik",
+        "mr": "नाशिक"
+      },
+      "discipline": "Engineering",
+      "disciplineLabel": {
+        "en": "Agril. Engineering",
+        "mr": "कृषि अभियांत्रिकी"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 40,
+      "pgIntake": "-",
+      "website": "https://kvskashti.ac.in/CollegeAgriEngg",
+      "description": {
+        "en": "Advanced farm automation, renewable energy, and drone-based precision spraying laboratory facility.",
+        "mr": "शेती यांत्रिकीकरण, नवीकरणीय ऊर्जा व ड्रोन फवारणी तंत्रज्ञान प्रयोगशाळांनी सज्ज."
+      },
+      "degrees": [
+        "B.Tech. (Agril. Engg)"
+      ]
+    },
+    {
+      "id": "co-abm-kashti",
+      "name": {
+        "en": "College of Agriculture Business Management, Kashti",
+        "mr": "कृषि व्यवसाय व्यवस्थापन महाविद्यालय, काष्टी (मालेगाव)"
+      },
+      "established": 2021,
+      "district": {
+        "en": "Nashik",
+        "mr": "नाशिक"
+      },
+      "discipline": "Management",
+      "disciplineLabel": {
+        "en": "Agri Business",
+        "mr": "कृषि व्यवसाय व्यवस्थापन"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 60,
+      "pgIntake": "-",
+      "website": "https://kvskashti.ac.in/CollegeABM",
+      "description": {
+        "en": "Dedicated to training agri-entrepreneurs, supply chain managers, FPO executives, and agro-marketing specialists.",
+        "mr": "कृषोद्योजक, पुरवठा साखळी व्यवस्थापक आणि शेतकरी उत्पादक कंपन्यांचे (FPO) नेतृत्व घडविणारे महाविद्यालय."
+      },
+      "degrees": [
+        "B.Sc. (Hons) Agri Business Management"
+      ]
+    },
+    {
+      "id": "co-food-kashti",
+      "name": {
+        "en": "College of Food Technology, Kashti",
+        "mr": "अन्नतंत्रज्ञान महाविद्यालय, काष्टी (मालेगाव)"
+      },
+      "established": 2021,
+      "district": {
+        "en": "Nashik",
+        "mr": "नाशिक"
+      },
+      "discipline": "FoodTech",
+      "disciplineLabel": {
+        "en": "Food Technology",
+        "mr": "अन्नतंत्रज्ञान"
+      },
+      "image": "/media/images/college_building_placeholder.jpg",
+      "intake": 40,
+      "pgIntake": "-",
+      "website": "https://kvskashti.ac.in/CollegeFT",
+      "description": {
+        "en": "Focusing on fruit and vegetable processing, dairy technology, grain milling, food safety, and quality assurance.",
+        "mr": "फळ-भाजीपाला प्रक्रिया, दुग्ध तंत्रज्ञान, अन्न सुरक्षा व गुणवत्ता नियंत्रण क्षेत्रातील पदवी शिक्षण."
+      },
+      "degrees": [
+        "B.Tech. (Food Technology)"
+      ]
+    },
+    {
+      "id": "pgi-rahuri",
+      "name": {
+        "en": "Post Graduate Institute (PGI), Rahuri",
+        "mr": "पदव्युत्तर संस्था (PGI), राहुरी"
+      },
+      "established": 1972,
+      "district": {
+        "en": "Ahilyanagar",
+        "mr": "अहिल्यानगर"
+      },
+      "discipline": "PGInstitute",
+      "disciplineLabel": {
+        "en": "Post Graduate & Ph.D.",
+        "mr": "पदव्युत्तर व आचार्य पदवी"
+      },
+      "image": "/media/images/Administration_Building_only_20200102043951.jpg",
+      "intake": 146,
+      "pgIntake": "146 (M.Sc.) + 48 (Ph.D.)",
+      "website": "",
+      "description": {
+        "en": "Apex institute of MPKV for postgraduate teaching, basic and applied doctoral research across 15+ agricultural disciplines.",
+        "mr": "मफुकृवि ची सर्वोच्च पदव्युत्तर संस्था — १५ हून अधिक कृषि विषयांमध्ये उच्च संशोधन व आचार्य पदवीचे नेतृत्व."
+      },
+      "degrees": [
+        "M.Sc. (Agri) - 15 Disciplines",
+        "Ph.D. - 15 Disciplines"
+      ]
     }
-  ],
-  "paragraphs": [
-    {
-      "text": {
-        "en": "The University has fifteen constituent colleges out of which eight colleges of agriculture sciences located at Pune, Dhule, Kolhapur, Nandurbar, Karad, Muktainagar Halgaon and Kashti; two agricultural engineering colleges at Rahuri and Kashti; two colleges for horticulture at Pune and Kashti and one each college of Agri. Business Management and Food Technology at Kashti. The University has the Post Graduate Institute at its central campus of Rahuri",
-        "mr": "The University has fifteen constituent colleges out of which eight colleges of agriculture sciences located at Pune, Dhule, Kolhapur, Nandurbar, Karad, Muktainagar Halgaon and Kashti; two agricultural engineering colleges at Rahuri and Kashti; two colleges for horticulture at Pune and Kashti and one each college of Agri. Business Management and Food Technology at Kashti. The University has the Post Graduate Institute at its central campus of Rahuri"
-      },
-      "order": 58
-    },
-    {
-      "text": {
-        "en": "The University offers Master degree at Post Graduate Institute, Rahuri, College of Agriculture, Pune, Kolhapur and Dhule; and Dr. A. S. College of Agricultural Engineering & Technology  at Rahuri",
-        "mr": "The University offers Master degree at Post Graduate Institute, Rahuri, College of Agriculture, Pune, Kolhapur and Dhule; and Dr. A. S. College of Agricultural Engineering & Technology  at Rahuri"
-      },
-      "order": 59
-    },
-    {
-      "text": {
-        "en": "Further, the Post Graduate Institute, Dr. A. S. College of Agricultural Engineering & Technology offers the Doctoral level programmes in agricultural science and engineering, respectively.",
-        "mr": "Further, the Post Graduate Institute, Dr. A. S. College of Agricultural Engineering & Technology offers the Doctoral level programmes in agricultural science and engineering, respectively."
-      },
-      "order": 60
-    }
-  ],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Education",
-          "mr": "शिक्षण"
-        },
-        {
-          "en": "Education at a Glance",
-          "mr": "Education at a Glance"
-        },
-        {
-          "en": "Organizational Profile",
-          "mr": "Organizational Profile"
-        },
-        {
-          "en": "Thrust Areas",
-          "mr": "Thrust Areas"
-        },
-        {
-          "en": "FacultyAgricultural ScienceAgricultural Engineering",
-          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
-        },
-        {
-          "en": "CollegesConstituent CollegesAffiliated Colleges",
-          "mr": "CollegesConstituent CollegesAffiliated Colleges"
-        },
-        {
-          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
-          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
-        },
-        {
-          "en": "Academic Regulations",
-          "mr": "Academic Regulations"
-        },
-        {
-          "en": "Diploma (Agril. Tech. Schools)",
-          "mr": "Diploma (Agril. Tech. Schools)"
-        },
-        {
-          "en": "Certificate Courses",
-          "mr": "Certificate Courses"
-        }
-      ],
-      "order": 61
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Agricultural Science",
-          "mr": "Agricultural Science"
-        },
-        {
-          "en": "Agricultural Engineering",
-          "mr": "Agricultural Engineering"
-        }
-      ],
-      "order": 62
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Constituent Colleges",
-          "mr": "Constituent Colleges"
-        },
-        {
-          "en": "Affiliated Colleges",
-          "mr": "Affiliated Colleges"
-        }
-      ],
-      "order": 63
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Diploma",
-          "mr": "Diploma"
-        },
-        {
-          "en": "Bachelor's",
-          "mr": "Bachelor's"
-        },
-        {
-          "en": "Doctoral",
-          "mr": "Doctoral"
-        }
-      ],
-      "order": 64
-    }
-  ],
-  "tables": [
-    {
-      "id": "table_1",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "headers": [
-        {
-          "en": "Sr.No.",
-          "mr": "Sr.No."
-        },
-        {
-          "en": "Name of College",
-          "mr": "Name of College"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Pune",
-              "mr": "College of Agriculture, Pune"
-            },
-            "fileLink": "",
-            "originalLink": "http://acpune.co.in/"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Dhule",
-              "mr": "College of Agriculture, Dhule"
-            },
-            "fileLink": "",
-            "originalLink": "http://www.acdhule.edu.in/"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Rajarshee Chhatrapati Shahu Maharaj College of Agriculture, Kolhapur",
-              "mr": "Rajarshee Chhatrapati Shahu Maharaj College of Agriculture, Kolhapur"
-            },
-            "fileLink": "",
-            "originalLink": "http://www.ackolhapur.edu.in/"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Nandurbar",
-              "mr": "College of Agriculture, Nandurbar"
-            },
-            "fileLink": "",
-            "originalLink": "http://www.acnandurbar.edu.in"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Karad",
-              "mr": "College of Agriculture, Karad"
-            },
-            "fileLink": "/media/docs/College_of_Agriculture_Karad.pdf",
-            "originalLink": "/StaticPdf/College of Agriculture, Karad.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "6"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Muktainagar",
-              "mr": "College of Agriculture, Muktainagar"
-            },
-            "fileLink": "/media/docs/College_of_Agriculture_Muktainagar.pdf",
-            "originalLink": "/StaticPdf/College of Agriculture, Muktainagar.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "7",
-              "mr": "7"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Punyashlok Ahilyadevi Holkar College of Agriculture, Halgaon",
-              "mr": "Punyashlok Ahilyadevi Holkar College of Agriculture, Halgaon"
-            },
-            "fileLink": "",
-            "originalLink": "https://www.achalgaon.in/"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "8",
-              "mr": "8"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agri. Business Management, Kashti, Malegaon",
-              "mr": "College of Agri. Business Management, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": "https://kvskashti.ac.in/CollegeABM"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "9",
-              "mr": "9"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Food Technology, Kashti, Malegaon",
-              "mr": "College of Food Technology, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": "https://kvskashti.ac.in/CollegeFT"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "10",
-              "mr": "10"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Horticulture,Pune",
-              "mr": "College of Horticulture,Pune"
-            },
-            "fileLink": "",
-            "originalLink": "http://www.cohpune.in/"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "11",
-              "mr": "11"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Dr. Annasaheb Shinde College of Agricultural Engineering  & Technology, Rahuri",
-              "mr": "Dr. Annasaheb Shinde College of Agricultural Engineering  & Technology, Rahuri"
-            },
-            "fileLink": "",
-            "originalLink": "https://ascaet.ac.in/"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "12",
-              "mr": "12"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Post Graduate Institute,Rahuri",
-              "mr": "Post Graduate Institute,Rahuri"
-            },
-            "fileLink": "/media/docs/Post_Graduate_Institute_Rahuri.pdf",
-            "originalLink": "/StaticPdf/Post Graduate Institute, Rahuri.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "13",
-              "mr": "13"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Kashti, Malegaon",
-              "mr": "College of Agriculture, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": "https://kvskashti.ac.in/CollegeAgri"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "14",
-              "mr": "14"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Horticulture, Kashti, Malegaon",
-              "mr": "College of Horticulture, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": "https://kvskashti.ac.in/CollegeHorti"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "15",
-              "mr": "15"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agricultural Engineering and Technology, Kashti, Malegaon",
-              "mr": "College of Agricultural Engineering and Technology, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": "https://kvskashti.ac.in/CollegeAgriEngg"
-          }
-        ]
-      ],
-      "rowCount": 15,
-      "columnCount": 2
-    },
-    {
-      "id": "table_2",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "headers": [
-        {
-          "en": "Sr. No.",
-          "mr": "Sr. No."
-        },
-        {
-          "en": "Name of Institute",
-          "mr": "Name of Institute"
-        },
-        {
-          "en": "Name of the Course / Degree Programme",
-          "mr": "Name of the Course / Degree Programme"
-        },
-        {
-          "en": "Intake capacity",
-          "mr": "Intake capacity"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Pune",
-              "mr": "College of Agriculture, Pune"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "190",
-              "mr": "190"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Agri.)",
-              "mr": "M.Sc. (Agri.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Hort.)",
-              "mr": "M.Sc. (Hort.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "06",
-              "mr": "06"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.B.M. (Agri.)",
-              "mr": "M.B.M. (Agri.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "30",
-              "mr": "30"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "Ph.D. (Agril. Met.)",
-              "mr": "Ph.D. (Agril. Met.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02",
-              "mr": "02"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Dhule",
-              "mr": "College of Agriculture, Dhule"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "128",
-              "mr": "128"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Agri.)",
-              "mr": "M.Sc. (Agri.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "24",
-              "mr": "24"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Hort.)",
-              "mr": "M.Sc. (Hort.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "04",
-              "mr": "04"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Rajarshee Chhatrapati Shahu Maharaj College of Agriculture, Kolhapur",
-              "mr": "Rajarshee Chhatrapati Shahu Maharaj College of Agriculture, Kolhapur"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "190",
-              "mr": "190"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Agri.)",
-              "mr": "M.Sc. (Agri.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "48",
-              "mr": "48"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Hort.)",
-              "mr": "M.Sc. (Hort.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "06",
-              "mr": "06"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Nandurbar",
-              "mr": "College of Agriculture, Nandurbar"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Yashwantrao Chavan College of Agriculture, Karad",
-              "mr": "Yashwantrao Chavan College of Agriculture, Karad"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "6"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Muktainagar",
-              "mr": "College of Agriculture, Muktainagar"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "7",
-              "mr": "7"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Punyashlok Ahilyadevi Holkar College of Agriculture, Halgaon",
-              "mr": "Punyashlok Ahilyadevi Holkar College of Agriculture, Halgaon"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "8",
-              "mr": "8"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agri. Business Management, Kashti, Malegaon",
-              "mr": "College of Agri. Business Management, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agri. Business Management",
-              "mr": "B.Sc. (Hons) Agri. Business Management"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "9",
-              "mr": "9"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Horticulture, Pune",
-              "mr": "College of Horticulture, Pune"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "32",
-              "mr": "32"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "10",
-              "mr": "10"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Dr. Annasaheb Shinde College of Agrilcultural Enggineering & Technology, Rahuri",
-              "mr": "Dr. Annasaheb Shinde College of Agrilcultural Enggineering & Technology, Rahuri"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Tech.(Agricultural Engineering)",
-              "mr": "B.Tech.(Agricultural Engineering)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "64",
-              "mr": "64"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Tech.(Agricultural Engineering)",
-              "mr": "M.Tech.(Agricultural Engineering)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "16",
-              "mr": "16"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "Ph.D.(Agricultural Engineering)",
-              "mr": "Ph.D.(Agricultural Engineering)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "12",
-              "mr": "12"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "11",
-              "mr": "11"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Post Graduate Institute, Rahuri",
-              "mr": "Post Graduate Institute, Rahuri"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "M.Sc. (Agri.)",
-              "mr": "M.Sc. (Agri.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "149",
-              "mr": "149"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Hort.)",
-              "mr": "M.Sc. (Hort.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "12",
-              "mr": "12"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "M.Sc. (Bio-tech.)",
-              "mr": "M.Sc. (Bio-tech.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "08",
-              "mr": "08"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "Ph.D.(Agriculture)",
-              "mr": "Ph.D.(Agriculture)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "62",
-              "mr": "62"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "12",
-              "mr": "12"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agriculture, Kashti, Malegaon",
-              "mr": "College of Agriculture, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "B.Sc. (Hons) Agriculture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "13",
-              "mr": "13"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Food Technology, Kashti, Malegaon",
-              "mr": "College of Food Technology, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Tech. (Food Technology)",
-              "mr": "B.Tech. (Food Technology)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "40",
-              "mr": "40"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "14",
-              "mr": "14"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Horticulture, Kashti, Malegaon",
-              "mr": "College of Horticulture, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Horticulture",
-              "mr": "B.Sc. (Hons) Horticulture"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "60",
-              "mr": "60"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "14",
-              "mr": "14"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "College of Agril. Engg. and Technology, Kashti, Malegaon",
-              "mr": "College of Agril. Engg. and Technology, Kashti, Malegaon"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B.Tech. (Agril. Engg.)",
-              "mr": "B.Tech. (Agril. Engg.)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "40",
-              "mr": "40"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ]
-      ],
-      "rowCount": 28,
-      "columnCount": 4
-    }
-  ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/College of Agriculture, Karad.pdf",
-      "localPath": "/media/docs/College_of_Agriculture_Karad.pdf",
-      "category": "docs",
-      "label": "College of Agriculture, Karad"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/College of Agriculture, Muktainagar.pdf",
-      "localPath": "/media/docs/College_of_Agriculture_Muktainagar.pdf",
-      "category": "docs",
-      "label": "College of Agriculture, Muktainagar"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Post Graduate Institute, Rahuri.pdf",
-      "localPath": "/media/docs/Post_Graduate_Institute_Rahuri.pdf",
-      "category": "docs",
-      "label": "Post Graduate Institute,Rahuri"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Education",
-        "mr": "शिक्षण"
-      },
-      "order": 55
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Constituent Colleges",
-        "mr": "Constituent Colleges"
-      },
-      "order": 56
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Constituent College wise Programmes and Intake Capacity",
-        "mr": "Constituent College wise Programmes and Intake Capacity"
-      },
-      "order": 57
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The University has fifteen constituent colleges out of which eight colleges of agriculture sciences located at Pune, Dhule, Kolhapur, Nandurbar, Karad, Muktainagar Halgaon and Kashti; two agricultural engineering colleges at Rahuri and Kashti; two colleges for horticulture at Pune and Kashti and one each college of Agri. Business Management and Food Technology at Kashti. The University has the Post Graduate Institute at its central campus of Rahuri",
-        "mr": "The University has fifteen constituent colleges out of which eight colleges of agriculture sciences located at Pune, Dhule, Kolhapur, Nandurbar, Karad, Muktainagar Halgaon and Kashti; two agricultural engineering colleges at Rahuri and Kashti; two colleges for horticulture at Pune and Kashti and one each college of Agri. Business Management and Food Technology at Kashti. The University has the Post Graduate Institute at its central campus of Rahuri"
-      },
-      "order": 58
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The University offers Master degree at Post Graduate Institute, Rahuri, College of Agriculture, Pune, Kolhapur and Dhule; and Dr. A. S. College of Agricultural Engineering & Technology  at Rahuri",
-        "mr": "The University offers Master degree at Post Graduate Institute, Rahuri, College of Agriculture, Pune, Kolhapur and Dhule; and Dr. A. S. College of Agricultural Engineering & Technology  at Rahuri"
-      },
-      "order": 59
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "Further, the Post Graduate Institute, Dr. A. S. College of Agricultural Engineering & Technology offers the Doctoral level programmes in agricultural science and engineering, respectively.",
-        "mr": "Further, the Post Graduate Institute, Dr. A. S. College of Agricultural Engineering & Technology offers the Doctoral level programmes in agricultural science and engineering, respectively."
-      },
-      "order": 60
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Education",
-          "mr": "शिक्षण"
-        },
-        {
-          "en": "Education at a Glance",
-          "mr": "Education at a Glance"
-        },
-        {
-          "en": "Organizational Profile",
-          "mr": "Organizational Profile"
-        },
-        {
-          "en": "Thrust Areas",
-          "mr": "Thrust Areas"
-        },
-        {
-          "en": "FacultyAgricultural ScienceAgricultural Engineering",
-          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
-        },
-        {
-          "en": "CollegesConstituent CollegesAffiliated Colleges",
-          "mr": "CollegesConstituent CollegesAffiliated Colleges"
-        },
-        {
-          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
-          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
-        },
-        {
-          "en": "Academic Regulations",
-          "mr": "Academic Regulations"
-        },
-        {
-          "en": "Diploma (Agril. Tech. Schools)",
-          "mr": "Diploma (Agril. Tech. Schools)"
-        },
-        {
-          "en": "Certificate Courses",
-          "mr": "Certificate Courses"
-        }
-      ],
-      "order": 61
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Agricultural Science",
-          "mr": "Agricultural Science"
-        },
-        {
-          "en": "Agricultural Engineering",
-          "mr": "Agricultural Engineering"
-        }
-      ],
-      "order": 62
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Constituent Colleges",
-          "mr": "Constituent Colleges"
-        },
-        {
-          "en": "Affiliated Colleges",
-          "mr": "Affiliated Colleges"
-        }
-      ],
-      "order": 63
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Diploma",
-          "mr": "Diploma"
-        },
-        {
-          "en": "Bachelor's",
-          "mr": "Bachelor's"
-        },
-        {
-          "en": "Doctoral",
-          "mr": "Doctoral"
-        }
-      ],
-      "order": 64
-    }
-  ],
-  "stats": {
-    "headingCount": 57,
-    "paragraphCount": 3,
-    "listCount": 4,
-    "tableCount": 2,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 17,
-    "totalRecords": 120
-  },
-  "menuId": "menu_education",
-  "parentMenu": {
-    "id": "menu_education",
-    "title": {
-      "en": "Education",
-      "mr": "शिक्षण"
-    }
-  },
-  "submenuGroup": {
-    "en": "Colleges",
-    "mr": "महाविद्यालये"
-  }
+  ]
 }

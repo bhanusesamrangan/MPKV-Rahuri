@@ -352,8 +352,11 @@ export const MegaMenu: React.FC = () => {
               } else if (childrenCount >= 4) {
                 gridCols = 'grid-cols-2 lg:grid-cols-4';
                 if (item.id === 'menu_research') {
-                  widthClass = 'w-[980px] xl:w-[1060px] 2xl:w-[1140px]';
-                  alignClass = '-left-8 xl:-left-16 2xl:-left-20';
+                  widthClass = 'w-[840px] xl:w-[900px] 2xl:w-[940px]';
+                  alignClass = '-left-12 xl:-left-20 2xl:-left-24';
+                } else if (item.id === 'menu_farmer') {
+                  widthClass = 'w-[780px] xl:w-[840px] 2xl:w-[880px]';
+                  alignClass = 'right-0 xl:-left-36 2xl:-left-24';
                 } else {
                   widthClass = 'w-[1140px] xl:w-[1320px] 2xl:w-[1440px]';
                   alignClass = 'left-0';
@@ -419,56 +422,84 @@ export const MegaMenu: React.FC = () => {
                       onMouseEnter={handleDropdownMouseEnter}
                       onMouseLeave={handleDropdownMouseLeave}
                     >
-                      <div className={`${widthClass} max-w-[calc(100vw-2.5rem)] bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 ${item.id === 'menu_research' ? 'p-6 xl:p-7' : 'p-6 xl:p-7'} grid ${gridCols} ${item.id === 'menu_research' ? 'gap-x-7 xl:gap-x-8' : 'gap-x-8 xl:gap-x-10'} gap-y-6 relative`}>
+                      <div className={`${widthClass} max-w-[calc(100vw-2.5rem)] whitespace-normal bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 ${item.id === 'menu_research' ? 'p-5 xl:p-6' : 'p-5 xl:p-6'} grid ${gridCols} ${item.id === 'menu_research' ? 'gap-x-5 xl:gap-x-6' : 'gap-x-6 xl:gap-x-8'} gap-y-5 relative`}>
                         {/* Top Accent Gradient Line */}
                         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-600 via-amber-400 to-emerald-600 rounded-t-2xl" />
 
-                        {item.children.map((group: any, idx: number) => (
-                          <div key={idx} className="space-y-2.5 min-w-0">
-                            {group.is_group && (
-                              <div className="flex items-start gap-2 border-b border-stone-200 pb-2 mb-2 min-h-[36px]">
-                                <span className="w-1.5 h-3.5 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-full flex-shrink-0 mt-0.5" />
-                                <h5 className="text-[11px] xl:text-xs font-bold uppercase tracking-wide text-slate-900 leading-snug break-words">
-                                  {getBilingual(group.title)}
-                                </h5>
-                              </div>
-                            )}
-                            <ul className="space-y-1.5">
-                              {(group.children || [group]).map((leaf: any, lIdx: number) => {
-                                const cleanPath = (pathname || '').replace(/\/$/, '') || '/';
-                                const cleanLeafHref = (leaf.href || '').replace(/\/$/, '') || '/';
-                                const isLeafActive = cleanPath === cleanLeafHref;
-                                return (
-                                  <li key={lIdx}>
-                                    {leaf.is_external ? (
-                                      <a
-                                        href={leaf.href}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="group/link flex items-start justify-between gap-2.5 text-xs xl:text-[13px] py-1.5 px-2.5 rounded-xl transition-all text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950"
-                                      >
-                                        <span className="text-left leading-snug font-medium group-hover/link:font-semibold flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
-                                        <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover/link:text-emerald-700 transition-all flex-shrink-0 mt-0.5" />
-                                      </a>
-                                    ) : (
-                                      <Link
-                                        href={leaf.href}
-                                        onClick={() => setActiveDropdown(null)}
-                                        className={`group/link flex items-start justify-between gap-2.5 text-xs xl:text-[13px] py-1.5 px-2.5 rounded-xl transition-all ${isLeafActive
-                                          ? 'bg-emerald-50 text-emerald-950 font-bold border-l-2 border-emerald-600 shadow-2xs'
-                                          : 'text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950'
-                                          }`}
-                                      >
-                                        <span className="text-left leading-snug font-medium group-hover/link:font-semibold flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
-                                        <ArrowRight className="w-3.5 h-3.5 text-emerald-700 opacity-0 group-hover/link:opacity-100 group-hover/link:translate-x-1 transition-all flex-shrink-0 mt-0.5" />
-                                      </Link>
-                                    )}
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          </div>
-                        ))}
+                        {item.children.map((group: any, idx: number) => {
+                          const isFarmer = item.id === 'menu_farmer';
+                          const isFarmerDirectCol = isFarmer && !group.is_group;
+
+                          return (
+                            <div key={idx} className="space-y-2 min-w-0 flex flex-col">
+                              {group.is_group && (
+                                <div className="flex items-start gap-1.5 border-b border-stone-200 pb-2 mb-2 min-h-[38px]">
+                                  <span className="w-1.5 h-3.5 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-full flex-shrink-0 mt-0.5" />
+                                  <h5 className="text-[11px] xl:text-[11.5px] font-bold uppercase tracking-tight text-slate-900 leading-snug break-words flex-1 min-w-0">
+                                    {getBilingual(group.title)}
+                                  </h5>
+                                </div>
+                              )}
+                              <ul className={isFarmerDirectCol ? "space-y-2.5" : "space-y-1.5"}>
+                                {(group.children || [group]).map((leaf: any, lIdx: number) => {
+                                  const cleanPath = (pathname || '').replace(/\/$/, '') || '/';
+                                  const cleanLeafHref = (leaf.href || '').replace(/\/$/, '') || '/';
+                                  const isLeafActive = cleanPath === cleanLeafHref;
+
+                                  if (isFarmerDirectCol) {
+                                    // Primary direct action links for Farmer menu (matching Image 2)
+                                    return (
+                                      <li key={lIdx}>
+                                        <Link
+                                          href={leaf.href}
+                                          onClick={() => setActiveDropdown(null)}
+                                          className={`group/link flex items-center gap-1.5 text-xs xl:text-[13px] py-1.5 px-2 rounded-xl transition-all font-bold tracking-wide uppercase ${isLeafActive
+                                            ? 'bg-emerald-50 text-emerald-950 border-l-2 border-emerald-600 shadow-2xs'
+                                            : 'text-slate-800 hover:bg-emerald-50 hover:text-emerald-900'
+                                            }`}
+                                        >
+                                          <span className="text-emerald-700 font-extrabold text-sm leading-none shrink-0">»</span>
+                                          <span className="text-left leading-snug flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
+                                        </Link>
+                                      </li>
+                                    );
+                                  }
+
+                                  return (
+                                    <li key={lIdx}>
+                                      {leaf.is_external ? (
+                                        <a
+                                          href={leaf.href}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          className="group/link flex items-start justify-between gap-2 text-xs xl:text-[13px] py-1.5 px-2 rounded-xl transition-all text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950"
+                                        >
+                                          <span className="text-left leading-snug font-medium group-hover/link:font-semibold flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
+                                          <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover/link:text-emerald-700 transition-all flex-shrink-0 mt-0.5" />
+                                        </a>
+                                      ) : (
+                                        <Link
+                                          href={leaf.href}
+                                          onClick={() => setActiveDropdown(null)}
+                                          className={`group/link flex items-start justify-between gap-2 text-xs xl:text-[13px] py-1.5 px-2 rounded-xl transition-all ${isLeafActive
+                                            ? 'bg-emerald-50 text-emerald-950 font-bold border-l-2 border-emerald-600 shadow-2xs'
+                                            : 'text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950'
+                                            }`}
+                                        >
+                                          {isFarmer && (
+                                            <span className="text-emerald-600 font-bold text-xs mr-1 shrink-0">›</span>
+                                          )}
+                                          <span className="text-left leading-snug font-medium group-hover/link:font-semibold flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
+                                          <ArrowRight className="w-3.5 h-3.5 text-emerald-700 opacity-0 group-hover/link:opacity-100 group-hover/link:translate-x-1 transition-all flex-shrink-0 mt-0.5" />
+                                        </Link>
+                                      )}
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </div>
+                          );
+                        })}
 
                         {/* Bottom MegaMenu Quick Footer Tag */}
                         <div className="col-span-full pt-3 mt-1 border-t border-stone-200 flex items-center justify-between text-[11px] text-slate-500">

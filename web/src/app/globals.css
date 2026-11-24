@@ -255,3 +255,68 @@ body.theme-dark .text-emerald-700 {
   animation-play-state: paused;
 }
 
+/* Print Stylesheet for clean document & tabular printing */
+@media print {
+  /* Hide non-printable navigation, toolbars, search bars, filter buttons, and pagination */
+  header,
+  footer,
+  #accessibility-toolbar,
+  #main-mega-nav,
+  nav,
+  button,
+  input,
+  select,
+  .no-print,
+  .print-hidden {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt !important;
+  }
+
+  /* Expand full width for paper */
+  article, main, .max-w-7xl {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Table print optimization */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: auto;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto;
+  }
+
+  th, td {
+    border: 1px solid #d1d5db !important;
+    padding: 6px 8px !important;
+    color: #111827 !important;
+  }
+
+  /* Card print optimization */
+  .grid > div {
+    break-inside: avoid !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: none !important;
+  }
+
+  /* Ensure links show URL or don't break formatting */
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}
+

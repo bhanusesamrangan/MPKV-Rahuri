@@ -1,12 +1,24 @@
 {
   "slug": "education-at-a-glance",
   "url": "https://mpkv.ac.in/Education/AtaGlance",
-  "route": "/Education/AtaGlance",
-  "sourcePage": "education-at-a-glance",
-  "scrapedAt": "2026-11-22T20:35:23.603515",
+  "route": "/education/at-a-glance",
+  "sourcePage": "Education/AtaGlance",
+  "scrapedAt": "2026-11-24T10:42:02.672Z",
   "title": {
     "en": "Education at a Glance",
     "mr": "दृष्टीक्षेपात शिक्षण"
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संस्थेची माहिती व रूपरेषा"
   },
   "breadcrumb": [
     {
@@ -40,1386 +52,350 @@
   ],
   "hero": {
     "title": {
-      "en": "At a Glance",
-      "mr": "At a Glance"
+      "en": "Higher Agricultural Education at MPKV",
+      "mr": "महात्मा फुले कृषि विद्यापीठातील उच्च कृषि शिक्षण"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Maharashtra's first state agricultural university, pioneering world-class education, ICAR-accredited degree programmes, and hands-on agricultural innovation since 1968.",
+      "mr": "महाराष्ट्रातील पहिले राज्य कृषि विद्यापीठ — १९६८ पासून दर्जेदार शिक्षण, आयसीएआर अधिस्वीकृती आणि प्रयोगशील संशोधनातून कृषिक्षेत्राचे नेतृत्व."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "NAEAB / ICAR Accredited ‘A’ Grade (Score 3.12 / 4.0)",
+      "mr": "NAEAB / भा.कृ.अनु.प. मान्यताप्राप्त ‘अ’ श्रेणी (गुण ३.१२ / ४.०)"
     }
   },
-  "headings": [
+  "statsCounters": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+      "value": "1,00,000+",
+      "label": {
+        "en": "Agricultural Graduates",
+        "mr": "पदवीधर कृषि मनुष्यबळ"
       },
-      "order": 1
+      "description": {
+        "en": "Produced since inception serving globally",
+        "mr": "स्थापनेपासून विविध क्षेत्रांत कार्यरत"
+      },
+      "icon": "GraduationCap"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+      "value": "14",
+      "label": {
+        "en": "Constituent Colleges",
+        "mr": "घटक महाविद्यालये"
       },
-      "order": 2
+      "description": {
+        "en": "Spread across Western Maharashtra",
+        "mr": "पश्चिम महाराष्ट्रातील १० जिल्ह्यांत"
+      },
+      "icon": "Building2"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+      "value": "NAEAB 'A'",
+      "label": {
+        "en": "ICAR Accreditation",
+        "mr": "भा.कृ.अनु.प. मानांकन"
       },
-      "order": 3
+      "description": {
+        "en": "Secured 3.12 / 4.0 for 2023–2028",
+        "mr": "५ वर्षांसाठी ‘अ’ श्रेणी मानांकन"
+      },
+      "icon": "Award"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
+      "value": "4,560",
+      "label": {
+        "en": "Annual Diploma Intake",
+        "mr": "वार्षिक पदविका प्रवेश क्षमता"
       },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
+      "description": {
+        "en": "Across 82 polytechnics and tech schools",
+        "mr": "८२ तंत्र विद्यालये व तंत्रनिकेतनांमध्ये"
       },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Education",
-        "mr": "शिक्षण"
-      },
-      "order": 55
+      "icon": "Users"
     }
   ],
+  "mandate": {
+    "en": "The prime mandate of the University is to provide Diploma, Graduate, Post-graduate and Doctorate level quality education in agriculture and allied sciences, fostering skill development, entrepreneurship, and producing competent human resources to lead sustainable agriculture.",
+    "mr": "कृषि व संलग्न विद्याशाखांमध्ये पदविका, पदवी, पदव्युत्तर व आचार्य पदवी स्तरावर उच्च दर्जाचे शिक्षण देणे, कौशल्य विकास व उद्योजकतेला प्रोत्साहन देणे आणि शाश्वत शेतीसाठी सक्षम व तंत्रकुशल मनुष्यबळ निर्माण करणे हा विद्यापीठाचा मुख्य उद्देश आहे."
+  },
+  "nep2020": {
+    "title": {
+      "en": "National Education Policy (NEP-2020) Implementation",
+      "mr": "राष्ट्रीय शैक्षणिक धोरण (NEP-2020) अंमलबजावणी"
+    },
+    "description": {
+      "en": "In line with the VI Deans Committee recommendations of ICAR, MPKV Rahuri has successfully implemented the NEP-2020 framework from academic year 2024-25, and NCG recommendations for Post-Graduate programmes from 2022-23.",
+      "mr": "भा.कृ.अनु.प. (ICAR) च्या ६ व्या अधिष्ठाता समितीच्या शिफारशींनुसार मफुकृवि राहुरीने शैक्षणिक वर्ष २०२४-२५ पासून पदवी अभ्यासक्रमात आणि २०२२-२३ पासून पदव्युत्तर अभ्यासक्रमात राष्ट्रीय शैक्षणिक धोरणाची प्रभावी अंमलबजावणी केली आहे."
+    },
+    "features": [
+      {
+        "title": {
+          "en": "Choice-Based Credit System (CBCS)",
+          "mr": "निवड आधारित श्रेयांक पद्धती (CBCS)"
+        },
+        "desc": {
+          "en": "Multidisciplinary flexibility allowing students to choose elective skill tracks and interdisciplinary credits.",
+          "mr": "विद्यार्थ्यांना त्यांच्या आवडीनुसार ऐच्छिक कौशल्य अभ्यासक्रम व आंतरविद्याशाखीय विषय निवडण्याची मुभा."
+        }
+      },
+      {
+        "title": {
+          "en": "Multiple Entry & Exit Options",
+          "mr": "एकाधिक प्रवेश व निर्गमन पर्याय"
+        },
+        "desc": {
+          "en": "Academic bank of credits enabling flexible educational pathways with recognized certificates and diplomas.",
+          "mr": "शैक्षणिक श्रेयांक बँकेच्या (ABC) माध्यमातून लवचिक शिक्षण व प्रमाणपत्र/पदविका प्राप्त करण्याचे पर्याय."
+        }
+      },
+      {
+        "title": {
+          "en": "Student READY & RAWE Programme",
+          "mr": "स्टुडन्ट रेडी व ग्रामीण कृषि कार्यानुभव (RAWE)"
+        },
+        "desc": {
+          "en": "Hands-on semester-long rural agricultural attachment, industrial internships, and experiential learning modules.",
+          "mr": "सहा महिन्यांचा प्रत्यक्ष ग्रामीण शेती कार्यानुभव, कृषोद्योग प्रशिक्षण व प्रात्यक्षिक उद्योजकता शिक्षण."
+        }
+      },
+      {
+        "title": {
+          "en": "Skill Enhancement & Experiential Learning",
+          "mr": "कौशल्य विकास व प्रायोगिक अध्ययन"
+        },
+        "desc": {
+          "en": "Commercial production units in bio-inputs, greenhouse farming, tissue culture, and seed processing.",
+          "mr": "जैविक निविष्ठा, हरितगृह शेती, उती संवर्धन व प्रक्रिया उद्योगांमधील व्यावसायिक प्रात्यक्षिक युनिट्स."
+        }
+      }
+    ]
+  },
+  "degreeLevels": [
+    {
+      "level": "Diploma",
+      "levelName": {
+        "en": "Diploma Programmes",
+        "mr": "पदविका अभ्यासक्रम"
+      },
+      "duration": {
+        "en": "2 to 3 Years",
+        "mr": "२ ते ३ वर्षे"
+      },
+      "eligibility": {
+        "en": "10th (SSC) Pass",
+        "mr": "१० वी उत्तीर्ण"
+      },
+      "count": "82 Schools",
+      "description": {
+        "en": "Agricultural Technology Schools (2-year Marathi medium) and Polytechnic Schools (3-year English medium) with 4,560 seats.",
+        "mr": "१० घटक व ७२ विनाअनुदानित कृषि तंत्र विद्यालये व तंत्रनिकेतनांतून ४,५६० प्रवेश क्षमतेसह पदविका शिक्षण."
+      },
+      "link": "/education/diploma"
+    },
+    {
+      "level": "Bachelors",
+      "levelName": {
+        "en": "Undergraduate (UG) Degrees",
+        "mr": "पदवी अभ्यासक्रम (UG)"
+      },
+      "duration": {
+        "en": "4 Years (8 Semesters)",
+        "mr": "४ वर्षे (८ सत्रावधी)"
+      },
+      "eligibility": {
+        "en": "12th (HSC) Science with CET / NEET",
+        "mr": "१२ वी विज्ञान (CET / NEET)"
+      },
+      "count": "6 Professional Degrees",
+      "description": {
+        "en": "B.Sc. (Hons) Agriculture, Horticulture, B.Tech. (Agril. Engg), Biotechnology, Food Technology, and B.Sc. (Hons) Agri Business Management.",
+        "mr": "कृषि, उद्यानविद्या, कृषि अभियांत्रिकी, जैवतंत्रज्ञान, अन्नतंत्रज्ञान आणि कृषि व्यवसाय व्यवस्थापन या ६ पदव्या."
+      },
+      "link": "/education/bachelors"
+    },
+    {
+      "level": "Masters",
+      "levelName": {
+        "en": "Post-Graduate (PG) Degrees",
+        "mr": "पदव्युत्तर अभ्यासक्रम (PG)"
+      },
+      "duration": {
+        "en": "2 Years (4 Semesters)",
+        "mr": "२ वर्षे (४ सत्रावधी)"
+      },
+      "eligibility": {
+        "en": "Relevant Bachelor's Degree with MCAER-CET",
+        "mr": "संबंधित पदवी व MCAER-CET"
+      },
+      "count": "M.Sc. / M.Tech. / MBA",
+      "description": {
+        "en": "Master’s programmes across 11 agricultural disciplines, 5 engineering streams, and specialized M.B.A. (Agri) at Pune.",
+        "mr": "११ कृषि शाखा, ५ कृषि अभियांत्रिकी विभाग आणि कृषि महाविद्यालय पुणे येथे एम.बी.ए. (कृषि) पदव्युत्तर शिक्षण."
+      },
+      "link": "/education/masters-doctoral"
+    },
+    {
+      "level": "Doctoral",
+      "levelName": {
+        "en": "Doctoral (Ph.D.) Research",
+        "mr": "आचार्य पदवी (Ph.D.)"
+      },
+      "duration": {
+        "en": "3 Years (6 Semesters)",
+        "mr": "३ वर्षे (६ सत्रावधी)"
+      },
+      "eligibility": {
+        "en": "Relevant Master's Degree with ICAR-JRF/SRF",
+        "mr": "संबंधित पदव्युत्तर पदवी"
+      },
+      "count": "Ph.D. in 15+ Disciplines",
+      "description": {
+        "en": "Advanced research degrees at Post Graduate Institute (PGI) Rahuri, Dr. ASCAET Rahuri, and Ph.D. in Agril. Meteorology at Pune.",
+        "mr": "पदव्युत्तर संस्था राहुरी, डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी महाविद्यालय आणि पुणे येथे संशोधन पदवी."
+      },
+      "link": "/education/masters-doctoral"
+    }
+  ],
+  "infrastructure": [
+    {
+      "title": {
+        "en": "Hi-Tech Floriculture & Protected Cultivation Project",
+        "mr": "हाय-टेक पुष्पशेती व संरक्षित शेती प्रकल्प"
+      },
+      "location": {
+        "en": "College of Agriculture, Pune",
+        "mr": "कृषि महाविद्यालय, पुणे"
+      },
+      "desc": {
+        "en": "State-of-the-art climate-controlled polyhouses, gerbera, rose cultivation, and automation training facility.",
+        "mr": "अत्याधुनिक हवामान नियंत्रित हरितगृहे, शेडनेट हाऊस व संरक्षित शेती प्रात्यक्षिक केंद्र."
+      },
+      "icon": "Sprout"
+    },
+    {
+      "title": {
+        "en": "Radioisotope & Nuclear Agricultural Laboratory",
+        "mr": "रेडिओआयसोटोप व अणुऊर्जा कृषि प्रयोगशाळा"
+      },
+      "location": {
+        "en": "Central Campus, Rahuri",
+        "mr": "मध्यवर्ती संकुल, राहुरी"
+      },
+      "desc": {
+        "en": "Advanced tracer studies, mutation breeding, and soil nutrient kinetics research.",
+        "mr": "अणुऊर्जा संशोधन, किरणोत्सारी समस्थानिक व पोषकद्रव्य गतिशीलता अभ्यास सुविधा."
+      },
+      "icon": "Atom"
+    },
+    {
+      "title": {
+        "en": "Molecular Biology & Tissue Culture Center",
+        "mr": "आण्विक जैवतंत्रज्ञान व उती संवर्धन केंद्र"
+      },
+      "location": {
+        "en": "Rahuri & Kashti Campuses",
+        "mr": "राहुरी व काष्टी संकुल"
+      },
+      "desc": {
+        "en": "Commercial micropropagation of banana, sugarcane, and pomegranate rootstocks with virus indexing.",
+        "mr": "केळी, डाळिंब व ऊस पिकांचे रोगमुक्त व दर्जेदार रोपे निर्मिती उती संवर्धन केंद्र."
+      },
+      "icon": "Dna"
+    },
+    {
+      "title": {
+        "en": "Post-Harvest Technology & Cold Chain Processing",
+        "mr": "काढणीपश्चात तंत्रज्ञान व शीतगृह केंद्र"
+      },
+      "location": {
+        "en": "Central Campus, Rahuri",
+        "mr": "मध्यवर्ती संकुल, राहुरी"
+      },
+      "desc": {
+        "en": "Pilot processing plants for fruits, vegetables, grains, value addition, and cold-chain storage.",
+        "mr": "फळे व भाजीपाला प्रक्रिया प्रात्यक्षिक प्रकल्प, मूल्यवर्धन व गुणवत्ता नियंत्रण प्रयोगशाळा."
+      },
+      "icon": "Warehouse"
+    }
+  ],
+  "leadership": {
+    "role": {
+      "en": "Director of Instruction and Dean",
+      "mr": "शिक्षण संचालक तथा अधिष्ठाता"
+    },
+    "name": {
+      "en": "Office of the Director of Instruction",
+      "mr": "शिक्षण संचालक कार्यालय"
+    },
+    "university": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी"
+    },
+    "message": {
+      "en": "The Directorate of Instruction shoulders the crucial responsibility of academic leadership, curricula development, accreditation maintenance, and educational coordination across all constituent and affiliated colleges. Our goal is to empower young minds with scientific inquiry and technical expertise for sustainable agriculture.",
+      "mr": "शिक्षण संचालनालय विद्यापीठाच्या सर्व घटक व संलग्न महाविद्यालये आणि तंत्र विद्यालयांमधील अभ्यासक्रम रचना, शैक्षणिक गुणवत्ता, अधिस्वीकृती आणि समन्वयाची जबाबदारी सांभाळते. कृषि क्षेत्राच्या शाश्वत विकासासाठी युवा पिढीला आधुनिक ज्ञान आणि कौशल्याने सुसज्ज करणे हे आमचे ध्येय आहे."
+    }
+  },
   "paragraphs": [
     {
       "text": {
-        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri is the first State Agriculture University in Maharashtra established in 1969 having its jurisdiction in 10 districts of Western Maharashtra. Director of Instruction shoulders the responsibility of leading the education of the University. Director of Instruction is responsible for preparing the academic programme as regrads to courses offered, curricula and co-ordinate and guide education, in all the constituent and affiliated colleges, technical schools of the University in close co-operation with the Deans of Faculties, Head of Departments and other officers.",
-        "mr": "Mahatma Phule Krishi Vidyapeeth, Rahuri is the first State Agriculture University in Maharashtra established in 1969 having its jurisdiction in 10 districts of Western Maharashtra. Director of Instruction shoulders the responsibility of leading the education of the University. Director of Instruction is responsible for preparing the academic programme as regrads to courses offered, curricula and co-ordinate and guide education, in all the constituent and affiliated colleges, technical schools of the University in close co-operation with the Deans of Faculties, Head of Departments and other officers."
-      },
-      "order": 56
-    },
-    {
-      "text": {
-        "en": "The mandate is to provide Diploma, Graduate, Post-graduate and Doctorate level quality education in agriculture and allied fields for skill development and producing the competent human resource.",
-        "mr": "The mandate is to provide Diploma, Graduate, Post-graduate and Doctorate level quality education in agriculture and allied fields for skill development and producing the competent human resource."
-      },
-      "order": 57
-    },
-    {
-      "text": {
-        "en": "The University offers various educational programmes viz., Under graduate [B.Sc. (Hons) Agriculture, B.Sc. (Hons) Horticulture, B. Tech. (Agricultural Engineering), B.Tech. (Biotechnology), B. Tech. (Food Technology) and B.Sc. (Hons) Agri. Business Management], Post-graduate (M.Sc. (Agri.) and Ph.D.), and Diploma in Agriculture (Agricultural Technology and Polytechnic). The University has fourteen under-graduate constituent colleges out of which eight colleges of agriculture sciences located at Pune, Kolhapur, Dhule, Nandurbar, Karad, Muktainagar, Halgaon and Kashti, Malegaon; two agricultural engineering colleges at Rahuri and Kashti, Malegaon; two colleges for horticulture at Pune and Kashti, Malegaon; one each agriculture business management and food technology college at Kashti, Malegaon.",
-        "mr": "The University offers various educational programmes viz., Under graduate [B.Sc. (Hons) Agriculture, B.Sc. (Hons) Horticulture, B. Tech. (Agricultural Engineering), B.Tech. (Biotechnology), B. Tech. (Food Technology) and B.Sc. (Hons) Agri. Business Management], Post-graduate (M.Sc. (Agri.) and Ph.D.), and Diploma in Agriculture (Agricultural Technology and Polytechnic). The University has fourteen under-graduate constituent colleges out of which eight colleges of agriculture sciences located at Pune, Kolhapur, Dhule, Nandurbar, Karad, Muktainagar, Halgaon and Kashti, Malegaon; two agricultural engineering colleges at Rahuri and Kashti, Malegaon; two colleges for horticulture at Pune and Kashti, Malegaon; one each agriculture business management and food technology college at Kashti, Malegaon."
-      },
-      "order": 58
-    },
-    {
-      "text": {
-        "en": "There is a Post-Graduate Institute and College of Agricultural Engineering and Technology at the Central Campus, Rahuri offering master’s and doctoral programmes in agriculture and agricultural engineering, respectively. The post-graduate programme is also started at College of Agriculture, Pune, Dhule and Kolhapur leading to M.Sc. (Agri.) degree and Ph.D. programme in Agril. Meteorology at College of Agriculture, Pune. The new Post-graduate degree programme in Agricultural Business Management i.e. M.B.A. (Agri.) is started at Colleges of Agriculture, Pune. Additionally, diploma courses are being conducted through 10 constituent and 72 unaided agricultural technology and polytechnic schools with an admission capacity of 4560. Gardener training is also provided through 2 constituent and 3 unaided training centres with an admission capacity of 200.",
-        "mr": "There is a Post-Graduate Institute and College of Agricultural Engineering and Technology at the Central Campus, Rahuri offering master’s and doctoral programmes in agriculture and agricultural engineering, respectively. The post-graduate programme is also started at College of Agriculture, Pune, Dhule and Kolhapur leading to M.Sc. (Agri.) degree and Ph.D. programme in Agril. Meteorology at College of Agriculture, Pune. The new Post-graduate degree programme in Agricultural Business Management i.e. M.B.A. (Agri.) is started at Colleges of Agriculture, Pune. Additionally, diploma courses are being conducted through 10 constituent and 72 unaided agricultural technology and polytechnic schools with an admission capacity of 4560. Gardener training is also provided through 2 constituent and 3 unaided training centres with an admission capacity of 200."
-      },
-      "order": 59
-    },
-    {
-      "text": {
-        "en": "During the last decade, successful efforts have been made in improving the course curricula of Under-graduate and Post-graduate programmes. Undergraduate curriculum is revised in line with NEP-2020 as per the VI Deans recommendation, implemented from the year 2024-25. As per the provisions of NEP-2020 revised curriculum includes, flexibility, choice based credit system, multiple entry exit system, skill enhancement courses, internship and Student READY program. Post- graduate programme is revised as per the NCG recommendations, and implemented from the year 2022-23. Constituent colleges provided with additional facilities and amenities viz., ladies hostels, library buildings, tissue culture laboratories and polyhouse facilities. In addition, a Hi-Tech Floriculture and Vegetable Project at Pune and Radioisotope, Biotechnology laboratories, Post-Harvest Management Laboratory and Biodiversity Centre at Rahuri are established.",
-        "mr": "During the last decade, successful efforts have been made in improving the course curricula of Under-graduate and Post-graduate programmes. Undergraduate curriculum is revised in line with NEP-2020 as per the VI Deans recommendation, implemented from the year 2024-25. As per the provisions of NEP-2020 revised curriculum includes, flexibility, choice based credit system, multiple entry exit system, skill enhancement courses, internship and Student READY program. Post- graduate programme is revised as per the NCG recommendations, and implemented from the year 2022-23. Constituent colleges provided with additional facilities and amenities viz., ladies hostels, library buildings, tissue culture laboratories and polyhouse facilities. In addition, a Hi-Tech Floriculture and Vegetable Project at Pune and Radioisotope, Biotechnology laboratories, Post-Harvest Management Laboratory and Biodiversity Centre at Rahuri are established."
-      },
-      "order": 60
-    },
-    {
-      "text": {
-        "en": "National Agricultural Education Accreditation Board (NAEAB) has granted accreditation to MPKV, Rahuri and its constituent colleges (College of Agriculture, Pune / Dhule / Kolhapur / Nandurbar, Dr. ASCAET/PGI, MPKV, Rahuri) for the period of five years (2023-24 to 2027-28). University has secured ‘A’ grade with overall score of 3.12 out of 4.0",
-        "mr": "National Agricultural Education Accreditation Board (NAEAB) has granted accreditation to MPKV, Rahuri and its constituent colleges (College of Agriculture, Pune / Dhule / Kolhapur / Nandurbar, Dr. ASCAET/PGI, MPKV, Rahuri) for the period of five years (2023-24 to 2027-28). University has secured ‘A’ grade with overall score of 3.12 out of 4.0"
-      },
-      "order": 61
-    },
-    {
-      "text": {
-        "en": "Utmost effort has been made in providing quality education with student’s development and amenities with state of art facilities. As a result, since inception University has produced more than one lakh skilled human resource engaged in various public, private and agriculture sectors.",
-        "mr": "Utmost effort has been made in providing quality education with student’s development and amenities with state of art facilities. As a result, since inception University has produced more than one lakh skilled human resource engaged in various public, private and agriculture sectors."
-      },
-      "order": 62
-    },
-    {
-      "text": {
-        "en": "The students are encouraged for participation in various educational, social and cultural activities. As a result, the students of this University have excelled in various public service competitive examinations, SRF, JRF fellowships, GATE, ARS and extracurricular activities like sports, NCC, NSS etc. In today’s changing climate situation, natural resource degradation, food and nutrition security and its relation to sustainable agriculture and rural development have increasingly become a matter of concern. Thus, agriculture education plays important role for facing such a challenges through use of ICT, weather forecasting, training and transfer new technology. Hope that the young skilled graduates will overcome all these constraints by innovative research and Lab to Land extension of innovations leading to second Green Revolution.",
-        "mr": "The students are encouraged for participation in various educational, social and cultural activities. As a result, the students of this University have excelled in various public service competitive examinations, SRF, JRF fellowships, GATE, ARS and extracurricular activities like sports, NCC, NSS etc. In today’s changing climate situation, natural resource degradation, food and nutrition security and its relation to sustainable agriculture and rural development have increasingly become a matter of concern. Thus, agriculture education plays important role for facing such a challenges through use of ICT, weather forecasting, training and transfer new technology. Hope that the young skilled graduates will overcome all these constraints by innovative research and Lab to Land extension of innovations leading to second Green Revolution."
-      },
-      "order": 63
-    }
-  ],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Education",
-          "mr": "शिक्षण"
-        },
-        {
-          "en": "Education at a Glance",
-          "mr": "Education at a Glance"
-        },
-        {
-          "en": "Organizational Profile",
-          "mr": "Organizational Profile"
-        },
-        {
-          "en": "Thrust Areas",
-          "mr": "Thrust Areas"
-        },
-        {
-          "en": "FacultyAgricultural ScienceAgricultural Engineering",
-          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
-        },
-        {
-          "en": "CollegesConstituent CollegesAffiliated Colleges",
-          "mr": "CollegesConstituent CollegesAffiliated Colleges"
-        },
-        {
-          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
-          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
-        },
-        {
-          "en": "Academic Regulations",
-          "mr": "Academic Regulations"
-        },
-        {
-          "en": "Diploma (Agril. Tech. Schools)",
-          "mr": "Diploma (Agril. Tech. Schools)"
-        },
-        {
-          "en": "Certificate Courses",
-          "mr": "Certificate Courses"
-        }
-      ],
-      "order": 64
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Agricultural Science",
-          "mr": "Agricultural Science"
-        },
-        {
-          "en": "Agricultural Engineering",
-          "mr": "Agricultural Engineering"
-        }
-      ],
-      "order": 65
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Constituent Colleges",
-          "mr": "Constituent Colleges"
-        },
-        {
-          "en": "Affiliated Colleges",
-          "mr": "Affiliated Colleges"
-        }
-      ],
-      "order": 66
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Diploma",
-          "mr": "Diploma"
-        },
-        {
-          "en": "Bachelor's",
-          "mr": "Bachelor's"
-        },
-        {
-          "en": "Doctoral",
-          "mr": "Doctoral"
-        }
-      ],
-      "order": 67
-    }
-  ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Education/WhatsApp Image 2024-11-08 at 11.13.45 AM_20241108111046.jpeg",
-      "localPath": "/media/images/WhatsApp_Image_2024-11-08_at_11.13.45_AM_20241108111046.jpeg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri is the first State Agriculture University in Maharashtra established in 1969 having its jurisdiction in 10 districts of Western Maharashtra. Director of Instruction shoulders the responsibility of leading the education of the University.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी हे महाराष्ट्रातील पहिले राज्य कृषि विद्यापीठ असून त्याची स्थापना २९ मार्च १९६८ रोजी झाली. विद्यापीठाचे कार्यक्षेत्र पश्चिम महाराष्ट्रातील १० जिल्ह्यांमध्ये पसरलेले असून शिक्षण संचालक विद्यापीठाच्या शैक्षणिक उपक्रमांचे नेतृत्व करतात."
       },
       "order": 1
     },
     {
-      "type": "heading",
-      "level": "h6",
       "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+        "en": "The mandate is to provide Diploma, Graduate, Post-graduate and Doctorate level quality education in agriculture and allied fields for skill development and producing the competent human resource.",
+        "mr": "कृषि व संलग्न विद्याशाखांमध्ये पदविका, पदवी, पदव्युत्तर व आचार्य पदवी स्तरावर उच्च दर्जाचे शिक्षण देणे, कौशल्य विकास साधणे आणि देशासाठी सक्षम कृषि मनुष्यबळ निर्माण करणे हा विद्यापीठाचा मुख्य उद्देश आहे."
       },
       "order": 2
     },
     {
-      "type": "heading",
-      "level": "h6",
       "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+        "en": "The University offers various educational programmes viz., Under graduate [B.Sc. (Hons) Agriculture, B.Sc. (Hons) Horticulture, B. Tech. (Agricultural Engineering), B.Tech. (Biotechnology), B. Tech. (Food Technology) and B.Sc. (Hons) Agri. Business Management], Post-graduate (M.Sc. (Agri.) and Ph.D.), and Diploma in Agriculture.",
+        "mr": "विद्यापीठामार्फत पदवी स्तरावर बी.एस्सी. (कृषि), बी.एस्सी. (उद्यानविद्या), बी.टेक. (कृषि अभियांत्रिकी), बी.टेक. (जैवतंत्रज्ञान), बी.टेक. (अन्नतंत्रज्ञान) व बी.एस्सी. (कृषि व्यवसाय व्यवस्थापन), पदव्युत्तर स्तरावर एम.एस्सी., एम.टेक., एम.बी.ए. आणि आचार्य पदवी (पीएच.डी.) चे शिक्षण दिले जाते."
       },
       "order": 3
     },
     {
-      "type": "heading",
-      "level": "h6",
       "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
+        "en": "The University has fourteen under-graduate constituent colleges out of which eight colleges of agriculture sciences located at Pune, Kolhapur, Dhule, Nandurbar, Karad, Muktainagar, Halgaon and Kashti, Malegaon; two agricultural engineering colleges at Rahuri and Kashti, Malegaon; two colleges for horticulture at Pune and Kashti; and one each agriculture business management and food technology college at Kashti, Malegaon.",
+        "mr": "विद्यापीठाची १४ घटक महाविद्यालये असून यामध्ये पुणे, कोल्हापूर, धुळे, नंदुरबार, कराड, मुक्ताईनगर, हळगाव आणि काष्टी (मालेगाव) येथील ८ कृषि महाविद्यालये, राहुरी व काष्टी येथील २ कृषि अभियांत्रिकी महाविद्यालये, पुणे व काष्टी येथील २ उद्यानविद्या महाविद्यालये आणि काष्टी येथील अन्नतंत्रज्ञान व कृषि व्यवसाय व्यवस्थापन महाविद्यालयांचा समावेश आहे."
       },
       "order": 4
     },
     {
-      "type": "heading",
-      "level": "h6",
       "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
+        "en": "National Agricultural Education Accreditation Board (NAEAB) has granted accreditation to MPKV, Rahuri and its constituent colleges for five years (2023-24 to 2027-28) with an ‘A’ grade and score of 3.12 out of 4.0.",
+        "mr": "राष्ट्रीय कृषि शिक्षण अधिस्वीकृती मंडळ (NAEAB - भा.कृ.अनु.प.) द्वारे मफुकृवि राहुरी आणि तिच्या घटक महाविद्यालयांना २०२३-२४ ते २०२७-२८ या ५ वर्षांच्या कालावधीसाठी ४ पैकी ३.१२ गुणांसह ‘अ’ (A) श्रेणी अधिस्वीकृती प्रदान करण्यात आली आहे."
       },
       "order": 5
     },
     {
-      "type": "heading",
-      "level": "h6",
       "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
+        "en": "Since inception, the University has produced more than one lakh skilled human resource engaged in various public, private, administrative, and research agricultural sectors globally.",
+        "mr": "स्थापनेपासून आतापर्यंत विद्यापीठाने १ लाखांपेक्षा अधिक पदवीधर व तंत्रकुशल मनुष्यबळ घडविले असून ते शासकीय, प्रशासकीय, संशोधन, बँकिंग आणि कॉर्पोरेट कृषी क्षेत्रात राष्ट्रीय व आंतरराष्ट्रीय स्तरावर उल्लेखनीय योगदान देत आहेत."
       },
       "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Education",
-        "mr": "शिक्षण"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri is the first State Agriculture University in Maharashtra established in 1969 having its jurisdiction in 10 districts of Western Maharashtra. Director of Instruction shoulders the responsibility of leading the education of the University. Director of Instruction is responsible for preparing the academic programme as regrads to courses offered, curricula and co-ordinate and guide education, in all the constituent and affiliated colleges, technical schools of the University in close co-operation with the Deans of Faculties, Head of Departments and other officers.",
-        "mr": "Mahatma Phule Krishi Vidyapeeth, Rahuri is the first State Agriculture University in Maharashtra established in 1969 having its jurisdiction in 10 districts of Western Maharashtra. Director of Instruction shoulders the responsibility of leading the education of the University. Director of Instruction is responsible for preparing the academic programme as regrads to courses offered, curricula and co-ordinate and guide education, in all the constituent and affiliated colleges, technical schools of the University in close co-operation with the Deans of Faculties, Head of Departments and other officers."
-      },
-      "order": 56
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The mandate is to provide Diploma, Graduate, Post-graduate and Doctorate level quality education in agriculture and allied fields for skill development and producing the competent human resource.",
-        "mr": "The mandate is to provide Diploma, Graduate, Post-graduate and Doctorate level quality education in agriculture and allied fields for skill development and producing the competent human resource."
-      },
-      "order": 57
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The University offers various educational programmes viz., Under graduate [B.Sc. (Hons) Agriculture, B.Sc. (Hons) Horticulture, B. Tech. (Agricultural Engineering), B.Tech. (Biotechnology), B. Tech. (Food Technology) and B.Sc. (Hons) Agri. Business Management], Post-graduate (M.Sc. (Agri.) and Ph.D.), and Diploma in Agriculture (Agricultural Technology and Polytechnic). The University has fourteen under-graduate constituent colleges out of which eight colleges of agriculture sciences located at Pune, Kolhapur, Dhule, Nandurbar, Karad, Muktainagar, Halgaon and Kashti, Malegaon; two agricultural engineering colleges at Rahuri and Kashti, Malegaon; two colleges for horticulture at Pune and Kashti, Malegaon; one each agriculture business management and food technology college at Kashti, Malegaon.",
-        "mr": "The University offers various educational programmes viz., Under graduate [B.Sc. (Hons) Agriculture, B.Sc. (Hons) Horticulture, B. Tech. (Agricultural Engineering), B.Tech. (Biotechnology), B. Tech. (Food Technology) and B.Sc. (Hons) Agri. Business Management], Post-graduate (M.Sc. (Agri.) and Ph.D.), and Diploma in Agriculture (Agricultural Technology and Polytechnic). The University has fourteen under-graduate constituent colleges out of which eight colleges of agriculture sciences located at Pune, Kolhapur, Dhule, Nandurbar, Karad, Muktainagar, Halgaon and Kashti, Malegaon; two agricultural engineering colleges at Rahuri and Kashti, Malegaon; two colleges for horticulture at Pune and Kashti, Malegaon; one each agriculture business management and food technology college at Kashti, Malegaon."
-      },
-      "order": 58
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "There is a Post-Graduate Institute and College of Agricultural Engineering and Technology at the Central Campus, Rahuri offering master’s and doctoral programmes in agriculture and agricultural engineering, respectively. The post-graduate programme is also started at College of Agriculture, Pune, Dhule and Kolhapur leading to M.Sc. (Agri.) degree and Ph.D. programme in Agril. Meteorology at College of Agriculture, Pune. The new Post-graduate degree programme in Agricultural Business Management i.e. M.B.A. (Agri.) is started at Colleges of Agriculture, Pune. Additionally, diploma courses are being conducted through 10 constituent and 72 unaided agricultural technology and polytechnic schools with an admission capacity of 4560. Gardener training is also provided through 2 constituent and 3 unaided training centres with an admission capacity of 200.",
-        "mr": "There is a Post-Graduate Institute and College of Agricultural Engineering and Technology at the Central Campus, Rahuri offering master’s and doctoral programmes in agriculture and agricultural engineering, respectively. The post-graduate programme is also started at College of Agriculture, Pune, Dhule and Kolhapur leading to M.Sc. (Agri.) degree and Ph.D. programme in Agril. Meteorology at College of Agriculture, Pune. The new Post-graduate degree programme in Agricultural Business Management i.e. M.B.A. (Agri.) is started at Colleges of Agriculture, Pune. Additionally, diploma courses are being conducted through 10 constituent and 72 unaided agricultural technology and polytechnic schools with an admission capacity of 4560. Gardener training is also provided through 2 constituent and 3 unaided training centres with an admission capacity of 200."
-      },
-      "order": 59
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "During the last decade, successful efforts have been made in improving the course curricula of Under-graduate and Post-graduate programmes. Undergraduate curriculum is revised in line with NEP-2020 as per the VI Deans recommendation, implemented from the year 2024-25. As per the provisions of NEP-2020 revised curriculum includes, flexibility, choice based credit system, multiple entry exit system, skill enhancement courses, internship and Student READY program. Post- graduate programme is revised as per the NCG recommendations, and implemented from the year 2022-23. Constituent colleges provided with additional facilities and amenities viz., ladies hostels, library buildings, tissue culture laboratories and polyhouse facilities. In addition, a Hi-Tech Floriculture and Vegetable Project at Pune and Radioisotope, Biotechnology laboratories, Post-Harvest Management Laboratory and Biodiversity Centre at Rahuri are established.",
-        "mr": "During the last decade, successful efforts have been made in improving the course curricula of Under-graduate and Post-graduate programmes. Undergraduate curriculum is revised in line with NEP-2020 as per the VI Deans recommendation, implemented from the year 2024-25. As per the provisions of NEP-2020 revised curriculum includes, flexibility, choice based credit system, multiple entry exit system, skill enhancement courses, internship and Student READY program. Post- graduate programme is revised as per the NCG recommendations, and implemented from the year 2022-23. Constituent colleges provided with additional facilities and amenities viz., ladies hostels, library buildings, tissue culture laboratories and polyhouse facilities. In addition, a Hi-Tech Floriculture and Vegetable Project at Pune and Radioisotope, Biotechnology laboratories, Post-Harvest Management Laboratory and Biodiversity Centre at Rahuri are established."
-      },
-      "order": 60
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "National Agricultural Education Accreditation Board (NAEAB) has granted accreditation to MPKV, Rahuri and its constituent colleges (College of Agriculture, Pune / Dhule / Kolhapur / Nandurbar, Dr. ASCAET/PGI, MPKV, Rahuri) for the period of five years (2023-24 to 2027-28). University has secured ‘A’ grade with overall score of 3.12 out of 4.0",
-        "mr": "National Agricultural Education Accreditation Board (NAEAB) has granted accreditation to MPKV, Rahuri and its constituent colleges (College of Agriculture, Pune / Dhule / Kolhapur / Nandurbar, Dr. ASCAET/PGI, MPKV, Rahuri) for the period of five years (2023-24 to 2027-28). University has secured ‘A’ grade with overall score of 3.12 out of 4.0"
-      },
-      "order": 61
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "Utmost effort has been made in providing quality education with student’s development and amenities with state of art facilities. As a result, since inception University has produced more than one lakh skilled human resource engaged in various public, private and agriculture sectors.",
-        "mr": "Utmost effort has been made in providing quality education with student’s development and amenities with state of art facilities. As a result, since inception University has produced more than one lakh skilled human resource engaged in various public, private and agriculture sectors."
-      },
-      "order": 62
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The students are encouraged for participation in various educational, social and cultural activities. As a result, the students of this University have excelled in various public service competitive examinations, SRF, JRF fellowships, GATE, ARS and extracurricular activities like sports, NCC, NSS etc. In today’s changing climate situation, natural resource degradation, food and nutrition security and its relation to sustainable agriculture and rural development have increasingly become a matter of concern. Thus, agriculture education plays important role for facing such a challenges through use of ICT, weather forecasting, training and transfer new technology. Hope that the young skilled graduates will overcome all these constraints by innovative research and Lab to Land extension of innovations leading to second Green Revolution.",
-        "mr": "The students are encouraged for participation in various educational, social and cultural activities. As a result, the students of this University have excelled in various public service competitive examinations, SRF, JRF fellowships, GATE, ARS and extracurricular activities like sports, NCC, NSS etc. In today’s changing climate situation, natural resource degradation, food and nutrition security and its relation to sustainable agriculture and rural development have increasingly become a matter of concern. Thus, agriculture education plays important role for facing such a challenges through use of ICT, weather forecasting, training and transfer new technology. Hope that the young skilled graduates will overcome all these constraints by innovative research and Lab to Land extension of innovations leading to second Green Revolution."
-      },
-      "order": 63
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Education",
-          "mr": "शिक्षण"
-        },
-        {
-          "en": "Education at a Glance",
-          "mr": "Education at a Glance"
-        },
-        {
-          "en": "Organizational Profile",
-          "mr": "Organizational Profile"
-        },
-        {
-          "en": "Thrust Areas",
-          "mr": "Thrust Areas"
-        },
-        {
-          "en": "FacultyAgricultural ScienceAgricultural Engineering",
-          "mr": "FacultyAgricultural ScienceAgricultural Engineering"
-        },
-        {
-          "en": "CollegesConstituent CollegesAffiliated Colleges",
-          "mr": "CollegesConstituent CollegesAffiliated Colleges"
-        },
-        {
-          "en": "Courses & CurriculumDiplomaBachelor'sDoctoral",
-          "mr": "Courses & CurriculumDiplomaBachelor'sDoctoral"
-        },
-        {
-          "en": "Academic Regulations",
-          "mr": "Academic Regulations"
-        },
-        {
-          "en": "Diploma (Agril. Tech. Schools)",
-          "mr": "Diploma (Agril. Tech. Schools)"
-        },
-        {
-          "en": "Certificate Courses",
-          "mr": "Certificate Courses"
-        }
-      ],
-      "order": 64
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Agricultural Science",
-          "mr": "Agricultural Science"
-        },
-        {
-          "en": "Agricultural Engineering",
-          "mr": "Agricultural Engineering"
-        }
-      ],
-      "order": 65
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Constituent Colleges",
-          "mr": "Constituent Colleges"
-        },
-        {
-          "en": "Affiliated Colleges",
-          "mr": "Affiliated Colleges"
-        }
-      ],
-      "order": 66
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Diploma",
-          "mr": "Diploma"
-        },
-        {
-          "en": "Bachelor's",
-          "mr": "Bachelor's"
-        },
-        {
-          "en": "Doctoral",
-          "mr": "Doctoral"
-        }
-      ],
-      "order": 67
     }
   ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 8,
-    "listCount": 4,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 15,
-    "totalRecords": 78
-  },
-  "menuId": "menu_education",
-  "parentMenu": {
-    "id": "menu_education",
-    "title": {
-      "en": "Education",
-      "mr": "शिक्षण"
-    }
-  },
-  "submenuGroup": {
-    "en": "Overview & Profile",
-    "mr": "संस्थेची माहिती व रूपरेषा"
+  "directorProfile": {
+    "name": {
+      "en": "Dr. S. B. Kharbade",
+      "mr": "डॉ. एस. बी. खर्बडे"
+    },
+    "designation": {
+      "en": "I/c Director of Education",
+      "mr": "प्रभारी शिक्षण संचालक"
+    },
+    "directorate": {
+      "en": "Directorate of Education, Mahatma Phule Krishi Vidyapeeth, Rahuri-413722 Dist. Ahilyanagar (MS)",
+      "mr": "शिक्षण संचालनालय, महात्मा फुले कृषि विद्यापीठ, राहुरी-४१३७२२ जि. अहिल्यानगर (महाराष्ट्र)"
+    },
+    "phone": "(02426) 243206",
+    "fax": "(02426) 243 227",
+    "email": "deanmpkv@gmail.com",
+    "image": "/media/images/dr_sb_kharbade.jpg"
   }
 }
