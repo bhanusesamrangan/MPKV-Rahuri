@@ -133,7 +133,8 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
           <button
             onClick={() => setIsPaused(!isPaused)}
             className="p-1.5 sm:p-2 rounded-full bg-black/35 hover:bg-black/60 text-white/80 hover:text-white backdrop-blur-md border border-white/15 transition-all text-xs"
-            title={isPaused ? 'Play' : 'Pause'}
+            title={isPaused ? (language === 'mr' ? 'सुरू करा' : 'Play') : (language === 'mr' ? 'थांबवा' : 'Pause')}
+            aria-label={isPaused ? (language === 'mr' ? 'सुरू करा' : 'Play') : (language === 'mr' ? 'थांबवा' : 'Pause')}
           >
             {isPaused ? <Play className="w-3 h-3 sm:w-3.5 sm:h-3.5" /> : <Pause className="w-3 h-3 sm:w-3.5 sm:h-3.5" />}
           </button>
@@ -142,7 +143,8 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
           <button
             onClick={handlePrev}
             className="p-1.5 sm:p-2 rounded-full bg-black/35 hover:bg-black/60 text-white backdrop-blur-md border border-white/15 hover:border-amber-300/60 transition-all active:scale-95"
-            aria-label="Previous Slide"
+            aria-label={language === 'mr' ? 'मागील छायाचित्र' : 'Previous Slide'}
+            title={language === 'mr' ? 'मागील छायाचित्र' : 'Previous Slide'}
           >
             <ChevronLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>
@@ -151,7 +153,8 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
           <button
             onClick={handleNext}
             className="p-1.5 sm:p-2 rounded-full bg-black/35 hover:bg-black/60 text-white backdrop-blur-md border border-white/15 hover:border-amber-300/60 transition-all active:scale-95"
-            aria-label="Next Slide"
+            aria-label={language === 'mr' ? 'पुढील छायाचित्र' : 'Next Slide'}
+            title={language === 'mr' ? 'पुढील छायाचित्र' : 'Next Slide'}
           >
             <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>

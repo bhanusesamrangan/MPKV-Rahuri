@@ -84,15 +84,22 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
 
   // Helper to split date into Month & Day for live calendar badge pins
   const parseDatePin = (dateStr?: string) => {
-    if (!dateStr) return { day: '14', month: 'OCT' };
+    const monthMapMr: Record<string, string> = {
+      JAN: 'जाने', FEB: 'फेब्रु', MAR: 'मार्च', APR: 'एप्रिल',
+      MAY: 'मे', JUN: 'जून', JUL: 'जुलै', AUG: 'ऑग',
+      SEP: 'सप्टे', OCT: 'ऑक्टो', NOV: 'नोव्हे', DEC: 'डिसे'
+    };
+
+    if (!dateStr) return { day: '14', month: language === 'mr' ? 'ऑक्टो' : 'OCT' };
     const parts = dateStr.trim().split(/\s+/);
     if (parts.length >= 2) {
       const isNumFirst = /^\d+$/.test(parts[0]);
       const day = isNumFirst ? parts[0] : parts[1];
-      const month = isNumFirst ? parts[1].substring(0, 3).toUpperCase() : parts[0].substring(0, 3).toUpperCase();
+      const rawMonth = isNumFirst ? parts[1].substring(0, 3).toUpperCase() : parts[0].substring(0, 3).toUpperCase();
+      const month = language === 'mr' ? (monthMapMr[rawMonth] || rawMonth) : rawMonth;
       return { day, month };
     }
-    return { day: '14', month: 'OCT' };
+    return { day: '14', month: language === 'mr' ? 'ऑक्टो' : 'OCT' };
   };
 
   const combinedTendersAndCirculars = [
@@ -326,7 +333,7 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
                         </h4>
                         <div className="mt-2 flex items-center justify-between text-[11px]">
                           <span className="text-sky-800 font-semibold px-2 py-0.5 rounded-md bg-sky-50 border border-sky-200">
-                            PDF जाहिरात
+                            {language === 'mr' ? 'PDF जाहिरात' : 'PDF Notice'}
                           </span>
                           <a
                             href={item.file_path || '#'}

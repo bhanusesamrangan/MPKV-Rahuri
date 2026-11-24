@@ -7,6 +7,10 @@ import { useLanguage } from '@/context/LanguageContext';
 export const Header: React.FC = () => {
   const { language } = useLanguage();
 
+  const isMr = language === 'mr';
+  const primaryTitle = isMr ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी' : 'Mahatma Phule Krishi Vidyapeeth, Rahuri';
+  const secondaryTitle = isMr ? 'Mahatma Phule Krishi Vidyapeeth, Rahuri' : 'महात्मा फुले कृषि विद्यापीठ, राहुरी';
+
   return (
     <header className="w-full bg-[#fdfcf9] border-b border-stone-200/60 relative z-30 transition-colors">
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-2.5 sm:py-3.5 flex items-center justify-between">
@@ -24,13 +28,13 @@ export const Header: React.FC = () => {
               />
             </div>
 
-            {/* Bilingual Institutional Titles - Responsive, Proportional & Non-Bulgy */}
+            {/* Bilingual Institutional Titles - Primary (Large) flips based on language, Secondary (Smaller) below */}
             <div className="flex flex-col min-w-0 flex-1">
-              <span className="text-sm sm:text-xl md:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight">
-                महात्मा फुले कृषि विद्यापीठ, राहुरी
+              <span className="text-sm sm:text-xl md:text-2xl lg:text-3xl font-semibold text-slate-800 tracking-tight leading-tight transition-all duration-300">
+                {primaryTitle}
               </span>
-              <span className="text-[10.5px] sm:text-xs md:text-base lg:text-lg font-medium text-slate-600 tracking-normal leading-snug mt-0.5 line-clamp-1">
-                Mahatma Phule Krishi Vidyapeeth, Rahuri
+              <span className="text-[10.5px] sm:text-xs md:text-base lg:text-lg font-medium text-slate-600 tracking-normal leading-snug mt-0.5 line-clamp-1 transition-all duration-300">
+                {secondaryTitle}
               </span>
             </div>
           </Link>

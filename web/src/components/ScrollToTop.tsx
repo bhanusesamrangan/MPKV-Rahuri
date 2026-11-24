@@ -53,8 +53,8 @@ export const ScrollToTop: React.FC = () => {
         type="button"
         onClick={scrollToTop}
         className="relative group flex items-center justify-center w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-tr from-emerald-800 via-emerald-700 to-emerald-600 hover:from-emerald-700 hover:to-emerald-500 text-white shadow-lg hover:shadow-2xl shadow-emerald-950/25 border-2 border-white/80 transition-all duration-300 hover:-translate-y-1 active:translate-y-0 focus:outline-none focus:ring-4 focus:ring-emerald-400/40"
-        aria-label={language === 'mr' ? 'पृष्ठाच्या सुरुवातीस जा (Scroll to top)' : 'Scroll to top'}
-        title={language === 'mr' ? 'सुरुवातीस जा (Scroll to top)' : 'Scroll to top'}
+        aria-label={language === 'mr' ? 'पृष्ठाच्या सुरुवातीस जा' : 'Scroll to top'}
+        title={language === 'mr' ? 'सुरुवातीस जा' : 'Scroll to top'}
       >
         {/* Subtle Outer SVG Scroll Progress Ring */}
         <svg className="absolute inset-0 w-full h-full -rotate-90 pointer-events-none p-0.5">

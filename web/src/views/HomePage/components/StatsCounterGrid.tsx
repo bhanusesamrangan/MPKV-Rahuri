@@ -126,11 +126,15 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
                 <div className="space-y-2 sm:space-y-2.5 pt-0.5 sm:pt-1">
                   
                   {/* 3D Illustrated Visual Showcase - Guaranteed Square Proportions */}
-                  <div className="w-full aspect-square relative rounded-xl sm:rounded-2xl overflow-hidden bg-slate-900/5 border border-stone-100 shadow-inner">
+                  <div
+                    className="w-full aspect-square relative rounded-xl sm:rounded-2xl overflow-hidden bg-slate-900/5 border border-stone-100 shadow-inner flex-shrink-0"
+                    style={{ aspectRatio: '1 / 1' }}
+                  >
                     <img
                       src={theme.image}
-                      alt={stat.label.en}
+                      alt={getBilingual(stat.label)}
                       className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500"
+                      loading="lazy"
                     />
                     
                     {/* Micro Category Tag */}

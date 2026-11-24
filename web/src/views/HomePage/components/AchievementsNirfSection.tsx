@@ -28,7 +28,10 @@ export const AchievementsNirfSection: React.FC = () => {
         en: 'National Record for Maximum Extant Notified Varieties (36 Crop Varieties Registered with PPV & FRA)',
         mr: 'पीपीव्ही व एफआरए नवी दिल्ली अंतर्गत सर्वाधिक ३६ अधिसूचित पीक वाणांची राष्ट्रीय विक्रमी नोंदणी'
       },
-      authority: 'PPV & FRA, Govt. of India',
+      authority: {
+        en: 'PPV & FRA, Govt. of India',
+        mr: 'पीपीव्ही व एफआरए, भारत सरकार'
+      },
       tag: language === 'mr' ? 'राष्ट्रीय विक्रम' : 'National Record',
       icon: Medal,
       styles: {
@@ -48,7 +51,10 @@ export const AchievementsNirfSection: React.FC = () => {
         en: 'Centre of Excellence in Seed Research in India by ICAR, New Delhi',
         mr: 'भारतीय कृषि अनुसंधान परिषद (ICAR) द्वारे बियाणे संशोधनासाठी "सेंटर ऑफ एक्सलन्स" सन्मान'
       },
-      authority: 'ICAR, New Delhi',
+      authority: {
+        en: 'ICAR, New Delhi',
+        mr: 'आयसीएआर, नवी दिल्ली'
+      },
       tag: language === 'mr' ? 'उत्कृष्टता केंद्र' : 'Centre of Excellence',
       icon: Sprout,
       styles: {
@@ -68,7 +74,10 @@ export const AchievementsNirfSection: React.FC = () => {
         en: 'Centre of Excellence in Irrigation Water Management in India',
         mr: 'सिंचन व जलव्यवस्थापनात उत्कृष्ट कामगिरीसाठी राष्ट्रीय "सेंटर ऑफ एक्सलन्स" बहुमान'
       },
-      authority: 'ICAR & Ministry of Agriculture',
+      authority: {
+        en: 'ICAR & Ministry of Agriculture',
+        mr: 'आयसीएआर व कृषि मंत्रालय'
+      },
       tag: language === 'mr' ? 'जलव्यवस्थापन बहुमान' : 'National Water Honour',
       icon: Droplets,
       styles: {
@@ -88,7 +97,10 @@ export const AchievementsNirfSection: React.FC = () => {
         en: 'Late Amit Singh Memorial Award for Best AICRP Centre of Vegetable in India',
         mr: 'अखिल भारतीय भाजीपाला समन्वित संशोधन प्रकल्पास देशातील "सर्वोत्कृष्ट केंद्र" पुरस्कार'
       },
-      authority: 'ICAR National Award',
+      authority: {
+        en: 'ICAR National Award',
+        mr: 'आयसीएआर राष्ट्रीय पुरस्कार'
+      },
       tag: language === 'mr' ? 'देशात प्रथम' : 'Rank 1 in India',
       icon: Trophy,
       styles: {
@@ -108,7 +120,10 @@ export const AchievementsNirfSection: React.FC = () => {
         en: 'Award for Excellence in Safflower Research by ICAR, New Delhi',
         mr: 'करडई पीक संशोधन व उत्पादकतेत उल्लेखनीय योगदानासाठी आयसीएआर विशेष गौरव'
       },
-      authority: 'ICAR, New Delhi',
+      authority: {
+        en: 'ICAR, New Delhi',
+        mr: 'आयसीएआर, नवी दिल्ली'
+      },
       tag: language === 'mr' ? 'विशेष गौरव' : 'Excellence Award',
       icon: Sparkles,
       styles: {
@@ -195,7 +210,7 @@ export const AchievementsNirfSection: React.FC = () => {
               <div className="flex flex-wrap items-center gap-2.5">
                 <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider shadow-sm">
                   <Medal className="w-3.5 h-3.5" />
-                  <span>NIRF 2025 · ALL INDIA RANK 15</span>
+                  <span>{language === 'mr' ? 'एनआयआरएफ २०२५ · अखिल भारतीय मानांकन १५' : 'NIRF 2025 · ALL INDIA RANK 15'}</span>
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-emerald-200 text-xs font-semibold">
                   <Building2 className="w-3.5 h-3.5 text-emerald-400" />
@@ -358,7 +373,7 @@ export const AchievementsNirfSection: React.FC = () => {
 
                   {/* Authority Footer */}
                   <div className="mt-3.5 pt-2.5 border-t border-stone-200/70 flex items-center justify-between text-[11px] text-slate-600">
-                    <span className="font-semibold line-clamp-1">{item.authority}</span>
+                    <span className="font-semibold line-clamp-1">{getBilingual(item.authority)}</span>
                     <ArrowRight className={`w-3.5 h-3.5 group-hover:translate-x-1 transition-transform flex-shrink-0 ${item.styles.arrow}`} />
                   </div>
                 </div>

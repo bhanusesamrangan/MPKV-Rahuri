@@ -149,12 +149,12 @@ export const Topbar: React.FC = () => {
                 {/* 1. ICAR 'A' Grade Trust Badge */}
                 <div className="inline-flex items-center gap-1 bg-white hover:bg-emerald-50/50 border border-slate-200/90 rounded-md px-1.5 sm:px-2 py-0.5 transition-colors shadow-2xs">
                   <span className="px-1 py-0.2 rounded bg-emerald-100 text-emerald-800 font-bold text-[9.5px] leading-tight border border-emerald-300/60">
-                    ICAR 'A'
+                    {language === 'mr' ? "आयसीएआर 'अ'" : "ICAR 'A'"}
                   </span>
                   <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
-                    <span>Accredited</span>
+                    <span>{language === 'mr' ? 'मान्यताप्राप्त' : 'Accredited'}</span>
                     <span className="hidden xl:inline text-slate-400 mx-0.5">·</span>
-                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">Grade Univ</span>
+                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">{language === 'mr' ? 'विद्यापीठ' : 'Grade Univ'}</span>
                   </span>
                 </div>
 
@@ -164,9 +164,9 @@ export const Topbar: React.FC = () => {
                     <Trophy className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-amber-700" />
                   </span>
                   <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
-                    <span className="font-semibold text-slate-800">NIRF 15<sup>th</sup></span>
+                    <span className="font-semibold text-slate-800">{language === 'mr' ? 'एनआयआरएफ १५ वे' : <>NIRF 15<sup>th</sup></>}</span>
                     <span className="hidden xl:inline text-slate-400 mx-0.5">·</span>
-                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">Agri Rank</span>
+                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">{language === 'mr' ? 'कृषि मानांकन' : 'Agri Rank'}</span>
                   </span>
                 </div>
 
@@ -366,10 +366,10 @@ export const Topbar: React.FC = () => {
             {/* 1. ICAR 'A' Grade Trust Badge */}
             <div className="inline-flex items-center gap-1 bg-white border border-slate-200/90 rounded-md px-1.5 py-0.5 shadow-2xs flex-shrink-0">
               <span className="px-1 py-0.2 rounded bg-emerald-100 text-emerald-800 font-bold text-[9px] leading-tight border border-emerald-300/60">
-                ICAR 'A'
+                {language === 'mr' ? "आयसीएआर 'अ'" : "ICAR 'A'"}
               </span>
               <span className="text-[10px] font-medium text-slate-700 leading-tight">
-                Accredited
+                {language === 'mr' ? 'मान्यताप्राप्त' : 'Accredited'}
               </span>
             </div>
 
@@ -379,8 +379,8 @@ export const Topbar: React.FC = () => {
                 <Trophy className="w-2.5 h-2.5 text-amber-700" />
               </span>
               <span className="text-[10px] font-medium text-slate-700 leading-tight">
-                <span className="font-semibold text-slate-800">NIRF 15<sup>th</sup></span>
-                <span className="text-slate-500 text-[9px] ml-0.5">Rank</span>
+                <span className="font-semibold text-slate-800">{language === 'mr' ? 'एनआयआरएफ १५ वे' : <>NIRF 15<sup>th</sup></>}</span>
+                <span className="text-slate-500 text-[9px] ml-0.5">{language === 'mr' ? 'मानांकन' : 'Rank'}</span>
               </span>
             </div>
 

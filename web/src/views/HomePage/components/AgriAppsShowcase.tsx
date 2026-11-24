@@ -198,14 +198,9 @@ export const AgriAppsShowcase: React.FC = () => {
 
                   {/* Title & Description */}
                   <div>
-                    <div className="flex items-baseline gap-2">
-                      <h3 className="text-base sm:text-lg font-bold text-slate-900 group-hover:text-slate-950 transition-colors">
-                        {app.name}
-                      </h3>
-                      <span className="text-xs font-semibold text-slate-500">
-                        ({app.marathiName})
-                      </span>
-                    </div>
+                    <h3 className="text-base sm:text-lg font-bold text-slate-900 group-hover:text-slate-950 transition-colors">
+                      {language === 'mr' ? app.marathiName : app.name}
+                    </h3>
                     <p className="text-xs sm:text-[13px] text-slate-700 mt-1.5 leading-relaxed font-medium">
                       {app.desc}
                     </p>

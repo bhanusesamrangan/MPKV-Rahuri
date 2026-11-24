@@ -43,32 +43,100 @@ export const MegaMenu: React.FC = () => {
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
   const [expandedGroup, setExpandedGroup] = useState<string | null>(null);
 
-  // Debounce timeout ref to prevent dropdown disappearing on mouse transition
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  // Open / Close intent timers to ensure buttery-smooth mouse transitions without flickering
+  const openTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const closeTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-  const handleMouseEnter = (id: string) => {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-      timeoutRef.current = null;
+  const clearTimers = () => {
+    if (openTimerRef.current) {
+      clearTimeout(openTimerRef.current);
+      openTimerRef.current = null;
     }
-    setActiveDropdown(id);
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
   };
 
-  const handleMouseLeave = () => {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
+  const handleMouseEnterItem = (id: string, hasChildren: boolean) => {
+    // Immediately cancel any pending close
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
     }
-    timeoutRef.current = setTimeout(() => {
+
+    if (hasChildren) {
+      if (openTimerRef.current) {
+        clearTimeout(openTimerRef.current);
+      }
+
+      // If activeDropdown is already this item, keep it active
+      if (activeDropdown === id) return;
+
+      // If another dropdown is already open, wait 100ms so gliding diagonally across items does not glitch.
+      // If no dropdown is open, open snappily with 35ms delay.
+      const delay = activeDropdown ? 100 : 35;
+      openTimerRef.current = setTimeout(() => {
+        setActiveDropdown(id);
+      }, delay);
+    } else {
+      // Nav item without children (Home, Library, Officers, Contacts)
+      if (openTimerRef.current) {
+        clearTimeout(openTimerRef.current);
+        openTimerRef.current = null;
+      }
+      // If a dropdown was open, give a 160ms grace period so grazing "Library" doesn't instantly destroy it
+      if (activeDropdown) {
+        closeTimerRef.current = setTimeout(() => {
+          setActiveDropdown(null);
+        }, 160);
+      }
+    }
+  };
+
+  const handleMouseLeaveItem = () => {
+    if (openTimerRef.current) {
+      clearTimeout(openTimerRef.current);
+      openTimerRef.current = null;
+    }
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+    }
+    closeTimerRef.current = setTimeout(() => {
       setActiveDropdown(null);
-    }, 200);
+    }, 220);
   };
 
-  // Cleanup timeout on unmount
+  const handleDropdownMouseEnter = () => {
+    clearTimers();
+  };
+
+  const handleDropdownMouseLeave = () => {
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+    }
+    closeTimerRef.current = setTimeout(() => {
+      setActiveDropdown(null);
+    }, 220);
+  };
+
+  // Close dropdown when user clicks outside the navigation bar
+  useEffect(() => {
+    if (!activeDropdown) return;
+    const handleDocumentClick = (e: MouseEvent) => {
+      const navElement = document.getElementById('main-mega-nav');
+      if (navElement && !navElement.contains(e.target as Node)) {
+        setActiveDropdown(null);
+      }
+    };
+    document.addEventListener('click', handleDocumentClick);
+    return () => document.removeEventListener('click', handleDocumentClick);
+  }, [activeDropdown]);
+
+  // Cleanup timers on unmount
   useEffect(() => {
     return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
+      clearTimers();
     };
   }, []);
 
@@ -149,7 +217,9 @@ export const MegaMenu: React.FC = () => {
   return (
     <>
       <nav
+        id="main-mega-nav"
         style={{ top: `${toolbarHeight}px` }}
+        onMouseLeave={handleMouseLeaveItem}
         className="w-full bg-gradient-to-r from-[#133523] via-[#1f4e34] via-35% via-[#265e3f] via-65% to-[#163c27] text-white border-b border-[#0e2619] shadow-md sticky z-40 transition-all border-t border-emerald-500/20"
       >
         <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] flex items-center justify-between">
@@ -165,7 +235,7 @@ export const MegaMenu: React.FC = () => {
           </div>
 
           {/* Desktop Navigation Items */}
-          <ul className="hidden lg:flex items-center flex-wrap gap-1 py-1">
+          <ul className="hidden lg:flex items-center flex-nowrap gap-0.5 xl:gap-1 py-1">
             {menuItems.map((item: any) => {
               const IconComponent = item.icon ? iconMap[item.icon] : null;
               const hasChildren = item.children && item.children.length > 0;
@@ -175,16 +245,16 @@ export const MegaMenu: React.FC = () => {
               // Dynamic width and layout based on number of child groups
               const childrenCount = (item.children || []).length;
               let gridCols = 'grid-cols-1';
-              let widthClass = 'min-w-[390px] max-w-[460px]';
+              let widthClass = 'w-[390px]';
               let alignClass = 'left-0';
 
               if (childrenCount === 2) {
                 gridCols = 'grid-cols-2';
-                widthClass = 'min-w-[720px] xl:min-w-[790px] max-w-[880px]';
-                alignClass = item.id === 'menu_farmer' ? 'right-0' : 'left-0';
+                widthClass = 'w-[720px] xl:w-[780px]';
+                alignClass = item.id === 'menu_farmer' ? '-left-32 xl:left-0' : 'left-0';
               } else if (childrenCount >= 3) {
                 gridCols = 'grid-cols-3';
-                widthClass = 'min-w-[980px] xl:min-w-[1100px] max-w-[1240px]';
+                widthClass = 'w-[980px] xl:w-[1100px]';
                 alignClass = 'left-0';
               }
 
@@ -192,16 +262,16 @@ export const MegaMenu: React.FC = () => {
                 <li
                   key={item.id}
                   className="relative group"
-                  onMouseEnter={() => hasChildren && handleMouseEnter(item.id)}
-                  onMouseLeave={() => hasChildren && handleMouseLeave()}
+                  onMouseEnter={() => handleMouseEnterItem(item.id, hasChildren)}
+                  onMouseLeave={handleMouseLeaveItem}
                 >
                   {hasChildren ? (
                     <button
                       onClick={() => {
-                        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                        setActiveDropdown(isDropdownActive ? null : item.id);
+                        clearTimers();
+                        setActiveDropdown((prev) => (prev === item.id ? null : item.id));
                       }}
-                      className={`flex items-center gap-1.5 px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative ${isDropdownActive
+                      className={`flex items-center gap-1.5 px-2.5 xl:px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive
                         ? 'bg-white/20 text-white shadow-xs border border-white/25'
                         : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
@@ -219,7 +289,7 @@ export const MegaMenu: React.FC = () => {
                   ) : (
                     <Link
                       href={item.href}
-                      className={`flex items-center gap-1.5 px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative ${isActive
+                      className={`flex items-center gap-1.5 px-2.5 xl:px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative whitespace-nowrap ${isActive
                         ? 'bg-white/20 text-white shadow-xs border border-white/25'
                         : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
@@ -232,17 +302,14 @@ export const MegaMenu: React.FC = () => {
                     </Link>
                   )}
 
-                  {/* 3-Level Mega Dropdown Panel - Single-Lined Visible Content with Zero-Gap Hover Bridge */}
+                  {/* 3-Level Mega Dropdown Panel - Single-Lined Visible Content */}
                   {hasChildren && isDropdownActive && (
                     <div
-                      className={`absolute ${alignClass} top-full pt-1 z-50 animate-in fade-in slide-in-from-top-1 duration-150`}
-                      onMouseEnter={() => handleMouseEnter(item.id)}
-                      onMouseLeave={handleMouseLeave}
+                      className={`absolute ${alignClass} top-full -mt-1 pt-2 z-50`}
+                      onMouseEnter={handleDropdownMouseEnter}
+                      onMouseLeave={handleDropdownMouseLeave}
                     >
-                      {/* Invisible Hover Shield Bridge connecting navbar button to dropdown */}
-                      <div className="absolute -top-3 left-0 right-0 h-4 bg-transparent" />
-
-                      <div className={`${widthClass} bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 p-5 grid ${gridCols} gap-6 relative`}>
+                      <div className={`${widthClass} max-w-[calc(100vw-2.5rem)] bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 p-5 grid ${gridCols} gap-6 relative`}>
                         {/* Top Accent Gradient Line */}
                         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-600 via-amber-400 to-emerald-600 rounded-t-2xl" />
 

@@ -32,10 +32,10 @@ export const Footer: React.FC = () => {
           </p>
           <div className="flex items-center gap-2 pt-1">
             <span className="px-3 py-1 rounded-md bg-white border border-stone-200/80 text-amber-900 font-medium text-xs shadow-2xs">
-              ICAR Accredited 'A' Grade
+              {language === 'mr' ? "आयसीएआर 'अ' श्रेणी मान्यताप्राप्त" : "ICAR Accredited 'A' Grade"}
             </span>
             <span className="px-3 py-1 rounded-md bg-amber-50 border border-amber-200/60 text-amber-900 font-medium text-xs">
-              Est. 1968
+              {language === 'mr' ? 'स्थापना १९६८' : 'Est. 1968'}
             </span>
           </div>
         </div>

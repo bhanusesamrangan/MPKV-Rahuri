@@ -268,7 +268,9 @@ export const InstitutionalDirectories: React.FC = () => {
 
                 <div className="pt-3.5 mt-3.5 border-t border-stone-100 text-[11px] font-semibold text-emerald-800 flex items-center justify-between">
                   <span>{language === 'mr' ? dir.badge : dir.badgeEn}</span>
-                  <span className="group-hover:translate-x-0.5 transition-transform">तपासा &rarr;</span>
+                  <span className="group-hover:translate-x-0.5 transition-transform">
+                    {language === 'mr' ? 'तपासा →' : 'Explore →'}
+                  </span>
                 </div>
               </div>
             );

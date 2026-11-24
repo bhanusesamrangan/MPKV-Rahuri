@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+}
+
 @layer base {
   :root {
     --color-mpkv-green: #059669;
@@ -103,9 +107,39 @@
     font-size: 12.5px !important;
   }
 
-  /* REFINED POPPINS FOR BOTH MARATHI AND ENGLISH - NON-BULGY, CRISP TYPOGRAPHY */
-  *, html, body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, span, a {
-    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  /* STRICT UNIVERSAL POPPINS FOR ALL LANGUAGES (MARATHI & ENGLISH) - NO OTHER FONTS */
+  *,
+  *::before,
+  *::after,
+  html,
+  body,
+  button,
+  input,
+  select,
+  textarea,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  div,
+  li,
+  ul,
+  ol,
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td,
+  label,
+  sub,
+  sup {
+    font-family: var(--font-poppins-var, 'Poppins'), 'Poppins', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
