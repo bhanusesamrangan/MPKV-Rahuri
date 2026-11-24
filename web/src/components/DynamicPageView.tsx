@@ -132,18 +132,14 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
         <div className="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 rounded-full bg-emerald-100/50 blur-3xl pointer-events-none" />
         <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-3.5 max-w-4xl">
-            <div className="flex flex-wrap items-center gap-2">
-              {heroBadge && (
+            {heroBadge && (
+              <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-1 px-3.5 py-1 bg-amber-50 text-amber-900 border border-amber-200/80 font-semibold text-xs sm:text-sm rounded-full uppercase">
                   <Award className="w-4 h-4 text-amber-600" />
                   <span>{heroBadge}</span>
                 </span>
-              )}
-              <span className="inline-flex items-center gap-1 px-3 py-1 bg-emerald-50 text-emerald-800 border border-emerald-200/80 rounded-full text-xs sm:text-sm font-semibold">
-                <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                <span>{language === 'mr' ? 'राहुरी मध्यवर्ती मुख्यालय' : 'Rahuri Central Campus'}</span>
-              </span>
-            </div>
+              </div>
+            )}
 
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-800 leading-tight">
               {heroTitle}
@@ -522,8 +518,8 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
                 <MapPin className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
                 <span className="leading-relaxed font-normal">
                   {language === 'mr'
-                    ? 'महात्मा फुले कृषि विद्यापीठ, मध्यवर्ती परिसर, राहुरी, जि. अहिल्यानगर - ४१३७२२'
-                    : 'MPKV Rahuri Central Campus, Dist. Ahilyanagar - 413722'}
+                    ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी, जि. अहिल्यानगर - ४१३७२२'
+                    : 'MPKV Rahuri, Dist. Ahilyanagar - 413722'}
                 </span>
               </div>
               <div className="flex items-center gap-2.5">

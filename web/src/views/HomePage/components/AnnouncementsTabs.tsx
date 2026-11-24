@@ -52,8 +52,8 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
       id: 'circ_3',
       date: '17 Nov 2026',
       title: {
-        en: 'Admission Notification for Ph.D. Degree Programmes Academic Year 2026-27 at Central Campus',
-        mr: 'सन २०२६-२७ आचार्य पदवी (Ph.D.) अभ्यासक्रमाची प्रवेश सूचना - मध्यवर्ती परिसर, राहुरी'
+        en: 'Admission Notification for Ph.D. Degree Programmes Academic Year 2026-27 at MPKV, Rahuri',
+        mr: 'सन २०२६-२७ आचार्य पदवी (Ph.D.) अभ्यासक्रमाची प्रवेश सूचना - मफुकृवि, राहुरी'
       },
       file_path: '/media/docs/20261117_160948_9ce404dba955b1b1cd65dbc6e3cecd3a.pdf'
     }
@@ -61,8 +61,8 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
 
   const upcomingEvents = [
     {
-      en: 'Phule Krishi Mahotsav 2026 & State Level Farmer Field Demonstrations at Rahuri Central Campus',
-      mr: 'फुले कृषि महोत्सव २०२६ व राज्यस्तरीय शेतकरी पीक प्रात्यक्षिके - मध्यवर्ती परिसर, राहुरी'
+      en: 'Phule Krishi Mahotsav 2026 & State Level Farmer Field Demonstrations at MPKV, Rahuri',
+      mr: 'फुले कृषि महोत्सव २०२६ व राज्यस्तरीय शेतकरी पीक प्रात्यक्षिके - मफुकृवि, राहुरी'
     },
     {
       en: '40th Annual Convocation Ceremony of Mahatma Phule Krishi Vidyapeeth, Rahuri',

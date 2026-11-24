@@ -20,13 +20,13 @@ export async function generateMetadata({ params }: PageProps) {
       description:
         page.hero?.subtitle?.en ||
         page.hero?.subheadline?.en ||
-        'Official Portal of Mahatma Phule Krishi Vidyapeeth, Rahuri Central Headquarters.',
+        'Official Portal of Mahatma Phule Krishi Vidyapeeth, Rahuri.',
     };
   }
 
   return {
-    title: 'MPKV Rahuri - Central Campus',
-    description: 'Mahatma Phule Krishi Vidyapeeth, Rahuri Central Headquarters.',
+    title: 'MPKV Rahuri',
+    description: 'Mahatma Phule Krishi Vidyapeeth, Rahuri.',
   };
 }
 

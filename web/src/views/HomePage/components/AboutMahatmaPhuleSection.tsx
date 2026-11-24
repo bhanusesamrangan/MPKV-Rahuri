@@ -86,7 +86,7 @@ export const AboutMahatmaPhuleSection: React.FC<AboutMahatmaPhuleSectionProps> =
                     {language === 'mr' ? 'क्रांतिसूर्य महात्मा जोतीराव फुले' : 'Mahatma Jyotirao Phule'}
                   </div>
                   <div className="text-xs sm:text-sm text-slate-300 mt-1">
-                    {language === 'mr' ? 'मध्यवर्ती परिसर, राहुरी' : 'Central Campus, Rahuri'}
+                    {language === 'mr' ? 'राहुरी, महाराष्ट्र' : 'Rahuri, Maharashtra'}
                   </div>
                 </div>
               </div>

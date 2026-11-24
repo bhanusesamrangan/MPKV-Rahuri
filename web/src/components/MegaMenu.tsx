@@ -19,7 +19,8 @@ import {
   Menu,
   X,
   ArrowRight,
-  ShieldCheck
+  ShieldCheck,
+  ExternalLink
 } from 'lucide-react';
 
 const iconMap: Record<string, React.FC<{ className?: string }>> = {
@@ -245,16 +246,24 @@ export const MegaMenu: React.FC = () => {
               // Dynamic width and layout based on number of child groups
               const childrenCount = (item.children || []).length;
               let gridCols = 'grid-cols-1';
-              let widthClass = 'w-[390px]';
+              let widthClass = 'w-[380px]';
               let alignClass = 'left-0';
 
-              if (childrenCount === 2) {
+              if (childrenCount === 1) {
+                gridCols = 'grid-cols-1';
+                widthClass = 'w-[420px]';
+                alignClass = item.id === 'menu_alumni' ? 'right-0' : 'left-0';
+              } else if (childrenCount === 2) {
                 gridCols = 'grid-cols-2';
-                widthClass = 'w-[720px] xl:w-[780px]';
-                alignClass = item.id === 'menu_farmer' ? '-left-32 xl:left-0' : 'left-0';
-              } else if (childrenCount >= 3) {
+                widthClass = 'w-[720px] xl:w-[800px]';
+                alignClass = item.id === 'menu_farmer' ? 'right-0 xl:-left-24' : (item.id === 'menu_students' ? '-left-32 xl:-left-12' : (item.id === 'menu_library' ? '-left-16 xl:left-0' : 'left-0'));
+              } else if (childrenCount === 3) {
                 gridCols = 'grid-cols-3';
-                widthClass = 'w-[980px] xl:w-[1100px]';
+                widthClass = 'w-[960px] xl:w-[1100px]';
+                alignClass = 'left-0';
+              } else if (childrenCount >= 4) {
+                gridCols = 'grid-cols-2 lg:grid-cols-4';
+                widthClass = 'w-[1140px] xl:w-[1320px] 2xl:w-[1440px]';
                 alignClass = 'left-0';
               }
 
@@ -271,7 +280,7 @@ export const MegaMenu: React.FC = () => {
                         clearTimers();
                         setActiveDropdown((prev) => (prev === item.id ? null : item.id));
                       }}
-                      className={`flex items-center gap-1.5 px-2.5 xl:px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive
+                      className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive
                         ? 'bg-white/20 text-white shadow-xs border border-white/25'
                         : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
@@ -283,13 +292,13 @@ export const MegaMenu: React.FC = () => {
                           }`}
                       />
                       {isDropdownActive && (
-                        <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
+                        <span className="absolute bottom-0.5 left-2 right-2 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
                       )}
                     </button>
                   ) : (
                     <Link
                       href={item.href}
-                      className={`flex items-center gap-1.5 px-2.5 xl:px-3.5 py-2 text-xs xl:text-[14px] font-medium rounded-xl transition-all relative whitespace-nowrap ${isActive
+                      className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative whitespace-nowrap ${isActive
                         ? 'bg-white/20 text-white shadow-xs border border-white/25'
                         : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
@@ -297,7 +306,7 @@ export const MegaMenu: React.FC = () => {
                       {IconComponent && <IconComponent className="w-3.5 h-3.5 text-emerald-200" />}
                       <span>{getBilingual(item.title)}</span>
                       {isActive && (
-                        <span className="absolute bottom-0.5 left-3 right-3 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
+                        <span className="absolute bottom-0.5 left-2 right-2 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
                       )}
                     </Link>
                   )}
@@ -309,36 +318,48 @@ export const MegaMenu: React.FC = () => {
                       onMouseEnter={handleDropdownMouseEnter}
                       onMouseLeave={handleDropdownMouseLeave}
                     >
-                      <div className={`${widthClass} max-w-[calc(100vw-2.5rem)] bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 p-5 grid ${gridCols} gap-6 relative`}>
+                      <div className={`${widthClass} max-w-[calc(100vw-2.5rem)] bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 p-6 xl:p-7 grid ${gridCols} gap-x-8 xl:gap-x-10 gap-y-6 relative`}>
                         {/* Top Accent Gradient Line */}
                         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-600 via-amber-400 to-emerald-600 rounded-t-2xl" />
 
                         {item.children.map((group: any, idx: number) => (
-                          <div key={idx} className="space-y-2">
+                          <div key={idx} className="space-y-2.5 min-w-0">
                             {group.is_group && (
-                              <div className="flex items-center gap-2 border-b border-stone-200 pb-2 mb-1.5">
-                                <span className="w-1.5 h-3.5 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-full" />
+                              <div className="flex items-center gap-2 border-b border-stone-200 pb-2 mb-2">
+                                <span className="w-1.5 h-3.5 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-full flex-shrink-0" />
                                 <h5 className="text-[11px] xl:text-xs font-bold uppercase tracking-wider text-slate-900 whitespace-nowrap">
                                   {getBilingual(group.title)}
                                 </h5>
                               </div>
                             )}
-                            <ul className="space-y-1">
+                            <ul className="space-y-1.5">
                               {(group.children || [group]).map((leaf: any, lIdx: number) => {
                                 const isLeafActive = pathname === leaf.href;
                                 return (
                                   <li key={lIdx}>
-                                    <Link
-                                      href={leaf.href}
-                                      onClick={() => setActiveDropdown(null)}
-                                      className={`group/link flex items-center justify-between text-xs xl:text-[13px] py-1.5 px-2.5 rounded-xl transition-all ${isLeafActive
-                                        ? 'bg-emerald-50 text-emerald-950 font-bold border-l-2 border-emerald-600 shadow-2xs'
-                                        : 'text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950'
-                                        }`}
-                                    >
-                                      <span className="whitespace-nowrap font-medium group-hover/link:font-semibold">{getBilingual(leaf.title)}</span>
-                                      <ArrowRight className="w-3.5 h-3.5 text-emerald-700 opacity-0 group-hover/link:opacity-100 group-hover/link:translate-x-1 transition-all flex-shrink-0 ml-3" />
-                                    </Link>
+                                    {leaf.is_external ? (
+                                      <a
+                                        href={leaf.href}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="group/link flex items-start justify-between gap-2.5 text-xs xl:text-[13px] py-1.5 px-2.5 rounded-xl transition-all text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950"
+                                      >
+                                        <span className="text-left leading-snug font-medium group-hover/link:font-semibold flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
+                                        <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover/link:text-emerald-700 transition-all flex-shrink-0 mt-0.5" />
+                                      </a>
+                                    ) : (
+                                      <Link
+                                        href={leaf.href}
+                                        onClick={() => setActiveDropdown(null)}
+                                        className={`group/link flex items-start justify-between gap-2.5 text-xs xl:text-[13px] py-1.5 px-2.5 rounded-xl transition-all ${isLeafActive
+                                          ? 'bg-emerald-50 text-emerald-950 font-bold border-l-2 border-emerald-600 shadow-2xs'
+                                          : 'text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950'
+                                          }`}
+                                      >
+                                        <span className="text-left leading-snug font-medium group-hover/link:font-semibold flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
+                                        <ArrowRight className="w-3.5 h-3.5 text-emerald-700 opacity-0 group-hover/link:opacity-100 group-hover/link:translate-x-1 transition-all flex-shrink-0 mt-0.5" />
+                                      </Link>
+                                    )}
                                   </li>
                                 );
                               })}
@@ -350,7 +371,7 @@ export const MegaMenu: React.FC = () => {
                         <div className="col-span-full pt-3 mt-1 border-t border-stone-200 flex items-center justify-between text-[11px] text-slate-500">
                           <span className="flex items-center gap-1.5 font-medium text-slate-600">
                             <ShieldCheck className="w-4 h-4 text-emerald-700" />
-                            <span>{language === 'mr' ? 'राहुरी मध्यवर्ती परिसर अधिकृत पोर्टल माहिती' : 'Official Rahuri HQ Scope'}</span>
+                            <span>{language === 'mr' ? 'अधिकृत विद्यापीठ पोर्टल माहिती' : 'Official University Portal'}</span>
                           </span>
                           <span className="text-[10.5px] text-slate-400">
                             {language === 'mr' ? 'थेट माहिती पृष्ठावर जा' : 'Navigate directly to section'}
@@ -495,7 +516,23 @@ export const MegaMenu: React.FC = () => {
                                 <div className="px-1.5 py-1 space-y-0.5 bg-black/20 border-t border-white/10 animate-in fade-in duration-150">
                                   {groupLeaves.map((leaf: any, lIdx: number) => {
                                     const isLeafActive = pathname === leaf.href;
-                                    return (
+                                    return leaf.is_external ? (
+                                      <a
+                                        key={lIdx}
+                                        href={leaf.href}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        onClick={() => {
+                                          setIsMobileOpen(false);
+                                          setExpandedCategory(null);
+                                          setExpandedGroup(null);
+                                        }}
+                                        className="flex items-center justify-between px-2 py-1 rounded-md text-[11px] sm:text-xs transition-colors text-white/85 hover:bg-white/10 hover:text-white"
+                                      >
+                                        <span className="line-clamp-1">{getBilingual(leaf.title)}</span>
+                                        <ExternalLink className="w-2.5 h-2.5 text-white/40 flex-shrink-0 ml-1" />
+                                      </a>
+                                    ) : (
                                       <Link
                                         key={lIdx}
                                         href={leaf.href}
@@ -530,7 +567,7 @@ export const MegaMenu: React.FC = () => {
             <div className="p-3 border-t border-white/15 bg-[#143221]/90 flex items-center justify-between text-[11px] text-emerald-200/90 flex-shrink-0">
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                <span>{language === 'mr' ? 'राहुरी मध्यवर्ती परिसर' : 'Rahuri Central Campus'}</span>
+                <span>{language === 'mr' ? 'महात्मा फुले कृषि विद्यापीठ' : 'Mahatma Phule Krishi Vidyapeeth'}</span>
               </span>
               <span className="text-[10px] text-emerald-300/70">MPKV</span>
             </div>

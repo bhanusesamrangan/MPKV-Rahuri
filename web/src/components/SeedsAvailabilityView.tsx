@@ -114,8 +114,8 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
             </h1>
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify sm:text-left font-normal">
               {language === 'mr'
-                ? 'महात्मा फुले कृषि विद्यापीठ, मध्यवर्ती परिसर, राहुरी बियाणे विभाग व मध्यवर्ती रोपवाटिका येथील विक्रीसाठी उपलब्ध अस्सल प्रमाणित साठा. शेतकऱ्यांसाठी थेट विद्यापीठ दर सूचीनुसार उपलब्ध.'
-                : 'Current verified live stock available for farmers at MPKV Rahuri Central Seed Department, Central Nursery & Farm Implements Workshop. Direct university farm procurement.'}
+                ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी बियाणे विभाग व रोपवाटिका येथील विक्रीसाठी उपलब्ध अस्सल प्रमाणित साठा. शेतकऱ्यांसाठी थेट विद्यापीठ दर सूचीनुसार उपलब्ध.'
+                : 'Current verified live stock available for farmers at MPKV Rahuri Seed Department, Nursery & Farm Implements Workshop. Direct university farm procurement.'}
             </p>
           </div>
 
@@ -615,13 +615,13 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </div>
           <h3 className="text-lg sm:text-xl font-bold text-slate-900">
             {language === 'mr'
-              ? 'बियाणे व रोपे खरेदीसाठी राहुरी मध्यवर्ती विक्री केंद्रास भेट द्या'
-              : 'Visit Central Sales Counter at MPKV Rahuri Main Campus'}
+              ? 'बियाणे व रोपे खरेदीसाठी राहुरी विक्री केंद्रास भेट द्या'
+              : 'Visit Sales Counter at MPKV Rahuri'}
           </h3>
           <p className="text-slate-600 text-xs sm:text-sm leading-relaxed font-normal">
             {language === 'mr'
-              ? 'बियाणे विभाग, मध्यवर्ती प्रक्षेत्र, महात्मा फुले कृषि विद्यापीठ, राहुरी, जि. अहिल्यानगर (अहमदनगर). शेतकऱ्यांनी खरेदीपूर्वी उपलब्धतेची दूरध्वनीद्वारे खात्री करावी.'
-              : 'Seed Processing Plant, Central Farm Campus, Mahatma Phule Krishi Vidyapeeth, Rahuri, Dist. Ahilyanagar. Farmers are advised to confirm availability before arrival.'}
+              ? 'बियाणे विभाग, प्रक्षेत्र, महात्मा फुले कृषि विद्यापीठ, राहुरी, जि. अहिल्यानगर (अहमदनगर). शेतकऱ्यांनी खरेदीपूर्वी उपलब्धतेची दूरध्वनीद्वारे खात्री करावी.'
+              : 'Seed Processing Plant, Farm, Mahatma Phule Krishi Vidyapeeth, Rahuri, Dist. Ahilyanagar. Farmers are advised to confirm availability before arrival.'}
           </p>
         </div>
 

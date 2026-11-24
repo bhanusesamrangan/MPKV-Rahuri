@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
                 {language === 'mr' ? 'महात्मा फुले कृषि विद्यापीठ' : 'Mahatma Phule Krishi Vidyapeeth'}
               </h4>
               <p className="text-amber-800 font-medium text-sm">
-                {language === 'mr' ? 'मध्यवर्ती परिसर, राहुरी' : 'Central Campus, Rahuri'}
+                {language === 'mr' ? 'राहुरी, अहिल्यानगर' : 'Rahuri, Ahilyanagar'}
               </p>
             </div>
           </div>
@@ -144,8 +144,8 @@ export const Footer: React.FC = () => {
               <MapPin className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
               <span className="leading-relaxed text-sm">
                 {language === 'mr'
-                  ? 'महात्मा फुले कृषि विद्यापीठ, मध्यवर्ती परिसर, राहुरी, जि. अहिल्यानगर (अहमदनगर) - ४१३७२२, महाराष्ट्र'
-                  : 'Mahatma Phule Krishi Vidyapeeth, Central Campus, Rahuri, Dist. Ahilyanagar (Ahmednagar) - 413722, Maharashtra'}
+                  ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी, जि. अहिल्यानगर (अहमदनगर) - ४१३७२२, महाराष्ट्र'
+                  : 'Mahatma Phule Krishi Vidyapeeth, Rahuri, Dist. Ahilyanagar (Ahmednagar) - 413722, Maharashtra'}
               </span>
             </div>
             <div className="flex items-center gap-2">

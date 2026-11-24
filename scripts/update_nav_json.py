@@ -1,0 +1,591 @@
+import json
+import os
+
+pages_dir = "web/src/data/scraped/pages"
+available_pages = set([f[:-5] for f in os.listdir(pages_dir) if f.endswith(".json")])
+
+nav_menu = [
+  {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    },
+    "href": "/",
+    "icon": "Home"
+  },
+  {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    },
+    "href": "#",
+    "icon": "GraduationCap",
+    "children": [
+      {
+        "id": "edu_group_1",
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संस्थेची माहिती व रूपरेषा"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Education at a Glance", "mr": "दृष्टीक्षेपात शिक्षण" },
+            "href": "/education/at-a-glance"
+          },
+          {
+            "title": { "en": "Organizational Profile", "mr": "संस्थात्मक संरचना" },
+            "href": "/education/profile"
+          },
+          {
+            "title": { "en": "Thrust Areas", "mr": "प्राधान्यक्रम" },
+            "href": "/education/thrust-areas"
+          },
+          {
+            "title": { "en": "Academic Regulations", "mr": "शैक्षणिक नियमावली" },
+            "href": "/education/regulations"
+          }
+        ]
+      },
+      {
+        "id": "edu_group_2",
+        "title": {
+          "en": "Colleges & Institutes",
+          "mr": "महाविद्यालये व संस्था"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Constituent Colleges", "mr": "घटक महाविद्यालये" },
+            "href": "/education/constituent-colleges"
+          },
+          {
+            "title": { "en": "Affiliated Colleges", "mr": "संलग्न महाविद्यालये" },
+            "href": "/education/affiliated-colleges"
+          },
+          {
+            "title": { "en": "Post Graduate Institute (PGI), Rahuri", "mr": "पदव्युत्तर महाविद्यालय (PGI), राहुरी" },
+            "href": "/post-graduate-institute-rahuri"
+          },
+          {
+            "title": { "en": "Dr. A.S. College of Agril. Engg. & Tech., Rahuri", "mr": "डॉ. अ. शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी" },
+            "href": "/dr-as-caet-rahuri"
+          }
+        ]
+      },
+      {
+        "id": "edu_group_3",
+        "title": {
+          "en": "Courses & Curriculum",
+          "mr": "अभ्यासक्रम व पदव्या"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Doctoral (Ph.D.) Programmes", "mr": "आचार्य (Ph.D.) पदवी" },
+            "href": "/education/doctoral"
+          },
+          {
+            "title": { "en": "Master's (M.Sc. / M.Tech.) Programmes", "mr": "पदव्युत्तर (M.Sc. / M.Tech.) पदवी" },
+            "href": "/education/masters"
+          },
+          {
+            "title": { "en": "Bachelor's Programmes", "mr": "पदवी अभ्यासक्रम" },
+            "href": "/education/bachelors"
+          },
+          {
+            "title": { "en": "Diploma / Polytechnic", "mr": "पदविका (पॉलिटेक्निक)" },
+            "href": "/education/diploma"
+          },
+          {
+            "title": { "en": "Diploma (Agril. Tech. Schools)", "mr": "कृषि तंत्र विद्यालये (पदविका)" },
+            "href": "/education/diploma-schools"
+          },
+          {
+            "title": { "en": "Certificate Courses", "mr": "प्रमाणपत्र अभ्यासक्रम" },
+            "href": "/education/certificate-courses"
+          }
+        ]
+      },
+      {
+        "id": "edu_group_4",
+        "title": {
+          "en": "Faculty Branches",
+          "mr": "विद्याशाखा"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Agricultural Science Faculty", "mr": "कृषि विज्ञान शाखा" },
+            "href": "/education/faculty-agricultural-science"
+          },
+          {
+            "title": { "en": "Agricultural Engineering Faculty", "mr": "कृषि अभियांत्रिकी शाखा" },
+            "href": "/education/faculty-agricultural-engineering"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    },
+    "href": "#",
+    "icon": "Microscope",
+    "children": [
+      {
+        "id": "res_group_1",
+        "title": {
+          "en": "Overview & Schemes",
+          "mr": "संशोधन आढावा व योजना"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Research at a Glance", "mr": "दृष्टीक्षेपात संशोधन" },
+            "href": "/research/at-a-glance"
+          },
+          {
+            "title": { "en": "Organizational Profile", "mr": "संस्थात्मक संरचना" },
+            "href": "/research/profile"
+          },
+          {
+            "title": { "en": "Thrust Areas", "mr": "संशोधन प्राधान्यक्रम" },
+            "href": "/research/thrust-areas"
+          },
+          {
+            "title": { "en": "ICAR-AICRP Projects", "mr": "अखिल भारतीय समन्वित प्रकल्प (AICRP)" },
+            "href": "/research/aicrp"
+          },
+          {
+            "title": { "en": "Non-Plan State Schemes", "mr": "राज्य शासन योजना" },
+            "href": "/research/state-schemes"
+          },
+          {
+            "title": { "en": "Externally Funded Projects", "mr": "बाह्य अनुदानीत प्रकल्प" },
+            "href": "/research/funded-projects"
+          },
+          {
+            "title": { "en": "Research Review Mechanism", "mr": "संशोधन पुनरावलोकन यंत्रणा" },
+            "href": "/research/review-mechanism"
+          }
+        ]
+      },
+      {
+        "id": "res_group_2",
+        "title": {
+          "en": "Agro-Climatic Research Stations",
+          "mr": "कृषि हवामान संशोधन केंद्रे"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Western Ghat Zone", "mr": "पश्चिम घाट विभाग" },
+            "href": "/research/western-ghat-zone"
+          },
+          {
+            "title": { "en": "Sub-Montane Zone", "mr": "उप-पर्वतीय विभाग" },
+            "href": "/research/sub-montane-zone"
+          },
+          {
+            "title": { "en": "Plain Zone", "mr": "पठार विभाग" },
+            "href": "/research/plain-zone"
+          },
+          {
+            "title": { "en": "Scarcity Zone", "mr": "अवर्षणग्रस्त विभाग" },
+            "href": "/research/scarcity-zone"
+          },
+          {
+            "title": { "en": "Central Plateau Zone", "mr": "मध्य पठार विभाग" },
+            "href": "/research/central-plateau-zone"
+          }
+        ]
+      },
+      {
+        "id": "res_group_3",
+        "title": {
+          "en": "Technology & Releases",
+          "mr": "प्रगत तंत्रज्ञान व वाण"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Crop Varieties Released", "mr": "विकसित पीक वाण" },
+            "href": "/research/varieties"
+          },
+          {
+            "title": { "en": "Agro Recommendations", "mr": "कृषि शिफारसी" },
+            "href": "/research/recommendations"
+          },
+          {
+            "title": { "en": "Farm Implements & Machinery", "mr": "शेती अवजारे व यंत्रे" },
+            "href": "/farm-implements"
+          },
+          {
+            "title": { "en": "Registered Patents", "mr": "नोंदणीकृत पेटंट्स" },
+            "href": "/research/patents"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    },
+    "href": "#",
+    "icon": "Users",
+    "children": [
+      {
+        "id": "ext_group_1",
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Extension at a Glance", "mr": "दृष्टीक्षेपात विस्तार शिक्षण" },
+            "href": "/extension/at-a-glance"
+          },
+          {
+            "title": { "en": "Organizational Profile", "mr": "संस्थात्मक संरचना" },
+            "href": "/extension/profile"
+          },
+          {
+            "title": { "en": "Thrust Areas", "mr": "विस्तार प्राधान्यक्रम" },
+            "href": "/extension/thrust-areas"
+          },
+          {
+            "title": { "en": "Krishi Vigyan Kendras (KVK)", "mr": "कृषि विज्ञान केंद्रे (KVK)" },
+            "href": "/extension/krishi-vigyan-kendras"
+          },
+          {
+            "title": { "en": "Agricultural Technology Info Centre (ATIC)", "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)" },
+            "href": "/atic-rahuri"
+          },
+          {
+            "title": { "en": "Communication Centre & Radio 90.8 FM", "mr": "संप्रेषण केंद्र व ९०.८ एफएम वाहिनी" },
+            "href": "/communication-centre"
+          },
+          {
+            "title": { "en": "Extension Publications & Krishidarshani", "mr": "विस्तार प्रकाशने व कृषिदर्शनी" },
+            "href": "/extension/publications"
+          },
+          {
+            "title": { "en": "Ad-hoc Extension Projects", "mr": "विस्तार विशेष प्रकल्प" },
+            "href": "/extension/adhoc-projects"
+          }
+        ]
+      },
+      {
+        "id": "ext_group_2",
+        "title": {
+          "en": "Regional & District Centers",
+          "mr": "विभागीय व जिल्हा विस्तार केंद्रे"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Regional Extension Centers", "mr": "विभागीय विस्तार केंद्रे" },
+            "href": "/extension/regional-centers"
+          },
+          {
+            "title": { "en": "District Extension Centers", "mr": "जिल्हा विस्तार केंद्रे" },
+            "href": "/extension/district-centers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    },
+    "href": "#",
+    "icon": "BookOpen",
+    "children": [
+      {
+        "id": "lib_group_1",
+        "title": {
+          "en": "About & Collections",
+          "mr": "माहिती व ग्रंथसंग्रह"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "About Central Library", "mr": "ग्रंथालयाविषयी" },
+            "href": "/library/about"
+          },
+          {
+            "title": { "en": "Book Collections", "mr": "ग्रंथसंग्रह व संदर्भ ग्रंथ" },
+            "href": "/library/collections"
+          },
+          {
+            "title": { "en": "Library Sections", "mr": "ग्रंथालय विभाग" },
+            "href": "/library/sections"
+          },
+          {
+            "title": { "en": "Facilities & Reading Halls", "mr": "वाचक सुविधा व अभ्यासिका" },
+            "href": "/library/facilities"
+          },
+          {
+            "title": { "en": "Library Services", "mr": "ग्रंथालय सेवा" },
+            "href": "/library/services"
+          }
+        ]
+      },
+      {
+        "id": "lib_group_2",
+        "title": {
+          "en": "Digital & Off-Campus",
+          "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Digital Links & CeRA Journals", "mr": "डिजिटल ई-रिसोर्सेस व CeRA" },
+            "href": "/library/links"
+          },
+          {
+            "title": { "en": "Library Activities", "mr": "ग्रंथालय उपक्रम" },
+            "href": "/library/activities"
+          },
+          {
+            "title": { "en": "Off Campus Libraries", "mr": "विभागीय महाविद्यालय ग्रंथालये" },
+            "href": "/library/off-campus"
+          },
+          {
+            "title": { "en": "News & Book Exhibitions", "mr": "बातम्या व ग्रंथ प्रदर्शन" },
+            "href": "/library/news-events"
+          },
+          {
+            "title": { "en": "Library Contacts Desk", "mr": "ग्रंथालय संपर्क कक्ष" },
+            "href": "/library/contact"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    },
+    "href": "#",
+    "icon": "UserCheck",
+    "children": [
+      {
+        "id": "stud_group_1",
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Admission Procedure", "mr": "प्रवेश प्रक्रिया" },
+            "href": "/students/admission"
+          },
+          {
+            "title": { "en": "Sports & Gymnasium", "mr": "क्रीडा व व्यायामशाळा" },
+            "href": "/students/sports"
+          },
+          {
+            "title": { "en": "Hostel Accommodation", "mr": "वसतिगृहे" },
+            "href": "/students/hostels"
+          },
+          {
+            "title": { "en": "Student Circulars & Notices", "mr": "विद्यार्थी परिपत्रके" },
+            "href": "/students/circulars"
+          },
+          {
+            "title": { "en": "International Students Cell", "mr": "आंतरराष्ट्रीय विद्यार्थी कक्ष" },
+            "href": "/students/international"
+          },
+          {
+            "title": { "en": "Students Form (PGI)", "mr": "विद्यार्थी अर्ज (PGI)" },
+            "href": "/students/pgi-form"
+          },
+          {
+            "title": { "en": "Student Grievance & Complaints", "mr": "तक्रार निवारण व अँटी रॅगिंग" },
+            "href": "/students/complaints"
+          }
+        ]
+      },
+      {
+        "id": "stud_group_2",
+        "title": {
+          "en": "Admission Eligibility",
+          "mr": "प्रवेश पात्रता निकष"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Doctoral (Ph.D.) Eligibility", "mr": "आचार्य (Ph.D.) पात्रता" },
+            "href": "/education/doctoral"
+          },
+          {
+            "title": { "en": "Master's (M.Sc./M.Tech.) Eligibility", "mr": "पदव्युत्तर पात्रता" },
+            "href": "/education/masters"
+          },
+          {
+            "title": { "en": "Bachelor's Eligibility", "mr": "पदवी पात्रता" },
+            "href": "/education/bachelors"
+          },
+          {
+            "title": { "en": "Diploma Eligibility", "mr": "पदविका पात्रता" },
+            "href": "/education/diploma"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    },
+    "href": "#",
+    "icon": "Sprout",
+    "children": [
+      {
+        "id": "farm_group_1",
+        "title": {
+          "en": "Seeds, Grafts & Implements",
+          "mr": "बियाणे, कलमे व अवजारे"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Certified Seed Availability", "mr": "प्रमाणित बियाणे साठा" },
+            "href": "/seeds-availability"
+          },
+          {
+            "title": { "en": "Fruit Grafts & Nursery Stock", "mr": "रोपवाटिका साठा" },
+            "href": "/nursery-stock"
+          },
+          {
+            "title": { "en": "Farm Implements Catalog", "mr": "शेती अवजारे सूची" },
+            "href": "/farm-implements"
+          },
+          {
+            "title": { "en": "Bio-Fertilizers & Bio-Pesticides", "mr": "जैविक खते व कीटकनाशके" },
+            "href": "/farmer/bio-inputs"
+          }
+        ]
+      },
+      {
+        "id": "farm_group_2",
+        "title": {
+          "en": "Forums & Advisory",
+          "mr": "शेतकरी मंच व सल्ला"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "Farmer Scientist Forum", "mr": "शेतकरी शास्त्रज्ञ मंच" },
+            "href": "/farmer/scientist-forum"
+          },
+          {
+            "title": { "en": "Kisan Aadhar Sammelan", "mr": "किसान आधार संमेलन" },
+            "href": "/farmer/kisan-aadhar"
+          },
+          {
+            "title": { "en": "Weekly Agro Advisory", "mr": "साप्ताहिक शेतकरी सल्ला" },
+            "href": "/farmer/advisories"
+          },
+          {
+            "title": { "en": "Agriculture Calendar (12 Months)", "mr": "कृषि दिनदर्शिका (१२ महिने)" },
+            "href": "/farmer/calendar"
+          },
+          {
+            "title": { "en": "Right to Public Services", "mr": "लोकसेवा हक्क कायदा" },
+            "href": "/transparency-and-grievance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    },
+    "href": "/officers/directory",
+    "icon": "Building2"
+  },
+  {
+    "id": "menu_alumni",
+    "title": {
+      "en": "Alumni",
+      "mr": "माजी विद्यार्थी"
+    },
+    "href": "#",
+    "icon": "GraduationCap",
+    "children": [
+      {
+        "id": "alumni_group_1",
+        "title": {
+          "en": "College Alumni Associations",
+          "mr": "महाविद्यालय माजी विद्यार्थी संघटना"
+        },
+        "is_group": True,
+        "children": [
+          {
+            "title": { "en": "College of Agriculture, Pune Alumni", "mr": "कृषि महाविद्यालय, पुणे माजी विद्यार्थी संघ" },
+            "href": "http://alumniagri.in",
+            "is_external": True
+          },
+          {
+            "title": { "en": "College of Agriculture, Dhule Alumni", "mr": "कृषि महाविद्यालय, धुळे माजी विद्यार्थी संघ" },
+            "href": "http://www.acdhule.edu.in/Home/AlumniList",
+            "is_external": True
+          },
+          {
+            "title": { "en": "R. C. S. M. College of Agriculture, Kolhapur", "mr": "रा.छ.शा.म. कृषि महाविद्यालय, कोल्हापूर" },
+            "href": "http://alumniack.com",
+            "is_external": True
+          },
+          {
+            "title": { "en": "Dr. A.S. College of Agril. Engg., Rahuri Alumni", "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी माजी विद्यार्थी संघ" },
+            "href": "http://www.agroneersrahuri.org",
+            "is_external": True
+          },
+          {
+            "title": { "en": "Post Graduate Institute (PGI), Rahuri Alumni", "mr": "पदव्युत्तर महाविद्यालय (PGI) माजी विद्यार्थी संघ" },
+            "href": "https://forms.gle/o683q2NqRjbhfa4E7",
+            "is_external": True
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu_contacts",
+    "title": {
+      "en": "Contacts",
+      "mr": "संपर्क"
+    },
+    "href": "/contact-us",
+    "icon": "PhoneCall"
+  }
+]
+
+# Write to navigation_menu.json
+with open("web/src/data/scraped/navigation_menu.json", "w", encoding="utf-8") as f:
+    json.dump(nav_menu, f, indent=2, ensure_ascii=False)
+
+print("Updated navigation_menu.json successfully!")

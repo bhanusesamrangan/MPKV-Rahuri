@@ -333,7 +333,7 @@ export const CampusGallerySection: React.FC = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-100 via-emerald-100 to-amber-100 border border-amber-300/90 text-amber-950 text-[11px] sm:text-xs font-bold uppercase tracking-wider mb-2 shadow-2xs">
               <Camera className="w-3.5 h-3.5 text-amber-700" />
-              <span>{language === 'mr' ? 'दृकश्राव्य दालन' : 'Campus Visual & Media Hub'}</span>
+              <span>{language === 'mr' ? 'दृकश्राव्य दालन' : 'Visual & Media Gallery'}</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
               <span className="text-emerald-900 font-bold">{language === 'mr' ? 'संवादी गॅलरी संग्रह' : 'Interactive Multi-Image Gallery'}</span>
             </div>
@@ -342,8 +342,8 @@ export const CampusGallerySection: React.FC = () => {
             </h2>
             <p className="text-slate-600 text-xs sm:text-sm md:text-[14.5px] mt-1 max-w-3xl">
               {language === 'mr'
-                ? 'मध्यवर्ती राहुरी परिसरातील ऐतिहासिक वास्तू, आधुनिक संशोधन केंद्रे, पदवी सोहळे आणि कृषी महोत्सवाचा संवादी डिजिटल संग्रह.'
-                : 'Interactive digital archive showcasing iconic campus infrastructure, research farms, convocations, and state farmer exhibitions.'}
+                ? 'राहुरी परिसरातील ऐतिहासिक वास्तू, आधुनिक संशोधन केंद्रे, पदवी सोहळे आणि कृषी महोत्सवाचा संवादी डिजिटल संग्रह.'
+                : 'Interactive digital archive showcasing iconic university infrastructure, research farms, convocations, and state farmer exhibitions.'}
             </p>
           </div>
 

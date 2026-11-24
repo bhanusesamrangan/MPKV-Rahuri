@@ -118,49 +118,46 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
             return (
               <div
                 key={stat.id}
-                className={`rounded-2xl sm:rounded-3xl bg-white border ${theme.borderColor} transition-all duration-300 flex flex-col justify-between shadow-xs hover:shadow-xl ${theme.glow} hover:-translate-y-1.5 group cursor-pointer overflow-hidden relative p-2.5 sm:p-3 lg:p-3.5`}
+                className={`rounded-2xl sm:rounded-3xl bg-white border ${theme.borderColor} transition-all duration-300 flex flex-col h-full shadow-xs hover:shadow-xl ${theme.glow} hover:-translate-y-1.5 group cursor-pointer overflow-hidden relative p-2.5 sm:p-3 lg:p-3.5 max-sm:last:col-span-2 max-sm:last:max-w-[calc(50%-5px)] max-sm:last:mx-auto w-full`}
               >
                 {/* Top Distinctive Accent Bar */}
                 <div className={`absolute top-0 left-0 right-0 h-1 sm:h-1.5 ${theme.accentBar}`} />
 
-                <div className="space-y-2 sm:space-y-2.5 pt-0.5 sm:pt-1">
+                {/* 3D Illustrated Visual Showcase - Guaranteed Square Proportions */}
+                <div
+                  className="w-full aspect-square relative rounded-xl sm:rounded-2xl overflow-hidden bg-slate-900/5 border border-stone-100 shadow-inner flex-shrink-0 mb-2 sm:mb-2.5 mt-0.5 sm:mt-1"
+                  style={{ aspectRatio: '1 / 1' }}
+                >
+                  <img
+                    src={theme.image}
+                    alt={getBilingual(stat.label)}
+                    className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500"
+                    loading="lazy"
+                  />
                   
-                  {/* 3D Illustrated Visual Showcase - Guaranteed Square Proportions */}
-                  <div
-                    className="w-full aspect-square relative rounded-xl sm:rounded-2xl overflow-hidden bg-slate-900/5 border border-stone-100 shadow-inner flex-shrink-0"
-                    style={{ aspectRatio: '1 / 1' }}
-                  >
-                    <img
-                      src={theme.image}
-                      alt={getBilingual(stat.label)}
-                      className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                    
-                    {/* Micro Category Tag */}
-                    <div className="absolute bottom-1.5 left-1.5 right-1.5 sm:bottom-2 sm:left-2 sm:right-2 flex items-center justify-center">
-                      <span className="px-2 py-0.5 rounded-full bg-slate-950/70 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-bold border border-white/20 shadow-xs tracking-wide truncate max-w-full">
-                        {theme.tag}
-                      </span>
-                    </div>
+                  {/* Micro Category Tag */}
+                  <div className="absolute bottom-1.5 left-1.5 right-1.5 sm:bottom-2 sm:left-2 sm:right-2 flex items-center justify-center pointer-events-none z-10">
+                    <span className="px-2 py-0.5 rounded-full bg-slate-950/70 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-bold border border-white/20 shadow-xs tracking-wide truncate max-w-full">
+                      {theme.tag}
+                    </span>
                   </div>
+                </div>
 
+                {/* Metric Details Container (Centered, Gracefully Fills Main Body) */}
+                <div className="flex-1 flex flex-col items-center justify-center text-center px-0.5 py-1">
                   {/* Bold Metric Number */}
-                  <div className="text-center pt-0.5">
-                    <div className={`text-2xl sm:text-2xl lg:text-[28px] font-black tracking-tight leading-none ${theme.numberColor}`}>
-                      {stat.number}
-                    </div>
+                  <div className={`text-2xl sm:text-2xl lg:text-[28px] font-black tracking-tight leading-none ${theme.numberColor}`}>
+                    {stat.number}
                   </div>
 
                   {/* Bilingual Descriptive Title */}
-                  <div className="text-xs sm:text-[13px] lg:text-[14px] font-bold text-slate-800 text-center leading-snug line-clamp-2 min-h-[28px] sm:min-h-[34px] flex items-center justify-center px-0.5">
+                  <div className="text-xs sm:text-[13px] lg:text-[14px] font-bold text-slate-800 text-center leading-snug line-clamp-2 min-h-[28px] sm:min-h-[34px] flex items-center justify-center px-0.5 mt-1 sm:mt-1.5">
                     {getBilingual(stat.label)}
                   </div>
-
                 </div>
 
                 {/* Subtle Hover Action Footer */}
-                <div className="pt-2 mt-2.5 border-t border-stone-100 flex items-center justify-center text-[11px] sm:text-xs font-bold text-slate-500 group-hover:text-slate-900 transition-colors">
+                <div className="pt-2 mt-auto border-t border-stone-100 flex items-center justify-center text-[11px] sm:text-xs font-bold text-slate-500 group-hover:text-slate-900 transition-colors">
                   <span className="inline-flex items-center gap-1">
                     <span>{language === 'mr' ? 'सविस्तर' : 'Explore'}</span>
                     <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3 group-hover:translate-x-1 transition-transform" />

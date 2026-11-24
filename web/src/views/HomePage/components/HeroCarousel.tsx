@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Pause, Play, Sparkles } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 
 interface HeroCarouselProps {
   slides: any[];
@@ -56,7 +56,6 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
 
   // Show only selected language text at a time per user preference
   const currentTitle = language === 'en' ? (titleEn || titleMr) : (titleMr || titleEn);
-  const campusLabel = language === 'en' ? 'Rahuri Central Campus' : 'राहुरी मध्यवर्ती परिसर';
 
   return (
     <section className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] my-3 sm:my-4 md:my-5 select-none">
@@ -107,16 +106,8 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({ slides }) => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.35 }}
-              className="p-3 sm:p-4.5 lg:p-5 rounded-xl sm:rounded-2xl bg-black/55 backdrop-blur-md border border-white/20 text-white shadow-xl space-y-1.5"
+              className="p-3 sm:p-4.5 lg:p-5 rounded-xl sm:rounded-2xl bg-black/55 backdrop-blur-md border border-white/20 text-white shadow-xl"
             >
-              {/* Capsule Pill - Selected Language Only */}
-              <div className="flex items-center gap-1.5 text-[10.5px] sm:text-xs font-semibold tracking-wide text-amber-300">
-                <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 flex-shrink-0" />
-                <span className="line-clamp-1">
-                  {campusLabel}
-                </span>
-              </div>
-
               {/* Title - Selected Language Only */}
               <div>
                 <h2 className="text-xs sm:text-base md:text-lg lg:text-xl font-semibold text-white/95 leading-snug drop-shadow-sm line-clamp-2">

@@ -72,7 +72,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
       id: 'nursery',
       title: language === 'mr' ? 'रोपे व कलमे उपलब्धता' : 'Fruit Grafts & Nursery Stock',
       subtitle: language === 'mr' ? 'मध्यवर्ती रोपवाटिका कलमे' : 'Certified saplings & fruit crops',
-      badge: language === 'mr' ? 'राहुरी परिसर' : 'Central Nursery',
+      badge: language === 'mr' ? 'रोपवाटिका' : 'Nursery Stock',
       icon: Sprout,
       link: '/nursery-stock',
       isExternal: false,
