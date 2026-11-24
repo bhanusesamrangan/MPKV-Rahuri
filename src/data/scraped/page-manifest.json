@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-11-22T20:36:23.354812",
-  "totalPages": 103,
+  "totalPages": 105,
   "totalRecordsAcrossAllPages": 11417,
   "pages": [
     {
@@ -181,9 +181,9 @@
     },
     {
       "slug": "agro-advisories",
-      "menuId": "menu_farmer",
-      "parentMenu": "Farmer Services",
-      "submenuGroup": "Forums & Advisory",
+      "menuId": "menu_home",
+      "parentMenu": "Home",
+      "submenuGroup": "University",
       "title": {
         "en": "Weekly Agro Advisory",
         "mr": "साप्ताहिक शेतकरी सल्ला"
@@ -199,24 +199,24 @@
         },
         {
           "title": {
-            "en": "Farmer Services",
-            "mr": "शेतकरी सेवा"
+            "en": "Home",
+            "mr": "मुख्यपृष्ठ"
           },
-          "href": "/seeds-availability"
+          "href": "/agro-advisories"
         },
         {
           "title": {
-            "en": "Forums & Advisory",
-            "mr": "शेतकरी मंच व सल्ला"
+            "en": "University",
+            "mr": "विद्यापीठ"
           },
-          "href": "/farmer/advisories"
+          "href": "/agro-advisories"
         },
         {
           "title": {
             "en": "Weekly Agro Advisory",
             "mr": "साप्ताहिक शेतकरी सल्ला"
           },
-          "href": "/farmer/advisories"
+          "href": "/agro-advisories"
         }
       ],
       "tableCount": 1,
@@ -2067,10 +2067,10 @@
       "slug": "farmer-inputs",
       "menuId": "menu_farmer",
       "parentMenu": "Farmer Services",
-      "submenuGroup": "Seeds, Grafts & Implements",
+      "submenuGroup": "Inputs",
       "title": {
-        "en": "Bio-Fertilizers & Bio-Pesticides",
-        "mr": "जैविक खते व कीटकनाशके"
+        "en": "Bio-Fertilizers",
+        "mr": "जैविक खते"
       },
       "route": "/Farmer/FarmerInputes",
       "breadcrumb": [
@@ -2090,17 +2090,17 @@
         },
         {
           "title": {
-            "en": "Seeds, Grafts & Implements",
-            "mr": "बियाणे, कलमे व अवजारे"
+            "en": "Inputs",
+            "mr": "कृषि निविष्ठा"
           },
-          "href": "/farmer/bio-inputs"
+          "href": "/farmer/bio-fertilizers"
         },
         {
           "title": {
-            "en": "Bio-Fertilizers & Bio-Pesticides",
-            "mr": "जैविक खते व कीटकनाशके"
+            "en": "Bio-Fertilizers",
+            "mr": "जैविक खते"
           },
-          "href": "/farmer/bio-inputs"
+          "href": "/farmer/bio-fertilizers"
         }
       ],
       "tableCount": 17,
@@ -2111,7 +2111,7 @@
       "slug": "farmer-kisan-aadhar",
       "menuId": "menu_farmer",
       "parentMenu": "Farmer Services",
-      "submenuGroup": "Forums & Advisory",
+      "submenuGroup": "Sammelan & Success Stories",
       "title": {
         "en": "Kisan Aadhar Sammelan",
         "mr": "किसान आधार संमेलन"
@@ -2134,8 +2134,8 @@
         },
         {
           "title": {
-            "en": "Forums & Advisory",
-            "mr": "शेतकरी मंच व सल्ला"
+            "en": "Sammelan & Success Stories",
+            "mr": "संमेलन व यशोगाथा"
           },
           "href": "/farmer/kisan-aadhar"
         },
@@ -2155,7 +2155,7 @@
       "slug": "farmer-scientist-forum",
       "menuId": "menu_farmer",
       "parentMenu": "Farmer Services",
-      "submenuGroup": "Forums & Advisory",
+      "submenuGroup": "Forums & Publications",
       "title": {
         "en": "Farmer Scientist Forum",
         "mr": "शेतकरी शास्त्रज्ञ मंच"
@@ -2178,8 +2178,8 @@
         },
         {
           "title": {
-            "en": "Forums & Advisory",
-            "mr": "शेतकरी मंच व सल्ला"
+            "en": "Forums & Publications",
+            "mr": "शेतकरी मंच व प्रकाशने"
           },
           "href": "/farmer/scientist-forum"
         },
@@ -2194,6 +2194,94 @@
       "tableCount": 0,
       "noticeCount": 0,
       "mediaCount": 20
+    },
+    {
+      "slug": "farmer-services",
+      "menuId": "menu_farmer",
+      "parentMenu": "Farmer Services",
+      "submenuGroup": "Sammelan & Success Stories",
+      "title": {
+        "en": "Services",
+        "mr": "शेतकरी सुविधा व सेवा"
+      },
+      "route": "/farmer/services",
+      "breadcrumb": [
+        {
+          "title": {
+            "en": "Home",
+            "mr": "मुख्यपृष्ठ"
+          },
+          "href": "/"
+        },
+        {
+          "title": {
+            "en": "Farmer Services",
+            "mr": "शेतकरी सेवा"
+          },
+          "href": "/seeds-availability"
+        },
+        {
+          "title": {
+            "en": "Sammelan & Success Stories",
+            "mr": "संमेलन व यशोगाथा"
+          },
+          "href": "/farmer/services"
+        },
+        {
+          "title": {
+            "en": "Services",
+            "mr": "शेतकरी सुविधा व सेवा"
+          },
+          "href": "/farmer/services"
+        }
+      ],
+      "tableCount": 1,
+      "noticeCount": 0,
+      "mediaCount": 0
+    },
+    {
+      "slug": "farmer-success-stories",
+      "menuId": "menu_farmer",
+      "parentMenu": "Farmer Services",
+      "submenuGroup": "Sammelan & Success Stories",
+      "title": {
+        "en": "Success Stories",
+        "mr": "प्रगतीशील शेतकरी यशोगाथा"
+      },
+      "route": "/farmer/success-stories",
+      "breadcrumb": [
+        {
+          "title": {
+            "en": "Home",
+            "mr": "मुख्यपृष्ठ"
+          },
+          "href": "/"
+        },
+        {
+          "title": {
+            "en": "Farmer Services",
+            "mr": "शेतकरी सेवा"
+          },
+          "href": "/seeds-availability"
+        },
+        {
+          "title": {
+            "en": "Sammelan & Success Stories",
+            "mr": "संमेलन व यशोगाथा"
+          },
+          "href": "/farmer/success-stories"
+        },
+        {
+          "title": {
+            "en": "Success Stories",
+            "mr": "प्रगतीशील शेतकरी यशोगाथा"
+          },
+          "href": "/farmer/success-stories"
+        }
+      ],
+      "tableCount": 1,
+      "noticeCount": 0,
+      "mediaCount": 0
     },
     {
       "slug": "finance",
@@ -2365,9 +2453,9 @@
     },
     {
       "slug": "krishi-calendar",
-      "menuId": "menu_farmer",
-      "parentMenu": "Farmer Services",
-      "submenuGroup": "Forums & Advisory",
+      "menuId": "menu_home",
+      "parentMenu": "Home",
+      "submenuGroup": "University",
       "title": {
         "en": "Agriculture Calendar (12 Months)",
         "mr": "कृषि दिनदर्शिका (१२ महिने)"
@@ -2383,24 +2471,24 @@
         },
         {
           "title": {
-            "en": "Farmer Services",
-            "mr": "शेतकरी सेवा"
+            "en": "Home",
+            "mr": "मुख्यपृष्ठ"
           },
-          "href": "/seeds-availability"
+          "href": "/krishi-calendar"
         },
         {
           "title": {
-            "en": "Forums & Advisory",
-            "mr": "शेतकरी मंच व सल्ला"
+            "en": "University",
+            "mr": "विद्यापीठ"
           },
-          "href": "/farmer/calendar"
+          "href": "/krishi-calendar"
         },
         {
           "title": {
             "en": "Agriculture Calendar (12 Months)",
             "mr": "कृषि दिनदर्शिका (१२ महिने)"
           },
-          "href": "/farmer/calendar"
+          "href": "/krishi-calendar"
         }
       ],
       "tableCount": 0,
@@ -2939,10 +3027,10 @@
       "slug": "nursery-stock",
       "menuId": "menu_farmer",
       "parentMenu": "Farmer Services",
-      "submenuGroup": "Seeds, Grafts & Implements",
+      "submenuGroup": "Inputs",
       "title": {
-        "en": "Fruit Grafts & Nursery Stock",
-        "mr": "रोपवाटिका साठा"
+        "en": "Planting Materials",
+        "mr": "रोपवाटिका व कलमे"
       },
       "route": "/nursery-stock",
       "breadcrumb": [
@@ -2962,15 +3050,15 @@
         },
         {
           "title": {
-            "en": "Seeds, Grafts & Implements",
-            "mr": "बियाणे, कलमे व अवजारे"
+            "en": "Inputs",
+            "mr": "कृषि निविष्ठा"
           },
           "href": "/nursery-stock"
         },
         {
           "title": {
-            "en": "Fruit Grafts & Nursery Stock",
-            "mr": "रोपवाटिका साठा"
+            "en": "Planting Materials",
+            "mr": "रोपवाटिका व कलमे"
           },
           "href": "/nursery-stock"
         }
@@ -3987,10 +4075,10 @@
       "slug": "seeds-availability",
       "menuId": "menu_farmer",
       "parentMenu": "Farmer Services",
-      "submenuGroup": "Seeds, Grafts & Implements",
+      "submenuGroup": "Inputs",
       "title": {
-        "en": "Certified Seed Availability",
-        "mr": "प्रमाणित बियाणे साठा"
+        "en": "Seeds",
+        "mr": "बियाणे"
       },
       "route": "/seeds-availability",
       "breadcrumb": [
@@ -4010,15 +4098,15 @@
         },
         {
           "title": {
-            "en": "Seeds, Grafts & Implements",
-            "mr": "बियाणे, कलमे व अवजारे"
+            "en": "Inputs",
+            "mr": "कृषि निविष्ठा"
           },
           "href": "/seeds-availability"
         },
         {
           "title": {
-            "en": "Certified Seed Availability",
-            "mr": "प्रमाणित बियाणे साठा"
+            "en": "Seeds",
+            "mr": "बियाणे"
           },
           "href": "/seeds-availability"
         }
@@ -4381,9 +4469,9 @@
     },
     {
       "slug": "transparency-and-grievance",
-      "menuId": "menu_farmer",
-      "parentMenu": "Farmer Services",
-      "submenuGroup": "Forums & Advisory",
+      "menuId": "menu_home",
+      "parentMenu": "Home",
+      "submenuGroup": "University",
       "title": {
         "en": "Right to Public Services",
         "mr": "लोकसेवा हक्क कायदा"
@@ -4399,15 +4487,15 @@
         },
         {
           "title": {
-            "en": "Farmer Services",
-            "mr": "शेतकरी सेवा"
+            "en": "Home",
+            "mr": "मुख्यपृष्ठ"
           },
           "href": "/transparency-and-grievance"
         },
         {
           "title": {
-            "en": "Forums & Advisory",
-            "mr": "शेतकरी मंच व सल्ला"
+            "en": "University",
+            "mr": "विद्यापीठ"
           },
           "href": "/transparency-and-grievance"
         },
@@ -4512,5 +4600,5 @@
       "mediaCount": 15
     }
   ],
-  "updatedAt": "2026-11-24T10:07:06.413Z"
+  "updatedAt": "2026-11-24T10:27:11.643Z"
 }

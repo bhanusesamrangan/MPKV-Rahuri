@@ -18,24 +18,24 @@
     },
     {
       "title": {
-        "en": "Farmer Services",
-        "mr": "शेतकरी सेवा"
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
       },
-      "href": "/seeds-availability"
+      "href": "/agro-advisories"
     },
     {
       "title": {
-        "en": "Forums & Advisory",
-        "mr": "शेतकरी मंच व सल्ला"
+        "en": "University",
+        "mr": "विद्यापीठ"
       },
-      "href": "/farmer/advisories"
+      "href": "/agro-advisories"
     },
     {
       "title": {
         "en": "Weekly Agro Advisory",
         "mr": "साप्ताहिक शेतकरी सल्ला"
       },
-      "href": "/farmer/advisories"
+      "href": "/agro-advisories"
     }
   ],
   "hero": {
@@ -1728,16 +1728,16 @@
     "mediaCount": 44,
     "totalRecords": 109
   },
-  "menuId": "menu_farmer",
+  "menuId": "menu_home",
   "parentMenu": {
-    "id": "menu_farmer",
+    "id": "menu_home",
     "title": {
-      "en": "Farmer Services",
-      "mr": "शेतकरी सेवा"
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
     }
   },
   "submenuGroup": {
-    "en": "Forums & Advisory",
-    "mr": "शेतकरी मंच व सल्ला"
+    "en": "University",
+    "mr": "विद्यापीठ"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "seeds-availability",
   "scrapedAt": "2026-11-22T20:36:22.761255",
   "title": {
-    "en": "Certified Seed Availability",
-    "mr": "प्रमाणित बियाणे साठा"
+    "en": "Seeds",
+    "mr": "बियाणे"
   },
   "breadcrumb": [
     {
@@ -25,15 +25,15 @@
     },
     {
       "title": {
-        "en": "Seeds, Grafts & Implements",
-        "mr": "बियाणे, कलमे व अवजारे"
+        "en": "Inputs",
+        "mr": "कृषि निविष्ठा"
       },
       "href": "/seeds-availability"
     },
     {
       "title": {
-        "en": "Certified Seed Availability",
-        "mr": "प्रमाणित बियाणे साठा"
+        "en": "Seeds",
+        "mr": "बियाणे"
       },
       "href": "/seeds-availability"
     }
@@ -364,7 +364,7 @@
     }
   },
   "submenuGroup": {
-    "en": "Seeds, Grafts & Implements",
-    "mr": "बियाणे, कलमे व अवजारे"
+    "en": "Inputs",
+    "mr": "कृषि निविष्ठा"
   }
 }

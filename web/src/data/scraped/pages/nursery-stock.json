@@ -5,8 +5,8 @@
   "sourcePage": "nursery-stock",
   "scrapedAt": "2026-11-22T20:36:22.761281",
   "title": {
-    "en": "Fruit Grafts & Nursery Stock",
-    "mr": "रोपवाटिका साठा"
+    "en": "Planting Materials",
+    "mr": "रोपवाटिका व कलमे"
   },
   "breadcrumb": [
     {
@@ -25,15 +25,15 @@
     },
     {
       "title": {
-        "en": "Seeds, Grafts & Implements",
-        "mr": "बियाणे, कलमे व अवजारे"
+        "en": "Inputs",
+        "mr": "कृषि निविष्ठा"
       },
       "href": "/nursery-stock"
     },
     {
       "title": {
-        "en": "Fruit Grafts & Nursery Stock",
-        "mr": "रोपवाटिका साठा"
+        "en": "Planting Materials",
+        "mr": "रोपवाटिका व कलमे"
       },
       "href": "/nursery-stock"
     }
@@ -551,7 +551,7 @@
     }
   },
   "submenuGroup": {
-    "en": "Seeds, Grafts & Implements",
-    "mr": "बियाणे, कलमे व अवजारे"
+    "en": "Inputs",
+    "mr": "कृषि निविष्ठा"
   }
 }

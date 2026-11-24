@@ -763,54 +763,8 @@
       {
         "id": "farm_group_1",
         "title": {
-          "en": "Seeds, Grafts & Implements",
-          "mr": "बियाणे, कलमे व अवजारे"
-        },
-        "is_group": true,
-        "pages": [
-          {
-            "title": {
-              "en": "Certified Seed Availability",
-              "mr": "प्रमाणित बियाणे साठा"
-            },
-            "href": "/seeds-availability",
-            "slug": "seeds-availability",
-            "is_external": false
-          },
-          {
-            "title": {
-              "en": "Fruit Grafts & Nursery Stock",
-              "mr": "रोपवाटिका साठा"
-            },
-            "href": "/nursery-stock",
-            "slug": "nursery-stock",
-            "is_external": false
-          },
-          {
-            "title": {
-              "en": "Farm Implements Catalog",
-              "mr": "शेती अवजारे सूची"
-            },
-            "href": "/farm-implements",
-            "slug": "farm-implements",
-            "is_external": false
-          },
-          {
-            "title": {
-              "en": "Bio-Fertilizers & Bio-Pesticides",
-              "mr": "जैविक खते व कीटकनाशके"
-            },
-            "href": "/farmer/bio-inputs",
-            "slug": "farmer-inputs",
-            "is_external": false
-          }
-        ]
-      },
-      {
-        "id": "farm_group_2",
-        "title": {
-          "en": "Forums & Advisory",
-          "mr": "शेतकरी मंच व सल्ला"
+          "en": "Forums & Publications",
+          "mr": "शेतकरी मंच व प्रकाशने"
         },
         "is_group": true,
         "pages": [
@@ -825,6 +779,25 @@
           },
           {
             "title": {
+              "en": "Publications",
+              "mr": "विस्तार प्रकाशने"
+            },
+            "href": "/extension/publications",
+            "slug": "extension-publications",
+            "is_external": false
+          }
+        ]
+      },
+      {
+        "id": "farm_group_2",
+        "title": {
+          "en": "Sammelan & Success Stories",
+          "mr": "संमेलन व यशोगाथा"
+        },
+        "is_group": true,
+        "pages": [
+          {
+            "title": {
               "en": "Kisan Aadhar Sammelan",
               "mr": "किसान आधार संमेलन"
             },
@@ -834,29 +807,84 @@
           },
           {
             "title": {
-              "en": "Weekly Agro Advisory",
-              "mr": "साप्ताहिक शेतकरी सल्ला"
+              "en": "Success Stories",
+              "mr": "प्रगतीशील शेतकरी यशोगाथा"
             },
-            "href": "/farmer/advisories",
-            "slug": "agro-advisories",
+            "href": "/farmer/success-stories",
+            "slug": "farmer-success-stories",
             "is_external": false
           },
           {
             "title": {
-              "en": "Agriculture Calendar (12 Months)",
-              "mr": "कृषि दिनदर्शिका (१२ महिने)"
+              "en": "Services",
+              "mr": "शेतकरी सुविधा व सेवा"
             },
-            "href": "/farmer/calendar",
-            "slug": "krishi-calendar",
+            "href": "/farmer/services",
+            "slug": "farmer-services",
+            "is_external": false
+          }
+        ]
+      },
+      {
+        "id": "farm_group_3",
+        "title": {
+          "en": "Inputs",
+          "mr": "कृषि निविष्ठा"
+        },
+        "is_group": true,
+        "pages": [
+          {
+            "title": {
+              "en": "Seeds",
+              "mr": "बियाणे"
+            },
+            "href": "/seeds-availability",
+            "slug": "seeds-availability",
             "is_external": false
           },
           {
             "title": {
-              "en": "Right to Public Services",
-              "mr": "लोकसेवा हक्क कायदा"
+              "en": "Planting Materials",
+              "mr": "रोपवाटिका व कलमे"
             },
-            "href": "/transparency-and-grievance",
-            "slug": "transparency-and-grievance",
+            "href": "/nursery-stock",
+            "slug": "nursery-stock",
+            "is_external": false
+          },
+          {
+            "title": {
+              "en": "Bio-Fertilizers",
+              "mr": "जैविक खते"
+            },
+            "href": "/farmer/bio-fertilizers",
+            "slug": "farmer-inputs",
+            "is_external": false
+          },
+          {
+            "title": {
+              "en": "Bio-Pesticides",
+              "mr": "जैविक कीटकनाशके"
+            },
+            "href": "/farmer/bio-pesticides",
+            "slug": "farmer-inputs",
+            "is_external": false
+          },
+          {
+            "title": {
+              "en": "Farm Implements",
+              "mr": "शेती अवजारे"
+            },
+            "href": "/farm-implements",
+            "slug": "farm-implements",
+            "is_external": false
+          },
+          {
+            "title": {
+              "en": "Phule Liquid Micrograde II",
+              "mr": "फुले लिक्विड मायक्रोग्रेड २"
+            },
+            "href": "/farmer/phule-micrograde",
+            "slug": "farmer-inputs",
             "is_external": false
           }
         ]

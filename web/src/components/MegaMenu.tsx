@@ -342,8 +342,13 @@ export const MegaMenu: React.FC = () => {
                 alignClass = item.id === 'menu_farmer' ? 'right-0 xl:-left-24' : (item.id === 'menu_students' ? '-left-32 xl:-left-12' : (item.id === 'menu_library' ? '-left-16 xl:left-0' : 'left-0'));
               } else if (childrenCount === 3) {
                 gridCols = 'grid-cols-3';
-                widthClass = 'w-[960px] xl:w-[1100px]';
-                alignClass = 'left-0';
+                if (item.id === 'menu_farmer') {
+                  widthClass = 'w-[840px] xl:w-[920px] 2xl:w-[960px]';
+                  alignClass = 'right-0 xl:-left-44 2xl:-left-28';
+                } else {
+                  widthClass = 'w-[960px] xl:w-[1100px]';
+                  alignClass = 'left-0';
+                }
               } else if (childrenCount >= 4) {
                 gridCols = 'grid-cols-2 lg:grid-cols-4';
                 if (item.id === 'menu_research') {

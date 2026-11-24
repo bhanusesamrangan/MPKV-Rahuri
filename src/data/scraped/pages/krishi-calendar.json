@@ -18,24 +18,24 @@
     },
     {
       "title": {
-        "en": "Farmer Services",
-        "mr": "शेतकरी सेवा"
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
       },
-      "href": "/seeds-availability"
+      "href": "/krishi-calendar"
     },
     {
       "title": {
-        "en": "Forums & Advisory",
-        "mr": "शेतकरी मंच व सल्ला"
+        "en": "University",
+        "mr": "विद्यापीठ"
       },
-      "href": "/farmer/calendar"
+      "href": "/krishi-calendar"
     },
     {
       "title": {
         "en": "Agriculture Calendar (12 Months)",
         "mr": "कृषि दिनदर्शिका (१२ महिने)"
       },
-      "href": "/farmer/calendar"
+      "href": "/krishi-calendar"
     }
   ],
   "hero": {
@@ -203,16 +203,16 @@
     "mediaCount": 12,
     "totalRecords": 12
   },
-  "menuId": "menu_farmer",
+  "menuId": "menu_home",
   "parentMenu": {
-    "id": "menu_farmer",
+    "id": "menu_home",
     "title": {
-      "en": "Farmer Services",
-      "mr": "शेतकरी सेवा"
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
     }
   },
   "submenuGroup": {
-    "en": "Forums & Advisory",
-    "mr": "शेतकरी मंच व सल्ला"
+    "en": "University",
+    "mr": "विद्यापीठ"
   }
 }

@@ -1,0 +1,286 @@
+{
+  "slug": "farmer-services",
+  "url": "https://mpkv.ac.in/Farmer/Services",
+  "route": "/farmer/services",
+  "sourcePage": "Farmer/Services",
+  "scrapedAt": "2026-11-24T15:55:00.000Z",
+  "title": {
+    "en": "Services",
+    "mr": "शेतकरी सुविधा व सेवा"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      },
+      "href": "/seeds-availability"
+    },
+    {
+      "title": {
+        "en": "Sammelan & Success Stories",
+        "mr": "संमेलन व यशोगाथा"
+      },
+      "href": "/farmer/services"
+    },
+    {
+      "title": {
+        "en": "Services",
+        "mr": "शेतकरी सुविधा व सेवा"
+      },
+      "href": "/farmer/services"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Farmer Services & Extension Support",
+      "mr": "शेतकरी सेवा व विस्तार सहाय्य केंद्र"
+    },
+    "subtitle": {
+      "en": "One-stop university services for farmers across Maharashtra, including soil testing, seed testing, crop diagnostics, and technical guidance.",
+      "mr": "महाराष्ट्रातील शेतकरी बांधवांसाठी माती परीक्षण, बियाणे तपासणी, पीक संरक्षण सल्ला व तंत्रज्ञान विषयक मार्गदर्शन सुविधा."
+    },
+    "badge": {
+      "en": "Official University Farmer Services",
+      "mr": "अधिकृत विद्यापीठ शेतकरी सेवा दालन"
+    }
+  },
+  "headings": [
+    {
+      "level": "h2",
+      "text": {
+        "en": "Agricultural Services Available for Farmers",
+        "mr": "शेतकऱ्यांसाठी उपलब्ध विद्यापीठ सेवा व सुविधा"
+      },
+      "order": 1
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri provides comprehensive farmer-centric services across its 10-district jurisdiction through Krishi Vigyan Kendras, Agricultural Technology Information Centre (ATIC), testing laboratories, and regional research stations.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी कार्यक्षेत्रातील १० जिल्ह्यांमधील शेतकरी बांधवांसाठी कृषी विज्ञान केंद्र (KVK), कृषी तंत्रज्ञान माहिती केंद्र (ATIC), प्रयोगशाळा आणि संशोधन केंद्रांमार्फत सर्वसमावेशक सेवा पुरविल्या जातात."
+      },
+      "order": 1
+    }
+  ],
+  "lists": [],
+  "tables": [
+    {
+      "title": {
+        "en": "Key Farmer Services & Contact Desks",
+        "mr": "प्रमुख शेतकरी सेवा व संपर्क कक्ष"
+      },
+      "headers": [
+        {
+          "en": "Sr. No.",
+          "mr": "अ.क्र."
+        },
+        {
+          "en": "Service Name",
+          "mr": "सेवेचे नाव"
+        },
+        {
+          "en": "Department / Location",
+          "mr": "विभाग / केंद्र"
+        },
+        {
+          "en": "Facility Provided",
+          "mr": "उपलब्ध सुविधा"
+        },
+        {
+          "en": "Contact / Helpline",
+          "mr": "संपर्क क्रमांक"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "Certified Seeds Supply",
+              "mr": "प्रमाणित बियाणे पुरवठा"
+            }
+          },
+          {
+            "text": {
+              "en": "Central Seed Processing Unit, Rahuri",
+              "mr": "मध्यवर्ती बियाणे विभाग, राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Direct sale of Breeder, Foundation & Certified Seeds",
+              "mr": "मूलभूत, पायाभूत व प्रमाणित बियाणे थेट विक्री"
+            }
+          },
+          {
+            "text": {
+              "en": "02426-243261",
+              "mr": "०२४२६-२४३२६१"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "Fruit Grafts & Seedlings",
+              "mr": "फळरोप व कलमे पुरवठा"
+            }
+          },
+          {
+            "text": {
+              "en": "University Central Nursery, Rahuri",
+              "mr": "विद्यापीठ मध्यवर्ती रोपवाटिका, राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Genuine grafts of Pomegranate, Guava, Mango, Sweet Orange",
+              "mr": "डाळिंब, पेरू, आंबा, मोसंबी यांची जातिवंत कलमे"
+            }
+          },
+          {
+            "text": {
+              "en": "02426-243254",
+              "mr": "०२४२६-२४३२५४"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "Soil & Water Testing",
+              "mr": "माती व पाणी परीक्षण"
+            }
+          },
+          {
+            "text": {
+              "en": "Soil Science Division Laboratories & ATIC",
+              "mr": "मृदाशास्त्र विभाग प्रयोगशाळा व एटीआयसी"
+            }
+          },
+          {
+            "text": {
+              "en": "Physical and chemical analysis with fertilizer advisory",
+              "mr": "रासायनिक पृथक्करण व खत व्यवस्थापन शिफारस"
+            }
+          },
+          {
+            "text": {
+              "en": "02426-243215",
+              "mr": "०२४२६-२४३२१५"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "Bio-Fertilizers & Bio-Pesticides",
+              "mr": "जैविक खते व कीटकनाशके"
+            }
+          },
+          {
+            "text": {
+              "en": "Biological Control Laboratory, Rahuri",
+              "mr": "जैविक नियंत्रण प्रयोगशाळा, राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Phule Trichoderma, Rhizobium, Azotobacter, PSB",
+              "mr": "फुले ट्रायकोडर्मा, रायझोबियम, अझोटोबॅक्टर, पीएसबी"
+            }
+          },
+          {
+            "text": {
+              "en": "02426-243249",
+              "mr": "०२४२६-२४३२४९"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "५"
+            }
+          },
+          {
+            "text": {
+              "en": "ATIC One-Window Extension",
+              "mr": "एटीआयसी एकखिडकी विस्तार सेवा"
+            }
+          },
+          {
+            "text": {
+              "en": "ATIC Rahuri Campus",
+              "mr": "कृषि तंत्रज्ञान माहिती केंद्र, राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Single window information, publications & input sales",
+              "mr": "एकखिडकी तांत्रिक माहिती, पुस्तके व निविष्ठा विक्री"
+            }
+          },
+          {
+            "text": {
+              "en": "Toll Free 1800 233 3261",
+              "mr": "टोल फ्री १८०० २३३ ३२६१"
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [],
+  "contentBlocks": [],
+  "stats": [],
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Sammelan & Success Stories",
+    "mr": "संमेलन व यशोगाथा"
+  }
+}

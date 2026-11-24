@@ -25,8 +25,8 @@
     },
     {
       "title": {
-        "en": "Forums & Advisory",
-        "mr": "शेतकरी मंच व सल्ला"
+        "en": "Forums & Publications",
+        "mr": "शेतकरी मंच व प्रकाशने"
       },
       "href": "/farmer/scientist-forum"
     },
@@ -1347,7 +1347,7 @@
     }
   },
   "submenuGroup": {
-    "en": "Forums & Advisory",
-    "mr": "शेतकरी मंच व सल्ला"
+    "en": "Forums & Publications",
+    "mr": "शेतकरी मंच व प्रकाशने"
   }
 }

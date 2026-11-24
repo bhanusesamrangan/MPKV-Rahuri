@@ -5,8 +5,8 @@
   "sourcePage": "farmer-inputs",
   "scrapedAt": "2026-11-22T20:35:36.613822",
   "title": {
-    "en": "Bio-Fertilizers & Bio-Pesticides",
-    "mr": "जैविक खते व कीटकनाशके"
+    "en": "Bio-Fertilizers",
+    "mr": "जैविक खते"
   },
   "breadcrumb": [
     {
@@ -25,17 +25,17 @@
     },
     {
       "title": {
-        "en": "Seeds, Grafts & Implements",
-        "mr": "बियाणे, कलमे व अवजारे"
+        "en": "Inputs",
+        "mr": "कृषि निविष्ठा"
       },
-      "href": "/farmer/bio-inputs"
+      "href": "/farmer/bio-fertilizers"
     },
     {
       "title": {
-        "en": "Bio-Fertilizers & Bio-Pesticides",
-        "mr": "जैविक खते व कीटकनाशके"
+        "en": "Bio-Fertilizers",
+        "mr": "जैविक खते"
       },
-      "href": "/farmer/bio-inputs"
+      "href": "/farmer/bio-fertilizers"
     }
   ],
   "hero": {
@@ -6088,7 +6088,7 @@
     }
   },
   "submenuGroup": {
-    "en": "Seeds, Grafts & Implements",
-    "mr": "बियाणे, कलमे व अवजारे"
+    "en": "Inputs",
+    "mr": "कृषि निविष्ठा"
   }
 }

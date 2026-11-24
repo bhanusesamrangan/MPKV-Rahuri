@@ -18,15 +18,15 @@
     },
     {
       "title": {
-        "en": "Farmer Services",
-        "mr": "शेतकरी सेवा"
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
       },
       "href": "/transparency-and-grievance"
     },
     {
       "title": {
-        "en": "Forums & Advisory",
-        "mr": "शेतकरी मंच व सल्ला"
+        "en": "University",
+        "mr": "विद्यापीठ"
       },
       "href": "/transparency-and-grievance"
     },
@@ -1295,16 +1295,16 @@
     "mediaCount": 24,
     "totalRecords": 79
   },
-  "menuId": "menu_farmer",
+  "menuId": "menu_home",
   "parentMenu": {
-    "id": "menu_farmer",
+    "id": "menu_home",
     "title": {
-      "en": "Farmer Services",
-      "mr": "शेतकरी सेवा"
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
     }
   },
   "submenuGroup": {
-    "en": "Forums & Advisory",
-    "mr": "शेतकरी मंच व सल्ला"
+    "en": "University",
+    "mr": "विद्यापीठ"
   }
 }
