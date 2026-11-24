@@ -5,14 +5,43 @@
   "sourcePage": "education-diploma-schools",
   "scrapedAt": "2026-11-22T20:35:28.554166",
   "title": {
-    "en": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Diploma (Agril. Tech. Schools)",
+    "mr": "कृषि तंत्र विद्यालये (पदविका)"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम व पदव्या"
+      },
+      "href": "/education/diploma-schools"
+    },
+    {
+      "title": {
+        "en": "Diploma (Agril. Tech. Schools)",
+        "mr": "कृषि तंत्र विद्यालये (पदविका)"
+      },
+      "href": "/education/diploma-schools"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Diploma Schools",
+      "mr": "Diploma Schools"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -5228,5 +5257,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 166
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Courses & Curriculum",
+    "mr": "अभ्यासक्रम व पदव्या"
   }
 }

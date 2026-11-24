@@ -5,14 +5,43 @@
   "sourcePage": "research-thrust-areas",
   "scrapedAt": "2026-11-22T20:36:17.674121",
   "title": {
-    "en": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Thrust Areas",
+    "mr": "संशोधन प्राधान्यक्रम"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Overview & Profile",
+        "mr": "संशोधन आढावा व रूपरेषा"
+      },
+      "href": "/research/thrust-areas"
+    },
+    {
+      "title": {
+        "en": "Thrust Areas",
+        "mr": "संशोधन प्राधान्यक्रम"
+      },
+      "href": "/research/thrust-areas"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Thrust Areas",
+      "mr": "Research Thrust Areas"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1299,5 +1328,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 70
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संशोधन आढावा व रूपरेषा"
   }
 }

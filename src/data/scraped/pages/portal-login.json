@@ -5,10 +5,39 @@
   "sourcePage": "portal-login",
   "scrapedAt": "2026-11-22T20:35:43.194811",
   "title": {
-    "en": "Department Login",
-    "mr": "Department Login"
+    "en": "Employee & Student Portal Login",
+    "mr": "कर्मचारी व विद्यार्थी पोर्टल प्रवेश"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/portal-login"
+    },
+    {
+      "title": {
+        "en": "University Portals",
+        "mr": "विद्यापीठ पोर्टल्स"
+      },
+      "href": "/portal-login"
+    },
+    {
+      "title": {
+        "en": "Employee & Student Portal Login",
+        "mr": "कर्मचारी व विद्यार्थी पोर्टल प्रवेश"
+      },
+      "href": "/portal-login"
+    }
+  ],
   "hero": {
     "title": {
       "en": "Department Login",
@@ -49,5 +78,17 @@
     "noticeCount": 0,
     "mediaCount": 1,
     "totalRecords": 1
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "University Portals",
+    "mr": "विद्यापीठ पोर्टल्स"
   }
 }

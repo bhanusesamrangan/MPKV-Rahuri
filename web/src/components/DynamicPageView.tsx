@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import { useAccessibility } from '@/context/AccessibilityContext';
+import navMenuData from '@/data/scraped/navigation_menu.json';
 import {
   ChevronRight,
   Home,
@@ -87,9 +88,19 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
   const mediaAssets = page.mediaAssets || [];
   const images = mediaAssets.filter((m: string) => /\.(png|jpe?g|webp|gif)$/i.test(m));
 
-  // Determine page title
-  const pageTitle = page.title ? getBilingual(page.title) : 'MPKV Rahuri';
-  const heroTitle = page.hero?.title ? getBilingual(page.hero.title) : pageTitle;
+  // Determine clean page title without redundant university suffixes
+  const rawTitle = page.title ? getBilingual(page.title) : 'MPKV Rahuri';
+  const pageTitle = rawTitle
+    .replace(/\s*-\s*Mahatma Phule Krishi Vidyapeeth.*$/i, '')
+    .replace(/\s*-\s*MPKV.*$/i, '')
+    .trim() || rawTitle;
+
+  const heroTitle = page.hero?.title
+    ? getBilingual(page.hero.title)
+        .replace(/\s*-\s*Mahatma Phule Krishi Vidyapeeth.*$/i, '')
+        .replace(/\s*-\s*MPKV.*$/i, '')
+        .trim()
+    : pageTitle;
   const heroSubtitle = page.hero?.subtitle
     ? getBilingual(page.hero.subtitle)
     : page.hero?.subheadline
@@ -97,34 +108,143 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
     : null;
   const heroBadge = page.hero?.badge ? getBilingual(page.hero.badge) : null;
 
+  // Build hierarchical breadcrumb: Home > Main Menu > [Submenu Group] > Selected Submenu Page
+  const menuTree = Array.isArray(navMenuData) ? navMenuData : ((navMenuData as any).menu_items || []);
+
+  const getDynamicBreadcrumb = () => {
+    if (page.breadcrumb && page.breadcrumb.length > 1) {
+      return page.breadcrumb;
+    }
+
+    const currentPath = (path || slug || '').replace(/^\/+|\/+$/g, '').toLowerCase();
+
+    // 1. Match from menu tree
+    for (const top of menuTree) {
+      if (top.children) {
+        for (const grp of top.children) {
+          const leaves = grp.children || [grp];
+          for (const leaf of leaves) {
+            if (leaf.href && leaf.href !== '#') {
+              const cleanHref = leaf.href.replace(/^\/+|\/+$/g, '').toLowerCase();
+              if (
+                currentPath === cleanHref ||
+                currentPath.endsWith(cleanHref) ||
+                cleanHref.endsWith(currentPath) ||
+                currentPath.replace(/\//g, '-') === cleanHref.replace(/\//g, '-')
+              ) {
+                const bcs = [
+                  { title: { en: 'Home', mr: 'मुख्यपृष्ठ' }, href: '/' },
+                  {
+                    title: top.title,
+                    href: leaf.href.startsWith('/education')
+                      ? '/education/at-a-glance'
+                      : leaf.href.startsWith('/research')
+                      ? '/research/at-a-glance'
+                      : leaf.href.startsWith('/extension')
+                      ? '/extension/at-a-glance'
+                      : leaf.href.startsWith('/library')
+                      ? '/library/about'
+                      : leaf.href.startsWith('/students')
+                      ? '/students/admission'
+                      : leaf.href.startsWith('/farmer') || leaf.href.includes('seed')
+                      ? '/seeds-availability'
+                      : leaf.href
+                  }
+                ];
+                if (grp.is_group) {
+                  bcs.push({ title: grp.title, href: leaf.href });
+                }
+                bcs.push({ title: leaf.title, href: leaf.href });
+                return bcs;
+              }
+            }
+          }
+        }
+      } else if (top.href && top.href !== '#') {
+        const cleanHref = top.href.replace(/^\/+|\/+$/g, '').toLowerCase();
+        if (currentPath === cleanHref || currentPath.replace(/\//g, '-') === cleanHref.replace(/\//g, '-')) {
+          return [
+            { title: { en: 'Home', mr: 'मुख्यपृष्ठ' }, href: '/' },
+            { title: top.title, href: top.href },
+            { title: page.title || top.title, href: top.href }
+          ];
+        }
+      }
+    }
+
+    // 2. Section fallbacks based on path prefix
+    let topTitle = { en: 'University', mr: 'विद्यापीठ' };
+    let topHref = '/';
+
+    if (currentPath.startsWith('education') || currentPath.includes('college')) {
+      topTitle = { en: 'Education', mr: 'शिक्षण' };
+      topHref = '/education/at-a-glance';
+    } else if (currentPath.startsWith('research')) {
+      topTitle = { en: 'Research', mr: 'संशोधन' };
+      topHref = '/research/at-a-glance';
+    } else if (currentPath.startsWith('extension') || currentPath.includes('atic')) {
+      topTitle = { en: 'Extension', mr: 'विस्तार' };
+      topHref = '/extension/at-a-glance';
+    } else if (currentPath.startsWith('library')) {
+      topTitle = { en: 'Library', mr: 'ग्रंथालय' };
+      topHref = '/library/about';
+    } else if (currentPath.startsWith('student')) {
+      topTitle = { en: 'Students', mr: 'विद्यार्थी' };
+      topHref = '/students/admission';
+    } else if (currentPath.startsWith('farmer') || currentPath.includes('seed')) {
+      topTitle = { en: 'Farmer Services', mr: 'शेतकरी सेवा' };
+      topHref = '/seeds-availability';
+    } else if (currentPath.startsWith('officer') || currentPath.includes('contact')) {
+      topTitle = { en: 'Officers', mr: 'अधिकारी' };
+      topHref = '/officers/directory';
+    }
+
+    return [
+      { title: { en: 'Home', mr: 'मुख्यपृष्ठ' }, href: '/' },
+      { title: topTitle, href: topHref },
+      { title: page.title || { en: pageTitle, mr: pageTitle }, href: path ? `/${path}` : `/${slug}` }
+    ];
+  };
+
+  const breadcrumbs = getDynamicBreadcrumb();
+
   return (
     <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-6 sm:space-y-8 transition-colors">
-      {/* 1. Breadcrumb Navigation */}
-      <nav className="flex items-center gap-2 text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
-        <Link href="/" className="hover:text-emerald-700 flex items-center gap-1 font-medium">
-          <Home className="w-4 h-4" />
-          <span>{language === 'mr' ? 'मुख्यपृष्ठ' : 'Home'}</span>
-        </Link>
-        <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
-        {page.breadcrumb && page.breadcrumb.length > 1 ? (
-          page.breadcrumb.map((bc: any, idx: number) => {
-            if (idx === 0) return null;
-            return (
-              <React.Fragment key={idx}>
-                <span className="text-slate-600 font-medium">{getBilingual(bc.title)}</span>
-                <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
-              </React.Fragment>
-            );
-          })
-        ) : (
-          <>
-            <span className="text-slate-600 font-medium">
-              {language === 'mr' ? 'राहुरी परिसर' : 'Rahuri Central'}
-            </span>
-            <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
-          </>
-        )}
-        <span className="font-semibold text-emerald-800 truncate">{pageTitle}</span>
+      {/* 1. Breadcrumb Navigation: Home > Main Menu > [Submenu Group] > Selected Submenu Page */}
+      <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
+        {breadcrumbs.map((bc: any, idx: number) => {
+          const isFirst = idx === 0;
+          const isLast = idx === breadcrumbs.length - 1;
+          const title = getBilingual(bc.title);
+
+          return (
+            <React.Fragment key={idx}>
+              {idx > 0 && <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />}
+              {isLast ? (
+                <span className="font-semibold text-emerald-800 truncate" aria-current="page">
+                  {title}
+                </span>
+              ) : isFirst ? (
+                <Link
+                  href="/"
+                  className="hover:text-emerald-700 flex items-center gap-1 font-medium text-slate-600 transition-colors"
+                >
+                  <Home className="w-4 h-4 text-emerald-700" />
+                  <span>{title}</span>
+                </Link>
+              ) : bc.href && bc.href !== '#' ? (
+                <Link
+                  href={bc.href}
+                  className="hover:text-emerald-700 font-medium text-slate-600 transition-colors"
+                >
+                  {title}
+                </Link>
+              ) : (
+                <span className="font-medium text-slate-600">{title}</span>
+              )}
+            </React.Fragment>
+          );
+        })}
       </nav>
 
       {/* 2. Hero Header Banner */}
@@ -509,7 +629,7 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
             <div className="flex items-center gap-2 border-b border-slate-100 pb-3">
               <Sparkles className="w-4 h-4 text-amber-500" />
               <h4 className="font-semibold text-slate-800 text-xs sm:text-sm uppercase tracking-wider">
-                {language === 'mr' ? 'राहुरी मध्यवर्ती केंद्र' : 'Rahuri Central Desk'}
+                {language === 'mr' ? 'विद्यापीठ संपर्क कक्ष' : 'University Helpdesk & Contact'}
               </h4>
             </div>
 
@@ -537,7 +657,7 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
                 href="/seeds-availability"
                 className="w-full flex items-center justify-between p-3.5 rounded-xl bg-emerald-50/70 hover:bg-emerald-100/70 text-emerald-900 text-sm font-semibold transition-colors"
               >
-                <span>{language === 'mr' ? 'राहुरी बियाणे साठा तपासा' : 'Check Seeds Stock'}</span>
+                <span>{language === 'mr' ? 'बियाणे उपलब्धता साठा तपासा' : 'Check Seeds Stock'}</span>
                 <ChevronRight className="w-4 h-4" />
               </Link>
               <Link

@@ -5,8 +5,8 @@
   "sourcePage": "executive-council",
   "scrapedAt": "2026-11-22T20:35:59.291153",
   "title": {
-    "en": "Contacts",
-    "mr": "संपर्क"
+    "en": "Executive Council",
+    "mr": "कार्यकारी परिषद"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      },
+      "href": "/executive-council"
+    },
+    {
+      "title": {
+        "en": "Governance",
+        "mr": "शासन व मंडळ"
+      },
+      "href": "/executive-council"
+    },
+    {
+      "title": {
+        "en": "Executive Council",
+        "mr": "कार्यकारी परिषद"
+      },
+      "href": "/executive-council"
     }
   ],
   "hero": {
@@ -2619,5 +2640,17 @@
     "noticeCount": 0,
     "mediaCount": 29,
     "totalRecords": 116
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Governance",
+    "mr": "शासन व मंडळ"
   }
 }

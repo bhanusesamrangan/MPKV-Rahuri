@@ -5,8 +5,8 @@
   "sourcePage": "university-engineer-works",
   "scrapedAt": "2026-11-22T20:36:22.752973",
   "title": {
-    "en": "Works",
-    "mr": "कामे"
+    "en": "University Engineer & Works Division",
+    "mr": "विद्यापीठ अभियंता व बांधकाम विभाग"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Works",
-        "mr": "कामे"
+        "en": "Officers",
+        "mr": "अधिकारी"
       },
-      "href": "/Work/AtaGlance"
+      "href": "/university-engineer-works"
+    },
+    {
+      "title": {
+        "en": "Works & Infrastructure",
+        "mr": "विद्यापीठ अभियंता कार्यालय"
+      },
+      "href": "/university-engineer-works"
+    },
+    {
+      "title": {
+        "en": "University Engineer & Works Division",
+        "mr": "विद्यापीठ अभियंता व बांधकाम विभाग"
+      },
+      "href": "/university-engineer-works"
     }
   ],
   "hero": {
@@ -1181,5 +1195,17 @@
     "noticeCount": 0,
     "mediaCount": 18,
     "totalRecords": 74
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Works & Infrastructure",
+    "mr": "विद्यापीठ अभियंता कार्यालय"
   }
 }

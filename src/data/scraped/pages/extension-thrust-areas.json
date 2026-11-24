@@ -5,14 +5,43 @@
   "sourcePage": "extension-thrust-areas",
   "scrapedAt": "2026-11-22T20:35:36.028357",
   "title": {
-    "en": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Thrust Areas",
+    "mr": "विस्तार प्राधान्यक्रम"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "href": "/extension/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Extension Overview & Centers",
+        "mr": "विस्तार सेवा व केंद्रे"
+      },
+      "href": "/extension/thrust-areas"
+    },
+    {
+      "title": {
+        "en": "Thrust Areas",
+        "mr": "विस्तार प्राधान्यक्रम"
+      },
+      "href": "/extension/thrust-areas"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Extension Thrust Areas",
+      "mr": "Extension Thrust Areas"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1264,5 +1293,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 69
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Extension Overview & Centers",
+    "mr": "विस्तार सेवा व केंद्रे"
   }
 }

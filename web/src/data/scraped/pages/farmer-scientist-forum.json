@@ -5,8 +5,8 @@
   "sourcePage": "farmer-scientist-forum",
   "scrapedAt": "2026-11-22T20:35:37.653418",
   "title": {
-    "en": "Farmer",
-    "mr": "शेतकरी"
+    "en": "Farmer Scientist Forum",
+    "mr": "शेतकरी शास्त्रज्ञ मंच"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Farmer",
-        "mr": "शेतकरी"
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
       },
-      "href": "/Farmer/FarmerSciForum"
+      "href": "/seeds-availability"
+    },
+    {
+      "title": {
+        "en": "Forums & Advisory",
+        "mr": "शेतकरी मंच व सल्ला"
+      },
+      "href": "/farmer/scientist-forum"
+    },
+    {
+      "title": {
+        "en": "Farmer Scientist Forum",
+        "mr": "शेतकरी शास्त्रज्ञ मंच"
+      },
+      "href": "/farmer/scientist-forum"
     }
   ],
   "hero": {
@@ -1323,5 +1337,17 @@
     "noticeCount": 0,
     "mediaCount": 20,
     "totalRecords": 76
+  },
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Forums & Advisory",
+    "mr": "शेतकरी मंच व सल्ला"
   }
 }

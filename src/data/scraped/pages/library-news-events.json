@@ -5,8 +5,8 @@
   "sourcePage": "library-news-events",
   "scrapedAt": "2026-11-22T20:35:56.714000",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "News & Book Exhibitions",
+    "mr": "बातम्या व ग्रंथ प्रदर्शन"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "Digital & Off-Campus",
+        "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+      },
+      "href": "/library/news-events"
+    },
+    {
+      "title": {
+        "en": "News & Book Exhibitions",
+        "mr": "बातम्या व ग्रंथ प्रदर्शन"
+      },
+      "href": "/library/news-events"
     }
   ],
   "hero": {
@@ -1250,5 +1264,17 @@
     "noticeCount": 0,
     "mediaCount": 18,
     "totalRecords": 74
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "Digital & Off-Campus",
+    "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
   }
 }

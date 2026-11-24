@@ -15,6 +15,20 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Contacts",
+        "mr": "संपर्क"
+      },
+      "href": "/contact-us"
+    },
+    {
+      "title": {
+        "en": "Contacts",
+        "mr": "संपर्क"
+      },
+      "href": "/contact-us"
     }
   ],
   "hero": {
@@ -1338,5 +1352,13 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 79
+  },
+  "menuId": "menu_contacts",
+  "parentMenu": {
+    "id": "menu_contacts",
+    "title": {
+      "en": "Contacts",
+      "mr": "संपर्क"
+    }
   }
 }

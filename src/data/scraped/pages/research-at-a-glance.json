@@ -5,14 +5,43 @@
   "sourcePage": "research-at-a-glance",
   "scrapedAt": "2026-11-22T20:36:03.345155",
   "title": {
-    "en": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Research at a Glance",
+    "mr": "दृष्टीक्षेपात संशोधन"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Overview & Profile",
+        "mr": "संशोधन आढावा व रूपरेषा"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Research at a Glance",
+        "mr": "दृष्टीक्षेपात संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research At a Glance",
+      "mr": "Research At a Glance"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1450,5 +1479,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 80
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संशोधन आढावा व रूपरेषा"
   }
 }

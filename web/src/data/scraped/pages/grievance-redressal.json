@@ -5,8 +5,8 @@
   "sourcePage": "grievance-redressal",
   "scrapedAt": "2026-11-22T20:35:59.834349",
   "title": {
-    "en": "Grievance Redressal",
-    "mr": "Grievance Redressal"
+    "en": "Grievance Redressal Portal",
+    "mr": "तक्रार निवारण कक्ष"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      },
+      "href": "/transparency-and-grievance"
+    },
+    {
+      "title": {
+        "en": "Public Services",
+        "mr": "लोकसेवा हक्क व तक्रार निवारण"
+      },
+      "href": "/transparency-and-grievance"
+    },
+    {
+      "title": {
+        "en": "Grievance Redressal Portal",
+        "mr": "तक्रार निवारण कक्ष"
+      },
+      "href": "/transparency-and-grievance"
     }
   ],
   "hero": {
@@ -1072,5 +1093,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 69
+  },
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Public Services",
+    "mr": "लोकसेवा हक्क व तक्रार निवारण"
   }
 }

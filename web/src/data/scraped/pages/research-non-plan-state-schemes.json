@@ -5,14 +5,43 @@
   "sourcePage": "research-non-plan-state-schemes",
   "scrapedAt": "2026-11-22T20:36:15.588222",
   "title": {
-    "en": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Non-Plan State Schemes",
+    "mr": "राज्य शासन योजना"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "href": "/research/state-schemes"
+    },
+    {
+      "title": {
+        "en": "Non-Plan State Schemes",
+        "mr": "राज्य शासन योजना"
+      },
+      "href": "/research/state-schemes"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Schemes Non Plan",
+      "mr": "Research Schemes Non Plan"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -3047,5 +3076,17 @@
     "noticeCount": 0,
     "mediaCount": 68,
     "totalRecords": 177
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Research Schemes",
+    "mr": "संशोधन योजना"
   }
 }

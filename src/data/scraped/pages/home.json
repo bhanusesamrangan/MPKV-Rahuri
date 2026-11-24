@@ -5,10 +5,32 @@
   "sourcePage": "home",
   "scrapedAt": "2026-11-22T20:35:42.252398",
   "title": {
-    "en": "MPKV Rahuri",
-    "mr": "MPKV Rahuri"
+    "en": "Official University Portal",
+    "mr": "विद्यापीठ अधिकृत पोर्टल"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Official University Portal",
+        "mr": "विद्यापीठ अधिकृत पोर्टल"
+      },
+      "href": "/"
+    }
+  ],
   "hero": {
     "title": {
       "en": "MPKV Rahuri",
@@ -6793,5 +6815,13 @@
     "contactEmail": "registrar.mpkv@gov.in",
     "contactPhone": "02426-243215, 243366",
     "address": "Mahatma Phule Krishi Vidyapeeth, Rahuri, Dist. Ahilyanagar (Ahmednagar) - 413722, Maharashtra, India"
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
   }
 }

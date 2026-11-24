@@ -5,8 +5,8 @@
   "sourcePage": "library-about",
   "scrapedAt": "2026-11-22T20:35:46.634948",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "About Central Library",
+    "mr": "ग्रंथालयाविषयी"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "About & Collections",
+        "mr": "माहिती व ग्रंथसंग्रह"
+      },
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "About Central Library",
+        "mr": "ग्रंथालयाविषयी"
+      },
+      "href": "/library/about"
     }
   ],
   "hero": {
@@ -1218,5 +1232,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 72
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "About & Collections",
+    "mr": "माहिती व ग्रंथसंग्रह"
   }
 }

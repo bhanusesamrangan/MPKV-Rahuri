@@ -5,8 +5,8 @@
   "sourcePage": "library-contact",
   "scrapedAt": "2026-11-22T20:35:55.215569",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Library Contacts Desk",
+    "mr": "ग्रंथालय संपर्क कक्ष"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "Digital & Off-Campus",
+        "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+      },
+      "href": "/library/contact"
+    },
+    {
+      "title": {
+        "en": "Library Contacts Desk",
+        "mr": "ग्रंथालय संपर्क कक्ष"
+      },
+      "href": "/library/contact"
     }
   ],
   "hero": {
@@ -1585,5 +1599,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 80
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "Digital & Off-Campus",
+    "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
   }
 }

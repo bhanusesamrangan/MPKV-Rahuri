@@ -5,8 +5,8 @@
   "sourcePage": "student-pgi-form",
   "scrapedAt": "2026-11-22T20:36:21.751378",
   "title": {
-    "en": "Students",
-    "mr": "Students"
+    "en": "Students Form (PGI)",
+    "mr": "विद्यार्थी अर्ज (PGI)"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "href": "/students/admission"
+    },
+    {
+      "title": {
+        "en": "Welfare & Facilities",
+        "mr": "विद्यार्थी सुविधा व कल्याण"
+      },
+      "href": "/students/pgi-form"
+    },
+    {
+      "title": {
+        "en": "Students Form (PGI)",
+        "mr": "विद्यार्थी अर्ज (PGI)"
+      },
+      "href": "/students/pgi-form"
     }
   ],
   "hero": {
@@ -1482,5 +1503,17 @@
     "noticeCount": 0,
     "mediaCount": 26,
     "totalRecords": 93
+  },
+  "menuId": "menu_students",
+  "parentMenu": {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Welfare & Facilities",
+    "mr": "विद्यार्थी सुविधा व कल्याण"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "events-vanmohotsav",
   "scrapedAt": "2026-11-22T20:36:01.875508",
   "title": {
-    "en": "Periodical Events",
-    "mr": "नियतकालिक कार्यक्रम"
+    "en": "Vanmohotsav & Tree Plantation",
+    "mr": "वनमहोत्सव व वृक्षारोपण मोहीम"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Periodical Events",
-        "mr": "नियतकालिक कार्यक्रम"
+        "en": "Extension",
+        "mr": "विस्तार"
       },
-      "href": "/PeriodicalEvent/Convocation"
+      "href": "/events-vanmohotsav"
+    },
+    {
+      "title": {
+        "en": "Community Events",
+        "mr": "पर्यावरण व सामाजिक उपक्रम"
+      },
+      "href": "/events-vanmohotsav"
+    },
+    {
+      "title": {
+        "en": "Vanmohotsav & Tree Plantation",
+        "mr": "वनमहोत्सव व वृक्षारोपण मोहीम"
+      },
+      "href": "/events-vanmohotsav"
     }
   ],
   "hero": {
@@ -1410,5 +1424,17 @@
     "noticeCount": 0,
     "mediaCount": 20,
     "totalRecords": 89
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Community Events",
+    "mr": "पर्यावरण व सामाजिक उपक्रम"
   }
 }

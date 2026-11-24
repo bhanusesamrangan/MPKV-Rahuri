@@ -5,8 +5,8 @@
   "sourcePage": "employee-corner",
   "scrapedAt": "2026-11-22T20:35:45.620854",
   "title": {
-    "en": "Employee Corner",
-    "mr": "Employee Corner"
+    "en": "Employee Corner & Pension Desk",
+    "mr": "कर्मचारी कक्ष व सेवानिवृत्ती मंच"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      },
+      "href": "/employee-corner"
+    },
+    {
+      "title": {
+        "en": "Staff Services",
+        "mr": "कर्मचारी कक्ष"
+      },
+      "href": "/employee-corner"
+    },
+    {
+      "title": {
+        "en": "Employee Corner & Pension Desk",
+        "mr": "कर्मचारी कक्ष व सेवानिवृत्ती मंच"
+      },
+      "href": "/employee-corner"
     }
   ],
   "hero": {
@@ -1258,5 +1279,17 @@
     "noticeCount": 0,
     "mediaCount": 19,
     "totalRecords": 79
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Staff Services",
+    "mr": "कर्मचारी कक्ष"
   }
 }

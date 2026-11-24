@@ -5,14 +5,43 @@
   "sourcePage": "education-affiliated-colleges",
   "scrapedAt": "2026-11-22T20:35:24.731387",
   "title": {
-    "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Affiliated Colleges",
+    "mr": "संलग्न महाविद्यालये"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "href": "/education/affiliated-colleges"
+    },
+    {
+      "title": {
+        "en": "Affiliated Colleges",
+        "mr": "संलग्न महाविद्यालये"
+      },
+      "href": "/education/affiliated-colleges"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Affiliated Colleges",
+      "mr": "Affiliated Colleges"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -4913,5 +4942,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 143
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
   }
 }

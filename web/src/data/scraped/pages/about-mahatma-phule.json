@@ -5,23 +5,37 @@
   "sourcePage": "about-mahatma-phule",
   "scrapedAt": "2026-11-22T20:35:44.668037",
   "title": {
-    "en": "About Mahatma Phule",
-    "mr": "About Mahatma Phule"
+    "en": "About Mahatma Jyotirao Phule",
+    "mr": "क्रांतीसूर्य महात्मा जोतीराव फुले परिचय"
   },
   "breadcrumb": [
     {
       "title": {
         "en": "Home",
-        "mr": "Home"
+        "mr": "मुख्यपृष्ठ"
       },
-      "href": ""
+      "href": "/"
     },
     {
       "title": {
-        "en": "About Mahatma Phule",
-        "mr": "About Mahatma Phule"
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
       },
-      "href": ""
+      "href": "/Home/aboutphule"
+    },
+    {
+      "title": {
+        "en": "About University",
+        "mr": "विद्यापीठ परिचय"
+      },
+      "href": "/Home/aboutphule"
+    },
+    {
+      "title": {
+        "en": "About Mahatma Jyotirao Phule",
+        "mr": "क्रांतीसूर्य महात्मा जोतीराव फुले परिचय"
+      },
+      "href": "/Home/aboutphule"
     }
   ],
   "hero": {
@@ -1761,5 +1775,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 69
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "About University",
+    "mr": "विद्यापीठ परिचय"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "central-library-rahuri",
   "scrapedAt": "2026-11-22T20:36:22.761512",
   "title": {
-    "en": "Vasantrao Naik Memorial Central Library, Rahuri",
-    "mr": "वसंतराव नाईक स्मृती मध्यवर्ती ग्रंथालय, राहुरी"
+    "en": "Central Library, Rahuri",
+    "mr": "मध्यवर्ती ग्रंथालय, राहुरी"
   },
   "breadcrumb": [
     {
@@ -20,6 +20,20 @@
       "title": {
         "en": "Library",
         "mr": "ग्रंथालय"
+      },
+      "href": "/central-library-rahuri"
+    },
+    {
+      "title": {
+        "en": "About & Collections",
+        "mr": "ग्रंथालय माहिती व संग्रह"
+      },
+      "href": "/central-library-rahuri"
+    },
+    {
+      "title": {
+        "en": "Central Library, Rahuri",
+        "mr": "मध्यवर्ती ग्रंथालय, राहुरी"
       },
       "href": "/central-library-rahuri"
     }
@@ -67,5 +81,17 @@
   "stats": {
     "serviceCount": 4,
     "totalRecords": 4
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "About & Collections",
+    "mr": "ग्रंथालय माहिती व संग्रह"
   }
 }

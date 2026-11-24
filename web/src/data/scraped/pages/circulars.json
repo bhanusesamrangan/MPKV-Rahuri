@@ -5,8 +5,8 @@
   "sourcePage": "circulars",
   "scrapedAt": "2026-11-22T20:35:23.029534",
   "title": {
-    "en": "Circulars",
-    "mr": "परिपत्रके"
+    "en": "Student Circulars & Notices",
+    "mr": "विद्यार्थी परिपत्रके"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "href": "/students/admission"
+    },
+    {
+      "title": {
+        "en": "Welfare & Facilities",
+        "mr": "विद्यार्थी सुविधा व कल्याण"
+      },
+      "href": "/students/circulars"
+    },
+    {
+      "title": {
+        "en": "Student Circulars & Notices",
+        "mr": "विद्यार्थी परिपत्रके"
+      },
+      "href": "/students/circulars"
     }
   ],
   "hero": {
@@ -9642,5 +9663,17 @@
     "noticeCount": 201,
     "mediaCount": 215,
     "totalRecords": 474
+  },
+  "menuId": "menu_students",
+  "parentMenu": {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Welfare & Facilities",
+    "mr": "विद्यार्थी सुविधा व कल्याण"
   }
 }

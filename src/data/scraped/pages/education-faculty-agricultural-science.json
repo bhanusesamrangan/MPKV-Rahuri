@@ -5,14 +5,43 @@
   "sourcePage": "education-faculty-agricultural-science",
   "scrapedAt": "2026-11-22T20:35:29.614585",
   "title": {
-    "en": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Agricultural Science Faculty",
+    "mr": "कृषि विज्ञान शाखा"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Faculty Branches",
+        "mr": "विद्याशाखा"
+      },
+      "href": "/education/faculty-agricultural-science"
+    },
+    {
+      "title": {
+        "en": "Agricultural Science Faculty",
+        "mr": "कृषि विज्ञान शाखा"
+      },
+      "href": "/education/faculty-agricultural-science"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Faculty of Agriculture Science",
+      "mr": "Faculty of Agriculture Science"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1822,5 +1851,17 @@
     "noticeCount": 0,
     "mediaCount": 30,
     "totalRecords": 103
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Faculty Branches",
+    "mr": "विद्याशाखा"
   }
 }

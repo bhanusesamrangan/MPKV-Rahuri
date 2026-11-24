@@ -5,8 +5,8 @@
   "sourcePage": "mpkv-at-a-glance",
   "scrapedAt": "2026-11-22T20:35:43.702051",
   "title": {
-    "en": "MPKV At a Glance",
-    "mr": "MPKV At a Glance"
+    "en": "MPKV at a Glance",
+    "mr": "दृष्टीक्षेपात म.फु.कृ.वि."
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/mpkv-at-a-glance"
+    },
+    {
+      "title": {
+        "en": "About University",
+        "mr": "विद्यापीठ परिचय"
+      },
+      "href": "/mpkv-at-a-glance"
+    },
+    {
+      "title": {
+        "en": "MPKV at a Glance",
+        "mr": "दृष्टीक्षेपात म.फु.कृ.वि."
+      },
+      "href": "/mpkv-at-a-glance"
     }
   ],
   "hero": {
@@ -1823,5 +1844,17 @@
     "noticeCount": 0,
     "mediaCount": 19,
     "totalRecords": 101
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "About University",
+    "mr": "विद्यापीठ परिचय"
   }
 }

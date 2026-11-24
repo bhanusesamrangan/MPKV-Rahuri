@@ -5,14 +5,43 @@
   "sourcePage": "education-faculty-agricultural-engineering",
   "scrapedAt": "2026-11-22T20:35:29.078191",
   "title": {
-    "en": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Agricultural Engineering Faculty",
+    "mr": "कृषि अभियांत्रिकी शाखा"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Faculty Branches",
+        "mr": "विद्याशाखा"
+      },
+      "href": "/education/faculty-agricultural-engineering"
+    },
+    {
+      "title": {
+        "en": "Agricultural Engineering Faculty",
+        "mr": "कृषि अभियांत्रिकी शाखा"
+      },
+      "href": "/education/faculty-agricultural-engineering"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Faculty of Agricultural Engineering",
+      "mr": "Faculty of Agricultural Engineering"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1470,5 +1499,17 @@
     "noticeCount": 0,
     "mediaCount": 19,
     "totalRecords": 81
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Faculty Branches",
+    "mr": "विद्याशाखा"
   }
 }

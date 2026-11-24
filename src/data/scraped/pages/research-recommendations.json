@@ -5,14 +5,43 @@
   "sourcePage": "research-recommendations",
   "scrapedAt": "2026-11-22T20:36:16.636323",
   "title": {
-    "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Agro Recommendations",
+    "mr": "कृषि शिफारसी"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Technology & Releases",
+        "mr": "प्रगत तंत्रज्ञान व वाण"
+      },
+      "href": "/research/recommendations"
+    },
+    {
+      "title": {
+        "en": "Agro Recommendations",
+        "mr": "कृषि शिफारसी"
+      },
+      "href": "/research/recommendations"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Technology Recommendations",
+      "mr": "Research Technology Recommendations"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -2173,5 +2202,17 @@
     "noticeCount": 0,
     "mediaCount": 48,
     "totalRecords": 122
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Technology & Releases",
+    "mr": "प्रगत तंत्रज्ञान व वाण"
   }
 }

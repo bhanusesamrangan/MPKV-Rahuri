@@ -5,14 +5,43 @@
   "sourcePage": "research-scarcity-zone",
   "scrapedAt": "2026-11-22T20:36:07.006101",
   "title": {
-    "en": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Scarcity Zone",
+    "mr": "अवर्षणग्रस्त विभाग"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Agro-Climatic Research Stations",
+        "mr": "कृषि हवामान संशोधन केंद्रे"
+      },
+      "href": "/research/scarcity-zone"
+    },
+    {
+      "title": {
+        "en": "Scarcity Zone",
+        "mr": "अवर्षणग्रस्त विभाग"
+      },
+      "href": "/research/scarcity-zone"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Scarcity Zone",
+      "mr": "Research Scarcity Zone"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1347,5 +1376,17 @@
     "noticeCount": 0,
     "mediaCount": 23,
     "totalRecords": 78
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Agro-Climatic Research Stations",
+    "mr": "कृषि हवामान संशोधन केंद्रे"
   }
 }

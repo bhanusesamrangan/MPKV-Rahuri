@@ -5,8 +5,8 @@
   "sourcePage": "events-joint-agresco",
   "scrapedAt": "2026-11-22T20:36:01.380865",
   "title": {
-    "en": "Periodical Events",
-    "mr": "नियतकालिक कार्यक्रम"
+    "en": "Joint Agresco Research Meet",
+    "mr": "संयुक्त अग्रेस्को संशोधन बैठक"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Periodical Events",
-        "mr": "नियतकालिक कार्यक्रम"
+        "en": "Research",
+        "mr": "संशोधन"
       },
-      "href": "/PeriodicalEvent/Convocation"
+      "href": "/events-joint-agresco"
+    },
+    {
+      "title": {
+        "en": "Research Review Mechanism",
+        "mr": "संशोधन पुनरावलोकन"
+      },
+      "href": "/events-joint-agresco"
+    },
+    {
+      "title": {
+        "en": "Joint Agresco Research Meet",
+        "mr": "संयुक्त अग्रेस्को संशोधन बैठक"
+      },
+      "href": "/events-joint-agresco"
     }
   ],
   "hero": {
@@ -1556,5 +1570,17 @@
     "noticeCount": 0,
     "mediaCount": 33,
     "totalRecords": 106
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Research Review Mechanism",
+    "mr": "संशोधन पुनरावलोकन"
   }
 }

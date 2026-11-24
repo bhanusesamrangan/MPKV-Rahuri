@@ -5,8 +5,8 @@
   "sourcePage": "student-admission-procedure",
   "scrapedAt": "2026-11-22T20:36:18.689919",
   "title": {
-    "en": "Students",
-    "mr": "विद्यार्थी"
+    "en": "Admission Procedure",
+    "mr": "प्रवेश प्रक्रिया"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Students",
         "mr": "विद्यार्थी"
       },
-      "href": "/Student/AdmissionProcedure"
+      "href": "/students/admission"
+    },
+    {
+      "title": {
+        "en": "Welfare & Facilities",
+        "mr": "विद्यार्थी सुविधा व कल्याण"
+      },
+      "href": "/students/admission"
+    },
+    {
+      "title": {
+        "en": "Admission Procedure",
+        "mr": "प्रवेश प्रक्रिया"
+      },
+      "href": "/students/admission"
     }
   ],
   "hero": {
@@ -1371,5 +1385,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 71
+  },
+  "menuId": "menu_students",
+  "parentMenu": {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Welfare & Facilities",
+    "mr": "विद्यार्थी सुविधा व कल्याण"
   }
 }

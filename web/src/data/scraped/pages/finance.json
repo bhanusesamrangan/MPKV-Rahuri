@@ -5,8 +5,8 @@
   "sourcePage": "finance",
   "scrapedAt": "2026-11-22T20:35:38.176003",
   "title": {
-    "en": "Finance",
-    "mr": "वित्त"
+    "en": "Finance & Accounts Division",
+    "mr": "वित्त व लेखा विभाग"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Finance",
-        "mr": "वित्त"
+        "en": "Officers",
+        "mr": "अधिकारी"
       },
-      "href": "/Finance/AboutFinance"
+      "href": "/finance"
+    },
+    {
+      "title": {
+        "en": "Comptroller",
+        "mr": "वित्त व लेखा"
+      },
+      "href": "/finance"
+    },
+    {
+      "title": {
+        "en": "Finance & Accounts Division",
+        "mr": "वित्त व लेखा विभाग"
+      },
+      "href": "/finance"
     }
   ],
   "hero": {
@@ -1249,5 +1263,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 71
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Comptroller",
+    "mr": "वित्त व लेखा"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "transparency-and-grievance",
   "scrapedAt": "2026-11-22T20:35:40.716393",
   "title": {
-    "en": "Transparency",
-    "mr": "पारदर्शकता"
+    "en": "Right to Public Services",
+    "mr": "लोकसेवा हक्क कायदा"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      },
+      "href": "/transparency-and-grievance"
+    },
+    {
+      "title": {
+        "en": "Forums & Advisory",
+        "mr": "शेतकरी मंच व सल्ला"
+      },
+      "href": "/transparency-and-grievance"
+    },
+    {
+      "title": {
+        "en": "Right to Public Services",
+        "mr": "लोकसेवा हक्क कायदा"
+      },
+      "href": "/transparency-and-grievance"
     }
   ],
   "hero": {
@@ -1273,5 +1294,17 @@
     "noticeCount": 0,
     "mediaCount": 24,
     "totalRecords": 79
+  },
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Forums & Advisory",
+    "mr": "शेतकरी मंच व सल्ला"
   }
 }

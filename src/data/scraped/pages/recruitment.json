@@ -5,8 +5,8 @@
   "sourcePage": "recruitment",
   "scrapedAt": "2026-11-22T20:35:20.604912",
   "title": {
-    "en": "Administration",
-    "mr": "प्रशासन"
+    "en": "Recruitment & Job Vacancies",
+    "mr": "नोकरभरती व जाहिराती"
   },
   "breadcrumb": [
     {
@@ -14,14 +14,28 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "href": ""
+      "href": "/"
     },
     {
       "title": {
-        "en": "Administration",
-        "mr": "प्रशासन"
+        "en": "Officers",
+        "mr": "अधिकारी"
       },
-      "href": ""
+      "href": "/recruitment"
+    },
+    {
+      "title": {
+        "en": "Careers & Recruitment",
+        "mr": "भरती व जाहिराती"
+      },
+      "href": "/recruitment"
+    },
+    {
+      "title": {
+        "en": "Recruitment & Job Vacancies",
+        "mr": "नोकरभरती व जाहिराती"
+      },
+      "href": "/recruitment"
     }
   ],
   "hero": {
@@ -17000,5 +17014,17 @@
     "noticeCount": 376,
     "mediaCount": 390,
     "totalRecords": 821
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Careers & Recruitment",
+    "mr": "भरती व जाहिराती"
   }
 }

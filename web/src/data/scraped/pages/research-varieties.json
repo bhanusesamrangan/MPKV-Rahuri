@@ -5,14 +5,43 @@
   "sourcePage": "research-varieties",
   "scrapedAt": "2026-11-22T20:36:17.155010",
   "title": {
-    "en": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Crop Varieties Released",
+    "mr": "विकसित पीक वाण"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Technology & Releases",
+        "mr": "प्रगत तंत्रज्ञान व वाण"
+      },
+      "href": "/research/varieties"
+    },
+    {
+      "title": {
+        "en": "Crop Varieties Released",
+        "mr": "विकसित पीक वाण"
+      },
+      "href": "/research/varieties"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Technology Varieties",
+      "mr": "Research Technology Varieties"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1967,5 +1996,17 @@
     "noticeCount": 0,
     "mediaCount": 42,
     "totalRecords": 111
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Technology & Releases",
+    "mr": "प्रगत तंत्रज्ञान व वाण"
   }
 }

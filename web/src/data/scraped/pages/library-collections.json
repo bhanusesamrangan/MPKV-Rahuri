@@ -5,8 +5,8 @@
   "sourcePage": "library-collections",
   "scrapedAt": "2026-11-22T20:35:54.667312",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Book Collections",
+    "mr": "ग्रंथसंग्रह व संदर्भ ग्रंथ"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "About & Collections",
+        "mr": "माहिती व ग्रंथसंग्रह"
+      },
+      "href": "/library/collections"
+    },
+    {
+      "title": {
+        "en": "Book Collections",
+        "mr": "ग्रंथसंग्रह व संदर्भ ग्रंथ"
+      },
+      "href": "/library/collections"
     }
   ],
   "hero": {
@@ -1483,5 +1497,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 80
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "About & Collections",
+    "mr": "माहिती व ग्रंथसंग्रह"
   }
 }

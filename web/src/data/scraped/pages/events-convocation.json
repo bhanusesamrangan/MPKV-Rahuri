@@ -5,8 +5,8 @@
   "sourcePage": "events-convocation",
   "scrapedAt": "2026-11-22T20:36:00.878631",
   "title": {
-    "en": "Periodical Events",
-    "mr": "नियतकालिक कार्यक्रम"
+    "en": "Annual Convocation Ceremony",
+    "mr": "वार्षिक पदवीदान समारंभ"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Periodical Events",
-        "mr": "नियतकालिक कार्यक्रम"
+        "en": "Education",
+        "mr": "शिक्षण"
       },
-      "href": "/PeriodicalEvent/Convocation"
+      "href": "/events-convocation"
+    },
+    {
+      "title": {
+        "en": "Academic Events",
+        "mr": "शैक्षणिक सोहळे"
+      },
+      "href": "/events-convocation"
+    },
+    {
+      "title": {
+        "en": "Annual Convocation Ceremony",
+        "mr": "वार्षिक पदवीदान समारंभ"
+      },
+      "href": "/events-convocation"
     }
   ],
   "hero": {
@@ -1652,5 +1666,17 @@
     "noticeCount": 0,
     "mediaCount": 49,
     "totalRecords": 122
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Academic Events",
+    "mr": "शैक्षणिक सोहळे"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "pme-cell",
   "scrapedAt": "2026-11-22T20:36:02.826851",
   "title": {
-    "en": "PME Cell",
-    "mr": "पीएमई सेल"
+    "en": "Priority Setting, Monitoring & Evaluation (PME) Cell",
+    "mr": "प्राधान्यक्रम निर्धारण, सनियंत्रण व मूल्यमापन कक्ष (PME)"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "PME Cell",
-        "mr": "पीएमई सेल"
+        "en": "Research",
+        "mr": "संशोधन"
       },
-      "href": "/PmeAndNodel/PmeIntroduction"
+      "href": "/pme-cell"
+    },
+    {
+      "title": {
+        "en": "Overview & Schemes",
+        "mr": "संशोधन आढावा व योजना"
+      },
+      "href": "/pme-cell"
+    },
+    {
+      "title": {
+        "en": "Priority Setting, Monitoring & Evaluation (PME) Cell",
+        "mr": "प्राधान्यक्रम निर्धारण, सनियंत्रण व मूल्यमापन कक्ष (PME)"
+      },
+      "href": "/pme-cell"
     }
   ],
   "hero": {
@@ -1141,5 +1155,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 70
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Schemes",
+    "mr": "संशोधन आढावा व योजना"
   }
 }

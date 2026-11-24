@@ -5,14 +5,43 @@
   "sourcePage": "education-constituent-colleges",
   "scrapedAt": "2026-11-22T20:35:25.818400",
   "title": {
-    "en": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Constituent Colleges",
+    "mr": "घटक महाविद्यालये"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "href": "/education/constituent-colleges"
+    },
+    {
+      "title": {
+        "en": "Constituent Colleges",
+        "mr": "घटक महाविद्यालये"
+      },
+      "href": "/education/constituent-colleges"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Constituent Colleges",
+      "mr": "Constituent Colleges"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -2416,5 +2445,17 @@
     "noticeCount": 0,
     "mediaCount": 17,
     "totalRecords": 120
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
   }
 }

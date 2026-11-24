@@ -5,8 +5,8 @@
   "sourcePage": "tenders",
   "scrapedAt": "2026-11-22T20:35:21.792008",
   "title": {
-    "en": "Tenders",
-    "mr": "निविदा"
+    "en": "Tenders & e-Procurement",
+    "mr": "ई-निविदा व खरेदी"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      },
+      "href": "/tenders"
+    },
+    {
+      "title": {
+        "en": "Procurement",
+        "mr": "निविदा व लिलाव"
+      },
+      "href": "/tenders"
+    },
+    {
+      "title": {
+        "en": "Tenders & e-Procurement",
+        "mr": "ई-निविदा व खरेदी"
+      },
+      "href": "/tenders"
     }
   ],
   "hero": {
@@ -12397,5 +12418,17 @@
     "noticeCount": 269,
     "mediaCount": 283,
     "totalRecords": 607
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Procurement",
+    "mr": "निविदा व लिलाव"
   }
 }

@@ -5,14 +5,43 @@
   "sourcePage": "education-organizational-profile",
   "scrapedAt": "2026-11-22T20:35:30.170420",
   "title": {
-    "en": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Organizational Profile",
+    "mr": "संस्थात्मक संरचना"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Overview & Profile",
+        "mr": "संस्थेची माहिती व रूपरेषा"
+      },
+      "href": "/education/profile"
+    },
+    {
+      "title": {
+        "en": "Organizational Profile",
+        "mr": "संस्थात्मक संरचना"
+      },
+      "href": "/education/profile"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Education Profile",
+      "mr": "Education Profile"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1259,5 +1288,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 70
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संस्थेची माहिती व रूपरेषा"
   }
 }

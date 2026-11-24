@@ -5,8 +5,8 @@
   "sourcePage": "farm-implements",
   "scrapedAt": "2026-11-22T20:36:22.761307",
   "title": {
-    "en": "Farm Implements & Machinery Developed at MPKV Rahuri",
-    "mr": "मफुकृवि राहुरी विकसित शेती अवजारे व यंत्रे"
+    "en": "Farm Implements & Machinery",
+    "mr": "शेती अवजारे व यंत्रे"
   },
   "breadcrumb": [
     {
@@ -21,12 +21,19 @@
         "en": "Research",
         "mr": "संशोधन"
       },
-      "href": "#"
+      "href": "/farm-implements"
     },
     {
       "title": {
-        "en": "Farm Implements",
-        "mr": "शेती अवजारे"
+        "en": "Technology & Releases",
+        "mr": "प्रगत तंत्रज्ञान व वाण"
+      },
+      "href": "/farm-implements"
+    },
+    {
+      "title": {
+        "en": "Farm Implements & Machinery",
+        "mr": "शेती अवजारे व यंत्रे"
       },
       "href": "/farm-implements"
     }
@@ -1766,5 +1773,17 @@
     "implementCount": 35,
     "tableCount": 1,
     "totalRecords": 35
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Technology & Releases",
+    "mr": "प्रगत तंत्रज्ञान व वाण"
   }
 }

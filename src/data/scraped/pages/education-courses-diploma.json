@@ -5,14 +5,43 @@
   "sourcePage": "education-courses-diploma",
   "scrapedAt": "2026-11-22T20:35:26.842838",
   "title": {
-    "en": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Diploma",
+    "mr": "पदविका"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम व पदव्या"
+      },
+      "href": "/education/diploma"
+    },
+    {
+      "title": {
+        "en": "Diploma",
+        "mr": "पदविका"
+      },
+      "href": "/education/diploma"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Diploma Courses",
+      "mr": "Diploma Courses"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1363,5 +1392,17 @@
     "noticeCount": 0,
     "mediaCount": 16,
     "totalRecords": 73
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Courses & Curriculum",
+    "mr": "अभ्यासक्रम व पदव्या"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "library-facilities",
   "scrapedAt": "2026-11-22T20:35:55.695327",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Facilities & Reading Halls",
+    "mr": "वाचक सुविधा व अभ्यासिका"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "About & Collections",
+        "mr": "माहिती व ग्रंथसंग्रह"
+      },
+      "href": "/library/facilities"
+    },
+    {
+      "title": {
+        "en": "Facilities & Reading Halls",
+        "mr": "वाचक सुविधा व अभ्यासिका"
+      },
+      "href": "/library/facilities"
     }
   ],
   "hero": {
@@ -1467,5 +1481,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 78
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "About & Collections",
+    "mr": "माहिती व ग्रंथसंग्रह"
   }
 }

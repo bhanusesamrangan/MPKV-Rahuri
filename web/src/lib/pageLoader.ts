@@ -97,6 +97,8 @@ const ROUTE_ALIASES: Record<string, string> = {
   'education/faculty-agricultural-engineering': 'education-faculty-agricultural-engineering',
   'education/faculty-agricultural-science': 'education-faculty-agricultural-science',
   'education/masters': 'education-courses-masters',
+  'education/masters-doctoral': 'education-courses-masters',
+  'education/master-doctoral': 'education-courses-masters',
   'education/profile': 'education-organizational-profile',
   'education/regulations': 'education-academic-regulations',
   'education/thrust-areas': 'education-thrust-areas',

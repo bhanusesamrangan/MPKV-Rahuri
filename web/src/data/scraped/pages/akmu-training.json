@@ -5,8 +5,8 @@
   "sourcePage": "akmu-training",
   "scrapedAt": "2026-11-22T20:35:22.353942",
   "title": {
-    "en": "Trainings",
-    "mr": "प्रशिक्षण"
+    "en": "AKMU Training Programs",
+    "mr": "एकेएमयू प्रशिक्षण उपक्रम"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/akmu-training"
+    },
+    {
+      "title": {
+        "en": "University Facilities",
+        "mr": "विद्यापीठ सुविधा"
+      },
+      "href": "/akmu-training"
+    },
+    {
+      "title": {
+        "en": "AKMU Training Programs",
+        "mr": "एकेएमयू प्रशिक्षण उपक्रम"
+      },
+      "href": "/akmu-training"
     }
   ],
   "hero": {
@@ -1226,5 +1247,17 @@
     "noticeCount": 0,
     "mediaCount": 18,
     "totalRecords": 77
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "University Facilities",
+    "mr": "विद्यापीठ सुविधा"
   }
 }

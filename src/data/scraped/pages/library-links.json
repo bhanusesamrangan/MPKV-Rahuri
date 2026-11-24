@@ -5,8 +5,8 @@
   "sourcePage": "library-links",
   "scrapedAt": "2026-11-22T20:35:56.206882",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Digital Links & CeRA Journals",
+    "mr": "डिजिटल ई-रिसोर्सेस व CeRA"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "Digital & Off-Campus",
+        "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+      },
+      "href": "/library/links"
+    },
+    {
+      "title": {
+        "en": "Digital Links & CeRA Journals",
+        "mr": "डिजिटल ई-रिसोर्सेस व CeRA"
+      },
+      "href": "/library/links"
     }
   ],
   "hero": {
@@ -1393,5 +1407,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 69
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "Digital & Off-Campus",
+    "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
   }
 }

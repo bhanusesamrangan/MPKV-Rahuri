@@ -5,8 +5,8 @@
   "sourcePage": "farmer-kisan-aadhar",
   "scrapedAt": "2026-11-22T20:35:37.154205",
   "title": {
-    "en": "Farmer",
-    "mr": "शेतकरी"
+    "en": "Kisan Aadhar Sammelan",
+    "mr": "किसान आधार संमेलन"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Farmer",
-        "mr": "शेतकरी"
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
       },
-      "href": "/Farmer/FarmerSciForum"
+      "href": "/seeds-availability"
+    },
+    {
+      "title": {
+        "en": "Forums & Advisory",
+        "mr": "शेतकरी मंच व सल्ला"
+      },
+      "href": "/farmer/kisan-aadhar"
+    },
+    {
+      "title": {
+        "en": "Kisan Aadhar Sammelan",
+        "mr": "किसान आधार संमेलन"
+      },
+      "href": "/farmer/kisan-aadhar"
     }
   ],
   "hero": {
@@ -1327,5 +1341,17 @@
     "noticeCount": 0,
     "mediaCount": 25,
     "totalRecords": 87
+  },
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Forums & Advisory",
+    "mr": "शेतकरी मंच व सल्ला"
   }
 }

@@ -5,14 +5,43 @@
   "sourcePage": "research-review-mechanism",
   "scrapedAt": "2026-11-22T20:36:05.940727",
   "title": {
-    "en": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Research Review Mechanism",
+    "mr": "संशोधन पुनरावलोकन यंत्रणा"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Overview & Profile",
+        "mr": "संशोधन आढावा व रूपरेषा"
+      },
+      "href": "/research/review-mechanism"
+    },
+    {
+      "title": {
+        "en": "Research Review Mechanism",
+        "mr": "संशोधन पुनरावलोकन यंत्रणा"
+      },
+      "href": "/research/review-mechanism"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Review Mechanism",
+      "mr": "Research Review Mechanism"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1354,5 +1383,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 73
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संशोधन आढावा व रूपरेषा"
   }
 }

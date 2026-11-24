@@ -5,14 +5,43 @@
   "sourcePage": "education-courses-masters",
   "scrapedAt": "2026-11-22T20:35:27.965708",
   "title": {
-    "en": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Master's & Doctoral",
+    "mr": "पदव्युत्तर व आचार्य पदवी"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम व पदव्या"
+      },
+      "href": "/education/masters-doctoral"
+    },
+    {
+      "title": {
+        "en": "Master's & Doctoral",
+        "mr": "पदव्युत्तर व आचार्य पदवी"
+      },
+      "href": "/education/masters-doctoral"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Master Courses",
+      "mr": "Master Courses"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -2492,5 +2521,17 @@
     "noticeCount": 0,
     "mediaCount": 39,
     "totalRecords": 124
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Courses & Curriculum",
+    "mr": "अभ्यासक्रम व पदव्या"
   }
 }

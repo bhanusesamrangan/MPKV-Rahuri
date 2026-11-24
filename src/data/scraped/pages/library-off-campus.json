@@ -5,8 +5,8 @@
   "sourcePage": "library-off-campus",
   "scrapedAt": "2026-11-22T20:35:57.212436",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Off Campus Libraries",
+    "mr": "विभागीय महाविद्यालय ग्रंथालये"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "Digital & Off-Campus",
+        "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+      },
+      "href": "/library/off-campus"
+    },
+    {
+      "title": {
+        "en": "Off Campus Libraries",
+        "mr": "विभागीय महाविद्यालय ग्रंथालये"
+      },
+      "href": "/library/off-campus"
     }
   ],
   "hero": {
@@ -1275,5 +1289,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 73
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "Digital & Off-Campus",
+    "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
   }
 }

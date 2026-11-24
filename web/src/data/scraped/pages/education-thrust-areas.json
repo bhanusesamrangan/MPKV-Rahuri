@@ -5,14 +5,43 @@
   "sourcePage": "education-thrust-areas",
   "scrapedAt": "2026-11-22T20:35:30.659224",
   "title": {
-    "en": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Thrust Areas",
+    "mr": "प्राधान्यक्रम"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Overview & Profile",
+        "mr": "संस्थेची माहिती व रूपरेषा"
+      },
+      "href": "/education/thrust-areas"
+    },
+    {
+      "title": {
+        "en": "Thrust Areas",
+        "mr": "प्राधान्यक्रम"
+      },
+      "href": "/education/thrust-areas"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Education Thrust Areas",
+      "mr": "Education Thrust Areas"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1484,5 +1513,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 69
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संस्थेची माहिती व रूपरेषा"
   }
 }

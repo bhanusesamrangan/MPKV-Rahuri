@@ -5,14 +5,43 @@
   "sourcePage": "research-externally-funded-projects",
   "scrapedAt": "2026-11-22T20:36:14.515796",
   "title": {
-    "en": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Externally Funded Projects",
+    "mr": "बाह्य अनुदानीत प्रकल्प"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "href": "/research/funded-projects"
+    },
+    {
+      "title": {
+        "en": "Externally Funded Projects",
+        "mr": "बाह्य अनुदानीत प्रकल्प"
+      },
+      "href": "/research/funded-projects"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Schemes Funded Projects",
+      "mr": "Research Schemes Funded Projects"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1351,5 +1380,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 71
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Research Schemes",
+    "mr": "संशोधन योजना"
   }
 }

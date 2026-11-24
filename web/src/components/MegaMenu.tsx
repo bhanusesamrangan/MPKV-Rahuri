@@ -215,6 +215,89 @@ export const MegaMenu: React.FC = () => {
 
   const menuItems = Array.isArray(navMenuData) ? navMenuData : ((navMenuData as any).menu_items || []);
 
+  // Helper to check if a top-level menu item or any of its children/submenus is currently selected/active
+  const isMenuSelected = (item: any): boolean => {
+    if (!pathname) return false;
+    const cleanPath = pathname.replace(/\/$/, '') || '/';
+
+    // Direct link match for items with valid href
+    if (item.href && item.href !== '#') {
+      const cleanHref = item.href.replace(/\/$/, '') || '/';
+      if (cleanHref === '/' && cleanPath === '/') return true;
+      if (cleanHref !== '/' && (cleanPath === cleanHref || cleanPath.startsWith(cleanHref + '/'))) {
+        return true;
+      }
+    }
+
+    // Check all nested children recursively
+    const hasActiveChild = (children: any[]): boolean => {
+      for (const child of children) {
+        if (child.href && child.href !== '#' && !child.is_external) {
+          const childHref = child.href.replace(/\/$/, '') || '/';
+          if (childHref !== '/' && (cleanPath === childHref || cleanPath.startsWith(childHref + '/'))) {
+            return true;
+          }
+        }
+        if (child.children && child.children.length > 0) {
+          if (hasActiveChild(child.children)) return true;
+        }
+      }
+      return false;
+    };
+
+    if (item.children && hasActiveChild(item.children)) {
+      return true;
+    }
+
+    // Route prefix matching per category
+    if (item.id === 'menu_education' && (cleanPath.startsWith('/education') || cleanPath.startsWith('/dr-as-caet') || cleanPath.startsWith('/post-graduate-institute'))) {
+      return true;
+    }
+    if (item.id === 'menu_research' && cleanPath.startsWith('/research')) {
+      return true;
+    }
+    if (item.id === 'menu_extension' && (cleanPath.startsWith('/extension') || cleanPath.startsWith('/communication-centre') || cleanPath.startsWith('/communication-center') || cleanPath.startsWith('/atic-rahuri'))) {
+      return true;
+    }
+    if (item.id === 'menu_library' && cleanPath.startsWith('/library')) {
+      return true;
+    }
+    if (item.id === 'menu_students' && cleanPath.startsWith('/students')) {
+      return true;
+    }
+    if (item.id === 'menu_farmer' && (cleanPath.startsWith('/farmer') || cleanPath.startsWith('/seeds-availability') || cleanPath.startsWith('/nursery-stock') || cleanPath.startsWith('/farm-implements') || cleanPath.startsWith('/transparency-and-grievance'))) {
+      return true;
+    }
+    if (item.id === 'menu_officers' && cleanPath.startsWith('/officers')) {
+      return true;
+    }
+    if (item.id === 'menu_contacts' && (cleanPath.startsWith('/contact') || cleanPath.startsWith('/contact-us'))) {
+      return true;
+    }
+
+    return false;
+  };
+
+  // Auto-expand the active category in the mobile drawer when navigating
+  useEffect(() => {
+    if (!pathname) return;
+    const activeItem = menuItems.find((it: any) => isMenuSelected(it));
+    if (activeItem && activeItem.children && activeItem.children.length > 0) {
+      setExpandedCategory(activeItem.id);
+      const cleanPath = pathname.replace(/\/$/, '') || '/';
+      const activeGroup = activeItem.children.find((grp: any) => {
+        const leaves = grp.children || [grp];
+        return leaves.some((lf: any) => {
+          const lHref = (lf.href || '').replace(/\/$/, '') || '/';
+          return lHref !== '/' && (cleanPath === lHref || cleanPath.startsWith(lHref + '/'));
+        });
+      });
+      if (activeGroup) {
+        setExpandedGroup(activeGroup.id || `${activeItem.id}_grp_0`);
+      }
+    }
+  }, [pathname]);
+
   return (
     <>
       <nav
@@ -241,7 +324,7 @@ export const MegaMenu: React.FC = () => {
               const IconComponent = item.icon ? iconMap[item.icon] : null;
               const hasChildren = item.children && item.children.length > 0;
               const isDropdownActive = activeDropdown === item.id;
-              const isActive = pathname === item.href;
+              const isSelected = isMenuSelected(item);
 
               // Dynamic width and layout based on number of child groups
               const childrenCount = (item.children || []).length;
@@ -263,8 +346,13 @@ export const MegaMenu: React.FC = () => {
                 alignClass = 'left-0';
               } else if (childrenCount >= 4) {
                 gridCols = 'grid-cols-2 lg:grid-cols-4';
-                widthClass = 'w-[1140px] xl:w-[1320px] 2xl:w-[1440px]';
-                alignClass = 'left-0';
+                if (item.id === 'menu_research') {
+                  widthClass = 'w-[980px] xl:w-[1060px] 2xl:w-[1140px]';
+                  alignClass = '-left-8 xl:-left-16 2xl:-left-20';
+                } else {
+                  widthClass = 'w-[1140px] xl:w-[1320px] 2xl:w-[1440px]';
+                  alignClass = 'left-0';
+                }
               }
 
               return (
@@ -280,33 +368,41 @@ export const MegaMenu: React.FC = () => {
                         clearTimers();
                         setActiveDropdown((prev) => (prev === item.id ? null : item.id));
                       }}
-                      className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive
-                        ? 'bg-white/20 text-white shadow-xs border border-white/25'
+                      className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive || isSelected
+                        ? 'bg-white/20 text-white shadow-xs border border-white/25 font-semibold'
                         : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
                     >
-                      {IconComponent && <IconComponent className="w-3.5 h-3.5 text-emerald-200" />}
-                      <span>{getBilingual(item.title)}</span>
+                      {IconComponent && (
+                        <IconComponent
+                          className={`w-3.5 h-3.5 transition-colors ${isSelected ? 'text-amber-300' : 'text-emerald-200'}`}
+                        />
+                      )}
+                      <span className={isSelected ? 'text-white font-semibold' : ''}>{getBilingual(item.title)}</span>
                       <ChevronDown
-                        className={`w-3.5 h-3.5 transition-transform duration-150 ${isDropdownActive ? 'rotate-180 text-white' : 'text-emerald-200/80'
+                        className={`w-3.5 h-3.5 transition-transform duration-150 ${isDropdownActive ? 'rotate-180 text-white' : isSelected ? 'text-amber-300' : 'text-emerald-200/80'
                           }`}
                       />
-                      {isDropdownActive && (
-                        <span className="absolute bottom-0.5 left-2 right-2 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
+                      {(isDropdownActive || isSelected) && (
+                        <span className="absolute bottom-0.5 left-2 right-2 h-[2.5px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
                       )}
                     </button>
                   ) : (
                     <Link
                       href={item.href}
-                      className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative whitespace-nowrap ${isActive
-                        ? 'bg-white/20 text-white shadow-xs border border-white/25'
+                      className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative whitespace-nowrap ${isSelected
+                        ? 'bg-white/20 text-white shadow-xs border border-white/25 font-semibold'
                         : 'text-white/95 hover:bg-white/15 hover:text-white'
                         }`}
                     >
-                      {IconComponent && <IconComponent className="w-3.5 h-3.5 text-emerald-200" />}
-                      <span>{getBilingual(item.title)}</span>
-                      {isActive && (
-                        <span className="absolute bottom-0.5 left-2 right-2 h-[2px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
+                      {IconComponent && (
+                        <IconComponent
+                          className={`w-3.5 h-3.5 transition-colors ${isSelected ? 'text-amber-300' : 'text-emerald-200'}`}
+                        />
+                      )}
+                      <span className={isSelected ? 'text-white font-semibold' : ''}>{getBilingual(item.title)}</span>
+                      {isSelected && (
+                        <span className="absolute bottom-0.5 left-2 right-2 h-[2.5px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
                       )}
                     </Link>
                   )}
@@ -318,23 +414,25 @@ export const MegaMenu: React.FC = () => {
                       onMouseEnter={handleDropdownMouseEnter}
                       onMouseLeave={handleDropdownMouseLeave}
                     >
-                      <div className={`${widthClass} max-w-[calc(100vw-2.5rem)] bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 p-6 xl:p-7 grid ${gridCols} gap-x-8 xl:gap-x-10 gap-y-6 relative`}>
+                      <div className={`${widthClass} max-w-[calc(100vw-2.5rem)] bg-white text-slate-800 shadow-2xl rounded-2xl border border-stone-200/90 ${item.id === 'menu_research' ? 'p-6 xl:p-7' : 'p-6 xl:p-7'} grid ${gridCols} ${item.id === 'menu_research' ? 'gap-x-7 xl:gap-x-8' : 'gap-x-8 xl:gap-x-10'} gap-y-6 relative`}>
                         {/* Top Accent Gradient Line */}
                         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-600 via-amber-400 to-emerald-600 rounded-t-2xl" />
 
                         {item.children.map((group: any, idx: number) => (
                           <div key={idx} className="space-y-2.5 min-w-0">
                             {group.is_group && (
-                              <div className="flex items-center gap-2 border-b border-stone-200 pb-2 mb-2">
-                                <span className="w-1.5 h-3.5 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-full flex-shrink-0" />
-                                <h5 className="text-[11px] xl:text-xs font-bold uppercase tracking-wider text-slate-900 whitespace-nowrap">
+                              <div className="flex items-start gap-2 border-b border-stone-200 pb-2 mb-2 min-h-[36px]">
+                                <span className="w-1.5 h-3.5 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-full flex-shrink-0 mt-0.5" />
+                                <h5 className="text-[11px] xl:text-xs font-bold uppercase tracking-wide text-slate-900 leading-snug break-words">
                                   {getBilingual(group.title)}
                                 </h5>
                               </div>
                             )}
                             <ul className="space-y-1.5">
                               {(group.children || [group]).map((leaf: any, lIdx: number) => {
-                                const isLeafActive = pathname === leaf.href;
+                                const cleanPath = (pathname || '').replace(/\/$/, '') || '/';
+                                const cleanLeafHref = (leaf.href || '').replace(/\/$/, '') || '/';
+                                const isLeafActive = cleanPath === cleanLeafHref;
                                 return (
                                   <li key={lIdx}>
                                     {leaf.is_external ? (
@@ -434,7 +532,7 @@ export const MegaMenu: React.FC = () => {
                 const hasChildren = item.children && item.children.length > 0;
                 const isCategoryExpanded = expandedCategory === item.id;
                 const IconComponent = item.icon ? iconMap[item.icon] : null;
-                const isDirectActive = pathname === item.href;
+                const isSelected = isMenuSelected(item);
                 const firstGroupId = hasChildren ? (item.children[0]?.id || `${item.id}_grp_0`) : undefined;
 
                 return (
@@ -443,18 +541,27 @@ export const MegaMenu: React.FC = () => {
                       /* Level 1 Expandable Category Accordion */
                       <button
                         onClick={() => toggleCategory(item.id, item.children.length, firstGroupId)}
-                        className={`w-full flex items-center justify-between px-3 py-2 text-left text-xs sm:text-sm font-semibold transition-colors ${isCategoryExpanded
+                        className={`w-full flex items-center justify-between px-3 py-2 text-left text-xs sm:text-sm font-semibold transition-colors ${isSelected
+                          ? 'bg-emerald-600/35 text-white border-l-4 border-amber-400 font-bold'
+                          : isCategoryExpanded
                           ? 'bg-white/15 text-white'
                           : 'text-white/95 hover:bg-white/10'
                           }`}
                         aria-expanded={isCategoryExpanded}
                       >
                         <div className="flex items-center gap-2">
-                          {IconComponent && <IconComponent className="w-3.5 h-3.5 text-emerald-200 flex-shrink-0" />}
+                          {IconComponent && (
+                            <IconComponent
+                              className={`w-3.5 h-3.5 flex-shrink-0 ${isSelected ? 'text-amber-300' : 'text-emerald-200'}`}
+                            />
+                          )}
                           <span>{getBilingual(item.title)}</span>
+                          {isSelected && (
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400 inline-block shadow-xs" />
+                          )}
                         </div>
                         <ChevronDown
-                          className={`w-3.5 h-3.5 text-emerald-200 transition-transform duration-200 flex-shrink-0 ${isCategoryExpanded ? 'rotate-180 text-white' : ''
+                          className={`w-3.5 h-3.5 transition-transform duration-200 flex-shrink-0 ${isCategoryExpanded ? 'rotate-180 text-white' : isSelected ? 'text-amber-300' : 'text-emerald-200'
                             }`}
                         />
                       </button>
@@ -467,14 +574,21 @@ export const MegaMenu: React.FC = () => {
                           setExpandedCategory(null);
                           setExpandedGroup(null);
                         }}
-                        className={`w-full flex items-center justify-between px-3 py-2 text-xs sm:text-sm font-semibold transition-colors ${isDirectActive
-                          ? 'bg-white/20 text-white'
+                        className={`w-full flex items-center justify-between px-3 py-2 text-xs sm:text-sm font-semibold transition-colors ${isSelected
+                          ? 'bg-emerald-600/35 text-white border-l-4 border-amber-400 font-bold'
                           : 'text-white/95 hover:bg-white/10'
                           }`}
                       >
                         <div className="flex items-center gap-2">
-                          {IconComponent && <IconComponent className="w-3.5 h-3.5 text-emerald-200 flex-shrink-0" />}
+                          {IconComponent && (
+                            <IconComponent
+                              className={`w-3.5 h-3.5 flex-shrink-0 ${isSelected ? 'text-amber-300' : 'text-emerald-200'}`}
+                            />
+                          )}
                           <span>{getBilingual(item.title)}</span>
+                          {isSelected && (
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400 inline-block shadow-xs" />
+                          )}
                         </div>
                         <ArrowRight className="w-3 h-3 text-white/50 flex-shrink-0" />
                       </Link>
@@ -515,7 +629,9 @@ export const MegaMenu: React.FC = () => {
                               {isGroupExpanded && (
                                 <div className="px-1.5 py-1 space-y-0.5 bg-black/20 border-t border-white/10 animate-in fade-in duration-150">
                                   {groupLeaves.map((leaf: any, lIdx: number) => {
-                                    const isLeafActive = pathname === leaf.href;
+                                    const cleanPath = (pathname || '').replace(/\/$/, '') || '/';
+                                    const cleanLeafHref = (leaf.href || '').replace(/\/$/, '') || '/';
+                                    const isLeafActive = cleanPath === cleanLeafHref;
                                     return leaf.is_external ? (
                                       <a
                                         key={lIdx}

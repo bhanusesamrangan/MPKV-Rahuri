@@ -5,14 +5,43 @@
   "sourcePage": "extension-adhoc-projects",
   "scrapedAt": "2026-11-22T20:35:31.694056",
   "title": {
-    "en": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Ad-hoc Extension Projects",
+    "mr": "विस्तार विशेष प्रकल्प"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "href": "/extension/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Extension Overview & Centers",
+        "mr": "विस्तार सेवा व केंद्रे"
+      },
+      "href": "/extension/adhoc-projects"
+    },
+    {
+      "title": {
+        "en": "Ad-hoc Extension Projects",
+        "mr": "विस्तार विशेष प्रकल्प"
+      },
+      "href": "/extension/adhoc-projects"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Extension Advisory Projects",
+      "mr": "Extension Advisory Projects"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1275,5 +1304,17 @@
     "noticeCount": 0,
     "mediaCount": 16,
     "totalRecords": 76
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Extension Overview & Centers",
+    "mr": "विस्तार सेवा व केंद्रे"
   }
 }

@@ -5,14 +5,43 @@
   "sourcePage": "extension-atic",
   "scrapedAt": "2026-11-22T20:35:31.203966",
   "title": {
-    "en": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Agricultural Technology Information Centre (ATIC)",
+    "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "href": "/atic-rahuri"
+    },
+    {
+      "title": {
+        "en": "Extension Overview & Centers",
+        "mr": "विस्तार आढावा व केंद्रे"
+      },
+      "href": "/atic-rahuri"
+    },
+    {
+      "title": {
+        "en": "Agricultural Technology Information Centre (ATIC)",
+        "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
+      },
+      "href": "/atic-rahuri"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Agricultural Technology Information Centre",
+      "mr": "Agricultural Technology Information Centre"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1341,5 +1370,17 @@
     "noticeCount": 0,
     "mediaCount": 23,
     "totalRecords": 80
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Extension Overview & Centers",
+    "mr": "विस्तार आढावा व केंद्रे"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "akmu-rahuri",
   "scrapedAt": "2026-11-22T20:36:22.761516",
   "title": {
-    "en": "Agricultural Knowledge Management Unit (AKMU), Rahuri",
-    "mr": "कृषि माहिती व्यवस्थापन विभाग (एकेएमयू), राहुरी"
+    "en": "AKMU Cyber Operations Rahuri",
+    "mr": "एकेएमयू सायबर संकुल राहुरी"
   },
   "breadcrumb": [
     {
@@ -18,8 +18,22 @@
     },
     {
       "title": {
-        "en": "AKMU Rahuri",
-        "mr": "एकेएमयू राहुरी"
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/akmu-rahuri"
+    },
+    {
+      "title": {
+        "en": "University Facilities",
+        "mr": "विद्यापीठ सुविधा"
+      },
+      "href": "/akmu-rahuri"
+    },
+    {
+      "title": {
+        "en": "AKMU Cyber Operations Rahuri",
+        "mr": "एकेएमयू सायबर संकुल राहुरी"
       },
       "href": "/akmu-rahuri"
     }
@@ -40,5 +54,17 @@
   },
   "stats": {
     "totalRecords": 1
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "University Facilities",
+    "mr": "विद्यापीठ सुविधा"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "nodal-cell",
   "scrapedAt": "2026-11-22T20:36:02.334951",
   "title": {
-    "en": "Nodal Cell",
-    "mr": "नोडल सेल"
+    "en": "ICAR Nodal Cell",
+    "mr": "भा.कृ.अनु.प. नोडल सेल"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Nodal Cell",
-        "mr": "नोडल सेल"
+        "en": "Education",
+        "mr": "शिक्षण"
       },
-      "href": "/PmeAndNodel/NodelGuidelines"
+      "href": "/nodal-cell"
+    },
+    {
+      "title": {
+        "en": "ICAR Affairs",
+        "mr": "भा.कृ.अनु.प. समन्वय"
+      },
+      "href": "/nodal-cell"
+    },
+    {
+      "title": {
+        "en": "ICAR Nodal Cell",
+        "mr": "भा.कृ.अनु.प. नोडल सेल"
+      },
+      "href": "/nodal-cell"
     }
   ],
   "hero": {
@@ -1316,5 +1330,17 @@
     "noticeCount": 0,
     "mediaCount": 25,
     "totalRecords": 81
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "ICAR Affairs",
+    "mr": "भा.कृ.अनु.प. समन्वय"
   }
 }

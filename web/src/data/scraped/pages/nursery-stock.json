@@ -5,8 +5,8 @@
   "sourcePage": "nursery-stock",
   "scrapedAt": "2026-11-22T20:36:22.761281",
   "title": {
-    "en": "Nursery Plants & Grafts Availability (MPKV Rahuri)",
-    "mr": "रोपे व कलमे उपलब्धता साठा (मफुकृवि राहुरी)"
+    "en": "Fruit Grafts & Nursery Stock",
+    "mr": "रोपवाटिका साठा"
   },
   "breadcrumb": [
     {
@@ -21,11 +21,18 @@
         "en": "Farmer Services",
         "mr": "शेतकरी सेवा"
       },
-      "href": "#"
+      "href": "/nursery-stock"
     },
     {
       "title": {
-        "en": "Nursery Stock",
+        "en": "Seeds, Grafts & Implements",
+        "mr": "बियाणे, कलमे व अवजारे"
+      },
+      "href": "/nursery-stock"
+    },
+    {
+      "title": {
+        "en": "Fruit Grafts & Nursery Stock",
         "mr": "रोपवाटिका साठा"
       },
       "href": "/nursery-stock"
@@ -534,5 +541,17 @@
     "centralPlantsCount": 7,
     "tableCount": 2,
     "totalRecords": 13
+  },
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Seeds, Grafts & Implements",
+    "mr": "बियाणे, कलमे व अवजारे"
   }
 }

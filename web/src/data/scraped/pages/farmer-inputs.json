@@ -5,8 +5,8 @@
   "sourcePage": "farmer-inputs",
   "scrapedAt": "2026-11-22T20:35:36.613822",
   "title": {
-    "en": "Farmer",
-    "mr": "शेतकरी"
+    "en": "Bio-Fertilizers & Bio-Pesticides",
+    "mr": "जैविक खते व कीटकनाशके"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Farmer",
-        "mr": "शेतकरी"
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
       },
-      "href": "/Farmer/FarmerSciForum"
+      "href": "/seeds-availability"
+    },
+    {
+      "title": {
+        "en": "Seeds, Grafts & Implements",
+        "mr": "बियाणे, कलमे व अवजारे"
+      },
+      "href": "/farmer/bio-inputs"
+    },
+    {
+      "title": {
+        "en": "Bio-Fertilizers & Bio-Pesticides",
+        "mr": "जैविक खते व कीटकनाशके"
+      },
+      "href": "/farmer/bio-inputs"
     }
   ],
   "hero": {
@@ -6064,5 +6078,17 @@
     "noticeCount": 0,
     "mediaCount": 21,
     "totalRecords": 193
+  },
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Seeds, Grafts & Implements",
+    "mr": "बियाणे, कलमे व अवजारे"
   }
 }

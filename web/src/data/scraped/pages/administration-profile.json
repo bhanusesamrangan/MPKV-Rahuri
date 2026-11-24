@@ -5,8 +5,8 @@
   "sourcePage": "administration-profile",
   "scrapedAt": "2026-11-22T20:35:20.907581",
   "title": {
-    "en": "Administration",
-    "mr": "प्रशासन"
+    "en": "Administrative Structure & Profile",
+    "mr": "प्रशासकीय संरचना व माहिती"
   },
   "breadcrumb": [
     {
@@ -14,14 +14,28 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "href": ""
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      },
+      "href": "/administration"
     },
     {
       "title": {
         "en": "Administration",
         "mr": "प्रशासन"
       },
-      "href": ""
+      "href": "/administration"
+    },
+    {
+      "title": {
+        "en": "Administrative Structure & Profile",
+        "mr": "प्रशासकीय संरचना व माहिती"
+      },
+      "href": "/administration"
     }
   ],
   "hero": {
@@ -1187,5 +1201,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 70
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Administration",
+    "mr": "प्रशासन"
   }
 }

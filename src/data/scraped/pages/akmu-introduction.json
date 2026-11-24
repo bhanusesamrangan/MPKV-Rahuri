@@ -5,8 +5,8 @@
   "sourcePage": "akmu-introduction",
   "scrapedAt": "2026-11-22T20:35:21.109528",
   "title": {
-    "en": "Agricultural Knowledge Management Unit",
-    "mr": "कृषि माहिती व्यवस्थापन विभाग"
+    "en": "Agriculture Knowledge Management Unit (AKMU)",
+    "mr": "कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)"
   },
   "breadcrumb": [
     {
@@ -14,7 +14,28 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "href": "/Akmu/Index%2cHome"
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/akmu-introduction"
+    },
+    {
+      "title": {
+        "en": "University Facilities",
+        "mr": "विद्यापीठ सुविधा"
+      },
+      "href": "/akmu-introduction"
+    },
+    {
+      "title": {
+        "en": "Agriculture Knowledge Management Unit (AKMU)",
+        "mr": "कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)"
+      },
+      "href": "/akmu-introduction"
     }
   ],
   "hero": {
@@ -1170,5 +1191,17 @@
     "noticeCount": 0,
     "mediaCount": 16,
     "totalRecords": 72
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "University Facilities",
+    "mr": "विद्यापीठ सुविधा"
   }
 }

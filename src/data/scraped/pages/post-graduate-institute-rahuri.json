@@ -6,7 +6,7 @@
   "scrapedAt": "2026-11-22T20:36:22.761499",
   "title": {
     "en": "Post Graduate Institute (PGI), Rahuri",
-    "mr": "पदव्युत्तर महाविद्यालय, मफुकृवि, राहुरी"
+    "mr": "पदव्युत्तर संस्था (PGI), राहुरी"
   },
   "breadcrumb": [
     {
@@ -21,12 +21,19 @@
         "en": "Education",
         "mr": "शिक्षण"
       },
-      "href": "#"
+      "href": "/post-graduate-institute-rahuri"
     },
     {
       "title": {
-        "en": "PGI Rahuri",
-        "mr": "पदव्युत्तर महाविद्यालय, राहुरी"
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "href": "/post-graduate-institute-rahuri"
+    },
+    {
+      "title": {
+        "en": "Post Graduate Institute (PGI), Rahuri",
+        "mr": "पदव्युत्तर संस्था (PGI), राहुरी"
       },
       "href": "/post-graduate-institute-rahuri"
     }
@@ -137,5 +144,17 @@
     "departmentCount": 10,
     "facilityCount": 4,
     "totalRecords": 14
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
   }
 }

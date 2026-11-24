@@ -5,14 +5,43 @@
   "sourcePage": "research-organizational-profile",
   "scrapedAt": "2026-11-22T20:36:05.449217",
   "title": {
-    "en": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Organizational Profile",
+    "mr": "संस्थात्मक संरचना"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Overview & Profile",
+        "mr": "संशोधन आढावा व रूपरेषा"
+      },
+      "href": "/research/profile"
+    },
+    {
+      "title": {
+        "en": "Organizational Profile",
+        "mr": "संस्थात्मक संरचना"
+      },
+      "href": "/research/profile"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Profile",
+      "mr": "Research Profile"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1299,5 +1328,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 70
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संशोधन आढावा व रूपरेषा"
   }
 }

@@ -5,8 +5,8 @@
   "sourcePage": "dr-as-caet-rahuri",
   "scrapedAt": "2026-11-22T20:36:22.761508",
   "title": {
-    "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology, Rahuri",
-    "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+    "en": "Dr. A.S. College of Agricultural Engineering & Technology",
+    "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय"
   },
   "breadcrumb": [
     {
@@ -21,12 +21,19 @@
         "en": "Education",
         "mr": "शिक्षण"
       },
-      "href": "#"
+      "href": "/dr-as-caet-rahuri"
     },
     {
       "title": {
-        "en": "Dr. A.S. CAET Rahuri",
-        "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय"
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "href": "/dr-as-caet-rahuri"
+    },
+    {
+      "title": {
+        "en": "Dr. A.S. College of Agricultural Engineering & Technology",
+        "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय"
       },
       "href": "/dr-as-caet-rahuri"
     }
@@ -80,5 +87,17 @@
   "stats": {
     "departmentCount": 5,
     "totalRecords": 5
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
   }
 }

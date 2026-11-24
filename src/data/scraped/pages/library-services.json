@@ -5,8 +5,8 @@
   "sourcePage": "library-services",
   "scrapedAt": "2026-11-22T20:35:58.211299",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Library Services",
+    "mr": "ग्रंथालय सेवा"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "About & Collections",
+        "mr": "माहिती व ग्रंथसंग्रह"
+      },
+      "href": "/library/services"
+    },
+    {
+      "title": {
+        "en": "Library Services",
+        "mr": "ग्रंथालय सेवा"
+      },
+      "href": "/library/services"
     }
   ],
   "hero": {
@@ -1263,5 +1277,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 75
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "About & Collections",
+    "mr": "माहिती व ग्रंथसंग्रह"
   }
 }

@@ -5,14 +5,43 @@
   "sourcePage": "education-academic-regulations",
   "scrapedAt": "2026-11-22T20:35:24.098690",
   "title": {
-    "en": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Academic Regulations",
+    "mr": "शैक्षणिक नियमावली"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Overview & Profile",
+        "mr": "संस्थेची माहिती व रूपरेषा"
+      },
+      "href": "/education/regulations"
+    },
+    {
+      "title": {
+        "en": "Academic Regulations",
+        "mr": "शैक्षणिक नियमावली"
+      },
+      "href": "/education/regulations"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Academic Regulations",
+      "mr": "Academic Regulations"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1357,5 +1386,17 @@
     "noticeCount": 0,
     "mediaCount": 18,
     "totalRecords": 76
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Overview & Profile",
+    "mr": "संस्थेची माहिती व रूपरेषा"
   }
 }

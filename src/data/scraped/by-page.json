@@ -6,23 +6,37 @@
     "sourcePage": "about-mahatma-phule",
     "scrapedAt": "2026-11-22T20:35:44.668037",
     "title": {
-      "en": "About Mahatma Phule",
-      "mr": "About Mahatma Phule"
+      "en": "About Mahatma Jyotirao Phule",
+      "mr": "क्रांतीसूर्य महात्मा जोतीराव फुले परिचय"
     },
     "breadcrumb": [
       {
         "title": {
           "en": "Home",
-          "mr": "Home"
+          "mr": "मुख्यपृष्ठ"
         },
-        "href": ""
+        "href": "/"
       },
       {
         "title": {
-          "en": "About Mahatma Phule",
-          "mr": "About Mahatma Phule"
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
         },
-        "href": ""
+        "href": "/Home/aboutphule"
+      },
+      {
+        "title": {
+          "en": "About University",
+          "mr": "विद्यापीठ परिचय"
+        },
+        "href": "/Home/aboutphule"
+      },
+      {
+        "title": {
+          "en": "About Mahatma Jyotirao Phule",
+          "mr": "क्रांतीसूर्य महात्मा जोतीराव फुले परिचय"
+        },
+        "href": "/Home/aboutphule"
       }
     ],
     "hero": {
@@ -1762,6 +1776,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 69
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "About University",
+      "mr": "विद्यापीठ परिचय"
     }
   },
   "act-and-statute": {
@@ -1771,8 +1797,8 @@
     "sourcePage": "act-and-statute",
     "scrapedAt": "2026-11-22T20:35:38.667082",
     "title": {
-      "en": "Act & Statute",
-      "mr": "कायदे"
+      "en": "Maharashtra Agricultural Universities Act & Statutes",
+      "mr": "महाराष्ट्र कृषि विद्यापीठे कायदा व परिनियम"
     },
     "breadcrumb": [
       {
@@ -1781,6 +1807,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/act-and-statute"
+      },
+      {
+        "title": {
+          "en": "Governance",
+          "mr": "शासन व मंडळ"
+        },
+        "href": "/act-and-statute"
+      },
+      {
+        "title": {
+          "en": "Maharashtra Agricultural Universities Act & Statutes",
+          "mr": "महाराष्ट्र कृषि विद्यापीठे कायदा व परिनियम"
+        },
+        "href": "/act-and-statute"
       }
     ],
     "hero": {
@@ -3177,6 +3224,18 @@
       "noticeCount": 0,
       "mediaCount": 23,
       "totalRecords": 87
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Governance",
+      "mr": "शासन व मंडळ"
     }
   },
   "administration-profile": {
@@ -3186,8 +3245,8 @@
     "sourcePage": "administration-profile",
     "scrapedAt": "2026-11-22T20:35:20.907581",
     "title": {
-      "en": "Administration",
-      "mr": "प्रशासन"
+      "en": "Administrative Structure & Profile",
+      "mr": "प्रशासकीय संरचना व माहिती"
     },
     "breadcrumb": [
       {
@@ -3195,14 +3254,28 @@
           "en": "Home",
           "mr": "मुख्यपृष्ठ"
         },
-        "href": ""
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/administration"
       },
       {
         "title": {
           "en": "Administration",
           "mr": "प्रशासन"
         },
-        "href": ""
+        "href": "/administration"
+      },
+      {
+        "title": {
+          "en": "Administrative Structure & Profile",
+          "mr": "प्रशासकीय संरचना व माहिती"
+        },
+        "href": "/administration"
       }
     ],
     "hero": {
@@ -4368,6 +4441,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 70
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Administration",
+      "mr": "प्रशासन"
     }
   },
   "agricultural-universities": {
@@ -4377,8 +4462,8 @@
     "sourcePage": "agricultural-universities",
     "scrapedAt": "2026-11-22T20:35:39.168832",
     "title": {
-      "en": "Internal Quality Assurance Cell",
-      "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+      "en": "Agricultural Universities in Maharashtra",
+      "mr": "महाराष्ट्रातील चारही कृषि विद्यापीठे"
     },
     "breadcrumb": [
       {
@@ -4387,6 +4472,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/agricultural-universities"
+      },
+      {
+        "title": {
+          "en": "About University",
+          "mr": "विद्यापीठ परिचय"
+        },
+        "href": "/agricultural-universities"
+      },
+      {
+        "title": {
+          "en": "Agricultural Universities in Maharashtra",
+          "mr": "महाराष्ट्रातील चारही कृषि विद्यापीठे"
+        },
+        "href": "/agricultural-universities"
       }
     ],
     "hero": {
@@ -7650,6 +7756,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 133
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "About University",
+      "mr": "विद्यापीठ परिचय"
     }
   },
   "agro-advisories": {
@@ -7659,8 +7777,8 @@
     "sourcePage": "agro-advisories",
     "scrapedAt": "2026-11-22T20:35:39.719214",
     "title": {
-      "en": "Agro Advisory",
-      "mr": "कृषि सल्ला"
+      "en": "Weekly Agro Advisory",
+      "mr": "साप्ताहिक शेतकरी सल्ला"
     },
     "breadcrumb": [
       {
@@ -7669,6 +7787,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Farmer Services",
+          "mr": "शेतकरी सेवा"
+        },
+        "href": "/seeds-availability"
+      },
+      {
+        "title": {
+          "en": "Forums & Advisory",
+          "mr": "शेतकरी मंच व सल्ला"
+        },
+        "href": "/farmer/advisories"
+      },
+      {
+        "title": {
+          "en": "Weekly Agro Advisory",
+          "mr": "साप्ताहिक शेतकरी सल्ला"
+        },
+        "href": "/farmer/advisories"
       }
     ],
     "hero": {
@@ -9360,6 +9499,18 @@
       "noticeCount": 0,
       "mediaCount": 44,
       "totalRecords": 109
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Forums & Advisory",
+      "mr": "शेतकरी मंच व सल्ला"
     }
   },
   "akmu-introduction": {
@@ -9369,8 +9520,8 @@
     "sourcePage": "akmu-introduction",
     "scrapedAt": "2026-11-22T20:35:21.109528",
     "title": {
-      "en": "Agricultural Knowledge Management Unit",
-      "mr": "कृषि माहिती व्यवस्थापन विभाग"
+      "en": "Agriculture Knowledge Management Unit (AKMU)",
+      "mr": "कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)"
     },
     "breadcrumb": [
       {
@@ -9378,7 +9529,28 @@
           "en": "Home",
           "mr": "मुख्यपृष्ठ"
         },
-        "href": "/Akmu/Index%2cHome"
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/akmu-introduction"
+      },
+      {
+        "title": {
+          "en": "University Facilities",
+          "mr": "विद्यापीठ सुविधा"
+        },
+        "href": "/akmu-introduction"
+      },
+      {
+        "title": {
+          "en": "Agriculture Knowledge Management Unit (AKMU)",
+          "mr": "कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)"
+        },
+        "href": "/akmu-introduction"
       }
     ],
     "hero": {
@@ -10534,6 +10706,18 @@
       "noticeCount": 0,
       "mediaCount": 16,
       "totalRecords": 72
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "University Facilities",
+      "mr": "विद्यापीठ सुविधा"
     }
   },
   "akmu-rahuri": {
@@ -10543,8 +10727,8 @@
     "sourcePage": "akmu-rahuri",
     "scrapedAt": "2026-11-22T20:36:22.761516",
     "title": {
-      "en": "Agricultural Knowledge Management Unit (AKMU), Rahuri",
-      "mr": "कृषि माहिती व्यवस्थापन विभाग (एकेएमयू), राहुरी"
+      "en": "AKMU Cyber Operations Rahuri",
+      "mr": "एकेएमयू सायबर संकुल राहुरी"
     },
     "breadcrumb": [
       {
@@ -10556,8 +10740,22 @@
       },
       {
         "title": {
-          "en": "AKMU Rahuri",
-          "mr": "एकेएमयू राहुरी"
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/akmu-rahuri"
+      },
+      {
+        "title": {
+          "en": "University Facilities",
+          "mr": "विद्यापीठ सुविधा"
+        },
+        "href": "/akmu-rahuri"
+      },
+      {
+        "title": {
+          "en": "AKMU Cyber Operations Rahuri",
+          "mr": "एकेएमयू सायबर संकुल राहुरी"
         },
         "href": "/akmu-rahuri"
       }
@@ -10578,6 +10776,18 @@
     },
     "stats": {
       "totalRecords": 1
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "University Facilities",
+      "mr": "विद्यापीठ सुविधा"
     }
   },
   "akmu-training": {
@@ -10587,8 +10797,8 @@
     "sourcePage": "akmu-training",
     "scrapedAt": "2026-11-22T20:35:22.353942",
     "title": {
-      "en": "Trainings",
-      "mr": "प्रशिक्षण"
+      "en": "AKMU Training Programs",
+      "mr": "एकेएमयू प्रशिक्षण उपक्रम"
     },
     "breadcrumb": [
       {
@@ -10597,6 +10807,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/akmu-training"
+      },
+      {
+        "title": {
+          "en": "University Facilities",
+          "mr": "विद्यापीठ सुविधा"
+        },
+        "href": "/akmu-training"
+      },
+      {
+        "title": {
+          "en": "AKMU Training Programs",
+          "mr": "एकेएमयू प्रशिक्षण उपक्रम"
+        },
+        "href": "/akmu-training"
       }
     ],
     "hero": {
@@ -11808,6 +12039,18 @@
       "noticeCount": 0,
       "mediaCount": 18,
       "totalRecords": 77
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "University Facilities",
+      "mr": "विद्यापीठ सुविधा"
     }
   },
   "atic-rahuri": {
@@ -11817,8 +12060,8 @@
     "sourcePage": "atic-rahuri",
     "scrapedAt": "2026-11-22T20:36:22.761519",
     "title": {
-      "en": "Agricultural Technology Information Centre (ATIC), Rahuri",
-      "mr": "कृषि तंत्रज्ञान माहिती केंद्र (एटीआयसी), राहुरी"
+      "en": "Agricultural Technology Info Centre (ATIC)",
+      "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
     },
     "breadcrumb": [
       {
@@ -11831,14 +12074,21 @@
       {
         "title": {
           "en": "Extension",
-          "mr": "विस्तार शिक्षण"
+          "mr": "विस्तार"
         },
-        "href": "#"
+        "href": "/atic-rahuri"
       },
       {
         "title": {
-          "en": "ATIC Rahuri",
-          "mr": "एटीआयसी राहुरी"
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/atic-rahuri"
+      },
+      {
+        "title": {
+          "en": "Agricultural Technology Info Centre (ATIC)",
+          "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
         },
         "href": "/atic-rahuri"
       }
@@ -11859,6 +12109,18 @@
     },
     "stats": {
       "totalRecords": 1
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "audio-center": {
@@ -11868,8 +12130,8 @@
     "sourcePage": "audio-center",
     "scrapedAt": "2026-11-22T20:36:22.761491",
     "title": {
-      "en": "Official Audio Center & Phule Krishi Vahini 90.8 FM",
-      "mr": "अधिकृत ध्वनी दालन व फुले कृषिवाहिनी ९०.८ एफएम"
+      "en": "Audio Visual Center & Krishi Radio 90.8 FM",
+      "mr": "श्राव्य-दृश्य केंद्र व कृषि वाहिनी ९०.८ एफएम"
     },
     "breadcrumb": [
       {
@@ -11881,8 +12143,22 @@
       },
       {
         "title": {
-          "en": "Media & Audio",
-          "mr": "माध्यम व ध्वनी"
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/audio-center"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार आढावा व केंद्रे"
+        },
+        "href": "/audio-center"
+      },
+      {
+        "title": {
+          "en": "Audio Visual Center & Krishi Radio 90.8 FM",
+          "mr": "श्राव्य-दृश्य केंद्र व कृषि वाहिनी ९०.८ एफएम"
         },
         "href": "/audio-center"
       }
@@ -11947,6 +12223,18 @@
       "trackCount": 3,
       "streamCount": 1,
       "totalRecords": 4
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार आढावा व केंद्रे"
     }
   },
   "central-library-rahuri": {
@@ -11956,8 +12244,8 @@
     "sourcePage": "central-library-rahuri",
     "scrapedAt": "2026-11-22T20:36:22.761512",
     "title": {
-      "en": "Vasantrao Naik Memorial Central Library, Rahuri",
-      "mr": "वसंतराव नाईक स्मृती मध्यवर्ती ग्रंथालय, राहुरी"
+      "en": "Central Library, Rahuri",
+      "mr": "मध्यवर्ती ग्रंथालय, राहुरी"
     },
     "breadcrumb": [
       {
@@ -11971,6 +12259,20 @@
         "title": {
           "en": "Library",
           "mr": "ग्रंथालय"
+        },
+        "href": "/central-library-rahuri"
+      },
+      {
+        "title": {
+          "en": "About & Collections",
+          "mr": "ग्रंथालय माहिती व संग्रह"
+        },
+        "href": "/central-library-rahuri"
+      },
+      {
+        "title": {
+          "en": "Central Library, Rahuri",
+          "mr": "मध्यवर्ती ग्रंथालय, राहुरी"
         },
         "href": "/central-library-rahuri"
       }
@@ -12018,6 +12320,18 @@
     "stats": {
       "serviceCount": 4,
       "totalRecords": 4
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "About & Collections",
+      "mr": "ग्रंथालय माहिती व संग्रह"
     }
   },
   "circulars": {
@@ -12027,8 +12341,8 @@
     "sourcePage": "circulars",
     "scrapedAt": "2026-11-22T20:35:23.029534",
     "title": {
-      "en": "Circulars",
-      "mr": "परिपत्रके"
+      "en": "Student Circulars & Notices",
+      "mr": "विद्यार्थी परिपत्रके"
     },
     "breadcrumb": [
       {
@@ -12037,6 +12351,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Students",
+          "mr": "विद्यार्थी"
+        },
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/circulars"
+      },
+      {
+        "title": {
+          "en": "Student Circulars & Notices",
+          "mr": "विद्यार्थी परिपत्रके"
+        },
+        "href": "/students/circulars"
       }
     ],
     "hero": {
@@ -21664,6 +21999,18 @@
       "noticeCount": 201,
       "mediaCount": 215,
       "totalRecords": 474
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "colleges-campus": {
@@ -21673,23 +22020,37 @@
     "sourcePage": "colleges-campus",
     "scrapedAt": "2026-11-22T20:35:45.144603",
     "title": {
-      "en": "Campus",
-      "mr": "Campus"
+      "en": "Colleges & Campuses",
+      "mr": "महाविद्यालये व संकुले"
     },
     "breadcrumb": [
       {
         "title": {
           "en": "Home",
-          "mr": "Home"
+          "mr": "मुख्यपृष्ठ"
         },
-        "href": ""
+        "href": "/"
       },
       {
         "title": {
-          "en": "Our Campus",
-          "mr": "Our Campus"
+          "en": "Education",
+          "mr": "शिक्षण"
         },
-        "href": ""
+        "href": "/colleges-campus"
+      },
+      {
+        "title": {
+          "en": "Colleges",
+          "mr": "महाविद्यालये"
+        },
+        "href": "/colleges-campus"
+      },
+      {
+        "title": {
+          "en": "Colleges & Campuses",
+          "mr": "महाविद्यालये व संकुले"
+        },
+        "href": "/colleges-campus"
       }
     ],
     "hero": {
@@ -22848,6 +23209,18 @@
       "noticeCount": 0,
       "mediaCount": 16,
       "totalRecords": 74
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Colleges",
+      "mr": "महाविद्यालये"
     }
   },
   "committees": {
@@ -22857,8 +23230,8 @@
     "sourcePage": "committees",
     "scrapedAt": "2026-11-22T20:35:40.234008",
     "title": {
-      "en": "Committee",
-      "mr": "समिती"
+      "en": "Statutory University Committees",
+      "mr": "वैधानिक समित्या"
     },
     "breadcrumb": [
       {
@@ -22867,6 +23240,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/committees"
+      },
+      {
+        "title": {
+          "en": "Governance",
+          "mr": "शासन व मंडळ"
+        },
+        "href": "/committees"
+      },
+      {
+        "title": {
+          "en": "Statutory University Committees",
+          "mr": "वैधानिक समित्या"
+        },
+        "href": "/committees"
       }
     ],
     "hero": {
@@ -24566,6 +24960,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 87
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Governance",
+      "mr": "शासन व मंडळ"
     }
   },
   "contacts-directory": {
@@ -24585,6 +24991,20 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Contacts",
+          "mr": "संपर्क"
+        },
+        "href": "/contact-us"
+      },
+      {
+        "title": {
+          "en": "Contacts",
+          "mr": "संपर्क"
+        },
+        "href": "/contact-us"
       }
     ],
     "hero": {
@@ -25908,6 +26328,14 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 79
+    },
+    "menuId": "menu_contacts",
+    "parentMenu": {
+      "id": "menu_contacts",
+      "title": {
+        "en": "Contacts",
+        "mr": "संपर्क"
+      }
     }
   },
   "dr-as-caet-rahuri": {
@@ -25917,8 +26345,8 @@
     "sourcePage": "dr-as-caet-rahuri",
     "scrapedAt": "2026-11-22T20:36:22.761508",
     "title": {
-      "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology, Rahuri",
-      "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+      "en": "Dr. A.S. College of Agricultural Engineering & Technology",
+      "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय"
     },
     "breadcrumb": [
       {
@@ -25933,12 +26361,19 @@
           "en": "Education",
           "mr": "शिक्षण"
         },
-        "href": "#"
+        "href": "/dr-as-caet-rahuri"
       },
       {
         "title": {
-          "en": "Dr. A.S. CAET Rahuri",
-          "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय"
+          "en": "Colleges",
+          "mr": "महाविद्यालये"
+        },
+        "href": "/dr-as-caet-rahuri"
+      },
+      {
+        "title": {
+          "en": "Dr. A.S. College of Agricultural Engineering & Technology",
+          "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय"
         },
         "href": "/dr-as-caet-rahuri"
       }
@@ -25992,6 +26427,18 @@
     "stats": {
       "departmentCount": 5,
       "totalRecords": 5
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Colleges",
+      "mr": "महाविद्यालये"
     }
   },
   "education-academic-regulations": {
@@ -26001,14 +26448,43 @@
     "sourcePage": "education-academic-regulations",
     "scrapedAt": "2026-11-22T20:35:24.098690",
     "title": {
-      "en": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Academic Regulations",
+      "mr": "शैक्षणिक नियमावली"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संस्थेची माहिती व रूपरेषा"
+        },
+        "href": "/education/regulations"
+      },
+      {
+        "title": {
+          "en": "Academic Regulations",
+          "mr": "शैक्षणिक नियमावली"
+        },
+        "href": "/education/regulations"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Academic Regulations",
+        "mr": "Academic Regulations"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Academic Regulations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -27353,6 +27829,18 @@
       "noticeCount": 0,
       "mediaCount": 18,
       "totalRecords": 76
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संस्थेची माहिती व रूपरेषा"
     }
   },
   "education-affiliated-colleges": {
@@ -27362,14 +27850,43 @@
     "sourcePage": "education-affiliated-colleges",
     "scrapedAt": "2026-11-22T20:35:24.731387",
     "title": {
-      "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Affiliated Colleges",
+      "mr": "संलग्न महाविद्यालये"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Colleges",
+          "mr": "महाविद्यालये"
+        },
+        "href": "/education/affiliated-colleges"
+      },
+      {
+        "title": {
+          "en": "Affiliated Colleges",
+          "mr": "संलग्न महाविद्यालये"
+        },
+        "href": "/education/affiliated-colleges"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Affiliated Colleges",
+        "mr": "Affiliated Colleges"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -32270,6 +32787,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 143
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Colleges",
+      "mr": "महाविद्यालये"
     }
   },
   "education-at-a-glance": {
@@ -32279,14 +32808,43 @@
     "sourcePage": "education-at-a-glance",
     "scrapedAt": "2026-11-22T20:35:23.603515",
     "title": {
-      "en": "At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Education at a Glance",
+      "mr": "दृष्टीक्षेपात शिक्षण"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संस्थेची माहिती व रूपरेषा"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Education at a Glance",
+          "mr": "दृष्टीक्षेपात शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "At a Glance",
+        "mr": "At a Glance"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -33654,6 +34212,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 78
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संस्थेची माहिती व रूपरेषा"
     }
   },
   "education-certificate-courses": {
@@ -33663,14 +34233,43 @@
     "sourcePage": "education-certificate-courses",
     "scrapedAt": "2026-11-22T20:35:25.280867",
     "title": {
-      "en": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Certificate Courses",
+      "mr": "प्रमाणपत्र अभ्यासक्रम"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Courses & Curriculum",
+          "mr": "अभ्यासक्रम व पदव्या"
+        },
+        "href": "/education/certificate-courses"
+      },
+      {
+        "title": {
+          "en": "Certificate Courses",
+          "mr": "प्रमाणपत्र अभ्यासक्रम"
+        },
+        "href": "/education/certificate-courses"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Certificate Courses",
+        "mr": "Certificate Courses"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -35328,6 +35927,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 76
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Courses & Curriculum",
+      "mr": "अभ्यासक्रम व पदव्या"
     }
   },
   "education-constituent-colleges": {
@@ -35337,14 +35948,43 @@
     "sourcePage": "education-constituent-colleges",
     "scrapedAt": "2026-11-22T20:35:25.818400",
     "title": {
-      "en": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Constituent Colleges",
+      "mr": "घटक महाविद्यालये"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Colleges",
+          "mr": "महाविद्यालये"
+        },
+        "href": "/education/constituent-colleges"
+      },
+      {
+        "title": {
+          "en": "Constituent Colleges",
+          "mr": "घटक महाविद्यालये"
+        },
+        "href": "/education/constituent-colleges"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Constituent Colleges",
+        "mr": "Constituent Colleges"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Constituent Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -37748,6 +38388,18 @@
       "noticeCount": 0,
       "mediaCount": 17,
       "totalRecords": 120
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Colleges",
+      "mr": "महाविद्यालये"
     }
   },
   "education-courses-bachelors": {
@@ -37757,14 +38409,43 @@
     "sourcePage": "education-courses-bachelors",
     "scrapedAt": "2026-11-22T20:35:26.345204",
     "title": {
-      "en": "Bachelor Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Bachelor Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Bachelor's",
+      "mr": "पदवी अभ्यासक्रम"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Courses & Curriculum",
+          "mr": "अभ्यासक्रम व पदव्या"
+        },
+        "href": "/education/bachelors"
+      },
+      {
+        "title": {
+          "en": "Bachelor's",
+          "mr": "पदवी अभ्यासक्रम"
+        },
+        "href": "/education/bachelors"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Bachelor Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Bachelor Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Bachelor Courses",
+        "mr": "Bachelor Courses"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Bachelor Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -39275,6 +39956,18 @@
       "noticeCount": 0,
       "mediaCount": 20,
       "totalRecords": 81
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Courses & Curriculum",
+      "mr": "अभ्यासक्रम व पदव्या"
     }
   },
   "education-courses-diploma": {
@@ -39284,14 +39977,43 @@
     "sourcePage": "education-courses-diploma",
     "scrapedAt": "2026-11-22T20:35:26.842838",
     "title": {
-      "en": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Diploma",
+      "mr": "पदविका"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Courses & Curriculum",
+          "mr": "अभ्यासक्रम व पदव्या"
+        },
+        "href": "/education/diploma"
+      },
+      {
+        "title": {
+          "en": "Diploma",
+          "mr": "पदविका"
+        },
+        "href": "/education/diploma"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Diploma Courses",
+        "mr": "Diploma Courses"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Diploma Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -40642,6 +41364,18 @@
       "noticeCount": 0,
       "mediaCount": 16,
       "totalRecords": 73
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Courses & Curriculum",
+      "mr": "अभ्यासक्रम व पदव्या"
     }
   },
   "education-courses-doctoral": {
@@ -40651,14 +41385,43 @@
     "sourcePage": "education-courses-doctoral",
     "scrapedAt": "2026-11-22T20:35:27.389398",
     "title": {
-      "en": "Doctoral Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Doctoral Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Doctoral (Ph.D.) Eligibility",
+      "mr": "आचार्य (Ph.D.) पात्रता"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Students",
+          "mr": "विद्यार्थी"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Admission Eligibility",
+          "mr": "प्रवेश पात्रता निकष"
+        },
+        "href": "/education/doctoral"
+      },
+      {
+        "title": {
+          "en": "Doctoral (Ph.D.) Eligibility",
+          "mr": "आचार्य (Ph.D.) पात्रता"
+        },
+        "href": "/education/doctoral"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Doctoral Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Doctoral Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Doctoral Courses",
+        "mr": "Doctoral Courses"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Doctoral Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -42412,6 +43175,18 @@
       "noticeCount": 0,
       "mediaCount": 22,
       "totalRecords": 89
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Admission Eligibility",
+      "mr": "प्रवेश पात्रता निकष"
     }
   },
   "education-courses-masters": {
@@ -42421,14 +43196,43 @@
     "sourcePage": "education-courses-masters",
     "scrapedAt": "2026-11-22T20:35:27.965708",
     "title": {
-      "en": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Master's & Doctoral",
+      "mr": "पदव्युत्तर व आचार्य पदवी"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Courses & Curriculum",
+          "mr": "अभ्यासक्रम व पदव्या"
+        },
+        "href": "/education/masters-doctoral"
+      },
+      {
+        "title": {
+          "en": "Master's & Doctoral",
+          "mr": "पदव्युत्तर व आचार्य पदवी"
+        },
+        "href": "/education/masters-doctoral"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Master Courses",
+        "mr": "Master Courses"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Master Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -44908,6 +45712,18 @@
       "noticeCount": 0,
       "mediaCount": 39,
       "totalRecords": 124
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Courses & Curriculum",
+      "mr": "अभ्यासक्रम व पदव्या"
     }
   },
   "education-diploma-schools": {
@@ -44917,14 +45733,43 @@
     "sourcePage": "education-diploma-schools",
     "scrapedAt": "2026-11-22T20:35:28.554166",
     "title": {
-      "en": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Diploma (Agril. Tech. Schools)",
+      "mr": "कृषि तंत्र विद्यालये (पदविका)"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Courses & Curriculum",
+          "mr": "अभ्यासक्रम व पदव्या"
+        },
+        "href": "/education/diploma-schools"
+      },
+      {
+        "title": {
+          "en": "Diploma (Agril. Tech. Schools)",
+          "mr": "कृषि तंत्र विद्यालये (पदविका)"
+        },
+        "href": "/education/diploma-schools"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Diploma Schools",
+        "mr": "Diploma Schools"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Diploma Schools - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -50140,6 +50985,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 166
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Courses & Curriculum",
+      "mr": "अभ्यासक्रम व पदव्या"
     }
   },
   "education-faculty-agricultural-engineering": {
@@ -50149,14 +51006,43 @@
     "sourcePage": "education-faculty-agricultural-engineering",
     "scrapedAt": "2026-11-22T20:35:29.078191",
     "title": {
-      "en": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Agricultural Engineering Faculty",
+      "mr": "कृषि अभियांत्रिकी शाखा"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Faculty Branches",
+          "mr": "विद्याशाखा"
+        },
+        "href": "/education/faculty-agricultural-engineering"
+      },
+      {
+        "title": {
+          "en": "Agricultural Engineering Faculty",
+          "mr": "कृषि अभियांत्रिकी शाखा"
+        },
+        "href": "/education/faculty-agricultural-engineering"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Faculty of Agricultural Engineering",
+        "mr": "Faculty of Agricultural Engineering"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Faculty of Agricultural Engineering - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -51614,6 +52500,18 @@
       "noticeCount": 0,
       "mediaCount": 19,
       "totalRecords": 81
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Faculty Branches",
+      "mr": "विद्याशाखा"
     }
   },
   "education-faculty-agricultural-science": {
@@ -51623,14 +52521,43 @@
     "sourcePage": "education-faculty-agricultural-science",
     "scrapedAt": "2026-11-22T20:35:29.614585",
     "title": {
-      "en": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Agricultural Science Faculty",
+      "mr": "कृषि विज्ञान शाखा"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Faculty Branches",
+          "mr": "विद्याशाखा"
+        },
+        "href": "/education/faculty-agricultural-science"
+      },
+      {
+        "title": {
+          "en": "Agricultural Science Faculty",
+          "mr": "कृषि विज्ञान शाखा"
+        },
+        "href": "/education/faculty-agricultural-science"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Faculty of Agriculture Science",
+        "mr": "Faculty of Agriculture Science"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Faculty of Agriculture Science - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -53440,6 +54367,18 @@
       "noticeCount": 0,
       "mediaCount": 30,
       "totalRecords": 103
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Faculty Branches",
+      "mr": "विद्याशाखा"
     }
   },
   "education-organizational-profile": {
@@ -53449,14 +54388,43 @@
     "sourcePage": "education-organizational-profile",
     "scrapedAt": "2026-11-22T20:35:30.170420",
     "title": {
-      "en": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Organizational Profile",
+      "mr": "संस्थात्मक संरचना"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संस्थेची माहिती व रूपरेषा"
+        },
+        "href": "/education/profile"
+      },
+      {
+        "title": {
+          "en": "Organizational Profile",
+          "mr": "संस्थात्मक संरचना"
+        },
+        "href": "/education/profile"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Education Profile",
+        "mr": "Education Profile"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Education Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -54703,6 +55671,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 70
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संस्थेची माहिती व रूपरेषा"
     }
   },
   "education-thrust-areas": {
@@ -54712,14 +55692,43 @@
     "sourcePage": "education-thrust-areas",
     "scrapedAt": "2026-11-22T20:35:30.659224",
     "title": {
-      "en": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Thrust Areas",
+      "mr": "प्राधान्यक्रम"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/education/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संस्थेची माहिती व रूपरेषा"
+        },
+        "href": "/education/thrust-areas"
+      },
+      {
+        "title": {
+          "en": "Thrust Areas",
+          "mr": "प्राधान्यक्रम"
+        },
+        "href": "/education/thrust-areas"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Education Thrust Areas",
+        "mr": "Education Thrust Areas"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Education Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -56191,6 +57200,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 69
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संस्थेची माहिती व रूपरेषा"
     }
   },
   "employee-corner": {
@@ -56200,8 +57221,8 @@
     "sourcePage": "employee-corner",
     "scrapedAt": "2026-11-22T20:35:45.620854",
     "title": {
-      "en": "Employee Corner",
-      "mr": "Employee Corner"
+      "en": "Employee Corner & Pension Desk",
+      "mr": "कर्मचारी कक्ष व सेवानिवृत्ती मंच"
     },
     "breadcrumb": [
       {
@@ -56210,6 +57231,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/employee-corner"
+      },
+      {
+        "title": {
+          "en": "Staff Services",
+          "mr": "कर्मचारी कक्ष"
+        },
+        "href": "/employee-corner"
+      },
+      {
+        "title": {
+          "en": "Employee Corner & Pension Desk",
+          "mr": "कर्मचारी कक्ष व सेवानिवृत्ती मंच"
+        },
+        "href": "/employee-corner"
       }
     ],
     "hero": {
@@ -57453,6 +58495,18 @@
       "noticeCount": 0,
       "mediaCount": 19,
       "totalRecords": 79
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Staff Services",
+      "mr": "कर्मचारी कक्ष"
     }
   },
   "events-convocation": {
@@ -57462,8 +58516,8 @@
     "sourcePage": "events-convocation",
     "scrapedAt": "2026-11-22T20:36:00.878631",
     "title": {
-      "en": "Periodical Events",
-      "mr": "नियतकालिक कार्यक्रम"
+      "en": "Annual Convocation Ceremony",
+      "mr": "वार्षिक पदवीदान समारंभ"
     },
     "breadcrumb": [
       {
@@ -57475,10 +58529,24 @@
       },
       {
         "title": {
-          "en": "Periodical Events",
-          "mr": "नियतकालिक कार्यक्रम"
+          "en": "Education",
+          "mr": "शिक्षण"
         },
-        "href": "/PeriodicalEvent/Convocation"
+        "href": "/events-convocation"
+      },
+      {
+        "title": {
+          "en": "Academic Events",
+          "mr": "शैक्षणिक सोहळे"
+        },
+        "href": "/events-convocation"
+      },
+      {
+        "title": {
+          "en": "Annual Convocation Ceremony",
+          "mr": "वार्षिक पदवीदान समारंभ"
+        },
+        "href": "/events-convocation"
       }
     ],
     "hero": {
@@ -59109,6 +60177,18 @@
       "noticeCount": 0,
       "mediaCount": 49,
       "totalRecords": 122
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Academic Events",
+      "mr": "शैक्षणिक सोहळे"
     }
   },
   "events-joint-agresco": {
@@ -59118,8 +60198,8 @@
     "sourcePage": "events-joint-agresco",
     "scrapedAt": "2026-11-22T20:36:01.380865",
     "title": {
-      "en": "Periodical Events",
-      "mr": "नियतकालिक कार्यक्रम"
+      "en": "Joint Agresco Research Meet",
+      "mr": "संयुक्त अग्रेस्को संशोधन बैठक"
     },
     "breadcrumb": [
       {
@@ -59131,10 +60211,24 @@
       },
       {
         "title": {
-          "en": "Periodical Events",
-          "mr": "नियतकालिक कार्यक्रम"
+          "en": "Research",
+          "mr": "संशोधन"
         },
-        "href": "/PeriodicalEvent/Convocation"
+        "href": "/events-joint-agresco"
+      },
+      {
+        "title": {
+          "en": "Research Review Mechanism",
+          "mr": "संशोधन पुनरावलोकन"
+        },
+        "href": "/events-joint-agresco"
+      },
+      {
+        "title": {
+          "en": "Joint Agresco Research Meet",
+          "mr": "संयुक्त अग्रेस्को संशोधन बैठक"
+        },
+        "href": "/events-joint-agresco"
       }
     ],
     "hero": {
@@ -60669,6 +61763,18 @@
       "noticeCount": 0,
       "mediaCount": 33,
       "totalRecords": 106
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Research Review Mechanism",
+      "mr": "संशोधन पुनरावलोकन"
     }
   },
   "events-vanmohotsav": {
@@ -60678,8 +61784,8 @@
     "sourcePage": "events-vanmohotsav",
     "scrapedAt": "2026-11-22T20:36:01.875508",
     "title": {
-      "en": "Periodical Events",
-      "mr": "नियतकालिक कार्यक्रम"
+      "en": "Vanmohotsav & Tree Plantation",
+      "mr": "वनमहोत्सव व वृक्षारोपण मोहीम"
     },
     "breadcrumb": [
       {
@@ -60691,10 +61797,24 @@
       },
       {
         "title": {
-          "en": "Periodical Events",
-          "mr": "नियतकालिक कार्यक्रम"
+          "en": "Extension",
+          "mr": "विस्तार"
         },
-        "href": "/PeriodicalEvent/Convocation"
+        "href": "/events-vanmohotsav"
+      },
+      {
+        "title": {
+          "en": "Community Events",
+          "mr": "पर्यावरण व सामाजिक उपक्रम"
+        },
+        "href": "/events-vanmohotsav"
+      },
+      {
+        "title": {
+          "en": "Vanmohotsav & Tree Plantation",
+          "mr": "वनमहोत्सव व वृक्षारोपण मोहीम"
+        },
+        "href": "/events-vanmohotsav"
       }
     ],
     "hero": {
@@ -62083,6 +63203,18 @@
       "noticeCount": 0,
       "mediaCount": 20,
       "totalRecords": 89
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Community Events",
+      "mr": "पर्यावरण व सामाजिक उपक्रम"
     }
   },
   "executive-council": {
@@ -62092,8 +63224,8 @@
     "sourcePage": "executive-council",
     "scrapedAt": "2026-11-22T20:35:59.291153",
     "title": {
-      "en": "Contacts",
-      "mr": "संपर्क"
+      "en": "Executive Council",
+      "mr": "कार्यकारी परिषद"
     },
     "breadcrumb": [
       {
@@ -62102,6 +63234,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/executive-council"
+      },
+      {
+        "title": {
+          "en": "Governance",
+          "mr": "शासन व मंडळ"
+        },
+        "href": "/executive-council"
+      },
+      {
+        "title": {
+          "en": "Executive Council",
+          "mr": "कार्यकारी परिषद"
+        },
+        "href": "/executive-council"
       }
     ],
     "hero": {
@@ -64706,6 +65859,18 @@
       "noticeCount": 0,
       "mediaCount": 29,
       "totalRecords": 116
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Governance",
+      "mr": "शासन व मंडळ"
     }
   },
   "extension-adhoc-projects": {
@@ -64715,14 +65880,43 @@
     "sourcePage": "extension-adhoc-projects",
     "scrapedAt": "2026-11-22T20:35:31.694056",
     "title": {
-      "en": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Ad-hoc Extension Projects",
+      "mr": "विस्तार विशेष प्रकल्प"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/extension/adhoc-projects"
+      },
+      {
+        "title": {
+          "en": "Ad-hoc Extension Projects",
+          "mr": "विस्तार विशेष प्रकल्प"
+        },
+        "href": "/extension/adhoc-projects"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Extension Advisory Projects",
+        "mr": "Extension Advisory Projects"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Advisory Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -65985,6 +67179,18 @@
       "noticeCount": 0,
       "mediaCount": 16,
       "totalRecords": 76
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "extension-at-a-glance": {
@@ -65994,14 +67200,43 @@
     "sourcePage": "extension-at-a-glance",
     "scrapedAt": "2026-11-22T20:35:32.192314",
     "title": {
-      "en": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Extension at a Glance",
+      "mr": "दृष्टीक्षेपात विस्तार शिक्षण"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Extension at a Glance",
+          "mr": "दृष्टीक्षेपात विस्तार शिक्षण"
+        },
+        "href": "/extension/at-a-glance"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Extension At a Glance",
+        "mr": "Extension At a Glance"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -67305,6 +68540,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 73
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "extension-atic": {
@@ -67314,14 +68561,43 @@
     "sourcePage": "extension-atic",
     "scrapedAt": "2026-11-22T20:35:31.203966",
     "title": {
-      "en": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Agricultural Technology Information Centre (ATIC)",
+      "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/atic-rahuri"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार आढावा व केंद्रे"
+        },
+        "href": "/atic-rahuri"
+      },
+      {
+        "title": {
+          "en": "Agricultural Technology Information Centre (ATIC)",
+          "mr": "कृषि तंत्रज्ञान माहिती केंद्र (ATIC)"
+        },
+        "href": "/atic-rahuri"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Agricultural Technology Information Centre",
+        "mr": "Agricultural Technology Information Centre"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Agricultural Technology Information Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -68650,6 +69926,18 @@
       "noticeCount": 0,
       "mediaCount": 23,
       "totalRecords": 80
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार आढावा व केंद्रे"
     }
   },
   "extension-communication-center": {
@@ -68659,14 +69947,43 @@
     "sourcePage": "extension-communication-center",
     "scrapedAt": "2026-11-22T20:35:32.688104",
     "title": {
-      "en": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Communication Centre & Radio 90.8 FM",
+      "mr": "संप्रेषण केंद्र व ९०.८ एफएम वाहिनी"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/communication-centre"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/communication-centre"
+      },
+      {
+        "title": {
+          "en": "Communication Centre & Radio 90.8 FM",
+          "mr": "संप्रेषण केंद्र व ९०.८ एफएम वाहिनी"
+        },
+        "href": "/communication-centre"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Communication Centre",
+        "mr": "Communication Centre"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -69902,6 +71219,18 @@
       "noticeCount": 0,
       "mediaCount": 19,
       "totalRecords": 76
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "extension-district-centers": {
@@ -69911,14 +71240,43 @@
     "sourcePage": "extension-district-centers",
     "scrapedAt": "2026-11-22T20:35:33.702168",
     "title": {
-      "en": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "District Extension Centers",
+      "mr": "जिल्हा विस्तार केंद्रे"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Regional & District Centers",
+          "mr": "विभागीय व जिल्हा विस्तार केंद्रे"
+        },
+        "href": "/extension/district-centers"
+      },
+      {
+        "title": {
+          "en": "District Extension Centers",
+          "mr": "जिल्हा विस्तार केंद्रे"
+        },
+        "href": "/extension/district-centers"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Extension Center DEC",
+        "mr": "Extension Center DEC"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -71360,6 +72718,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 76
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Regional & District Centers",
+      "mr": "विभागीय व जिल्हा विस्तार केंद्रे"
     }
   },
   "extension-krishi-vigyan-kendras": {
@@ -71369,14 +72739,43 @@
     "sourcePage": "extension-krishi-vigyan-kendras",
     "scrapedAt": "2026-11-22T20:35:34.267192",
     "title": {
-      "en": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Krishi Vigyan Kendras (KVK)",
+      "mr": "कृषि विज्ञान केंद्रे (KVK)"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/extension/krishi-vigyan-kendras"
+      },
+      {
+        "title": {
+          "en": "Krishi Vigyan Kendras (KVK)",
+          "mr": "कृषि विज्ञान केंद्रे (KVK)"
+        },
+        "href": "/extension/krishi-vigyan-kendras"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Krishi Vigyan Kendra",
+        "mr": "Krishi Vigyan Kendra"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -73446,6 +74845,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 90
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "extension-organizational-profile": {
@@ -73455,14 +74866,43 @@
     "sourcePage": "extension-organizational-profile",
     "scrapedAt": "2026-11-22T20:35:34.808422",
     "title": {
-      "en": "Extension Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Organizational Profile",
+      "mr": "संस्थात्मक संरचना"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/extension/profile"
+      },
+      {
+        "title": {
+          "en": "Organizational Profile",
+          "mr": "संस्थात्मक संरचना"
+        },
+        "href": "/extension/profile"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Extension Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Extension Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Extension Profile",
+        "mr": "Extension Profile"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -74643,6 +76083,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 70
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "extension-publications": {
@@ -74652,14 +76104,43 @@
     "sourcePage": "extension-publications",
     "scrapedAt": "2026-11-22T20:35:35.481680",
     "title": {
-      "en": "Extension Publications - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Publications - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Extension Publications & Krishidarshani",
+      "mr": "विस्तार प्रकाशने व कृषिदर्शनी"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/extension/publications"
+      },
+      {
+        "title": {
+          "en": "Extension Publications & Krishidarshani",
+          "mr": "विस्तार प्रकाशने व कृषिदर्शनी"
+        },
+        "href": "/extension/publications"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Extension Publications - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Extension Publications - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Extension Publications",
+        "mr": "Extension Publications"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Publications - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -83674,6 +85155,18 @@
       "noticeCount": 0,
       "mediaCount": 271,
       "totalRecords": 609
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "extension-regional-centers": {
@@ -83683,14 +85176,43 @@
     "sourcePage": "extension-regional-centers",
     "scrapedAt": "2026-11-22T20:35:33.225798",
     "title": {
-      "en": "Extension Centers - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Centers - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Regional Extension Centers",
+      "mr": "विभागीय विस्तार केंद्रे"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Regional & District Centers",
+          "mr": "विभागीय व जिल्हा विस्तार केंद्रे"
+        },
+        "href": "/extension/regional-centers"
+      },
+      {
+        "title": {
+          "en": "Regional Extension Centers",
+          "mr": "विभागीय विस्तार केंद्रे"
+        },
+        "href": "/extension/regional-centers"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Extension Centers - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Extension Centers - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Extension Centers",
+        "mr": "Extension Centers"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Centers - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -85136,6 +86658,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 77
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Regional & District Centers",
+      "mr": "विभागीय व जिल्हा विस्तार केंद्रे"
     }
   },
   "extension-thrust-areas": {
@@ -85145,14 +86679,43 @@
     "sourcePage": "extension-thrust-areas",
     "scrapedAt": "2026-11-22T20:35:36.028357",
     "title": {
-      "en": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Thrust Areas",
+      "mr": "विस्तार प्राधान्यक्रम"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Extension",
+          "mr": "विस्तार"
+        },
+        "href": "/extension/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Extension Overview & Centers",
+          "mr": "विस्तार सेवा व केंद्रे"
+        },
+        "href": "/extension/thrust-areas"
+      },
+      {
+        "title": {
+          "en": "Thrust Areas",
+          "mr": "विस्तार प्राधान्यक्रम"
+        },
+        "href": "/extension/thrust-areas"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Extension Thrust Areas",
+        "mr": "Extension Thrust Areas"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -86404,6 +87967,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 69
+    },
+    "menuId": "menu_extension",
+    "parentMenu": {
+      "id": "menu_extension",
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      }
+    },
+    "submenuGroup": {
+      "en": "Extension Overview & Centers",
+      "mr": "विस्तार सेवा व केंद्रे"
     }
   },
   "faculty-directory": {
@@ -86413,23 +87988,37 @@
     "sourcePage": "faculty-directory",
     "scrapedAt": "2026-11-22T20:35:46.112026",
     "title": {
-      "en": "Faculty",
-      "mr": "Faculty"
+      "en": "Faculty Directory",
+      "mr": "प्राध्यापक निर्देशिका"
     },
     "breadcrumb": [
       {
         "title": {
           "en": "Home",
-          "mr": "Home"
+          "mr": "मुख्यपृष्ठ"
         },
-        "href": ""
+        "href": "/"
       },
       {
         "title": {
-          "en": "Faculty",
-          "mr": "Faculty"
+          "en": "Education",
+          "mr": "शिक्षण"
         },
-        "href": ""
+        "href": "/faculty-directory"
+      },
+      {
+        "title": {
+          "en": "Faculty Branches",
+          "mr": "विद्याशाखा"
+        },
+        "href": "/faculty-directory"
+      },
+      {
+        "title": {
+          "en": "Faculty Directory",
+          "mr": "प्राध्यापक निर्देशिका"
+        },
+        "href": "/faculty-directory"
       }
     ],
     "hero": {
@@ -87585,6 +89174,18 @@
       "noticeCount": 0,
       "mediaCount": 20,
       "totalRecords": 75
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Faculty Branches",
+      "mr": "विद्याशाखा"
     }
   },
   "farm-implements": {
@@ -87594,8 +89195,8 @@
     "sourcePage": "farm-implements",
     "scrapedAt": "2026-11-22T20:36:22.761307",
     "title": {
-      "en": "Farm Implements & Machinery Developed at MPKV Rahuri",
-      "mr": "मफुकृवि राहुरी विकसित शेती अवजारे व यंत्रे"
+      "en": "Farm Implements & Machinery",
+      "mr": "शेती अवजारे व यंत्रे"
     },
     "breadcrumb": [
       {
@@ -87610,12 +89211,19 @@
           "en": "Research",
           "mr": "संशोधन"
         },
-        "href": "#"
+        "href": "/farm-implements"
       },
       {
         "title": {
-          "en": "Farm Implements",
-          "mr": "शेती अवजारे"
+          "en": "Technology & Releases",
+          "mr": "प्रगत तंत्रज्ञान व वाण"
+        },
+        "href": "/farm-implements"
+      },
+      {
+        "title": {
+          "en": "Farm Implements & Machinery",
+          "mr": "शेती अवजारे व यंत्रे"
         },
         "href": "/farm-implements"
       }
@@ -89355,6 +90963,18 @@
       "implementCount": 35,
       "tableCount": 1,
       "totalRecords": 35
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Technology & Releases",
+      "mr": "प्रगत तंत्रज्ञान व वाण"
     }
   },
   "farmer-inputs": {
@@ -89364,8 +90984,8 @@
     "sourcePage": "farmer-inputs",
     "scrapedAt": "2026-11-22T20:35:36.613822",
     "title": {
-      "en": "Farmer",
-      "mr": "शेतकरी"
+      "en": "Bio-Fertilizers & Bio-Pesticides",
+      "mr": "जैविक खते व कीटकनाशके"
     },
     "breadcrumb": [
       {
@@ -89377,10 +90997,24 @@
       },
       {
         "title": {
-          "en": "Farmer",
-          "mr": "शेतकरी"
+          "en": "Farmer Services",
+          "mr": "शेतकरी सेवा"
         },
-        "href": "/Farmer/FarmerSciForum"
+        "href": "/seeds-availability"
+      },
+      {
+        "title": {
+          "en": "Seeds, Grafts & Implements",
+          "mr": "बियाणे, कलमे व अवजारे"
+        },
+        "href": "/farmer/bio-inputs"
+      },
+      {
+        "title": {
+          "en": "Bio-Fertilizers & Bio-Pesticides",
+          "mr": "जैविक खते व कीटकनाशके"
+        },
+        "href": "/farmer/bio-inputs"
       }
     ],
     "hero": {
@@ -95423,6 +97057,18 @@
       "noticeCount": 0,
       "mediaCount": 21,
       "totalRecords": 193
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Seeds, Grafts & Implements",
+      "mr": "बियाणे, कलमे व अवजारे"
     }
   },
   "farmer-kisan-aadhar": {
@@ -95432,8 +97078,8 @@
     "sourcePage": "farmer-kisan-aadhar",
     "scrapedAt": "2026-11-22T20:35:37.154205",
     "title": {
-      "en": "Farmer",
-      "mr": "शेतकरी"
+      "en": "Kisan Aadhar Sammelan",
+      "mr": "किसान आधार संमेलन"
     },
     "breadcrumb": [
       {
@@ -95445,10 +97091,24 @@
       },
       {
         "title": {
-          "en": "Farmer",
-          "mr": "शेतकरी"
+          "en": "Farmer Services",
+          "mr": "शेतकरी सेवा"
         },
-        "href": "/Farmer/FarmerSciForum"
+        "href": "/seeds-availability"
+      },
+      {
+        "title": {
+          "en": "Forums & Advisory",
+          "mr": "शेतकरी मंच व सल्ला"
+        },
+        "href": "/farmer/kisan-aadhar"
+      },
+      {
+        "title": {
+          "en": "Kisan Aadhar Sammelan",
+          "mr": "किसान आधार संमेलन"
+        },
+        "href": "/farmer/kisan-aadhar"
       }
     ],
     "hero": {
@@ -96754,6 +98414,18 @@
       "noticeCount": 0,
       "mediaCount": 25,
       "totalRecords": 87
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Forums & Advisory",
+      "mr": "शेतकरी मंच व सल्ला"
     }
   },
   "farmer-scientist-forum": {
@@ -96763,8 +98435,8 @@
     "sourcePage": "farmer-scientist-forum",
     "scrapedAt": "2026-11-22T20:35:37.653418",
     "title": {
-      "en": "Farmer",
-      "mr": "शेतकरी"
+      "en": "Farmer Scientist Forum",
+      "mr": "शेतकरी शास्त्रज्ञ मंच"
     },
     "breadcrumb": [
       {
@@ -96776,10 +98448,24 @@
       },
       {
         "title": {
-          "en": "Farmer",
-          "mr": "शेतकरी"
+          "en": "Farmer Services",
+          "mr": "शेतकरी सेवा"
         },
-        "href": "/Farmer/FarmerSciForum"
+        "href": "/seeds-availability"
+      },
+      {
+        "title": {
+          "en": "Forums & Advisory",
+          "mr": "शेतकरी मंच व सल्ला"
+        },
+        "href": "/farmer/scientist-forum"
+      },
+      {
+        "title": {
+          "en": "Farmer Scientist Forum",
+          "mr": "शेतकरी शास्त्रज्ञ मंच"
+        },
+        "href": "/farmer/scientist-forum"
       }
     ],
     "hero": {
@@ -98081,6 +99767,18 @@
       "noticeCount": 0,
       "mediaCount": 20,
       "totalRecords": 76
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Forums & Advisory",
+      "mr": "शेतकरी मंच व सल्ला"
     }
   },
   "finance": {
@@ -98090,8 +99788,8 @@
     "sourcePage": "finance",
     "scrapedAt": "2026-11-22T20:35:38.176003",
     "title": {
-      "en": "Finance",
-      "mr": "वित्त"
+      "en": "Finance & Accounts Division",
+      "mr": "वित्त व लेखा विभाग"
     },
     "breadcrumb": [
       {
@@ -98103,10 +99801,24 @@
       },
       {
         "title": {
-          "en": "Finance",
-          "mr": "वित्त"
+          "en": "Officers",
+          "mr": "अधिकारी"
         },
-        "href": "/Finance/AboutFinance"
+        "href": "/finance"
+      },
+      {
+        "title": {
+          "en": "Comptroller",
+          "mr": "वित्त व लेखा"
+        },
+        "href": "/finance"
+      },
+      {
+        "title": {
+          "en": "Finance & Accounts Division",
+          "mr": "वित्त व लेखा विभाग"
+        },
+        "href": "/finance"
       }
     ],
     "hero": {
@@ -99334,6 +101046,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 71
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Comptroller",
+      "mr": "वित्त व लेखा"
     }
   },
   "grievance-redressal": {
@@ -99343,8 +101067,8 @@
     "sourcePage": "grievance-redressal",
     "scrapedAt": "2026-11-22T20:35:59.834349",
     "title": {
-      "en": "Grievance Redressal",
-      "mr": "Grievance Redressal"
+      "en": "Grievance Redressal Portal",
+      "mr": "तक्रार निवारण कक्ष"
     },
     "breadcrumb": [
       {
@@ -99353,6 +101077,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Farmer Services",
+          "mr": "शेतकरी सेवा"
+        },
+        "href": "/transparency-and-grievance"
+      },
+      {
+        "title": {
+          "en": "Public Services",
+          "mr": "लोकसेवा हक्क व तक्रार निवारण"
+        },
+        "href": "/transparency-and-grievance"
+      },
+      {
+        "title": {
+          "en": "Grievance Redressal Portal",
+          "mr": "तक्रार निवारण कक्ष"
+        },
+        "href": "/transparency-and-grievance"
       }
     ],
     "hero": {
@@ -100410,6 +102155,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 69
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Public Services",
+      "mr": "लोकसेवा हक्क व तक्रार निवारण"
     }
   },
   "home": {
@@ -100419,10 +102176,32 @@
     "sourcePage": "home",
     "scrapedAt": "2026-11-22T20:35:42.252398",
     "title": {
-      "en": "MPKV Rahuri",
-      "mr": "MPKV Rahuri"
+      "en": "Official University Portal",
+      "mr": "विद्यापीठ अधिकृत पोर्टल"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Official University Portal",
+          "mr": "विद्यापीठ अधिकृत पोर्टल"
+        },
+        "href": "/"
+      }
+    ],
     "hero": {
       "title": {
         "en": "MPKV Rahuri",
@@ -107207,6 +108986,14 @@
       "contactEmail": "registrar.mpkv@gov.in",
       "contactPhone": "02426-243215, 243366",
       "address": "Mahatma Phule Krishi Vidyapeeth, Rahuri, Dist. Ahilyanagar (Ahmednagar) - 413722, Maharashtra, India"
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
     }
   },
   "iqac": {
@@ -107216,16 +109003,37 @@
     "sourcePage": "iqac",
     "scrapedAt": "2026-11-22T20:35:42.798478",
     "title": {
-      "en": "Internal Quality Assurance Cell",
-      "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+      "en": "Internal Quality Assurance Cell (IQAC)",
+      "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC)"
     },
     "breadcrumb": [
       {
         "title": {
           "en": "Home",
-          "mr": "Home"
+          "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Education",
+          "mr": "शिक्षण"
+        },
+        "href": "/iqac"
+      },
+      {
+        "title": {
+          "en": "Academic Quality",
+          "mr": "शैक्षणिक गुणवत्ता"
+        },
+        "href": "/iqac"
+      },
+      {
+        "title": {
+          "en": "Internal Quality Assurance Cell (IQAC)",
+          "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC)"
+        },
+        "href": "/iqac"
       }
     ],
     "hero": {
@@ -108482,6 +110290,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 74
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Academic Quality",
+      "mr": "शैक्षणिक गुणवत्ता"
     }
   },
   "krishi-calendar": {
@@ -108491,8 +110311,8 @@
     "sourcePage": "krishi-calendar",
     "scrapedAt": "2026-11-22T20:36:22.761486",
     "title": {
-      "en": "Annual Agricultural Calendar (12 Months)",
-      "mr": "वार्षिक कृषि वेळापत्रक (१२ महिने)"
+      "en": "Agriculture Calendar (12 Months)",
+      "mr": "कृषि दिनदर्शिका (१२ महिने)"
     },
     "breadcrumb": [
       {
@@ -108507,12 +110327,19 @@
           "en": "Farmer Services",
           "mr": "शेतकरी सेवा"
         },
-        "href": "#"
+        "href": "/seeds-availability"
       },
       {
         "title": {
-          "en": "Krishi Calendar",
-          "mr": "कृषि दिनदर्शिका"
+          "en": "Forums & Advisory",
+          "mr": "शेतकरी मंच व सल्ला"
+        },
+        "href": "/farmer/calendar"
+      },
+      {
+        "title": {
+          "en": "Agriculture Calendar (12 Months)",
+          "mr": "कृषि दिनदर्शिका (१२ महिने)"
         },
         "href": "/farmer/calendar"
       }
@@ -108681,6 +110508,18 @@
       "monthsCount": 12,
       "mediaCount": 12,
       "totalRecords": 12
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Forums & Advisory",
+      "mr": "शेतकरी मंच व सल्ला"
     }
   },
   "library-about": {
@@ -108690,8 +110529,8 @@
     "sourcePage": "library-about",
     "scrapedAt": "2026-11-22T20:35:46.634948",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "About Central Library",
+      "mr": "ग्रंथालयाविषयी"
     },
     "breadcrumb": [
       {
@@ -108706,7 +110545,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "About & Collections",
+          "mr": "माहिती व ग्रंथसंग्रह"
+        },
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "About Central Library",
+          "mr": "ग्रंथालयाविषयी"
+        },
+        "href": "/library/about"
       }
     ],
     "hero": {
@@ -109903,6 +111756,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 72
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "About & Collections",
+      "mr": "माहिती व ग्रंथसंग्रह"
     }
   },
   "library-activities": {
@@ -109912,8 +111777,8 @@
     "sourcePage": "library-activities",
     "scrapedAt": "2026-11-22T20:35:47.121459",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Library Activities",
+      "mr": "ग्रंथालय उपक्रम"
     },
     "breadcrumb": [
       {
@@ -109928,7 +111793,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "Digital & Off-Campus",
+          "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+        },
+        "href": "/library/activities"
+      },
+      {
+        "title": {
+          "en": "Library Activities",
+          "mr": "ग्रंथालय उपक्रम"
+        },
+        "href": "/library/activities"
       }
     ],
     "hero": {
@@ -111149,6 +113028,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 73
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "Digital & Off-Campus",
+      "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
     }
   },
   "library-collections": {
@@ -111158,8 +113049,8 @@
     "sourcePage": "library-collections",
     "scrapedAt": "2026-11-22T20:35:54.667312",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Book Collections",
+      "mr": "ग्रंथसंग्रह व संदर्भ ग्रंथ"
     },
     "breadcrumb": [
       {
@@ -111174,7 +113065,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "About & Collections",
+          "mr": "माहिती व ग्रंथसंग्रह"
+        },
+        "href": "/library/collections"
+      },
+      {
+        "title": {
+          "en": "Book Collections",
+          "mr": "ग्रंथसंग्रह व संदर्भ ग्रंथ"
+        },
+        "href": "/library/collections"
       }
     ],
     "hero": {
@@ -112636,6 +114541,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 80
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "About & Collections",
+      "mr": "माहिती व ग्रंथसंग्रह"
     }
   },
   "library-contact": {
@@ -112645,8 +114562,8 @@
     "sourcePage": "library-contact",
     "scrapedAt": "2026-11-22T20:35:55.215569",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Library Contacts Desk",
+      "mr": "ग्रंथालय संपर्क कक्ष"
     },
     "breadcrumb": [
       {
@@ -112661,7 +114578,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "Digital & Off-Campus",
+          "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+        },
+        "href": "/library/contact"
+      },
+      {
+        "title": {
+          "en": "Library Contacts Desk",
+          "mr": "ग्रंथालय संपर्क कक्ष"
+        },
+        "href": "/library/contact"
       }
     ],
     "hero": {
@@ -114225,6 +116156,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 80
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "Digital & Off-Campus",
+      "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
     }
   },
   "library-facilities": {
@@ -114234,8 +116177,8 @@
     "sourcePage": "library-facilities",
     "scrapedAt": "2026-11-22T20:35:55.695327",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Facilities & Reading Halls",
+      "mr": "वाचक सुविधा व अभ्यासिका"
     },
     "breadcrumb": [
       {
@@ -114250,7 +116193,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "About & Collections",
+          "mr": "माहिती व ग्रंथसंग्रह"
+        },
+        "href": "/library/facilities"
+      },
+      {
+        "title": {
+          "en": "Facilities & Reading Halls",
+          "mr": "वाचक सुविधा व अभ्यासिका"
+        },
+        "href": "/library/facilities"
       }
     ],
     "hero": {
@@ -115696,6 +117653,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 78
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "About & Collections",
+      "mr": "माहिती व ग्रंथसंग्रह"
     }
   },
   "library-links": {
@@ -115705,8 +117674,8 @@
     "sourcePage": "library-links",
     "scrapedAt": "2026-11-22T20:35:56.206882",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Digital Links & CeRA Journals",
+      "mr": "डिजिटल ई-रिसोर्सेस व CeRA"
     },
     "breadcrumb": [
       {
@@ -115721,7 +117690,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "Digital & Off-Campus",
+          "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+        },
+        "href": "/library/links"
+      },
+      {
+        "title": {
+          "en": "Digital Links & CeRA Journals",
+          "mr": "डिजिटल ई-रिसोर्सेस व CeRA"
+        },
+        "href": "/library/links"
       }
     ],
     "hero": {
@@ -117093,6 +119076,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 69
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "Digital & Off-Campus",
+      "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
     }
   },
   "library-news-events": {
@@ -117102,8 +119097,8 @@
     "sourcePage": "library-news-events",
     "scrapedAt": "2026-11-22T20:35:56.714000",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "News & Book Exhibitions",
+      "mr": "बातम्या व ग्रंथ प्रदर्शन"
     },
     "breadcrumb": [
       {
@@ -117118,7 +119113,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "Digital & Off-Campus",
+          "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+        },
+        "href": "/library/news-events"
+      },
+      {
+        "title": {
+          "en": "News & Book Exhibitions",
+          "mr": "बातम्या व ग्रंथ प्रदर्शन"
+        },
+        "href": "/library/news-events"
       }
     ],
     "hero": {
@@ -118347,6 +120356,18 @@
       "noticeCount": 0,
       "mediaCount": 18,
       "totalRecords": 74
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "Digital & Off-Campus",
+      "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
     }
   },
   "library-off-campus": {
@@ -118356,8 +120377,8 @@
     "sourcePage": "library-off-campus",
     "scrapedAt": "2026-11-22T20:35:57.212436",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Off Campus Libraries",
+      "mr": "विभागीय महाविद्यालय ग्रंथालये"
     },
     "breadcrumb": [
       {
@@ -118372,7 +120393,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "Digital & Off-Campus",
+          "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+        },
+        "href": "/library/off-campus"
+      },
+      {
+        "title": {
+          "en": "Off Campus Libraries",
+          "mr": "विभागीय महाविद्यालय ग्रंथालये"
+        },
+        "href": "/library/off-campus"
       }
     ],
     "hero": {
@@ -119626,6 +121661,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 73
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "Digital & Off-Campus",
+      "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
     }
   },
   "library-sections": {
@@ -119635,8 +121682,8 @@
     "sourcePage": "library-sections",
     "scrapedAt": "2026-11-22T20:35:57.707624",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Library Sections",
+      "mr": "ग्रंथालय विभाग"
     },
     "breadcrumb": [
       {
@@ -119651,7 +121698,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "About & Collections",
+          "mr": "माहिती व ग्रंथसंग्रह"
+        },
+        "href": "/library/sections"
+      },
+      {
+        "title": {
+          "en": "Library Sections",
+          "mr": "ग्रंथालय विभाग"
+        },
+        "href": "/library/sections"
       }
     ],
     "hero": {
@@ -120977,6 +123038,18 @@
       "noticeCount": 0,
       "mediaCount": 19,
       "totalRecords": 80
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "About & Collections",
+      "mr": "माहिती व ग्रंथसंग्रह"
     }
   },
   "library-services": {
@@ -120986,8 +123059,8 @@
     "sourcePage": "library-services",
     "scrapedAt": "2026-11-22T20:35:58.211299",
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Library Services",
+      "mr": "ग्रंथालय सेवा"
     },
     "breadcrumb": [
       {
@@ -121002,7 +123075,21 @@
           "en": "Library",
           "mr": "ग्रंथालय"
         },
-        "href": "/Library/About"
+        "href": "/library/about"
+      },
+      {
+        "title": {
+          "en": "About & Collections",
+          "mr": "माहिती व ग्रंथसंग्रह"
+        },
+        "href": "/library/services"
+      },
+      {
+        "title": {
+          "en": "Library Services",
+          "mr": "ग्रंथालय सेवा"
+        },
+        "href": "/library/services"
       }
     ],
     "hero": {
@@ -122244,6 +124331,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 75
+    },
+    "menuId": "menu_library",
+    "parentMenu": {
+      "id": "menu_library",
+      "title": {
+        "en": "Library",
+        "mr": "ग्रंथालय"
+      }
+    },
+    "submenuGroup": {
+      "en": "About & Collections",
+      "mr": "माहिती व ग्रंथसंग्रह"
     }
   },
   "mpkv-at-a-glance": {
@@ -122253,8 +124352,8 @@
     "sourcePage": "mpkv-at-a-glance",
     "scrapedAt": "2026-11-22T20:35:43.702051",
     "title": {
-      "en": "MPKV At a Glance",
-      "mr": "MPKV At a Glance"
+      "en": "MPKV at a Glance",
+      "mr": "दृष्टीक्षेपात म.फु.कृ.वि."
     },
     "breadcrumb": [
       {
@@ -122263,6 +124362,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/mpkv-at-a-glance"
+      },
+      {
+        "title": {
+          "en": "About University",
+          "mr": "विद्यापीठ परिचय"
+        },
+        "href": "/mpkv-at-a-glance"
+      },
+      {
+        "title": {
+          "en": "MPKV at a Glance",
+          "mr": "दृष्टीक्षेपात म.फु.कृ.वि."
+        },
+        "href": "/mpkv-at-a-glance"
       }
     ],
     "hero": {
@@ -124071,6 +126191,18 @@
       "noticeCount": 0,
       "mediaCount": 19,
       "totalRecords": 101
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "About University",
+      "mr": "विद्यापीठ परिचय"
     }
   },
   "nodal-cell": {
@@ -124080,8 +126212,8 @@
     "sourcePage": "nodal-cell",
     "scrapedAt": "2026-11-22T20:36:02.334951",
     "title": {
-      "en": "Nodal Cell",
-      "mr": "नोडल सेल"
+      "en": "ICAR Nodal Cell",
+      "mr": "भा.कृ.अनु.प. नोडल सेल"
     },
     "breadcrumb": [
       {
@@ -124093,10 +126225,24 @@
       },
       {
         "title": {
-          "en": "Nodal Cell",
-          "mr": "नोडल सेल"
+          "en": "Education",
+          "mr": "शिक्षण"
         },
-        "href": "/PmeAndNodel/NodelGuidelines"
+        "href": "/nodal-cell"
+      },
+      {
+        "title": {
+          "en": "ICAR Affairs",
+          "mr": "भा.कृ.अनु.प. समन्वय"
+        },
+        "href": "/nodal-cell"
+      },
+      {
+        "title": {
+          "en": "ICAR Nodal Cell",
+          "mr": "भा.कृ.अनु.प. नोडल सेल"
+        },
+        "href": "/nodal-cell"
       }
     ],
     "hero": {
@@ -125391,6 +127537,18 @@
       "noticeCount": 0,
       "mediaCount": 25,
       "totalRecords": 81
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "ICAR Affairs",
+      "mr": "भा.कृ.अनु.प. समन्वय"
     }
   },
   "nursery-stock": {
@@ -125400,8 +127558,8 @@
     "sourcePage": "nursery-stock",
     "scrapedAt": "2026-11-22T20:36:22.761281",
     "title": {
-      "en": "Nursery Plants & Grafts Availability (MPKV Rahuri)",
-      "mr": "रोपे व कलमे उपलब्धता साठा (मफुकृवि राहुरी)"
+      "en": "Fruit Grafts & Nursery Stock",
+      "mr": "रोपवाटिका साठा"
     },
     "breadcrumb": [
       {
@@ -125416,11 +127574,18 @@
           "en": "Farmer Services",
           "mr": "शेतकरी सेवा"
         },
-        "href": "#"
+        "href": "/nursery-stock"
       },
       {
         "title": {
-          "en": "Nursery Stock",
+          "en": "Seeds, Grafts & Implements",
+          "mr": "बियाणे, कलमे व अवजारे"
+        },
+        "href": "/nursery-stock"
+      },
+      {
+        "title": {
+          "en": "Fruit Grafts & Nursery Stock",
           "mr": "रोपवाटिका साठा"
         },
         "href": "/nursery-stock"
@@ -125929,6 +128094,18 @@
       "centralPlantsCount": 7,
       "tableCount": 2,
       "totalRecords": 13
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Seeds, Grafts & Implements",
+      "mr": "बियाणे, कलमे व अवजारे"
     }
   },
   "officers-directory": {
@@ -125938,8 +128115,8 @@
     "sourcePage": "officers-directory",
     "scrapedAt": "2026-11-22T20:36:00.356964",
     "title": {
-      "en": "Officers Contacts",
-      "mr": "अधिकारी संपर्क"
+      "en": "Officers",
+      "mr": "अधिकारी"
     },
     "breadcrumb": [
       {
@@ -125948,6 +128125,20 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/officers/directory"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/officers/directory"
       }
     ],
     "hero": {
@@ -127306,6 +129497,14 @@
       "noticeCount": 0,
       "mediaCount": 21,
       "totalRecords": 90
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
     }
   },
   "photo-gallery": {
@@ -127315,16 +129514,37 @@
     "sourcePage": "photo-gallery",
     "scrapedAt": "2026-11-22T20:35:41.474608",
     "title": {
-      "en": "Gallery",
-      "mr": "गॅलरी"
+      "en": "Photo & Media Gallery",
+      "mr": "छायाचित्रे व माध्यम दालन"
     },
     "breadcrumb": [
       {
         "title": {
           "en": "Home",
-          "mr": "Home"
+          "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/photo-gallery"
+      },
+      {
+        "title": {
+          "en": "Media",
+          "mr": "माध्यम"
+        },
+        "href": "/photo-gallery"
+      },
+      {
+        "title": {
+          "en": "Photo & Media Gallery",
+          "mr": "छायाचित्रे व माध्यम दालन"
+        },
+        "href": "/photo-gallery"
       }
     ],
     "hero": {
@@ -135368,6 +137588,18 @@
       "noticeCount": 0,
       "mediaCount": 946,
       "totalRecords": 1083
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "Media",
+      "mr": "माध्यम"
     }
   },
   "pme-cell": {
@@ -135377,8 +137609,8 @@
     "sourcePage": "pme-cell",
     "scrapedAt": "2026-11-22T20:36:02.826851",
     "title": {
-      "en": "PME Cell",
-      "mr": "पीएमई सेल"
+      "en": "Priority Setting, Monitoring & Evaluation (PME) Cell",
+      "mr": "प्राधान्यक्रम निर्धारण, सनियंत्रण व मूल्यमापन कक्ष (PME)"
     },
     "breadcrumb": [
       {
@@ -135390,10 +137622,24 @@
       },
       {
         "title": {
-          "en": "PME Cell",
-          "mr": "पीएमई सेल"
+          "en": "Research",
+          "mr": "संशोधन"
         },
-        "href": "/PmeAndNodel/PmeIntroduction"
+        "href": "/pme-cell"
+      },
+      {
+        "title": {
+          "en": "Overview & Schemes",
+          "mr": "संशोधन आढावा व योजना"
+        },
+        "href": "/pme-cell"
+      },
+      {
+        "title": {
+          "en": "Priority Setting, Monitoring & Evaluation (PME) Cell",
+          "mr": "प्राधान्यक्रम निर्धारण, सनियंत्रण व मूल्यमापन कक्ष (PME)"
+        },
+        "href": "/pme-cell"
       }
     ],
     "hero": {
@@ -136513,6 +138759,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 70
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Schemes",
+      "mr": "संशोधन आढावा व योजना"
     }
   },
   "portal-login": {
@@ -136522,10 +138780,39 @@
     "sourcePage": "portal-login",
     "scrapedAt": "2026-11-22T20:35:43.194811",
     "title": {
-      "en": "Department Login",
-      "mr": "Department Login"
+      "en": "Employee & Student Portal Login",
+      "mr": "कर्मचारी व विद्यार्थी पोर्टल प्रवेश"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/portal-login"
+      },
+      {
+        "title": {
+          "en": "University Portals",
+          "mr": "विद्यापीठ पोर्टल्स"
+        },
+        "href": "/portal-login"
+      },
+      {
+        "title": {
+          "en": "Employee & Student Portal Login",
+          "mr": "कर्मचारी व विद्यार्थी पोर्टल प्रवेश"
+        },
+        "href": "/portal-login"
+      }
+    ],
     "hero": {
       "title": {
         "en": "Department Login",
@@ -136566,6 +138853,18 @@
       "noticeCount": 0,
       "mediaCount": 1,
       "totalRecords": 1
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "University Portals",
+      "mr": "विद्यापीठ पोर्टल्स"
     }
   },
   "post-graduate-institute-rahuri": {
@@ -136576,7 +138875,7 @@
     "scrapedAt": "2026-11-22T20:36:22.761499",
     "title": {
       "en": "Post Graduate Institute (PGI), Rahuri",
-      "mr": "पदव्युत्तर महाविद्यालय, मफुकृवि, राहुरी"
+      "mr": "पदव्युत्तर संस्था (PGI), राहुरी"
     },
     "breadcrumb": [
       {
@@ -136591,12 +138890,19 @@
           "en": "Education",
           "mr": "शिक्षण"
         },
-        "href": "#"
+        "href": "/post-graduate-institute-rahuri"
       },
       {
         "title": {
-          "en": "PGI Rahuri",
-          "mr": "पदव्युत्तर महाविद्यालय, राहुरी"
+          "en": "Colleges",
+          "mr": "महाविद्यालये"
+        },
+        "href": "/post-graduate-institute-rahuri"
+      },
+      {
+        "title": {
+          "en": "Post Graduate Institute (PGI), Rahuri",
+          "mr": "पदव्युत्तर संस्था (PGI), राहुरी"
         },
         "href": "/post-graduate-institute-rahuri"
       }
@@ -136707,6 +139013,18 @@
       "departmentCount": 10,
       "facilityCount": 4,
       "totalRecords": 14
+    },
+    "menuId": "menu_education",
+    "parentMenu": {
+      "id": "menu_education",
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      }
+    },
+    "submenuGroup": {
+      "en": "Colleges",
+      "mr": "महाविद्यालये"
     }
   },
   "privacy-policy": {
@@ -136716,8 +139034,8 @@
     "sourcePage": "privacy-policy",
     "scrapedAt": "2026-11-22T20:35:44.207714",
     "title": {
-      "en": "Privacy Policy",
-      "mr": "गोपनीयता धोरण"
+      "en": "Website Policies & Terms",
+      "mr": "वेबसाइट वापर नियमावली व धोरण"
     },
     "breadcrumb": [
       {
@@ -136726,6 +139044,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/privacy-policy"
+      },
+      {
+        "title": {
+          "en": "Policies",
+          "mr": "धोरणे"
+        },
+        "href": "/privacy-policy"
+      },
+      {
+        "title": {
+          "en": "Website Policies & Terms",
+          "mr": "वेबसाइट वापर नियमावली व धोरण"
+        },
+        "href": "/privacy-policy"
       }
     ],
     "hero": {
@@ -137829,6 +140168,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 72
+    },
+    "menuId": "menu_home",
+    "parentMenu": {
+      "id": "menu_home",
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      }
+    },
+    "submenuGroup": {
+      "en": "Policies",
+      "mr": "धोरणे"
     }
   },
   "recruitment": {
@@ -137838,8 +140189,8 @@
     "sourcePage": "recruitment",
     "scrapedAt": "2026-11-22T20:35:20.604912",
     "title": {
-      "en": "Administration",
-      "mr": "प्रशासन"
+      "en": "Recruitment & Job Vacancies",
+      "mr": "नोकरभरती व जाहिराती"
     },
     "breadcrumb": [
       {
@@ -137847,14 +140198,28 @@
           "en": "Home",
           "mr": "मुख्यपृष्ठ"
         },
-        "href": ""
+        "href": "/"
       },
       {
         "title": {
-          "en": "Administration",
-          "mr": "प्रशासन"
+          "en": "Officers",
+          "mr": "अधिकारी"
         },
-        "href": ""
+        "href": "/recruitment"
+      },
+      {
+        "title": {
+          "en": "Careers & Recruitment",
+          "mr": "भरती व जाहिराती"
+        },
+        "href": "/recruitment"
+      },
+      {
+        "title": {
+          "en": "Recruitment & Job Vacancies",
+          "mr": "नोकरभरती व जाहिराती"
+        },
+        "href": "/recruitment"
       }
     ],
     "hero": {
@@ -154833,6 +157198,18 @@
       "noticeCount": 376,
       "mediaCount": 390,
       "totalRecords": 821
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Careers & Recruitment",
+      "mr": "भरती व जाहिराती"
     }
   },
   "research-at-a-glance": {
@@ -154842,14 +157219,43 @@
     "sourcePage": "research-at-a-glance",
     "scrapedAt": "2026-11-22T20:36:03.345155",
     "title": {
-      "en": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research at a Glance",
+      "mr": "दृष्टीक्षेपात संशोधन"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संशोधन आढावा व रूपरेषा"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Research at a Glance",
+          "mr": "दृष्टीक्षेपात संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research At a Glance",
+        "mr": "Research At a Glance"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -156287,6 +158693,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 80
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संशोधन आढावा व रूपरेषा"
     }
   },
   "research-central-plateau-zone": {
@@ -156296,14 +158714,43 @@
     "sourcePage": "research-central-plateau-zone",
     "scrapedAt": "2026-11-22T20:36:03.875286",
     "title": {
-      "en": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Central Plateau Zone",
+      "mr": "मध्य पठार विभाग"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Agro-Climatic Research Stations",
+          "mr": "कृषि हवामान संशोधन केंद्रे"
+        },
+        "href": "/research/central-plateau-zone"
+      },
+      {
+        "title": {
+          "en": "Central Plateau Zone",
+          "mr": "मध्य पठार विभाग"
+        },
+        "href": "/research/central-plateau-zone"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Central Zone",
+        "mr": "Research Central Zone"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -157596,6 +160043,18 @@
       "noticeCount": 0,
       "mediaCount": 16,
       "totalRecords": 71
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Agro-Climatic Research Stations",
+      "mr": "कृषि हवामान संशोधन केंद्रे"
     }
   },
   "research-externally-funded-projects": {
@@ -157605,14 +160064,43 @@
     "sourcePage": "research-externally-funded-projects",
     "scrapedAt": "2026-11-22T20:36:14.515796",
     "title": {
-      "en": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Externally Funded Projects",
+      "mr": "बाह्य अनुदानीत प्रकल्प"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Research Schemes",
+          "mr": "संशोधन योजना"
+        },
+        "href": "/research/funded-projects"
+      },
+      {
+        "title": {
+          "en": "Externally Funded Projects",
+          "mr": "बाह्य अनुदानीत प्रकल्प"
+        },
+        "href": "/research/funded-projects"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Schemes Funded Projects",
+        "mr": "Research Schemes Funded Projects"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Schemes Funded Projects - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -158951,6 +161439,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 71
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Research Schemes",
+      "mr": "संशोधन योजना"
     }
   },
   "research-farm-implements": {
@@ -158960,14 +161460,43 @@
     "sourcePage": "research-farm-implements",
     "scrapedAt": "2026-11-22T20:36:04.408138",
     "title": {
-      "en": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Farm Implements & Machinery",
+      "mr": "शेती अवजारे व यंत्रे"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/farm-implements"
+      },
+      {
+        "title": {
+          "en": "Technology & Releases",
+          "mr": "प्रगत तंत्रज्ञान व वाण"
+        },
+        "href": "/farm-implements"
+      },
+      {
+        "title": {
+          "en": "Farm Implements & Machinery",
+          "mr": "शेती अवजारे व यंत्रे"
+        },
+        "href": "/farm-implements"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Farm Implements",
+        "mr": "Research Farm Implements"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -160306,6 +162835,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 71
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Technology & Releases",
+      "mr": "प्रगत तंत्रज्ञान व वाण"
     }
   },
   "research-icar-aicrp": {
@@ -160315,14 +162856,43 @@
     "sourcePage": "research-icar-aicrp",
     "scrapedAt": "2026-11-22T20:36:15.042787",
     "title": {
-      "en": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "ICAR-AICRP",
+      "mr": "अखिल भारतीय समन्वित प्रकल्प (AICRP)"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Research Schemes",
+          "mr": "संशोधन योजना"
+        },
+        "href": "/research/aicrp"
+      },
+      {
+        "title": {
+          "en": "ICAR-AICRP",
+          "mr": "अखिल भारतीय समन्वित प्रकल्प (AICRP)"
+        },
+        "href": "/research/aicrp"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Schemes ICAR",
+        "mr": "Research Schemes ICAR"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -163069,6 +165639,18 @@
       "noticeCount": 0,
       "mediaCount": 59,
       "totalRecords": 159
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Research Schemes",
+      "mr": "संशोधन योजना"
     }
   },
   "research-non-plan-state-schemes": {
@@ -163078,14 +165660,43 @@
     "sourcePage": "research-non-plan-state-schemes",
     "scrapedAt": "2026-11-22T20:36:15.588222",
     "title": {
-      "en": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Non-Plan State Schemes",
+      "mr": "राज्य शासन योजना"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Research Schemes",
+          "mr": "संशोधन योजना"
+        },
+        "href": "/research/state-schemes"
+      },
+      {
+        "title": {
+          "en": "Non-Plan State Schemes",
+          "mr": "राज्य शासन योजना"
+        },
+        "href": "/research/state-schemes"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Schemes Non Plan",
+        "mr": "Research Schemes Non Plan"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Schemes Non Plan - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -166120,6 +168731,18 @@
       "noticeCount": 0,
       "mediaCount": 68,
       "totalRecords": 177
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Research Schemes",
+      "mr": "संशोधन योजना"
     }
   },
   "research-organizational-profile": {
@@ -166129,14 +168752,43 @@
     "sourcePage": "research-organizational-profile",
     "scrapedAt": "2026-11-22T20:36:05.449217",
     "title": {
-      "en": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Organizational Profile",
+      "mr": "संस्थात्मक संरचना"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संशोधन आढावा व रूपरेषा"
+        },
+        "href": "/research/profile"
+      },
+      {
+        "title": {
+          "en": "Organizational Profile",
+          "mr": "संस्थात्मक संरचना"
+        },
+        "href": "/research/profile"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Profile",
+        "mr": "Research Profile"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Profile - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -167423,6 +170075,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 70
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संशोधन आढावा व रूपरेषा"
     }
   },
   "research-patents": {
@@ -167432,14 +170096,43 @@
     "sourcePage": "research-patents",
     "scrapedAt": "2026-11-22T20:36:16.110695",
     "title": {
-      "en": "Research Technology Patents - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Technology Patents - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Registered Patents",
+      "mr": "नोंदणीकृत पेटंट्स"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Technology & Releases",
+          "mr": "प्रगत तंत्रज्ञान व वाण"
+        },
+        "href": "/research/patents"
+      },
+      {
+        "title": {
+          "en": "Registered Patents",
+          "mr": "नोंदणीकृत पेटंट्स"
+        },
+        "href": "/research/patents"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Technology Patents - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Technology Patents - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Technology Patents",
+        "mr": "Research Technology Patents"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Patents - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -168720,6 +171413,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 69
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Technology & Releases",
+      "mr": "प्रगत तंत्रज्ञान व वाण"
     }
   },
   "research-plain-zone": {
@@ -168729,14 +171434,43 @@
     "sourcePage": "research-plain-zone",
     "scrapedAt": "2026-11-22T20:36:04.917381",
     "title": {
-      "en": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Plain Zone",
+      "mr": "पठार विभाग"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Agro-Climatic Research Stations",
+          "mr": "कृषि हवामान संशोधन केंद्रे"
+        },
+        "href": "/research/plain-zone"
+      },
+      {
+        "title": {
+          "en": "Plain Zone",
+          "mr": "पठार विभाग"
+        },
+        "href": "/research/plain-zone"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Plain Zone",
+        "mr": "Research Plain Zone"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -170047,6 +172781,18 @@
       "noticeCount": 0,
       "mediaCount": 19,
       "totalRecords": 74
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Agro-Climatic Research Stations",
+      "mr": "कृषि हवामान संशोधन केंद्रे"
     }
   },
   "research-recommendations": {
@@ -170056,14 +172802,43 @@
     "sourcePage": "research-recommendations",
     "scrapedAt": "2026-11-22T20:36:16.636323",
     "title": {
-      "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Agro Recommendations",
+      "mr": "कृषि शिफारसी"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Technology & Releases",
+          "mr": "प्रगत तंत्रज्ञान व वाण"
+        },
+        "href": "/research/recommendations"
+      },
+      {
+        "title": {
+          "en": "Agro Recommendations",
+          "mr": "कृषि शिफारसी"
+        },
+        "href": "/research/recommendations"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Technology Recommendations",
+        "mr": "Research Technology Recommendations"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -172224,6 +174999,18 @@
       "noticeCount": 0,
       "mediaCount": 48,
       "totalRecords": 122
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Technology & Releases",
+      "mr": "प्रगत तंत्रज्ञान व वाण"
     }
   },
   "research-review-mechanism": {
@@ -172233,14 +175020,43 @@
     "sourcePage": "research-review-mechanism",
     "scrapedAt": "2026-11-22T20:36:05.940727",
     "title": {
-      "en": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Review Mechanism",
+      "mr": "संशोधन पुनरावलोकन यंत्रणा"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संशोधन आढावा व रूपरेषा"
+        },
+        "href": "/research/review-mechanism"
+      },
+      {
+        "title": {
+          "en": "Research Review Mechanism",
+          "mr": "संशोधन पुनरावलोकन यंत्रणा"
+        },
+        "href": "/research/review-mechanism"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Review Mechanism",
+        "mr": "Research Review Mechanism"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Review Mechanism - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -173582,6 +176398,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 73
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संशोधन आढावा व रूपरेषा"
     }
   },
   "research-scarcity-zone": {
@@ -173591,14 +176419,43 @@
     "sourcePage": "research-scarcity-zone",
     "scrapedAt": "2026-11-22T20:36:07.006101",
     "title": {
-      "en": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Scarcity Zone",
+      "mr": "अवर्षणग्रस्त विभाग"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Agro-Climatic Research Stations",
+          "mr": "कृषि हवामान संशोधन केंद्रे"
+        },
+        "href": "/research/scarcity-zone"
+      },
+      {
+        "title": {
+          "en": "Scarcity Zone",
+          "mr": "अवर्षणग्रस्त विभाग"
+        },
+        "href": "/research/scarcity-zone"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Scarcity Zone",
+        "mr": "Research Scarcity Zone"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Scarcity Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -174933,6 +177790,18 @@
       "noticeCount": 0,
       "mediaCount": 23,
       "totalRecords": 78
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Agro-Climatic Research Stations",
+      "mr": "कृषि हवामान संशोधन केंद्रे"
     }
   },
   "research-sub-montane-zone": {
@@ -174942,14 +177811,43 @@
     "sourcePage": "research-sub-montane-zone",
     "scrapedAt": "2026-11-22T20:36:06.469162",
     "title": {
-      "en": "Research Sub Montane Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Sub Montane Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Sub-Montane Zone",
+      "mr": "उप-पर्वतीय विभाग"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Agro-Climatic Research Stations",
+          "mr": "कृषि हवामान संशोधन केंद्रे"
+        },
+        "href": "/research/sub-montane-zone"
+      },
+      {
+        "title": {
+          "en": "Sub-Montane Zone",
+          "mr": "उप-पर्वतीय विभाग"
+        },
+        "href": "/research/sub-montane-zone"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Sub Montane Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Sub Montane Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Sub Montane Zone",
+        "mr": "Research Sub Montane Zone"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Sub Montane Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -176260,6 +179158,18 @@
       "noticeCount": 0,
       "mediaCount": 19,
       "totalRecords": 74
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Agro-Climatic Research Stations",
+      "mr": "कृषि हवामान संशोधन केंद्रे"
     }
   },
   "research-thrust-areas": {
@@ -176269,14 +179179,43 @@
     "sourcePage": "research-thrust-areas",
     "scrapedAt": "2026-11-22T20:36:17.674121",
     "title": {
-      "en": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Thrust Areas",
+      "mr": "संशोधन प्राधान्यक्रम"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Overview & Profile",
+          "mr": "संशोधन आढावा व रूपरेषा"
+        },
+        "href": "/research/thrust-areas"
+      },
+      {
+        "title": {
+          "en": "Thrust Areas",
+          "mr": "संशोधन प्राधान्यक्रम"
+        },
+        "href": "/research/thrust-areas"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Thrust Areas",
+        "mr": "Research Thrust Areas"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Thrust Areas - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -177563,6 +180502,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 70
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Overview & Profile",
+      "mr": "संशोधन आढावा व रूपरेषा"
     }
   },
   "research-varieties": {
@@ -177572,14 +180523,43 @@
     "sourcePage": "research-varieties",
     "scrapedAt": "2026-11-22T20:36:17.155010",
     "title": {
-      "en": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Crop Varieties Released",
+      "mr": "विकसित पीक वाण"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Technology & Releases",
+          "mr": "प्रगत तंत्रज्ञान व वाण"
+        },
+        "href": "/research/varieties"
+      },
+      {
+        "title": {
+          "en": "Crop Varieties Released",
+          "mr": "विकसित पीक वाण"
+        },
+        "href": "/research/varieties"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Technology Varieties",
+        "mr": "Research Technology Varieties"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -179534,6 +182514,18 @@
       "noticeCount": 0,
       "mediaCount": 42,
       "totalRecords": 111
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Technology & Releases",
+      "mr": "प्रगत तंत्रज्ञान व वाण"
     }
   },
   "research-western-ghat-zone": {
@@ -179543,14 +182535,43 @@
     "sourcePage": "research-western-ghat-zone",
     "scrapedAt": "2026-11-22T20:36:18.200092",
     "title": {
-      "en": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Western Ghat Zone",
+      "mr": "पश्चिम घाट विभाग"
     },
-    "breadcrumb": [],
+    "breadcrumb": [
+      {
+        "title": {
+          "en": "Home",
+          "mr": "मुख्यपृष्ठ"
+        },
+        "href": "/"
+      },
+      {
+        "title": {
+          "en": "Research",
+          "mr": "संशोधन"
+        },
+        "href": "/research/at-a-glance"
+      },
+      {
+        "title": {
+          "en": "Agro-Climatic Research Stations",
+          "mr": "कृषि हवामान संशोधन केंद्रे"
+        },
+        "href": "/research/western-ghat-zone"
+      },
+      {
+        "title": {
+          "en": "Western Ghat Zone",
+          "mr": "पश्चिम घाट विभाग"
+        },
+        "href": "/research/western-ghat-zone"
+      }
+    ],
     "hero": {
       "title": {
-        "en": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-        "mr": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+        "en": "Research Western Ghat Zone",
+        "mr": "Research Western Ghat Zone"
       },
       "subtitle": {
         "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -180855,6 +183876,18 @@
       "noticeCount": 0,
       "mediaCount": 18,
       "totalRecords": 73
+    },
+    "menuId": "menu_research",
+    "parentMenu": {
+      "id": "menu_research",
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      }
+    },
+    "submenuGroup": {
+      "en": "Agro-Climatic Research Stations",
+      "mr": "कृषि हवामान संशोधन केंद्रे"
     }
   },
   "seeds-availability": {
@@ -180864,8 +183897,8 @@
     "sourcePage": "seeds-availability",
     "scrapedAt": "2026-11-22T20:36:22.761255",
     "title": {
-      "en": "Certified Seed Availability (MPKV Rahuri Central Seed Department)",
-      "mr": "प्रमाणित बियाणे उपलब्धता साठा (मफुकृवि राहुरी मध्यवर्ती बियाणे विभाग)"
+      "en": "Certified Seed Availability",
+      "mr": "प्रमाणित बियाणे साठा"
     },
     "breadcrumb": [
       {
@@ -180880,12 +183913,19 @@
           "en": "Farmer Services",
           "mr": "शेतकरी सेवा"
         },
-        "href": "#"
+        "href": "/seeds-availability"
       },
       {
         "title": {
-          "en": "Seeds Availability",
-          "mr": "बियाणे उपलब्धता"
+          "en": "Seeds, Grafts & Implements",
+          "mr": "बियाणे, कलमे व अवजारे"
+        },
+        "href": "/seeds-availability"
+      },
+      {
+        "title": {
+          "en": "Certified Seed Availability",
+          "mr": "प्रमाणित बियाणे साठा"
         },
         "href": "/seeds-availability"
       }
@@ -181206,6 +184246,18 @@
       "vegVarietiesCount": 0,
       "tableCount": 2,
       "totalRecords": 5
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Seeds, Grafts & Implements",
+      "mr": "बियाणे, कलमे व अवजारे"
     }
   },
   "student-admission-procedure": {
@@ -181215,8 +184267,8 @@
     "sourcePage": "student-admission-procedure",
     "scrapedAt": "2026-11-22T20:36:18.689919",
     "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
+      "en": "Admission Procedure",
+      "mr": "प्रवेश प्रक्रिया"
     },
     "breadcrumb": [
       {
@@ -181231,7 +184283,21 @@
           "en": "Students",
           "mr": "विद्यार्थी"
         },
-        "href": "/Student/AdmissionProcedure"
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Admission Procedure",
+          "mr": "प्रवेश प्रक्रिया"
+        },
+        "href": "/students/admission"
       }
     ],
     "hero": {
@@ -182581,6 +185647,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 71
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "student-circulars": {
@@ -182590,8 +185668,8 @@
     "sourcePage": "student-circulars",
     "scrapedAt": "2026-11-22T20:36:20.193175",
     "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
+      "en": "Student Circulars & Notices",
+      "mr": "विद्यार्थी परिपत्रके"
     },
     "breadcrumb": [
       {
@@ -182606,7 +185684,21 @@
           "en": "Students",
           "mr": "विद्यार्थी"
         },
-        "href": "/Student/AdmissionProcedure"
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/circulars"
+      },
+      {
+        "title": {
+          "en": "Student Circulars & Notices",
+          "mr": "विद्यार्थी परिपत्रके"
+        },
+        "href": "/students/circulars"
       }
     ],
     "hero": {
@@ -183973,6 +187065,18 @@
       "noticeCount": 3,
       "mediaCount": 17,
       "totalRecords": 76
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "student-complaints": {
@@ -183982,8 +187086,8 @@
     "sourcePage": "student-complaints",
     "scrapedAt": "2026-11-22T20:36:21.262851",
     "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
+      "en": "Student Grievance & Complaints",
+      "mr": "तक्रार निवारण व अँटी रॅगिंग"
     },
     "breadcrumb": [
       {
@@ -183998,7 +187102,21 @@
           "en": "Students",
           "mr": "विद्यार्थी"
         },
-        "href": "/Student/AdmissionProcedure"
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/complaints"
+      },
+      {
+        "title": {
+          "en": "Student Grievance & Complaints",
+          "mr": "तक्रार निवारण व अँटी रॅगिंग"
+        },
+        "href": "/students/complaints"
       }
     ],
     "hero": {
@@ -185195,6 +188313,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 69
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "student-hostels": {
@@ -185204,8 +188334,8 @@
     "sourcePage": "student-hostels",
     "scrapedAt": "2026-11-22T20:36:20.727482",
     "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
+      "en": "Hostel Accommodation",
+      "mr": "वसतिगृहे"
     },
     "breadcrumb": [
       {
@@ -185220,7 +188350,21 @@
           "en": "Students",
           "mr": "विद्यार्थी"
         },
-        "href": "/Student/AdmissionProcedure"
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/hostels"
+      },
+      {
+        "title": {
+          "en": "Hostel Accommodation",
+          "mr": "वसतिगृहे"
+        },
+        "href": "/students/hostels"
       }
     ],
     "hero": {
@@ -187091,6 +190235,18 @@
       "noticeCount": 0,
       "mediaCount": 14,
       "totalRecords": 89
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "student-international-cell": {
@@ -187100,8 +190256,8 @@
     "sourcePage": "student-international-cell",
     "scrapedAt": "2026-11-22T20:36:19.186368",
     "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
+      "en": "International Students Cell",
+      "mr": "आंतरराष्ट्रीय विद्यार्थी कक्ष"
     },
     "breadcrumb": [
       {
@@ -187116,7 +190272,21 @@
           "en": "Students",
           "mr": "विद्यार्थी"
         },
-        "href": "/Student/AdmissionProcedure"
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/international"
+      },
+      {
+        "title": {
+          "en": "International Students Cell",
+          "mr": "आंतरराष्ट्रीय विद्यार्थी कक्ष"
+        },
+        "href": "/students/international"
       }
     ],
     "hero": {
@@ -188380,6 +191550,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 74
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "student-pgi-form": {
@@ -188389,8 +191571,8 @@
     "sourcePage": "student-pgi-form",
     "scrapedAt": "2026-11-22T20:36:21.751378",
     "title": {
-      "en": "Students",
-      "mr": "Students"
+      "en": "Students Form (PGI)",
+      "mr": "विद्यार्थी अर्ज (PGI)"
     },
     "breadcrumb": [
       {
@@ -188399,6 +191581,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Students",
+          "mr": "विद्यार्थी"
+        },
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/pgi-form"
+      },
+      {
+        "title": {
+          "en": "Students Form (PGI)",
+          "mr": "विद्यार्थी अर्ज (PGI)"
+        },
+        "href": "/students/pgi-form"
       }
     ],
     "hero": {
@@ -189866,6 +193069,18 @@
       "noticeCount": 0,
       "mediaCount": 26,
       "totalRecords": 93
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "student-sports": {
@@ -189875,8 +193090,8 @@
     "sourcePage": "student-sports",
     "scrapedAt": "2026-11-22T20:36:19.670801",
     "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
+      "en": "Sports & Gymnasium",
+      "mr": "क्रीडा व व्यायामशाळा"
     },
     "breadcrumb": [
       {
@@ -189891,7 +193106,21 @@
           "en": "Students",
           "mr": "विद्यार्थी"
         },
-        "href": "/Student/AdmissionProcedure"
+        "href": "/students/admission"
+      },
+      {
+        "title": {
+          "en": "Welfare & Facilities",
+          "mr": "विद्यार्थी सुविधा व कल्याण"
+        },
+        "href": "/students/sports"
+      },
+      {
+        "title": {
+          "en": "Sports & Gymnasium",
+          "mr": "क्रीडा व व्यायामशाळा"
+        },
+        "href": "/students/sports"
       }
     ],
     "hero": {
@@ -191435,6 +194664,18 @@
       "noticeCount": 0,
       "mediaCount": 22,
       "totalRecords": 83
+    },
+    "menuId": "menu_students",
+    "parentMenu": {
+      "id": "menu_students",
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Welfare & Facilities",
+      "mr": "विद्यार्थी सुविधा व कल्याण"
     }
   },
   "tenders": {
@@ -191444,8 +194685,8 @@
     "sourcePage": "tenders",
     "scrapedAt": "2026-11-22T20:35:21.792008",
     "title": {
-      "en": "Tenders",
-      "mr": "निविदा"
+      "en": "Tenders & e-Procurement",
+      "mr": "ई-निविदा व खरेदी"
     },
     "breadcrumb": [
       {
@@ -191454,6 +194695,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Officers",
+          "mr": "अधिकारी"
+        },
+        "href": "/tenders"
+      },
+      {
+        "title": {
+          "en": "Procurement",
+          "mr": "निविदा व लिलाव"
+        },
+        "href": "/tenders"
+      },
+      {
+        "title": {
+          "en": "Tenders & e-Procurement",
+          "mr": "ई-निविदा व खरेदी"
+        },
+        "href": "/tenders"
       }
     ],
     "hero": {
@@ -203836,6 +207098,18 @@
       "noticeCount": 269,
       "mediaCount": 283,
       "totalRecords": 607
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Procurement",
+      "mr": "निविदा व लिलाव"
     }
   },
   "transparency-and-grievance": {
@@ -203845,8 +207119,8 @@
     "sourcePage": "transparency-and-grievance",
     "scrapedAt": "2026-11-22T20:35:40.716393",
     "title": {
-      "en": "Transparency",
-      "mr": "पारदर्शकता"
+      "en": "Right to Public Services",
+      "mr": "लोकसेवा हक्क कायदा"
     },
     "breadcrumb": [
       {
@@ -203855,6 +207129,27 @@
           "mr": "मुख्यपृष्ठ"
         },
         "href": "/"
+      },
+      {
+        "title": {
+          "en": "Farmer Services",
+          "mr": "शेतकरी सेवा"
+        },
+        "href": "/transparency-and-grievance"
+      },
+      {
+        "title": {
+          "en": "Forums & Advisory",
+          "mr": "शेतकरी मंच व सल्ला"
+        },
+        "href": "/transparency-and-grievance"
+      },
+      {
+        "title": {
+          "en": "Right to Public Services",
+          "mr": "लोकसेवा हक्क कायदा"
+        },
+        "href": "/transparency-and-grievance"
       }
     ],
     "hero": {
@@ -205113,6 +208408,18 @@
       "noticeCount": 0,
       "mediaCount": 24,
       "totalRecords": 79
+    },
+    "menuId": "menu_farmer",
+    "parentMenu": {
+      "id": "menu_farmer",
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      }
+    },
+    "submenuGroup": {
+      "en": "Forums & Advisory",
+      "mr": "शेतकरी मंच व सल्ला"
     }
   },
   "university-engineer-works": {
@@ -205122,8 +208429,8 @@
     "sourcePage": "university-engineer-works",
     "scrapedAt": "2026-11-22T20:36:22.752973",
     "title": {
-      "en": "Works",
-      "mr": "कामे"
+      "en": "University Engineer & Works Division",
+      "mr": "विद्यापीठ अभियंता व बांधकाम विभाग"
     },
     "breadcrumb": [
       {
@@ -205135,10 +208442,24 @@
       },
       {
         "title": {
-          "en": "Works",
-          "mr": "कामे"
+          "en": "Officers",
+          "mr": "अधिकारी"
         },
-        "href": "/Work/AtaGlance"
+        "href": "/university-engineer-works"
+      },
+      {
+        "title": {
+          "en": "Works & Infrastructure",
+          "mr": "विद्यापीठ अभियंता कार्यालय"
+        },
+        "href": "/university-engineer-works"
+      },
+      {
+        "title": {
+          "en": "University Engineer & Works Division",
+          "mr": "विद्यापीठ अभियंता व बांधकाम विभाग"
+        },
+        "href": "/university-engineer-works"
       }
     ],
     "hero": {
@@ -206298,6 +209619,18 @@
       "noticeCount": 0,
       "mediaCount": 18,
       "totalRecords": 74
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Works & Infrastructure",
+      "mr": "विद्यापीठ अभियंता कार्यालय"
     }
   },
   "vc-desk": {
@@ -206307,8 +209640,8 @@
     "sourcePage": "vc-desk",
     "scrapedAt": "2026-11-22T20:36:22.227293",
     "title": {
-      "en": "Vice Chancellor",
-      "mr": "Vice Chancellor"
+      "en": "Vice Chancellor's Desk",
+      "mr": "मा. कुलगुरू कार्यालय"
     },
     "breadcrumb": [
       {
@@ -206320,10 +209653,24 @@
       },
       {
         "title": {
-          "en": "Vice Chancellor",
-          "mr": "Vice Chancellor"
+          "en": "Officers",
+          "mr": "अधिकारी"
         },
-        "href": "/VC/VCDesk"
+        "href": "/vc-desk"
+      },
+      {
+        "title": {
+          "en": "Leadership",
+          "mr": "कुलगुरू कार्यालय"
+        },
+        "href": "/vc-desk"
+      },
+      {
+        "title": {
+          "en": "Vice Chancellor's Desk",
+          "mr": "मा. कुलगुरू कार्यालय"
+        },
+        "href": "/vc-desk"
       }
     ],
     "hero": {
@@ -207457,6 +210804,18 @@
       "noticeCount": 0,
       "mediaCount": 15,
       "totalRecords": 71
+    },
+    "menuId": "menu_officers",
+    "parentMenu": {
+      "id": "menu_officers",
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      }
+    },
+    "submenuGroup": {
+      "en": "Leadership",
+      "mr": "कुलगुरू कार्यालय"
     }
   }
 }

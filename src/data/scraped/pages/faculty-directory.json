@@ -5,23 +5,37 @@
   "sourcePage": "faculty-directory",
   "scrapedAt": "2026-11-22T20:35:46.112026",
   "title": {
-    "en": "Faculty",
-    "mr": "Faculty"
+    "en": "Faculty Directory",
+    "mr": "प्राध्यापक निर्देशिका"
   },
   "breadcrumb": [
     {
       "title": {
         "en": "Home",
-        "mr": "Home"
+        "mr": "मुख्यपृष्ठ"
       },
-      "href": ""
+      "href": "/"
     },
     {
       "title": {
-        "en": "Faculty",
-        "mr": "Faculty"
+        "en": "Education",
+        "mr": "शिक्षण"
       },
-      "href": ""
+      "href": "/faculty-directory"
+    },
+    {
+      "title": {
+        "en": "Faculty Branches",
+        "mr": "विद्याशाखा"
+      },
+      "href": "/faculty-directory"
+    },
+    {
+      "title": {
+        "en": "Faculty Directory",
+        "mr": "प्राध्यापक निर्देशिका"
+      },
+      "href": "/faculty-directory"
     }
   ],
   "hero": {
@@ -1177,5 +1191,17 @@
     "noticeCount": 0,
     "mediaCount": 20,
     "totalRecords": 75
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Faculty Branches",
+    "mr": "विद्याशाखा"
   }
 }

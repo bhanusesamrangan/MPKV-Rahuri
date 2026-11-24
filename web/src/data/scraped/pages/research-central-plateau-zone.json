@@ -5,14 +5,43 @@
   "sourcePage": "research-central-plateau-zone",
   "scrapedAt": "2026-11-22T20:36:03.875286",
   "title": {
-    "en": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Central Plateau Zone",
+    "mr": "मध्य पठार विभाग"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Agro-Climatic Research Stations",
+        "mr": "कृषि हवामान संशोधन केंद्रे"
+      },
+      "href": "/research/central-plateau-zone"
+    },
+    {
+      "title": {
+        "en": "Central Plateau Zone",
+        "mr": "मध्य पठार विभाग"
+      },
+      "href": "/research/central-plateau-zone"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Central Zone",
+      "mr": "Research Central Zone"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Central Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1305,5 +1334,17 @@
     "noticeCount": 0,
     "mediaCount": 16,
     "totalRecords": 71
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Agro-Climatic Research Stations",
+    "mr": "कृषि हवामान संशोधन केंद्रे"
   }
 }

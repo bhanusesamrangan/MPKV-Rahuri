@@ -5,14 +5,43 @@
   "sourcePage": "research-western-ghat-zone",
   "scrapedAt": "2026-11-22T20:36:18.200092",
   "title": {
-    "en": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Western Ghat Zone",
+    "mr": "पश्चिम घाट विभाग"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Agro-Climatic Research Stations",
+        "mr": "कृषि हवामान संशोधन केंद्रे"
+      },
+      "href": "/research/western-ghat-zone"
+    },
+    {
+      "title": {
+        "en": "Western Ghat Zone",
+        "mr": "पश्चिम घाट विभाग"
+      },
+      "href": "/research/western-ghat-zone"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Western Ghat Zone",
+      "mr": "Research Western Ghat Zone"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Western Ghat Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1317,5 +1346,17 @@
     "noticeCount": 0,
     "mediaCount": 18,
     "totalRecords": 73
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Agro-Climatic Research Stations",
+    "mr": "कृषि हवामान संशोधन केंद्रे"
   }
 }

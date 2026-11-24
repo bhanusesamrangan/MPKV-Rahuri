@@ -5,14 +5,43 @@
   "sourcePage": "extension-communication-center",
   "scrapedAt": "2026-11-22T20:35:32.688104",
   "title": {
-    "en": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Communication Centre & Radio 90.8 FM",
+    "mr": "संप्रेषण केंद्र व ९०.८ एफएम वाहिनी"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "href": "/communication-centre"
+    },
+    {
+      "title": {
+        "en": "Extension Overview & Centers",
+        "mr": "विस्तार सेवा व केंद्रे"
+      },
+      "href": "/communication-centre"
+    },
+    {
+      "title": {
+        "en": "Communication Centre & Radio 90.8 FM",
+        "mr": "संप्रेषण केंद्र व ९०.८ एफएम वाहिनी"
+      },
+      "href": "/communication-centre"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Communication Centre",
+      "mr": "Communication Centre"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Communication Centre - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1248,5 +1277,17 @@
     "noticeCount": 0,
     "mediaCount": 19,
     "totalRecords": 76
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Extension Overview & Centers",
+    "mr": "विस्तार सेवा व केंद्रे"
   }
 }

@@ -5,14 +5,43 @@
   "sourcePage": "education-certificate-courses",
   "scrapedAt": "2026-11-22T20:35:25.280867",
   "title": {
-    "en": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Certificate Courses",
+    "mr": "प्रमाणपत्र अभ्यासक्रम"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Courses & Curriculum",
+        "mr": "अभ्यासक्रम व पदव्या"
+      },
+      "href": "/education/certificate-courses"
+    },
+    {
+      "title": {
+        "en": "Certificate Courses",
+        "mr": "प्रमाणपत्र अभ्यासक्रम"
+      },
+      "href": "/education/certificate-courses"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Certificate Courses",
+      "mr": "Certificate Courses"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Certificate Courses - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -1670,5 +1699,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 76
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Courses & Curriculum",
+    "mr": "अभ्यासक्रम व पदव्या"
   }
 }

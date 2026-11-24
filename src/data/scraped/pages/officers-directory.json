@@ -5,8 +5,8 @@
   "sourcePage": "officers-directory",
   "scrapedAt": "2026-11-22T20:36:00.356964",
   "title": {
-    "en": "Officers Contacts",
-    "mr": "अधिकारी संपर्क"
+    "en": "Officers",
+    "mr": "अधिकारी"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,20 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      },
+      "href": "/officers/directory"
+    },
+    {
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      },
+      "href": "/officers/directory"
     }
   ],
   "hero": {
@@ -1373,5 +1387,13 @@
     "noticeCount": 0,
     "mediaCount": 21,
     "totalRecords": 90
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
   }
 }

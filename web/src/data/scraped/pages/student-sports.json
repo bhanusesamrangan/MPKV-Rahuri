@@ -5,8 +5,8 @@
   "sourcePage": "student-sports",
   "scrapedAt": "2026-11-22T20:36:19.670801",
   "title": {
-    "en": "Students",
-    "mr": "विद्यार्थी"
+    "en": "Sports & Gymnasium",
+    "mr": "क्रीडा व व्यायामशाळा"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Students",
         "mr": "विद्यार्थी"
       },
-      "href": "/Student/AdmissionProcedure"
+      "href": "/students/admission"
+    },
+    {
+      "title": {
+        "en": "Welfare & Facilities",
+        "mr": "विद्यार्थी सुविधा व कल्याण"
+      },
+      "href": "/students/sports"
+    },
+    {
+      "title": {
+        "en": "Sports & Gymnasium",
+        "mr": "क्रीडा व व्यायामशाळा"
+      },
+      "href": "/students/sports"
     }
   ],
   "hero": {
@@ -1565,5 +1579,17 @@
     "noticeCount": 0,
     "mediaCount": 22,
     "totalRecords": 83
+  },
+  "menuId": "menu_students",
+  "parentMenu": {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Welfare & Facilities",
+    "mr": "विद्यार्थी सुविधा व कल्याण"
   }
 }

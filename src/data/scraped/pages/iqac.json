@@ -5,16 +5,37 @@
   "sourcePage": "iqac",
   "scrapedAt": "2026-11-22T20:35:42.798478",
   "title": {
-    "en": "Internal Quality Assurance Cell",
-    "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+    "en": "Internal Quality Assurance Cell (IQAC)",
+    "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC)"
   },
   "breadcrumb": [
     {
       "title": {
         "en": "Home",
-        "mr": "Home"
+        "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/iqac"
+    },
+    {
+      "title": {
+        "en": "Academic Quality",
+        "mr": "शैक्षणिक गुणवत्ता"
+      },
+      "href": "/iqac"
+    },
+    {
+      "title": {
+        "en": "Internal Quality Assurance Cell (IQAC)",
+        "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC)"
+      },
+      "href": "/iqac"
     }
   ],
   "hero": {
@@ -1271,5 +1292,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 74
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Academic Quality",
+    "mr": "शैक्षणिक गुणवत्ता"
   }
 }

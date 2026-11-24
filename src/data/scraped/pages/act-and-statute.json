@@ -5,8 +5,8 @@
   "sourcePage": "act-and-statute",
   "scrapedAt": "2026-11-22T20:35:38.667082",
   "title": {
-    "en": "Act & Statute",
-    "mr": "कायदे"
+    "en": "Maharashtra Agricultural Universities Act & Statutes",
+    "mr": "महाराष्ट्र कृषि विद्यापीठे कायदा व परिनियम"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Officers",
+        "mr": "अधिकारी"
+      },
+      "href": "/act-and-statute"
+    },
+    {
+      "title": {
+        "en": "Governance",
+        "mr": "शासन व मंडळ"
+      },
+      "href": "/act-and-statute"
+    },
+    {
+      "title": {
+        "en": "Maharashtra Agricultural Universities Act & Statutes",
+        "mr": "महाराष्ट्र कृषि विद्यापीठे कायदा व परिनियम"
+      },
+      "href": "/act-and-statute"
     }
   ],
   "hero": {
@@ -1411,5 +1432,17 @@
     "noticeCount": 0,
     "mediaCount": 23,
     "totalRecords": 87
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Governance",
+    "mr": "शासन व मंडळ"
   }
 }

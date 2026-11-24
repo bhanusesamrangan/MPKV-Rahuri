@@ -5,8 +5,8 @@
   "sourcePage": "library-sections",
   "scrapedAt": "2026-11-22T20:35:57.707624",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Library Sections",
+    "mr": "ग्रंथालय विभाग"
   },
   "breadcrumb": [
     {
@@ -21,7 +21,21 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "About & Collections",
+        "mr": "माहिती व ग्रंथसंग्रह"
+      },
+      "href": "/library/sections"
+    },
+    {
+      "title": {
+        "en": "Library Sections",
+        "mr": "ग्रंथालय विभाग"
+      },
+      "href": "/library/sections"
     }
   ],
   "hero": {
@@ -1347,5 +1361,17 @@
     "noticeCount": 0,
     "mediaCount": 19,
     "totalRecords": 80
+  },
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "submenuGroup": {
+    "en": "About & Collections",
+    "mr": "माहिती व ग्रंथसंग्रह"
   }
 }

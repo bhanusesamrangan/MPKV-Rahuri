@@ -58,8 +58,8 @@
       {
         "id": "edu_group_2",
         "title": {
-          "en": "Colleges & Institutes",
-          "mr": "महाविद्यालये व संस्था"
+          "en": "Colleges",
+          "mr": "महाविद्यालये"
         },
         "is_group": true,
         "children": [
@@ -76,20 +76,6 @@
               "mr": "संलग्न महाविद्यालये"
             },
             "href": "/education/affiliated-colleges"
-          },
-          {
-            "title": {
-              "en": "Post Graduate Institute (PGI), Rahuri",
-              "mr": "पदव्युत्तर महाविद्यालय (PGI), राहुरी"
-            },
-            "href": "/post-graduate-institute-rahuri"
-          },
-          {
-            "title": {
-              "en": "Dr. A.S. College of Agril. Engg. & Tech., Rahuri",
-              "mr": "डॉ. अ. शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
-            },
-            "href": "/dr-as-caet-rahuri"
           }
         ]
       },
@@ -103,31 +89,24 @@
         "children": [
           {
             "title": {
-              "en": "Doctoral (Ph.D.) Programmes",
-              "mr": "आचार्य (Ph.D.) पदवी"
+              "en": "Diploma",
+              "mr": "पदविका"
             },
-            "href": "/education/doctoral"
+            "href": "/education/diploma"
           },
           {
             "title": {
-              "en": "Master's (M.Sc. / M.Tech.) Programmes",
-              "mr": "पदव्युत्तर (M.Sc. / M.Tech.) पदवी"
-            },
-            "href": "/education/masters"
-          },
-          {
-            "title": {
-              "en": "Bachelor's Programmes",
+              "en": "Bachelor's",
               "mr": "पदवी अभ्यासक्रम"
             },
             "href": "/education/bachelors"
           },
           {
             "title": {
-              "en": "Diploma / Polytechnic",
-              "mr": "पदविका (पॉलिटेक्निक)"
+              "en": "Master's & Doctoral",
+              "mr": "पदव्युत्तर व आचार्य पदवी"
             },
-            "href": "/education/diploma"
+            "href": "/education/masters-doctoral"
           },
           {
             "title": {
@@ -183,8 +162,8 @@
       {
         "id": "res_group_1",
         "title": {
-          "en": "Overview & Schemes",
-          "mr": "संशोधन आढावा व योजना"
+          "en": "Overview & Profile",
+          "mr": "संशोधन आढावा व रूपरेषा"
         },
         "is_group": true,
         "children": [
@@ -211,7 +190,24 @@
           },
           {
             "title": {
-              "en": "ICAR-AICRP Projects",
+              "en": "Research Review Mechanism",
+              "mr": "संशोधन पुनरावलोकन यंत्रणा"
+            },
+            "href": "/research/review-mechanism"
+          }
+        ]
+      },
+      {
+        "id": "res_group_schemes",
+        "title": {
+          "en": "Research Schemes",
+          "mr": "संशोधन योजना"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "ICAR-AICRP",
               "mr": "अखिल भारतीय समन्वित प्रकल्प (AICRP)"
             },
             "href": "/research/aicrp"
@@ -229,13 +225,6 @@
               "mr": "बाह्य अनुदानीत प्रकल्प"
             },
             "href": "/research/funded-projects"
-          },
-          {
-            "title": {
-              "en": "Research Review Mechanism",
-              "mr": "संशोधन पुनरावलोकन यंत्रणा"
-            },
-            "href": "/research/review-mechanism"
           }
         ]
       },

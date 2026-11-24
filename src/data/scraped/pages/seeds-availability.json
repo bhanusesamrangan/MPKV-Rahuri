@@ -5,8 +5,8 @@
   "sourcePage": "seeds-availability",
   "scrapedAt": "2026-11-22T20:36:22.761255",
   "title": {
-    "en": "Certified Seed Availability (MPKV Rahuri Central Seed Department)",
-    "mr": "प्रमाणित बियाणे उपलब्धता साठा (मफुकृवि राहुरी मध्यवर्ती बियाणे विभाग)"
+    "en": "Certified Seed Availability",
+    "mr": "प्रमाणित बियाणे साठा"
   },
   "breadcrumb": [
     {
@@ -21,12 +21,19 @@
         "en": "Farmer Services",
         "mr": "शेतकरी सेवा"
       },
-      "href": "#"
+      "href": "/seeds-availability"
     },
     {
       "title": {
-        "en": "Seeds Availability",
-        "mr": "बियाणे उपलब्धता"
+        "en": "Seeds, Grafts & Implements",
+        "mr": "बियाणे, कलमे व अवजारे"
+      },
+      "href": "/seeds-availability"
+    },
+    {
+      "title": {
+        "en": "Certified Seed Availability",
+        "mr": "प्रमाणित बियाणे साठा"
       },
       "href": "/seeds-availability"
     }
@@ -347,5 +354,17 @@
     "vegVarietiesCount": 0,
     "tableCount": 2,
     "totalRecords": 5
+  },
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Seeds, Grafts & Implements",
+    "mr": "बियाणे, कलमे व अवजारे"
   }
 }

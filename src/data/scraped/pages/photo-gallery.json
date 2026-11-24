@@ -5,16 +5,37 @@
   "sourcePage": "photo-gallery",
   "scrapedAt": "2026-11-22T20:35:41.474608",
   "title": {
-    "en": "Gallery",
-    "mr": "गॅलरी"
+    "en": "Photo & Media Gallery",
+    "mr": "छायाचित्रे व माध्यम दालन"
   },
   "breadcrumb": [
     {
       "title": {
         "en": "Home",
-        "mr": "Home"
+        "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/photo-gallery"
+    },
+    {
+      "title": {
+        "en": "Media",
+        "mr": "माध्यम"
+      },
+      "href": "/photo-gallery"
+    },
+    {
+      "title": {
+        "en": "Photo & Media Gallery",
+        "mr": "छायाचित्रे व माध्यम दालन"
+      },
+      "href": "/photo-gallery"
     }
   ],
   "hero": {
@@ -8058,5 +8079,17 @@
     "noticeCount": 0,
     "mediaCount": 946,
     "totalRecords": 1083
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "Media",
+    "mr": "माध्यम"
   }
 }
