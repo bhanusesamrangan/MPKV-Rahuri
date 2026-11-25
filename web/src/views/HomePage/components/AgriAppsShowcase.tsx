@@ -5,15 +5,15 @@ import { useLanguage } from '@/context/LanguageContext';
 import {
   Smartphone,
   ExternalLink,
-  Droplets,
-  Milk,
-  Bug,
-  Timer,
-  Compass,
-  Sprout,
   Sparkles,
   ArrowRight
 } from 'lucide-react';
+
+const PlayStoreIcon: React.FC<{ className?: string }> = ({ className = 'w-4 h-4' }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M3.609 1.814L13.792 12 3.61 22.186a1.59 1.59 0 0 1-.61-.926V2.74c0-.36.143-.702.61-.926zm11.31 11.312l2.25 2.25-10.45 6.036 8.2-8.286zm0-2.252l-8.2-8.286 10.45 6.036-2.25 2.25zm1.592 1.126l2.844-1.642a1.442 1.442 0 0 0 0-2.496l-2.844-1.642-1.782 1.782 1.782 1.782z" />
+  </svg>
+);
 
 export const AgriAppsShowcase: React.FC = () => {
   const { language } = useLanguage();
@@ -27,10 +27,9 @@ export const AgriAppsShowcase: React.FC = () => {
       desc: language === 'mr'
         ? 'पिकांवरील कीड-रोगांचे एआय द्वारे त्वरित अचूक निदान व एकात्मिक उपाययोजना.'
         : 'AI-assisted diagnosis and integrated management of crop pests and diseases.',
-      icon: Bug,
-      link: 'https://smartpdm.mpkv.ac.in',
+      image: '/media/images/pdm.jpg',
+      link: 'https://play.google.com/store/apps/details?id=com.mpkv.ppdm&hl=en_IN',
       styles: {
-        iconBg: 'bg-gradient-to-br from-emerald-500 to-green-700 text-white shadow-xs shadow-emerald-500/20',
         badgeBg: 'bg-emerald-100 text-emerald-950 border-emerald-300/90',
         cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:via-emerald-50/30 hover:to-emerald-50/60',
         border: 'border-emerald-200/90 hover:border-emerald-400',
@@ -46,10 +45,9 @@ export const AgriAppsShowcase: React.FC = () => {
       desc: language === 'mr'
         ? 'दुग्ध व्यवसाय, जनावरांचे शास्त्रीय पोषण, पैदास नोंदी व दूध उत्पादन व्यवस्थापन.'
         : 'Smart tracking for dairy animal nutrition, elite breeding, and milk yields.',
-      icon: Milk,
-      link: 'https://phuledairy.mpkv.ac.in',
+      image: '/media/images/PhuleDairy.jpg',
+      link: 'https://play.google.com/store/apps/details?id=com.dairy.phule_farmer&hl=en_IN',
       styles: {
-        iconBg: 'bg-gradient-to-br from-amber-500 to-orange-600 text-slate-950 shadow-xs shadow-amber-500/20',
         badgeBg: 'bg-amber-100 text-amber-950 border-amber-300/90',
         cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:via-amber-50/30 hover:to-amber-50/60',
         border: 'border-amber-200/90 hover:border-amber-400',
@@ -65,10 +63,9 @@ export const AgriAppsShowcase: React.FC = () => {
       desc: language === 'mr'
         ? 'शेततळी, विहिरी व कालवा पाण्याचे अचूक शास्त्रीय हिशोब आणि पीकनिहाय नियोजन.'
         : 'Scientific water budgeting, farm ponds capacity, and crop demand calculations.',
-      icon: Droplets,
-      link: 'https://phulejal.mpkv.ac.in',
+      image: '/media/images/pjapp.png',
+      link: 'https://play.google.com/store/apps/details?id=net.parthinfotech.phulejal',
       styles: {
-        iconBg: 'bg-gradient-to-br from-cyan-500 to-sky-600 text-white shadow-xs shadow-cyan-500/20',
         badgeBg: 'bg-cyan-100 text-cyan-950 border-cyan-300/90',
         cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:via-cyan-50/30 hover:to-cyan-50/60',
         border: 'border-cyan-200/90 hover:border-cyan-400',
@@ -84,10 +81,9 @@ export const AgriAppsShowcase: React.FC = () => {
       desc: language === 'mr'
         ? 'मृदा ओलावा, तापमान व बाष्पीभवनावर आधारित ठिबक व तुषार सिंचन वेळापत्रक.'
         : 'Automated drip irrigation scheduling based on real-time soil moisture & weather.',
-      icon: Timer,
-      link: 'https://irrigationscheduler.mpkv.ac.in',
+      image: '/media/images/pisapp.png',
+      link: 'https://play.google.com/store/apps/details?id=net.parthinfotech.modified_pis&hl=en',
       styles: {
-        iconBg: 'bg-gradient-to-br from-blue-600 to-indigo-700 text-white shadow-xs shadow-blue-500/20',
         badgeBg: 'bg-blue-100 text-blue-950 border-blue-300/90',
         cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:via-blue-50/30 hover:to-blue-50/60',
         border: 'border-blue-200/90 hover:border-blue-400',
@@ -103,10 +99,9 @@ export const AgriAppsShowcase: React.FC = () => {
       desc: language === 'mr'
         ? 'उपग्रह प्रणाली व जीआयएस मॅपिंगद्वारे प्रादेशिक जलस्रोत मॉडेलिंग व विश्लेषण.'
         : 'Satellite remote sensing & GIS mapping for watershed management & water resources.',
-      icon: Compass,
-      link: 'https://spatialiwr.mpkv.ac.in',
+      image: '/media/images/iwr.webp',
+      link: 'https://play.google.com/store/apps/details?id=com.caast.spatialiwr&hl=en_IN',
       styles: {
-        iconBg: 'bg-gradient-to-br from-purple-500 to-violet-700 text-white shadow-xs shadow-purple-500/20',
         badgeBg: 'bg-purple-100 text-purple-950 border-purple-300/90',
         cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:via-purple-50/30 hover:to-purple-50/60',
         border: 'border-purple-200/90 hover:border-purple-400',
@@ -122,10 +117,9 @@ export const AgriAppsShowcase: React.FC = () => {
       desc: language === 'mr'
         ? 'जास्तीत जास्त एकरी ऊस उत्पादकतेसाठी खत, पाणी, बेणे प्रक्रिया व तण नियंत्रण.'
         : 'End-to-end guidance for high-tonnage sugarcane cultivation, nutrition, and ratoon care.',
-      icon: Sprout,
-      link: 'https://sugarcane.mpkv.ac.in',
+      image: '/media/images/sugarcan.webp',
+      link: 'https://play.google.com/store/apps/details?id=com.mpkvcaast.phulesugarcane1&hl=en_IN',
       styles: {
-        iconBg: 'bg-gradient-to-br from-rose-500 to-pink-600 text-white shadow-xs shadow-rose-500/20',
         badgeBg: 'bg-rose-100 text-rose-950 border-rose-300/90',
         cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:via-rose-50/30 hover:to-rose-50/60',
         border: 'border-rose-200/90 hover:border-rose-400',
@@ -173,55 +167,74 @@ export const AgriAppsShowcase: React.FC = () => {
 
         {/* 6 Apps Interactive Multicolor Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {apps.map((app) => {
-            const Icon = app.icon;
-
-            return (
-              <a
-                key={app.id}
-                href={app.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`p-5 rounded-2xl ${app.styles.cardBg} border ${app.styles.border} shadow-2xs hover:shadow-lg ${app.styles.glow} hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group cursor-pointer relative overflow-hidden`}
-              >
-                <div className="space-y-3.5">
-                  
-                  {/* Top Bar: Icon + Category Badge */}
-                  <div className="flex items-center justify-between gap-2">
-                    <div className={`w-11 h-11 rounded-2xl ${app.styles.iconBg} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                      <Icon className="w-5 h-5" />
-                    </div>
-                    <span className={`text-[10.5px] font-bold px-2.5 py-0.5 rounded-lg border ${app.styles.badgeBg} shadow-2xs`}>
-                      {app.category}
-                    </span>
+          {apps.map((app) => (
+            <a
+              key={app.id}
+              href={app.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`p-5 rounded-2xl ${app.styles.cardBg} border ${app.styles.border} shadow-2xs hover:shadow-lg ${app.styles.glow} hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group cursor-pointer relative overflow-hidden`}
+            >
+              <div className="space-y-3.5">
+                
+                {/* Top Bar: Original Scraped App Icon + Category Badge */}
+                <div className="flex items-center justify-between gap-3">
+                  <div className="w-14 h-14 rounded-2xl overflow-hidden bg-white border border-stone-200/90 shadow-xs flex-shrink-0 group-hover:scale-105 group-hover:shadow-md transition-all duration-300 p-1 flex items-center justify-center">
+                    <img
+                      src={app.image}
+                      alt={app.name}
+                      className="w-full h-full object-contain rounded-xl"
+                      onError={(e) => {
+                        // Fallback in case of image load delay
+                        (e.target as HTMLElement).style.display = 'none';
+                      }}
+                    />
                   </div>
-
-                  {/* Title & Description */}
-                  <div>
-                    <h3 className="text-base sm:text-lg font-bold text-slate-900 group-hover:text-slate-950 transition-colors">
-                      {language === 'mr' ? app.marathiName : app.name}
-                    </h3>
-                    <p className="text-xs sm:text-[13px] text-slate-700 mt-1.5 leading-relaxed font-medium">
-                      {app.desc}
-                    </p>
-                  </div>
-
-                </div>
-
-                {/* Footer Action Link */}
-                <div className="pt-3.5 mt-4 border-t border-stone-200/70 flex items-center justify-between text-xs font-bold">
-                  <span className={`inline-flex items-center gap-1.5 transition-colors ${app.styles.actionColor}`}>
-                    <span>{language === 'mr' ? 'अ‍ॅप उघडा' : 'Launch Application'}</span>
-                    <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                  </span>
-
-                  <span className="text-[11px] font-semibold text-slate-400 group-hover:text-slate-600 transition-colors">
-                    mpkv.ac.in
+                  <span className={`text-[10.5px] font-bold px-2.5 py-0.5 rounded-lg border ${app.styles.badgeBg} shadow-2xs text-right`}>
+                    {app.category}
                   </span>
                 </div>
-              </a>
-            );
-          })}
+
+                {/* Title & Description */}
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold text-slate-900 group-hover:text-slate-950 transition-colors flex items-center gap-2">
+                    <span>{language === 'mr' ? app.marathiName : app.name}</span>
+                  </h3>
+                  <p className="text-xs sm:text-[13px] text-slate-700 mt-1.5 leading-relaxed font-medium">
+                    {app.desc}
+                  </p>
+                </div>
+
+              </div>
+
+              {/* Footer Action Link: Direct to Google Play */}
+              <div className="pt-3.5 mt-4 border-t border-stone-200/70 flex items-center justify-between text-xs font-bold">
+                <span className={`inline-flex items-center gap-1.5 transition-colors ${app.styles.actionColor}`}>
+                  <PlayStoreIcon className="w-3.5 h-3.5 fill-current" />
+                  <span>{language === 'mr' ? 'गुगल प्ले वर डाउनलोड करा' : 'Get on Google Play'}</span>
+                </span>
+
+                <span className="text-[11px] font-semibold text-slate-400 group-hover:text-emerald-700 transition-colors flex items-center gap-1">
+                  <span>Play Store</span>
+                  <ExternalLink className="w-3 h-3" />
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+
+        {/* View More on Google Play Banner from Live Site */}
+        <div className="pt-2 flex justify-center">
+          <a
+            href="https://play.google.com/store/apps/developer?id=CAAST+-CSAWM&hl=en_IN"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 px-6 py-3 rounded-2xl bg-emerald-800 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm transition-all shadow-md hover:shadow-lg hover:scale-105"
+          >
+            <PlayStoreIcon className="w-4 h-4 fill-white" />
+            <span>{language === 'mr' ? 'सर्व अ‍ॅप्लिकेशन्स गुगल प्ले स्टोअरवर पहा' : 'View All Apps on Google Play Store (CAAST-CSAWM)'}</span>
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
         </div>
 
       </div>
