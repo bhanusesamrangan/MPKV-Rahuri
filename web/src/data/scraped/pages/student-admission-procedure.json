@@ -1,12 +1,12 @@
 {
   "slug": "student-admission-procedure",
-  "url": "https://mpkv.ac.in/Student/AdmissionProcedure",
-  "route": "/Student/AdmissionProcedure",
-  "sourcePage": "student-admission-procedure",
-  "scrapedAt": "2026-11-22T20:36:18.689919",
+  "url": "/students/admission",
+  "route": "students/admission",
+  "sourcePage": "https://mpkv.ac.in/Students/AdmissionProcedure",
+  "scrapedAt": "2026-11-25T07:43:26.352Z",
   "title": {
-    "en": "Admission Procedure",
-    "mr": "प्रवेश प्रक्रिया"
+    "en": "Centralized Admission Procedure (UG, PG & Ph.D.)",
+    "mr": "केंद्रीभूत प्रवेश प्रक्रिया (पदवी, पदव्युत्तर व आचार्य)"
   },
   "breadcrumb": [
     {
@@ -14,622 +14,84 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "href": "/"
+      "url": "/"
     },
     {
       "title": {
         "en": "Students",
         "mr": "विद्यार्थी"
       },
-      "href": "/students/admission"
-    },
-    {
-      "title": {
-        "en": "Welfare & Facilities",
-        "mr": "विद्यार्थी सुविधा व कल्याण"
-      },
-      "href": "/students/admission"
+      "url": "/students"
     },
     {
       "title": {
         "en": "Admission Procedure",
         "mr": "प्रवेश प्रक्रिया"
       },
-      "href": "/students/admission"
+      "url": "/students/admission"
     }
   ],
   "hero": {
     "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
+      "en": "Centralized Agriculture Admissions",
+      "mr": "केंद्रीभूत कृषी प्रवेश प्रक्रिया"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Students",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — विद्यार्थी"
+      "en": "Information, Eligibility Criteria, Entrance Examinations, and Online Counseling for B.Sc. (Hons) Agriculture, B.Tech., M.Sc., and Doctoral Programs",
+      "mr": "पदवी, पदव्युत्तर व आचार्य पदवी अभ्यासक्रमांचे पात्रता निकष, प्रवेश परीक्षा व राज्यस्तरीय केंद्रीभूत ऑनलाइन प्रवेश प्रक्रिया"
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "State CAP Admission Gateway",
+      "mr": "राज्यस्तरीय कॅप प्रवेश दालन"
     }
   },
-  "headings": [
+  "paragraphs": [
     {
-      "level": "h6",
       "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+        "en": "Admissions to all Undergraduate (B.Sc. Hons Agriculture, B.Sc. Hons Horticulture, B.Tech. Agril. Engg., B.Sc. Hons Forestry, B.Tech. Food Tech, B.Sc. Hons Agri Business Management), Postgraduate (M.Sc. Agri, M.Tech.), and Doctoral (Ph.D.) degree programs across MPKV are conducted through the Centralized Admission Process (CAP) governed by the Maharashtra Council of Agricultural Education and Research (MCAER), Pune and State Common Entrance Test Cell, Maharashtra.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ अंतर्गत सर्व पदवी (कृषि, उद्यानविद्या, कृषि अभियांत्रिकी, अन्न तंत्रज्ञान, कृषि व्यवसाय व्यवस्थापन), पदव्युत्तर (M.Sc. Agri, M.Tech.) आणि आचार्य (Ph.D.) अभ्यासक्रमांचे प्रवेश महाराष्ट्र कृषि शिक्षण व संशोधन परिषद (MCAER) पुणे आणि राज्य सीईटी सेलद्वारे केंद्रीभूत प्रवेश प्रक्रियेमार्फत (CAP) राबवले जातात."
       },
       "order": 1
     },
     {
-      "level": "h6",
       "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+        "en": "Candidates must qualify in the requisite entrance examination: MHT-CET (PCB / PCM) / NEET / JEE for Undergraduate programs, and MCAER-PG-CET / ICAR-AIEEA for Postgraduate and Doctoral programs. Online registrations, option form filling, document verification, and seat allotments occur via the state portal maha-agriadmission.in.",
+        "mr": "उमेदवारांनी पदवी प्रवेशासाठी MHT-CET (PCB/PCM) किंवा NEET/JEE परीक्षा देणे अनिवार्य असून, पदव्युत्तर व आचार्य पदवीसाठी MCAER PG-CET अथवा ICAR-AIEEA परीक्षा आवश्यक आहे. सर्व प्रवेश अर्ज, विकल्प फॉर्म व जागा वाटप राज्य शासनाच्या अधिकृत maha-agriadmission.in पोर्टलवर होते."
       },
       "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Students",
-        "mr": "विद्यार्थी"
-      },
-      "order": 55
-    }
-  ],
-  "paragraphs": [],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Students",
-          "mr": "विद्यार्थी"
-        },
-        {
-          "en": "Admission Procedure",
-          "mr": "Admission Procedure"
-        },
-        {
-          "en": "Academic Regulations",
-          "mr": "Academic Regulations"
-        },
-        {
-          "en": "Sports",
-          "mr": "Sports"
-        },
-        {
-          "en": "International StudentsHomeFacilitiesHow to ReachStudents Advisors Desk",
-          "mr": "International StudentsHomeFacilitiesHow to ReachStudents Advisors Desk"
-        },
-        {
-          "en": "Hostels",
-          "mr": "Hostels"
-        },
-        {
-          "en": "Circulars",
-          "mr": "Circulars"
-        },
-        {
-          "en": "Students Complaints",
-          "mr": "Students Complaints"
-        },
-        {
-          "en": "Scholarship Link",
-          "mr": "Scholarship Link"
-        },
-        {
-          "en": "Photo Galary",
-          "mr": "Photo Galary"
-        }
-      ],
-      "order": 56
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Home",
-          "mr": "Home"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "How to Reach",
-          "mr": "How to Reach"
-        },
-        {
-          "en": "Students Advisors Desk",
-          "mr": "Students Advisors Desk"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "U.G.",
-          "mr": "U.G."
-        },
-        {
-          "en": "P.G.",
-          "mr": "P.G."
-        },
-        {
-          "en": "Ph.D",
-          "mr": "Ph.D"
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "U.G.(ABM & Animal Husbandary)",
-          "mr": "U.G.(ABM & Animal Husbandary)"
-        }
-      ],
-      "order": 59
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Diploma in Agricultural Technology",
-          "mr": "Diploma in Agricultural Technology"
-        },
-        {
-          "en": "Diploma in Agriculture Polytechnique",
-          "mr": "Diploma in Agriculture Polytechnique"
-        },
-        {
-          "en": "Mali Training Course",
-          "mr": "Mali Training Course"
-        }
-      ],
-      "order": 60
     }
   ],
   "tables": [
     {
-      "id": "table_1",
+      "id": "table_admission_programs",
       "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
+        "en": "Degree Programs, Eligibility Criteria & Admission Channels",
+        "mr": "अभ्यासक्रम, शैक्षणिक पात्रता व प्रवेश परीक्षा तपशील"
       },
       "headers": [
         {
           "en": "Sr.No",
-          "mr": "Sr.No"
+          "mr": "अ.क्र."
         },
         {
-          "en": "Title",
-          "mr": "Title"
+          "en": "Degree Program",
+          "mr": "पदवी / अभ्यासक्रम"
         },
         {
-          "en": "File",
-          "mr": "File"
+          "en": "Duration",
+          "mr": "कालावधी"
+        },
+        {
+          "en": "Basic Qualifying Eligibility",
+          "mr": "किमान शैक्षणिक पात्रता"
+        },
+        {
+          "en": "Qualifying Entrance Exam",
+          "mr": "पात्रता प्रवेश परीक्षा"
+        },
+        {
+          "en": "Official Admission Portal",
+          "mr": "अधिकृत प्रवेश पोर्टल"
         }
       ],
       "rows": [
@@ -637,765 +99,279 @@
           {
             "text": {
               "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
+              "mr": "१"
+            }
           },
           {
             "text": {
-              "en": "PROSPECTUS (Admission to Non-Professional course of B.Sc.(Hons)(Agricultural Business Management) For the Academic Year 2019-20)",
-              "mr": "PROSPECTUS (Admission to Non-Professional course of B.Sc.(Hons)(Agricultural Business Management) For the Academic Year 2019-20)"
-            },
-            "fileLink": "",
-            "originalLink": ""
+              "en": "B.Sc. (Hons) Agriculture",
+              "mr": "बी.एस्सी. (ऑनर्स) कृषी"
+            }
           },
           {
             "text": {
-              "en": "",
-              "mr": ""
+              "en": "4 Years (8 Semesters)",
+              "mr": "४ वर्षे (८ सेमिस्टर)"
+            }
+          },
+          {
+            "text": {
+              "en": "12th Science (PCB/PCMB) with English",
+              "mr": "१२ वी विज्ञान (PCB/PCMB) इंग्रजीसह उत्तीर्ण"
+            }
+          },
+          {
+            "text": {
+              "en": "MHT-CET (PCB/PCM) / NEET / JEE",
+              "mr": "MHT-CET (PCB/PCM) / NEET / JEE"
+            }
+          },
+          {
+            "text": {
+              "en": "maha-agriadmission.in (Maha CAP)",
+              "mr": "maha-agriadmission.in"
             },
-            "fileLink": "/media/docs/ABM_Prospects_English_2019-20..pdf",
-            "originalLink": "/StaticPdf/ABM Prospects (English) 2019-20..pdf"
+            "fileLink": "https://maha-agriadmission.in"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Horticulture",
+              "mr": "बी.एस्सी. (ऑनर्स) उद्यानविद्या"
+            }
+          },
+          {
+            "text": {
+              "en": "4 Years (8 Semesters)",
+              "mr": "४ वर्षे (८ सेमिस्टर)"
+            }
+          },
+          {
+            "text": {
+              "en": "12th Science (PCB/PCMB) with English",
+              "mr": "१२ वी विज्ञान (PCB/PCMB) इंग्रजीसह उत्तीर्ण"
+            }
+          },
+          {
+            "text": {
+              "en": "MHT-CET (PCB/PCM) / NEET / JEE",
+              "mr": "MHT-CET (PCB/PCM) / NEET / JEE"
+            }
+          },
+          {
+            "text": {
+              "en": "maha-agriadmission.in (Maha CAP)",
+              "mr": "maha-agriadmission.in"
+            },
+            "fileLink": "https://maha-agriadmission.in"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Agricultural Engineering)",
+              "mr": "बी.टेक. (कृषि अभियांत्रिकी)"
+            }
+          },
+          {
+            "text": {
+              "en": "4 Years (8 Semesters)",
+              "mr": "४ वर्षे (८ सेमिस्टर)"
+            }
+          },
+          {
+            "text": {
+              "en": "12th Science (PCM/PCMB) with Physics, Chem, Math",
+              "mr": "१२ वी विज्ञान (भौतिक, रसायन व गणित विषयांसह)"
+            }
+          },
+          {
+            "text": {
+              "en": "MHT-CET (PCM) / JEE Main",
+              "mr": "MHT-CET (PCM) / JEE Main"
+            }
+          },
+          {
+            "text": {
+              "en": "maha-agriadmission.in (Maha CAP)",
+              "mr": "maha-agriadmission.in"
+            },
+            "fileLink": "https://maha-agriadmission.in"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "B.Sc. (Hons) Agri Business Management",
+              "mr": "बी.एस्सी. (ऑनर्स) कृषी व्यवसाय व्यवस्थापन"
+            }
+          },
+          {
+            "text": {
+              "en": "4 Years (8 Semesters)",
+              "mr": "४ वर्षे (८ सेमिस्टर)"
+            }
+          },
+          {
+            "text": {
+              "en": "12th Science (PCB/PCM/PCMB)",
+              "mr": "१२ वी विज्ञान (PCB/PCM/PCMB)"
+            }
+          },
+          {
+            "text": {
+              "en": "MHT-CET / NEET / JEE",
+              "mr": "MHT-CET / NEET / JEE"
+            }
+          },
+          {
+            "text": {
+              "en": "maha-agriadmission.in (Maha CAP)",
+              "mr": "maha-agriadmission.in"
+            },
+            "fileLink": "https://maha-agriadmission.in"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "५"
+            }
+          },
+          {
+            "text": {
+              "en": "M.Sc. (Agriculture) - 14 Disciplines",
+              "mr": "एम.एस्सी. (कृषी) - १४ विद्याशाखा"
+            }
+          },
+          {
+            "text": {
+              "en": "2 Years (4 Semesters)",
+              "mr": "२ वर्षे (४ सेमिस्टर)"
+            }
+          },
+          {
+            "text": {
+              "en": "4-Year B.Sc. (Agri/Hort) with OGPA 6.5/10",
+              "mr": "संबंधित विषयात ४ वर्षांची पदवी किमान ६.५ सीजीपीए"
+            }
+          },
+          {
+            "text": {
+              "en": "MCAER PG-CET / ICAR-AIEEA-PG",
+              "mr": "MCAER PG-CET / ICAR-AIEEA-PG"
+            }
+          },
+          {
+            "text": {
+              "en": "maha-agriadmission.in (Maha CAP)",
+              "mr": "maha-agriadmission.in"
+            },
+            "fileLink": "https://maha-agriadmission.in"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "६"
+            }
+          },
+          {
+            "text": {
+              "en": "M.Tech. (Agricultural Engineering)",
+              "mr": "एम.टेक. (कृषि अभियांत्रिकी)"
+            }
+          },
+          {
+            "text": {
+              "en": "2 Years (4 Semesters)",
+              "mr": "२ वर्षे (४ सेमिस्टर)"
+            }
+          },
+          {
+            "text": {
+              "en": "B.Tech. (Agril. Engg.) with OGPA 6.5/10",
+              "mr": "बी.टेक. (कृषि अभियांत्रिकी) किमान ६.५ सीजीपीए"
+            }
+          },
+          {
+            "text": {
+              "en": "MCAER PG-CET / GATE / ICAR-AIEEA",
+              "mr": "MCAER PG-CET / GATE / ICAR-AIEEA"
+            }
+          },
+          {
+            "text": {
+              "en": "maha-agriadmission.in (Maha CAP)",
+              "mr": "maha-agriadmission.in"
+            },
+            "fileLink": "https://maha-agriadmission.in"
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "७"
+            }
+          },
+          {
+            "text": {
+              "en": "Ph.D. (Doctoral Studies) - 12 Disciplines",
+              "mr": "आचार्य (Ph.D.) - १२ विद्याशाखा"
+            }
+          },
+          {
+            "text": {
+              "en": "3 Years (6 Semesters)",
+              "mr": "३ वर्षे (६ सेमिस्टर)"
+            }
+          },
+          {
+            "text": {
+              "en": "Relevant Master Degree with OGPA 7.0/10",
+              "mr": "संबंधित विषयात पदव्युत्तर पदवी किमान ७.० सीजीपीए"
+            }
+          },
+          {
+            "text": {
+              "en": "MCAER Ph.D. CET / ICAR-SRF",
+              "mr": "MCAER Ph.D. CET / ICAR-SRF"
+            }
+          },
+          {
+            "text": {
+              "en": "maha-agriadmission.in (Maha CAP)",
+              "mr": "maha-agriadmission.in"
+            },
+            "fileLink": "https://maha-agriadmission.in"
           }
         ]
       ],
-      "rowCount": 1,
-      "columnCount": 3
+      "rowCount": 7,
+      "columnCount": 6
     }
   ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/ABM Prospects (English) 2019-20..pdf",
-      "localPath": "/media/docs/ABM_Prospects_English_2019-20..pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Students",
-        "mr": "विद्यार्थी"
-      },
-      "order": 55
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Students",
-          "mr": "विद्यार्थी"
-        },
-        {
-          "en": "Admission Procedure",
-          "mr": "Admission Procedure"
-        },
-        {
-          "en": "Academic Regulations",
-          "mr": "Academic Regulations"
-        },
-        {
-          "en": "Sports",
-          "mr": "Sports"
-        },
-        {
-          "en": "International StudentsHomeFacilitiesHow to ReachStudents Advisors Desk",
-          "mr": "International StudentsHomeFacilitiesHow to ReachStudents Advisors Desk"
-        },
-        {
-          "en": "Hostels",
-          "mr": "Hostels"
-        },
-        {
-          "en": "Circulars",
-          "mr": "Circulars"
-        },
-        {
-          "en": "Students Complaints",
-          "mr": "Students Complaints"
-        },
-        {
-          "en": "Scholarship Link",
-          "mr": "Scholarship Link"
-        },
-        {
-          "en": "Photo Galary",
-          "mr": "Photo Galary"
-        }
-      ],
-      "order": 56
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Home",
-          "mr": "Home"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "How to Reach",
-          "mr": "How to Reach"
-        },
-        {
-          "en": "Students Advisors Desk",
-          "mr": "Students Advisors Desk"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "U.G.",
-          "mr": "U.G."
-        },
-        {
-          "en": "P.G.",
-          "mr": "P.G."
-        },
-        {
-          "en": "Ph.D",
-          "mr": "Ph.D"
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "U.G.(ABM & Animal Husbandary)",
-          "mr": "U.G.(ABM & Animal Husbandary)"
-        }
-      ],
-      "order": 59
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Diploma in Agricultural Technology",
-          "mr": "Diploma in Agricultural Technology"
-        },
-        {
-          "en": "Diploma in Agriculture Polytechnique",
-          "mr": "Diploma in Agriculture Polytechnique"
-        },
-        {
-          "en": "Mali Training Course",
-          "mr": "Mali Training Course"
-        }
-      ],
-      "order": 60
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 5,
-    "tableCount": 1,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 15,
-    "totalRecords": 71
-  },
-  "menuId": "menu_students",
-  "parentMenu": {
-    "id": "menu_students",
-    "title": {
-      "en": "Students",
-      "mr": "विद्यार्थी"
-    }
-  },
-  "submenuGroup": {
-    "en": "Welfare & Facilities",
-    "mr": "विद्यार्थी सुविधा व कल्याण"
-  }
+  "contentBlocks": []
 }

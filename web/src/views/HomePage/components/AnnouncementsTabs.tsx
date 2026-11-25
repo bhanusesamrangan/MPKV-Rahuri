@@ -14,6 +14,7 @@ import {
   ChevronRight,
   Clock
 } from 'lucide-react';
+import { AnnouncementsModal, ModalType } from './AnnouncementsModal';
 
 interface AnnouncementsTabsProps {
   news: any[];
@@ -28,6 +29,25 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
 }) => {
   const { language, getBilingual } = useLanguage();
   const [activeTab, setActiveTab] = useState<'all' | 'news' | 'recruitment' | 'tenders'>('all');
+  const [activeModal, setActiveModal] = useState<ModalType | null>(null);
+
+  const resolveDocLink = (item: any): string => {
+    if (!item) return '#';
+    if (item.file_path && !item.file_path.startsWith('~/') && item.file_path !== '#') {
+      return item.file_path;
+    }
+    if (item.fileLink && !item.fileLink.startsWith('~/') && item.fileLink !== '#') {
+      return item.fileLink;
+    }
+    if (item.link && item.link.startsWith('http')) return item.link;
+    const raw = item.original_link || item.originalLink || item.link;
+    if (raw && typeof raw === 'string') {
+      if (raw.startsWith('http')) return raw;
+      const cleaned = raw.replace(/^~?(\/\.\.)*\/?/, '');
+      return `https://mpkv.ac.in/${cleaned}`;
+    }
+    return item.file_path || '#';
+  };
 
   const circulars = [
     {
@@ -259,7 +279,9 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
                             {language === 'mr' ? 'सल्ला / बातमी' : 'Advisory / Press'}
                           </span>
                           <a
-                            href={item.link || item.original_link || '#'}
+                            href={resolveDocLink(item)}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="inline-flex items-center gap-1 font-bold text-emerald-700 hover:text-emerald-900 transition-colors"
                           >
                             <span>{language === 'mr' ? 'सविस्तर वाचा' : 'Read'}</span>
@@ -274,13 +296,14 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
 
               {/* Column Footer Pinned to Bottom */}
               <div className="flex-shrink-0 mt-auto p-3 bg-emerald-50/50 border-t border-emerald-150 text-center">
-                <a
-                  href="#news-archive"
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-950 transition-colors"
+                <button
+                  type="button"
+                  onClick={() => setActiveModal('news')}
+                  className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-950 transition-colors cursor-pointer"
                 >
                   <span>{language === 'mr' ? 'सर्व बातम्या पहा' : 'View All News & Advisories'}</span>
                   <ArrowRight className="w-3.5 h-3.5" />
-                </a>
+                </button>
               </div>
             </div>
           )}
@@ -336,7 +359,7 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
                             {language === 'mr' ? 'PDF जाहिरात' : 'PDF Notice'}
                           </span>
                           <a
-                            href={item.file_path || '#'}
+                            href={resolveDocLink(item)}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-1 font-bold text-sky-800 hover:text-sky-950 transition-colors"
@@ -353,13 +376,14 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
 
               {/* Column Footer Pinned to Bottom */}
               <div className="flex-shrink-0 mt-auto p-3 bg-sky-50/50 border-t border-sky-150 text-center">
-                <a
-                  href="#recruitment-archive"
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-800 hover:text-sky-950 transition-colors"
+                <button
+                  type="button"
+                  onClick={() => setActiveModal('recruitment')}
+                  className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-800 hover:text-sky-950 transition-colors cursor-pointer"
                 >
                   <span>{language === 'mr' ? 'सर्व भरती जाहिराती पहा' : 'View All Recruitment Notices'}</span>
                   <ArrowRight className="w-3.5 h-3.5" />
-                </a>
+                </button>
               </div>
             </div>
           )}
@@ -421,7 +445,7 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
                               : 'Circular'}
                           </span>
                           <a
-                            href={item.file_path || '#'}
+                            href={resolveDocLink(item)}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-1 font-bold text-teal-800 hover:text-teal-950 transition-colors"
@@ -438,19 +462,30 @@ export const AnnouncementsTabs: React.FC<AnnouncementsTabsProps> = ({
 
               {/* Column Footer Pinned to Bottom */}
               <div className="flex-shrink-0 mt-auto p-3 bg-teal-50/50 border-t border-teal-150 text-center">
-                <a
-                  href="#tenders-archive"
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-800 hover:text-teal-950 transition-colors"
+                <button
+                  type="button"
+                  onClick={() => setActiveModal('tenders')}
+                  className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-800 hover:text-teal-950 transition-colors cursor-pointer"
                 >
                   <span>{language === 'mr' ? 'सर्व निविदा व परिपत्रके पहा' : 'View All Tenders & Circulars'}</span>
                   <ArrowRight className="w-3.5 h-3.5" />
-                </a>
+                </button>
               </div>
             </div>
           )}
 
         </div>
       </div>
+
+      {/* Interactive Full-Featured Popup Screen Modal */}
+      <AnnouncementsModal
+        type={activeModal}
+        onClose={() => setActiveModal(null)}
+        newsItems={news}
+        activeRecruitment={recruitment}
+        activeTenders={tenders}
+        activeCirculars={circulars}
+      />
     </section>
   );
 };

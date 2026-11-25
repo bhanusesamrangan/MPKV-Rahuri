@@ -1,0 +1,446 @@
+{
+  "slug": "guest-house",
+  "url": "/guest-house",
+  "route": "guest-house",
+  "sourcePage": "https://mpkv.ac.in/GuestHouse",
+  "scrapedAt": "2026-11-25T07:43:26.352Z",
+  "title": {
+    "en": "University Guest Houses & Accommodation Services",
+    "mr": "विद्यापीठ अतिथीगृहे व निवास व्यवस्था"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "url": "/"
+    },
+    {
+      "title": {
+        "en": "Guest House",
+        "mr": "अतिथीगृह"
+      },
+      "url": "/guest-house"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Guest House & Transit Facilities",
+      "mr": "अतिथीगृह व निवास दालन"
+    },
+    "subtitle": {
+      "en": "VIP Transit Suites, Executive Rooms, and Farmers Hostels at Rahuri Central Campus and Off-Campus Constituent Colleges",
+      "mr": "राहुरी मध्यवर्ती कॅम्पस व संलग्न महाविद्यालय परिसरातील अतिमहत्त्वाचे (VIP) अतिथीगृह, कार्यकारी कक्ष व शेतकरी निवास व्यवस्था"
+    },
+    "badge": {
+      "en": "Estate & Hospitality Services",
+      "mr": "अतिथी व मालमत्ता विभाग"
+    }
+  },
+  "paragraphs": [
+    {
+      "text": {
+        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri operates well-furnished hospitality facilities for visiting dignitaries, academic examiners, research scientists, government officials, conference delegates, and visiting farmers. Accommodation is provided at the Rahuri Central Campus as well as across constituent college guest houses in Pune, Dhule, and Kolhapur.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी येथे येणारे सन्माननीय अतिथी, विद्यापीठ परीक्षक, संशोधक शास्त्रज्ञ, शासकीय अधिकारी, परिसंवाद प्रतिनिधी आणि शेतकरी बांधव यांच्यासाठी सुसज्ज अतिथीगृहांची व्यवस्था आहे. ही निवास व्यवस्था राहुरी मध्यवर्ती परिसरासह पुणे, धुळे व कोल्हापूर येथील घटक महाविद्यालयांमध्ये उपलब्ध आहे."
+      },
+      "order": 1
+    },
+    {
+      "text": {
+        "en": "Accommodation is allotted on priority basis with advance requisition submitted to the University In-Charge / Estate Officer. High standards of hygiene, campus cafeteria services, Wi-Fi connectivity, and conference lounges are provided across all university suites.",
+        "mr": "अतिथीगृहातील खोल्यांचे आरक्षण प्राधान्यक्रमाने व विद्यापीठ कुलसचिव / संपदा अधिकाऱ्यांकडे आगाऊ विनंती अर्जाद्वारे केले जाते. सर्व अतिथीगृहांमध्ये स्वच्छता, भोजन व्यवस्था, इंटरनेट (वाय-फाय) आणि बैठकीची सुसज्ज व्यवस्था उपलब्ध आहे."
+      },
+      "order": 2
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_guest_house_locations",
+      "caption": {
+        "en": "University Guest Houses & Transit Accommodation Locations",
+        "mr": "विद्यापीठ अतिथीगृहांची स्थाने व निवास क्षमता"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "अ.क्र."
+        },
+        {
+          "en": "Guest House Facility",
+          "mr": "अतिथीगृहाचे नाव"
+        },
+        {
+          "en": "Location / Campus",
+          "mr": "स्थान / कॅम्पस"
+        },
+        {
+          "en": "Accommodation Types",
+          "mr": "निवास कक्ष प्रकार"
+        },
+        {
+          "en": "Contact Officer",
+          "mr": "संपर्क अधिकारी"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "VIP Guest House (Central Campus)",
+              "mr": "मध्यवर्ती अतिथीगृह (व्हीआयपी)"
+            }
+          },
+          {
+            "text": {
+              "en": "Central Campus, Rahuri (Ahmednagar)",
+              "mr": "मध्यवर्ती परिसर, राहुरी (अहमदनगर)"
+            }
+          },
+          {
+            "text": {
+              "en": "VIP Suites, Deluxe AC Rooms, Dining Lounge",
+              "mr": "व्हीआयपी सुईट्स, डीलक्स वातानुकूलित कक्ष, भोजन कक्ष"
+            }
+          },
+          {
+            "text": {
+              "en": "Estate Officer / In-Charge (02426-243208)",
+              "mr": "संपदा अधिकारी (०२४२६-२४३२०८)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "International Student & Scientist Hostel",
+              "mr": "आंतरराष्ट्रीय विद्यार्थी व शास्त्रज्ञ निवास"
+            }
+          },
+          {
+            "text": {
+              "en": "PGI Campus, MPKV Rahuri",
+              "mr": "पदव्युत्तर संस्था परिसर, मफुकृवि राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Furnished AC Rooms, Kitchenette, High-Speed Wi-Fi",
+              "mr": "सुसज्ज वातानुकूलित खोल्या, अभ्यास डेस्क, वाय-फाय"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean PGI (02426-243235)",
+              "mr": "सहयोगी अधिष्ठाता PGI (०२४२६-२४३२३५)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "Shetkari Niwas (Farmers Hostel)",
+              "mr": "शेतकरी निवास (प्रशिक्षणार्थी व शेतकरी)"
+            }
+          },
+          {
+            "text": {
+              "en": "ATIC Complex, MPKV Rahuri",
+              "mr": "अॅटिक परिसर, मफुकृवि राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Dormitories & Standard Rooms (Capacity: 200 Persons)",
+              "mr": "डॉर्मिटरी व सुसज्ज कक्ष (क्षमता: २०० शेतकरी)"
+            }
+          },
+          {
+            "text": {
+              "en": "Training Coordinator ATIC (02426-243861)",
+              "mr": "प्रशिक्षण समन्वयक (०२४२६-२४३८६१)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "College of Agriculture Guest House, Pune",
+              "mr": "कृषि महाविद्यालय अतिथीगृह, पुणे"
+            }
+          },
+          {
+            "text": {
+              "en": "Shivajinagar, Pune",
+              "mr": "शिवाजीनगर, पुणे"
+            }
+          },
+          {
+            "text": {
+              "en": "AC VIP Suites, Transit Guest Rooms",
+              "mr": "वातानुकूलित व्हीआयपी सुईट्स व अतिथी कक्ष"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean Pune (020-25537033)",
+              "mr": "सहयोगी अधिष्ठाता पुणे (०२०-२५५३७०३३)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "५"
+            }
+          },
+          {
+            "text": {
+              "en": "RCSM College Guest House, Kolhapur",
+              "mr": "रा.छ.शा.म. कृषि महाविद्यालय अतिथीगृह, कोल्हापूर"
+            }
+          },
+          {
+            "text": {
+              "en": "Kasaba Bawada, Kolhapur",
+              "mr": "कसबा बावडा, कोल्हापूर"
+            }
+          },
+          {
+            "text": {
+              "en": "Executive AC Rooms, Canteen Facilities",
+              "mr": "कार्यकारी कक्ष, भोजन व्यवस्था"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean Kolhapur (0231-2605851)",
+              "mr": "सहयोगी अधिष्ठाता कोल्हापूर (०२३१-२६०५८५१)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "६"
+            }
+          },
+          {
+            "text": {
+              "en": "College of Agriculture Guest House, Dhule",
+              "mr": "कृषि महाविद्यालय अतिथीगृह, धुळे"
+            }
+          },
+          {
+            "text": {
+              "en": "Dhule Campus",
+              "mr": "धुळे कॅम्पस"
+            }
+          },
+          {
+            "text": {
+              "en": "AC & Non-AC Guest Rooms",
+              "mr": "वातानुकूलित व साधे कक्ष"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean Dhule (02562-220727)",
+              "mr": "सहयोगी अधिष्ठाता धुळे (०२५६२-२२०७२७)"
+            }
+          }
+        ]
+      ],
+      "rowCount": 6,
+      "columnCount": 5
+    },
+    {
+      "id": "table_guest_house_tariff",
+      "caption": {
+        "en": "Tariff & Accommodation Charges (Per Day)",
+        "mr": "निवास दर व आकारणी नियमावली (प्रतिदिन)"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "अ.क्र."
+        },
+        {
+          "en": "Guest Category",
+          "mr": "अतिथी प्रवर्ग"
+        },
+        {
+          "en": "Room Type",
+          "mr": "कक्ष प्रकार"
+        },
+        {
+          "en": "Nominal Tariff Rate",
+          "mr": "दैनिक दर (नाममात्र)"
+        },
+        {
+          "en": "Approval Authority",
+          "mr": "मंजुरी प्राधिकारी"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "Category I: Official University Guests / Examiners",
+              "mr": "प्रवर्ग १: अधिकृत विद्यापीठ अतिथी / परीक्षक"
+            }
+          },
+          {
+            "text": {
+              "en": "VIP Suite / AC Room",
+              "mr": "व्हीआयपी सुईट / वातानुकूलित कक्ष"
+            }
+          },
+          {
+            "text": {
+              "en": "Official Duty (University Hospitality / Gratis)",
+              "mr": "अधिकृत विद्यापीठ आतिथ्य (विनामूल्य)"
+            }
+          },
+          {
+            "text": {
+              "en": "Hon. Vice Chancellor / Registrar",
+              "mr": "मा. कुलगुरू / कुलसचिव"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "Category II: Govt. Officers & ICAR Scientists on Duty",
+              "mr": "प्रवर्ग २: शासकीय अधिकारी व आयसीएआर शास्त्रज्ञ"
+            }
+          },
+          {
+            "text": {
+              "en": "Executive AC Room",
+              "mr": "कार्यकारी वातानुकूलित कक्ष"
+            }
+          },
+          {
+            "text": {
+              "en": "Rs. 500 - 800 / Day",
+              "mr": "रु. ५०० - ८०० / दिवस"
+            }
+          },
+          {
+            "text": {
+              "en": "Estate Officer / In-Charge",
+              "mr": "संपदा अधिकारी / प्रभारी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "Category III: Visiting Farmers & Farm Trainees",
+              "mr": "प्रवर्ग ३: शेतकरी बांधव व प्रशिक्षणार्थी"
+            }
+          },
+          {
+            "text": {
+              "en": "Shetkari Niwas Standard Room / Bed",
+              "mr": "शेतकरी निवास कक्ष / बेड"
+            }
+          },
+          {
+            "text": {
+              "en": "Rs. 100 - 250 / Day (Subsidized)",
+              "mr": "रु. १०० - २५० / दिवस (सवलत दर)"
+            }
+          },
+          {
+            "text": {
+              "en": "Director of Extension Education",
+              "mr": "संचालक विस्तार शिक्षण"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "Category IV: University Alumni & Parents of Students",
+              "mr": "प्रवर्ग ४: माजी विद्यार्थी व विद्यार्थ्यांचे पालक"
+            }
+          },
+          {
+            "text": {
+              "en": "Standard AC / Non-AC Room",
+              "mr": "साधा वातानुकूलित / गैर-वातानुकूलित कक्ष"
+            }
+          },
+          {
+            "text": {
+              "en": "Rs. 600 - 1000 / Day",
+              "mr": "रु. ६०० - १००० / दिवस"
+            }
+          },
+          {
+            "text": {
+              "en": "In-Charge Guest House",
+              "mr": "प्रभारी अधिकारी अतिथीगृह"
+            }
+          }
+        ]
+      ],
+      "rowCount": 4,
+      "columnCount": 5
+    }
+  ],
+  "contentBlocks": []
+}

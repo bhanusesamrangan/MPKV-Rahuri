@@ -1,1181 +1,318 @@
 {
   "slug": "faculty-directory",
-  "url": "https://mpkv.ac.in/Home/factDada",
-  "route": "/Home/factDada",
-  "sourcePage": "faculty-directory",
-  "scrapedAt": "2026-11-22T20:35:46.112026",
+  "url": "/faculty-directory",
+  "route": "faculty-directory",
+  "sourcePage": "https://mpkv.ac.in/Faculty/Directory",
+  "scrapedAt": "2026-11-25T07:43:26.352Z",
   "title": {
-    "en": "Faculty",
-    "mr": "Faculty"
+    "en": "Faculty & Academic Leadership Directory",
+    "mr": "प्राध्यापक वृंद व शैक्षणिक नेतृत्व निर्देशिका"
   },
   "breadcrumb": [
     {
       "title": {
         "en": "Home",
-        "mr": "Home"
+        "mr": "मुख्यपृष्ठ"
       },
-      "href": ""
+      "url": "/"
     },
     {
       "title": {
-        "en": "Faculty",
-        "mr": "Faculty"
+        "en": "Faculty Directory",
+        "mr": "प्राध्यापक निर्देशिका"
       },
-      "href": ""
+      "url": "/faculty-directory"
     }
   ],
   "hero": {
     "title": {
-      "en": "Faculty",
-      "mr": "Faculty"
+      "en": "Faculty & Scientists Directory",
+      "mr": "प्राध्यापक व शास्त्रज्ञ दालन"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Faculty",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Faculty"
+      "en": "Distinguished Academicians, Research Specialists, and Extension Scientists across 10 Constituent Colleges, PGI, and 27 Research Stations",
+      "mr": "१० घटक महाविद्यालये, पदव्युत्तर संस्था (PGI) आणि २७ संशोधन केंद्रांमधील निष्णात प्राध्यापक, शास्त्रज्ञ व विस्तार तज्ज्ञ"
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "Academic & Research Faculty",
+      "mr": "शैक्षणिक व संशोधन प्राध्यापक वृंद"
     }
   },
-  "headings": [
+  "paragraphs": [
     {
-      "level": "h6",
       "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+        "en": "The faculty of Mahatma Phule Krishi Vidyapeeth, Rahuri comprises over 800 accomplished professors, scientists, and agricultural specialists engaged across 10 constituent colleges, the Post Graduate Institute (PGI), and 27 research stations. The faculty is organized under major disciplines including Agronomy, Genetics & Plant Breeding, Soil Science, Horticulture, Entomology, Plant Pathology, Agricultural Engineering, and Extension Education.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी मध्ये १० घटक महाविद्यालये, पदव्युत्तर संस्था (PGI) आणि २७ संशोधन केंद्रांमध्ये ८०० हून अधिक प्राध्यापक, शास्त्रज्ञ व विषय विशेषज्ञ कार्यरत आहेत. कृषिविज्ञान, वनस्पती पैदास, मृदविज्ञान, उद्यानविद्या, कीटकशास्त्र, वनस्पती रोगशास्त्र, कृषि अभियांत्रिकी व विस्तार शिक्षण अशा प्रमुख शाखांमध्ये हे तज्ज्ञ अध्यापन व संशोधन करतात."
       },
       "order": 1
     },
     {
-      "level": "h6",
       "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+        "en": "To facilitate global research collaboration and scientific transparency, detailed individual academic profiles, publications, h-index citations, and patents of all MPKV faculty members are cataloged on the official National IRINS (Indian Research Information Network System) Portal at mpkv.irins.org.",
+        "mr": "संशोधनातील पारदर्शकता व जागतिक सहकार्यासाठी सर्व प्राध्यापकांची वैयक्तिक संशोधक प्रोफाइल, शोधनिबंध, h-index उद्धरणे आणि पेटंट्स राष्ट्रीय आयरिन्स (IRINS - Vidwan) प्रणालीवर mpkv.irins.org येथे ऑनलाइन उपलब्ध आहेत."
       },
       "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Faculty",
-        "mr": "Faculty"
-      },
-      "order": 55
     }
   ],
-  "paragraphs": [],
-  "lists": [
+  "tables": [
     {
-      "type": "ul",
-      "items": [
+      "id": "table_faculty_deans",
+      "caption": {
+        "en": "Deans, Faculty Heads & Academic Leadership Directory",
+        "mr": "अधिष्ठाता, विद्याशाखा प्रमुख व शैक्षणिक नेतृत्व"
+      },
+      "headers": [
         {
-          "en": "Faculty",
-          "mr": "Faculty"
+          "en": "Sr.No",
+          "mr": "अ.क्र."
         },
         {
-          "en": "Agricultural Process Engineering",
-          "mr": "Agricultural Process Engineering"
+          "en": "Faculty / College Wing",
+          "mr": "विद्याशाखा / महाविद्यालय"
         },
         {
-          "en": "Irrigation & Drainage Engineering",
-          "mr": "Irrigation & Drainage Engineering"
+          "en": "Leadership Position",
+          "mr": "पदनाम व जबाबदारी"
         },
         {
-          "en": "Farm Machinery & Power Engineering",
-          "mr": "Farm Machinery & Power Engineering"
+          "en": "Location / Campus",
+          "mr": "कॅम्पस"
         },
         {
-          "en": "Soil & Water Conservation Engineering",
-          "mr": "Soil & Water Conservation Engineering"
-        },
-        {
-          "en": "Renewable Energy Engineering",
-          "mr": "Renewable Energy Engineering"
+          "en": "Official Contact / Portal",
+          "mr": "संपर्क / प्रोफाइल पोर्टल"
         }
       ],
-      "order": 56
-    }
-  ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Faculty/5_20250818123331.jpg",
-      "localPath": "/media/images/5_20250818123331.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Faculty/6_20250818123457.jpg",
-      "localPath": "/media/images/6_20250818123457.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Faculty/7_20250818123535.jpg",
-      "localPath": "/media/images/7_20250818123535.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Faculty/8_20250818123609.jpg",
-      "localPath": "/media/images/8_20250818123609.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service(1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter 2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Faculty",
-        "mr": "Faculty"
-      },
-      "order": 55
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Faculty",
-          "mr": "Faculty"
-        },
-        {
-          "en": "Agricultural Process Engineering",
-          "mr": "Agricultural Process Engineering"
-        },
-        {
-          "en": "Irrigation & Drainage Engineering",
-          "mr": "Irrigation & Drainage Engineering"
-        },
-        {
-          "en": "Farm Machinery & Power Engineering",
-          "mr": "Farm Machinery & Power Engineering"
-        },
-        {
-          "en": "Soil & Water Conservation Engineering",
-          "mr": "Soil & Water Conservation Engineering"
-        },
-        {
-          "en": "Renewable Energy Engineering",
-          "mr": "Renewable Energy Engineering"
-        }
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "Faculty of Agriculture (Statutory Deanery)",
+              "mr": "कृषि विद्याशाखा (अधिष्ठाता कार्यालय)"
+            }
+          },
+          {
+            "text": {
+              "en": "Dean & Director of Instructions",
+              "mr": "अधिष्ठाता व शिक्षण संचालक"
+            }
+          },
+          {
+            "text": {
+              "en": "Central Directorate, Rahuri",
+              "mr": "मध्यवर्ती संचलनालय, राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "dean.mpkv@gov.in (02426-243205)",
+              "mr": "dean.mpkv@gov.in (०२४२६-२४३२०५)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "Post Graduate Institute (PGI), Rahuri",
+              "mr": "पदव्युत्तर संस्था (PGI), राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean (Post Graduate Studies)",
+              "mr": "सहयोगी अधिष्ठाता (पदव्युत्तर शिक्षण)"
+            }
+          },
+          {
+            "text": {
+              "en": "PGI Campus, Rahuri",
+              "mr": "पीजीआय परिसर, राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "adpgi.rahuri@mpkv.ac.in",
+              "mr": "adpgi.rahuri@mpkv.ac.in"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Pune",
+              "mr": "कृषि महाविद्यालय, पुणे"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean & Senior Faculty Head",
+              "mr": "सहयोगी अधिष्ठाता व वरिष्ठ प्राध्यापक"
+            }
+          },
+          {
+            "text": {
+              "en": "Shivajinagar, Pune",
+              "mr": "शिवाजीनगर, पुणे"
+            }
+          },
+          {
+            "text": {
+              "en": "adacpune@mpkv.ac.in (020-25537033)",
+              "mr": "adacpune@mpkv.ac.in (०२०-२५५३७०३३)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "Dr. Annasaheb Shinde CAET, Rahuri",
+              "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean (Agril. Engineering)",
+              "mr": "सहयोगी अधिष्ठाता (कृषि अभियांत्रिकी)"
+            }
+          },
+          {
+            "text": {
+              "en": "Rahuri Central Campus",
+              "mr": "राहुरी कॅम्पस"
+            }
+          },
+          {
+            "text": {
+              "en": "adcaet.rahuri@mpkv.ac.in (02426-243224)",
+              "mr": "adcaet.rahuri@mpkv.ac.in (०२४२६-२४३२२४)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "५"
+            }
+          },
+          {
+            "text": {
+              "en": "R.C.S.M. College of Agriculture, Kolhapur",
+              "mr": "रा.छ.शा.म. कृषि महाविद्यालय, कोल्हापूर"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean (Agriculture)",
+              "mr": "सहयोगी अधिष्ठाता (कृषि)"
+            }
+          },
+          {
+            "text": {
+              "en": "Kasaba Bawada, Kolhapur",
+              "mr": "कसबा बावडा, कोल्हापूर"
+            }
+          },
+          {
+            "text": {
+              "en": "adackolhapur@mpkv.ac.in (0231-2605851)",
+              "mr": "adackolhapur@mpkv.ac.in (०२३१-२६०५८५१)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "६"
+            }
+          },
+          {
+            "text": {
+              "en": "College of Agriculture, Dhule",
+              "mr": "कृषि महाविद्यालय, धुळे"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean (Agriculture)",
+              "mr": "सहयोगी अधिष्ठाता (कृषि)"
+            }
+          },
+          {
+            "text": {
+              "en": "Dhule Campus",
+              "mr": "धुळे कॅम्पस"
+            }
+          },
+          {
+            "text": {
+              "en": "adacdhule@mpkv.ac.in (02562-220727)",
+              "mr": "adacdhule@mpkv.ac.in (०२५६२-२२०७२७)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "7",
+              "mr": "७"
+            }
+          },
+          {
+            "text": {
+              "en": "Official National IRINS Faculty Profile Database",
+              "mr": "राष्ट्रीय आयरिन्स प्राध्यापक संशोधन डेटाबेस"
+            }
+          },
+          {
+            "text": {
+              "en": "Full Profiles of All 800+ MPKV Professors & Scientists",
+              "mr": "सर्व ८००+ प्राध्यापक व शास्त्रज्ञांची वैयक्तिक शोध प्रोफाइल"
+            }
+          },
+          {
+            "text": {
+              "en": "INFLIBNET Centre, Govt. of India",
+              "mr": "इन्फ्लिबनेट केंद्र, भारत सरकार"
+            }
+          },
+          {
+            "text": {
+              "en": "mpkv.irins.org (Browse All Faculty Profiles)",
+              "mr": "mpkv.irins.org (सर्व प्राध्यापक शोधा)"
+            },
+            "fileLink": "https://mpkv.irins.org/"
+          }
+        ]
       ],
-      "order": 56
+      "rowCount": 7,
+      "columnCount": 5
     }
   ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 1,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 20,
-    "totalRecords": 75
-  }
+  "contentBlocks": []
 }

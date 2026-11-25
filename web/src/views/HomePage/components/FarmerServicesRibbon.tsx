@@ -260,11 +260,15 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
               <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
             </div>
             <div className="text-left text-xs">
-              <div className="text-slate-500 font-medium">
-                {language === 'mr' ? 'बियाणे विक्री कक्ष (थेट संपर्क)' : 'Seed Sales Desk (Helpline)'}
+              <div className="text-slate-500 font-medium flex items-center gap-1.5">
+                <span>{language === 'mr' ? 'बियाणे विक्री कक्ष (थेट संपर्क)' : 'Seed Sales Desk (Helpline)'}</span>
               </div>
               <div className="text-emerald-950 font-bold text-sm tracking-wide">
                 02426-243345
+              </div>
+              <div className="text-[10.5px] text-emerald-800 font-medium mt-0.5 flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 inline-block shrink-0" />
+                <span>{language === 'mr' ? 'कामकाजाचे दिवस: सोम - शुक्र' : 'Operational: Mon - Fri'}</span>
               </div>
             </div>
           </a>

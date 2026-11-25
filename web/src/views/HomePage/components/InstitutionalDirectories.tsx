@@ -32,29 +32,28 @@ export const InstitutionalDirectories: React.FC = () => {
       badge: '७ समित्या',
       badgeEn: '7 Councils',
       items: [
-        { labelMr: 'कार्यकारी परिषद', labelEn: 'Executive Council', href: '/governance/executive-council' },
-        { labelMr: 'विद्या परिषद', labelEn: 'Academic Council', href: '/governance/academic-council' },
-        { labelMr: 'कृषि संशोधन परिषद', labelEn: 'Agricultural Research Council', href: '/research/council' },
-        { labelMr: 'बियाणे परिषद', labelEn: 'Seed Council', href: '/seeds/council' },
-        { labelMr: 'विस्तार शिक्षण परिषद', labelEn: 'Extension Education Council', href: '/extension/council' },
-        { labelMr: 'विद्वत सभा व विद्याशाखा', labelEn: 'Faculty & Boards', href: '/education/faculty' },
-        { labelMr: 'अभ्यास मंडळ', labelEn: 'Board of Studies', href: '/education/board-of-studies' }
+        { labelMr: 'कार्यकारी परिषद', labelEn: 'Executive Council', href: '/Officers/ExConcil' },
+        { labelMr: 'विद्या परिषद', labelEn: 'Academic Council', href: 'https://mpkv.ac.in/StaticPdf/CouncilAcademic.pdf', isExternal: true },
+        { labelMr: 'कृषि संशोधन परिषद', labelEn: 'Agricultural Research Council', href: 'https://mpkv.ac.in/StaticPdf/ConcilAgril.pdf', isExternal: true },
+        { labelMr: 'बियाणे परिषद', labelEn: 'Seed Council', href: 'https://mpkv.ac.in/StaticPdf/CouncilSeed.pdf', isExternal: true },
+        { labelMr: 'विस्तार शिक्षण परिषद', labelEn: 'Extension Education Council', href: 'https://mpkv.ac.in/StaticPdf/CouncilExtension.pdf', isExternal: true },
+        { labelMr: 'विद्वत सभा व विद्याशाखा', labelEn: 'Faculty', href: 'https://mpkv.ac.in/StaticPdf/CouncilFaculty.pdf', isExternal: true },
+        { labelMr: 'अभ्यास मंडळ', labelEn: 'Board of Studies', href: 'https://mpkv.ac.in/StaticPdf/Board%20of%20Studies.pdf', isExternal: true }
       ]
     },
     {
       id: 'services',
       group: 'services',
-      title: language === 'mr' ? 'मफुकृवि सुविधा व सेवा' : 'MPKV Testing & Services',
+      title: language === 'mr' ? 'मफुकृवि सुविधा व सेवा' : 'MPKV Services & Facilities',
       icon: Wrench,
-      badge: '६ सेवा',
-      badgeEn: '6 Services',
+      badge: '५ सेवा',
+      badgeEn: '5 Services',
       items: [
-        { labelMr: 'उत्पादन चाचणी केंद्र', labelEn: 'Product Testing Laboratory', href: '/services/product-testing' },
-        { labelMr: 'बेकरी उत्पादने व प्रशिक्षण', labelEn: 'Bakery Products & Training', href: '/services/bakery' },
-        { labelMr: 'ड्रोन तंत्रज्ञान प्रशिक्षण केंद्र', labelEn: 'Drone Technology Centre', href: '/services/drone-training' },
-        { labelMr: 'माती परीक्षण प्रयोगशाळा', labelEn: 'Soil Testing Facilities', href: '/services/soil-testing' },
-        { labelMr: 'पाणी गुणवत्ता चाचणी', labelEn: 'Water Quality Analysis', href: '/services/water-testing' },
-        { labelMr: 'फुले शुद्ध पिण्याचे पाणी', labelEn: 'Phule Drinking Water Plant', href: '/services/drinking-water' }
+        { labelMr: 'उत्पादन चाचणी (DORPT)', labelEn: 'Product Testing', href: 'https://dorpt.mpkv.ac.in', isExternal: true },
+        { labelMr: 'बेकरी उत्पादने व प्रशिक्षण', labelEn: 'Bakery Products', href: 'https://mpkv.ac.in/Uploads/MpkvProduct/Bakery%20products_20220817053418.pdf', isExternal: true },
+        { labelMr: 'ड्रोन तंत्रज्ञान प्रशिक्षण (RPTO)', labelEn: 'Drone Training', href: 'https://www.mpkv-caast.ac.in/page/rpto', isExternal: true },
+        { labelMr: 'माती परीक्षण प्रयोगशाळा व दर', labelEn: 'Soil Testing Rates', href: 'https://mpkv.ac.in/StaticPdf/%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%80%20%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%20%E0%A4%A6%E0%A4%B0-1.pdf', isExternal: true },
+        { labelMr: 'पाणी गुणवत्ता चाचणी व दर', labelEn: 'Water Testing Rates', href: 'https://mpkv.ac.in/StaticPdf/%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%80%20%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%20%E0%A4%A6%E0%A4%B0-1.pdf', isExternal: true }
       ]
     },
     {
@@ -65,12 +64,12 @@ export const InstitutionalDirectories: React.FC = () => {
       badge: '६ उपक्रम',
       badgeEn: '6 Portals',
       items: [
-        { labelMr: 'फुले कृषिदर्शनी वार्षिक अंक', labelEn: 'Krishidarshani Annual Diary', href: '/krishidarshani' },
-        { labelMr: 'आयडब्ल्यूआरए जलसिंचन सेवा', labelEn: 'IWRA Irrigation Service', href: '/iwra' },
-        { labelMr: 'CAAST-CSAWM हवामान अनुकूल शेती', labelEn: 'CAAST-CSAWM NAHEP', href: 'https://mpkv-caast.ac.in', isExternal: true },
-        { labelMr: 'कृषि विज्ञान केंद्र (KVK) पोर्टल', labelEn: 'KVK Network Portal', href: '/kvk' },
-        { labelMr: 'शेतकरी डिजिटल सेवा पोर्टल', labelEn: 'National Farmers Portal', href: 'https://farmer.gov.in', isExternal: true },
-        { labelMr: 'कृषि शिक्षण पोर्टल', labelEn: 'Agricultural Education Portal', href: 'https://ecourses.icar.gov.in', isExternal: true }
+        { labelMr: 'फुले कृषिदर्शनी वार्षिक अंक', labelEn: 'Krishidarshani Annual Diary', href: 'https://mpkv.ac.in/Uploads/Publication/20260725_120158_8d696de12b98586f94302f37cb1884b2.pdf', isExternal: true },
+        { labelMr: 'आयडब्ल्यूआरए जलसिंचन सेवा', labelEn: 'IWRA Irrigation Service', href: 'http://www.rkvyiwras.ac.in/', isExternal: true },
+        { labelMr: 'CAAST-CSAWM हवामान अनुकूल शेती', labelEn: 'CAAST-CSAWM NAHEP', href: 'http://www.mpkv-caast.ac.in/', isExternal: true },
+        { labelMr: 'कृषि विज्ञान केंद्र (KVK) पोर्टल', labelEn: 'KVK Network Portal', href: 'https://icar.org.in/node/14809', isExternal: true },
+        { labelMr: 'शेतकरी डिजिटल सेवा पोर्टल', labelEn: 'National Farmers\' Portal', href: 'https://www.farmer.gov.in/', isExternal: true },
+        { labelMr: 'कृषि शिक्षण पोर्टल (ICAR)', labelEn: 'Agricultural Education Portal', href: 'https://icar.org.in/en', isExternal: true }
       ]
     },
     {
@@ -81,38 +80,38 @@ export const InstitutionalDirectories: React.FC = () => {
       badge: '३ क्षेत्रे',
       badgeEn: '3 Sectors',
       items: [
-        { labelMr: 'शैक्षणिक सामंजस्य करार', labelEn: 'Academic & Higher Education MoUs', href: '/mous/education' },
-        { labelMr: 'राष्ट्रीय व आंतरराष्ट्रीय संशोधन सहकार्य', labelEn: 'Research Collaborations', href: '/mous/research' },
-        { labelMr: 'कृषी विस्तार व शेतकरी प्रशिक्षण करार', labelEn: 'Extension & Industry MoUs', href: '/mous/extension' }
+        { labelMr: 'शैक्षणिक सामंजस्य करार', labelEn: 'Education MoUs', href: 'https://mpkv.ac.in/StaticPdf/mouEdu.pdf', isExternal: true },
+        { labelMr: 'संशोधन सामंजस्य करार', labelEn: 'Research MoUs', href: 'https://mpkv.ac.in/StaticPdf/mouRes.pdf', isExternal: true },
+        { labelMr: 'विस्तार शिक्षण करार', labelEn: 'Extension MoUs', href: 'https://mpkv.ac.in/StaticPdf/mouExten.pdf', isExternal: true }
       ]
     },
     {
       id: 'tech',
       group: 'services',
-      title: language === 'mr' ? 'विकसित तंत्रज्ञान व शिफारसी' : 'Technologies & Recommendations',
+      title: language === 'mr' ? 'विकसित तंत्रज्ञान व शिफारसी' : 'Technologies Developed',
       icon: Cpu,
       badge: '४ दालने',
       badgeEn: '4 Pillars',
       items: [
-        { labelMr: 'विकसित पीक वाण व संकरित बियाणे', labelEn: 'Released Crop Varieties', href: '/research/varieties' },
-        { labelMr: 'शेती अवजारे व स्वयंचलित यंत्रे', labelEn: 'Farm Implements & Machinery', href: '/farm-implements' },
-        { labelMr: 'संयुक्त अग्रेस्को कृषी शिफारसी', labelEn: 'Joint AGRESCO Recommendations', href: '/research/recommendations' },
-        { labelMr: 'नोंदणीकृत पेटंट्स व बौद्धिक संपदा', labelEn: 'Patents & IPR Technologies', href: '/research/patents' }
+        { labelMr: 'विकसित पीक वाण व संकरित बियाणे', labelEn: 'Varieties', href: '/Research/ResearchTechVariety' },
+        { labelMr: 'शेती अवजारे व स्वयंचलित यंत्रे', labelEn: 'Farm Implements & Machinery', href: '/Research/ResearchFarmImplement' },
+        { labelMr: 'संयुक्त अग्रेस्को कृषी शिफारसी', labelEn: 'Recommendations', href: '/Research/ResearchTechRecomm' },
+        { labelMr: 'नोंदणीकृत पेटंट्स व बौद्धिक संपदा', labelEn: 'IPR & Patents', href: '/Research/ResearchTechPatents' }
       ]
     },
     {
       id: 'cells',
       group: 'governance',
-      title: language === 'mr' ? 'विद्यापीठ कक्ष व मध्यवर्ती विभाग' : 'University Cells & Units',
+      title: language === 'mr' ? 'विद्यापीठ कक्ष व मध्यवर्ती विभाग' : 'University Cell',
       icon: Layers,
       badge: '५ कक्ष',
       badgeEn: '5 Cells',
       items: [
-        { labelMr: 'कृषि तंत्रज्ञान माहिती केंद्र (ATIC)', labelEn: 'ATIC Headquarters', href: '/atic' },
-        { labelMr: 'कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)', labelEn: 'AKMU Cyber & IT Centre', href: '/akmu' },
-        { labelMr: 'नोडल कक्ष (महा डीबीटी व योजना)', labelEn: 'Nodal Cell (State Schemes)', href: '/nodal-cell' },
-        { labelMr: 'प्रकल्प संनियंत्रण कक्ष (PME Cell)', labelEn: 'PME Project Monitoring', href: '/pme-cell' },
-        { labelMr: 'अंतर्गत गुणवत्ता हमी कक्ष (IQAC)', labelEn: 'IQAC Accreditation Cell', href: '/iqac' }
+        { labelMr: 'कृषि तंत्रज्ञान माहिती केंद्र (ATIC)', labelEn: 'ATIC Headquarters', href: '/Extension/ExtensionATIC' },
+        { labelMr: 'कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)', labelEn: 'AKMU Cyber & IT Centre', href: '/Akmu/Introduction' },
+        { labelMr: 'नोडल कक्ष मार्गदर्शक तत्त्वे', labelEn: 'Nodal Cell Guidelines', href: '/PmeAndNodel/NodelGuidelines' },
+        { labelMr: 'प्रकल्प संनियंत्रण व मूल्यमापन (PME)', labelEn: 'PME Project Monitoring', href: '/PmeAndNodel/PmeIntroduction' },
+        { labelMr: 'अंतर्गत गुणवत्ता हमी कक्ष (IQAC)', labelEn: 'IQAC Accreditation Cell', href: '/Home/Iqac' }
       ]
     },
     {
@@ -120,29 +119,31 @@ export const InstitutionalDirectories: React.FC = () => {
       group: 'knowledge',
       title: language === 'mr' ? 'नियतकालिक कार्यक्रम व सोहळे' : 'Periodical Events',
       icon: Calendar,
-      badge: 'वार्षिक',
-      badgeEn: 'Annual',
+      badge: '३ कार्यक्रम',
+      badgeEn: '3 Events',
       items: [
-        { labelMr: 'वार्षिक पदवी प्रदान दीक्षांत समारंभ', labelEn: 'Annual Convocation Ceremony', href: '/events/convocation' },
-        { labelMr: 'संयुक्त अग्रेस्को संशोधन परिषद', labelEn: 'Joint AGRESCO State Meeting', href: '/events/agresco' },
-        { labelMr: 'विद्यापीठ परिसर वनमहोत्सव मोहीम', labelEn: 'Vanmohotsav Green Initiative', href: '/events/vanmohotsav' }
+        { labelMr: 'वार्षिक पदवी प्रदान दीक्षांत समारंभ', labelEn: 'Convocation Ceremony', href: '/PeriodicalEvent/Convocation' },
+        { labelMr: 'संयुक्त अग्रेस्को संशोधन परिषद', labelEn: 'Joint AGRESCO State Meet', href: '/PeriodicalEvent/JointAGRESCO' },
+        { labelMr: 'विद्यापीठ परिसर वनमहोत्सव मोहीम', labelEn: 'Vanmohotsav Green Initiative', href: '/PeriodicalEvent/Vanmahostav' }
       ]
     },
     {
       id: 'quicklinks',
       group: 'governance',
-      title: language === 'mr' ? 'शासकीय व संस्थात्मक दुवे' : 'Government & Apex Links',
+      title: language === 'mr' ? 'शासकीय व संस्थात्मक दुवे' : 'Quick Links & Apex Portals',
       icon: Globe2,
-      badge: '७ दुवे',
-      badgeEn: '7 Links',
+      badge: '९ दुवे',
+      badgeEn: '9 Links',
       items: [
-        { labelMr: 'महाराष्ट्र शासन अधिकृत दालन', labelEn: 'Govt. of Maharashtra', href: 'https://www.maharashtra.gov.in', isExternal: true },
-        { labelMr: 'महाराष्ट्रातील कृषी विद्यापीठे', labelEn: 'State Agricultural Universities', href: '/links/state-universities' },
-        { labelMr: 'अ‍ॅकॅडेमिक बँक ऑफ क्रेडिट (ABC)', labelEn: 'Academic Bank of Credit', href: 'https://www.abc.gov.in', isExternal: true },
-        { labelMr: 'भारतीय कृषि अनुसंधान परिषद (ICAR)', labelEn: 'ICAR, New Delhi', href: 'https://icar.org.in', isExternal: true },
-        { labelMr: 'महाराष्ट्र कृषी शिक्षण व संशोधन परिषद (MCAER)', labelEn: 'MCAER, Pune', href: 'https://mcaer.org', isExternal: true },
-        { labelMr: 'विद्यापीठ अनुदान आयोग (UGC)', labelEn: 'University Grants Commission', href: 'https://www.ugc.gov.in', isExternal: true },
-        { labelMr: 'भारतीय छात्र संसद', labelEn: 'Bhartiya Chhatra Sansad', href: 'https://bharatiyachhatrasansad.org', isExternal: true }
+        { labelMr: 'महाराष्ट्र शासन अधिकृत दालन', labelEn: 'Govt. of Maharashtra', href: 'https://www.maharashtra.gov.in/1125/Home', isExternal: true },
+        { labelMr: 'महाराष्ट्रातील कृषी विद्यापीठे', labelEn: 'Agricultural Universities', href: '/Home/AgriUniversities' },
+        { labelMr: 'अ‍ॅकॅडेमिक बँक ऑफ क्रेडिट (ABC)', labelEn: 'Academic Bank of Credit', href: 'https://www.abc.gov.in/', isExternal: true },
+        { labelMr: 'भारतीय कृषि अनुसंधान परिषद (ICAR)', labelEn: 'ICAR, New Delhi', href: 'https://www.icar.org.in/', isExternal: true },
+        { labelMr: 'महाराष्ट्र कृषी शिक्षण व संशोधन परिषद (MCAER)', labelEn: 'MCAER, Pune', href: 'https://www.mcaer.org/', isExternal: true },
+        { labelMr: 'विद्यापीठ अनुदान आयोग (UGC)', labelEn: 'University Grants Commission', href: 'https://www.ugc.ac.in/', isExternal: true },
+        { labelMr: 'भारतीय छात्र संसद', labelEn: 'Bhartiya Chhatra Sansad', href: 'https://www.bharatiyachhatrasansad.org/', isExternal: true },
+        { labelMr: 'महा ॲग्री ॲडमिशन पोर्टल', labelEn: 'Maha Agri Admission', href: 'https://maha-agriadmission.in/', isExternal: true },
+        { labelMr: 'कृषीकोश डिजिटल लायब्ररी', labelEn: 'Krishikosh Digital Repository', href: 'http://krishikosh.egranth.ac.in/', isExternal: true }
       ]
     }
   ];

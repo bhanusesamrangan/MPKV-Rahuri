@@ -1,12 +1,12 @@
 {
   "slug": "transparency-and-grievance",
-  "url": "https://mpkv.ac.in/Home/GrievanceRedressalSystem",
-  "route": "/Home/GrievanceRedressalSystem",
-  "sourcePage": "transparency-and-grievance",
-  "scrapedAt": "2026-11-22T20:35:40.716393",
+  "url": "/transparency",
+  "route": "transparency",
+  "sourcePage": "https://mpkv.ac.in/Transparency",
+  "scrapedAt": "2026-11-25T07:43:26.352Z",
   "title": {
-    "en": "Transparency",
-    "mr": "पारदर्शकता"
+    "en": "Transparency, RTI & Public Grievance Portal",
+    "mr": "पारदर्शकता, माहिती अधिकार व लोकतक्रार निवारण दालन"
   },
   "breadcrumb": [
     {
@@ -14,1264 +14,433 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "href": "/"
+      "url": "/"
+    },
+    {
+      "title": {
+        "en": "Transparency & RTI",
+        "mr": "पारदर्शकता व माहिती अधिकार"
+      },
+      "url": "/transparency"
     }
   ],
   "hero": {
     "title": {
-      "en": "Transparency",
-      "mr": "पारदर्शकता"
+      "en": "Transparency & RTI Desk",
+      "mr": "पारदर्शकता व माहिती अधिकार कक्ष"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Transparency",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — पारदर्शकता"
+      "en": "Statutory Information Under Right to Information (RTI) Act 2005 and Maharashtra Right to Public Services Act 2015",
+      "mr": "माहितीचा अधिकार अधिनियम २००५ व महाराष्ट्र लोकसेवा हक्क अधिनियम २०१५ अंतर्गत वैधानिक माहिती व सेवा"
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "Statutory Transparency & RTI",
+      "mr": "वैधानिक पारदर्शकता व आरटीआय"
     }
   },
-  "headings": [
+  "paragraphs": [
     {
-      "level": "h6",
       "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri is committed to complete administrative transparency, accountable public service delivery, and statutory compliance under the Right to Information (RTI) Act, 2005 and Maharashtra Right to Public Services Act, 2015. Citizens and stakeholders can access university records, seek official information, and avail time-bound notified public services.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी हे माहितीचा अधिकार अधिनियम २००५ (RTI) आणि महाराष्ट्र लोकसेवा हक्क अधिनियम २०१५ नुसार पारदर्शक व गतिमान प्रशासनासाठी कटिबद्ध आहे. नागरिक आणि शेतकरी बंधूंना विद्यापीठाची माहिती, सेवा व प्रमाणपत्रे विहित वेळेत प्राप्त व्हावीत यासाठी नोडल अधिकारी नियुक्त करण्यात आले आहेत."
       },
       "order": 1
     },
     {
-      "level": "h6",
       "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+        "en": "To ensure fairness, the university maintains an online and physical grievance redressal cell, anti-ragging committees across all constituent campuses, an Internal Complaints Committee (ICC for women safety), and an appellate mechanism headed by the University Registrar.",
+        "mr": "तक्रार निवारणासाठी विद्यापीठात ऑनलाइन व प्रत्यक्ष तक्रार निवारण कक्ष, सर्व महाविद्यालयांमध्ये रॅगिंग विरोधी समिती, महिला तक्रार निवारण समिती (ICC) आणि कुलसचिवांच्या अध्यक्षतेखालील प्रथम अपिलीय प्राधिकरण सक्रिय आहे."
       },
       "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Transparency",
-        "mr": "पारदर्शकता"
-      },
-      "order": 55
     }
   ],
-  "paragraphs": [],
-  "lists": [
+  "tables": [
     {
-      "type": "ul",
-      "items": [
+      "id": "table_rti_officers",
+      "caption": {
+        "en": "Right to Information (RTI Act 2005) Designated Officers Directory",
+        "mr": "माहितीचा अधिकार (RTI Act २००५) नियुक्त अधिकाऱ्यांची निर्देशिका"
+      },
+      "headers": [
         {
-          "en": "Act (Prevention, Prohibition, and Redressal Act, 2013)",
-          "mr": "Act (Prevention, Prohibition, and Redressal Act, 2013)"
+          "en": "Sr.No",
+          "mr": "अ.क्र."
         },
         {
-          "en": "Composition",
-          "mr": "Composition"
+          "en": "RTI Authority Level",
+          "mr": "प्राधिकरण स्तर"
         },
         {
-          "en": "Committees",
-          "mr": "Committees"
+          "en": "Designated Officer",
+          "mr": "नियुक्त अधिकारी"
+        },
+        {
+          "en": "Scope & Jurisdiction",
+          "mr": "अधिकार क्षेत्र"
+        },
+        {
+          "en": "Official Contact & Address",
+          "mr": "संपर्क व पत्ता"
         }
       ],
-      "order": 56
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "First Appellate Authority (FAA)",
+              "mr": "प्रथम अपिलीय अधिकारी"
+            }
+          },
+          {
+            "text": {
+              "en": "Registrar, MPKV Rahuri",
+              "mr": "कुलसचिव, मफुकृवि राहुरी"
+            }
+          },
+          {
+            "text": {
+              "en": "Entire University Administrative Jurisdiction",
+              "mr": "संपूर्ण विद्यापीठ प्रशासकीय कार्यक्षेत्र"
+            }
+          },
+          {
+            "text": {
+              "en": "Central Campus, Rahuri (02426-243216)",
+              "mr": "मध्यवर्ती परिसर, राहुरी (०२४२६-२४३२१६)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "Central Public Information Officer (CPIO)",
+              "mr": "केंद्रीय जनमाहिती अधिकारी (प्रशासन)"
+            }
+          },
+          {
+            "text": {
+              "en": "Assistant Registrar (Administration)",
+              "mr": "सहायक कुलसचिव (प्रशासन)"
+            }
+          },
+          {
+            "text": {
+              "en": "Central Administration & University Records",
+              "mr": "मध्यवर्ती प्रशासन व विद्यापीठ अभिलेख"
+            }
+          },
+          {
+            "text": {
+              "en": "Registrar Office, Rahuri (02426-243216)",
+              "mr": "कुलसचिव कार्यालय, राहुरी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "Public Information Officer (Academic)",
+              "mr": "जनमाहिती अधिकारी (शैक्षणिक)"
+            }
+          },
+          {
+            "text": {
+              "en": "Assistant Registrar (Education)",
+              "mr": "सहायक कुलसचिव (शिक्षण)"
+            }
+          },
+          {
+            "text": {
+              "en": "Student Admissions, Examinations & Degrees",
+              "mr": "विद्यार्थी प्रवेश, परीक्षा, पदव्या व गुणपत्रके"
+            }
+          },
+          {
+            "text": {
+              "en": "Academic Branch, MPKV Rahuri",
+              "mr": "शैक्षणिक शाखा, मफुकृवि राहुरी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "Public Information Officer (Research)",
+              "mr": "जनमाहिती अधिकारी (संशोधन)"
+            }
+          },
+          {
+            "text": {
+              "en": "Assistant Registrar (Research)",
+              "mr": "सहायक कुलसचिव (संशोधन)"
+            }
+          },
+          {
+            "text": {
+              "en": "Research Schemes, AICRP, Patents & Farm Implements",
+              "mr": "संशोधन योजना, पेटंट्स व शेती अवजारे"
+            }
+          },
+          {
+            "text": {
+              "en": "Directorate of Research, Rahuri",
+              "mr": "संशोधन संचालनालय, राहुरी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "५"
+            }
+          },
+          {
+            "text": {
+              "en": "Public Information Officer (Pune Campus)",
+              "mr": "जनमाहिती अधिकारी (पुणे कॅम्पस)"
+            }
+          },
+          {
+            "text": {
+              "en": "Assistant Registrar, College of Agri Pune",
+              "mr": "सहायक कुलसचिव, कृषि महाविद्यालय पुणे"
+            }
+          },
+          {
+            "text": {
+              "en": "Pune College Campus & Sub-Stations",
+              "mr": "पुणे महाविद्यालय परिसर व उपकेंद्रे"
+            }
+          },
+          {
+            "text": {
+              "en": "Shivajinagar, Pune (020-25537033)",
+              "mr": "शिवाजीनगर, पुणे (०२०-२५५३७०३३)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "6",
+              "mr": "६"
+            }
+          },
+          {
+            "text": {
+              "en": "Public Information Officer (Kolhapur Campus)",
+              "mr": "जनमाहिती अधिकारी (कोल्हापूर कॅम्पस)"
+            }
+          },
+          {
+            "text": {
+              "en": "Assistant Registrar, RCSM College Kolhapur",
+              "mr": "सहायक कुलसचिव, राछशाम महाविद्यालय कोल्हापूर"
+            }
+          },
+          {
+            "text": {
+              "en": "Kolhapur Campus & Regional Stations",
+              "mr": "कोल्हापूर परिसर व विभागीय केंद्रे"
+            }
+          },
+          {
+            "text": {
+              "en": "Kasaba Bawada, Kolhapur (0231-2605851)",
+              "mr": "कसबा बावडा, कोल्हापूर (०२३१-२६०५८५१)"
+            }
+          }
+        ]
+      ],
+      "rowCount": 6,
+      "columnCount": 5
     },
     {
-      "type": "ul",
-      "items": [
+      "id": "table_rts_services",
+      "caption": {
+        "en": "Right to Public Services (RTS Act 2015) Notified University Services",
+        "mr": "महाराष्ट्र लोकसेवा हक्क (RTS Act २०१५) अधिसूचित विद्यापीठ सेवा"
+      },
+      "headers": [
         {
-          "en": "ActUGC Regulations 2009First Ammendment (2012)Second Ammendment (2013)Third Ammendment (2016)",
-          "mr": "ActUGC Regulations 2009First Ammendment (2012)Second Ammendment (2013)Third Ammendment (2016)"
+          "en": "Sr.No",
+          "mr": "अ.क्र."
         },
         {
-          "en": "Composition",
-          "mr": "Composition"
+          "en": "Notified Public Service",
+          "mr": "अधिसूचित लोकसेवा"
         },
         {
-          "en": "Committees",
-          "mr": "Committees"
+          "en": "Designated Officer",
+          "mr": "पदनिर्देशित अधिकारी"
+        },
+        {
+          "en": "Stipulated Time Limit",
+          "mr": "विहित कालमर्यादा"
+        },
+        {
+          "en": "First Appellate Officer",
+          "mr": "प्रथम अपिलीय अधिकारी"
         }
       ],
-      "order": 57
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "UGC Regulations 2009",
-          "mr": "UGC Regulations 2009"
-        },
-        {
-          "en": "First Ammendment (2012)",
-          "mr": "First Ammendment (2012)"
-        },
-        {
-          "en": "Second Ammendment (2013)",
-          "mr": "Second Ammendment (2013)"
-        },
-        {
-          "en": "Third Ammendment (2016)",
-          "mr": "Third Ammendment (2016)"
-        }
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "Issue of Official Degree Transcript / Grade Cards",
+              "mr": "अधिकृत पदवी ट्रान्सक्रिप्ट / गुणपत्रिका देणे"
+            }
+          },
+          {
+            "text": {
+              "en": "Assistant Registrar (Academic)",
+              "mr": "सहायक कुलसचिव (शिक्षण)"
+            }
+          },
+          {
+            "text": {
+              "en": "15 Working Days",
+              "mr": "१५ कामाचे दिवस"
+            }
+          },
+          {
+            "text": {
+              "en": "Registrar, MPKV Rahuri",
+              "mr": "कुलसचिव, मफुकृवि राहुरी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "Verification of Educational Degree Certificates",
+              "mr": "शैक्षणिक पदवी प्रमाणपत्रांचे अधिकृत पडताळणी"
+            }
+          },
+          {
+            "text": {
+              "en": "Controller of Examinations",
+              "mr": "परीक्षा नियंत्रक"
+            }
+          },
+          {
+            "text": {
+              "en": "15 Working Days",
+              "mr": "१५ कामाचे दिवस"
+            }
+          },
+          {
+            "text": {
+              "en": "Registrar, MPKV Rahuri",
+              "mr": "कुलसचिव, मफुकृवि राहुरी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "Issue of Student Migration Certificate",
+              "mr": "स्थलांतर प्रमाणपत्र (मायग्रेशन) देणे"
+            }
+          },
+          {
+            "text": {
+              "en": "Assistant Registrar (Academic)",
+              "mr": "सहायक कुलसचिव (शिक्षण)"
+            }
+          },
+          {
+            "text": {
+              "en": "7 Working Days",
+              "mr": "७ कामाचे दिवस"
+            }
+          },
+          {
+            "text": {
+              "en": "Registrar, MPKV Rahuri",
+              "mr": "कुलसचिव, मफुकृवि राहुरी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "Soil & Irrigation Water Health Card Testing Report",
+              "mr": "माती व पाणी तपासणी अहवाल देणे"
+            }
+          },
+          {
+            "text": {
+              "en": "In-Charge, Soil Testing Laboratory",
+              "mr": "प्रभारी, मृद परीक्षण प्रयोगशाळा"
+            }
+          },
+          {
+            "text": {
+              "en": "15 Working Days",
+              "mr": "१५ कामाचे दिवस"
+            }
+          },
+          {
+            "text": {
+              "en": "Associate Dean (Respective College)",
+              "mr": "सहयोगी अधिष्ठाता"
+            }
+          }
+        ]
       ],
-      "order": 58
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Committees",
-          "mr": "Committees"
-        }
-      ],
-      "order": 59
+      "rowCount": 4,
+      "columnCount": 5
     }
   ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/AntiAct.pdf",
-      "localPath": "/media/docs/AntiAct.pdf",
-      "category": "docs",
-      "label": "Act (Prevention, Prohibition, and Redressal Act, 2013)"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/AntiCompo.pdf",
-      "localPath": "/media/docs/AntiCompo.pdf",
-      "category": "docs",
-      "label": "Composition"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Education/20260825_163230_922240bc8c94932b04f6693e2a1f96e4.pdf",
-      "localPath": "/media/docs/20260825_163230_922240bc8c94932b04f6693e2a1f96e4.pdf",
-      "category": "docs",
-      "label": "Committees"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RagUgc.pdf",
-      "localPath": "/media/docs/RagUgc.pdf",
-      "category": "docs",
-      "label": "UGC Regulations 2009"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RagFirst.pdf",
-      "localPath": "/media/docs/RagFirst.pdf",
-      "category": "docs",
-      "label": "First Ammendment (2012)"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RagScond.pdf",
-      "localPath": "/media/docs/RagScond.pdf",
-      "category": "docs",
-      "label": "Second Ammendment (2013)"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RagThird.pdf",
-      "localPath": "/media/docs/RagThird.pdf",
-      "category": "docs",
-      "label": "Third Ammendment (2016)"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Composion.pdf",
-      "localPath": "/media/docs/Composion.pdf",
-      "category": "docs",
-      "label": "Composition"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Education/1223_20240809043124.pdf",
-      "localPath": "/media/docs/1223_20240809043124.pdf",
-      "category": "docs",
-      "label": "Committees"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Notification.pdf",
-      "localPath": "/media/docs/Notification.pdf",
-      "category": "docs",
-      "label": "Committees"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Transparency",
-        "mr": "पारदर्शकता"
-      },
-      "order": 55
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Act (Prevention, Prohibition, and Redressal Act, 2013)",
-          "mr": "Act (Prevention, Prohibition, and Redressal Act, 2013)"
-        },
-        {
-          "en": "Composition",
-          "mr": "Composition"
-        },
-        {
-          "en": "Committees",
-          "mr": "Committees"
-        }
-      ],
-      "order": 56
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "ActUGC Regulations 2009First Ammendment (2012)Second Ammendment (2013)Third Ammendment (2016)",
-          "mr": "ActUGC Regulations 2009First Ammendment (2012)Second Ammendment (2013)Third Ammendment (2016)"
-        },
-        {
-          "en": "Composition",
-          "mr": "Composition"
-        },
-        {
-          "en": "Committees",
-          "mr": "Committees"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "UGC Regulations 2009",
-          "mr": "UGC Regulations 2009"
-        },
-        {
-          "en": "First Ammendment (2012)",
-          "mr": "First Ammendment (2012)"
-        },
-        {
-          "en": "Second Ammendment (2013)",
-          "mr": "Second Ammendment (2013)"
-        },
-        {
-          "en": "Third Ammendment (2016)",
-          "mr": "Third Ammendment (2016)"
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Committees",
-          "mr": "Committees"
-        }
-      ],
-      "order": 59
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 4,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 24,
-    "totalRecords": 79
-  }
+  "contentBlocks": []
 }

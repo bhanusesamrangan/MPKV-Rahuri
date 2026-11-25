@@ -11,6 +11,15 @@ import { AffiliatedCollegesView } from '@/views/Education/AffiliatedCollegesView
 import { CoursesCurriculumView } from '@/views/Education/CoursesCurriculumView';
 import { FacultyBranchView } from '@/views/Education/FacultyBranchView';
 
+// Specialized Stakeholder & Governance Views
+import { StudentsHubView } from '@/views/Stakeholder/StudentsHubView';
+import { AlumniPortalView } from '@/views/Stakeholder/AlumniPortalView';
+import { GuestHouseView } from '@/views/Stakeholder/GuestHouseView';
+import { TrainingsView } from '@/views/Stakeholder/TrainingsView';
+import { TransparencyRtiView } from '@/views/Stakeholder/TransparencyRtiView';
+import { CentralAdministrationView } from '@/views/Stakeholder/CentralAdministrationView';
+import { AboutMahatmaPhuleView } from '@/views/About/AboutMahatmaPhuleView';
+
 interface PageProps {
   params: Promise<{
     slug: string[];
@@ -168,6 +177,73 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath === 'education/edufaclatyengg'
   ) {
     return <FacultyBranchView pageData={page} facultyType="engineering" />;
+  }
+
+  // 14. Students Corner & Welfare Hub
+  if (
+    pageSlug === 'students' ||
+    pageSlug === 'student-corner' ||
+    fullPath === 'students' ||
+    fullPath === 'students/corner'
+  ) {
+    return <StudentsHubView pageData={page} />;
+  }
+
+  // 15. Alumni Portal & Global Network
+  if (
+    pageSlug === 'alumni' ||
+    fullPath === 'alumni'
+  ) {
+    return <AlumniPortalView pageData={page} />;
+  }
+
+  // 16. University Guest Houses & Accommodation
+  if (
+    pageSlug === 'guest-house' ||
+    pageSlug === 'guest-house-booking' ||
+    fullPath === 'guest-house' ||
+    fullPath === 'guest-house-booking'
+  ) {
+    return <GuestHouseView pageData={page} />;
+  }
+
+  // 17. Trainings, Workshops & Capacity Building
+  if (
+    pageSlug === 'trainings' ||
+    fullPath === 'trainings'
+  ) {
+    return <TrainingsView pageData={page} />;
+  }
+
+  // 18. Transparency & Right to Information (RTI / RTS)
+  if (
+    pageSlug === 'transparency' ||
+    pageSlug === 'transparency-and-grievance' ||
+    fullPath === 'transparency' ||
+    fullPath === 'transparency-and-grievance' ||
+    fullPath === 'rti'
+  ) {
+    return <TransparencyRtiView pageData={page} />;
+  }
+
+  // 19. Central Administration & Statutory Leadership
+  if (
+    pageSlug === 'administration' ||
+    pageSlug === 'administration-profile' ||
+    fullPath === 'administration' ||
+    fullPath === 'administration-profile'
+  ) {
+    return <CentralAdministrationView pageData={page} />;
+  }
+
+  // 20. About Mahatma Jyotirao Phule (Official Biography & Archival Portrait)
+  if (
+    pageSlug === 'about-mahatma-phule' ||
+    fullPath === 'home/aboutphule' ||
+    fullPath === 'about-mahatma-phule' ||
+    fullPath === 'aboutphule'
+  ) {
+    return <AboutMahatmaPhuleView pageData={page} />;
   }
 
   // Default fallback for other pages

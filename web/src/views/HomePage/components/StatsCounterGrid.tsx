@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-import { Sparkles, ArrowRight } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 interface StatsCounterGridProps {
   stats: any[];
@@ -90,12 +90,12 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
 
   return (
     <section className="w-full py-8 sm:py-12 lg:py-14 bg-[#edf3ed] relative overflow-hidden border-t border-stone-300">
-      
+
       {/* Background ambient lighting */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[300px] bg-emerald-200/20 rounded-full blur-3xl pointer-events-none" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] relative z-10 space-y-5 sm:space-y-7">
-        
+
         {/* Section Header */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 sm:pb-4 border-b border-stone-300">
           <div className="flex items-center gap-2.5">
@@ -118,7 +118,7 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
             return (
               <div
                 key={stat.id}
-                className={`rounded-2xl sm:rounded-3xl bg-white border ${theme.borderColor} transition-all duration-300 flex flex-col h-full shadow-xs hover:shadow-xl ${theme.glow} hover:-translate-y-1.5 group cursor-pointer overflow-hidden relative p-2.5 sm:p-3 lg:p-3.5 max-sm:last:col-span-2 max-sm:last:max-w-[calc(50%-5px)] max-sm:last:mx-auto w-full`}
+                className={`rounded-2xl sm:rounded-3xl bg-white border ${theme.borderColor} transition-all duration-300 flex flex-col h-full shadow-xs hover:shadow-md ${theme.glow} group overflow-hidden relative p-2.5 sm:p-3 lg:p-3.5 max-sm:last:col-span-2 max-sm:last:max-w-[calc(50%-5px)] max-sm:last:mx-auto w-full`}
               >
                 {/* Top Distinctive Accent Bar */}
                 <div className={`absolute top-0 left-0 right-0 h-1 sm:h-1.5 ${theme.accentBar}`} />
@@ -134,7 +134,7 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
                     className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500"
                     loading="lazy"
                   />
-                  
+
                   {/* Micro Category Tag */}
                   <div className="absolute bottom-1.5 left-1.5 right-1.5 sm:bottom-2 sm:left-2 sm:right-2 flex items-center justify-center pointer-events-none z-10">
                     <span className="px-2 py-0.5 rounded-full bg-slate-950/70 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-bold border border-white/20 shadow-xs tracking-wide truncate max-w-full">
@@ -154,14 +154,6 @@ export const StatsCounterGrid: React.FC<StatsCounterGridProps> = ({ stats }) => 
                   <div className="text-xs sm:text-[13px] lg:text-[14px] font-bold text-slate-800 text-center leading-snug line-clamp-2 min-h-[28px] sm:min-h-[34px] flex items-center justify-center px-0.5 mt-1 sm:mt-1.5">
                     {getBilingual(stat.label)}
                   </div>
-                </div>
-
-                {/* Subtle Hover Action Footer */}
-                <div className="pt-2 mt-auto border-t border-stone-100 flex items-center justify-center text-[11px] sm:text-xs font-bold text-slate-500 group-hover:text-slate-900 transition-colors">
-                  <span className="inline-flex items-center gap-1">
-                    <span>{language === 'mr' ? 'सविस्तर' : 'Explore'}</span>
-                    <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3 group-hover:translate-x-1 transition-transform" />
-                  </span>
                 </div>
 
               </div>

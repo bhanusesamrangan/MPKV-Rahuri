@@ -19,12 +19,16 @@ import {
   Home,
   Sparkles,
   ArrowRight,
-  ArrowUpRight
+  ArrowUpRight,
+  X,
+  Download,
+  ExternalLink
 } from 'lucide-react';
 
 export const StakeholderQuickDesk: React.FC = () => {
   const { language } = useLanguage();
   const [activeTab, setActiveTab] = useState<'all' | 'students' | 'governance' | 'staff'>('all');
+  const [isGuestHousePdfOpen, setIsGuestHousePdfOpen] = useState(false);
 
   const categories = [
     {
@@ -44,24 +48,22 @@ export const StakeholderQuickDesk: React.FC = () => {
         {
           title: language === 'mr' ? 'विद्यार्थी कक्ष' : 'Students Corner',
           icon: GraduationCap,
-          link: '/education'
+          link: '/students'
         },
         {
           title: language === 'mr' ? 'महाविद्यालये सूची' : 'Constituent Colleges',
           icon: Building2,
-          link: '/colleges'
+          link: '/education/constituent-colleges'
         },
         {
           title: language === 'mr' ? 'प्राध्यापक वृंद' : 'Faculty Directory',
           icon: Users,
-          link: 'https://mpkv.irins.org/',
-          isExternal: true
+          link: '/faculty-directory'
         },
         {
           title: language === 'mr' ? 'कृषी प्रवेश प्रक्रिया' : 'Agri Admissions',
           icon: BookOpen,
-          link: 'https://maha-agriadmission.in',
-          isExternal: true
+          link: '/students/admission'
         },
         {
           title: language === 'mr' ? 'माजी विद्यार्थी दालन' : 'Alumni Portal',
@@ -143,7 +145,11 @@ export const StakeholderQuickDesk: React.FC = () => {
         {
           title: language === 'mr' ? 'अतिथी गृह आरक्षण' : 'Guest House Booking',
           icon: Home,
-          link: '/guest-house'
+          link: '/media/docs/mpkv_guesthouse_rates_and_contacts.pdf',
+          onClick: (e: React.MouseEvent) => {
+            e.preventDefault();
+            setIsGuestHousePdfOpen(true);
+          }
         }
       ]
     }
@@ -267,6 +273,19 @@ export const StakeholderQuickDesk: React.FC = () => {
                       </div>
                     );
 
+                    if ((item as any).onClick) {
+                      return (
+                        <button
+                          key={i}
+                          type="button"
+                          onClick={(item as any).onClick}
+                          className="block w-full text-left"
+                        >
+                          {ItemContent}
+                        </button>
+                      );
+                    }
+
                     return item.isExternal ? (
                       <a
                         key={i}
@@ -290,6 +309,111 @@ export const StakeholderQuickDesk: React.FC = () => {
         </div>
 
       </div>
+
+      {/* Guest House Official PDF Modal */}
+      {isGuestHousePdfOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-950/75 backdrop-blur-sm animate-in fade-in duration-200"
+          onClick={() => setIsGuestHousePdfOpen(false)}
+        >
+          <div
+            className="relative w-full max-w-5xl bg-white rounded-3xl shadow-2xl border border-stone-200 overflow-hidden flex flex-col h-[90vh] animate-in zoom-in-95 duration-200"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="px-5 py-4 bg-gradient-to-r from-teal-900 via-slate-900 to-emerald-950 text-white flex items-center justify-between shrink-0">
+              <div className="flex items-center gap-3">
+                <div className="p-2 rounded-xl bg-teal-500/20 text-teal-300 border border-teal-400/30">
+                  <Home className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-sm sm:text-base font-bold text-white leading-tight">
+                    {language === 'mr'
+                      ? 'महात्मा फुले कृषि विद्यापीठ: अतिथीगृह दर व संपर्क निर्देशिका'
+                      : 'MPKV Guest House Rates & In-Charge Contact Directory'}
+                  </h3>
+                  <p className="text-[11px] text-teal-200/80 mt-0.5">
+                    {language === 'mr'
+                      ? 'राहुरी मुख्य कॅम्पस, कोल्हापूर, पुणे व धुळे अतिथीगृहे (अधिकृत दस्तऐवज)'
+                      : 'Central Campus Rahuri, Kolhapur, Pune & Dhule Campuses (Official Document)'}
+                  </p>
+                </div>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="flex items-center gap-2">
+                <a
+                  href="/media/docs/mpkv_guesthouse_rates_and_contacts.pdf"
+                  download="mpkv_guesthouse_rates_and_contacts.pdf"
+                  className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold transition-colors border border-white/15"
+                >
+                  <Download className="w-3.5 h-3.5 text-amber-300" />
+                  <span>{language === 'mr' ? 'डाउनलोड करा' : 'Download PDF'}</span>
+                </a>
+
+                <a
+                  href="/media/docs/mpkv_guesthouse_rates_and_contacts.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold transition-colors border border-white/15"
+                >
+                  <ExternalLink className="w-3.5 h-3.5 text-teal-300" />
+                  <span className="hidden sm:inline">{language === 'mr' ? 'नवीन टॅबमध्ये उघडा' : 'New Tab'}</span>
+                </a>
+
+                <Link
+                  href="/guest-house"
+                  onClick={() => setIsGuestHousePdfOpen(false)}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-teal-600 hover:bg-teal-500 text-white text-xs font-bold transition-colors shadow-xs"
+                >
+                  <Home className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">{language === 'mr' ? 'संपूर्ण पोर्टल' : 'Full Page'}</span>
+                </Link>
+
+                <button
+                  type="button"
+                  onClick={() => setIsGuestHousePdfOpen(false)}
+                  aria-label="Close modal"
+                  className="p-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer ml-1"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+
+            {/* Embedded PDF Viewer */}
+            <div className="flex-1 bg-stone-100 relative overflow-hidden">
+              <iframe
+                src="/media/docs/mpkv_guesthouse_rates_and_contacts.pdf#toolbar=1"
+                className="w-full h-full border-0"
+                title="MPKV Official Guest House Rates and In-Charge Contact Directory"
+              />
+            </div>
+
+            {/* Modal Footer */}
+            <div className="px-5 py-3 bg-stone-50 border-t border-stone-200 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 shrink-0">
+              <span className="font-medium text-slate-600">
+                {language === 'mr'
+                  ? 'अधिकृत दर: राहुरी मुख्य परिसर, कोल्हापूर, पुणे व धुळे कृषी महाविद्यालये'
+                  : 'Official Approved Rates: Central Campus Rahuri, Kolhapur, Pune & Dhule Campuses'}
+              </span>
+              <div className="flex items-center gap-3">
+                <a
+                  href="/media/docs/mpkv_guesthouse_rates_and_contacts.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-teal-700 hover:underline"
+                >
+                  {language === 'mr' ? 'पीडीएफ थेट उघडा' : 'Open Direct PDF'} →
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      )}
     </section>
   );
 };

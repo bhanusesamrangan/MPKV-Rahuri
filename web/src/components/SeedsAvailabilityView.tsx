@@ -140,10 +140,10 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
             <div className="pt-2 border-t border-stone-100 flex items-center justify-between text-xs text-slate-500">
               <span className="flex items-center gap-1 font-normal">
                 <Clock className="w-3.5 h-3.5 text-slate-400" />
-                <span>{language === 'mr' ? 'सकाळी ९ ते सायं ५:३०' : '9:00 AM - 5:30 PM'}</span>
+                <span>{language === 'mr' ? 'सकाळी ९:०० ते सायं ५:३०' : '9:00 AM - 5:30 PM'}</span>
               </span>
-              <span className="text-slate-700 font-medium">
-                {language === 'mr' ? 'सोमवार ते शनिवार' : 'Mon - Sat'}
+              <span className="text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full font-semibold text-[11px] border border-emerald-200">
+                {language === 'mr' ? 'कामकाज: सोम - शुक्र' : 'Operational: Mon - Fri'}
               </span>
             </div>
           </div>
@@ -620,8 +620,8 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
           </h3>
           <p className="text-slate-600 text-xs sm:text-sm leading-relaxed font-normal">
             {language === 'mr'
-              ? 'बियाणे विभाग, प्रक्षेत्र, महात्मा फुले कृषि विद्यापीठ, राहुरी, जि. अहिल्यानगर (अहमदनगर). शेतकऱ्यांनी खरेदीपूर्वी उपलब्धतेची दूरध्वनीद्वारे खात्री करावी.'
-              : 'Seed Processing Plant, Farm, Mahatma Phule Krishi Vidyapeeth, Rahuri, Dist. Ahilyanagar. Farmers are advised to confirm availability before arrival.'}
+              ? 'बियाणे विभाग, प्रक्षेत्र, महात्मा फुले कृषि विद्यापीठ, राहुरी, जि. अहिल्यानगर (अहमदनगर). विक्री केंद्र कामकाजाचे दिवस: सोमवार ते शुक्रवार (सकाळी ९:०० ते सायं ५:३०). शेतकऱ्यांनी खरेदीपूर्वी उपलब्धतेची दूरध्वनीद्वारे खात्री करावी.'
+              : 'Seed Processing Plant, Farm, Mahatma Phule Krishi Vidyapeeth, Rahuri, Dist. Ahilyanagar. Seed Desk Operational Days: Mon - Fri (9:00 AM - 5:30 PM). Farmers are advised to confirm availability before arrival.'}
           </p>
         </div>
 

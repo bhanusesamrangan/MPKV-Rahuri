@@ -30,7 +30,7 @@ export const UniversityBentoGrid: React.FC = () => {
       desc: language === 'mr'
         ? 'PGI राहुरी येथे १० विषयांत M.Sc. व Ph.D. अध्यापन. डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी (CAET) आणि पुणे, धुळे, कोल्हापूर महाविद्यालये.'
         : 'PGI Rahuri across 10 PG departments, alongside Dr. A.S. CAET Engineering and constituent colleges at Pune, Dhule, and Kolhapur.',
-      link: '/post-graduate-institute-rahuri',
+      link: '/education/constituent-colleges',
       linkText: language === 'mr' ? 'महाविद्यालये' : 'Explore Colleges',
       styles: {
         cardBg: 'bg-gradient-to-br from-white via-emerald-50/40 to-teal-50/50 hover:to-teal-50/80',
@@ -52,8 +52,8 @@ export const UniversityBentoGrid: React.FC = () => {
       desc: language === 'mr'
         ? '२७०+ सुधारित वाण (फुले वरदान, समाधान, भगवा). PPV&FRA अंतर्गत ३६ वाणांची राष्ट्रीय विक्रमी नोंदणी व २७ संशोधन केंद्रे.'
         : 'Over 270 notified crop varieties, national PPV&FRA record holder (36 registered varieties), and 27 research stations.',
-      link: '/seeds-availability',
-      linkText: language === 'mr' ? 'वाण व तंत्रज्ञान' : 'View Research',
+      link: '/research/varieties',
+      linkText: language === 'mr' ? 'वाण व तंत्रज्ञान' : 'View Varieties',
       styles: {
         cardBg: 'bg-gradient-to-br from-white via-amber-50/40 to-orange-50/50 hover:to-orange-50/80',
         border: 'border-amber-200/90 hover:border-amber-400',
@@ -96,8 +96,8 @@ export const UniversityBentoGrid: React.FC = () => {
       desc: language === 'mr'
         ? '१० जिल्ह्यांत थेट शेतकरी प्रात्यक्षिके, ATIC केंद्र, तंत्रज्ञान हस्तांतरण व कृषी मेळावे.'
         : 'Direct farmer extension through KVKs, ATIC single-window center, and training camps.',
-      link: '/contact-us',
-      linkText: language === 'mr' ? 'विस्तार सेवा' : 'View Services',
+      link: '/extension/krishi-vigyan-kendras',
+      linkText: language === 'mr' ? 'KVK विस्तार सेवा' : 'View KVK Centers',
       styles: {
         cardBg: 'bg-gradient-to-br from-white via-rose-50/40 to-pink-50/50 hover:to-pink-50/80',
         border: 'border-rose-200/90 hover:border-rose-400',
@@ -118,8 +118,8 @@ export const UniversityBentoGrid: React.FC = () => {
       desc: language === 'mr'
         ? 'गीर गोवंश संवर्धन, फुले त्रिवेणी संकरित गाय संशोधन आणि उच्च जनुकीय रेतमात्रा.'
         : 'Indigenous Gir cattle conservation, Phule Triveni milch cow project, and dairy genetics.',
-      link: '/seeds-availability',
-      linkText: language === 'mr' ? 'दुग्ध प्रकल्प' : 'Dairy Project',
+      link: '/farmer/services',
+      linkText: language === 'mr' ? 'शेतकरी सेवा प्रकल्प' : 'Farmer Services',
       styles: {
         cardBg: 'bg-gradient-to-br from-white via-yellow-50/40 to-amber-50/50 hover:to-amber-50/80',
         border: 'border-yellow-200/90 hover:border-amber-400',
@@ -228,9 +228,11 @@ export const UniversityBentoGrid: React.FC = () => {
             const IconComponent = card.icon;
 
             return (
-              <div
+              <Link
                 key={card.id}
-                className={`${card.span} ${card.styles.cardBg} rounded-2xl p-4 sm:p-5 border ${card.styles.border} transition-all duration-300 hover:-translate-y-0.5 shadow-2xs hover:shadow-sm flex flex-col justify-between group cursor-pointer`}
+                href={card.link}
+                title={card.title}
+                className={`${card.span} ${card.styles.cardBg} rounded-2xl p-4 sm:p-5 border ${card.styles.border} transition-all duration-300 hover:-translate-y-0.5 shadow-2xs hover:shadow-md flex flex-col justify-between group cursor-pointer block no-underline`}
               >
                 <div className="space-y-2.5">
                   {/* Top Bar: Icon + Badge + Metric */}
@@ -266,21 +268,20 @@ export const UniversityBentoGrid: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Footer Action Link */}
+                {/* Footer Action Link Indicator */}
                 <div className="pt-2.5 mt-3 border-t border-stone-200/70 flex items-center justify-between">
-                  <Link
-                    href={card.link}
+                  <span
                     className={`text-xs font-bold inline-flex items-center gap-1 transition-all ${card.styles.linkText}`}
                   >
                     <span>{card.linkText}</span>
                     <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                  </Link>
+                  </span>
 
                   <span className="text-[10.5px] font-medium text-slate-400 group-hover:text-slate-600 transition-colors">
                     {language === 'mr' ? 'सविस्तर' : 'Details'}
                   </span>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>

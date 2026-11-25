@@ -36,7 +36,7 @@ export default function HomePage() {
       {/* 4. Farmer First ("शेतकरी प्रथम") Direct Gateway & Cropping Calendar */}
       <FarmerServicesRibbon calendarMonths={homeData.calendar_months || []} />
 
-      {/* 5. National Prestige: University Achievements & NIRF 15th Rank */}
+      {/* 5. National Standing: ICAR Accreditation, PPVFRA National Record & Comprehensive Recognitions */}
       <AchievementsNirfSection />
 
       {/* 6. Core Research, Academic & Extension Pillars Bento Grid */}

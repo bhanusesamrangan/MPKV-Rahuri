@@ -1,0 +1,253 @@
+{
+  "slug": "trainings",
+  "url": "/trainings",
+  "route": "trainings",
+  "sourcePage": "https://mpkv.ac.in/Trainings",
+  "scrapedAt": "2026-11-25T07:43:26.352Z",
+  "title": {
+    "en": "Trainings, Workshops & Capacity Building Programs",
+    "mr": "प्रशिक्षण, कार्यशाळा व क्षमता संवर्धन उपक्रम"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "url": "/"
+    },
+    {
+      "title": {
+        "en": "Trainings",
+        "mr": "प्रशिक्षण"
+      },
+      "url": "/trainings"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Training Programs & Workshops",
+      "mr": "प्रशिक्षण व कार्यशाळा दालन"
+    },
+    "subtitle": {
+      "en": "Continuous Professional Development for Scientists, Faculty, Extension Officers, and Modern Vocational Skills for Farmers & Youth",
+      "mr": "शास्त्रज्ञ, प्राध्यापक व विस्तार अधिकाऱ्यांसाठी व्यावसायिक प्रशिक्षण आणि शेतकरी व ग्रामीण युवकांसाठी आधुनिक कौशल्य विकास उपक्रम"
+    },
+    "badge": {
+      "en": "Human Resource Development",
+      "mr": "मानव संसाधन व क्षमता विकास"
+    }
+  },
+  "paragraphs": [
+    {
+      "text": {
+        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri organizes cutting-edge short and long-term training programs, national workshops, and sponsored capacity-building modules. Supported by the Indian Council of Agricultural Research (ICAR), Department of Agriculture (Govt. of Maharashtra), and Ministry of Agriculture & Farmers Welfare, these programs translate laboratory discoveries into field practice.",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी येथे शास्त्रज्ञ, प्राध्यापक व अधिकाऱ्यांसाठी राष्ट्रीय स्तरावरील अल्प व दीर्घकालीन प्रशिक्षण उपक्रम, उन्हाळी/हिवाळी विद्यालये आणि शेतकरी कार्यशाळांचे आयोजन केले जाते. भारतीय कृषि अनुसंधान परिषद (ICAR), महाराष्ट्र शासन आणि केंद्र सरकारच्या सहकार्याने कृषी तंत्रज्ञानाचा विस्तार जलद गतीने करण्यासाठी हे उपक्रम सातत्याने राबविले जातात."
+      },
+      "order": 1
+    },
+    {
+      "text": {
+        "en": "Key training domains encompass Precision Agriculture, Drone Technology, Seed Certification, Micro-Irrigation & Fertigation, Organic & Natural Farming, Climate-Smart Agronomy, Farm Mechanization, Agri-Business Incubation, and Bioinformatics (AKMU).",
+        "mr": "प्रशिक्षणाच्या मुख्य विषयांमध्ये आधुनिक सूक्ष्म सिंचन, ड्रोन तंत्रज्ञान, बियाणे उत्पादन व प्रमाणीकरण, सेंद्रिय शेती, संरक्षित शेती, कृषी हवामान लवचिकता, कृषी व्यवसाय मार्गदर्शन आणि माहिती तंत्रज्ञान (AKMU संगणक प्रशिक्षण) यांचा समावेश होतो."
+      },
+      "order": 2
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_training_categories",
+      "caption": {
+        "en": "Featured Training Categories & Professional Modules",
+        "mr": "प्रमुख प्रशिक्षण प्रकार व व्यावसायिक अभ्यासक्रम"
+      },
+      "headers": [
+        {
+          "en": "Sr.No",
+          "mr": "अ.क्र."
+        },
+        {
+          "en": "Training Category / Program Name",
+          "mr": "प्रशिक्षण प्रवर्ग / उपक्रमाचे नाव"
+        },
+        {
+          "en": "Target Participants",
+          "mr": "उद्दिष्ट लाभार्थी"
+        },
+        {
+          "en": "Duration & Mode",
+          "mr": "कालावधी व स्वरूप"
+        },
+        {
+          "en": "Organizing Directorate",
+          "mr": "आयोजक संचलनालय"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "ICAR Model Training Courses (MTC)",
+              "mr": "आयसीएआर मॉडेल प्रशिक्षण अभ्यासक्रम (MTC)"
+            }
+          },
+          {
+            "text": {
+              "en": "State Agriculture Officers & Subject Matter Specialists",
+              "mr": "राज्य कृषी अधिकारी व विषय विशेषज्ञ"
+            }
+          },
+          {
+            "text": {
+              "en": "8 Days (Residential)",
+              "mr": "८ दिवस (निवासी)"
+            }
+          },
+          {
+            "text": {
+              "en": "Directorate of Extension Education",
+              "mr": "विस्तार शिक्षण संचालनालय"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "ICAR Summer & Winter Schools / CAFT",
+              "mr": "आयसीएआर उन्हाळी व हिवाळी विद्यालये"
+            }
+          },
+          {
+            "text": {
+              "en": "University Faculty, Researchers & Scientists",
+              "mr": "कृषी विद्यापीठ प्राध्यापक व शास्त्रज्ञ"
+            }
+          },
+          {
+            "text": {
+              "en": "21 Days (National Level)",
+              "mr": "२१ दिवस (राष्ट्रीय स्तर)"
+            }
+          },
+          {
+            "text": {
+              "en": "Centre of Advanced Faculty Training (PGI)",
+              "mr": "प्रगत प्राध्यापक प्रशिक्षण केंद्र (PGI)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "AKMU Information Technology Trainings",
+              "mr": "एकेएमयू माहिती तंत्रज्ञान व संगणक प्रशिक्षण"
+            }
+          },
+          {
+            "text": {
+              "en": "Faculty, Research Scholars & Administrative Staff",
+              "mr": "प्राध्यापक, संशोधक व प्रशासकीय कर्मचारी"
+            }
+          },
+          {
+            "text": {
+              "en": "3 to 5 Days (Hands-on Lab)",
+              "mr": "३ ते ५ दिवस (प्रत्यक्ष संगणक लॅब)"
+            }
+          },
+          {
+            "text": {
+              "en": "Agricultural Knowledge Management Unit (AKMU)",
+              "mr": "कृषी ज्ञान व्यवस्थापन कक्ष (AKMU)"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "Micro-Irrigation & Fertigation Masterclasses",
+              "mr": "सूक्ष्म सिंचन व खत व्यवस्थापन प्रशिक्षण"
+            }
+          },
+          {
+            "text": {
+              "en": "Irrigation Engineers, Agronomists & Progressive Farmers",
+              "mr": "सिंचन अभियंता, कृषिविज्ञ व प्रगत शेतकरी"
+            }
+          },
+          {
+            "text": {
+              "en": "5 Days (Field Demonstration)",
+              "mr": "५ दिवस (प्रत्यक्ष प्रक्षेत्र प्रात्यक्षिक)"
+            }
+          },
+          {
+            "text": {
+              "en": "Centre of Excellence in Irrigation, Rahuri",
+              "mr": "जलव्यवस्थापन उत्कृष्टता केंद्र, राहुरी"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "5",
+              "mr": "५"
+            }
+          },
+          {
+            "text": {
+              "en": "Farmer Vocational Skills & Value Addition Modules",
+              "mr": "शेतकरी व्यावसायिक कौशल्य व प्रक्रिया प्रशिक्षण"
+            }
+          },
+          {
+            "text": {
+              "en": "Farming youth, Women SHGs & Agri-Entrepreneurs",
+              "mr": "शेतकरी युवक, महिला बचत गट व उद्योजक"
+            }
+          },
+          {
+            "text": {
+              "en": "1 to 7 Days (Hands-on)",
+              "mr": "१ ते ७ दिवस (कौशल्याधारित)"
+            }
+          },
+          {
+            "text": {
+              "en": "4 Krishi Vigyan Kendras (KVKs) & ATIC",
+              "mr": "४ कृषी विज्ञान केंद्रे (KVK) व अॅटिक"
+            }
+          }
+        ]
+      ],
+      "rowCount": 5,
+      "columnCount": 5
+    }
+  ],
+  "contentBlocks": []
+}
