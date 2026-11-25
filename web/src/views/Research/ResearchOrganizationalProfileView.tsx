@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import {
   Building,
@@ -19,11 +19,14 @@ import {
   Compass,
   FileCheck2,
   CheckCircle2,
-  FolderTree
+  FolderTree,
+  GitFork,
+  ListOrdered
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { ResearchBreadcrumb } from './components/ResearchBreadcrumb';
 import { ResearchHero } from './components/ResearchHero';
+import { ResearchCoordinationTree } from './components/ResearchCoordinationTree';
 
 interface ResearchOrganizationalProfileViewProps {
   pageData?: any;
@@ -31,6 +34,7 @@ interface ResearchOrganizationalProfileViewProps {
 
 export const ResearchOrganizationalProfileView: React.FC<ResearchOrganizationalProfileViewProps> = ({ pageData }) => {
   const { language } = useLanguage();
+  const [treeViewMode, setTreeViewMode] = useState<'visual' | 'tiers'>('visual');
 
   const leadership = {
     name: { en: 'Dr. Prashant S. Bodake', mr: 'डॉ. प्रशांत एस. बोडके' },
@@ -236,51 +240,85 @@ export const ResearchOrganizationalProfileView: React.FC<ResearchOrganizationalP
           </div>
         </section>
 
-        {/* 2. Interactive Administrative Governance Tree */}
+        {/* 2. Interactive Administrative Governance Tree & Flowchart */}
         <section className="space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-4">
             <div>
               <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-blue-100 text-blue-950 border border-blue-300 text-xs font-bold uppercase tracking-wider mb-1">
                 <FolderTree className="w-3.5 h-3.5 text-blue-700" />
                 <span>{language === 'mr' ? 'प्रशासकीय उतरंड' : 'Administrative Flow'}</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                {language === 'mr' ? 'संशोधन संचालनालयाची वैधानिक उतरंड' : 'Hierarchical Governance & Decision Chain'}
+                {language === 'mr' ? 'संशोधन समन्वय कार्यप्रणाली व वैधानिक उतरंड' : 'Research Coordination Mechanism & Governance'}
               </h2>
+            </div>
+
+            {/* Toggle Switch between Visual Tree Flowchart and Detailed Statutory Tiers */}
+            <div className="flex items-center gap-1.5 p-1 rounded-2xl bg-stone-100 border border-stone-200 self-start sm:self-auto">
+              <button
+                type="button"
+                onClick={() => setTreeViewMode('visual')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                  treeViewMode === 'visual'
+                    ? 'bg-blue-900 text-white shadow-xs'
+                    : 'text-stone-600 hover:text-slate-900'
+                }`}
+              >
+                <GitFork className="w-3.5 h-3.5" />
+                <span>{language === 'mr' ? 'ट्री व्ह्यू (फ्लोचार्ट)' : 'Tree View (Chart)'}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setTreeViewMode('tiers')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                  treeViewMode === 'tiers'
+                    ? 'bg-blue-900 text-white shadow-xs'
+                    : 'text-stone-600 hover:text-slate-900'
+                }`}
+              >
+                <ListOrdered className="w-3.5 h-3.5" />
+                <span>{language === 'mr' ? 'वैधानिक स्तर (यादी)' : 'Tier List'}</span>
+              </button>
             </div>
           </div>
 
-          <div className="space-y-3">
-            {hierarchyLevels.map((lvl, idx) => (
-              <div
-                key={idx}
-                className="p-4 sm:p-5 rounded-2xl bg-white border border-stone-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4 hover:border-blue-300 transition-colors"
-              >
-                <div className="flex items-start gap-3 min-w-0">
-                  <div className="w-8 h-8 rounded-xl bg-blue-900 text-amber-300 font-bold flex items-center justify-center shrink-0 text-sm">
-                    {idx + 1}
+          {/* Conditional Rendering: Tree View or Detailed Tier List */}
+          {treeViewMode === 'visual' ? (
+            <ResearchCoordinationTree />
+          ) : (
+            <div className="space-y-3">
+              {hierarchyLevels.map((lvl, idx) => (
+                <div
+                  key={idx}
+                  className="p-4 sm:p-5 rounded-2xl bg-white border border-stone-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4 hover:border-blue-300 transition-colors"
+                >
+                  <div className="flex items-start gap-3 min-w-0">
+                    <div className="w-8 h-8 rounded-xl bg-blue-900 text-amber-300 font-bold flex items-center justify-center shrink-0 text-sm">
+                      {idx + 1}
+                    </div>
+                    <div>
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700">
+                        {lvl.level}
+                      </span>
+                      <h3 className="text-base sm:text-lg font-bold text-slate-900 font-serif">
+                        {language === 'mr' ? lvl.titleMr : lvl.titleEn}
+                      </h3>
+                      <p className="text-xs sm:text-[13px] text-stone-600 mt-0.5 leading-relaxed font-medium">
+                        {language === 'mr' ? lvl.descMr : lvl.descEn}
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700">
-                      {lvl.level}
-                    </span>
-                    <h3 className="text-base sm:text-lg font-bold text-slate-900 font-serif">
-                      {language === 'mr' ? lvl.titleMr : lvl.titleEn}
-                    </h3>
-                    <p className="text-xs sm:text-[13px] text-stone-600 mt-0.5 leading-relaxed font-medium">
-                      {language === 'mr' ? lvl.descMr : lvl.descEn}
-                    </p>
-                  </div>
-                </div>
 
-                <div className="shrink-0 self-end md:self-center">
-                  <span className="text-[11px] font-semibold px-2.5 py-1 rounded-lg bg-stone-100 text-stone-700 border border-stone-200">
-                    Tier {idx + 1}
-                  </span>
+                  <div className="shrink-0 self-end md:self-center">
+                    <span className="text-[11px] font-semibold px-2.5 py-1 rounded-lg bg-stone-100 text-stone-700 border border-stone-200">
+                      Tier {idx + 1}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </section>
 
         {/* 3. Four Core Functional Research Wings */}
