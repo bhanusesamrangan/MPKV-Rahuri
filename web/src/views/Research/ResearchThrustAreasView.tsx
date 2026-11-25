@@ -30,7 +30,8 @@ import {
   Wrench,
   Sun,
   ShieldAlert,
-  ChevronRight
+  ChevronRight,
+  MapPin
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { ResearchBreadcrumb } from './components/ResearchBreadcrumb';
