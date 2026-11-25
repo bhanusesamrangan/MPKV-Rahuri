@@ -271,10 +271,14 @@ export default async function CatchAllPage({ params }: PageProps) {
     return <ResearchAtAGlanceView pageData={page} />;
   }
 
-  // 22. Research Organizational Profile
+  // 22. Research Organizational Profile & Directorates
   if (
     pageSlug === 'research-organizational-profile' ||
     fullPath === 'research/profile' ||
+    fullPath === 'research/organizational-profile' ||
+    fullPath === 'research/organizationalprofile' ||
+    fullPath === 'research/directorates' ||
+    fullPath === 'research/researchdirectorates' ||
     fullPath === 'research/researchprofile' ||
     fullPath === 'research/researchorgprofile'
   ) {
@@ -301,16 +305,18 @@ export default async function CatchAllPage({ params }: PageProps) {
     return <ResearchReviewMechanismView pageData={page} />;
   }
 
-  // 25. ICAR-AICRP Projects (45 Schemes)
+  // 25. ICAR-AICRP Projects (45 Schemes) & General Schemes Hub
   if (
     pageSlug === 'research-icar-aicrp' ||
     fullPath === 'research/aicrp' ||
+    fullPath === 'research/schemes' ||
+    fullPath === 'research/researchschemes' ||
     fullPath === 'research/researchschemicar'
   ) {
     return <ResearchSchemesView pageData={page} schemeType="aicrp" />;
   }
 
-  // 26. Non-Plan State Schemes (54 Schemes)
+  // 26. Non-Plan State Schemes (82 Schemes)
   if (
     pageSlug === 'research-non-plan-state-schemes' ||
     fullPath === 'research/state-schemes' ||
@@ -328,10 +334,12 @@ export default async function CatchAllPage({ params }: PageProps) {
     return <ResearchSchemesView pageData={page} schemeType="funded-projects" />;
   }
 
-  // 28. Western Ghat Zone
+  // 28. Western Ghat Zone & Regional Research Stations
   if (
     pageSlug === 'research-western-ghat-zone' ||
     fullPath === 'research/western-ghat-zone' ||
+    fullPath === 'research/stations' ||
+    fullPath === 'research/researchstations' ||
     fullPath === 'research/researchwzone'
   ) {
     return <ResearchAgroClimaticZonesView pageData={page} currentZone="western-ghat-zone" />;
@@ -375,10 +383,12 @@ export default async function CatchAllPage({ params }: PageProps) {
     return <ResearchAgroClimaticZonesView pageData={page} currentZone="central-plateau-zone" />;
   }
 
-  // 33. Crop Varieties Released (14 Categories)
+  // 33. Crop Varieties Released (14 Categories) & Research Technology
   if (
     pageSlug === 'research-varieties' ||
     fullPath === 'research/varieties' ||
+    fullPath === 'research/technology' ||
+    fullPath === 'research/researchtechnology' ||
     fullPath === 'research/researchtechvariety'
   ) {
     return <ResearchVarietiesView pageData={page} />;

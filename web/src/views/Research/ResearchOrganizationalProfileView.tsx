@@ -33,18 +33,19 @@ export const ResearchOrganizationalProfileView: React.FC<ResearchOrganizationalP
   const { language } = useLanguage();
 
   const leadership = {
-    name: { en: 'Dr. S. B. Kharbade', mr: 'डॉ. एस. बी. खराबाडे' },
+    name: { en: 'Dr. Prashant S. Bodake', mr: 'डॉ. प्रशांत एस. बोडके' },
     role: { en: 'Director of Research', mr: 'संचालक संशोधन' },
-    cadre: { en: 'Chief Research Executive & Member Secretary', mr: 'मुख्य संशोधन प्रमुख व सदस्य सचिव' },
+    cadre: { en: 'Directorate of Research, MPKV Rahuri', mr: 'संशोधन संचालनालय, म.फु.कृ.वि., राहुरी' },
     address: {
-      en: 'Directorate of Research, Central Campus, MPKV, Rahuri - 413722, Dist. Ahmednagar (MS)',
-      mr: 'संशोधन संचालनालय, मध्यवर्ती परिसर, म.फु.कृ.वि., राहुरी - ४१३७२२, जि. अहमदनगर (महाराष्ट्र)'
+      en: 'Directorate of Research, Mahatma Phule Krishi Vidyapeeth, Rahuri - 413 722, Dist: Ahmednagar, MS, India',
+      mr: 'संशोधन संचालनालय, महात्मा फुले कृषी विद्यापीठ, राहुरी - ४१३७२२, जि. अहमदनगर (महाराष्ट्र)'
     },
-    phone: '02426-243223 / 243208',
-    email: 'dr.mpkv@gov.in',
+    phone: '02426 243223',
+    email: 'dormpkv@rediffmail.com',
+    photo: '/media/images/Dr_PS_Bodake.jpg',
     officeHours: { en: 'Mon - Sat: 9:45 AM - 6:15 PM', mr: 'सोम - शनि: सकाळी ९:४५ ते सायं ६:१५' },
-    messageEn: 'The Directorate of Research is committed to transforming lab-proven agricultural science into actionable, high-yield field realities. By coordinating 27 research stations across 5 diverse agro-climatic zones, our focus remains firmly on climate-resilient crop varieties, precision water governance, and cutting-edge biotechnology for the agrarian community of Western Maharashtra.',
-    messageMr: 'संशोधन संचालनालय प्रयोगशाळेतील आधुनिक कृषी तंत्रज्ञान थेट शेतकऱ्यांच्या बांधापर्यंत पोहोचवण्यासाठी कटिबद्ध आहे. पश्चिम महाराष्ट्रातील ५ विविध हवामान विभागांतील २७ संशोधन केंद्रांच्या समन्वयातून हवामान-अनुकूल वाण, सूक्ष्म सिंचन, जैविक कीड नियंत्रण आणि उच्च उत्पादनक्षम शेती पद्धतींची निर्मिती हे आमचे सर्वोच्च ध्येय आहे.'
+    messageEn: 'The Directorate of Research coordinates 27 research stations spread across 5 distinct agro-climatic zones, executing 82 Non-Plan State schemes, 45 ICAR-AICRP projects, and Centrally Sponsored Research Schemes spanning over 100 crops. Our continuous commitment is to deliver climate-resilient crop varieties, farm mechanization implements, and natural resource management models to uplift the farming community of Western Maharashtra.',
+    messageMr: 'संशोधन संचालनालय पश्चिम महाराष्ट्रातील ५ विविध कृषी हवामान विभागांतील २७ संशोधन केंद्रांच्या समन्वयातून राज्य शासन अनुदानित ८२ योजनेतर योजना, ४५ अखिल भारतीय समन्वित प्रकल्प (AICRP) आणि १०० हून अधिक पिकांवरील संशोधन अविरत राबवित आहे. हवामान-अनुकूल वाण, आधुनिक कृषी औजारे व एकात्मिक शेती पद्धतींद्वारे शेतकरी बांधवांचे जीवनमान उंचावणे हे आमचे सर्वोच्च ध्येय आहे.'
   };
 
   const functionalWings = [
@@ -151,8 +152,15 @@ export const ResearchOrganizationalProfileView: React.FC<ResearchOrganizationalP
             
             {/* Left: Officer Credential Container */}
             <div className="lg:col-span-4 flex flex-col items-center sm:items-start text-center sm:text-left space-y-4 border-b lg:border-b-0 lg:border-r border-stone-200/80 pb-6 lg:pb-0 lg:pr-8">
-              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl bg-gradient-to-tr from-blue-900 to-indigo-800 p-1 shadow-lg flex items-center justify-center text-white">
-                <Building className="w-14 h-14 text-amber-300" />
+              <div className="w-32 h-36 sm:w-36 sm:h-40 rounded-2xl overflow-hidden border-2 border-amber-400 shadow-md bg-stone-100 flex items-center justify-center">
+                <img
+                  src={leadership.photo}
+                  alt={leadership.name.en}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLElement).style.display = 'none';
+                  }}
+                />
               </div>
 
               <div>
