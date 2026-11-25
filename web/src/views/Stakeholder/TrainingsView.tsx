@@ -15,16 +15,12 @@ import {
   Phone,
   ChevronRight,
   Home,
-  Printer,
-  Volume2,
-  VolumeX,
   Sparkles,
   CheckCircle2,
   ExternalLink,
   Target
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 
 interface TrainingsViewProps {
   pageData?: any;
@@ -32,12 +28,7 @@ interface TrainingsViewProps {
 
 export const TrainingsView: React.FC<TrainingsViewProps> = ({ pageData }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
   const [selectedTrack, setSelectedTrack] = useState<'all' | 'faculty' | 'officers' | 'farmers' | 'it'>('all');
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
 
   const programs = [
     {
@@ -134,36 +125,36 @@ export const TrainingsView: React.FC<TrainingsViewProps> = ({ pageData }) => {
       </div>
 
       {/* 2. Hero Header: High-Tech Violet & Indigo Innovation */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a103c] via-[#24174f] to-[#120a2e] text-white p-6 sm:p-10 lg:p-12 shadow-xl border border-violet-800/40">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a103c] via-[#24174f] to-[#120a2e] text-white p-5 sm:p-7 lg:p-8 shadow-xl border border-violet-800/40">
           
           <div className="absolute top-0 right-0 w-96 h-96 bg-violet-400/10 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div className="space-y-4 max-w-3xl">
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div className="space-y-3 max-w-4xl">
               
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-violet-500/20 border border-violet-400/30 text-violet-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-500/20 border border-violet-400/30 text-violet-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
                 <Briefcase className="w-4 h-4 text-violet-300" />
                 <span>{language === 'mr' ? 'मानव संसाधन व क्षमता विकास दालन' : 'Capacity Building & Human Resource Hub'}</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                 <span className="text-amber-300 font-semibold">{language === 'mr' ? 'ICAR व महाराष्ट्र शासन' : 'ICAR & State Approved'}</span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold tracking-tight text-white leading-tight">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
                 {language === 'mr'
                   ? 'अद्ययावत कृषी तंत्रज्ञान प्रशिक्षण व व्यावसायिक कार्यशाळा'
                   : 'Empowering Scientists, Officers & Farmers with Modern Skills'}
               </h1>
 
-              <p className="text-violet-100/90 text-sm sm:text-base leading-relaxed font-normal max-w-2xl">
+              <p className="text-violet-100/90 text-xs sm:text-sm leading-relaxed font-normal max-w-2xl">
                 {language === 'mr'
                   ? 'भारतीय कृषी संशोधन परिषद (ICAR) आणि राज्य शासनाच्या सहकार्याने शास्त्रज्ञ, कृषी अधिकारी, विस्तार कार्यकर्ते व ग्रामीण युवकांसाठी आयोजित राष्ट्रीय स्तरावरील प्रगत प्रशिक्षण उपक्रम.'
                   : 'Bridging laboratory breakthroughs and farm reality through ICAR Model Training Courses, Faculty Summer/Winter Schools, AKMU IT masterclasses, and KVK vocational skills modules.'}
               </p>
 
               {/* Quick Focus Badges */}
-              <div className="flex flex-wrap items-center gap-2 pt-2">
+              <div className="flex flex-wrap items-center gap-1.5 pt-1">
                 {[
                   { label: language === 'mr' ? '२१ दिवसीय राष्ट्रीय उन्हाळी शाळा' : '21-Day National CAFT', icon: Award },
                   { label: language === 'mr' ? '८ दिवसीय मॉडेल प्रशिक्षण (MTC)' : '8-Day ICAR MTC Courses', icon: Target },
@@ -172,48 +163,14 @@ export const TrainingsView: React.FC<TrainingsViewProps> = ({ pageData }) => {
                 ].map((b, i) => (
                   <span
                     key={i}
-                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-white/10 backdrop-blur-md border border-white/15 text-xs text-violet-200 font-medium"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 backdrop-blur-md border border-white/15 text-[11px] text-violet-200 font-medium"
                   >
-                    <b.icon className="w-3.5 h-3.5 text-amber-300" />
+                    <b.icon className="w-3 h-3 text-amber-300" />
                     <span>{b.label}</span>
                   </span>
                 ))}
               </div>
 
-            </div>
-
-            {/* Audio & Print */}
-            <div className="flex sm:flex-col items-center sm:items-end gap-3 shrink-0">
-              <button
-                type="button"
-                onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shadow-md cursor-pointer ${
-                  isSpeaking
-                    ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-300 animate-pulse'
-                    : 'bg-white/15 hover:bg-white/25 text-white border border-white/20'
-                }`}
-              >
-                {isSpeaking ? (
-                  <>
-                    <VolumeX className="w-4 h-4 text-red-600" />
-                    <span>{language === 'mr' ? 'थांबवा' : 'Stop Audio'}</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume2 className="w-4 h-4 text-violet-300" />
-                    <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                  </>
-                )}
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/15 text-xs sm:text-sm font-semibold transition-all shadow-xs cursor-pointer"
-              >
-                <Printer className="w-4 h-4 text-amber-300" />
-                <span>{language === 'mr' ? 'प्रिंट करा' : 'Print Page'}</span>
-              </button>
             </div>
 
           </div>

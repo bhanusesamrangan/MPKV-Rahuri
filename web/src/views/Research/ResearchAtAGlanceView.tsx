@@ -420,7 +420,7 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-12">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 
         {/* 1. Four Key Metrics Counter Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">

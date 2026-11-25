@@ -22,13 +22,9 @@ import {
   DollarSign,
   HeartHandshake,
   ArrowRight,
-  Printer,
-  Volume2,
-  VolumeX,
   AlertTriangle
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 
 interface StudentsHubViewProps {
   pageData?: any;
@@ -36,12 +32,7 @@ interface StudentsHubViewProps {
 
 export const StudentsHubView: React.FC<StudentsHubViewProps> = ({ pageData }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
   const [activeTab, setActiveTab] = useState<'services' | 'scholarships' | 'helpline'>('services');
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
 
   const studentActionCards = [
     {
@@ -180,37 +171,37 @@ export const StudentsHubView: React.FC<StudentsHubViewProps> = ({ pageData }) =>
       </div>
 
       {/* 2. Hero Section: Vibrant Emerald & Cyan Campus Life */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c2e1e] via-[#103a27] to-[#072015] text-white p-6 sm:p-10 lg:p-12 shadow-xl border border-emerald-700/50">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c2e1e] via-[#103a27] to-[#072015] text-white p-5 sm:p-7 lg:p-8 shadow-xl border border-emerald-700/50">
           
           {/* Subtle Ambient Orbs */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div className="space-y-4 max-w-3xl">
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div className="space-y-3 max-w-4xl">
               
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
                 <GraduationCap className="w-4 h-4 text-emerald-300" />
                 <span>{language === 'mr' ? 'विद्यार्थी कल्याण व शैक्षणिक सुविधा दालन' : 'Students Welfare & Academic Services Hub'}</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                 <span className="text-amber-300 font-semibold">{language === 'mr' ? '१० घटक महाविद्यालये' : '10 Colleges & PGI'}</span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold tracking-tight text-white leading-tight">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
                 {language === 'mr'
                   ? 'विद्यार्थी कक्ष: शिक्षण, वसतिगृह, शिष्यवृत्ती व क्रीडा सुविधा'
                   : 'Empowering Student Success, Campus Life & Welfare'}
               </h1>
 
-              <p className="text-emerald-100/90 text-sm sm:text-base leading-relaxed font-normal max-w-2xl">
+              <p className="text-emerald-100/90 text-xs sm:text-sm leading-relaxed font-normal max-w-2xl">
                 {language === 'mr'
-                  ? 'महात्मा फुले कृषि विद्यापीठ राहुरी अंतर्गत १० घटक महाविद्यालये व पदव्युत्तर संस्थेमधील विद्यार्थ्यांसाठी केंद्रीभूत प्रवेश, अद्ययावत वसतिगृहे, क्रीडा संकुल, शिष्यवृत्ती आणि २४ तास विद्यार्थी सहाय्य.'
+                  ? 'महात्मा फुले कृषि विद्यापीठ राहुरी अंतर्गत १० घटक महाविद्यालये व पदव्युत्तर संस्थेमधील विद्यार्थ्यांसाठी केंद्रीभूत प्रवेश, अद्ययावत वसतिगृहे, क्रीडा संकल, शिष्यवृत्ती आणि २४ तास विद्यार्थी सहाय्य.'
                   : 'Centralized access to admissions, modern residential hostels, gymnasium facilities, merit scholarships, anti-ragging support, and academic guidance for all enrolled scholars.'}
               </p>
 
               {/* Quick Summary Chips */}
-              <div className="flex flex-wrap items-center gap-2 pt-2">
+              <div className="flex flex-wrap items-center gap-1.5 pt-1">
                 {[
                   { label: language === 'mr' ? 'मुला-मुलींची वसतिगृहे' : 'Boys & Girls Hostels', icon: Building2 },
                   { label: language === 'mr' ? 'आंतर-महाविद्यालयीन क्रीडा' : 'Agrisports Gymkhana', icon: Trophy },
@@ -219,48 +210,14 @@ export const StudentsHubView: React.FC<StudentsHubViewProps> = ({ pageData }) =>
                 ].map((chip, i) => (
                   <span
                     key={i}
-                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-white/10 backdrop-blur-md border border-white/15 text-xs text-emerald-200 font-medium"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 backdrop-blur-md border border-white/15 text-[11px] text-emerald-200 font-medium"
                   >
-                    <chip.icon className="w-3.5 h-3.5 text-amber-300" />
+                    <chip.icon className="w-3 h-3 text-amber-300" />
                     <span>{chip.label}</span>
                   </span>
                 ))}
               </div>
 
-            </div>
-
-            {/* Listen & Print Action Buttons */}
-            <div className="flex sm:flex-col items-center sm:items-end gap-3 shrink-0">
-              <button
-                type="button"
-                onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shadow-md cursor-pointer ${
-                  isSpeaking
-                    ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-300 animate-pulse'
-                    : 'bg-white/15 hover:bg-white/25 text-white border border-white/20'
-                }`}
-              >
-                {isSpeaking ? (
-                  <>
-                    <VolumeX className="w-4 h-4 text-red-600" />
-                    <span>{language === 'mr' ? 'थांबवा' : 'Stop Audio'}</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume2 className="w-4 h-4 text-emerald-300" />
-                    <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                  </>
-                )}
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/15 text-xs sm:text-sm font-semibold transition-all shadow-xs cursor-pointer"
-              >
-                <Printer className="w-4 h-4 text-amber-300" />
-                <span>{language === 'mr' ? 'प्रिंट करा' : 'Print Page'}</span>
-              </button>
             </div>
 
           </div>

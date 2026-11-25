@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 import {
   Award,
   BookOpen,
@@ -18,7 +17,6 @@ import {
   Info,
   Layers,
   MapPin,
-  Printer,
   Quote,
   Scroll,
   Search,
@@ -26,9 +24,7 @@ import {
   Sparkles,
   Sprout,
   Star,
-  Users,
-  Volume2,
-  VolumeX,
+  Users
 } from 'lucide-react';
 
 interface AboutMahatmaPhuleViewProps {
@@ -37,24 +33,8 @@ interface AboutMahatmaPhuleViewProps {
 
 export const AboutMahatmaPhuleView: React.FC<AboutMahatmaPhuleViewProps> = ({ pageData }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
   const [activeTab, setActiveTab] = useState<'all' | 'life' | 'education' | 'social' | 'agriculture' | 'literature'>('all');
   const [searchQuery, setSearchQuery] = useState('');
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
-
-  const handleSpeech = () => {
-    if (isSpeaking) {
-      stopSpeech();
-    } else {
-      const speechText = language === 'mr'
-        ? 'क्रांतीसूर्य महात्मा जोतीराव फुले. शेतकऱ्यांचे कैवारी, स्त्री शिक्षणाचे आद्य प्रणेते आणि सत्यशोधक समाजाचे संस्थापक. महात्मा फुले कृषी विद्यापीठ राहुरी.'
-        : 'About Mahatma Jyotirao Phule. Champion of Indian farmers, pioneer of women\'s education, and founder of Satyashodhak Samaj. Mahatma Phule Krishi Vidyapeeth Rahuri.';
-      speakContent(speechText);
-    }
-  };
 
   // Structured thematic sections representing all 13 scraped lists and historical archival records
   const biographicalThemes = [
@@ -283,10 +263,10 @@ export const AboutMahatmaPhuleView: React.FC<AboutMahatmaPhuleViewProps> = ({ pa
           }}
         />
 
-        <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 relative z-10 space-y-8">
+        <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 relative z-10 space-y-6">
 
-          {/* Breadcrumb Navigation & Accessibility Tools */}
-          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/15 pb-4">
+          {/* Breadcrumb Navigation */}
+          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/15 pb-3">
             <nav className="flex items-center gap-2 text-xs text-emerald-200">
               <Link href="/" className="hover:text-amber-300 transition-colors flex items-center gap-1.5 font-medium">
                 <Home className="w-3.5 h-3.5 text-amber-400" />
@@ -301,28 +281,6 @@ export const AboutMahatmaPhuleView: React.FC<AboutMahatmaPhuleViewProps> = ({ pa
                 {language === 'mr' ? 'महात्मा जोतीराव फुले' : 'Mahatma Jyotirao Phule'}
               </span>
             </nav>
-
-            <div className="flex items-center gap-2.5">
-              <button
-                type="button"
-                onClick={handleSpeech}
-                className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition-all border border-white/15"
-                title={language === 'mr' ? 'मजकूर ऐका' : 'Listen to page'}
-              >
-                {isSpeaking ? <VolumeX className="w-3.5 h-3.5 text-amber-400" /> : <Volume2 className="w-3.5 h-3.5 text-amber-400" />}
-                <span>{language === 'mr' ? 'वाचन' : 'Audio'}</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition-all border border-white/15"
-                title={language === 'mr' ? 'पृष्ठ मुद्रित करा' : 'Print this page'}
-              >
-                <Printer className="w-3.5 h-3.5 text-emerald-300" />
-                <span>{language === 'mr' ? 'प्रिंट' : 'Print'}</span>
-              </button>
-            </div>
           </div>
 
           {/* Main Hero Grid: Authentic Scraped Original Image + Revered Title */}

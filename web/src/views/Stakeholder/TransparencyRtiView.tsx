@@ -15,15 +15,11 @@ import {
   ExternalLink,
   ChevronRight,
   Home,
-  Printer,
-  Volume2,
-  VolumeX,
   Sparkles,
   Info,
   DollarSign
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 
 interface TransparencyRtiViewProps {
   pageData?: any;
@@ -31,12 +27,7 @@ interface TransparencyRtiViewProps {
 
 export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageData }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
   const [activeTab, setActiveTab] = useState<'rti' | 'rts' | 'procedure'>('rti');
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
 
   const rtiOfficers = [
     {
@@ -146,36 +137,36 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
       </div>
 
       {/* 2. Hero Header: Institutional Navy & Bronze Accountability */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c1f38] via-[#102b4e] to-[#071324] text-white p-6 sm:p-10 lg:p-12 shadow-xl border border-blue-800/40">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c1f38] via-[#102b4e] to-[#071324] text-white p-5 sm:p-7 lg:p-8 shadow-xl border border-blue-800/40">
           
           <div className="absolute top-0 right-0 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div className="space-y-4 max-w-3xl">
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div className="space-y-3 max-w-4xl">
               
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
                 <Scale className="w-4 h-4 text-amber-300" />
                 <span>{language === 'mr' ? 'वैधानिक पारदर्शकता व लोकसेवा हक्क' : 'Statutory Transparency & Public Services'}</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                 <span className="text-amber-300 font-semibold">RTI 2005 · RTS 2015</span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold tracking-tight text-white leading-tight">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
                 {language === 'mr'
                   ? 'पारदर्शकता कक्ष, माहिती अधिकार व लोकसेवा हमी'
                   : 'Right to Information & Time-Bound Public Service Delivery'}
               </h1>
 
-              <p className="text-blue-100/90 text-sm sm:text-base leading-relaxed font-normal max-w-2xl">
+              <p className="text-blue-100/90 text-xs sm:text-sm leading-relaxed font-normal max-w-2xl">
                 {language === 'mr'
                   ? 'माहितीचा अधिकार अधिनियम २००५ व महाराष्ट्र लोकसेवा हक्क अधिनियम २०१५ अंतर्गत नागरिकांना विद्यापीठाची माहिती, प्रमाणपत्रे व सेवा विहित वेळेत उपलब्ध करून देण्याची वैधानिक हमी.'
                   : 'Fulfilling our statutory commitment to administrative openness, public scrutiny, designated information officers, and stipulated timeframes for all academic and farm services.'}
               </p>
 
               {/* Badges */}
-              <div className="flex flex-wrap items-center gap-2 pt-2">
+              <div className="flex flex-wrap items-center gap-1.5 pt-1">
                 {[
                   { label: language === 'mr' ? 'प्रथम अपिलीय प्राधिकरण (कुलसचिव)' : 'First Appellate Authority (Registrar)', icon: ShieldAlert },
                   { label: language === 'mr' ? 'विहित मुदतीत सेवा हमी' : 'Guaranteed Delivery Timelines', icon: Clock },
@@ -183,48 +174,14 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
                 ].map((b, i) => (
                   <span
                     key={i}
-                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-white/10 backdrop-blur-md border border-white/15 text-xs text-blue-200 font-medium"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 backdrop-blur-md border border-white/15 text-[11px] text-blue-200 font-medium"
                   >
-                    <b.icon className="w-3.5 h-3.5 text-amber-300" />
+                    <b.icon className="w-3 h-3 text-amber-300" />
                     <span>{b.label}</span>
                   </span>
                 ))}
               </div>
 
-            </div>
-
-            {/* Audio & Print */}
-            <div className="flex sm:flex-col items-center sm:items-end gap-3 shrink-0">
-              <button
-                type="button"
-                onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shadow-md cursor-pointer ${
-                  isSpeaking
-                    ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-300 animate-pulse'
-                    : 'bg-white/15 hover:bg-white/25 text-white border border-white/20'
-                }`}
-              >
-                {isSpeaking ? (
-                  <>
-                    <VolumeX className="w-4 h-4 text-red-600" />
-                    <span>{language === 'mr' ? 'थांबवा' : 'Stop Audio'}</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume2 className="w-4 h-4 text-blue-300" />
-                    <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                  </>
-                )}
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/15 text-xs sm:text-sm font-semibold transition-all shadow-xs cursor-pointer"
-              >
-                <Printer className="w-4 h-4 text-amber-300" />
-                <span>{language === 'mr' ? 'प्रिंट करा' : 'Print Page'}</span>
-              </button>
             </div>
 
           </div>

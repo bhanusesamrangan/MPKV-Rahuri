@@ -240,47 +240,47 @@ export const EducationHero: React.FC<EducationHeroProps> = ({
 
   return (
     <section
-      className={`relative overflow-hidden bg-gradient-to-br ${cfg.bgGradient} text-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8 border-b-4 ${cfg.borderBottom} shadow-md`}
+      className={`relative overflow-hidden bg-gradient-to-br ${cfg.bgGradient} text-white py-5 sm:py-7 px-4 sm:px-6 lg:px-8 border-b-4 ${cfg.borderBottom} shadow-xs`}
     >
       {/* Decorative background glow & mesh pattern */}
       <div className={`absolute inset-0 opacity-10 ${cfg.pattern} pointer-events-none`} />
-      <div className={`absolute top-0 right-0 -mt-12 -mr-12 w-96 h-96 ${cfg.glow1} rounded-full blur-3xl pointer-events-none`} />
-      <div className={`absolute bottom-0 left-1/4 -mb-12 w-80 h-80 ${cfg.glow2} rounded-full blur-2xl pointer-events-none`} />
+      <div className={`absolute top-0 right-0 -mt-12 -mr-12 w-80 h-80 ${cfg.glow1} rounded-full blur-3xl pointer-events-none`} />
+      <div className={`absolute bottom-0 left-1/4 -mb-12 w-64 h-64 ${cfg.glow2} rounded-full blur-2xl pointer-events-none`} />
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Category Badge */}
         {badgeText && (
           <div
-            className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full ${cfg.badgeBg} border ${cfg.badgeBorder} ${cfg.badgeText} text-xs sm:text-sm font-semibold tracking-wide backdrop-blur-sm mb-4`}
+            className={`inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full ${cfg.badgeBg} border ${cfg.badgeBorder} ${cfg.badgeText} text-xs font-semibold tracking-wide backdrop-blur-sm mb-2`}
           >
-            <BadgeIcon className="w-4 h-4 shrink-0" />
+            <BadgeIcon className="w-3.5 h-3.5 shrink-0" />
             <span>{badgeText}</span>
           </div>
         )}
 
         {/* Main Title */}
-        <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white max-w-4xl leading-tight">
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight text-white max-w-4xl leading-tight">
           {titleText}
         </h1>
 
         {/* Subtitle */}
         {subtitleText && (
-          <p className={`mt-3 sm:mt-4 text-sm sm:text-base lg:text-lg ${cfg.subtitleText} max-w-3xl leading-relaxed`}>
+          <p className={`mt-2 text-xs sm:text-sm lg:text-[15px] ${cfg.subtitleText} max-w-3xl leading-relaxed`}>
             {subtitleText}
           </p>
         )}
 
         {/* Quick Chips (if provided) */}
         {quickChips.length > 0 && (
-          <div className="mt-5 flex flex-wrap gap-2.5">
+          <div className="mt-3 flex flex-wrap gap-2">
             {quickChips.map((chip, idx) => {
               const ChipIcon = chip.icon || CheckCircle2;
               return (
                 <span
                   key={idx}
-                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 backdrop-blur-xs text-xs font-medium text-white/90 border border-white/15"
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 backdrop-blur-xs text-[11px] sm:text-xs font-medium text-white/90 border border-white/15"
                 >
-                  <ChipIcon className="w-3.5 h-3.5 text-amber-300 shrink-0" />
+                  <ChipIcon className="w-3 h-3 text-amber-300 shrink-0" />
                   <span>{chip.label}</span>
                 </span>
               );
@@ -289,7 +289,7 @@ export const EducationHero: React.FC<EducationHeroProps> = ({
         )}
 
         {/* Extra Children if needed */}
-        {children && <div className="mt-6">{children}</div>}
+        {children && <div className="mt-4">{children}</div>}
       </div>
     </section>
   );

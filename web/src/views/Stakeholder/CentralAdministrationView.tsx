@@ -11,17 +11,13 @@ import {
   Mail,
   ChevronRight,
   Home,
-  Printer,
-  Volume2,
-  VolumeX,
-  Sparkles,
-  Scale,
   FileText,
+  Scale,
+  Sparkles,
   MapPin,
   CheckCircle2
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 
 interface CentralAdministrationViewProps {
   pageData?: any;
@@ -29,11 +25,6 @@ interface CentralAdministrationViewProps {
 
 export const CentralAdministrationView: React.FC<CentralAdministrationViewProps> = ({ pageData }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
 
   const executiveOfficers = [
     {
@@ -140,36 +131,36 @@ export const CentralAdministrationView: React.FC<CentralAdministrationViewProps>
       </div>
 
       {/* 2. Hero Header: Executive Emerald & Regal Gold */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c2a1c] via-[#123624] to-[#071a10] text-white p-6 sm:p-10 lg:p-12 shadow-xl border border-emerald-700/50">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c2a1c] via-[#123624] to-[#071a10] text-white p-5 sm:p-7 lg:p-8 shadow-xl border border-emerald-700/50">
           
           <div className="absolute top-0 right-0 w-96 h-96 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-emerald-400/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div className="space-y-4 max-w-3xl">
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div className="space-y-3 max-w-4xl">
               
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
                 <Building2 className="w-4 h-4 text-amber-300" />
                 <span>{language === 'mr' ? 'मध्यवर्ती प्रशासकीय संरचना व वैधानिक नेतृत्व' : 'Central Administrative Governance'}</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                 <span className="text-amber-300 font-semibold">{language === 'mr' ? 'कायदा १९८३ अन्वये' : 'MAU Act 1983'}</span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold tracking-tight text-white leading-tight">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
                 {language === 'mr'
                   ? 'विद्यापीठ मध्यवर्ती प्रशासन व वैधानिक नेतृत्व'
                   : 'Apex Governance & Central Administrative Machinery'}
               </h1>
 
-              <p className="text-emerald-100/90 text-sm sm:text-base leading-relaxed font-normal max-w-2xl">
+              <p className="text-emerald-100/90 text-xs sm:text-sm leading-relaxed font-normal max-w-2xl">
                 {language === 'mr'
                   ? 'महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ नुसार विद्यापीठाचे शिक्षण, संशोधन व विस्तार या त्रिसूत्री उद्दिष्टांची प्रभावी अंमलबजावणी करणारी मध्यवर्ती प्रशासकीय यंत्रणा.'
                   : 'The statutory leadership, executive directorates, financial governance, and administrative secretariats steering MPKV’s tri-fold mandate of Education, Research, and Extension.'}
               </p>
 
               {/* Quick Stat Badges */}
-              <div className="flex flex-wrap items-center gap-2 pt-2">
+              <div className="flex flex-wrap items-center gap-1.5 pt-1">
                 {[
                   { label: language === 'mr' ? 'मा. कुलपती: राज्यपाल, महाराष्ट्र' : 'Chancellor: Governor of Maharashtra', icon: Award },
                   { label: language === 'mr' ? 'मा. कुलगुरू: मुख्य कार्यकारी प्रमुख' : 'Vice-Chancellor: Chief Executive Officer', icon: ShieldCheck },
@@ -177,48 +168,14 @@ export const CentralAdministrationView: React.FC<CentralAdministrationViewProps>
                 ].map((b, i) => (
                   <span
                     key={i}
-                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-white/10 backdrop-blur-md border border-white/15 text-xs text-emerald-200 font-medium"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 backdrop-blur-md border border-white/15 text-[11px] text-emerald-200 font-medium"
                   >
-                    <b.icon className="w-3.5 h-3.5 text-amber-300" />
+                    <b.icon className="w-3 h-3 text-amber-300" />
                     <span>{b.label}</span>
                   </span>
                 ))}
               </div>
 
-            </div>
-
-            {/* Audio & Print */}
-            <div className="flex sm:flex-col items-center sm:items-end gap-3 shrink-0">
-              <button
-                type="button"
-                onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shadow-md cursor-pointer ${
-                  isSpeaking
-                    ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-300 animate-pulse'
-                    : 'bg-white/15 hover:bg-white/25 text-white border border-white/20'
-                }`}
-              >
-                {isSpeaking ? (
-                  <>
-                    <VolumeX className="w-4 h-4 text-red-600" />
-                    <span>{language === 'mr' ? 'थांबवा' : 'Stop Audio'}</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume2 className="w-4 h-4 text-emerald-300" />
-                    <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                  </>
-                )}
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/15 text-xs sm:text-sm font-semibold transition-all shadow-xs cursor-pointer"
-              >
-                <Printer className="w-4 h-4 text-amber-300" />
-                <span>{language === 'mr' ? 'प्रिंट करा' : 'Print Page'}</span>
-              </button>
             </div>
 
           </div>

@@ -286,7 +286,7 @@ export const ResearchPatentsView: React.FC<ResearchPatentsViewProps> = ({ pageDa
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-10">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-8">
 
         {/* ================================================================= */}
         {/* 1. TOP METRIC COUNTERS                                            */}
@@ -442,10 +442,10 @@ export const ResearchPatentsView: React.FC<ResearchPatentsViewProps> = ({ pageDa
           <div className="rounded-3xl border border-stone-200 bg-white shadow-sm overflow-hidden">
             
             {/* The Authentic Green Banner from Screenshot */}
-            <div className="w-full bg-[#1e7e34] text-white px-6 py-4 font-bold text-sm sm:text-base tracking-wide flex items-center justify-between">
-              <div className="flex items-center gap-2">
+            <div className="w-full bg-[#1e824c] border-b-4 border-red-600 rounded-r-3xl text-white px-6 py-3.5 font-bold text-sm sm:text-base tracking-wide flex items-center justify-between shadow-xs">
+              <div className="flex items-center gap-2.5">
                 <Award className="w-5 h-5 text-amber-300" />
-                <span className="font-serif">Patents</span>
+                <span className="font-sans text-base sm:text-lg">Patents</span>
               </div>
               <span className="text-xs bg-white/20 text-white px-2.5 py-0.5 rounded-full font-sans font-semibold">
                 {filteredPatents.length} / 13 Records

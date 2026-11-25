@@ -12,7 +12,12 @@ import {
   ArrowRight,
   FileText,
   Layers,
-  Award
+  Award,
+  Maximize2,
+  X,
+  ChevronLeft,
+  ChevronRight,
+  Eye
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { ResearchBreadcrumb } from './components/ResearchBreadcrumb';
@@ -26,6 +31,195 @@ export const ResearchVarietiesView: React.FC<ResearchVarietiesViewProps> = ({ pa
   const { language } = useLanguage();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [activeModalPoster, setActiveModalPoster] = useState<number | null>(null);
+
+  // Flagship University Released Varieties & Production Technology Posters (Direct from Live Portal)
+  const featuredPosters = [
+    {
+      id: 'phule-revati',
+      src: '/media/images/varieties/phule-revati.jpg',
+      titleEn: 'Phule Revati (फुले रेवती)',
+      titleMr: 'फुले रेवती (Phule Revati)',
+      cropEn: 'Rabi Sorghum (ज्वारी)',
+      cropMr: 'रब्बी ज्वारी',
+      category: 'sorghum',
+      centerEn: 'AICRP on Sorghum, MPKV Rahuri',
+      centerMr: 'अखिल भारतीय समन्वित ज्वारी सुधार प्रकल्प, म.फु.कृ.वि., राहुरी',
+      specsEn: [
+        { label: 'Grain Yield', val: '40 - 50 q/ha' },
+        { label: 'Fodder Yield', val: '90 - 100 q/ha' },
+        { label: 'Recommendation', val: 'Medium to deep soil, irrigated condition' }
+      ],
+      specsMr: [
+        { label: 'धान्य उत्पादन', val: '४० ते ५० क्विंटल/हेक्टर' },
+        { label: 'कडबा उत्पादन', val: '९० ते १०० क्विंटल/हेक्टर' },
+        { label: 'शिफारस', val: 'मध्यम ते भारी जमीन, बागायतीसाठी शिफारस' }
+      ],
+      badgeEn: 'High Yielding Sorghum',
+      badgeMr: 'बागायती रब्बी ज्वारी'
+    },
+    {
+      id: 'phule-vasudha',
+      src: '/media/images/varieties/phule-vasudha.jpg',
+      titleEn: 'Phule Vasudha (फुले वसुधा)',
+      titleMr: 'फुले वसुधा (Phule Vasudha)',
+      cropEn: 'Rabi Sorghum (ज्वारी)',
+      cropMr: 'रब्बी ज्वारी',
+      category: 'sorghum',
+      centerEn: 'AICRP on Sorghum, MPKV Rahuri',
+      centerMr: 'अखिल भारतीय समन्वित ज्वारी सुधार प्रकल्प, म.फु.कृ.वि., राहुरी',
+      specsEn: [
+        { label: 'Rainfed Yield', val: '25 - 28 q/ha' },
+        { label: 'Irrigated Yield', val: '30 - 35 q/ha' },
+        { label: 'Fodder Yield', val: '55 - 75 q/ha' }
+      ],
+      specsMr: [
+        { label: 'कोरडवाहू उत्पादन', val: '२५ ते २८ क्विंटल/हेक्टर' },
+        { label: 'बागायत उत्पादन', val: '३० ते ३५ क्विंटल/हेक्टर' },
+        { label: 'कडबा उत्पादन', val: '५५ ते ७५ क्विंटल/हेक्टर' }
+      ],
+      badgeEn: 'Drought Resilient',
+      badgeMr: 'कोरडवाहू व बागायती'
+    },
+    {
+      id: 'phule-suchitra',
+      src: '/media/images/varieties/phule-suchitra.jpg',
+      titleEn: 'Phule Suchitra [SPV 2048] (फुले सुचित्रा)',
+      titleMr: 'फुले सुचित्रा [SPV 2048]',
+      cropEn: 'Rabi Sorghum (ज्वारी)',
+      cropMr: 'रब्बी ज्वारी',
+      category: 'sorghum',
+      centerEn: 'AICRP on Sorghum, MPKV Rahuri',
+      centerMr: 'अखिल भारतीय समन्वित ज्वारी सुधार प्रकल्प, म.फु.कृ.वि., राहुरी',
+      specsEn: [
+        { label: 'Year of Release', val: '2012' },
+        { label: 'Grain Yield', val: '24 - 28 q/ha' },
+        { label: 'Fodder Yield', val: '60 - 65 q/ha' }
+      ],
+      specsMr: [
+        { label: 'प्रसारण वर्ष', val: '२०१२' },
+        { label: 'धान्य उत्पादन', val: '२४ ते २८ क्विंटल/हेक्टर' },
+        { label: 'कडबा उत्पादन', val: '६० ते ६५ क्विंटल/हेक्टर' }
+      ],
+      badgeEn: 'Scarcity Zone Variety',
+      badgeMr: 'पर्जन्यछायेचा प्रदेश'
+    },
+    {
+      id: 'phule-suchitra-detail',
+      src: '/media/images/varieties/phule-suchitra-detailed.jpg',
+      titleEn: 'Phule Suchitra (Cob & Earhead View)',
+      titleMr: 'फुले सुचित्रा (कणीस व पीक वैशिष्ट्ये)',
+      cropEn: 'Rabi Sorghum (ज्वारी)',
+      cropMr: 'रब्बी ज्वारी',
+      category: 'sorghum',
+      centerEn: 'AICRP on Sorghum, MPKV Rahuri',
+      centerMr: 'अखिल भारतीय समन्वित ज्वारी सुधार प्रकल्प, म.फु.कृ.वि., राहुरी',
+      specsEn: [
+        { label: 'Grain Type', val: 'Pearly white, bold grains' },
+        { label: 'Earhead', val: 'Semi-compact, oval shaped' },
+        { label: 'Soil Type', val: 'Western Maharashtra medium soil' }
+      ],
+      specsMr: [
+        { label: 'दाण्याचे स्वरूप', val: 'मोतीसारखा चमकदार, टपोरा दाणा' },
+        { label: 'कणसाचे स्वरूप', val: 'निम-घट्ट, अंडाकृती कणीस' },
+        { label: 'जमीन प्रकार', val: 'पश्चिम महाराष्ट्र मध्यम जमीन' }
+      ],
+      badgeEn: 'Cob Morphology',
+      badgeMr: 'कणीस व दाणा वैशिष्ट्ये'
+    },
+    {
+      id: 'phule-kranti-stylo',
+      src: '/media/images/varieties/phule-kranti-stylo.jpg',
+      titleEn: 'Stylo - Phule Kranti (स्टायलो - फुले क्रांती)',
+      titleMr: 'स्टायलो - फुले क्रांती (Stylo)',
+      cropEn: 'Leguminous Fodder (द्विदल चारा पीक)',
+      cropMr: 'बहुवार्षिक द्विदल चारा पीक',
+      category: 'fodder',
+      centerEn: 'AICRP on Forage Crops, MPKV Rahuri',
+      centerMr: 'अखिल भारतीय चारा पिके संशोधन प्रकल्प, राहुरी',
+      specsEn: [
+        { label: 'Green Forage', val: '250 - 300 q/ha' },
+        { label: 'Crude Protein', val: '13 - 14 %' },
+        { label: 'Habit', val: 'Perennial leguminous forage' }
+      ],
+      specsMr: [
+        { label: 'हिरवा चारा उत्पादन', val: '२५० ते ३०० क्विंटल/हेक्टर' },
+        { label: 'प्रथिनांचे प्रमाण', val: '१३ ते १४ %' },
+        { label: 'पिकाचा प्रकार', val: 'बहुवार्षिक द्विदल पौष्टिक चारा' }
+      ],
+      badgeEn: 'High Protein Fodder',
+      badgeMr: 'उच्च प्रथिनयुक्त चारा'
+    },
+    {
+      id: 'rabi-jowar-tech',
+      src: '/media/images/varieties/rabi-jowar-technology.jpg',
+      titleEn: 'Rabi Sorghum Package of Practices',
+      titleMr: 'रब्बी ज्वारी लागवडीचे तंत्रज्ञान',
+      cropEn: 'Production Technology (लागवड तंत्रज्ञान)',
+      cropMr: 'सुधारित कृषी तंत्रज्ञान',
+      category: 'technology',
+      centerEn: 'AICRP on Sorghum, MPKV Rahuri',
+      centerMr: 'अखिल भारतीय समन्वित ज्वारी सुधार प्रकल्प, म.फु.कृ.वि., राहुरी',
+      specsEn: [
+        { label: 'Sowing Window', val: '15 Sept - 15 Oct' },
+        { label: 'Seed Rate', val: '10 kg/ha' },
+        { label: 'Fertilizer (NPK)', val: '50:25:25 kg/ha' }
+      ],
+      specsMr: [
+        { label: 'पेरणीची वेळ', val: '१५ सप्टेंबर ते १५ ऑक्टोबर' },
+        { label: 'बियाणे प्रमाण', val: '१० किलो/हेक्टर' },
+        { label: 'खत मात्रा (NPK)', val: '५०:२५:२५ किलो/हेक्टर' }
+      ],
+      badgeEn: 'Cultivation Guide',
+      badgeMr: 'लागवड मार्गदर्शक'
+    },
+    {
+      id: 'phule-vimukta-okra',
+      src: '/media/images/varieties/phule-vimukta-okra.jpg',
+      titleEn: 'Okra - Phule Vimukta (भेंडी - फुले विमुक्ता)',
+      titleMr: 'भेंडी - फुले विमुक्ता (Okra)',
+      cropEn: 'Vegetables (भाजीपाला)',
+      cropMr: 'भाजीपाला पीक',
+      category: 'vegetables',
+      centerEn: 'ZARS Ganeshkhind, Pune / MPKV Rahuri',
+      centerMr: 'आंचलिक कृषी संशोधन केंद्र, गणेशखिंड, पुणे',
+      specsEn: [
+        { label: 'Pod Yield', val: '180 - 200 q/ha' },
+        { label: 'Resistance', val: 'Highly resistant to YVMV' },
+        { label: 'Pod Characters', val: 'Dark green, tender & shiny' }
+      ],
+      specsMr: [
+        { label: 'शेंगा उत्पादन', val: '१८० ते २०० क्विंटल/हेक्टर' },
+        { label: 'रोग प्रतिकारकता', val: 'यलो व्हेन मोझॅक (YVMV) प्रतिकारक्षम' },
+        { label: 'शेंगेची प्रत', val: 'गडद हिरवी, कोवळी व चकचकीत' }
+      ],
+      badgeEn: 'YVMV Resistant Okra',
+      badgeMr: 'रोगप्रतिकारक भेंडी'
+    },
+    {
+      id: 'phule-gunwant-napier',
+      src: '/media/images/varieties/phule-gunwant-napier.jpg',
+      titleEn: 'Hybrid Napier - Phule Gunwant (संकरित नेपिअर - फुले गुणवंत)',
+      titleMr: 'संकरित नेपिअर - फुले गुणवंत',
+      cropEn: 'Perennial Grass (बहुवार्षिक चारा गवत)',
+      cropMr: 'बहुवार्षिक चारा गवत',
+      category: 'fodder',
+      centerEn: 'AICRP on Forage Crops, MPKV Rahuri',
+      centerMr: 'अखिल भारतीय चारा पिके संशोधन प्रकल्प, राहुरी',
+      specsEn: [
+        { label: 'Green Forage', val: '1500 - 1800 q/ha' },
+        { label: 'Crude Protein', val: '8.5 - 10 %' },
+        { label: 'Quality', val: 'Low oxalic acid, soft succulent stems' }
+      ],
+      specsMr: [
+        { label: 'हिरवा चारा उत्पादन', val: '१५०० ते १८०० क्विंटल/हेक्टर' },
+        { label: 'प्रथिनांचे प्रमाण', val: '८.५ ते १० %' },
+        { label: 'चाऱ्याची प्रत', val: 'कमी ऑक्झॅलिक ऍसिड, मऊ रसाळ खोड' }
+      ],
+      badgeEn: 'Heavy Yielding Fodder',
+      badgeMr: 'भरघोस चारा देणारे गवत'
+    }
+  ];
 
   // All 14 crop variety categories from scraped dataset with verified Marathi & English PDFs
   const varieties = [
@@ -191,9 +385,87 @@ export const ResearchVarietiesView: React.FC<ResearchVarietiesViewProps> = ({ pa
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-8">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-10">
 
-        {/* Search & Category Filter Controls */}
+        {/* 1. Official Crop Varieties & Technology Showcase Section */}
+        <section className="space-y-5">
+          <div className="h-12 bg-[#1e824c] rounded-t-2xl sm:rounded-r-[2rem] border-b-4 border-red-600 flex items-center justify-between px-6 shadow-sm">
+            <span className="text-white font-bold text-base sm:text-lg font-serif">
+              {language === 'mr' ? 'प्रमुख विकसित पीक वाण व तंत्रज्ञान भित्तीपत्रके (८)' : 'Flagship Released Crop Varieties & Technology Posters (8)'}
+            </span>
+            <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-100 bg-white/15 px-3 py-0.5 rounded-full">
+              AICRP / MPKV Rahuri
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {featuredPosters.map((poster, pIdx) => (
+              <div
+                key={poster.id}
+                onClick={() => setActiveModalPoster(pIdx)}
+                className="rounded-2xl bg-white border-2 border-[#1e824c]/40 hover:border-[#1e824c] shadow-xs hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between group cursor-pointer"
+              >
+                <div className="relative bg-stone-50 p-2.5 border-b border-stone-200">
+                  <div className="relative aspect-[4/5] w-full bg-white rounded-lg overflow-hidden border border-stone-300">
+                    <img
+                      src={poster.src}
+                      alt={poster.titleEn}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                      onError={(e: any) => {
+                        e.target.onerror = null;
+                        e.target.src = '/media/images/mpkv_icon.png';
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center text-white gap-2">
+                      <div className="w-9 h-9 rounded-full bg-[#1e824c] flex items-center justify-center shadow-md">
+                        <Maximize2 className="w-4 h-4 text-white" />
+                      </div>
+                      <span className="text-[11px] font-bold bg-black/75 px-2.5 py-0.5 rounded-full">
+                        {language === 'mr' ? 'मोठे करा' : 'Click to Zoom'}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="absolute top-4 left-4 z-10">
+                    <span className="px-2 py-0.5 rounded-md text-[10px] font-black uppercase tracking-wider bg-[#1e824c] text-white shadow-xs">
+                      {language === 'mr' ? poster.badgeMr : poster.badgeEn}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="p-3.5 bg-white flex-1 flex flex-col justify-between space-y-2.5">
+                  <div>
+                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-emerald-50 text-[#1e824c] border border-emerald-200">
+                      {language === 'mr' ? poster.cropMr : poster.cropEn}
+                    </span>
+                    <h4 className="text-xs sm:text-sm font-bold text-slate-900 font-serif mt-1 leading-snug group-hover:text-[#1e824c] transition-colors">
+                      {language === 'mr' ? poster.titleMr : poster.titleEn}
+                    </h4>
+                  </div>
+
+                  <div className="bg-stone-50 rounded-xl p-2 border border-stone-200 text-xs space-y-1">
+                    {(language === 'mr' ? poster.specsMr : poster.specsEn).map((sp, sIdx) => (
+                      <div key={sIdx} className="flex items-center justify-between text-[11px]">
+                        <span className="text-stone-500 font-medium">{sp.label}:</span>
+                        <span className="text-slate-900 font-bold text-right ml-2">{sp.val}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="pt-2 border-t border-stone-100 flex items-center justify-between text-[11px] text-[#1e824c] font-bold">
+                    <span className="flex items-center gap-1">
+                      <Eye className="w-3 h-3" />
+                      <span>{language === 'mr' ? 'भित्तीपत्रक पहा' : 'View Poster'}</span>
+                    </span>
+                    <span className="text-[10px] text-stone-400 font-semibold">AICRP</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* 2. Search & Category Filter Controls */}
         <div className="p-4 sm:p-5 rounded-2xl bg-white border border-stone-200 shadow-2xs space-y-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <div className="relative w-full sm:w-96">
@@ -300,6 +572,120 @@ export const ResearchVarietiesView: React.FC<ResearchVarietiesViewProps> = ({ pa
         </div>
 
       </div>
+
+      {/* Lightbox Fullscreen Modal for Variety Posters */}
+      {activeModalPoster !== null && featuredPosters[activeModalPoster] && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 overflow-y-auto"
+          onClick={() => setActiveModalPoster(null)}
+        >
+          <div
+            className="relative bg-white rounded-3xl max-w-4xl w-full max-h-[96vh] overflow-hidden flex flex-col shadow-2xl border border-stone-700 animate-in fade-in zoom-in-95 duration-200"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="px-5 py-3.5 bg-slate-950 text-white flex items-center justify-between border-b border-stone-800">
+              <div className="flex items-center gap-3">
+                <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase bg-[#1e824c] text-white">
+                  {activeModalPoster + 1} / {featuredPosters.length}
+                </span>
+                <div>
+                  <h3 className="text-sm sm:text-base font-bold font-serif text-white">
+                    {language === 'mr'
+                      ? featuredPosters[activeModalPoster].titleMr
+                      : featuredPosters[activeModalPoster].titleEn}
+                  </h3>
+                  <p className="text-[11px] text-stone-400 font-medium">
+                    {language === 'mr'
+                      ? featuredPosters[activeModalPoster].centerMr
+                      : featuredPosters[activeModalPoster].centerEn}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <a
+                  href={featuredPosters[activeModalPoster].src}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
+                  className="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors"
+                  title="Download High-Res Poster"
+                >
+                  <Download className="w-4 h-4" />
+                </a>
+                <button
+                  type="button"
+                  onClick={() => setActiveModalPoster(null)}
+                  className="p-2 rounded-xl bg-white/10 hover:bg-rose-600 text-white transition-colors cursor-pointer"
+                  title="Close (Esc)"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+
+            {/* Modal Body: Uncropped Crisp High-Res Poster */}
+            <div className="relative flex-1 bg-stone-900 flex items-center justify-center p-2 sm:p-4 min-h-[350px] max-h-[66vh] overflow-hidden">
+              <img
+                src={featuredPosters[activeModalPoster].src}
+                alt={featuredPosters[activeModalPoster].titleEn}
+                className="max-h-[62vh] w-auto max-w-full object-contain rounded-lg shadow-xl"
+              />
+
+              {/* Prev / Next Navigation Arrows */}
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setActiveModalPoster(
+                    (activeModalPoster - 1 + featuredPosters.length) % featuredPosters.length
+                  );
+                }}
+                className="absolute left-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-black/60 hover:bg-[#1e824c] text-white transition-colors shadow-lg cursor-pointer"
+                title="Previous Poster"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setActiveModalPoster(
+                    (activeModalPoster + 1) % featuredPosters.length
+                  );
+                }}
+                className="absolute right-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-black/60 hover:bg-[#1e824c] text-white transition-colors shadow-lg cursor-pointer"
+                title="Next Poster"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Modal Footer: Specifications & Direct Purchase Info at ATIC */}
+            <div className="p-4 sm:p-5 bg-stone-50 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+              <div className="flex flex-wrap items-center gap-2.5">
+                {(language === 'mr'
+                  ? featuredPosters[activeModalPoster].specsMr
+                  : featuredPosters[activeModalPoster].specsEn
+                ).map((sp, idx) => (
+                  <div key={idx} className="px-3 py-1.5 rounded-xl bg-white border border-stone-200">
+                    <span className="text-stone-500 font-semibold">{sp.label}: </span>
+                    <strong className="text-slate-900 font-bold">{sp.val}</strong>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex items-center gap-2 text-emerald-800 font-bold shrink-0">
+                <CheckCircle2 className="w-4 h-4 text-[#1e824c]" />
+                <span>Available at ATIC Single Window Sales Counter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 };

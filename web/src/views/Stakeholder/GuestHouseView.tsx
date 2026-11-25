@@ -10,9 +10,6 @@ import {
   Mail,
   CheckCircle2,
   ChevronRight,
-  Printer,
-  Volume2,
-  VolumeX,
   Sparkles,
   Wifi,
   Coffee,
@@ -29,7 +26,6 @@ import {
   FileText
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 
 interface GuestHouseViewProps {
   pageData?: any;
@@ -37,12 +33,7 @@ interface GuestHouseViewProps {
 
 export const GuestHouseView: React.FC<GuestHouseViewProps> = ({ pageData }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
   const [activeCampusTab, setActiveCampusTab] = useState<'rahuri' | 'kolhapur' | 'pune' | 'dhule'>('rahuri');
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
 
   // 1. Central Campus, MPKV Rahuri Data from PDF Page 1
   const rahuriData = [
@@ -229,39 +220,39 @@ export const GuestHouseView: React.FC<GuestHouseViewProps> = ({ pageData }) => {
       </div>
 
       {/* 2. Hero Section: Warm Hospitality Teal & Marine */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c312a] via-[#124239] to-[#08231d] text-white p-6 sm:p-10 lg:p-12 shadow-xl border border-teal-700/50">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0c312a] via-[#124239] to-[#08231d] text-white p-5 sm:p-7 lg:p-8 shadow-xl border border-teal-700/50">
           
           <div className="absolute top-0 right-0 w-96 h-96 bg-teal-400/10 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div className="space-y-4 max-w-3xl">
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div className="space-y-3 max-w-4xl">
               
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-500/20 border border-teal-400/30 text-teal-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 border border-teal-400/30 text-teal-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
                 <Home className="w-4 h-4 text-teal-300" />
                 <span>{language === 'mr' ? 'अधिकृत अतिथीगृह दर व संपर्क निर्देशिका' : 'Official Guest House Rates & Contacts'}</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                 <span className="text-amber-300 font-semibold">{language === 'mr' ? 'राहुरी, कोल्हापूर, पुणे व धुळे' : 'Rahuri, Kolhapur, Pune & Dhule'}</span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold tracking-tight text-white leading-tight">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
                 {language === 'mr'
                   ? 'अतिथीगृह निवास दर व अधिकृत संपर्क दालन'
                   : 'Official Guest House Tariff & In-Charge Contact Directory'}
               </h1>
 
-              <p className="text-teal-100/90 text-sm sm:text-base leading-relaxed font-normal max-w-2xl">
+              <p className="text-teal-100/90 text-xs sm:text-sm leading-relaxed font-normal max-w-2xl">
                 {language === 'mr'
                   ? 'महात्मा फुले कृषि विद्यापीठाच्या राहुरी मुख्य परिसर, कोल्हापूर, पुणे व धुळे येथील अतिथीगृहे, व्हीआयपी सुईट्स व शेतकरी निवास व्यवस्थेचे अधिकृत दर व संपर्क अधिकारी.'
                   : 'Official approved tariff structure, in-charge officers, direct phone numbers, and official emails for transit accommodation across all 4 MPKV campuses.'}
               </p>
 
               {/* Action Buttons to View & Download PDF */}
-              <div className="flex flex-wrap items-center gap-3 pt-2">
+              <div className="flex flex-wrap items-center gap-2 pt-1">
                 <a
                   href="#official-pdf-section"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs sm:text-sm transition-all shadow-md cursor-pointer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs sm:text-sm transition-all shadow-md cursor-pointer"
                 >
                   <FileText className="w-4 h-4" />
                   <span>{language === 'mr' ? 'अधिकृत पीडीएफ दस्तऐवज पहा' : 'View Official PDF Document'}</span>
@@ -270,47 +261,13 @@ export const GuestHouseView: React.FC<GuestHouseViewProps> = ({ pageData }) => {
                 <a
                   href="/media/docs/mpkv_guesthouse_rates_and_contacts.pdf"
                   download="mpkv_guesthouse_rates_and_contacts.pdf"
-                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold text-xs sm:text-sm transition-all border border-white/20 cursor-pointer"
+                  className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold text-xs sm:text-sm transition-all border border-white/20 cursor-pointer"
                 >
                   <Download className="w-4 h-4 text-amber-300" />
                   <span>{language === 'mr' ? 'डाउनलोड करा (PDF)' : 'Download PDF (107 KB)'}</span>
                 </a>
               </div>
 
-            </div>
-
-            {/* Audio & Print */}
-            <div className="flex sm:flex-col items-center sm:items-end gap-3 shrink-0">
-              <button
-                type="button"
-                onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shadow-md cursor-pointer ${
-                  isSpeaking
-                    ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-300 animate-pulse'
-                    : 'bg-white/15 hover:bg-white/25 text-white border border-white/20'
-                }`}
-              >
-                {isSpeaking ? (
-                  <>
-                    <VolumeX className="w-4 h-4 text-red-600" />
-                    <span>{language === 'mr' ? 'थांबवा' : 'Stop Audio'}</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume2 className="w-4 h-4 text-teal-300" />
-                    <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                  </>
-                )}
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/15 text-xs sm:text-sm font-semibold transition-all shadow-xs cursor-pointer"
-              >
-                <Printer className="w-4 h-4 text-amber-300" />
-                <span>{language === 'mr' ? 'प्रिंट करा' : 'Print Page'}</span>
-              </button>
             </div>
 
           </div>

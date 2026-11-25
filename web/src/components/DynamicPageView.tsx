@@ -21,10 +21,7 @@ import {
   Sparkles,
   UserCheck,
   Search,
-  Printer,
   Calendar,
-  Volume2,
-  VolumeX,
   List,
   Eye
 } from 'lucide-react';
@@ -248,62 +245,28 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
       </nav>
 
       {/* 2. Hero Header Banner */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-[#f0f7f3] via-[#f7fbf8] to-[#faf9f5] text-slate-800 rounded-3xl p-6 sm:p-10 shadow-[0_4px_25px_rgba(0,0,0,0.02)] border border-emerald-100/80">
+      <div className="relative overflow-hidden bg-gradient-to-r from-[#f0f7f3] via-[#f7fbf8] to-[#faf9f5] text-slate-800 rounded-3xl p-5 sm:p-7 shadow-[0_4px_25px_rgba(0,0,0,0.02)] border border-emerald-100/80">
         <div className="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 rounded-full bg-emerald-100/50 blur-3xl pointer-events-none" />
         <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div className="space-y-3.5 max-w-4xl">
+          <div className="space-y-2.5 max-w-4xl">
             {heroBadge && (
               <div className="flex flex-wrap items-center gap-2">
-                <span className="inline-flex items-center gap-1 px-3.5 py-1 bg-amber-50 text-amber-900 border border-amber-200/80 font-semibold text-xs sm:text-sm rounded-full uppercase">
-                  <Award className="w-4 h-4 text-amber-600" />
+                <span className="inline-flex items-center gap-1 px-3 py-0.5 bg-amber-50 text-amber-900 border border-amber-200/80 font-semibold text-xs rounded-full uppercase">
+                  <Award className="w-3.5 h-3.5 text-amber-600" />
                   <span>{heroBadge}</span>
                 </span>
               </div>
             )}
 
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-800 leading-tight">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-slate-800 leading-tight">
               {heroTitle}
             </h1>
 
             {heroSubtitle && (
-              <p className="text-slate-600 text-sm sm:text-base md:text-lg font-normal leading-relaxed max-w-3xl">
+              <p className="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed max-w-3xl">
                 {heroSubtitle}
               </p>
             )}
-          </div>
-
-          {/* Action buttons (Print & Listen) */}
-          <div className="flex items-center gap-2.5 flex-shrink-0 self-start md:self-auto">
-            <button
-              onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-              className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shadow-xs ${
-                isSpeaking
-                  ? 'bg-amber-400 text-slate-950 font-bold ring-2 ring-amber-300 animate-pulse'
-                  : 'bg-white hover:bg-slate-50 text-slate-700 border border-slate-200/80'
-              }`}
-              title={language === 'mr' ? 'मजकूर ऐका' : 'Listen to Content'}
-            >
-              {isSpeaking ? (
-                <>
-                  <VolumeX className="w-4 h-4 text-red-600" />
-                  <span>{language === 'mr' ? 'थांबवा' : 'Stop'}</span>
-                </>
-              ) : (
-                <>
-                  <Volume2 className="w-4 h-4 text-emerald-600" />
-                  <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                </>
-              )}
-            </button>
-
-            <button
-              onClick={handlePrint}
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200/80 rounded-xl text-xs sm:text-sm font-semibold transition-colors shadow-xs"
-              title={language === 'mr' ? 'पृष्ठ प्रिंट करा' : 'Print Page'}
-            >
-              <Printer className="w-4 h-4 text-slate-500" />
-              <span>{language === 'mr' ? 'प्रिंट' : 'Print'}</span>
-            </button>
           </div>
         </div>
       </div>

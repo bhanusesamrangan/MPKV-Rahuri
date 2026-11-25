@@ -32,6 +32,18 @@ import { ResearchRecommendationsView } from '@/views/Research/ResearchRecommenda
 import { ResearchFarmImplementsView } from '@/views/Research/ResearchFarmImplementsView';
 import { ResearchPatentsView } from '@/views/Research/ResearchPatentsView';
 
+// Specialized Extension Views
+import { ExtensionAtAGlanceView } from '@/views/Extension/ExtensionAtAGlanceView';
+import { ExtensionProfileView } from '@/views/Extension/ExtensionProfileView';
+import { ExtensionThrustAreasView } from '@/views/Extension/ExtensionThrustAreasView';
+import { ExtensionKVKView } from '@/views/Extension/ExtensionKVKView';
+import { ExtensionAticView } from '@/views/Extension/ExtensionAticView';
+import { ExtensionCommunicationCenterView } from '@/views/Extension/ExtensionCommunicationCenterView';
+import { ExtensionPublicationsView } from '@/views/Extension/ExtensionPublicationsView';
+import { ExtensionAdhocProjectsView } from '@/views/Extension/ExtensionAdhocProjectsView';
+import { ExtensionRegionalCentersView } from '@/views/Extension/ExtensionRegionalCentersView';
+import { ExtensionDistrictCentersView } from '@/views/Extension/ExtensionDistrictCentersView';
+
 interface PageProps {
   params: Promise<{
     slug: string[];
@@ -424,6 +436,118 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath === 'research/researchtechpatents'
   ) {
     return <ResearchPatentsView pageData={page} />;
+  }
+
+  // 37. Extension at a Glance
+  if (
+    pageSlug === 'extension-at-a-glance' ||
+    fullPath === 'extension/at-a-glance' ||
+    fullPath === 'extension/ataglance' ||
+    fullPath === 'extension/extensionatagalance' ||
+    fullPath === 'extension'
+  ) {
+    return <ExtensionAtAGlanceView pageData={page} />;
+  }
+
+  // 38. Extension Organizational Profile
+  if (
+    pageSlug === 'extension-organizational-profile' ||
+    pageSlug === 'extension-profile' ||
+    fullPath === 'extension/profile' ||
+    fullPath === 'extension/organizational-profile' ||
+    fullPath === 'extension/extensionprofile'
+  ) {
+    return <ExtensionProfileView pageData={page} />;
+  }
+
+  // 39. Extension Thrust Areas
+  if (
+    pageSlug === 'extension-thrust-areas' ||
+    fullPath === 'extension/thrust-areas' ||
+    fullPath === 'extension/thrustarea' ||
+    fullPath === 'extension/extensionthrustarea'
+  ) {
+    return <ExtensionThrustAreasView pageData={page} />;
+  }
+
+  // 40. Krishi Vigyan Kendras (KVK Network)
+  if (
+    pageSlug === 'extension-krishi-vigyan-kendras' ||
+    pageSlug === 'krishi-vigyan-kendras' ||
+    fullPath === 'extension/krishi-vigyan-kendras' ||
+    fullPath === 'extension/kvk' ||
+    fullPath === 'extension/extensionkvk' ||
+    fullPath === 'kvk'
+  ) {
+    return <ExtensionKVKView pageData={page} />;
+  }
+
+  // 41. Agricultural Technology Information Centre (ATIC)
+  if (
+    pageSlug === 'extension-atic' ||
+    pageSlug === 'atic-rahuri' ||
+    fullPath === 'atic-rahuri' ||
+    fullPath === 'atic' ||
+    fullPath === 'extension/atic' ||
+    fullPath === 'extension/extensionatic'
+  ) {
+    return <ExtensionAticView pageData={page} />;
+  }
+
+  // 42. Communication Centre & Radio 90.8 FM
+  if (
+    pageSlug === 'extension-communication-center' ||
+    pageSlug === 'communication-centre' ||
+    fullPath === 'communication-centre' ||
+    fullPath === 'communication-center' ||
+    fullPath === 'extension/communication-center' ||
+    fullPath === 'extension/communication-centre' ||
+    fullPath === 'extension/extensioncc' ||
+    fullPath === 'radio-90-8-fm'
+  ) {
+    return <ExtensionCommunicationCenterView pageData={page} />;
+  }
+
+  // 43. Extension Publications & Krishidarshani
+  if (
+    pageSlug === 'extension-publications' ||
+    fullPath === 'extension/publications' ||
+    fullPath === 'extension/publication' ||
+    fullPath === 'extension/extensionpublication' ||
+    fullPath === 'publications'
+  ) {
+    return <ExtensionPublicationsView pageData={page} />;
+  }
+
+  // 44. Ad-hoc Extension Projects (Farmer FIRST)
+  if (
+    pageSlug === 'extension-adhoc-projects' ||
+    fullPath === 'extension/adhoc-projects' ||
+    fullPath === 'extension/adhoc' ||
+    fullPath === 'extension/extensionadproj' ||
+    fullPath === 'farmer-first'
+  ) {
+    return <ExtensionAdhocProjectsView pageData={page} />;
+  }
+
+  // 45. Regional Extension Centers (RECs)
+  if (
+    pageSlug === 'extension-regional-centers' ||
+    fullPath === 'extension/regional-centers' ||
+    fullPath === 'extension/regional' ||
+    fullPath === 'extension/extensioncenter'
+  ) {
+    return <ExtensionRegionalCentersView pageData={page} />;
+  }
+
+  // 46. District Extension Centers (DECs)
+  if (
+    pageSlug === 'extension-district-centers' ||
+    fullPath === 'extension/district-centers' ||
+    fullPath === 'extension/district' ||
+    fullPath === 'extension/extensioncenterdec'
+  ) {
+    return <ExtensionDistrictCentersView pageData={page} />;
   }
 
   // Default fallback for other pages

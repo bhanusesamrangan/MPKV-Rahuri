@@ -17,14 +17,10 @@ import {
   Building,
   Sparkles,
   Calendar,
-  Printer,
-  Volume2,
-  VolumeX,
   MapPin,
   Clock
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 
 interface AlumniPortalViewProps {
   pageData?: any;
@@ -32,11 +28,6 @@ interface AlumniPortalViewProps {
 
 export const AlumniPortalView: React.FC<AlumniPortalViewProps> = ({ pageData }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
 
   const alumniAssociations = [
     {
@@ -124,84 +115,50 @@ export const AlumniPortalView: React.FC<AlumniPortalViewProps> = ({ pageData }) 
       </div>
 
       {/* 2. Hero Header: Collegiate Burgundy & Imperial Gold Heritage */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#380e18] via-[#4a1220] to-[#24080f] text-white p-6 sm:p-10 lg:p-12 shadow-xl border border-rose-900/40">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#380e18] via-[#4a1220] to-[#24080f] text-white p-5 sm:p-7 lg:p-8 shadow-xl border border-rose-900/40">
           
           {/* Subtle Ambient Orbs */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/15 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-rose-500/15 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-            <div className="space-y-4 max-w-3xl">
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div className="space-y-3 max-w-4xl">
               
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-400/30 text-amber-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-400/30 text-amber-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
                 <GraduationCap className="w-4 h-4 text-amber-300" />
                 <span>{language === 'mr' ? 'जागतिक माजी विद्यार्थी महामंडळ' : 'Global Alumni Fraternity'}</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
                 <span className="text-amber-300 font-semibold">{language === 'mr' ? 'स्थापना १९०७ पासून' : 'Since 1907'}</span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold tracking-tight text-white leading-tight">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
                 {language === 'mr'
                   ? '५०,०००+ कृषी पदवीधर, शास्त्रज्ञ व उद्योजकांचा जागतिक मंच'
                   : 'A Century of Agricultural Leadership Across the Globe'}
               </h1>
 
-              <p className="text-rose-100/90 text-sm sm:text-base leading-relaxed font-normal max-w-2xl">
+              <p className="text-rose-100/90 text-xs sm:text-sm leading-relaxed font-normal max-w-2xl">
                 {language === 'mr'
                   ? 'महात्मा फुले कृषि विद्यापीठाच्या माजी विद्यार्थ्यांनी भारतीय कृषी संशोधन परिषद (ICAR), जागतिक अन्न व कृषी संघटना (FAO), नागरी सेवा (IAS/IFS), कृषी उद्योग आणि शेतकरी चळवळीत देदीप्यमान योगदान दिले आहे.'
                   : 'Connecting over 50,000 distinguished alumni serving in apex scientific institutions, administrative civil services, multinational agribusiness, and pioneering farming movements worldwide.'}
               </p>
 
               {/* Heritage Stats Strip */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-2">
                 {[
                   { value: '50,000+', label: { en: 'Alumni Worldwide', mr: 'जागतिक माजी विद्यार्थी' } },
                   { value: '117+ Yrs', label: { en: 'Historic Legacy', mr: 'ऐतिहासिक वारसा' } },
                   { value: '30+ Nations', label: { en: 'Global Presence', mr: 'देशांत कार्यरत' } },
                   { value: '5 Active Wings', label: { en: 'Registered Chapters', mr: 'नोंदणीकृत संघटना' } }
                 ].map((stat, i) => (
-                  <div key={i} className="p-3 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15">
-                    <div className="text-lg sm:text-xl font-black text-amber-300">{stat.value}</div>
-                    <div className="text-[11px] text-rose-200 mt-0.5">{getBilingual(stat.label)}</div>
+                  <div key={i} className="p-2.5 rounded-xl bg-white/10 backdrop-blur-md border border-white/15">
+                    <div className="text-base sm:text-lg font-black text-amber-300">{stat.value}</div>
+                    <div className="text-[10px] text-rose-200 mt-0.5">{getBilingual(stat.label)}</div>
                   </div>
                 ))}
               </div>
 
-            </div>
-
-            {/* Audio & Print Actions */}
-            <div className="flex sm:flex-col items-center sm:items-end gap-3 shrink-0">
-              <button
-                type="button"
-                onClick={() => (isSpeaking ? stopSpeech() : speakContent())}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all shadow-md cursor-pointer ${
-                  isSpeaking
-                    ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-300 animate-pulse'
-                    : 'bg-white/15 hover:bg-white/25 text-white border border-white/20'
-                }`}
-              >
-                {isSpeaking ? (
-                  <>
-                    <VolumeX className="w-4 h-4 text-red-600" />
-                    <span>{language === 'mr' ? 'थांबवा' : 'Stop Audio'}</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume2 className="w-4 h-4 text-amber-300" />
-                    <span>{language === 'mr' ? 'मजकूर ऐका' : 'Listen'}</span>
-                  </>
-                )}
-              </button>
-
-              <button
-                type="button"
-                onClick={handlePrint}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/15 text-xs sm:text-sm font-semibold transition-all shadow-xs cursor-pointer"
-              >
-                <Printer className="w-4 h-4 text-amber-300" />
-                <span>{language === 'mr' ? 'प्रिंट करा' : 'Print Page'}</span>
-              </button>
             </div>
 
           </div>

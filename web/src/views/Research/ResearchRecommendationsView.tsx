@@ -128,7 +128,7 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-12">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 
         {/* Tab Switcher */}
         <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200 pb-4">

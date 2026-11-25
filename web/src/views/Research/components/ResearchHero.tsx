@@ -7,9 +7,6 @@ import {
   Building,
   Target,
   FileText,
-  Volume2,
-  VolumeX,
-  Printer,
   Compass,
   Sprout,
   ShieldCheck,
@@ -21,7 +18,6 @@ import {
   Calendar
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { useAccessibility } from '@/context/AccessibilityContext';
 
 export type ResearchHeroTheme =
   | 'glance'          // Deep Emerald & Gold
@@ -220,7 +216,6 @@ export const ResearchHero: React.FC<ResearchHeroProps> = ({
   children
 }) => {
   const { language, getBilingual } = useLanguage();
-  const { isSpeaking, speakContent, stopSpeech } = useAccessibility();
 
   const cfg = THEME_CONFIGS[theme] || THEME_CONFIGS.glance;
   const BadgeIcon = cfg.badgeIcon;
@@ -229,86 +224,47 @@ export const ResearchHero: React.FC<ResearchHeroProps> = ({
   const displaySubtitle = subtitle ? getBilingual(subtitle) : '';
   const displayBadge = badge ? getBilingual(badge) : '';
 
-  const handleSpeech = () => {
-    if (isSpeaking) {
-      stopSpeech();
-    } else {
-      const textToRead = `${displayTitle}. ${displaySubtitle}`;
-      speakContent(textToRead);
-    }
-  };
-
-  const handlePrint = () => {
-    if (typeof window !== 'undefined') window.print();
-  };
-
   return (
     <section
       aria-labelledby="hero-title"
-      className={`relative w-full bg-gradient-to-br ${cfg.bgGradient} text-white border-b-4 ${cfg.borderBottom} overflow-hidden`}
+      className={`relative w-full bg-gradient-to-br ${cfg.bgGradient} text-white border-b-4 ${cfg.borderBottom} overflow-hidden shadow-xs`}
     >
       {/* Decorative SVG Pattern */}
       <div className={`absolute inset-0 opacity-15 pointer-events-none ${cfg.pattern}`} />
 
       {/* Ambient Lighting Orbs */}
-      <div className={`absolute -top-32 -left-32 w-96 h-96 rounded-full blur-3xl pointer-events-none ${cfg.glow1}`} />
-      <div className={`absolute -bottom-32 -right-32 w-96 h-96 rounded-full blur-3xl pointer-events-none ${cfg.glow2}`} />
+      <div className={`absolute -top-24 -left-24 w-72 h-72 rounded-full blur-3xl pointer-events-none ${cfg.glow1}`} />
+      <div className={`absolute -bottom-24 -right-24 w-72 h-72 rounded-full blur-3xl pointer-events-none ${cfg.glow2}`} />
 
-      <div className="relative z-10 w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-6">
-        
-        {/* Top Action Row: Badge + Accessibility Tools */}
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          {displayBadge ? (
-            <div
-              className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border shadow-2xs ${cfg.badgeBg} ${cfg.badgeText} ${cfg.badgeBorder}`}
-            >
-              <BadgeIcon className="w-3.5 h-3.5" />
-              <span>{displayBadge}</span>
-            </div>
-          ) : (
-            <div
-              className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border shadow-2xs ${cfg.badgeBg} ${cfg.badgeText} ${cfg.badgeBorder}`}
-            >
-              <Microscope className="w-3.5 h-3.5" />
-              <span>{language === 'mr' ? 'संशोधन संचालनालय' : 'Directorate of Research'}</span>
-            </div>
-          )}
-
-          {/* Accessibility Buttons (Audio & Print) */}
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={handleSpeech}
-              className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition-all border border-white/15"
-              title={language === 'mr' ? 'मजकूर ऐका' : 'Listen to page'}
-            >
-              {isSpeaking ? <VolumeX className="w-3.5 h-3.5 text-amber-300" /> : <Volume2 className="w-3.5 h-3.5 text-amber-300" />}
-              <span>{language === 'mr' ? 'वाचन' : 'Audio'}</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={handlePrint}
-              className="px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition-all border border-white/15"
-              title={language === 'mr' ? 'पृष्ठ मुद्रित करा' : 'Print this page'}
-            >
-              <Printer className="w-3.5 h-3.5 text-emerald-300" />
-              <span>{language === 'mr' ? 'प्रिंट' : 'Print'}</span>
-            </button>
+      <div className="relative z-10 w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-5 sm:py-7 space-y-3">
+        {/* Category Badge */}
+        {displayBadge ? (
+          <div
+            className={`inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider border shadow-2xs ${cfg.badgeBg} ${cfg.badgeText} ${cfg.badgeBorder}`}
+          >
+            <BadgeIcon className="w-3.5 h-3.5" />
+            <span>{displayBadge}</span>
           </div>
-        </div>
+        ) : (
+          <div
+            className={`inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider border shadow-2xs ${cfg.badgeBg} ${cfg.badgeText} ${cfg.badgeBorder}`}
+          >
+            <Microscope className="w-3.5 h-3.5" />
+            <span>{language === 'mr' ? 'संशोधन संचालनालय' : 'Directorate of Research'}</span>
+          </div>
+        )}
 
         {/* Hero Title & Subtitle */}
-        <div className="space-y-3 max-w-4xl">
+        <div className="space-y-1.5 max-w-4xl">
           <h1
             id="hero-title"
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight"
+            className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-white tracking-tight leading-tight"
           >
             {displayTitle}
           </h1>
 
           {displaySubtitle && (
-            <p className={`text-sm sm:text-base md:text-lg leading-relaxed font-medium ${cfg.subtitleText}`}>
+            <p className={`text-xs sm:text-sm md:text-[15px] leading-relaxed font-normal max-w-3xl ${cfg.subtitleText}`}>
               {displaySubtitle}
             </p>
           )}
@@ -316,15 +272,15 @@ export const ResearchHero: React.FC<ResearchHeroProps> = ({
 
         {/* Quick Chips Matrix */}
         {quickChips.length > 0 && (
-          <div className="flex flex-wrap items-center gap-2 pt-2">
+          <div className="flex flex-wrap items-center gap-1.5 pt-1">
             {quickChips.map((chip, idx) => {
               const ChipIcon = chip.icon || CheckCircle2;
               return (
                 <div
                   key={idx}
-                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-white/10 backdrop-blur-sm border border-white/15 text-white/90 text-xs font-semibold"
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 backdrop-blur-sm border border-white/15 text-white/90 text-[11px] sm:text-xs font-medium"
                 >
-                  <ChipIcon className="w-3.5 h-3.5 text-amber-300" />
+                  <ChipIcon className="w-3 h-3 text-amber-300" />
                   <span>{chip.label}</span>
                 </div>
               );
@@ -332,7 +288,7 @@ export const ResearchHero: React.FC<ResearchHeroProps> = ({
           </div>
         )}
 
-        {children && <div className="pt-2">{children}</div>}
+        {children && <div className="pt-1">{children}</div>}
       </div>
     </section>
   );

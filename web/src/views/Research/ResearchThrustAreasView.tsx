@@ -43,7 +43,7 @@ interface ResearchThrustAreasViewProps {
 
 export const ResearchThrustAreasView: React.FC<ResearchThrustAreasViewProps> = ({ pageData }) => {
   const { language } = useLanguage();
-  const [viewMode, setViewMode] = useState<'bento' | 'board'>('bento');
+  const [viewMode, setViewMode] = useState<'bento' | 'board'>('board');
   const [activeCluster, setActiveCluster] = useState<string>('all');
 
   // 1. Official 12 Research Priorities for the Next Ten Years (Verbatim from Live Site)
@@ -365,7 +365,7 @@ export const ResearchThrustAreasView: React.FC<ResearchThrustAreasViewProps> = (
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-12">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-8">
 
         {/* ================================================================= */}
         {/* 1. TOP METRICS & DECADAL SCOPE STATS                              */}
@@ -568,32 +568,31 @@ export const ResearchThrustAreasView: React.FC<ResearchThrustAreasViewProps> = (
 
           {/* VIEW MODE 2: OFFICIAL GRAPHIC BOARD VIEW (FAITHFUL TO USER IMAGE) */}
           {viewMode === 'board' && (
-            <div className="p-6 sm:p-8 lg:p-10 rounded-3xl bg-white border-2 border-stone-200 shadow-sm space-y-6">
+            <div className="p-6 sm:p-8 lg:p-10 rounded-2xl bg-white border border-stone-200/90 shadow-sm space-y-6">
               
-              {/* Graphic Title Header */}
-              <div className="text-center space-y-1 pb-2">
-                <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#14532d] uppercase tracking-wide font-serif">
+              {/* Graphic Title Header matching Live Image */}
+              <div className="text-center space-y-1 pb-3">
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#196b43] uppercase tracking-wide font-sans">
                   {language === 'mr' ? 'संशोधन प्राधान्यक्रम' : 'RESEARCH PRIORITIES'}
                 </h3>
-                <div className="text-xs sm:text-sm md:text-base font-extrabold text-[#92400e] uppercase tracking-widest font-sans pt-0.5">
+                <div className="text-xs sm:text-sm md:text-base font-bold text-[#b86e1b] uppercase tracking-widest font-sans pt-0.5">
                   {language === 'mr' ? 'आगामी दहा वर्षांसाठी (२०२५–२०३५)' : 'FOR THE NEXT TEN YEARS'}
                 </div>
-                <div className="w-24 h-1 bg-gradient-to-r from-emerald-600 via-amber-500 to-emerald-600 mx-auto rounded-full mt-3" />
               </div>
 
-              {/* Graphic Rows Stack */}
-              <div className="space-y-2.5 max-w-[1000px] mx-auto">
+              {/* Graphic Rows Stack matching Screenshot */}
+              <div className="space-y-2 max-w-[960px] mx-auto overflow-hidden">
                 {filteredPriorities.map((item) => (
                   <div
                     key={item.num}
-                    className={`flex items-center gap-3.5 sm:gap-4 p-2 sm:p-2.5 rounded-xl border ${item.rowBg} ${item.borderColor} hover:shadow-xs transition-all duration-200`}
+                    className={`flex items-center gap-3 sm:gap-4 p-2 sm:p-2.5 rounded-xs border-b border-white/60 ${item.rowBg} hover:opacity-95 transition-all`}
                   >
-                    <div className={`w-14 sm:w-16 h-8 sm:h-9 rounded-lg ${item.bulletColor} shrink-0 flex items-center justify-center shadow-xs`}>
+                    <div className={`w-14 sm:w-16 h-8 sm:h-9 ${item.bulletColor} rounded-xs shrink-0 flex items-center justify-center shadow-xs`}>
                       <div className="w-2.5 h-2.5 rounded-full bg-white shadow-xs" />
                     </div>
 
                     <div className="flex-1 min-w-0 pr-2">
-                      <div className={`text-xs sm:text-[14px] md:text-[15px] font-bold ${item.textColor} leading-snug`}>
+                      <div className="text-xs sm:text-[14px] md:text-[15px] font-semibold text-slate-900 leading-snug font-sans">
                         {language === 'mr' ? item.mr : item.en}
                       </div>
                       {language === 'mr' && (

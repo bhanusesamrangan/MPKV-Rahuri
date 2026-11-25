@@ -109,7 +109,7 @@ export const ResearchFarmImplementsView: React.FC<ResearchFarmImplementsViewProp
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-8">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-8">
 
         {/* Procurement & Contact Notice Card */}
         <section className="p-5 sm:p-6 rounded-3xl bg-white border border-stone-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">

@@ -834,7 +834,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-8 sm:py-12 space-y-10">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-5 sm:py-7 space-y-7">
 
         {/* 1. Zone Switcher Navigation Bar */}
         <div className="bg-white p-3 sm:p-4 rounded-3xl border border-stone-200/90 shadow-2xs">

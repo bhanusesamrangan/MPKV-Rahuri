@@ -111,7 +111,7 @@ export const ResearchReviewMechanismView: React.FC<ResearchReviewMechanismViewPr
         ]}
       />
 
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-10 sm:py-14 space-y-12">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 
         {/* 1. Visual 4-Stage Sequential Stepper */}
         <section className="space-y-6">
