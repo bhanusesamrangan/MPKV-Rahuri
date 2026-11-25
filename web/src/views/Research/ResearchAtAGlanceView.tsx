@@ -84,59 +84,7 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
     }
   ];
 
-  // 2. Left Sidebar Navigation Menu (Matching live site sidebar exactly)
-  const sidebarLinks = [
-    {
-      labelEn: 'Research at a Glance',
-      labelMr: 'दृष्टीक्षेपात संशोधन',
-      href: '/research/at-a-glance',
-      active: true
-    },
-    {
-      labelEn: 'Organizational Profile',
-      labelMr: 'संस्थात्मक संरचना',
-      href: '/research/profile',
-      active: false
-    },
-    {
-      labelEn: 'Directorates',
-      labelMr: 'संशोधन संचालनालय',
-      href: '/research/directorates',
-      active: false
-    },
-    {
-      labelEn: 'Thrust Areas',
-      labelMr: 'संशोधनाची प्रमुख क्षेत्रे',
-      href: '/research/thrust-areas',
-      active: false
-    },
-    {
-      labelEn: 'Research Review Mechanism',
-      labelMr: 'संशोधन आढावा कार्यप्रणाली',
-      href: '/research/review-mechanism',
-      active: false
-    },
-    {
-      labelEn: 'Research Stations',
-      labelMr: 'संशोधन केंद्रे (हवामान विभाग)',
-      href: '/research/stations',
-      active: false
-    },
-    {
-      labelEn: 'Research Schemes',
-      labelMr: 'संशोधन योजना (AICRP व राज्य)',
-      href: '/research/schemes',
-      active: false
-    },
-    {
-      labelEn: 'Technology & Varieties',
-      labelMr: 'तंत्रज्ञान व विकसित वाण',
-      href: '/research/technology',
-      active: false
-    }
-  ];
-
-  // 3. Official Director of Research Details (Directly from Live Site Header)
+  // 2. Official Director of Research Details (Directly from Live Site Header)
   const directorInfo = {
     name: 'Dr. Prashant S. Bodake',
     nameMr: 'डॉ. प्रशांत एस. बोडके',
@@ -508,64 +456,9 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
         </div>
 
         {/* ================================================================= */}
-        {/* 2. MAIN LAYOUT: LEFT SIDEBAR NAVIGATION + RIGHT CONTENT (AS IN LIVE) */}
+        {/* 2. MAIN RESEARCH DASHBOARD CONTENT                                */}
         {/* ================================================================= */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-
-          {/* Left Column: Official Sidebar Navigation Menu */}
-          <div className="lg:col-span-3 space-y-5">
-            <div className="rounded-3xl bg-white border-2 border-emerald-800 shadow-sm overflow-hidden sticky top-24">
-              <div className="bg-gradient-to-r from-emerald-900 to-emerald-800 px-5 py-3.5 text-white flex items-center justify-between">
-                <span className="font-bold text-sm tracking-wide flex items-center gap-2">
-                  <Microscope className="w-4 h-4 text-amber-300" />
-                  <span>{language === 'mr' ? 'संशोधन मेनू' : 'Research Menu'}</span>
-                </span>
-                <span className="text-[10px] uppercase font-extrabold px-2 py-0.5 rounded bg-emerald-700/60 text-emerald-100">
-                  Directory
-                </span>
-              </div>
-
-              <div className="divide-y divide-stone-100 p-2">
-                {sidebarLinks.map((link, idx) => (
-                  <Link
-                    key={idx}
-                    href={link.href}
-                    className={`flex items-center justify-between px-3.5 py-3 text-xs sm:text-[13px] font-medium rounded-xl transition-all ${
-                      link.active
-                        ? 'bg-emerald-50 text-emerald-900 font-bold border border-emerald-200'
-                        : 'text-slate-700 hover:bg-stone-50 hover:text-emerald-800'
-                    }`}
-                  >
-                    <div className="flex items-center gap-2">
-                      <ChevronRight className={`w-3.5 h-3.5 ${link.active ? 'text-emerald-700' : 'text-stone-400'}`} />
-                      <span>{language === 'mr' ? link.labelMr : link.labelEn}</span>
-                    </div>
-                    {link.active && (
-                      <span className="w-2 h-2 rounded-full bg-emerald-600" />
-                    )}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Quick Summary Pill Box */}
-            <div className="p-5 rounded-3xl bg-gradient-to-br from-stone-900 to-slate-900 text-white space-y-3 shadow-md">
-              <span className="text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded bg-amber-400/20 text-amber-300 border border-amber-300/30">
-                Breeder Seed Network
-              </span>
-              <div className="text-2xl font-black text-white font-serif">
-                2,900+ MoUs
-              </div>
-              <p className="text-xs text-stone-300 leading-relaxed">
-                {language === 'mr'
-                  ? 'शेतकरी उत्पादक कंपन्या (FPOs), बियाणे कंपन्या व स्वयंसेवी संस्थांसोबत मूलभूत बियाणे वितरणासाठी २९००+ सामंजस्य करार.'
-                  : 'Signed with FPOs, private seed firms, and NGOs for certified breeder seed multiplication.'}
-              </p>
-            </div>
-          </div>
-
-          {/* Right Column: Complete Official Page Content */}
-          <div className="lg:col-span-9 space-y-8">
+        <div className="w-full space-y-10">
 
             {/* A. Top Header Box: Director of Research Profile (Verbatim from Live Site) */}
             <div className="p-6 sm:p-7 rounded-3xl bg-white border border-stone-200 shadow-sm flex flex-col md:flex-row items-center md:items-start gap-6">
@@ -953,6 +846,23 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
                   </div>
                 ))}
               </div>
+
+              {/* Breeder Seed Distribution Network Callout Banner */}
+              <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-900 text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border border-emerald-700/40 mt-4">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-amber-400 text-slate-950">
+                    Breeder Seed Distribution Network
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-amber-300 font-serif">
+                    2,900+ MoUs Signed
+                  </div>
+                  <p className="text-xs text-emerald-100/90 max-w-2xl leading-relaxed font-medium">
+                    {language === 'mr'
+                      ? 'शेतकरी उत्पादक कंपन्या (FPOs), खासगी बियाणे कंपन्या व स्वयंसेवी संस्थांसोबत (NGOs) प्रमाणित मूलभूत बियाणे वितरणासाठी २९००+ सामंजस्य करार.'
+                      : 'The university has signed 2,900+ MoUs for distribution and certified multiplication of breeder seed with FPOs, private seed firms, and NGOs.'}
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* K. External Funding Projects Breakdown (Page 2 of Live Site) */}
@@ -993,7 +903,6 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
               </div>
             </div>
 
-          </div>
         </div>
 
       </div>
