@@ -11,7 +11,6 @@ import {
   Download,
   AlertCircle,
   CheckCircle2,
-  HelpCircle,
   FileText,
   Printer
 } from 'lucide-react';
@@ -278,48 +277,6 @@ export const AcademicRegulationsView: React.FC<AcademicRegulationsViewProps> = (
               </div>
             </div>
           </div>
-          </div>
-        </section>
-
-        {/* Quick FAQ / Rule Reference */}
-        <section aria-labelledby="faq-heading" className="bg-white rounded-2xl border border-stone-200 p-6 sm:p-8 shadow-xs">
-          <div className="space-y-4">
-            <h3 id="faq-heading" className="text-lg sm:text-xl font-bold text-stone-900 flex items-center gap-2">
-              <HelpCircle className="w-5 h-5 text-amber-600" />
-              <span>{language === 'mr' ? 'विद्यार्थ्यांसाठी महत्त्वाची नियमावली एका दृष्टीक्षेपात' : 'Quick Reference Guide for Students'}</span>
-            </h3>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
-              <div className="p-4 rounded-xl bg-emerald-50/60 border border-emerald-200">
-                <span className="text-xs font-bold text-emerald-800 block">
-                  {language === 'mr' ? 'किमान उत्तीर्ण गुण' : 'Min. Passing Marks'}
-                </span>
-                <span className="text-2xl font-black text-emerald-950 mt-1 block">5.0 / 10.0</span>
-                <p className="text-xs text-stone-600 mt-1">
-                  {language === 'mr' ? 'पदवीसाठी ५.०० आणि पदव्युत्तर/पीएच.डी. साठी ६.५० ग्रेड पॉईंट आवश्यक.' : '5.00 GP for UG degree; 6.50 GP for PG & Ph.D.'}
-                </p>
-              </div>
-
-              <div className="p-4 rounded-xl bg-amber-50/60 border border-amber-200">
-                <span className="text-xs font-bold text-amber-800 block">
-                  {language === 'mr' ? 'अनिवार्य हजेरी' : 'Mandatory Attendance'}
-                </span>
-                <span className="text-2xl font-black text-amber-950 mt-1 block">80%</span>
-                <p className="text-xs text-stone-600 mt-1">
-                  {language === 'mr' ? 'लेखी व प्रात्यक्षिक वर्गात स्वतंत्रपणे ८०% हजेरी आवश्यक.' : 'Separate 80% attendance in theory & practical classes.'}
-                </p>
-              </div>
-
-              <div className="p-4 rounded-xl bg-teal-50/60 border border-teal-200">
-                <span className="text-xs font-bold text-teal-800 block">
-                  {language === 'mr' ? 'पदवी पूर्ण करण्याचा कमाल काळ' : 'Maximum Degree Duration'}
-                </span>
-                <span className="text-2xl font-black text-teal-950 mt-1 block">n + 2 Years</span>
-                <p className="text-xs text-stone-600 mt-1">
-                  {language === 'mr' ? '४ वर्षांच्या पदवीसाठी कमाल ६ वर्षे (१२ सत्रावधी) मुभा.' : 'Maximum 6 years (12 semesters) for 4-year UG.'}
-                </p>
-              </div>
-            </div>
           </div>
         </section>
 

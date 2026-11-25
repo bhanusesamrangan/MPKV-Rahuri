@@ -25,12 +25,36 @@ import {
   ExternalLink
 } from 'lucide-react';
 
+interface QuickDeskItem {
+  title: string;
+  icon: any;
+  link: string;
+  isExternal?: boolean;
+  onClick?: (e: React.MouseEvent) => void;
+}
+
+interface QuickDeskCategory {
+  id: string;
+  groupTitle: string;
+  subtitle: string;
+  icon: any;
+  styles: {
+    cardBorder: string;
+    headerBg: string;
+    iconBg: string;
+    badgeBg: string;
+    linkHover: string;
+    iconColor: string;
+  };
+  items: QuickDeskItem[];
+}
+
 export const StakeholderQuickDesk: React.FC = () => {
   const { language } = useLanguage();
   const [activeTab, setActiveTab] = useState<'all' | 'students' | 'governance' | 'staff'>('all');
   const [isGuestHousePdfOpen, setIsGuestHousePdfOpen] = useState(false);
 
-  const categories = [
+  const categories: QuickDeskCategory[] = [
     {
       id: 'students',
       groupTitle: language === 'mr' ? 'विद्यार्थी व शिक्षण' : 'Students & Academics',
@@ -273,12 +297,12 @@ export const StakeholderQuickDesk: React.FC = () => {
                       </div>
                     );
 
-                    if ((item as any).onClick) {
+                    if (item.onClick) {
                       return (
                         <button
                           key={i}
                           type="button"
-                          onClick={(item as any).onClick}
+                          onClick={item.onClick}
                           className="block w-full text-left"
                         >
                           {ItemContent}
