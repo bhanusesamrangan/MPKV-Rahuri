@@ -172,6 +172,7 @@ const ROUTE_ALIASES: Record<string, string> = {
   'research/at-a-glance': 'research-at-a-glance',
   'research/central-plateau-zone': 'research-central-plateau-zone',
   'research/funded-projects': 'research-externally-funded-projects',
+  'research/farm-implements': 'research-farm-implements',
   'research/implements': 'research-farm-implements',
   'research/patents': 'research-patents',
   'research/plain-zone': 'research-plain-zone',

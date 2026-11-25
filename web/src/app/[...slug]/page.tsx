@@ -20,6 +20,18 @@ import { TransparencyRtiView } from '@/views/Stakeholder/TransparencyRtiView';
 import { CentralAdministrationView } from '@/views/Stakeholder/CentralAdministrationView';
 import { AboutMahatmaPhuleView } from '@/views/About/AboutMahatmaPhuleView';
 
+// Specialized Research Views
+import { ResearchAtAGlanceView } from '@/views/Research/ResearchAtAGlanceView';
+import { ResearchOrganizationalProfileView } from '@/views/Research/ResearchOrganizationalProfileView';
+import { ResearchThrustAreasView } from '@/views/Research/ResearchThrustAreasView';
+import { ResearchReviewMechanismView } from '@/views/Research/ResearchReviewMechanismView';
+import { ResearchSchemesView } from '@/views/Research/ResearchSchemesView';
+import { ResearchAgroClimaticZonesView, ZoneSlug } from '@/views/Research/ResearchAgroClimaticZonesView';
+import { ResearchVarietiesView } from '@/views/Research/ResearchVarietiesView';
+import { ResearchRecommendationsView } from '@/views/Research/ResearchRecommendationsView';
+import { ResearchFarmImplementsView } from '@/views/Research/ResearchFarmImplementsView';
+import { ResearchPatentsView } from '@/views/Research/ResearchPatentsView';
+
 interface PageProps {
   params: Promise<{
     slug: string[];
@@ -244,6 +256,164 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath === 'aboutphule'
   ) {
     return <AboutMahatmaPhuleView pageData={page} />;
+  }
+
+  // =========================================================================
+  // SPECIALIZED RESEARCH VIEWS (Zero Data Loss & Tailored Unique UIs)
+  // =========================================================================
+
+  // 21. Research at a Glance
+  if (
+    pageSlug === 'research-at-a-glance' ||
+    fullPath === 'research/at-a-glance' ||
+    fullPath === 'research/researchatagalance'
+  ) {
+    return <ResearchAtAGlanceView pageData={page} />;
+  }
+
+  // 22. Research Organizational Profile
+  if (
+    pageSlug === 'research-organizational-profile' ||
+    fullPath === 'research/profile' ||
+    fullPath === 'research/researchprofile' ||
+    fullPath === 'research/researchorgprofile'
+  ) {
+    return <ResearchOrganizationalProfileView pageData={page} />;
+  }
+
+  // 23. Research Thrust Areas
+  if (
+    pageSlug === 'research-thrust-areas' ||
+    fullPath === 'research/thrust-areas' ||
+    fullPath === 'research/researchthrustarea' ||
+    fullPath === 'research/researchthrustareas'
+  ) {
+    return <ResearchThrustAreasView pageData={page} />;
+  }
+
+  // 24. Research Review Mechanism
+  if (
+    pageSlug === 'research-review-mechanism' ||
+    fullPath === 'research/review-mechanism' ||
+    fullPath === 'research/researchreviewmechanism' ||
+    fullPath === 'research/researchreviewmech'
+  ) {
+    return <ResearchReviewMechanismView pageData={page} />;
+  }
+
+  // 25. ICAR-AICRP Projects (45 Schemes)
+  if (
+    pageSlug === 'research-icar-aicrp' ||
+    fullPath === 'research/aicrp' ||
+    fullPath === 'research/researchschemicar'
+  ) {
+    return <ResearchSchemesView pageData={page} schemeType="aicrp" />;
+  }
+
+  // 26. Non-Plan State Schemes (54 Schemes)
+  if (
+    pageSlug === 'research-non-plan-state-schemes' ||
+    fullPath === 'research/state-schemes' ||
+    fullPath === 'research/researchschemnonplan'
+  ) {
+    return <ResearchSchemesView pageData={page} schemeType="state-schemes" />;
+  }
+
+  // 27. Externally Funded Projects (Ad-hoc & Grants)
+  if (
+    pageSlug === 'research-externally-funded-projects' ||
+    fullPath === 'research/funded-projects' ||
+    fullPath === 'research/researchschemfundedproj'
+  ) {
+    return <ResearchSchemesView pageData={page} schemeType="funded-projects" />;
+  }
+
+  // 28. Western Ghat Zone
+  if (
+    pageSlug === 'research-western-ghat-zone' ||
+    fullPath === 'research/western-ghat-zone' ||
+    fullPath === 'research/researchwzone'
+  ) {
+    return <ResearchAgroClimaticZonesView pageData={page} currentZone="western-ghat-zone" />;
+  }
+
+  // 29. Sub-Montane Zone
+  if (
+    pageSlug === 'research-sub-montane-zone' ||
+    fullPath === 'research/sub-montane-zone' ||
+    fullPath === 'research/researchsubmzone' ||
+    fullPath === 'research/researchsmzone'
+  ) {
+    return <ResearchAgroClimaticZonesView pageData={page} currentZone="sub-montane-zone" />;
+  }
+
+  // 30. Plain Zone
+  if (
+    pageSlug === 'research-plain-zone' ||
+    fullPath === 'research/plain-zone' ||
+    fullPath === 'research/researchplainzone' ||
+    fullPath === 'research/researchplianzone'
+  ) {
+    return <ResearchAgroClimaticZonesView pageData={page} currentZone="plain-zone" />;
+  }
+
+  // 31. Scarcity Zone
+  if (
+    pageSlug === 'research-scarcity-zone' ||
+    fullPath === 'research/scarcity-zone' ||
+    fullPath === 'research/researchscarcityzone'
+  ) {
+    return <ResearchAgroClimaticZonesView pageData={page} currentZone="scarcity-zone" />;
+  }
+
+  // 32. Central Plateau Zone
+  if (
+    pageSlug === 'research-central-plateau-zone' ||
+    fullPath === 'research/central-plateau-zone' ||
+    fullPath === 'research/researchcentralzone'
+  ) {
+    return <ResearchAgroClimaticZonesView pageData={page} currentZone="central-plateau-zone" />;
+  }
+
+  // 33. Crop Varieties Released (14 Categories)
+  if (
+    pageSlug === 'research-varieties' ||
+    fullPath === 'research/varieties' ||
+    fullPath === 'research/researchtechvariety'
+  ) {
+    return <ResearchVarietiesView pageData={page} />;
+  }
+
+  // 34. Agro Recommendations (19 Compendiums & Practices)
+  if (
+    pageSlug === 'research-recommendations' ||
+    fullPath === 'research/recommendations' ||
+    fullPath === 'research/researchtechrecomm' ||
+    fullPath === 'research/researchtechagrorec'
+  ) {
+    return <ResearchRecommendationsView pageData={page} />;
+  }
+
+  // 35. Farm Implements & Machinery (35 Implements)
+  if (
+    pageSlug === 'farm-implements' ||
+    pageSlug === 'research-farm-implements' ||
+    fullPath === 'farm-implements' ||
+    fullPath === 'research/farm-implements' ||
+    fullPath === 'research/implements' ||
+    fullPath === 'research/researchfarmimplement'
+  ) {
+    return <ResearchFarmImplementsView pageData={page} />;
+  }
+
+  // 36. Registered Patents & IPR (6 Granted Patents)
+  if (
+    pageSlug === 'research-patents' ||
+    fullPath === 'research/patents' ||
+    fullPath === 'research/researchpatents' ||
+    fullPath === 'research/researchtechpatents'
+  ) {
+    return <ResearchPatentsView pageData={page} />;
   }
 
   // Default fallback for other pages
