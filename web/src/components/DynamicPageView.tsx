@@ -42,6 +42,7 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
 
   const [pageSearch, setPageSearch] = useState('');
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [activeTableTab, setActiveTableTab] = useState<number | 'all'>('all');
 
   const page = initialPageData;
 
@@ -391,11 +392,72 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
             </div>
           )}
 
+          {/* Interactive Table Tabs if multiple tables */}
+          {tables.length > 1 && (
+            <div className="flex flex-wrap items-center gap-1.5 p-1.5 bg-stone-100/90 rounded-2xl border border-stone-200/90 select-none">
+              <button
+                type="button"
+                onClick={() => setActiveTableTab('all')}
+                className={`px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                  activeTableTab === 'all'
+                    ? 'bg-emerald-900 text-white shadow-xs'
+                    : 'text-stone-700 hover:text-stone-900 hover:bg-white/60'
+                }`}
+              >
+                {language === 'mr' ? 'सर्व सारण्या' : 'All Tables'} ({tables.length})
+              </button>
+              {tables.map((t: any, idx: number) => {
+                const rawCap = t.caption ? getBilingual(t.caption) : null;
+                const isErroneous = rawCap && (
+                  rawCap.includes('Dr A.S. College') ||
+                  rawCap.includes('Dr. A.S. College') ||
+                  rawCap.includes('College of Agril. Engg.')
+                ) && slug !== 'dr-as-caet-rahuri' && slug !== 'education-faculty-agricultural-engineering';
+                
+                const tabTitle = (!isErroneous && rawCap) ? rawCap : (language === 'mr' ? `तक्ता ${idx + 1}` : `Table ${idx + 1}`);
+                const count = t.rows?.length || 0;
+                
+                return (
+                  <button
+                    key={idx}
+                    type="button"
+                    onClick={() => setActiveTableTab(idx)}
+                    className={`px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-2 ${
+                      activeTableTab === idx
+                        ? 'bg-emerald-900 text-white shadow-xs'
+                        : 'text-stone-700 hover:text-stone-900 hover:bg-white/60'
+                    }`}
+                  >
+                    <span className="truncate max-w-[220px]">{tabTitle}</span>
+                    <span className={`text-[11px] px-1.5 py-0.2 rounded-full font-bold ${
+                      activeTableTab === idx ? 'bg-emerald-800 text-white' : 'bg-stone-200/90 text-stone-700'
+                    }`}>
+                      {count}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
+
           {/* Scraped Tables with Interactive Search & Download Buttons */}
-          {tables.map((table: any, tIdx: number) => {
-            const tableCaption = table.caption ? getBilingual(table.caption) : null;
-            const headers = table.headers || [];
-            let rows = table.rows || [];
+          {tables
+            .map((table: any, tIdx: number) => ({ table, tIdx }))
+            .filter(({ tIdx }: { tIdx: number }) => activeTableTab === 'all' || activeTableTab === tIdx)
+            .map(({ table, tIdx }: { table: any, tIdx: number }) => {
+              const rawCaption = table.caption ? getBilingual(table.caption) : null;
+              const isErroneous = rawCaption && (
+                rawCaption.includes('Dr A.S. College') ||
+                rawCaption.includes('Dr. A.S. College') ||
+                rawCaption.includes('College of Agril. Engg.')
+              ) && slug !== 'dr-as-caet-rahuri' && slug !== 'education-faculty-agricultural-engineering';
+
+              const tableCaption = isErroneous
+                ? (tables.length > 1 ? (language === 'mr' ? `तक्ता ${tIdx + 1}` : `Table ${tIdx + 1}`) : null)
+                : rawCaption;
+
+              const headers = table.headers || [];
+              let rows = table.rows || [];
 
             // Apply filter if search term is active
             if (pageSearch.trim()) {
@@ -608,7 +670,9 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                <span className="font-normal">registrar.mpkv@gov.in</span>
+                <a href="mailto:registrar.mpkv@nic.in" className="font-normal hover:text-emerald-800 transition-colors">
+                  registrar.mpkv@nic.in
+                </a>
               </div>
             </div>
 

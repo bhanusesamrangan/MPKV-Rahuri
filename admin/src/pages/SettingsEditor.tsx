@@ -28,7 +28,7 @@ export const SettingsEditor: React.FC = () => {
   const [campusScopeEn, setCampusScopeEn] = useState('Central University Headquarters · Ahilyanagar (M.S.)');
   const [seedPhone, setSeedPhone] = useState('02426-243345');
   const [registrarPhone, setRegistrarPhone] = useState('02426-243215, 243366');
-  const [contactEmail, setContactEmail] = useState('registrar.mpkv@gov.in');
+  const [contactEmail, setContactEmail] = useState('registrar.mpkv@nic.in');
   const [alertTickerActive, setAlertTickerActive] = useState(true);
   const [alertTickerMr, setAlertTickerMr] = useState('राहुरी बियाणे विक्री कक्षात हरभरा विश्‍वराज व गहू समाधान बियाणे थेट विक्रीसाठी उपलब्ध.');
   const [alertTickerEn, setAlertTickerEn] = useState('Gram Vishwaraj and Wheat Samadhan certified seeds are available for direct sale at Rahuri Central Seed Desk.');

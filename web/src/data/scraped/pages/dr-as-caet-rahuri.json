@@ -48,8 +48,8 @@
       "mr": "कृषि अभियांत्रिकी, ड्रोन तंत्रज्ञान व शेती यांत्रिकीकरणाचे भारतातील अग्रगण्य महाविद्यालय"
     },
     "badge": {
-      "en": "B.Tech · M.Tech · Ph.D. Programmes",
-      "mr": "बी.टेक · एम.टेक · आचार्य पदवी"
+      "en": "AICTE Accredited · B.Tech · M.Tech · Ph.D. Programmes",
+      "mr": "एआयसीटीई (AICTE) मान्यताप्राप्त · बी.टेक · एम.टेक · आचार्य पदवी"
     }
   },
   "departments": [
@@ -99,5 +99,7 @@
   "submenuGroup": {
     "en": "Colleges",
     "mr": "महाविद्यालये"
-  }
+  },
+  "website": "https://ascaet.ac.in/",
+  "isAicteAccredited": true
 }

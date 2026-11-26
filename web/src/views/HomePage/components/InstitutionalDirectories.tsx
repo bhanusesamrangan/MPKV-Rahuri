@@ -51,7 +51,7 @@ export const InstitutionalDirectories: React.FC = () => {
       items: [
         { labelMr: 'उत्पादन चाचणी (DORPT)', labelEn: 'Product Testing', href: 'https://dorpt.mpkv.ac.in', isExternal: true },
         { labelMr: 'बेकरी उत्पादने व प्रशिक्षण', labelEn: 'Bakery Products', href: 'https://mpkv.ac.in/Uploads/MpkvProduct/Bakery%20products_20220817053418.pdf', isExternal: true },
-        { labelMr: 'ड्रोन तंत्रज्ञान प्रशिक्षण (RPTO)', labelEn: 'Drone Training', href: 'https://www.mpkv-caast.ac.in/page/rpto', isExternal: true },
+        { labelMr: 'ड्रोन तंत्रज्ञान प्रशिक्षण (RPTO)', labelEn: 'Drone Pilot Training (RPTO)', href: 'https://www.mpkv-caast.ac.in/', isExternal: true },
         { labelMr: 'माती परीक्षण प्रयोगशाळा व दर', labelEn: 'Soil Testing Rates', href: 'https://mpkv.ac.in/StaticPdf/%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%80%20%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%20%E0%A4%A6%E0%A4%B0-1.pdf', isExternal: true },
         { labelMr: 'पाणी गुणवत्ता चाचणी व दर', labelEn: 'Water Testing Rates', href: 'https://mpkv.ac.in/StaticPdf/%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%80%20%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%20%E0%A4%A6%E0%A4%B0-1.pdf', isExternal: true }
       ]
@@ -61,12 +61,13 @@ export const InstitutionalDirectories: React.FC = () => {
       group: 'knowledge',
       title: language === 'mr' ? 'ज्ञान उपक्रम व डिजिटल पोर्टल' : 'Knowledge Initiatives',
       icon: BookOpen,
-      badge: '६ उपक्रम',
-      badgeEn: '6 Portals',
+      badge: '७ उपक्रम',
+      badgeEn: '7 Portals',
       items: [
+        { labelMr: 'देशी गोवंश संशोधन व प्रशिक्षण (ICRTC)', labelEn: 'Indigenous Cattle Research (ICRTC)', href: 'https://www.icrtcmpkv.com/home', isExternal: true },
         { labelMr: 'फुले कृषिदर्शनी वार्षिक अंक', labelEn: 'Krishidarshani Annual Diary', href: 'https://mpkv.ac.in/Uploads/Publication/20260725_120158_8d696de12b98586f94302f37cb1884b2.pdf', isExternal: true },
         { labelMr: 'आयडब्ल्यूआरए जलसिंचन सेवा', labelEn: 'IWRA Irrigation Service', href: 'http://www.rkvyiwras.ac.in/', isExternal: true },
-        { labelMr: 'CAAST-CSAWM हवामान अनुकूल शेती', labelEn: 'CAAST-CSAWM NAHEP', href: 'http://www.mpkv-caast.ac.in/', isExternal: true },
+        { labelMr: 'CAAST-CSAWM हवामान अनुकूल शेती', labelEn: 'CAAST-CSAWM NAHEP', href: 'https://www.mpkv-caast.ac.in/', isExternal: true },
         { labelMr: 'कृषि विज्ञान केंद्र (KVK) पोर्टल', labelEn: 'KVK Network Portal', href: 'https://icar.org.in/node/14809', isExternal: true },
         { labelMr: 'शेतकरी डिजिटल सेवा पोर्टल', labelEn: 'National Farmers\' Portal', href: 'https://www.farmer.gov.in/', isExternal: true },
         { labelMr: 'कृषि शिक्षण पोर्टल (ICAR)', labelEn: 'Agricultural Education Portal', href: 'https://icar.org.in/en', isExternal: true }

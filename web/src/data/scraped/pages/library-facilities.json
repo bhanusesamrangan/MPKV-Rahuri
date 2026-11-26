@@ -613,10 +613,7 @@
   "tables": [
     {
       "id": "table_1",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No.",

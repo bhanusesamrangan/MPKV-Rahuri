@@ -143,7 +143,8 @@ export const ResearchSchemesView: React.FC<ResearchSchemesViewProps> = ({ pageDa
   const fundedProjects = [
     { sr: '1', title: 'Ongoing Ad-hoc Projects / Network / Collaborative Research Projects', pdf: '/media/docs/Ad-hoc_Project-2025_20250822031659.pdf', authority: 'Chief Minister Agricultural Research Assistant Funds & Central Schemes' },
     { sr: '2', title: 'Chief Minister Agricultural Research Assistant Projects (13 Ongoing Schemes)', pdf: '/media/docs/Ad-hoc_Project-2025_20250822031659.pdf', authority: 'Government of Maharashtra' },
-    { sr: '3', title: 'CAAST-CSAWM: Center for Advanced Agricultural Science & Technology on Climate Smart Agriculture and Water Management', pdf: '/media/docs/Ad-hoc_Project-2025_20250822031659.pdf', authority: 'World Bank & ICAR-NAHEP' }
+    { sr: '3', title: 'CAAST-CSAWM: Center for Advanced Agricultural Science & Technology on Climate Smart Agriculture and Water Management', pdf: 'https://www.mpkv-caast.ac.in/', authority: 'World Bank & ICAR-NAHEP' },
+    { sr: '4', title: 'ICRTC: Indigenous Cattle Research-cum-Training Centre (Gir, Sahiwal, OPU-IVF Centre of Excellence)', pdf: 'https://www.icrtcmpkv.com/home', authority: 'Rashtriya Krishi Vikas Yojana (RKVY) & College of Agriculture, Pune' }
   ];
 
   // Determine current active config based on route

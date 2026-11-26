@@ -154,7 +154,9 @@ export const Footer: React.FC = () => {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-amber-600 flex-shrink-0" />
-              <span>registrar.mpkv@gov.in</span>
+              <a href="mailto:registrar.mpkv@nic.in" className="hover:text-amber-800 transition-colors">
+                registrar.mpkv@nic.in
+              </a>
             </div>
             <div className="pt-2">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-xs font-medium">

@@ -36,7 +36,7 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
       scope: { en: 'Entire University Administrative Jurisdiction & Final Appeals', mr: 'संपूर्ण विद्यापीठ प्रशासकीय कार्यक्षेत्र व अंतिम अपिले' },
       address: { en: 'Registrar Office, Central Administrative Building, Rahuri', mr: 'कुलसचिव कार्यालय, मध्यवर्ती प्रशासकीय इमारत, राहुरी' },
       phone: '02426-243216 / 243208',
-      email: 'registrar.mpkv@gov.in',
+      email: 'registrar.mpkv@nic.in',
       badgeColor: 'bg-amber-100 text-amber-950 border-amber-300'
     },
     {
@@ -63,7 +63,7 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
       scope: { en: 'Research Stations, Varieties, AICRP Projects & Agricultural Patents', mr: 'संशोधन केंद्रे, पीक वाण, अखिल भारतीय प्रकल्प व पेटंट्स' },
       address: { en: 'Directorate of Research, Rahuri', mr: 'संशोधन संचालनालय, राहुरी' },
       phone: '02426-243223',
-      email: 'dr.mpkv@gov.in',
+      email: 'dor.mpkv@mpkv.ac.in',
       badgeColor: 'bg-purple-100 text-purple-950 border-purple-300'
     },
     {

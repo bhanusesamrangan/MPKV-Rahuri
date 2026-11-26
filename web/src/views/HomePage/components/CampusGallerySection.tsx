@@ -41,6 +41,8 @@ interface GalleryItem {
   image: string;
   isVideo?: boolean;
   videoUrl?: string;
+  channelUrl?: string;
+  embedId?: string;
 }
 
 export const CampusGallerySection: React.FC = () => {
@@ -191,17 +193,19 @@ export const CampusGallerySection: React.FC = () => {
       id: 'gal_video_tour',
       category: 'video',
       title: {
-        en: 'MPKV Rahuri Official Documentary: 57 Years of Agricultural Excellence',
-        mr: 'मफुकृवि राहुरी अधिकृत माहितीपट : ५७ वर्षांची कृषी क्रांती व वाटचाल'
+        en: 'MPKV Rahuri Video Tour: Phule Krishi Mahotsav & Research Field Demonstrations',
+        mr: 'मफुकृवि राहुरी अधिकृत माहितीपट : फुले कृषी महोत्सव, थेट पीक प्रात्यक्षिके व शिवार फेरी'
       },
       subtitle: {
-        en: 'Watch the cinematic documentary chronicling the journey, scientific breakthroughs, and farmer prosperity stories.',
-        mr: 'मफुकृवि राहुरीच्या ५७ वर्षांच्या संशोधन वाटचालीचा व शेतकरी समृद्धीचा संपूर्ण व्हिडिओ माहितीपट.'
+        en: 'Watch the official video tour of MPKV Rahuri highlighting scientific breakthroughs, crop demonstrations, and farmer prosperity.',
+        mr: 'मफुकृवि राहुरीच्या प्रगत संशोधन, थेट पीक प्रात्यक्षिके, शिवार फेरी व शेतकरी समृद्धीची संपूर्ण अधिकृत चित्रफीत.'
       },
-      tag: { en: 'Official Documentary', mr: 'व्हिडिओ माहितीपट' },
+      tag: { en: 'Official Video Tour', mr: 'व्हिडिओ माहितीपट' },
       image: '/media/images/WhatsApp_Image_2026-06-10_at_2.33.11_PM__2__20260612125340_20260619122121.jpeg',
       isVideo: true,
-      videoUrl: 'https://www.youtube.com/@mpkvrahuri'
+      videoUrl: 'https://www.youtube.com/watch?v=FWFkXxA8mp0',
+      channelUrl: 'https://www.youtube.com/@mpkvrahuri1161',
+      embedId: 'FWFkXxA8mp0'
     }
   ];
 
@@ -357,13 +361,13 @@ export const CampusGallerySection: React.FC = () => {
               <span>{language === 'mr' ? 'सर्व फोटो गॅलरी' : 'Full Photo Archive'}</span>
             </Link>
             <a
-              href="https://www.youtube.com/@mpkvrahuri"
+              href="https://www.youtube.com/@mpkvrahuri1161"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs transition-all shadow-xs hover:shadow-md"
             >
               <Play className="w-3.5 h-3.5 fill-white" />
-              <span>{language === 'mr' ? 'यूट्यूब चॅनेल' : 'Official YouTube'}</span>
+              <span>{language === 'mr' ? 'यूट्यूब चॅनेल (@mpkvrahuri1161)' : 'Official YouTube (@mpkvrahuri1161)'}</span>
               <ExternalLink className="w-3 h-3 text-rose-200" />
             </a>
           </div>
@@ -529,11 +533,11 @@ export const CampusGallerySection: React.FC = () => {
             {currentItem.isVideo && (
               <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
                 <a
-                  href={currentItem.videoUrl || 'https://www.youtube.com/@mpkvrahuri'}
+                  href={currentItem.videoUrl || 'https://www.youtube.com/@mpkvrahuri1161'}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="pointer-events-auto w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-rose-600/95 hover:bg-rose-500 text-white flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 group-hover:ring-8 group-hover:ring-rose-500/30"
-                  aria-label="Play Video"
+                  aria-label="Play Video on YouTube"
                 >
                   <Play className="w-8 h-8 fill-white ml-1.5" />
                 </a>
@@ -579,15 +583,27 @@ export const CampusGallerySection: React.FC = () => {
                 {/* Primary Action Button */}
                 <div className="flex items-center gap-2 flex-shrink-0">
                   {currentItem.isVideo ? (
-                    <a
-                      href={currentItem.videoUrl || 'https://www.youtube.com/@mpkvrahuri'}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold transition-all shadow-md"
-                    >
-                      <Play className="w-3.5 h-3.5 fill-white" />
-                      <span>{language === 'mr' ? 'चित्रफीत पहा' : 'Watch Tour'}</span>
-                    </a>
+                    <div className="flex items-center gap-2">
+                      <a
+                        href={currentItem.videoUrl || 'https://www.youtube.com/watch?v=FWFkXxA8mp0'}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold transition-all shadow-md"
+                      >
+                        <Play className="w-3.5 h-3.5 fill-white" />
+                        <span>{language === 'mr' ? 'चित्रफीत पहा' : 'Watch Video'}</span>
+                      </a>
+                      <a
+                        href={currentItem.channelUrl || 'https://www.youtube.com/@mpkvrahuri1161'}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/20 hover:bg-white/30 text-white text-xs font-bold transition-all shadow-md backdrop-blur-sm"
+                        title={language === 'mr' ? 'अधिकृत यूट्यूब चॅनेल' : 'Official YouTube Channel'}
+                      >
+                        <ExternalLink className="w-3.5 h-3.5" />
+                        <span>{language === 'mr' ? 'चॅनेल (@mpkvrahuri1161)' : 'Channel'}</span>
+                      </a>
+                    </div>
                   ) : (
                     <button
                       onClick={() => setIsLightboxOpen(true)}
@@ -928,13 +944,28 @@ export const CampusGallerySection: React.FC = () => {
               <ChevronLeft className="w-6 h-6 sm:w-8 sm:h-8" />
             </button>
 
-            {/* Image */}
-            <img
-              src={currentItem.image}
-              alt={getBilingual(currentItem.title)}
-              className="max-h-full max-w-full object-contain rounded-2xl shadow-2xl transition-all"
-              onClick={(e) => e.stopPropagation()}
-            />
+            {/* Image or Video Player */}
+            {currentItem.isVideo ? (
+              <div
+                className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black relative flex items-center justify-center border border-white/20"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${currentItem.embedId || 'FWFkXxA8mp0'}?autoplay=1&rel=0`}
+                  title={getBilingual(currentItem.title)}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full border-0"
+                />
+              </div>
+            ) : (
+              <img
+                src={currentItem.image}
+                alt={getBilingual(currentItem.title)}
+                className="max-h-full max-w-full object-contain rounded-2xl shadow-2xl transition-all"
+                onClick={(e) => e.stopPropagation()}
+              />
+            )}
 
             {/* Next Arrow */}
             <button
@@ -958,6 +989,28 @@ export const CampusGallerySection: React.FC = () => {
               <p className="text-xs sm:text-sm text-white/70 max-w-2xl mx-auto mt-0.5">
                 {getBilingual(currentItem.subtitle)}
               </p>
+              {currentItem.isVideo && (
+                <div className="flex items-center justify-center gap-3 pt-2">
+                  <a
+                    href={currentItem.videoUrl || 'https://www.youtube.com/watch?v=FWFkXxA8mp0'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold transition-all shadow-md"
+                  >
+                    <Play className="w-3.5 h-3.5 fill-white" />
+                    <span>{language === 'mr' ? 'यूट्यूबवर पहा' : 'Open in YouTube'}</span>
+                  </a>
+                  <a
+                    href={currentItem.channelUrl || 'https://www.youtube.com/@mpkvrahuri1161'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/20 hover:bg-white/30 text-white text-xs font-bold transition-all shadow-md backdrop-blur-sm"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    <span>{language === 'mr' ? 'अधिकृत चॅनेल (@mpkvrahuri1161)' : 'Official Channel (@mpkvrahuri1161)'}</span>
+                  </a>
+                </div>
+              )}
             </div>
 
             {/* Mini Lightbox Filmstrip */}

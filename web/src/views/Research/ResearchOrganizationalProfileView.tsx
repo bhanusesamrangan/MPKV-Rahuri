@@ -45,7 +45,7 @@ export const ResearchOrganizationalProfileView: React.FC<ResearchOrganizationalP
       mr: 'संशोधन संचालनालय, महात्मा फुले कृषी विद्यापीठ, राहुरी - ४१३७२२, जि. अहमदनगर (महाराष्ट्र)'
     },
     phone: '02426 243223',
-    email: 'dormpkv@rediffmail.com',
+    email: 'dor.mpkv@mpkv.ac.in',
     photo: '/media/images/Dr_PS_Bodake.jpg',
     officeHours: { en: 'Mon - Sat: 9:45 AM - 6:15 PM', mr: 'सोम - शनि: सकाळी ९:४५ ते सायं ६:१५' },
     messageEn: 'The Directorate of Research coordinates 27 research stations spread across 5 distinct agro-climatic zones, executing 82 Non-Plan State schemes, 45 ICAR-AICRP projects, and Centrally Sponsored Research Schemes spanning over 100 crops. Our continuous commitment is to deliver climate-resilient crop varieties, farm mechanization implements, and natural resource management models to uplift the farming community of Western Maharashtra.',

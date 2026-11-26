@@ -106,8 +106,8 @@ export const FacultyBranchView: React.FC<FacultyBranchViewProps> = ({ pageData, 
 
   const heroBadge = pageData?.hero?.badge || (isEngg
     ? {
-        en: 'Dr. ASCAET Rahuri (Est. 1969) | 5 Engineering Departments | National Testing Center',
-        mr: 'डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी महाविद्यालय (स्था. १९६९) | ५ अभियांत्रिकी विभाग'
+        en: 'AICTE Accredited · Dr. ASCAET Rahuri (Est. 1969) | 5 Engineering Departments | National Testing Center',
+        mr: 'एआयसीटीई (AICTE) मान्यताप्राप्त · डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी महाविद्यालय (स्था. १९६९) | ५ विभाग'
       }
     : {
         en: '11 Academic Departments | 14 Constituent Campuses | 100+ Professors',
@@ -118,6 +118,7 @@ export const FacultyBranchView: React.FC<FacultyBranchViewProps> = ({ pageData, 
 
   const quickChips = isEngg
     ? [
+        { label: language === 'mr' ? 'एआयसीटीई (AICTE) मान्यताप्राप्त संस्था' : 'AICTE Accredited Institution' },
         { label: language === 'mr' ? 'डॉ. अण्णासाहेब शिंदे महाविद्यालय (स्था. १९६९)' : 'Dr. ASCAET Rahuri (Est. 1969)' },
         { label: language === 'mr' ? '५ विशेषज्ञ अभियांत्रिकी विभाग' : '5 Engineering Divisions' },
         { label: language === 'mr' ? 'राष्ट्रीय ट्रॅक्टर चाचणी केंद्र' : 'National Tractor Testing Center' }

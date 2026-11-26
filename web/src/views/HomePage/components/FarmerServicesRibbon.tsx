@@ -177,7 +177,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
       subtitle: language === 'mr' ? 'पीक प्रात्यक्षिके व शेतकरी यशोगाथा' : 'Video demonstrations & farmer talks',
       badge: language === 'mr' ? 'व्हिडिओ दालन' : 'Video Archive',
       icon: Video,
-      link: 'https://www.youtube.com/@mpkvrahuri',
+      link: 'https://www.youtube.com/@mpkvrahuri1161',
       isExternal: true,
       styles: {
         iconBg: 'bg-gradient-to-br from-red-500 to-rose-700 text-white shadow-md shadow-red-500/25',

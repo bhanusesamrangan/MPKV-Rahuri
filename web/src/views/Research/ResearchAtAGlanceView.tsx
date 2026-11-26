@@ -94,8 +94,8 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
     deptMr: 'संशोधन संचालनालय, महात्मा फुले कृषी विद्यापीठ, राहुरी',
     address: 'Rahuri- 413 722, Dist: Ahmednagar, MS, India',
     addressMr: 'राहुरी - ४१३७२२, जि. अहमदनगर (महाराष्ट्र)',
-    phone: '02426 243223',
-    email: 'dormpkv@rediffmail.com',
+    phone: '02426-243261',
+    email: 'dor.mpkv@mpkv.ac.in',
     photo: '/media/images/Dr_PS_Bodake.jpg'
   };
 
@@ -250,11 +250,18 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
     }
   ];
 
-  // 6. Registered Pure Livestock Breeds with NBAGR Karnal
+  // 6. Registered Pure Livestock Breeds with NBAGR Karnal & ICRTC Centre of Excellence
   const livestockBreeds = [
     {
-      speciesEn: 'Indigenous Cattle',
-      speciesMr: 'देशी गोवंश',
+      speciesEn: 'Indigenous Cattle (ICRTC Pune)',
+      speciesMr: 'देशी गोवंश (ICRTC पुणे)',
+      breedEn: 'Gir, Sahiwal, Red Sindhi, Rathi & Tharparkar',
+      breedMr: 'गीर, साहिवाल, लाल सिंधी, राठी व थारपारकर',
+      descEn: 'Conservation, Sahiwal Data Recording, and OPU-IVF embryo transfer at Indigenous Cattle Research-cum-Training Centre (icrtcmpkv.com).'
+    },
+    {
+      speciesEn: 'Indigenous Draught Cattle',
+      speciesMr: 'देशी ओढकाम गोवंश',
       breedEn: 'Khillar',
       breedMr: 'खिल्लार',
       descEn: 'Legendary draught breed renowned for speed, stamina, and resilience in dryland farming.'
@@ -460,448 +467,447 @@ export const ResearchAtAGlanceView: React.FC<ResearchAtAGlanceViewProps> = ({ pa
         {/* ================================================================= */}
         <div className="w-full space-y-10">
 
-            {/* A. Top Header Box: Director of Research Profile (Verbatim from Live Site) */}
-            <div className="p-6 sm:p-7 rounded-3xl bg-white border border-stone-200 shadow-sm flex flex-col md:flex-row items-center md:items-start gap-6">
-              <div className="relative shrink-0">
-                <div className="w-32 h-36 sm:w-36 sm:h-40 rounded-2xl overflow-hidden border-2 border-amber-400 shadow-md bg-stone-100 flex items-center justify-center">
-                  <img
-                    src={directorInfo.photo}
-                    alt={directorInfo.name}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      (e.target as HTMLElement).style.display = 'none';
-                    }}
-                  />
-                </div>
-                <div className="absolute -bottom-2 -right-2 p-1.5 rounded-full bg-emerald-600 text-white shadow-md">
-                  <BadgeCheck className="w-4 h-4" />
-                </div>
+          {/* A. Top Header Box: Director of Research Profile (Verbatim from Live Site) */}
+          <div className="p-6 sm:p-7 rounded-3xl bg-white border border-stone-200 shadow-sm flex flex-col md:flex-row items-center md:items-start gap-6">
+            <div className="relative shrink-0">
+              <div className="w-32 h-36 sm:w-36 sm:h-40 rounded-2xl overflow-hidden border-2 border-amber-400 shadow-md bg-stone-100 flex items-center justify-center">
+                <img
+                  src={directorInfo.photo}
+                  alt={directorInfo.name}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLElement).style.display = 'none';
+                  }}
+                />
+              </div>
+              <div className="absolute -bottom-2 -right-2 p-1.5 rounded-full bg-emerald-600 text-white shadow-md">
+                <BadgeCheck className="w-4 h-4" />
+              </div>
+            </div>
+
+            <div className="space-y-2 text-center md:text-left flex-1">
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-[11px] font-bold uppercase tracking-wider">
+                <span>{language === 'mr' ? directorInfo.roleMr : directorInfo.role}</span>
               </div>
 
-              <div className="space-y-2 text-center md:text-left flex-1">
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-[11px] font-bold uppercase tracking-wider">
-                  <span>{language === 'mr' ? directorInfo.roleMr : directorInfo.role}</span>
+              <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-serif">
+                {language === 'mr' ? directorInfo.nameMr : directorInfo.name}
+              </h2>
+
+              <p className="text-xs sm:text-sm font-semibold text-emerald-900">
+                {language === 'mr' ? directorInfo.deptMr : directorInfo.dept}
+              </p>
+
+              <p className="text-xs text-stone-600">
+                {language === 'mr' ? directorInfo.addressMr : directorInfo.address}
+              </p>
+
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs font-semibold text-slate-700">
+                <div className="flex items-center gap-1.5">
+                  <Phone className="w-3.5 h-3.5 text-emerald-700" />
+                  <span>{directorInfo.phone}</span>
                 </div>
-
-                <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-serif">
-                  {language === 'mr' ? directorInfo.nameMr : directorInfo.name}
-                </h2>
-
-                <p className="text-xs sm:text-sm font-semibold text-emerald-900">
-                  {language === 'mr' ? directorInfo.deptMr : directorInfo.dept}
-                </p>
-
-                <p className="text-xs text-stone-600">
-                  {language === 'mr' ? directorInfo.addressMr : directorInfo.address}
-                </p>
-
-                <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs font-semibold text-slate-700">
-                  <div className="flex items-center gap-1.5">
-                    <Phone className="w-3.5 h-3.5 text-emerald-700" />
-                    <span>{directorInfo.phone}</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <Mail className="w-3.5 h-3.5 text-emerald-700" />
-                    <a href={`mailto:${directorInfo.email}`} className="text-emerald-800 hover:underline">
-                      {directorInfo.email}
-                    </a>
-                  </div>
+                <div className="flex items-center gap-1.5">
+                  <Mail className="w-3.5 h-3.5 text-emerald-700" />
+                  <a href={`mailto:${directorInfo.email}`} className="text-emerald-800 hover:underline">
+                    {directorInfo.email}
+                  </a>
                 </div>
+              </div>
+            </div>
+
+            <Link
+              href="/research/profile"
+              className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold transition-all shrink-0 self-center md:self-start"
+            >
+              <span>{language === 'mr' ? 'पूर्ण परिचय' : 'View Profile'}</span>
+            </Link>
+          </div>
+
+          {/* B. Research Network & Scope Narrative (Paragraph 1) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
+            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-xs font-bold uppercase tracking-wider">
+              <Microscope className="w-3.5 h-3.5 text-emerald-700" />
+              <span>{language === 'mr' ? 'संशोधन जाळे व कार्यकक्षा' : 'Research Network & Jurisdiction'}</span>
+            </div>
+
+            <p className="text-sm sm:text-base text-stone-700 leading-relaxed text-justify font-medium">
+              {language === 'mr'
+                ? 'विद्यापीठाचे पश्चिम महाराष्ट्रातील ५ विविध कृषी हवामान विभागांमध्ये पसरलेले २७ संशोधन केंद्रांचे सुसज्ज जाळे आहे. यात राज्य शासन अनुदानित ८२ योजनेतर योजना, विविध पिके व वनस्पती शास्त्रांवरील ४५ अखिल भारतीय समन्वित संशोधन प्रकल्प (AICRP) आणि केंद्र शासनाच्या कृषी मंत्रालयाद्वारे १००% पुरस्कृत १ केंद्र प्रायोजित संशोधन योजना कार्यरत आहेत. येथे तृणधान्ये, कडधान्ये, गळीतधान्ये, भाजीपाला, संरक्षित शेतीतील नगदी पिके, विदेशी भाज्या आणि फळपिकांसह १०० हून अधिक पिकांवर वाण विकास व तंत्रज्ञान प्रमाणीकरण केले जाते. याशिवाय नैसर्गिक साधनसंपत्ती व्यवस्थापन व साधनहीन शेतकरी वर्गाच्या उन्नतीसाठी एकात्मिक शेती पद्धती मॉडेलचे संशोधन राबविले जाते.'
+                : 'The university has a very good network of 27 research stations spread over 5 different agro-climatic zones having 82 non-plan schemes funded by State Govt., 45 AICRPs on different crops/plant sciences and one Centrally Sponsored Research Scheme funded by the Central Govt., Ministry of Agriculture, where varietal development and technology verification of more than 100 crops (cereals, pulses, oilseeds, vegetable, cash crops protected cultivation, exotic vegetables and fruit crops) is being carried out. In addition to this, management of natural resources and development of integrated farming system model research is undertaken for the upliftment of resource-poor farming community.'}
+            </p>
+          </div>
+
+          {/* C. Six Statutory Research Objectives (Paragraphs 2 & 3) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-emerald-50/70 via-stone-50 to-amber-50/50 border border-emerald-200 space-y-5">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-900 border border-emerald-300">
+                  Statutory Mandate
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 mt-1 font-serif">
+                  {language === 'mr' ? 'संशोधन उद्दिष्टे व कार्यप्रणाली' : 'Research Objectives & Thrust Priorities'}
+                </h3>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {mandateObjectives.map((obj, idx) => (
+                <div
+                  key={idx}
+                  className="p-4 rounded-2xl bg-white border border-stone-200/80 shadow-2xs flex items-start gap-3 hover:border-emerald-300 transition-colors"
+                >
+                  <div className="p-1.5 rounded-lg bg-emerald-100 text-emerald-800 shrink-0 mt-0.5">
+                    <CheckCircle2 className="w-4 h-4" />
+                  </div>
+                  <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
+                    {language === 'mr' ? obj.mr : obj.en}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* D. 53 Years Historic Milestones Narrative (Paragraph 4) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
+            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-bold uppercase tracking-wider">
+              <Sparkles className="w-3.5 h-3.5 text-amber-600" />
+              <span>{language === 'mr' ? '५३ वर्षांचे ऐतिहासिक योगदान' : '53-Year Milestone Accomplishments'}</span>
+            </div>
+
+            <p className="text-sm sm:text-base text-stone-700 leading-relaxed text-justify font-medium">
+              {language === 'mr'
+                ? 'जमीन, पाणी, हवामान आणि उपलब्ध साधनसामग्रीचा साकल्याने विचार करून कोरडवाहू शेती, सिंचित शेती तसेच उच्च तंत्रज्ञान शेतीसाठी अनुकूल तंत्रज्ञान विकसित करण्यावर विद्यापीठाने भर दिला आहे. गेल्या ५३ वर्षांत पेरणी, पुनर्लागवड, आंतरमशागत व काढणी सुलभ करण्यासाठी ३९ प्रकारची शेती अवजारे व यंत्रे विकसित केली आहेत. तसेच शेतीपिके, चारापिके, भाजीपाला, फळपिके, शोभिवंत वनस्पती, नगदी पिके, मसाले व औषधी वनस्पतींचे २७० हून अधिक सुधारित व संकरित वाण प्रसारित केले आहेत. याशिवाय राष्ट्रीय पशु आनुवंशिक संसाधन ब्युरो (NBAGR, कर्नाल) कडे खिल्लार गाय, उस्मानाबादी व संगमनेरी शेळी, दख्खनी मेंढी, पंढरपुरी म्हैस या शुद्ध जातींची नोंदणी केली असून फुले त्रिवेणी ही तिहेरी संकरित गाय विकसित केली आहे. शेतकऱ्यांसाठी १५७७ हून अधिक पीक उत्पादन तंत्रज्ञान शिफारसी विकसित करण्यात आल्या आहेत.'
+                : 'Taking into consideration the availability of land, water, weather conditions, and existing resources, the university has concentrated its efforts to develop suitable technologies for dryland agriculture, irrigated farming, and hi-tech agriculture. During the last 53 years, the University has developed about 39 different types of Farm Implements and Machineries for sowing, transplanting, interculturing, and harvesting operations, and 270 improved / F1 hybrid varieties across field crops, forages, vegetables, horticultural and ornamental crops, cash crops, spices, aromatic, and medicinal plants. The university has registered pure breeds of cattle (Khillar), goat (Osmanabadi & Sangamneri), sheep (Deccani), and buffalo (Pandharpuri) with NBAGR, Karnal, and developed the Phule Triveni triple-cross cattle breed. More than 1,577 crop production technologies have been recommended for productivity improvement.'}
+            </p>
+          </div>
+
+          {/* E. NBAGR Registered Pure Livestock Breeds */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-5">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-teal-100 text-teal-950 border border-teal-300 text-xs font-bold uppercase tracking-wider mb-1">
+                  <Award className="w-3.5 h-3.5 text-teal-700" />
+                  <span>{language === 'mr' ? 'NBAGR कर्नाल नोंदणीकृत देशी पशुधन' : 'NBAGR Karnal Registered Pure Breeds'}</span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
+                  {language === 'mr' ? 'पशुसंवर्धन व देशी गोवंश संशोधन' : 'Livestock Genetic Resources & Dairy Innovation'}
+                </h3>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {livestockBreeds.map((b, idx) => (
+                <div
+                  key={idx}
+                  className="p-4 rounded-2xl bg-stone-50 border border-stone-200 shadow-2xs hover:border-teal-400 transition-colors space-y-2"
+                >
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-teal-100 text-teal-900">
+                      {language === 'mr' ? b.speciesMr : b.speciesEn}
+                    </span>
+                    <span className="text-xs font-bold text-stone-500">NBAGR Validated</span>
+                  </div>
+                  <div className="text-base font-bold text-slate-900 font-serif">
+                    {language === 'mr' ? b.breedMr : b.breedEn}
+                  </div>
+                  <p className="text-xs text-stone-600 leading-relaxed font-medium">
+                    {b.descEn}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* F. All 17 Crop Varieties Released (Verbatim List from Paragraph 5) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-6">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-stone-200 pb-4">
+              <div>
+                <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-bold uppercase tracking-wider mb-1">
+                  <Sprout className="w-3.5 h-3.5 text-amber-600" />
+                  <span>{language === 'mr' ? 'सर्व १७ प्रमुख पीक वाण' : 'All 17 Landmark Crop Varieties'}</span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
+                  {language === 'mr' ? 'विद्यापीठाने विकसित केलेले ऐतिहासिक वाण' : 'Prominent Varieties Released by MPKV'}
+                </h3>
               </div>
 
               <Link
-                href="/research/profile"
-                className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold transition-all shrink-0 self-center md:self-start"
+                href="/research/varieties"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-white text-xs font-semibold transition-all shrink-0"
               >
-                <span>{language === 'mr' ? 'पूर्ण परिचय' : 'View Profile'}</span>
+                <span>{language === 'mr' ? 'सर्व १४ पीक राजपत्रे पहा' : 'View All Variety Gazettes'}</span>
+                <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
 
-            {/* B. Research Network & Scope Narrative (Paragraph 1) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
-              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-xs font-bold uppercase tracking-wider">
-                <Microscope className="w-3.5 h-3.5 text-emerald-700" />
-                <span>{language === 'mr' ? 'संशोधन जाळे व कार्यकक्षा' : 'Research Network & Jurisdiction'}</span>
-              </div>
-
-              <p className="text-sm sm:text-base text-stone-700 leading-relaxed text-justify font-medium">
-                {language === 'mr'
-                  ? 'विद्यापीठाचे पश्चिम महाराष्ट्रातील ५ विविध कृषी हवामान विभागांमध्ये पसरलेले २७ संशोधन केंद्रांचे सुसज्ज जाळे आहे. यात राज्य शासन अनुदानित ८२ योजनेतर योजना, विविध पिके व वनस्पती शास्त्रांवरील ४५ अखिल भारतीय समन्वित संशोधन प्रकल्प (AICRP) आणि केंद्र शासनाच्या कृषी मंत्रालयाद्वारे १००% पुरस्कृत १ केंद्र प्रायोजित संशोधन योजना कार्यरत आहेत. येथे तृणधान्ये, कडधान्ये, गळीतधान्ये, भाजीपाला, संरक्षित शेतीतील नगदी पिके, विदेशी भाज्या आणि फळपिकांसह १०० हून अधिक पिकांवर वाण विकास व तंत्रज्ञान प्रमाणीकरण केले जाते. याशिवाय नैसर्गिक साधनसंपत्ती व्यवस्थापन व साधनहीन शेतकरी वर्गाच्या उन्नतीसाठी एकात्मिक शेती पद्धती मॉडेलचे संशोधन राबविले जाते.'
-                  : 'The university has a very good network of 27 research stations spread over 5 different agro-climatic zones having 82 non-plan schemes funded by State Govt., 45 AICRPs on different crops/plant sciences and one Centrally Sponsored Research Scheme funded by the Central Govt., Ministry of Agriculture, where varietal development and technology verification of more than 100 crops (cereals, pulses, oilseeds, vegetable, cash crops protected cultivation, exotic vegetables and fruit crops) is being carried out. In addition to this, management of natural resources and development of integrated farming system model research is undertaken for the upliftment of resource-poor farming community.'}
-              </p>
-            </div>
-
-            {/* C. Six Statutory Research Objectives (Paragraphs 2 & 3) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-emerald-50/70 via-stone-50 to-amber-50/50 border border-emerald-200 space-y-5">
-              <div className="flex items-center justify-between">
-                <div>
-                  <span className="text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-900 border border-emerald-300">
-                    Statutory Mandate
-                  </span>
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 mt-1 font-serif">
-                    {language === 'mr' ? 'संशोधन उद्दिष्टे व कार्यप्रणाली' : 'Research Objectives & Thrust Priorities'}
-                  </h3>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {mandateObjectives.map((obj, idx) => (
-                  <div
-                    key={idx}
-                    className="p-4 rounded-2xl bg-white border border-stone-200/80 shadow-2xs flex items-start gap-3 hover:border-emerald-300 transition-colors"
-                  >
-                    <div className="p-1.5 rounded-lg bg-emerald-100 text-emerald-800 shrink-0 mt-0.5">
-                      <CheckCircle2 className="w-4 h-4" />
-                    </div>
-                    <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
-                      {language === 'mr' ? obj.mr : obj.en}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* D. 53 Years Historic Milestones Narrative (Paragraph 4) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
-              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-bold uppercase tracking-wider">
-                <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-                <span>{language === 'mr' ? '५३ वर्षांचे ऐतिहासिक योगदान' : '53-Year Milestone Accomplishments'}</span>
-              </div>
-
-              <p className="text-sm sm:text-base text-stone-700 leading-relaxed text-justify font-medium">
-                {language === 'mr'
-                  ? 'जमीन, पाणी, हवामान आणि उपलब्ध साधनसामग्रीचा साकल्याने विचार करून कोरडवाहू शेती, सिंचित शेती तसेच उच्च तंत्रज्ञान शेतीसाठी अनुकूल तंत्रज्ञान विकसित करण्यावर विद्यापीठाने भर दिला आहे. गेल्या ५३ वर्षांत पेरणी, पुनर्लागवड, आंतरमशागत व काढणी सुलभ करण्यासाठी ३९ प्रकारची शेती अवजारे व यंत्रे विकसित केली आहेत. तसेच शेतीपिके, चारापिके, भाजीपाला, फळपिके, शोभिवंत वनस्पती, नगदी पिके, मसाले व औषधी वनस्पतींचे २७० हून अधिक सुधारित व संकरित वाण प्रसारित केले आहेत. याशिवाय राष्ट्रीय पशु आनुवंशिक संसाधन ब्युरो (NBAGR, कर्नाल) कडे खिल्लार गाय, उस्मानाबादी व संगमनेरी शेळी, दख्खनी मेंढी, पंढरपुरी म्हैस या शुद्ध जातींची नोंदणी केली असून फुले त्रिवेणी ही तिहेरी संकरित गाय विकसित केली आहे. शेतकऱ्यांसाठी १५७७ हून अधिक पीक उत्पादन तंत्रज्ञान शिफारसी विकसित करण्यात आल्या आहेत.'
-                  : 'Taking into consideration the availability of land, water, weather conditions, and existing resources, the university has concentrated its efforts to develop suitable technologies for dryland agriculture, irrigated farming, and hi-tech agriculture. During the last 53 years, the University has developed about 39 different types of Farm Implements and Machineries for sowing, transplanting, interculturing, and harvesting operations, and 270 improved / F1 hybrid varieties across field crops, forages, vegetables, horticultural and ornamental crops, cash crops, spices, aromatic, and medicinal plants. The university has registered pure breeds of cattle (Khillar), goat (Osmanabadi & Sangamneri), sheep (Deccani), and buffalo (Pandharpuri) with NBAGR, Karnal, and developed the Phule Triveni triple-cross cattle breed. More than 1,577 crop production technologies have been recommended for productivity improvement.'}
-              </p>
-            </div>
-
-            {/* E. NBAGR Registered Pure Livestock Breeds */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-5">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                <div>
-                  <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-teal-100 text-teal-950 border border-teal-300 text-xs font-bold uppercase tracking-wider mb-1">
-                    <Award className="w-3.5 h-3.5 text-teal-700" />
-                    <span>{language === 'mr' ? 'NBAGR कर्नाल नोंदणीकृत देशी पशुधन' : 'NBAGR Karnal Registered Pure Breeds'}</span>
-                  </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
-                    {language === 'mr' ? 'पशुसंवर्धन व देशी गोवंश संशोधन' : 'Livestock Genetic Resources & Dairy Innovation'}
-                  </h3>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {livestockBreeds.map((b, idx) => (
-                  <div
-                    key={idx}
-                    className="p-4 rounded-2xl bg-stone-50 border border-stone-200 shadow-2xs hover:border-teal-400 transition-colors space-y-2"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-teal-100 text-teal-900">
-                        {language === 'mr' ? b.speciesMr : b.speciesEn}
-                      </span>
-                      <span className="text-xs font-bold text-stone-500">NBAGR Validated</span>
-                    </div>
-                    <div className="text-base font-bold text-slate-900 font-serif">
-                      {language === 'mr' ? b.breedMr : b.breedEn}
-                    </div>
-                    <p className="text-xs text-stone-600 leading-relaxed font-medium">
-                      {b.descEn}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* F. All 17 Crop Varieties Released (Verbatim List from Paragraph 5) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-6">
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-stone-200 pb-4">
-                <div>
-                  <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-bold uppercase tracking-wider mb-1">
-                    <Sprout className="w-3.5 h-3.5 text-amber-600" />
-                    <span>{language === 'mr' ? 'सर्व १७ प्रमुख पीक वाण' : 'All 17 Landmark Crop Varieties'}</span>
-                  </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
-                    {language === 'mr' ? 'विद्यापीठाने विकसित केलेले ऐतिहासिक वाण' : 'Prominent Varieties Released by MPKV'}
-                  </h3>
-                </div>
-
-                <Link
-                  href="/research/varieties"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-white text-xs font-semibold transition-all shrink-0"
-                >
-                  <span>{language === 'mr' ? 'सर्व १४ पीक राजपत्रे पहा' : 'View All Variety Gazettes'}</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
-              </div>
-
-              {/* Search & Category Filter Controls */}
-              <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
-                <div className="flex flex-wrap items-center gap-1.5">
-                  {[
-                    { id: 'all', label: language === 'mr' ? 'सर्व पिके' : 'All Crops' },
-                    { id: 'cash', label: language === 'mr' ? 'ऊस व नगदी' : 'Cash Crops' },
-                    { id: 'cereals', label: language === 'mr' ? 'तृणधान्ये' : 'Cereals' },
-                    { id: 'pulses', label: language === 'mr' ? 'कडधान्ये' : 'Pulses' },
-                    { id: 'oilseeds', label: language === 'mr' ? 'गळीतधान्ये' : 'Oilseeds' },
-                    { id: 'vegetables', label: language === 'mr' ? 'भाजीपाला' : 'Vegetables' },
-                    { id: 'fruits', label: language === 'mr' ? 'फळपिके' : 'Fruits' },
-                    { id: 'flowers', label: language === 'mr' ? 'फुलपिके' : 'Flowers' }
-                  ].map((cat) => (
-                    <button
-                      key={cat.id}
-                      type="button"
-                      onClick={() => setSelectedCropCategory(cat.id)}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                        selectedCropCategory === cat.id
-                          ? 'bg-emerald-800 text-white shadow-xs'
-                          : 'bg-stone-100 hover:bg-stone-200 text-stone-700'
+            {/* Search & Category Filter Controls */}
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+              <div className="flex flex-wrap items-center gap-1.5">
+                {[
+                  { id: 'all', label: language === 'mr' ? 'सर्व पिके' : 'All Crops' },
+                  { id: 'cash', label: language === 'mr' ? 'ऊस व नगदी' : 'Cash Crops' },
+                  { id: 'cereals', label: language === 'mr' ? 'तृणधान्ये' : 'Cereals' },
+                  { id: 'pulses', label: language === 'mr' ? 'कडधान्ये' : 'Pulses' },
+                  { id: 'oilseeds', label: language === 'mr' ? 'गळीतधान्ये' : 'Oilseeds' },
+                  { id: 'vegetables', label: language === 'mr' ? 'भाजीपाला' : 'Vegetables' },
+                  { id: 'fruits', label: language === 'mr' ? 'फळपिके' : 'Fruits' },
+                  { id: 'flowers', label: language === 'mr' ? 'फुलपिके' : 'Flowers' }
+                ].map((cat) => (
+                  <button
+                    key={cat.id}
+                    type="button"
+                    onClick={() => setSelectedCropCategory(cat.id)}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${selectedCropCategory === cat.id
+                        ? 'bg-emerald-800 text-white shadow-xs'
+                        : 'bg-stone-100 hover:bg-stone-200 text-stone-700'
                       }`}
-                    >
-                      {cat.label}
-                    </button>
-                  ))}
-                </div>
-
-                <div className="relative min-w-[220px]">
-                  <Search className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="text"
-                    value={varietySearch}
-                    onChange={(e) => setVarietySearch(e.target.value)}
-                    placeholder={language === 'mr' ? 'वाण किंवा पीक शोधा...' : 'Search crop or variety...'}
-                    className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-stone-50 border border-stone-200 text-xs focus:outline-emerald-600 focus:bg-white"
-                  />
-                </div>
+                  >
+                    {cat.label}
+                  </button>
+                ))}
               </div>
 
-              {/* Crop Varieties Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {filteredVarieties.map((item, idx) => (
-                  <div
-                    key={idx}
-                    className="p-4 rounded-2xl bg-white border border-stone-200 shadow-2xs hover:shadow-md hover:border-amber-400 transition-all flex flex-col justify-between"
-                  >
-                    <div className="space-y-1.5">
-                      <div className="flex items-center justify-between">
-                        <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200">
-                          {item.category}
-                        </span>
-                        <span className="text-xs font-bold text-emerald-800">
-                          {language === 'mr' ? item.cropMr : item.cropEn}
-                        </span>
-                      </div>
-                      <h4 className="text-sm sm:text-base font-bold text-slate-900 font-serif">
-                        {item.varieties}
-                      </h4>
-                      <p className="text-xs text-stone-600 leading-relaxed font-medium">
-                        {item.descEn}
-                      </p>
-                    </div>
-
-                    <div className="pt-3 mt-2 border-t border-stone-100 flex items-center justify-between text-[11px] font-bold text-emerald-800">
-                      <span>MPKV Released</span>
-                      <Link href="/research/varieties" className="hover:underline flex items-center gap-1">
-                        <span>{language === 'mr' ? 'तपशील' : 'Gazette'}</span>
-                        <ChevronRight className="w-3 h-3" />
-                      </Link>
-                    </div>
-                  </div>
-                ))}
+              <div className="relative min-w-[220px]">
+                <Search className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={varietySearch}
+                  onChange={(e) => setVarietySearch(e.target.value)}
+                  placeholder={language === 'mr' ? 'वाण किंवा पीक शोधा...' : 'Search crop or variety...'}
+                  className="w-full pl-8 pr-3 py-1.5 rounded-lg bg-stone-50 border border-stone-200 text-xs focus:outline-emerald-600 focus:bg-white"
+                />
               </div>
             </div>
 
-            {/* G. Six Granted Patents in 2025–26 (Paragraph 6) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-amber-300 shadow-xs space-y-5">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-4">
-                <div>
-                  <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-bold uppercase tracking-wider mb-1">
-                    <Award className="w-3.5 h-3.5 text-amber-600" />
-                    <span>{language === 'mr' ? '२०२५-२६ मध्ये मंजूर झालेले पेटंट्स' : 'Six Granted Patents in 2025–26'}</span>
-                  </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
-                    {language === 'mr' ? 'बौद्धिक संपदा अधिकार व नवोन्मेष' : 'Intellectual Property Rights & Patent Registry'}
-                  </h3>
-                </div>
-
-                <Link
-                  href="/research/patents"
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-950 group"
+            {/* Crop Varieties Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {filteredVarieties.map((item, idx) => (
+                <div
+                  key={idx}
+                  className="p-4 rounded-2xl bg-white border border-stone-200 shadow-2xs hover:shadow-md hover:border-amber-400 transition-all flex flex-col justify-between"
                 >
-                  <span>{language === 'mr' ? 'पेटंट नोंदवही उघडा' : 'View Full Patent Dossiers'}</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {grantedPatents.map((pat, idx) => (
-                  <div
-                    key={idx}
-                    className="p-4 rounded-2xl bg-amber-50/40 border border-amber-200 shadow-2xs hover:border-amber-400 transition-colors space-y-2"
-                  >
+                  <div className="space-y-1.5">
                     <div className="flex items-center justify-between">
-                      <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-white text-amber-900 border border-amber-200">
-                        {pat.appNo}
+                      <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-amber-50 text-amber-900 border border-amber-200">
+                        {item.category}
                       </span>
-                      <span className="text-[11px] font-bold text-stone-500">
-                        {language === 'mr' ? pat.fieldMr : pat.fieldEn}
+                      <span className="text-xs font-bold text-emerald-800">
+                        {language === 'mr' ? item.cropMr : item.cropEn}
                       </span>
                     </div>
-
-                    <h4 className="text-xs sm:text-sm font-bold text-slate-900 leading-snug font-serif">
-                      {language === 'mr' ? pat.titleMr : pat.titleEn}
+                    <h4 className="text-sm sm:text-base font-bold text-slate-900 font-serif">
+                      {item.varieties}
                     </h4>
+                    <p className="text-xs text-stone-600 leading-relaxed font-medium">
+                      {item.descEn}
+                    </p>
                   </div>
-                ))}
-              </div>
+
+                  <div className="pt-3 mt-2 border-t border-stone-100 flex items-center justify-between text-[11px] font-bold text-emerald-800">
+                    <span>MPKV Released</span>
+                    <Link href="/research/varieties" className="hover:underline flex items-center gap-1">
+                      <span>{language === 'mr' ? 'तपशील' : 'Gazette'}</span>
+                      <ChevronRight className="w-3 h-3" />
+                    </Link>
+                  </div>
+                </div>
+              ))}
             </div>
+          </div>
 
-            {/* H. IPR Achievements, PPV & FRA Honor, Apps & Design Patents (Paragraph 7) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
-              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-blue-100 text-blue-950 border border-blue-300 text-xs font-bold uppercase tracking-wider">
-                <Cpu className="w-3.5 h-3.5 text-blue-700" />
-                <span>{language === 'mr' ? 'डिजिटल अ‍ॅप्स, पीपीव्ही व कॉपीराईट्स' : 'Digital Apps, PPV & FRA Honors & Copyrights'}</span>
-              </div>
-
-              <p className="text-sm sm:text-base text-stone-700 leading-relaxed text-justify font-medium">
-                {language === 'mr'
-                  ? 'विद्यापीठाने शेतकऱ्यांसाठी एकूण ६२ मोबाईल व वेब-आधारित अ‍ॅप्स विकसित केले आहेत. वनस्पती वाण संरक्षण व शेतकरी हक्क प्राधिकरणाकडे (PPV & FRA) विद्यापीठ व शेतकऱ्यांनी विकसित केलेल्या विविध पिकांच्या १२५ वाणांची अधिकृत नोंदणी केली असून २६ प्रस्ताव मंजुरीसाठी पाठवले आहेत. २०१७ आणि २०२५ या दोन्ही वर्षांत सर्वाधिक पीक वाणांची नोंदणी केल्याबद्दल विद्यापीठाचा PPV & FRA द्वारे राष्ट्रीय स्तरावर गौरव करण्यात आला आहे. याशिवाय विद्यापीठाने ३५ कॉपीराइट्स आणि १३ डिझाइन पेटंट्स नोंदवले आहेत.'
-                  : 'The university has developed a total of 62 mobile and web-based apps. The university has registered 125 varieties of various crops developed by the university and farmers with the Protection of Plant Varieties and Farmers’ Rights Authority (PPV & FRA) and has sent 26 proposals for registration. The university has been honored by PPV & FRA for registering the highest number of crop varieties in the years 2017 and 2025. The university has registered 35 copyrights and 13 design patents.'}
-              </p>
-
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-                <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200 text-center">
-                  <div className="text-xl font-bold text-blue-950 font-serif">62</div>
-                  <div className="text-[11px] font-semibold text-stone-600 mt-0.5">Mobile & Web Apps</div>
+          {/* G. Six Granted Patents in 2025–26 (Paragraph 6) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-amber-300 shadow-xs space-y-5">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-4">
+              <div>
+                <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-100 text-amber-950 border border-amber-300 text-xs font-bold uppercase tracking-wider mb-1">
+                  <Award className="w-3.5 h-3.5 text-amber-600" />
+                  <span>{language === 'mr' ? '२०२५-२६ मध्ये मंजूर झालेले पेटंट्स' : 'Six Granted Patents in 2025–26'}</span>
                 </div>
-                <div className="p-3 rounded-xl bg-emerald-50/70 border border-emerald-200 text-center">
-                  <div className="text-xl font-bold text-emerald-950 font-serif">125</div>
-                  <div className="text-[11px] font-semibold text-stone-600 mt-0.5">PPV & FRA Registered</div>
-                </div>
-                <div className="p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-center">
-                  <div className="text-xl font-bold text-amber-950 font-serif">35</div>
-                  <div className="text-[11px] font-semibold text-stone-600 mt-0.5">Registered Copyrights</div>
-                </div>
-                <div className="p-3 rounded-xl bg-purple-50/70 border border-purple-200 text-center">
-                  <div className="text-xl font-bold text-purple-950 font-serif">13</div>
-                  <div className="text-[11px] font-semibold text-stone-600 mt-0.5">Design Patents</div>
-                </div>
-              </div>
-            </div>
-
-            {/* I. International Collaborations (Paragraph 8) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
-              <div className="flex items-center gap-2">
-                <Globe2 className="w-5 h-5 text-emerald-700" />
                 <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
-                  {language === 'mr' ? 'आंतरराष्ट्रीय संशोधन सामंजस्य करार (MoUs)' : 'International Research Collaborations'}
+                  {language === 'mr' ? 'बौद्धिक संपदा अधिकार व नवोन्मेष' : 'Intellectual Property Rights & Patent Registry'}
                 </h3>
               </div>
 
-              <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
-                {language === 'mr'
-                  ? 'संशोधन सहयोग, शास्त्रज्ञ व विद्यार्थ्यांसाठी प्रशिक्षण संधी आणि शैक्षणिक अभ्यास दौऱ्यांसाठी विद्यापीठाने खालील जागतिक संस्थांशी सामंजस्य करार केले आहेत:'
-                  : 'The university has signed MoUs with renowned international research institutes and universities for research collaboration, scientist/student training, and global academic exchange:'}
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pt-1">
-                {internationalMoUs.map((mou, idx) => (
-                  <div
-                    key={idx}
-                    className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between gap-2"
-                  >
-                    <span className="text-xs font-bold text-slate-900 leading-tight">
-                      {mou.name}
-                    </span>
-                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-emerald-100 text-emerald-900 shrink-0">
-                      {mou.country}
-                    </span>
-                  </div>
-                ))}
-              </div>
+              <Link
+                href="/research/patents"
+                className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 hover:text-emerald-950 group"
+              >
+                <span>{language === 'mr' ? 'पेटंट नोंदवही उघडा' : 'View Full Patent Dossiers'}</span>
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </div>
 
-            {/* J. National Level Collaborations (Paragraph 9) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
-              <div className="flex items-center gap-2">
-                <Landmark className="w-5 h-5 text-emerald-700" />
-                <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
-                  {language === 'mr' ? 'राष्ट्रीय स्तरावरील संशोधन संस्थांशी सहकार्य' : 'National Level Institutional MoUs'}
-                </h3>
-              </div>
-
-              <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
-                {language === 'mr'
-                  ? 'विद्यापीठाने राष्ट्रीय पातळीवरील नामांकित संशोधन संस्थांशी संयुक्त संशोधनासाठी करार केले आहेत:'
-                  : 'The university has signed collaborative MoUs with premier national institutes for cutting-edge agrarian science:'}
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 pt-1">
-                {nationalMoUs.map((nat, idx) => (
-                  <div
-                    key={idx}
-                    className="p-2.5 rounded-xl bg-stone-50 border border-stone-200 text-xs font-semibold text-slate-800 flex items-center gap-2"
-                  >
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-700 shrink-0" />
-                    <span className="leading-tight">{nat}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Breeder Seed Distribution Network Callout Banner */}
-              <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-900 text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border border-emerald-700/40 mt-4">
-                <div className="space-y-1">
-                  <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-amber-400 text-slate-950">
-                    Breeder Seed Distribution Network
-                  </span>
-                  <div className="text-xl sm:text-2xl font-black text-amber-300 font-serif">
-                    2,900+ MoUs Signed
-                  </div>
-                  <p className="text-xs text-emerald-100/90 max-w-2xl leading-relaxed font-medium">
-                    {language === 'mr'
-                      ? 'शेतकरी उत्पादक कंपन्या (FPOs), खासगी बियाणे कंपन्या व स्वयंसेवी संस्थांसोबत (NGOs) प्रमाणित मूलभूत बियाणे वितरणासाठी २९००+ सामंजस्य करार.'
-                      : 'The university has signed 2,900+ MoUs for distribution and certified multiplication of breeder seed with FPOs, private seed firms, and NGOs.'}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* K. External Funding Projects Breakdown (Page 2 of Live Site) */}
-            <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-slate-900 to-emerald-950 text-white space-y-6 shadow-md">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/15 pb-4">
-                <div>
-                  <span className="text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded bg-amber-400 text-slate-950">
-                    External Grants & Funding
-                  </span>
-                  <h3 className="text-lg sm:text-xl font-bold text-white mt-1 font-serif">
-                    {language === 'mr' ? 'बाह्य अनुदानित कार्यरत संशोधन प्रकल्प' : 'External Funding Projects Functioning in the University'}
-                  </h3>
-                </div>
-
-                <Link
-                  href="/research/funded-projects"
-                  className="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition-all shrink-0"
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {grantedPatents.map((pat, idx) => (
+                <div
+                  key={idx}
+                  className="p-4 rounded-2xl bg-amber-50/40 border border-amber-200 shadow-2xs hover:border-amber-400 transition-colors space-y-2"
                 >
-                  <span>{language === 'mr' ? 'प्रकल्प तपशील' : 'Explore Grants'}</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                {externalFundingProjects.map((proj, idx) => (
-                  <div
-                    key={idx}
-                    className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/15 flex items-center justify-between gap-3"
-                  >
-                    <span className="text-xs font-medium text-emerald-100 leading-tight">
-                      {proj.agency}
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-white text-amber-900 border border-amber-200">
+                      {pat.appNo}
                     </span>
-                    <span className="text-sm font-extrabold text-amber-300 font-serif px-2 py-0.5 rounded bg-black/30 border border-white/10 shrink-0">
-                      {proj.count}
+                    <span className="text-[11px] font-bold text-stone-500">
+                      {language === 'mr' ? pat.fieldMr : pat.fieldEn}
                     </span>
                   </div>
-                ))}
+
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 leading-snug font-serif">
+                    {language === 'mr' ? pat.titleMr : pat.titleEn}
+                  </h4>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* H. IPR Achievements, PPV & FRA Honor, Apps & Design Patents (Paragraph 7) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
+            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-blue-100 text-blue-950 border border-blue-300 text-xs font-bold uppercase tracking-wider">
+              <Cpu className="w-3.5 h-3.5 text-blue-700" />
+              <span>{language === 'mr' ? 'डिजिटल अ‍ॅप्स, पीपीव्ही व कॉपीराईट्स' : 'Digital Apps, PPV & FRA Honors & Copyrights'}</span>
+            </div>
+
+            <p className="text-sm sm:text-base text-stone-700 leading-relaxed text-justify font-medium">
+              {language === 'mr'
+                ? 'विद्यापीठाने शेतकऱ्यांसाठी एकूण ६२ मोबाईल व वेब-आधारित अ‍ॅप्स विकसित केले आहेत. वनस्पती वाण संरक्षण व शेतकरी हक्क प्राधिकरणाकडे (PPV & FRA) विद्यापीठ व शेतकऱ्यांनी विकसित केलेल्या विविध पिकांच्या १२५ वाणांची अधिकृत नोंदणी केली असून २६ प्रस्ताव मंजुरीसाठी पाठवले आहेत. २०१७ आणि २०२५ या दोन्ही वर्षांत सर्वाधिक पीक वाणांची नोंदणी केल्याबद्दल विद्यापीठाचा PPV & FRA द्वारे राष्ट्रीय स्तरावर गौरव करण्यात आला आहे. याशिवाय विद्यापीठाने ३५ कॉपीराइट्स आणि १३ डिझाइन पेटंट्स नोंदवले आहेत.'
+                : 'The university has developed a total of 62 mobile and web-based apps. The university has registered 125 varieties of various crops developed by the university and farmers with the Protection of Plant Varieties and Farmers’ Rights Authority (PPV & FRA) and has sent 26 proposals for registration. The university has been honored by PPV & FRA for registering the highest number of crop varieties in the years 2017 and 2025. The university has registered 35 copyrights and 13 design patents.'}
+            </p>
+
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+              <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200 text-center">
+                <div className="text-xl font-bold text-blue-950 font-serif">62</div>
+                <div className="text-[11px] font-semibold text-stone-600 mt-0.5">Mobile & Web Apps</div>
+              </div>
+              <div className="p-3 rounded-xl bg-emerald-50/70 border border-emerald-200 text-center">
+                <div className="text-xl font-bold text-emerald-950 font-serif">125</div>
+                <div className="text-[11px] font-semibold text-stone-600 mt-0.5">PPV & FRA Registered</div>
+              </div>
+              <div className="p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-center">
+                <div className="text-xl font-bold text-amber-950 font-serif">35</div>
+                <div className="text-[11px] font-semibold text-stone-600 mt-0.5">Registered Copyrights</div>
+              </div>
+              <div className="p-3 rounded-xl bg-purple-50/70 border border-purple-200 text-center">
+                <div className="text-xl font-bold text-purple-950 font-serif">13</div>
+                <div className="text-[11px] font-semibold text-stone-600 mt-0.5">Design Patents</div>
               </div>
             </div>
+          </div>
+
+          {/* I. International Collaborations (Paragraph 8) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
+            <div className="flex items-center gap-2">
+              <Globe2 className="w-5 h-5 text-emerald-700" />
+              <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
+                {language === 'mr' ? 'आंतरराष्ट्रीय संशोधन सामंजस्य करार (MoUs)' : 'International Research Collaborations'}
+              </h3>
+            </div>
+
+            <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
+              {language === 'mr'
+                ? 'संशोधन सहयोग, शास्त्रज्ञ व विद्यार्थ्यांसाठी प्रशिक्षण संधी आणि शैक्षणिक अभ्यास दौऱ्यांसाठी विद्यापीठाने खालील जागतिक संस्थांशी सामंजस्य करार केले आहेत:'
+                : 'The university has signed MoUs with renowned international research institutes and universities for research collaboration, scientist/student training, and global academic exchange:'}
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pt-1">
+              {internationalMoUs.map((mou, idx) => (
+                <div
+                  key={idx}
+                  className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between gap-2"
+                >
+                  <span className="text-xs font-bold text-slate-900 leading-tight">
+                    {mou.name}
+                  </span>
+                  <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-emerald-100 text-emerald-900 shrink-0">
+                    {mou.country}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* J. National Level Collaborations (Paragraph 9) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
+            <div className="flex items-center gap-2">
+              <Landmark className="w-5 h-5 text-emerald-700" />
+              <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-serif">
+                {language === 'mr' ? 'राष्ट्रीय स्तरावरील संशोधन संस्थांशी सहकार्य' : 'National Level Institutional MoUs'}
+              </h3>
+            </div>
+
+            <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
+              {language === 'mr'
+                ? 'विद्यापीठाने राष्ट्रीय पातळीवरील नामांकित संशोधन संस्थांशी संयुक्त संशोधनासाठी करार केले आहेत:'
+                : 'The university has signed collaborative MoUs with premier national institutes for cutting-edge agrarian science:'}
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 pt-1">
+              {nationalMoUs.map((nat, idx) => (
+                <div
+                  key={idx}
+                  className="p-2.5 rounded-xl bg-stone-50 border border-stone-200 text-xs font-semibold text-slate-800 flex items-center gap-2"
+                >
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-700 shrink-0" />
+                  <span className="leading-tight">{nat}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* Breeder Seed Distribution Network Callout Banner */}
+            <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-900 text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border border-emerald-700/40 mt-4">
+              <div className="space-y-1">
+                <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-amber-400 text-slate-950">
+                  Breeder Seed Distribution Network
+                </span>
+                <div className="text-xl sm:text-2xl font-black text-amber-300 font-serif">
+                  2,900+ MoUs Signed
+                </div>
+                <p className="text-xs text-emerald-100/90 max-w-2xl leading-relaxed font-medium">
+                  {language === 'mr'
+                    ? 'शेतकरी उत्पादक कंपन्या (FPOs), खासगी बियाणे कंपन्या व स्वयंसेवी संस्थांसोबत (NGOs) प्रमाणित मूलभूत बियाणे वितरणासाठी २९००+ सामंजस्य करार.'
+                    : 'The university has signed 2,900+ MoUs for distribution and certified multiplication of breeder seed with FPOs, private seed firms, and NGOs.'}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* K. External Funding Projects Breakdown (Page 2 of Live Site) */}
+          <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-slate-900 to-emerald-950 text-white space-y-6 shadow-md">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/15 pb-4">
+              <div>
+                <span className="text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded bg-amber-400 text-slate-950">
+                  External Grants & Funding
+                </span>
+                <h3 className="text-lg sm:text-xl font-bold text-white mt-1 font-serif">
+                  {language === 'mr' ? 'बाह्य अनुदानित कार्यरत संशोधन प्रकल्प' : 'External Funding Projects Functioning in the University'}
+                </h3>
+              </div>
+
+              <Link
+                href="/research/funded-projects"
+                className="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition-all shrink-0"
+              >
+                <span>{language === 'mr' ? 'प्रकल्प तपशील' : 'Explore Grants'}</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {externalFundingProjects.map((proj, idx) => (
+                <div
+                  key={idx}
+                  className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/15 flex items-center justify-between gap-3"
+                >
+                  <span className="text-xs font-medium text-emerald-100 leading-tight">
+                    {proj.agency}
+                  </span>
+                  <span className="text-sm font-extrabold text-amber-300 font-serif px-2 py-0.5 rounded bg-black/30 border border-white/10 shrink-0">
+                    {proj.count}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
 
         </div>
 

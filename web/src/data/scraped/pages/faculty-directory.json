@@ -314,5 +314,524 @@
       "columnCount": 5
     }
   ],
-  "contentBlocks": []
+  "contentBlocks": [],
+  "departments": [
+    {
+      "deptId": 1,
+      "name": {
+        "en": "Agricultural Process Engineering",
+        "mr": "कृषि प्रक्रिया अभियांत्रिकी विभाग"
+      },
+      "facultyCount": 4,
+      "faculty": [
+        {
+          "name": {
+            "en": "Dr.Kailash J. Kamble",
+            "mr": "Dr.Kailash J. Kamble"
+          },
+          "designation": {
+            "en": "Associate Professor & I/c Head",
+            "mr": "सहयोगी प्राध्यापक व प्रभारी विभाग प्रमुख"
+          },
+          "department": {
+            "en": "Agricultural Process Engineering",
+            "mr": "कृषि प्रक्रिया अभियांत्रिकी विभाग"
+          },
+          "deptId": 1,
+          "email": "kjkindian123@gmail.com",
+          "image": "/media/images/faculty/5_20250818123331.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Vikram P.Kad",
+            "mr": "Dr. Vikram P.Kad"
+          },
+          "designation": {
+            "en": "Professor",
+            "mr": "प्राध्यापक"
+          },
+          "department": {
+            "en": "Agricultural Process Engineering",
+            "mr": "कृषि प्रक्रिया अभियांत्रिकी विभाग"
+          },
+          "deptId": 1,
+          "email": "vikramkad2014@gmail.com",
+          "image": "/media/images/faculty/6_20250818123457.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr.Ganesh Namdeo Shelke",
+            "mr": "Dr.Ganesh Namdeo Shelke"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Agricultural Process Engineering",
+            "mr": "कृषि प्रक्रिया अभियांत्रिकी विभाग"
+          },
+          "deptId": 1,
+          "email": "shelkeganesh838@gmail.com",
+          "image": "/media/images/faculty/7_20250818123535.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Vilas Ashok Salve",
+            "mr": "Dr. Vilas Ashok Salve"
+          },
+          "designation": {
+            "en": "Associate Professor",
+            "mr": "Associate Professor"
+          },
+          "department": {
+            "en": "Agricultural Process Engineering",
+            "mr": "कृषि प्रक्रिया अभियांत्रिकी विभाग"
+          },
+          "deptId": 1,
+          "email": "vasalve@rediffmail.com",
+          "image": "/media/images/faculty/8_20250818123609.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        }
+      ]
+    },
+    {
+      "deptId": 2,
+      "name": {
+        "en": "Irrigation & Drainage Engineering",
+        "mr": "सिंचन व निचरा अभियांत्रिकी विभाग"
+      },
+      "facultyCount": 4,
+      "faculty": [
+        {
+          "name": {
+            "en": "Dr.Shailendra B. Gadge",
+            "mr": "Dr.Shailendra B. Gadge"
+          },
+          "designation": {
+            "en": "Professor & I/c Head",
+            "mr": "प्राध्यापक व प्रभारी विभाग प्रमुख"
+          },
+          "department": {
+            "en": "Irrigation & Drainage Engineering",
+            "mr": "सिंचन व निचरा अभियांत्रिकी विभाग"
+          },
+          "deptId": 2,
+          "email": "gadge_shailendra@yahoo.com",
+          "image": "/media/images/faculty/9_20250818123837.png",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Sachin K. Dingre",
+            "mr": "Dr. Sachin K. Dingre"
+          },
+          "designation": {
+            "en": "Professor",
+            "mr": "प्राध्यापक"
+          },
+          "department": {
+            "en": "Irrigation & Drainage Engineering",
+            "mr": "सिंचन व निचरा अभियांत्रिकी विभाग"
+          },
+          "deptId": 2,
+          "email": "sachindingre@rediffmail.com",
+          "image": "/media/images/faculty/10_20250818123917.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr Dagadu Dashrath Pardhe",
+            "mr": "Dr Dagadu Dashrath Pardhe"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Irrigation & Drainage Engineering",
+            "mr": "सिंचन व निचरा अभियांत्रिकी विभाग"
+          },
+          "deptId": 2,
+          "email": "pardhedd@gmail.com",
+          "image": "/media/images/faculty/11_20250818123950.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr Pranali Shrikrishna Wankhede",
+            "mr": "Dr Pranali Shrikrishna Wankhede"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Irrigation & Drainage Engineering",
+            "mr": "सिंचन व निचरा अभियांत्रिकी विभाग"
+          },
+          "deptId": 2,
+          "email": "drpranaliwankhede@gmail.com",
+          "image": "/media/images/faculty/12_20250818124022.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        }
+      ]
+    },
+    {
+      "deptId": 3,
+      "name": {
+        "en": "Farm Machinery & Power Engineering",
+        "mr": "शेती अवजारे व शक्ती अभियांत्रिकी विभाग"
+      },
+      "facultyCount": 3,
+      "faculty": [
+        {
+          "name": {
+            "en": "Dr. Pravin Bhaskar Kadam",
+            "mr": "Dr. Pravin Bhaskar Kadam"
+          },
+          "designation": {
+            "en": "Associate Professor",
+            "mr": "Associate Professor"
+          },
+          "department": {
+            "en": "Farm Machinery & Power Engineering",
+            "mr": "शेती अवजारे व शक्ती अभियांत्रिकी विभाग"
+          },
+          "deptId": 3,
+          "email": "pbkmpkv@gmail.com",
+          "image": "/media/images/faculty/2_20250818115720.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Avdhoot A. Walunj",
+            "mr": "Dr. Avdhoot A. Walunj"
+          },
+          "designation": {
+            "en": "Assistant Professor of Mechanical Engineering",
+            "mr": "सहाय्यक प्राध्यापक (यांत्रिकी अभियांत्रिकी)"
+          },
+          "department": {
+            "en": "Farm Machinery & Power Engineering",
+            "mr": "शेती अवजारे व शक्ती अभियांत्रिकी विभाग"
+          },
+          "deptId": 3,
+          "email": "aawalunj@gmail.com",
+          "image": "/media/images/faculty/3_20250818115847.png",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Pranav P. Pawase",
+            "mr": "Dr. Pranav P. Pawase"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Farm Machinery & Power Engineering",
+            "mr": "शेती अवजारे व शक्ती अभियांत्रिकी विभाग"
+          },
+          "deptId": 3,
+          "email": "pawasepranav@gmail.com",
+          "image": "/media/images/faculty/4_20250818115930.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        }
+      ]
+    },
+    {
+      "deptId": 4,
+      "name": {
+        "en": "Soil & Water Conservation Engineering",
+        "mr": "मृद व जलसंधारण अभियांत्रिकी विभाग"
+      },
+      "facultyCount": 4,
+      "faculty": [
+        {
+          "name": {
+            "en": "Dr. Sachinkumar B. Nandgude",
+            "mr": "Dr. Sachinkumar B. Nandgude"
+          },
+          "designation": {
+            "en": "Professor and Head",
+            "mr": "प्राध्यापक व विभाग प्रमुख"
+          },
+          "department": {
+            "en": "Soil & Water Conservation Engineering",
+            "mr": "मृद व जलसंधारण अभियांत्रिकी विभाग"
+          },
+          "deptId": 4,
+          "email": "nandgudesachine@gmail.com",
+          "image": "/media/images/faculty/13_20250818124332.png",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Virendra N. Barai",
+            "mr": "Dr. Virendra N. Barai"
+          },
+          "designation": {
+            "en": "Professor",
+            "mr": "प्राध्यापक"
+          },
+          "department": {
+            "en": "Soil & Water Conservation Engineering",
+            "mr": "मृद व जलसंधारण अभियांत्रिकी विभाग"
+          },
+          "deptId": 4,
+          "email": "vnbarai@gmail.com",
+          "image": "/media/images/faculty/14_20250818124409.png",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Himalaya Sidraya Ganachari",
+            "mr": "Dr. Himalaya Sidraya Ganachari"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Soil & Water Conservation Engineering",
+            "mr": "मृद व जलसंधारण अभियांत्रिकी विभाग"
+          },
+          "deptId": 4,
+          "email": "01swce14@gmail.com",
+          "image": "/media/images/faculty/15_20250818124443.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Sangita Suryakant Shinde",
+            "mr": "Dr. Sangita Suryakant Shinde"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Soil & Water Conservation Engineering",
+            "mr": "मृद व जलसंधारण अभियांत्रिकी विभाग"
+          },
+          "deptId": 4,
+          "email": "sangitashinde047@gmail.com",
+          "image": "/media/images/avatar_placeholder.png",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        }
+      ]
+    },
+    {
+      "deptId": 5,
+      "name": {
+        "en": "Renewable Energy Engineering & Basic Sciences",
+        "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+      },
+      "facultyCount": 7,
+      "faculty": [
+        {
+          "name": {
+            "en": "Dr. Virendra Narayan Barai",
+            "mr": "Dr. Virendra Narayan Barai"
+          },
+          "designation": {
+            "en": "I/c Head & Professor (SWCE)",
+            "mr": "प्रभारी विभाग प्रमुख"
+          },
+          "department": {
+            "en": "Renewable Energy Engineering & Basic Sciences",
+            "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+          },
+          "deptId": 5,
+          "email": "vnbarai@gmail.com",
+          "image": "/media/images/faculty/16_20250818125019.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Vikram Pandurang Patil",
+            "mr": "Vikram Pandurang Patil"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Renewable Energy Engineering & Basic Sciences",
+            "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+          },
+          "deptId": 5,
+          "email": "vikram.patil1967@gmail.com",
+          "image": "/media/images/faculty/17_20250818125108.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Dr. Mrs. M.S. Patwardhan",
+            "mr": "Dr. Mrs. M.S. Patwardhan"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Renewable Energy Engineering & Basic Sciences",
+            "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+          },
+          "deptId": 5,
+          "email": "patmam@rediffmail.com",
+          "image": "/media/images/faculty/19_20250818125142.png",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Prof. S. U. Fulsawange",
+            "mr": "Prof. S. U. Fulsawange"
+          },
+          "designation": {
+            "en": "Assistant Professor of English, Associate NCC Officer, Incharge Security Officer",
+            "mr": "सहाय्यक प्राध्यापक (इंग्रजी) व सुरक्षा अधिकारी"
+          },
+          "department": {
+            "en": "Renewable Energy Engineering & Basic Sciences",
+            "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+          },
+          "deptId": 5,
+          "email": "fulsawange2008@gmail.com",
+          "image": "/media/images/faculty/20_20250818125220.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Prof. Neeta Sachinkumar Nandgude",
+            "mr": "Prof. Neeta Sachinkumar Nandgude"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Renewable Energy Engineering & Basic Sciences",
+            "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+          },
+          "deptId": 5,
+          "email": "nsnandgude@gmail.com",
+          "image": "/media/images/faculty/21_20250818125341.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Prof. Mahesh Sadashiv Sarode",
+            "mr": "Prof. Mahesh Sadashiv Sarode"
+          },
+          "designation": {
+            "en": "Assistant Professor of Civil Engineering",
+            "mr": "सहाय्यक प्राध्यापक (स्थापत्य अभियांत्रिकी)"
+          },
+          "department": {
+            "en": "Renewable Energy Engineering & Basic Sciences",
+            "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+          },
+          "deptId": 5,
+          "email": "maheshsarode07@gmail.com",
+          "image": "/media/images/faculty/22_20250818125517.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        },
+        {
+          "name": {
+            "en": "Anil Kisan Rupnar",
+            "mr": "Anil Kisan Rupnar"
+          },
+          "designation": {
+            "en": "Assistant Professor",
+            "mr": "सहाय्यक प्राध्यापक"
+          },
+          "department": {
+            "en": "Renewable Energy Engineering & Basic Sciences",
+            "mr": "अपारंपरिक ऊर्जा अभियांत्रिकी व मूलभूत विज्ञान विभाग"
+          },
+          "deptId": 5,
+          "email": "anilrupnar@gmail.com",
+          "image": "/media/images/faculty/23_20250818125600.jpg",
+          "campus": {
+            "en": "Dr. AS CAET, Rahuri",
+            "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय, राहुरी"
+          }
+        }
+      ]
+    }
+  ],
+  "totalFacultyCount": 22,
+  "collegeInfo": {
+    "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology (AICTE Accredited)",
+    "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय (AICTE मान्यताप्राप्त)"
+  }
 }

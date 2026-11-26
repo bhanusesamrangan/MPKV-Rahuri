@@ -17,7 +17,9 @@ import {
   BookOpen,
   LayoutGrid,
   Table as TableIcon,
-  Printer
+  Printer,
+  Award,
+  ShieldCheck
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { printElement } from '@/utils/printElement';
@@ -46,25 +48,25 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
     mr: 'महात्मा फुले कृषि विद्यापीठाची घटक महाविद्यालये'
   };
   const heroSubtitle = pageData?.hero?.subtitle || {
-    en: '14 premier government agricultural and engineering colleges across 10 districts of Western Maharashtra delivering ICAR-accredited education.',
-    mr: 'पश्चिम महाराष्ट्रातील १० जिल्ह्यांमध्ये विस्तारलेली १४ नामांकित शासकीय घटक महाविद्यालये — आयसीएआर अधिस्वीकृती व आधुनिक शैक्षणिक सुविधांसह.'
+    en: '15 premier government agricultural and engineering colleges across 10 districts of Western Maharashtra delivering ICAR-accredited education.',
+    mr: 'पश्चिम महाराष्ट्रातील १० जिल्ह्यांमध्ये विस्तारलेली १५ नामांकित शासकीय घटक महाविद्यालये — आयसीएआर अधिस्वीकृती व आधुनिक शैक्षणिक सुविधांसह.'
   };
   const heroBadge = pageData?.hero?.badge || {
-    en: '14 Constituent Colleges | 6 Professional Disciplines',
-    mr: '१४ घटक महाविद्यालये | ६ व्यावसायिक विद्याशाखा'
+    en: '15 Constituent Colleges | 6 Professional Disciplines',
+    mr: '१५ घटक महाविद्यालये | ६ व्यावसायिक विद्याशाखा'
   };
 
   const rawColleges: any[] = pageData?.colleges || [];
 
   // Unique disciplines & districts for filters
   const disciplines = [
-    { id: 'All', label: { en: 'All Disciplines (14)', mr: 'सर्व विद्याशाखा (१४)' } },
+    { id: 'All', label: { en: 'All Disciplines (15)', mr: 'सर्व विद्याशाखा (१५)' } },
     { id: 'Agriculture', label: { en: 'Agriculture (8)', mr: 'कृषि (८)' } },
     { id: 'Horticulture', label: { en: 'Horticulture (2)', mr: 'उद्यानविद्या (२)' } },
     { id: 'Engineering', label: { en: 'Engineering (2)', mr: 'कृषि अभियांत्रिकी (२)' } },
     { id: 'Management', label: { en: 'Agri Business (1)', mr: 'कृषि व्यवसाय (१)' } },
     { id: 'FoodTech', label: { en: 'Food Technology (1)', mr: 'अन्नतंत्रज्ञान (१)' } },
-    { id: 'PGInstitute', label: { en: 'Post Graduate Institute', mr: 'पदव्युत्तर संस्था' } }
+    { id: 'PGInstitute', label: { en: 'Post Graduate Institute (1)', mr: 'पदव्युत्तर संस्था (१)' } }
   ];
 
   const districts = ['All', 'Pune', 'Kolhapur', 'Dhule', 'Nandurbar', 'Satara', 'Jalgaon', 'Ahilyanagar', 'Nashik'];
@@ -94,9 +96,9 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
         badge={heroBadge}
         theme="constituent"
         quickChips={[
-          { label: language === 'mr' ? '१४ शासकीय घटक महाविद्यालये' : '14 Constituent Campuses' },
+          { label: language === 'mr' ? '१५ शासकीय घटक महाविद्यालये' : '15 Constituent Campuses' },
           { label: language === 'mr' ? '१० जिल्हे कार्यक्षेत्र' : '10 Districts Coverage' },
-          { label: language === 'mr' ? '६ व्यावसायिक विद्याशाखा' : '6 Professional Streams' }
+          { label: language === 'mr' ? 'एआयसीटीई (AICTE) मान्यताप्राप्त कृषी अभियांत्रिकी' : 'AICTE Accredited Engineering (ASCAET)' }
         ]}
       />
 
@@ -231,50 +233,83 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
             </div>
           ) : viewMode === 'grid' ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredColleges.map((college) => (
-                <div
-                  key={college.id}
-                  className="bg-white rounded-2xl border border-stone-200 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group"
-                >
-                  {/* College Image Banner */}
-                  <div className="relative h-48 w-full bg-emerald-950 overflow-hidden">
-                    <Image
-                      src={college.image || '/media/images/college_building_placeholder.jpg'}
-                      alt={getBilingual(college.name)}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                    
-                    {/* Top Badges */}
-                    <div className="absolute top-3 left-3 right-3 flex items-center justify-between text-xs">
-                      <span className="px-2.5 py-1 rounded-full bg-emerald-800/90 text-white font-bold backdrop-blur-xs">
-                        {getBilingual(college.disciplineLabel)}
-                      </span>
-                      {college.established && (
-                        <span className="px-2.5 py-1 rounded-full bg-black/60 text-amber-300 font-semibold backdrop-blur-xs">
-                          {language === 'mr' ? `स्था. ${college.established}` : `Est. ${college.established}`}
-                        </span>
-                      )}
+              {filteredColleges.map((college) => {
+                const isAicte = college.isAicteAccredited || college.id === 'co-engg-rahuri';
+
+                return (
+                  <div
+                    key={college.id}
+                    className={`bg-white rounded-2xl border ${
+                      isAicte
+                        ? 'border-amber-300 ring-2 ring-amber-400/25 shadow-sm'
+                        : 'border-stone-200 shadow-xs'
+                    } hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group`}
+                  >
+                    {/* College Image Banner */}
+                    <div className="relative h-48 w-full bg-emerald-950 overflow-hidden">
+                      <Image
+                        src={college.image || '/media/images/college_building_placeholder.jpg'}
+                        alt={getBilingual(college.name)}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                      
+                      {/* Top Badges */}
+                      <div className="absolute top-3 left-3 right-3 flex items-center justify-between text-xs">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className="px-2.5 py-1 rounded-full bg-emerald-800/90 text-white font-bold backdrop-blur-xs">
+                            {getBilingual(college.disciplineLabel)}
+                          </span>
+                          {isAicte && (
+                            <span className="px-2.5 py-1 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-extrabold text-[11px] shadow-sm flex items-center gap-1 border border-amber-300">
+                              <Award className="w-3.5 h-3.5" />
+                              <span>AICTE Accredited</span>
+                            </span>
+                          )}
+                        </div>
+                        {college.established && (
+                          <span className="px-2.5 py-1 rounded-full bg-black/60 text-amber-300 font-semibold backdrop-blur-xs shrink-0">
+                            {language === 'mr' ? `स्था. ${college.established}` : `Est. ${college.established}`}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* District Bottom Badge */}
+                      <div className="absolute bottom-3 left-3 flex items-center gap-1.5 text-xs text-white font-medium">
+                        <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                        <span>{getBilingual(college.district)}</span>
+                      </div>
                     </div>
 
-                    {/* District Bottom Badge */}
-                    <div className="absolute bottom-3 left-3 flex items-center gap-1.5 text-xs text-white font-medium">
-                      <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                      <span>{getBilingual(college.district)}</span>
-                    </div>
-                  </div>
+                    {/* Body Content */}
+                    <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
+                      <div className="space-y-2.5">
+                        <h3 className="text-base font-bold text-stone-900 group-hover:text-emerald-800 transition-colors leading-snug">
+                          {getBilingual(college.name)}
+                        </h3>
 
-                  {/* Body Content */}
-                  <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
-                    <div>
-                      <h3 className="text-base font-bold text-stone-900 group-hover:text-emerald-800 transition-colors leading-snug">
-                        {getBilingual(college.name)}
-                      </h3>
-                      <p className="mt-2 text-xs text-stone-600 line-clamp-3 leading-relaxed">
-                        {getBilingual(college.description)}
-                      </p>
-                    </div>
+                        {/* Special AICTE Recognition Ribbon if accredited */}
+                        {isAicte && (
+                          <div className="px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-50 via-amber-100/60 to-amber-50 border border-amber-300/80 flex items-center justify-between text-xs font-bold text-amber-950 shadow-2xs">
+                            <div className="flex items-center gap-1.5 min-w-0">
+                              <ShieldCheck className="w-4 h-4 text-amber-600 shrink-0" />
+                              <span className="truncate">
+                                {language === 'mr'
+                                  ? 'अखिल भारतीय तंत्रशिक्षण परिषद (AICTE) मान्यताप्राप्त'
+                                  : 'AICTE Accredited Engineering Campus'}
+                              </span>
+                            </div>
+                            <span className="text-[10px] px-1.5 py-0.2 rounded bg-amber-400 text-slate-950 font-extrabold shrink-0 shadow-2xs">
+                              AICTE
+                            </span>
+                          </div>
+                        )}
+
+                        <p className="text-xs text-stone-600 line-clamp-3 leading-relaxed">
+                          {getBilingual(college.description)}
+                        </p>
+                      </div>
 
                     {/* Metadata & Intake */}
                     <div className="space-y-2.5 pt-3 border-t border-stone-100">
@@ -318,7 +353,11 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
                           rel="noopener noreferrer"
                           className="inline-flex items-center justify-center gap-1.5 w-full py-2 px-3 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-semibold text-xs border border-emerald-200 transition-colors"
                         >
-                          <span>{language === 'mr' ? 'अधिकृत संकेतस्थळ भेट' : 'Visit Official Portal'}</span>
+                          <span>
+                            {college.website.endsWith('.pdf')
+                              ? language === 'mr' ? 'माहिती पुस्तिका (PDF)' : 'Official Profile (PDF)'
+                              : language === 'mr' ? 'अधिकृत संकेतस्थळ भेट' : 'Visit Official Portal'}
+                          </span>
                           <ExternalLink className="w-3.5 h-3.5" />
                         </a>
                       ) : (
@@ -332,7 +371,8 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
                     </div>
                   </div>
                 </div>
-              ))}
+              );
+            })}
             </div>
           ) : (
             /* Interactive Table View */
@@ -366,7 +406,15 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
                               />
                             </div>
                             <div>
-                              <span className="font-bold text-stone-900 block leading-tight">{getBilingual(college.name)}</span>
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <span className="font-bold text-stone-900 block leading-tight">{getBilingual(college.name)}</span>
+                                {(college.isAicteAccredited || college.id === 'co-engg-rahuri') && (
+                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-amber-100 text-amber-950 border border-amber-300 text-[10px] font-extrabold shadow-2xs">
+                                    <Award className="w-3 h-3 text-amber-700" />
+                                    <span>AICTE Accredited</span>
+                                  </span>
+                                )}
+                              </div>
                               <span className="text-[11px] text-stone-500 block mt-0.5">{college.degrees?.join(', ') || ''}</span>
                             </div>
                           </div>
@@ -398,7 +446,11 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 text-xs font-semibold border border-emerald-200 transition-colors"
                             >
-                              <span>{language === 'mr' ? 'भेट' : 'Visit'}</span>
+                              <span>
+                                {college.website.endsWith('.pdf')
+                                  ? 'PDF'
+                                  : language === 'mr' ? 'भेट' : 'Visit'}
+                              </span>
                               <ExternalLink className="w-3 h-3" />
                             </a>
                           ) : (

@@ -67,15 +67,15 @@ export const UniversityBentoGrid: React.FC = () => {
       id: 'precision',
       category: 'research',
       span: 'lg:col-span-1 md:col-span-1',
-      categoryBadge: language === 'mr' ? 'अचूक शेती' : 'Agri-Tech',
-      metric: language === 'mr' ? 'ड्रोन्स व IoT' : 'Drones & IoT',
+      categoryBadge: language === 'mr' ? 'जागतिक बँक · NAHEP' : 'World Bank · NAHEP',
+      metric: language === 'mr' ? 'DGCA ड्रोन व जलव्यवस्थापन' : 'DGCA Drone & Smart Water',
       icon: Atom,
-      title: language === 'mr' ? 'हवामान शेती व कृषी ड्रोन्स' : 'Climate Ag & Drones',
+      title: language === 'mr' ? 'हवामान शेती व कृषी ड्रोन्स (CAAST-CSAWM)' : 'Climate Ag & Drones (CAAST-CSAWM)',
       desc: language === 'mr'
-        ? 'CAAST-CSAWM प्रकल्पांतर्गत अचूक शेती, ड्रोन फवारणी व सूक्ष्म सिंचन ऑटोमेशन मॉडेल.'
-        : 'High-tech center for agricultural drones, spatial analytics, and IoT irrigation models.',
-      link: '/research/aicrp',
-      linkText: language === 'mr' ? 'प्रकल्प माहिती' : 'Explore CAAST',
+        ? 'CAAST-CSAWM प्रगत कृषी विज्ञान केंद्र: DGCA प्रमाणित ड्रोन पायलट प्रशिक्षण अकॅडमी (RPTO), सेन्सर आधारित अचूक शेती व IoT सूक्ष्म सिंचन ऑटोमेशन.'
+        : 'Centre for Advanced Agricultural Science & Technology (CAAST-CSAWM): DGCA drone pilot academy (RPTO), precision aerial spraying, and IoT climate-smart irrigation.',
+      link: 'https://www.mpkv-caast.ac.in/',
+      linkText: language === 'mr' ? 'mpkv-caast.ac.in पोर्टल' : 'mpkv-caast.ac.in Portal',
       styles: {
         cardBg: 'bg-gradient-to-br from-white via-cyan-50/40 to-sky-50/50 hover:to-sky-50/80',
         border: 'border-cyan-200/90 hover:border-cyan-400',
@@ -111,15 +111,15 @@ export const UniversityBentoGrid: React.FC = () => {
       id: 'livestock',
       category: 'research',
       span: 'lg:col-span-1 md:col-span-1',
-      categoryBadge: language === 'mr' ? 'पशुसंवर्धन' : 'Livestock',
-      metric: language === 'mr' ? 'गीर व त्रिवेणी' : 'Gir Cattle',
+      categoryBadge: language === 'mr' ? 'राकृवियो (RKVY) · उत्कृष्टता केंद्र' : 'RKVY · Centre of Excellence',
+      metric: language === 'mr' ? 'गीर, साहिवाल व OPU-IVF' : 'Gir, Sahiwal & OPU-IVF',
       icon: Flame,
-      title: language === 'mr' ? 'देशी गोवंश व फुले त्रिवेणी' : 'Indigenous Cattle',
+      title: language === 'mr' ? 'देशी गोवंश संशोधन व प्रशिक्षण (ICRTC)' : 'Indigenous Cattle (ICRTC Pune)',
       desc: language === 'mr'
-        ? 'गीर गोवंश संवर्धन, फुले त्रिवेणी संकरित गाय संशोधन आणि उच्च जनुकीय रेतमात्रा.'
-        : 'Indigenous Gir cattle conservation, Phule Triveni milch cow project, and dairy genetics.',
-      link: '/farmer/services',
-      linkText: language === 'mr' ? 'शेतकरी सेवा प्रकल्प' : 'Farmer Services',
+        ? 'कृषी महाविद्यालय, पुणे येथील देशी गोवंश संशोधन व प्रशिक्षण केंद्र (ICRTC): गीर, साहिवाल, लाल सिंधी, राठी व थारपारकर गोवंश संवर्धन, OPU-IVF भ्रूण प्रत्यारोपण आणि दुग्ध व्यवसाय प्रशिक्षण.'
+        : 'Indigenous Cattle Research-cum-Training Centre (ICRTC), College of Agriculture, Pune: Conservation of Gir, Sahiwal, Red Sindhi, Rathi, and Tharparkar breeds, OPU-IVF embryo transfer, and dairy entrepreneurship training.',
+      link: 'https://www.icrtcmpkv.com/home',
+      linkText: language === 'mr' ? 'icrtcmpkv.com पोर्टल' : 'icrtcmpkv.com Portal',
       styles: {
         cardBg: 'bg-gradient-to-br from-white via-yellow-50/40 to-amber-50/50 hover:to-amber-50/80',
         border: 'border-yellow-200/90 hover:border-amber-400',
@@ -232,6 +232,8 @@ export const UniversityBentoGrid: React.FC = () => {
                 key={card.id}
                 href={card.link}
                 title={card.title}
+                target={card.link.startsWith('http') ? '_blank' : undefined}
+                rel={card.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                 className={`${card.span} ${card.styles.cardBg} rounded-2xl p-4 sm:p-5 border ${card.styles.border} transition-all duration-300 hover:-translate-y-0.5 shadow-2xs hover:shadow-md flex flex-col justify-between group cursor-pointer block no-underline`}
               >
                 <div className="space-y-2.5">

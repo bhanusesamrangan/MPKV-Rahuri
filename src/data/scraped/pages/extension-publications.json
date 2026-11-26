@@ -758,10 +758,7 @@
   "tables": [
     {
       "id": "table_1",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No",
@@ -1017,10 +1014,7 @@
     },
     {
       "id": "table_2",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No",
@@ -1666,10 +1660,7 @@
     },
     {
       "id": "table_3",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No",
@@ -2393,10 +2384,7 @@
     },
     {
       "id": "table_4",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No",
@@ -2496,10 +2484,7 @@
     },
     {
       "id": "table_5",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No",
@@ -2547,10 +2532,7 @@
     },
     {
       "id": "table_6",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No",
@@ -2624,10 +2606,7 @@
     },
     {
       "id": "table_7",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -2771,10 +2750,7 @@
     },
     {
       "id": "table_8",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -2972,10 +2948,7 @@
     },
     {
       "id": "table_9",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -3173,10 +3146,7 @@
     },
     {
       "id": "table_10",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -3410,10 +3380,7 @@
     },
     {
       "id": "table_11",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -3647,10 +3614,7 @@
     },
     {
       "id": "table_12",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -3884,10 +3848,7 @@
     },
     {
       "id": "table_13",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -4121,10 +4082,7 @@
     },
     {
       "id": "table_14",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -4160,10 +4118,7 @@
     },
     {
       "id": "table_15",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -4217,10 +4172,7 @@
     },
     {
       "id": "table_16",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -4454,10 +4406,7 @@
     },
     {
       "id": "table_17",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -4691,10 +4640,7 @@
     },
     {
       "id": "table_18",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -4820,10 +4766,7 @@
     },
     {
       "id": "table_19",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -5057,10 +5000,7 @@
     },
     {
       "id": "table_20",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -5294,10 +5234,7 @@
     },
     {
       "id": "table_21",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -5531,10 +5468,7 @@
     },
     {
       "id": "table_22",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -5768,10 +5702,7 @@
     },
     {
       "id": "table_23",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -6005,10 +5936,7 @@
     },
     {
       "id": "table_24",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Title",
@@ -6116,10 +6044,7 @@
     },
     {
       "id": "table_25",
-      "caption": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
+      "caption": null,
       "headers": [
         {
           "en": "Sr.No",

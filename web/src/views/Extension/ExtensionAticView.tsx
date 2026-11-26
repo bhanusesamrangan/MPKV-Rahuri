@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import {
   HelpCircle,
-  PhoneCall,
   Phone,
   Mail,
   MapPin,
@@ -833,27 +832,7 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
 
             </div>
 
-            {/* Helpline Banner */}
-            <div className="p-6 rounded-3xl bg-amber-500 text-slate-950 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm border border-amber-400">
-              <div className="flex items-center gap-3 text-center sm:text-left">
-                <div className="w-12 h-12 rounded-2xl bg-slate-950 text-amber-400 flex items-center justify-center shrink-0">
-                  <PhoneCall className="w-6 h-6 animate-pulse" />
-                </div>
-                <div>
-                  <h4 className="text-base sm:text-lg font-black font-serif">
-                    {language === 'mr' ? 'थेट शेतकरी टोल-फ्री किसान हेल्पलाईन' : 'Toll-Free Farmers Call Center (ATIC)'}
-                  </h4>
-                  <p className="text-xs text-slate-900 font-medium">
-                    {language === 'mr'
-                      ? 'सोमवार ते शनिवार: सकाळी ९:०० ते सायं ५:०० दरम्यान मोफत तांत्रिक सल्ला'
-                      : 'Monday to Saturday: 9:00 AM to 5:00 PM for free crop advisory & seed availability'}
-                  </p>
-                </div>
-              </div>
-              <div className="text-2xl sm:text-3xl font-black font-serif tracking-tight shrink-0 bg-slate-950 text-white px-5 py-2.5 rounded-2xl shadow-xs">
-                1800 233 3235
-              </div>
-            </div>
+
 
           </div>
         )}

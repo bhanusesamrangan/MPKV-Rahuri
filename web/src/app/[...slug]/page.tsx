@@ -10,6 +10,7 @@ import { ConstituentCollegesView } from '@/views/Education/ConstituentCollegesVi
 import { AffiliatedCollegesView } from '@/views/Education/AffiliatedCollegesView';
 import { CoursesCurriculumView } from '@/views/Education/CoursesCurriculumView';
 import { FacultyBranchView } from '@/views/Education/FacultyBranchView';
+import { FacultyDirectoryView } from '@/views/Education/FacultyDirectoryView';
 
 // Specialized Stakeholder & Governance Views
 import { StudentsHubView } from '@/views/Stakeholder/StudentsHubView';
@@ -19,6 +20,7 @@ import { TrainingsView } from '@/views/Stakeholder/TrainingsView';
 import { TransparencyRtiView } from '@/views/Stakeholder/TransparencyRtiView';
 import { CentralAdministrationView } from '@/views/Stakeholder/CentralAdministrationView';
 import { AboutMahatmaPhuleView } from '@/views/About/AboutMahatmaPhuleView';
+import { MpkvAtAGlanceView } from '@/views/About/MpkvAtAGlanceView';
 
 // Specialized Research Views
 import { ResearchAtAGlanceView } from '@/views/Research/ResearchAtAGlanceView';
@@ -203,6 +205,21 @@ export default async function CatchAllPage({ params }: PageProps) {
     return <FacultyBranchView pageData={page} facultyType="engineering" />;
   }
 
+  // 13b. Faculty & Scientists Directory (/faculty-directory, /Home/factDada)
+  if (
+    pageSlug === 'faculty-directory' ||
+    pageSlug === 'home-factdada' ||
+    pageSlug === 'factdada' ||
+    pageSlug === 'factdata' ||
+    fullPath === 'faculty-directory' ||
+    fullPath === 'home/factdada' ||
+    fullPath === 'home/factdata' ||
+    fullPath === 'education/faculty-directory' ||
+    fullPath === 'faculty'
+  ) {
+    return <FacultyDirectoryView pageData={page} />;
+  }
+
   // 14. Students Corner & Welfare Hub
   if (
     pageSlug === 'students' ||
@@ -254,8 +271,12 @@ export default async function CatchAllPage({ params }: PageProps) {
   if (
     pageSlug === 'administration' ||
     pageSlug === 'administration-profile' ||
+    pageSlug.startsWith('adminstration-admins') ||
+    pageSlug.startsWith('administration-admins') ||
     fullPath === 'administration' ||
-    fullPath === 'administration-profile'
+    fullPath === 'administration-profile' ||
+    fullPath.startsWith('adminstration/admins') ||
+    fullPath.startsWith('administration/admins')
   ) {
     return <CentralAdministrationView pageData={page} />;
   }
@@ -268,6 +289,21 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath === 'aboutphule'
   ) {
     return <AboutMahatmaPhuleView pageData={page} />;
+  }
+
+  // 20b. MPKV At a Glance (Official Comprehensive Overview & Institutional Dossier)
+  if (
+    pageSlug === 'mpkv-at-a-glance' ||
+    pageSlug === 'home-mpkvataglance' ||
+    pageSlug === 'mpkvataglance' ||
+    fullPath === 'mpkv-at-a-glance' ||
+    fullPath === 'home/mpkvataglance' ||
+    fullPath === 'home/mpkv-at-a-glance' ||
+    fullPath === 'about/mpkv-at-a-glance' ||
+    fullPath === 'about/at-a-glance' ||
+    fullPath === 'at-a-glance'
+  ) {
+    return <MpkvAtAGlanceView pageData={page} />;
   }
 
   // =========================================================================
