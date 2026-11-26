@@ -19,7 +19,6 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { ExtensionBreadcrumb } from './components/ExtensionBreadcrumb';
 import { ExtensionHero } from './components/ExtensionHero';
-import { ExtensionSubmenuNav } from './components/ExtensionSubmenuNav';
 
 interface ExtensionAdhocProjectsViewProps {
   pageData?: any;
@@ -134,8 +133,6 @@ export const ExtensionAdhocProjectsView: React.FC<ExtensionAdhocProjectsViewProp
           { label: 'SCSP & TSP Programs', icon: ShieldCheck }
         ]}
       />
-
-      <ExtensionSubmenuNav activeKey="adhoc-projects" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 

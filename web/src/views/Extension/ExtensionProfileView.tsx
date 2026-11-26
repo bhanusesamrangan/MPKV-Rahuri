@@ -22,7 +22,6 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { ExtensionBreadcrumb } from './components/ExtensionBreadcrumb';
 import { ExtensionHero } from './components/ExtensionHero';
-import { ExtensionSubmenuNav } from './components/ExtensionSubmenuNav';
 import { ExtensionCoordinationTree } from './components/ExtensionCoordinationTree';
 
 interface ExtensionProfileViewProps {
@@ -95,8 +94,6 @@ export const ExtensionProfileView: React.FC<ExtensionProfileViewProps> = () => {
           { label: language === 'mr' ? '१७ केव्हीके नेटवर्क' : '17 KVK Network', icon: Building2 }
         ]}
       />
-
-      <ExtensionSubmenuNav activeKey="profile" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 

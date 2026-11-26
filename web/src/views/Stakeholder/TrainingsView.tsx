@@ -110,37 +110,29 @@ export const TrainingsView: React.FC<TrainingsViewProps> = ({ pageData }) => {
   return (
     <div className="w-full bg-[#faf9fc] min-h-screen text-slate-800">
       
-      {/* 1. Breadcrumbs */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] pt-6">
-        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
-          <Link href="/" className="hover:text-violet-700 flex items-center gap-1 font-medium text-slate-600 transition-colors">
-            <Home className="w-3.5 h-3.5 text-violet-700" />
+      {/* 1. Breadcrumb Strip */}
+      <div className="w-full bg-[#f4f7f2] border-b border-stone-200/80 py-2.5 px-4 sm:px-8 lg:px-[50px]">
+        <div className="w-full max-w-[1720px] mx-auto flex items-center flex-wrap gap-1.5 sm:gap-2 text-xs sm:text-[13px] text-stone-600 font-medium">
+          <Link href="/" className="hover:text-emerald-800 flex items-center gap-1.5 transition-colors">
+            <Home className="w-3.5 h-3.5 text-emerald-700" />
             <span>{language === 'mr' ? 'मुख्यपृष्ठ' : 'Home'}</span>
           </Link>
-          <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-          <span className="font-semibold text-violet-900">
+          <ChevronRight className="w-3.5 h-3.5 text-stone-400 shrink-0" />
+          <span className="text-emerald-950 font-bold truncate max-w-[280px] sm:max-w-md">
             {language === 'mr' ? 'प्रशिक्षण व कार्यशाळा' : 'Trainings & Workshops'}
           </span>
-        </nav>
+        </div>
       </div>
 
       {/* 2. Hero Header: High-Tech Violet & Indigo Innovation */}
-      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a103c] via-[#24174f] to-[#120a2e] text-white p-5 sm:p-7 lg:p-8 shadow-xl border border-violet-800/40">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-5.5">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a103c] via-[#24174f] to-[#120a2e] text-white p-5 sm:p-6 lg:p-7 shadow-xl border border-violet-800/40">
           
           <div className="absolute top-0 right-0 w-96 h-96 bg-violet-400/10 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-            <div className="space-y-3 max-w-4xl">
-              
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-500/20 border border-violet-400/30 text-violet-200 text-xs font-bold uppercase tracking-wider shadow-2xs">
-                <Briefcase className="w-4 h-4 text-violet-300" />
-                <span>{language === 'mr' ? 'मानव संसाधन व क्षमता विकास दालन' : 'Capacity Building & Human Resource Hub'}</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-                <span className="text-amber-300 font-semibold">{language === 'mr' ? 'ICAR व महाराष्ट्र शासन' : 'ICAR & State Approved'}</span>
-              </div>
-
+            <div className="space-y-2 max-w-4xl">
               <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
                 {language === 'mr'
                   ? 'अद्ययावत कृषी तंत्रज्ञान प्रशिक्षण व व्यावसायिक कार्यशाळा'

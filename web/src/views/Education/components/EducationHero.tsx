@@ -224,7 +224,6 @@ const THEME_CONFIGS: Record<HeroTheme, ThemeConfig> = {
 export const EducationHero: React.FC<EducationHeroProps> = ({
   title,
   subtitle,
-  badge,
   theme = 'glance',
   quickChips = [],
   children
@@ -233,31 +232,19 @@ export const EducationHero: React.FC<EducationHeroProps> = ({
 
   const titleText = getBilingual(title);
   const subtitleText = subtitle ? getBilingual(subtitle) : '';
-  const badgeText = badge ? getBilingual(badge) : '';
 
   const cfg = THEME_CONFIGS[theme] || THEME_CONFIGS.glance;
-  const BadgeIcon = cfg.badgeIcon;
 
   return (
     <section
-      className={`relative overflow-hidden bg-gradient-to-br ${cfg.bgGradient} text-white py-5 sm:py-7 px-4 sm:px-6 lg:px-8 border-b-4 ${cfg.borderBottom} shadow-xs`}
+      className={`relative overflow-hidden bg-gradient-to-br ${cfg.bgGradient} text-white py-4 sm:py-5.5 px-4 sm:px-8 lg:px-[50px] border-b-4 ${cfg.borderBottom} shadow-xs`}
     >
       {/* Decorative background glow & mesh pattern */}
       <div className={`absolute inset-0 opacity-10 ${cfg.pattern} pointer-events-none`} />
       <div className={`absolute top-0 right-0 -mt-12 -mr-12 w-80 h-80 ${cfg.glow1} rounded-full blur-3xl pointer-events-none`} />
       <div className={`absolute bottom-0 left-1/4 -mb-12 w-64 h-64 ${cfg.glow2} rounded-full blur-2xl pointer-events-none`} />
 
-      <div className="max-w-7xl mx-auto relative z-10">
-        {/* Category Badge */}
-        {badgeText && (
-          <div
-            className={`inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full ${cfg.badgeBg} border ${cfg.badgeBorder} ${cfg.badgeText} text-xs font-semibold tracking-wide backdrop-blur-sm mb-2`}
-          >
-            <BadgeIcon className="w-3.5 h-3.5 shrink-0" />
-            <span>{badgeText}</span>
-          </div>
-        )}
-
+      <div className="w-full max-w-[1720px] mx-auto relative z-10 space-y-2">
         {/* Main Title */}
         <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight text-white max-w-4xl leading-tight">
           {titleText}
@@ -265,14 +252,14 @@ export const EducationHero: React.FC<EducationHeroProps> = ({
 
         {/* Subtitle */}
         {subtitleText && (
-          <p className={`mt-2 text-xs sm:text-sm lg:text-[15px] ${cfg.subtitleText} max-w-3xl leading-relaxed`}>
+          <p className={`text-xs sm:text-sm lg:text-[14px] ${cfg.subtitleText} max-w-3xl leading-relaxed`}>
             {subtitleText}
           </p>
         )}
 
         {/* Quick Chips (if provided) */}
         {quickChips.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="pt-0.5 flex flex-wrap gap-1.5">
             {quickChips.map((chip, idx) => {
               const ChipIcon = chip.icon || CheckCircle2;
               return (
@@ -289,7 +276,7 @@ export const EducationHero: React.FC<EducationHeroProps> = ({
         )}
 
         {/* Extra Children if needed */}
-        {children && <div className="mt-4">{children}</div>}
+        {children && <div className="mt-3">{children}</div>}
       </div>
     </section>
   );

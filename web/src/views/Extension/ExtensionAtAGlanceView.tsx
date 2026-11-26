@@ -27,7 +27,6 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { ExtensionBreadcrumb } from './components/ExtensionBreadcrumb';
 import { ExtensionHero } from './components/ExtensionHero';
-import { ExtensionSubmenuNav } from './components/ExtensionSubmenuNav';
 
 interface ExtensionAtAGlanceViewProps {
   pageData?: any;
@@ -96,8 +95,6 @@ export const ExtensionAtAGlanceView: React.FC<ExtensionAtAGlanceViewProps> = () 
           { label: language === 'mr' ? '९०.८ एफएम वाहिनी' : 'CRS 90.8 FM Radio', icon: Radio }
         ]}
       />
-
-      <ExtensionSubmenuNav activeKey="at-a-glance" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 

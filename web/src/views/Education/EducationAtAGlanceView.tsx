@@ -268,7 +268,7 @@ export const EducationAtAGlanceView: React.FC<EducationAtAGlanceViewProps> = ({ 
       />
 
       {/* Main Container */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-14">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-14">
         
         {/* 3. Official Director Profile Card (Matching mpkv.ac.in/Education/AtaGlance) */}
         <section aria-labelledby="director-heading" className="bg-white rounded-2xl border border-stone-200 p-6 sm:p-8 shadow-xs hover:shadow-md transition-shadow">

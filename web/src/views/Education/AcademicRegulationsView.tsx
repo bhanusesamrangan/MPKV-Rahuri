@@ -162,7 +162,7 @@ export const AcademicRegulationsView: React.FC<AcademicRegulationsViewProps> = (
         ]}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-16">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-16">
         
         {/* Anti-Ragging High-Priority Notice */}
         <section aria-label="Statutory Warning">

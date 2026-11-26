@@ -206,70 +206,67 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
   const breadcrumbs = getDynamicBreadcrumb();
 
   return (
-    <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-6 sm:space-y-8 transition-colors">
-      {/* 1. Breadcrumb Navigation: Home > Main Menu > [Submenu Group] > Selected Submenu Page */}
-      <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
-        {breadcrumbs.map((bc: any, idx: number) => {
-          const isFirst = idx === 0;
-          const isLast = idx === breadcrumbs.length - 1;
-          const title = getBilingual(bc.title);
+    <div className="w-full min-h-screen bg-[#fcfbfa] text-slate-800">
+      {/* 1. Breadcrumb Navigation: Full width strip matching Education, Research, Extension */}
+      <nav
+        aria-label="Breadcrumb"
+        className="w-full bg-[#f4f7f2] border-b border-stone-200/80 py-2.5 px-4 sm:px-8 lg:px-[50px]"
+      >
+        <div className="w-full max-w-[1720px] mx-auto flex items-center flex-wrap gap-1.5 sm:gap-2 text-xs sm:text-[13px] text-stone-600 font-medium">
+          {breadcrumbs.map((bc: any, idx: number) => {
+            const isFirst = idx === 0;
+            const isLast = idx === breadcrumbs.length - 1;
+            const title = getBilingual(bc.title);
 
-          return (
-            <React.Fragment key={idx}>
-              {idx > 0 && <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />}
-              {isLast ? (
-                <span className="font-semibold text-emerald-800 truncate" aria-current="page">
-                  {title}
-                </span>
-              ) : isFirst ? (
-                <Link
-                  href="/"
-                  className="hover:text-emerald-700 flex items-center gap-1 font-medium text-slate-600 transition-colors"
-                >
-                  <Home className="w-4 h-4 text-emerald-700" />
-                  <span>{title}</span>
-                </Link>
-              ) : bc.href && bc.href !== '#' ? (
-                <Link
-                  href={bc.href}
-                  className="hover:text-emerald-700 font-medium text-slate-600 transition-colors"
-                >
-                  {title}
-                </Link>
-              ) : (
-                <span className="font-medium text-slate-600">{title}</span>
-              )}
-            </React.Fragment>
-          );
-        })}
+            return (
+              <React.Fragment key={idx}>
+                {idx > 0 && <ChevronRight className="w-3.5 h-3.5 text-stone-400 shrink-0" />}
+                {isLast ? (
+                  <span className="font-bold text-emerald-950 truncate max-w-[280px] sm:max-w-md" aria-current="page">
+                    {title}
+                  </span>
+                ) : isFirst ? (
+                  <Link
+                    href="/"
+                    className="hover:text-emerald-800 flex items-center gap-1.5 font-medium text-stone-600 transition-colors"
+                  >
+                    <Home className="w-3.5 h-3.5 text-emerald-700" />
+                    <span>{title}</span>
+                  </Link>
+                ) : bc.href && bc.href !== '#' ? (
+                  <Link
+                    href={bc.href}
+                    className="hover:text-emerald-800 font-medium text-stone-600 transition-colors truncate max-w-[180px] sm:max-w-none"
+                  >
+                    {title}
+                  </Link>
+                ) : (
+                  <span className="font-medium text-stone-600 truncate max-w-[180px] sm:max-w-none">{title}</span>
+                )}
+              </React.Fragment>
+            );
+          })}
+        </div>
       </nav>
 
-      {/* 2. Hero Header Banner */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-[#f0f7f3] via-[#f7fbf8] to-[#faf9f5] text-slate-800 rounded-3xl p-5 sm:p-7 shadow-[0_4px_25px_rgba(0,0,0,0.02)] border border-emerald-100/80">
-        <div className="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 rounded-full bg-emerald-100/50 blur-3xl pointer-events-none" />
-        <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div className="space-y-2.5 max-w-4xl">
-            {heroBadge && (
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="inline-flex items-center gap-1 px-3 py-0.5 bg-amber-50 text-amber-900 border border-amber-200/80 font-semibold text-xs rounded-full uppercase">
-                  <Award className="w-3.5 h-3.5 text-amber-600" />
-                  <span>{heroBadge}</span>
-                </span>
-              </div>
-            )}
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-5 sm:py-7 space-y-6 sm:space-y-8 transition-colors">
+        {/* 2. Hero Header Banner */}
+        <div className="relative overflow-hidden bg-gradient-to-r from-[#f0f7f3] via-[#f7fbf8] to-[#faf9f5] text-slate-800 rounded-3xl p-5 sm:p-6 shadow-[0_4px_25px_rgba(0,0,0,0.02)] border border-emerald-100/80">
+          <div className="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 rounded-full bg-emerald-100/50 blur-3xl pointer-events-none" />
+          <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="space-y-2 max-w-4xl">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-slate-800 leading-tight">
+                {heroTitle}
+              </h1>
 
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight text-slate-800 leading-tight">
-              {heroTitle}
-            </h1>
-
-            {heroSubtitle && (
-              <p className="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed max-w-3xl">
-                {heroSubtitle}
-              </p>
-            )}
+              {heroSubtitle && (
+                <p className="text-slate-600 text-xs sm:text-sm md:text-base font-normal leading-relaxed max-w-3xl">
+                  {heroSubtitle}
+                </p>
+              )}
+            </div>
           </div>
         </div>
-      </div>
 
       {/* 3. Search Filter Bar if page contains multiple tables or records */}
       {(tables.length > 0 || tenders.length > 0 || circulars.length > 0 || notices.length > 0) && (
@@ -704,6 +701,7 @@ export const DynamicPageView: React.FC<DynamicPageViewProps> = ({
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 };

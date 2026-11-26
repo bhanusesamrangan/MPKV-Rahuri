@@ -210,19 +210,16 @@ const THEME_CONFIGS: Record<ResearchHeroTheme, ThemeConfig> = {
 export const ResearchHero: React.FC<ResearchHeroProps> = ({
   title,
   subtitle,
-  badge,
   theme = 'glance',
   quickChips = [],
   children
 }) => {
-  const { language, getBilingual } = useLanguage();
+  const { getBilingual } = useLanguage();
 
   const cfg = THEME_CONFIGS[theme] || THEME_CONFIGS.glance;
-  const BadgeIcon = cfg.badgeIcon;
 
   const displayTitle = getBilingual(title);
   const displaySubtitle = subtitle ? getBilingual(subtitle) : '';
-  const displayBadge = badge ? getBilingual(badge) : '';
 
   return (
     <section
@@ -236,24 +233,7 @@ export const ResearchHero: React.FC<ResearchHeroProps> = ({
       <div className={`absolute -top-24 -left-24 w-72 h-72 rounded-full blur-3xl pointer-events-none ${cfg.glow1}`} />
       <div className={`absolute -bottom-24 -right-24 w-72 h-72 rounded-full blur-3xl pointer-events-none ${cfg.glow2}`} />
 
-      <div className="relative z-10 w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-5 sm:py-7 space-y-3">
-        {/* Category Badge */}
-        {displayBadge ? (
-          <div
-            className={`inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider border shadow-2xs ${cfg.badgeBg} ${cfg.badgeText} ${cfg.badgeBorder}`}
-          >
-            <BadgeIcon className="w-3.5 h-3.5" />
-            <span>{displayBadge}</span>
-          </div>
-        ) : (
-          <div
-            className={`inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider border shadow-2xs ${cfg.badgeBg} ${cfg.badgeText} ${cfg.badgeBorder}`}
-          >
-            <Microscope className="w-3.5 h-3.5" />
-            <span>{language === 'mr' ? 'संशोधन संचालनालय' : 'Directorate of Research'}</span>
-          </div>
-        )}
-
+      <div className="relative z-10 w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-5.5 space-y-2">
         {/* Hero Title & Subtitle */}
         <div className="space-y-1.5 max-w-4xl">
           <h1
@@ -264,7 +244,7 @@ export const ResearchHero: React.FC<ResearchHeroProps> = ({
           </h1>
 
           {displaySubtitle && (
-            <p className={`text-xs sm:text-sm md:text-[15px] leading-relaxed font-normal max-w-3xl ${cfg.subtitleText}`}>
+            <p className={`text-xs sm:text-sm md:text-[14px] leading-relaxed font-normal max-w-3xl ${cfg.subtitleText}`}>
               {displaySubtitle}
             </p>
           )}
@@ -272,7 +252,7 @@ export const ResearchHero: React.FC<ResearchHeroProps> = ({
 
         {/* Quick Chips Matrix */}
         {quickChips.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5 pt-1">
+          <div className="flex flex-wrap items-center gap-1.5 pt-0.5">
             {quickChips.map((chip, idx) => {
               const ChipIcon = chip.icon || CheckCircle2;
               return (

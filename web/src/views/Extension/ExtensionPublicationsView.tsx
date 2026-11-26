@@ -19,7 +19,6 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { ExtensionBreadcrumb } from './components/ExtensionBreadcrumb';
 import { ExtensionHero } from './components/ExtensionHero';
-import { ExtensionSubmenuNav } from './components/ExtensionSubmenuNav';
 
 interface PublicationItem {
   id: string;
@@ -114,8 +113,6 @@ export const ExtensionPublicationsView: React.FC<ExtensionPublicationsViewProps>
           { label: 'वार्षिक अहवाल', icon: BookMarked }
         ]}
       />
-
-      <ExtensionSubmenuNav activeKey="publications" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 

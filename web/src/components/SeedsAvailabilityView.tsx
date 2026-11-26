@@ -79,37 +79,29 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
   };
 
   return (
-    <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-8 space-y-8 transition-colors">
-      {/* Breadcrumb Navigation */}
-      <nav className="flex items-center gap-2 text-sm text-slate-500 overflow-x-auto whitespace-nowrap">
-        <Link href="/" className="hover:text-emerald-700 flex items-center gap-1 font-medium">
-          <Home className="w-4 h-4" />
-          <span>{language === 'mr' ? 'मुख्यपृष्ठ' : 'Home'}</span>
-        </Link>
-        <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
-        <span className="text-slate-600 font-medium">{language === 'mr' ? 'शेतकरी सेवा' : 'Farmer Services'}</span>
-        <ChevronRight className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
-        <span className="font-semibold text-emerald-800">
-          {language === 'mr' ? 'बियाणे व रोपवाटिका साठा' : 'Certified Seeds & Nursery Stock'}
-        </span>
-      </nav>
+    <div className="w-full bg-[#fdfbf7] min-h-screen">
+      {/* 1. Breadcrumb Strip */}
+      <div className="w-full bg-[#f4f7f2] border-b border-stone-200/80 py-2.5 px-4 sm:px-8 lg:px-[50px]">
+        <div className="w-full max-w-[1720px] mx-auto flex items-center flex-wrap gap-1.5 sm:gap-2 text-xs sm:text-[13px] text-stone-600 font-medium">
+          <Link href="/" className="hover:text-emerald-800 flex items-center gap-1.5 transition-colors">
+            <Home className="w-3.5 h-3.5 text-emerald-700" />
+            <span>{language === 'mr' ? 'मुख्यपृष्ठ' : 'Home'}</span>
+          </Link>
+          <ChevronRight className="w-3.5 h-3.5 text-stone-400 shrink-0" />
+          <span className="text-stone-600 font-medium">{language === 'mr' ? 'शेतकरी सेवा' : 'Farmer Services'}</span>
+          <ChevronRight className="w-3.5 h-3.5 text-stone-400 shrink-0" />
+          <span className="text-emerald-950 font-bold truncate max-w-[280px] sm:max-w-md">
+            {language === 'mr' ? 'बियाणे व रोपवाटिका साठा' : 'Certified Seeds & Nursery Stock'}
+          </span>
+        </div>
+      </div>
 
-      {/* Hero Header - Soft Pastel Leisurely Banner */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-[#f0f7f3] via-[#f7fbf8] to-[#faf9f5] text-slate-800 rounded-3xl p-6 sm:p-10 shadow-xs border border-emerald-100/80">
-        <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-          <div className="space-y-3 max-w-3xl">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-amber-100/80 text-amber-900 text-xs sm:text-sm font-semibold rounded-full uppercase border border-amber-200/60">
-                <ShieldCheck className="w-4 h-4 text-amber-600" />
-                <span>{language === 'mr' ? 'राहुरी मध्यवर्ती प्रक्षेत्र साठा' : 'Rahuri Central Farm Stock'}</span>
-              </span>
-              <span className="inline-flex items-center gap-1 px-3 py-1 bg-emerald-50 text-emerald-800 border border-emerald-200/60 rounded-full text-xs sm:text-sm font-medium">
-                <Calendar className="w-3.5 h-3.5 text-emerald-600" />
-                <span>{language === 'mr' ? 'अद्यतन दिनांक: १७/११/२०२६' : 'Verified: 17/11/2026'}</span>
-              </span>
-            </div>
-
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-900">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-6 space-y-6 transition-colors">
+        {/* Hero Header - Soft Pastel Leisurely Banner */}
+        <div className="relative overflow-hidden bg-gradient-to-r from-[#f0f7f3] via-[#f7fbf8] to-[#faf9f5] text-slate-800 rounded-3xl p-5 sm:p-7 shadow-xs border border-emerald-100/80">
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div className="space-y-2 max-w-3xl">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-900">
               {language === 'mr' ? 'प्रमाणित बियाणे व रोपवाटिका साठा' : 'Certified Seeds & Nursery Plant Stock'}
             </h1>
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify sm:text-left font-normal">
@@ -635,5 +627,6 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         </a>
       </div>
     </div>
+  </div>
   );
 };

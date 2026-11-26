@@ -22,7 +22,6 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { ExtensionBreadcrumb } from './components/ExtensionBreadcrumb';
 import { ExtensionHero } from './components/ExtensionHero';
-import { ExtensionSubmenuNav } from './components/ExtensionSubmenuNav';
 
 interface KVKRecord {
   id: string;
@@ -343,8 +342,6 @@ export const ExtensionKVKView: React.FC<ExtensionKVKViewProps> = () => {
           { label: language === 'mr' ? 'प्रक्षेत्र चाचण्या व FLDs' : 'OFTs & FLDs Mandate', icon: Target }
         ]}
       />
-
-      <ExtensionSubmenuNav activeKey="krishi-vigyan-kendras" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 

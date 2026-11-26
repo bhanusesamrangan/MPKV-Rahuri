@@ -160,7 +160,6 @@ export const ExtensionHero: React.FC<ExtensionHeroProps> = ({
 
   const titleText = getLocalized(title);
   const subtitleText = getLocalized(subtitle);
-  const badgeText = getLocalized(badge);
 
   return (
     <section
@@ -172,31 +171,11 @@ export const ExtensionHero: React.FC<ExtensionHeroProps> = ({
         <div className="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-amber-400 blur-3xl" />
       </div>
 
-      <div className="relative w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-5 sm:py-7">
+      <div className="relative w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-4 sm:py-5.5">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
 
-          {/* Left Column: Headings & Badges */}
-          <div className="space-y-2.5 max-w-4xl">
-            {/* Live Farmer Outreach Pill */}
-            <div className="flex flex-wrap items-center gap-2">
-              {badgeText && (
-                <div
-                  className={`inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider backdrop-blur-md ${cfg.badgeBg} ${cfg.badgeText} border ${cfg.badgeBorder}`}
-                >
-                  <BadgeIcon className="w-3.5 h-3.5" />
-                  <span>{badgeText}</span>
-                </div>
-              )}
-
-              {/* Direct Toll-Free Kisan Helpline Hotline Indicator */}
-              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold bg-amber-400/20 text-amber-200 border border-amber-400/40">
-                <PhoneCall className="w-3 h-3 text-amber-300 animate-pulse" />
-                <span>
-                  {language === 'mr' ? 'किसान हेल्पलाईन:' : 'Kisan Helpline:'} {helplinePhone}
-                </span>
-              </div>
-            </div>
-
+          {/* Left Column: Headings & Chips */}
+          <div className="space-y-2 max-w-4xl">
             {/* Main Title */}
             <h1 className="text-xl sm:text-2xl lg:text-3xl font-black font-serif tracking-tight leading-tight text-white drop-shadow-xs">
               {titleText}
@@ -204,14 +183,14 @@ export const ExtensionHero: React.FC<ExtensionHeroProps> = ({
 
             {/* Subtitle / Mandate */}
             {subtitleText && (
-              <p className="text-xs sm:text-sm lg:text-[15px] text-emerald-100/90 leading-relaxed font-normal max-w-3xl">
+              <p className="text-xs sm:text-sm lg:text-[14px] text-emerald-100/90 leading-relaxed font-normal max-w-3xl">
                 {subtitleText}
               </p>
             )}
 
             {/* Quick Chips Bento */}
             {quickChips.length > 0 && (
-              <div className="pt-1 flex flex-wrap gap-1.5">
+              <div className="pt-0.5 flex flex-wrap gap-1.5">
                 {quickChips.map((chip, idx) => {
                   const ChipIcon = chip.icon || CheckCircle2;
                   return (

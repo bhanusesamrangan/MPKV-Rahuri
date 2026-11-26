@@ -22,7 +22,6 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { ExtensionBreadcrumb } from './components/ExtensionBreadcrumb';
 import { ExtensionHero } from './components/ExtensionHero';
-import { ExtensionSubmenuNav } from './components/ExtensionSubmenuNav';
 
 interface ExtensionThrustAreasViewProps {
   pageData?: any;
@@ -157,8 +156,6 @@ export const ExtensionThrustAreasView: React.FC<ExtensionThrustAreasViewProps> =
           { label: language === 'mr' ? 'पीपीपी मॉडेल' : 'PPP Synergy Mode', icon: Handshake }
         ]}
       />
-
-      <ExtensionSubmenuNav activeKey="thrust-areas" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 

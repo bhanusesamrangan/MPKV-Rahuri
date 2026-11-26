@@ -25,7 +25,6 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { ExtensionBreadcrumb } from './components/ExtensionBreadcrumb';
 import { ExtensionHero } from './components/ExtensionHero';
-import { ExtensionSubmenuNav } from './components/ExtensionSubmenuNav';
 
 interface ExtensionCommunicationCenterViewProps {
   pageData?: any;
@@ -116,8 +115,6 @@ export const ExtensionCommunicationCenterView: React.FC<ExtensionCommunicationCe
           { label: language === 'mr' ? 'मोबाईल प्रदर्शन व्हॅन' : 'Mobile Exhibition Van', icon: Tv }
         ]}
       />
-
-      <ExtensionSubmenuNav activeKey="communication-center" />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 

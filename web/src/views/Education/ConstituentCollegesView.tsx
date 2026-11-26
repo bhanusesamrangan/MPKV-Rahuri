@@ -100,7 +100,7 @@ export const ConstituentCollegesView: React.FC<ConstituentCollegesViewProps> = (
         ]}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-12">
+      <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
         
         {/* Filters and Search Bar */}
         <section aria-label="Filters" className="bg-white rounded-2xl border border-stone-200 p-5 sm:p-6 shadow-xs space-y-5">
