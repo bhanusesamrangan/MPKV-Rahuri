@@ -3,10 +3,10 @@
   "url": "https://mpkv.ac.in/Finance/AboutFinance",
   "route": "/Finance/AboutFinance",
   "sourcePage": "finance",
-  "scrapedAt": "2026-11-22T20:35:38.176003",
+  "scrapedAt": "2026-11-26T15:20:00.000000",
   "title": {
-    "en": "Finance",
-    "mr": "वित्त"
+    "en": "Finance & Accounts Directorate",
+    "mr": "वित्त व लेखा संचालनालय"
   },
   "breadcrumb": [
     {
@@ -18,1236 +18,1459 @@
     },
     {
       "title": {
-        "en": "Finance",
-        "mr": "वित्त"
+        "en": "Administration",
+        "mr": "प्रशासन"
       },
-      "href": "/Finance/AboutFinance"
+      "href": "/administration"
+    },
+    {
+      "title": {
+        "en": "Comptroller (Finance & Accounts)",
+        "mr": "नियंत्रक (वित्त व लेखा)"
+      },
+      "href": "/finance"
     }
   ],
   "hero": {
     "title": {
-      "en": "Finance",
-      "mr": "वित्त"
+      "en": "Finance & Accounts Directorate",
+      "mr": "वित्त व लेखा संचालनालय"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Finance",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — वित्त"
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Statutory Office of the Comptroller",
+      "mr": "महात्मा फुले कृषी विद्यापीठ, राहुरी — वैधानिक नियंत्रक (वित्त व लेखा विभाग)"
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "Statutory Directorate",
+      "mr": "वैधानिक संचालनालय"
+    },
+    "actRef": {
+      "en": "Section 20(1), (2), (3) of Maharashtra Agricultural Universities Act, 1983 & MAU Account Code 1991",
+      "mr": "महाराष्ट्र कृषी विद्यापीठे अधिनियम १९८३, कलम २०(१), (२), (३) व कृषी विद्यापीठ लेखा संहिता १९९१"
     }
   },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+  "comptroller": {
+    "cadre": {
+      "en": "Indian Audit & Accounts Service (IA&AS) / Maharashtra Finance & Accounts Service (MF&AS)",
+      "mr": "भारतीय लेखापरीक्षा व लेखा सेवा (IA&AS) / महाराष्ट्र वित्त व लेखा सेवा (MF&AS)"
     },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
+    "appointment": {
+      "en": "Statutory officer belonging to the IA&AS or MF&AS appointed by the State Government on deputation under Section 20(1) of Maharashtra Agricultural Universities Act, 1983.",
+      "mr": "महाराष्ट्र कृषी विद्यापीठे अधिनियम १९८३ मधील कलम २०(१) नुसार महाराष्ट्र शासनातर्फे प्रतिनियुक्तीवर नियुक्त वैधानिक अधिकारी."
     },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Finance",
-        "mr": "वित्त"
-      },
-      "order": 55
-    }
-  ],
-  "paragraphs": [
-    {
-      "text": {
-        "en": "He is an officer belonging to the Indian Audit and Accounts Service or the Maharashtra Finance and Accounts Services appointed by the State Government on deputation.",
-        "mr": "He is an officer belonging to the Indian Audit and Accounts Service or the Maharashtra Finance and Accounts Services appointed by the State Government on deputation."
-      },
-      "order": 56
-    },
-    {
-      "text": {
-        "en": "He shall hold and manage the property and investments of the University and advise the University as regards its financial policy. a) He shall ensure that no expenditure, not authorized in the budget, in incurred by the University. b) He is responsible for ensuring that the expenditures are made as authorized in the budget. c) He shall disallow any expenditure, which may contravene any provision of this Act or any Statutes made thereunder or for which provision is required to be made by or under this Act or any such Statute. d) He can propose to the Executive Council that explanation be called for unauthorized expenditure or other financial irregularities in any particular case and recommend disciplinary action against the persons at fault. The Comptroller shall act as Pay and receiving officer. He shall receive all moneys due to or receivable on behalf of the University and bring them forthwith to Accounts and pay or otherwise settle all claims preferred against the University. The Comptroller shall complete the accounts of the University in accordance with the Rules prescribed in that behalf. The Comptroller may seek, with the approval of the Vice Chancellor through Maharashtra Council of Agricultural Education and Research, the advice of the Government in all matters connected with the Accounts and Finance of the Vidyapeeth or the application of the financial rules and orders concerned on which there may be any doubt. The various authorities of the Vidyapeeth shall exercise such financial powers as may be delegated to them to run various activities. The financial powers shall be delegated to the various authorities of the Vidyapeeth with the concurrence of the Comptroller. The Comptroller, being the financial advisor to the Krishi Vidyapeeth, shall invariably be consulted on all matters, relating to finance, budget and accounts. All sanction or orders, involving financial implications, having a bearing on budget grants of Vidyapeeth, shall be issued only after his concurrence. The Comptroller has to functions as an Internal Auditor of the Vidyapeeth.",
-        "mr": "He shall hold and manage the property and investments of the University and advise the University as regards its financial policy. a) He shall ensure that no expenditure, not authorized in the budget, in incurred by the University. b) He is responsible for ensuring that the expenditures are made as authorized in the budget. c) He shall disallow any expenditure, which may contravene any provision of this Act or any Statutes made thereunder or for which provision is required to be made by or under this Act or any such Statute. d) He can propose to the Executive Council that explanation be called for unauthorized expenditure or other financial irregularities in any particular case and recommend disciplinary action against the persons at fault. The Comptroller shall act as Pay and receiving officer. He shall receive all moneys due to or receivable on behalf of the University and bring them forthwith to Accounts and pay or otherwise settle all claims preferred against the University. The Comptroller shall complete the accounts of the University in accordance with the Rules prescribed in that behalf. The Comptroller may seek, with the approval of the Vice Chancellor through Maharashtra Council of Agricultural Education and Research, the advice of the Government in all matters connected with the Accounts and Finance of the Vidyapeeth or the application of the financial rules and orders concerned on which there may be any doubt. The various authorities of the Vidyapeeth shall exercise such financial powers as may be delegated to them to run various activities. The financial powers shall be delegated to the various authorities of the Vidyapeeth with the concurrence of the Comptroller. The Comptroller, being the financial advisor to the Krishi Vidyapeeth, shall invariably be consulted on all matters, relating to finance, budget and accounts. All sanction or orders, involving financial implications, having a bearing on budget grants of Vidyapeeth, shall be issued only after his concurrence. The Comptroller has to functions as an Internal Auditor of the Vidyapeeth."
-      },
-      "order": 57
-    }
-  ],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Finance",
-          "mr": "वित्त"
+    "statutoryDuties": [
+      {
+        "title": {
+          "en": "Asset & Investment Management",
+          "mr": "मालमत्ता व गुंतवणूक व्यवस्थापन"
         },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Organizational Profile",
-          "mr": "Organizational Profile"
-        },
-        {
-          "en": "Account Related Documents",
-          "mr": "Account Related Documents"
-        },
-        {
-          "en": "Delegation of Powers",
-          "mr": "Delegation of Powers"
-        },
-        {
-          "en": "Government Resolutions",
-          "mr": "Government Resolutions"
-        },
-        {
-          "en": "Budget",
-          "mr": "Budget"
-        },
-        {
-          "en": "Circulars",
-          "mr": "Circulars"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
+        "desc": {
+          "en": "Hold and manage the property and investments of the University and advise the University as regards its financial policy.",
+          "mr": "विद्यापीठाची स्थावर-जंगम मालमत्ता व गुंतवणुकीचे कायदेशीर व्यवस्थापन करणे व विद्यापीठाला सर्वसमावेशक वित्तीय सल्ला देणे."
         }
-      ],
-      "order": 58
+      },
+      {
+        "title": {
+          "en": "Budgetary Vigilance & Authorization",
+          "mr": "अंदाजपत्रकीय नियंत्रण व खर्च संमती"
+        },
+        "desc": {
+          "en": "Ensure that no expenditure not authorized in the budget is incurred by the University, and ensure that expenditures are strictly made as authorized in the budget.",
+          "mr": "अंदाजपत्रकात मान्यता नसलेला कोणताही खर्च विद्यापीठाकडून होणार नाही याची दक्षता घेणे व मंजूर तरतुदींनुसारच खर्च करणे."
+        }
+      },
+      {
+        "title": {
+          "en": "Statutory Expenditure Disallowance",
+          "mr": "अवैध खर्च नामंजूर करण्याचे वैधानिक अधिकार"
+        },
+        "desc": {
+          "en": "Disallow any expenditure which may contravene any provision of the MAU Act or any Statutes made thereunder or for which provision is required to be made by or under this Act.",
+          "mr": "अधिनियम अथवा परिनियमांचे उल्लंघन करणारा कोणताही खर्च नामंजूर (Disallow) करण्याचे पूर्ण वैधानिक अधिकार."
+        }
+      },
+      {
+        "title": {
+          "en": "Executive Council Irregularity Reporting",
+          "mr": "कार्यकारी परिषदेस वित्तीय अनियमितता अहवाल"
+        },
+        "desc": {
+          "en": "Propose to the Executive Council that explanation be called for unauthorized expenditure or other financial irregularities and recommend disciplinary action against persons at fault.",
+          "mr": "अनधिकृत खर्च किंवा वित्तीय गैरव्यवहारांबाबत संबंधित व्यक्तींकडून स्पष्टीकरण मागवून त्यांच्यावर शिस्तभंगाची कारवाई करण्याची शिफारस कार्यकारी परिषदेला करणे."
+        }
+      },
+      {
+        "title": {
+          "en": "Pay & Receiving Authority",
+          "mr": "अधिदान व प्रदान सर्वोच्च अधिकारी"
+        },
+        "desc": {
+          "en": "Act as Pay and receiving officer. Receive all moneys due to or receivable on behalf of the University, bring them forthwith to Accounts, and settle all claims preferred against the University.",
+          "mr": "विद्यापीठास मिळणाऱ्या सर्व रकमा तात्काळ जमा खाती घेणे व विद्यापीठाविरुद्धचे सर्व वैध दावे व देयके नियमानुसार अदा करणे."
+        }
+      },
+      {
+        "title": {
+          "en": "Rules Compliance & MCAER Consultation",
+          "mr": "लेखा संहिता व एमसीएईआर समन्वय"
+        },
+        "desc": {
+          "en": "Complete the accounts of the University in accordance with the prescribed rules, and seek Government advice through MCAER with the approval of the Vice-Chancellor on any doubtful financial rules.",
+          "mr": "लेखा संहितेनुसार विद्यापीठाचे वार्षिक ताळेबंद पूर्ण करणे व कायदेशीर साशंकतेबाबत कुलगुरूंच्या मान्यतेने एमसीएईआरमार्फत शासनाचा सल्ला घेणे."
+        }
+      },
+      {
+        "title": {
+          "en": "Financial Powers Delegation Concurrence",
+          "mr": "वित्तीय अधिकार प्रदानास अनिवार्य संमती"
+        },
+        "desc": {
+          "en": "All financial powers delegated to various university authorities to run various activities shall be delegated only with the concurrence of the Comptroller.",
+          "mr": "विद्यापीठाच्या कोणत्याही अधिकाऱ्यास किंवा प्राधिकरणास वित्तीय अधिकार प्रदान करताना नियंत्रकांची पूर्वसंमती अनिवार्य असते."
+        }
+      },
+      {
+        "title": {
+          "en": "Internal Auditor of the University",
+          "mr": "अंतर्गत लेखापरीक्षण (Internal Audit)"
+        },
+        "desc": {
+          "en": "Function as the Internal Auditor of the Vidyapeeth and ensure all orders involving financial implications are issued only after his concurrence.",
+          "mr": "विद्यापीठाचे मुख्य अंतर्गत लेखापरीक्षक म्हणून काम पाहणे व वित्तीय परिणाम असणाऱ्या सर्व प्रशासकीय आदेशांना पूर्वमान्यता देणे."
+        }
+      }
+    ],
+    "generalActivities": [
+      {
+        "srNo": "1",
+        "title": {
+          "en": "Pensionary Benefits Disbursement",
+          "mr": "निवृत्तीवेतन लाभ वाटप"
+        },
+        "desc": {
+          "en": "Timely disbursement of pension, gratuity, commutation, and family pensionary benefits to retired academic and administrative personnel.",
+          "mr": "विद्यापीठातील सेवानिवृत्त प्राध्यापक, शास्त्रज्ञ व कर्मचाऱ्यांना वेळेवर निवृत्तीवेतन, उपदान व इतर लाभांचे वितरण."
+        }
+      },
+      {
+        "srNo": "2",
+        "title": {
+          "en": "Annual Budget Formulation",
+          "mr": "वार्षिक अंदाजपत्रक निर्मिती"
+        },
+        "desc": {
+          "en": "Preparation of the comprehensive Annual University Budget and submission to the Government of Maharashtra and MCAER through proper statutory channels.",
+          "mr": "विद्यापीठाचा सर्वांगीण वार्षिक अर्थसंकल्प तयार करून शासनाला व एमसीएईआरला विहित मार्गाने सादर करणे."
+        }
+      },
+      {
+        "srNo": "3",
+        "title": {
+          "en": "Internal Audit & Commercial Accounting",
+          "mr": "व्यावसायिक लेखा व नफा-तोटा ताळेबंद"
+        },
+        "desc": {
+          "en": "Carrying out internal audit and commercial accounting (preparation of Balance Sheet and Profit & Loss accounts of farms, nurseries, seed units as per Chapter 27 of Account Code 1991).",
+          "mr": "शेती, रोपवाटिका व बियाणे उत्पादनाचे व्यावसायिक हिशोब (नफा-तोटा पत्रक व ताळेबंद) तयार करणे व अंतर्गत तपासणी करणे."
+        }
+      },
+      {
+        "srNo": "4",
+        "title": {
+          "en": "Financial Budgeting & Committee Secretariat",
+          "mr": "वित्त समितीचे सदस्य सचिव"
+        },
+        "desc": {
+          "en": "Financial budgeting & strategic planning, and functioning as the Member Secretary of the Statutory Finance Committee.",
+          "mr": "विद्यापीठाच्या वैधानिक वित्त समितीचे सदस्य सचिव म्हणून विद्यापीठाच्या आर्थिक धोरणांचे संचलन."
+        }
+      },
+      {
+        "srNo": "5",
+        "title": {
+          "en": "Grants, GPF/NPS & Allied Accounts",
+          "mr": "अनुदाने, भविष्य निर्वाह निधी व एनपीएस"
+        },
+        "desc": {
+          "en": "Maintenance of accounts of State, ICAR, Central grants-in-aid, GPF, NPS (DCPS), revolving funds, and allied accounts as per the MAU Act & Account Code.",
+          "mr": "शासकीय, आयसीएआर व इतर अनुदाने, भविष्य निर्वाह निधी (GPF), राष्ट्रीय पेन्शन योजना (NPS) व फिरता निधीचे चोख हिशोब ठेवणे."
+        }
+      }
+    ]
+  },
+  "organizationalWings": [
+    {
+      "key": "ac1",
+      "title": {
+        "en": "Assistant Comptroller - 1 & Addl. Pay & Accounts Officer",
+        "mr": "सहाय्यक नियंत्रक १ तथा अति. अधिदान व लेखा अधिकारी"
+      },
+      "phone": "02426-243225",
+      "email": "act1mpkv@gmail.com",
+      "scope": {
+        "en": "Central Pay & Accounts supervision, salary & allowances, statutory bills, and treasury coordination.",
+        "mr": "अधिदान व लेखा नियंत्रण, वेतन व भत्ते, वैधानिक बिले व कोषागार समन्वय."
+      },
+      "hierarchy": [
+        {
+          "cadre": {
+            "en": "Office Superintendent",
+            "mr": "कार्यालय अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Assistant Superintendent",
+            "mr": "सहाय्यक अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Senior Clerk",
+            "mr": "वरिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Clerk / Junior Clerk",
+            "mr": "लिपीक / कनिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Peon / Farm Laborer",
+            "mr": "शिपाई / मजूर"
+          }
+        }
+      ]
     },
     {
-      "type": "ol",
-      "items": [
+      "key": "ac2",
+      "title": {
+        "en": "Assistant Comptroller - 2",
+        "mr": "सहाय्यक नियंत्रक २"
+      },
+      "phone": "02426-243374",
+      "email": "ac2mpkv@gmail.com",
+      "scope": {
+        "en": "University Annual Budget, Financial Management Grants (FMG), Plan & Non-Plan allocation.",
+        "mr": "विद्यापीठ वार्षिक अंदाजपत्रक, एफएमजी अनुदाने, योजना व योजनेतर निधी वाटप."
+      },
+      "hierarchy": [
         {
-          "en": "Disbursement of Pensionary benefits to the pensioners of University.",
-          "mr": "Disbursement of Pensionary benefits to the pensioners of University."
+          "cadre": {
+            "en": "Office Superintendent",
+            "mr": "कार्यालय अधीक्षक"
+          }
         },
         {
-          "en": "Prepared Annual Budget of the University and Submit to Government through proper channel.",
-          "mr": "Prepared Annual Budget of the University and Submit to Government through proper channel."
+          "cadre": {
+            "en": "Assistant Superintendent",
+            "mr": "सहाय्यक अधीक्षक"
+          }
         },
         {
-          "en": "Carry out internal Audit & Commercial Accounting (Preparation of Balance Sheet and Profit & Loss of various activities enlisted in chapter 27 of Maharashtra Agricultural University’s Account Code 1991).",
-          "mr": "Carry out internal Audit & Commercial Accounting (Preparation of Balance Sheet and Profit & Loss of various activities enlisted in chapter 27 of Maharashtra Agricultural University’s Account Code 1991)."
+          "cadre": {
+            "en": "Senior Clerk",
+            "mr": "वरिष्ठ लिपीक"
+          }
         },
         {
-          "en": "Financial Budgeting & Planning and perform as Member Secretary of Finance committee which is Statutory Committee .",
-          "mr": "Financial Budgeting & Planning and perform as Member Secretary of Finance committee which is Statutory Committee ."
+          "cadre": {
+            "en": "Clerk / Junior Clerk",
+            "mr": "लिपीक / कनिष्ठ लिपीक"
+          }
         },
         {
-          "en": "Maintenance of Accounts of Various Grant in Aid & Draw receipts to University, Various expenditures, GPF/NPS(DCPS) & other allied          financial activities as per provisions in Act & Account Code.",
-          "mr": "Maintenance of Accounts of Various Grant in Aid & Draw receipts to University, Various expenditures, GPF/NPS(DCPS) & other allied          financial activities as per provisions in Act & Account Code."
+          "cadre": {
+            "en": "Peon / Farm Laborer",
+            "mr": "शिपाई / मजूर"
+          }
         }
-      ],
-      "order": 59
+      ]
+    },
+    {
+      "key": "ac3",
+      "title": {
+        "en": "Assistant Comptroller - 3",
+        "mr": "सहाय्यक नियंत्रक ३"
+      },
+      "phone": "02426-243204",
+      "email": "assistantcompt3@gmail.com",
+      "scope": {
+        "en": "Pension verification, gratuity claims, family pensions, and retirement entitlement disbursals.",
+        "mr": "निवृत्तीवेतन पडताळणी, उपदान दावे, कुटुंब निवृत्तीवेतन व सेवानिवृत्ती लाभ मंजुरी."
+      },
+      "hierarchy": [
+        {
+          "cadre": {
+            "en": "Office Superintendent",
+            "mr": "कार्यालय अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Assistant Superintendent",
+            "mr": "सहाय्यक अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Senior Clerk",
+            "mr": "वरिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Clerk / Junior Clerk",
+            "mr": "लिपीक / कनिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Peon / Farm Laborer",
+            "mr": "शिपाई / मजूर"
+          }
+        }
+      ]
+    },
+    {
+      "key": "ac4",
+      "title": {
+        "en": "Assistant Comptroller - 4",
+        "mr": "सहाय्यक नियंत्रक ४"
+      },
+      "phone": "02426-243338",
+      "email": "asstt.compt.iv@gmail.com",
+      "scope": {
+        "en": "Internal Audit, AG Audit compliance, commercial farm accounting, revolving funds, and PAC queries.",
+        "mr": "अंतर्गत लेखापरीक्षण, महालेखापाल (AG) ऑडिट पूर्तता, व्यावसायिक शेती हिशोब व फिरता निधी."
+      },
+      "hierarchy": [
+        {
+          "cadre": {
+            "en": "Office Superintendent",
+            "mr": "कार्यालय अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Assistant Superintendent",
+            "mr": "सहाय्यक अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Senior Clerk",
+            "mr": "वरिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Clerk / Junior Clerk",
+            "mr": "लिपीक / कनिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Peon / Farm Laborer",
+            "mr": "शिपाई / मजूर"
+          }
+        }
+      ]
+    },
+    {
+      "key": "pao",
+      "title": {
+        "en": "Pay & Accounts Officer (PAO)",
+        "mr": "अधिदान व लेखा अधिकारी (PAO)"
+      },
+      "phone": "02426-243364",
+      "email": "paorahuri.mpkv@gov.in",
+      "scope": {
+        "en": "Disbursement of bills, contractor payments, research project accounts, and banking reconciliation.",
+        "mr": "देयके पारित करणे, कंत्राटदार बिले, संशोधन प्रकल्प निधी वाटप व बँक खाती मेळ."
+      },
+      "hierarchy": [
+        {
+          "cadre": {
+            "en": "Office Superintendent",
+            "mr": "कार्यालय अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Assistant Superintendent",
+            "mr": "सहाय्यक अधीक्षक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Senior Clerk",
+            "mr": "वरिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Clerk / Junior Clerk",
+            "mr": "लिपीक / कनिष्ठ लिपीक"
+          }
+        },
+        {
+          "cadre": {
+            "en": "Peon / Farm Laborer",
+            "mr": "शिपाई / मजूर"
+          }
+        }
+      ]
     }
   ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
+  "flowChartImage": "/media/images/finance_flow_chart.jpg",
+  "delegation": [
     {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
+      "srNo": "1",
+      "title": {
+        "en": "Delegation of Financial & Administrative Powers to University Officers dated 31.03.2015",
+        "mr": "विद्यापीठातील अधिकाऱ्यांना वित्तीय व प्रशासकीय अधिकार प्रदान (३१.०३.२०१५)"
+      },
+      "date": "31.03.2015",
+      "fileUrl": "/media/docs/finance/Delegation_Powers_2015.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/Finance/Delegation of Fin. & Admin. powers to the Univ. Officers dated-31.3.2015_20191119032411.pdf",
+      "fileSize": "Official PDF",
+      "scope": {
+        "en": "Comprehensive schedule specifying sanction thresholds for Vice-Chancellor, Registrar, Comptroller, Deans, Directors, and Station In-Charges.",
+        "mr": "कुलगुरू, कुलसचिव, नियंत्रक, अधिष्ठाता, संचालक व संशोधन केंद्र प्रमुखांच्या आर्थिक व प्रशासकीय मंजुरी मर्यादांचे अधिकृत वेळापत्रक."
+      }
     }
   ],
-  "contentBlocks": [
+  "accountDocs": [
     {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+      "srNo": "1",
+      "title": {
+        "en": "Maharashtra Agricultural Universities Account Code 1991",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे लेखा संहिता १९९१"
       },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Finance",
-        "mr": "वित्त"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "He is an officer belonging to the Indian Audit and Accounts Service or the Maharashtra Finance and Accounts Services appointed by the State Government on deputation.",
-        "mr": "He is an officer belonging to the Indian Audit and Accounts Service or the Maharashtra Finance and Accounts Services appointed by the State Government on deputation."
-      },
-      "order": 56
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "He shall hold and manage the property and investments of the University and advise the University as regards its financial policy. a) He shall ensure that no expenditure, not authorized in the budget, in incurred by the University. b) He is responsible for ensuring that the expenditures are made as authorized in the budget. c) He shall disallow any expenditure, which may contravene any provision of this Act or any Statutes made thereunder or for which provision is required to be made by or under this Act or any such Statute. d) He can propose to the Executive Council that explanation be called for unauthorized expenditure or other financial irregularities in any particular case and recommend disciplinary action against the persons at fault. The Comptroller shall act as Pay and receiving officer. He shall receive all moneys due to or receivable on behalf of the University and bring them forthwith to Accounts and pay or otherwise settle all claims preferred against the University. The Comptroller shall complete the accounts of the University in accordance with the Rules prescribed in that behalf. The Comptroller may seek, with the approval of the Vice Chancellor through Maharashtra Council of Agricultural Education and Research, the advice of the Government in all matters connected with the Accounts and Finance of the Vidyapeeth or the application of the financial rules and orders concerned on which there may be any doubt. The various authorities of the Vidyapeeth shall exercise such financial powers as may be delegated to them to run various activities. The financial powers shall be delegated to the various authorities of the Vidyapeeth with the concurrence of the Comptroller. The Comptroller, being the financial advisor to the Krishi Vidyapeeth, shall invariably be consulted on all matters, relating to finance, budget and accounts. All sanction or orders, involving financial implications, having a bearing on budget grants of Vidyapeeth, shall be issued only after his concurrence. The Comptroller has to functions as an Internal Auditor of the Vidyapeeth.",
-        "mr": "He shall hold and manage the property and investments of the University and advise the University as regards its financial policy. a) He shall ensure that no expenditure, not authorized in the budget, in incurred by the University. b) He is responsible for ensuring that the expenditures are made as authorized in the budget. c) He shall disallow any expenditure, which may contravene any provision of this Act or any Statutes made thereunder or for which provision is required to be made by or under this Act or any such Statute. d) He can propose to the Executive Council that explanation be called for unauthorized expenditure or other financial irregularities in any particular case and recommend disciplinary action against the persons at fault. The Comptroller shall act as Pay and receiving officer. He shall receive all moneys due to or receivable on behalf of the University and bring them forthwith to Accounts and pay or otherwise settle all claims preferred against the University. The Comptroller shall complete the accounts of the University in accordance with the Rules prescribed in that behalf. The Comptroller may seek, with the approval of the Vice Chancellor through Maharashtra Council of Agricultural Education and Research, the advice of the Government in all matters connected with the Accounts and Finance of the Vidyapeeth or the application of the financial rules and orders concerned on which there may be any doubt. The various authorities of the Vidyapeeth shall exercise such financial powers as may be delegated to them to run various activities. The financial powers shall be delegated to the various authorities of the Vidyapeeth with the concurrence of the Comptroller. The Comptroller, being the financial advisor to the Krishi Vidyapeeth, shall invariably be consulted on all matters, relating to finance, budget and accounts. All sanction or orders, involving financial implications, having a bearing on budget grants of Vidyapeeth, shall be issued only after his concurrence. The Comptroller has to functions as an Internal Auditor of the Vidyapeeth."
-      },
-      "order": 57
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Finance",
-          "mr": "वित्त"
-        },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Organizational Profile",
-          "mr": "Organizational Profile"
-        },
-        {
-          "en": "Account Related Documents",
-          "mr": "Account Related Documents"
-        },
-        {
-          "en": "Delegation of Powers",
-          "mr": "Delegation of Powers"
-        },
-        {
-          "en": "Government Resolutions",
-          "mr": "Government Resolutions"
-        },
-        {
-          "en": "Budget",
-          "mr": "Budget"
-        },
-        {
-          "en": "Circulars",
-          "mr": "Circulars"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "list",
-      "listType": "ol",
-      "items": [
-        {
-          "en": "Disbursement of Pensionary benefits to the pensioners of University.",
-          "mr": "Disbursement of Pensionary benefits to the pensioners of University."
-        },
-        {
-          "en": "Prepared Annual Budget of the University and Submit to Government through proper channel.",
-          "mr": "Prepared Annual Budget of the University and Submit to Government through proper channel."
-        },
-        {
-          "en": "Carry out internal Audit & Commercial Accounting (Preparation of Balance Sheet and Profit & Loss of various activities enlisted in chapter 27 of Maharashtra Agricultural University’s Account Code 1991).",
-          "mr": "Carry out internal Audit & Commercial Accounting (Preparation of Balance Sheet and Profit & Loss of various activities enlisted in chapter 27 of Maharashtra Agricultural University’s Account Code 1991)."
-        },
-        {
-          "en": "Financial Budgeting & Planning and perform as Member Secretary of Finance committee which is Statutory Committee .",
-          "mr": "Financial Budgeting & Planning and perform as Member Secretary of Finance committee which is Statutory Committee ."
-        },
-        {
-          "en": "Maintenance of Accounts of Various Grant in Aid & Draw receipts to University, Various expenditures, GPF/NPS(DCPS) & other allied          financial activities as per provisions in Act & Account Code.",
-          "mr": "Maintenance of Accounts of Various Grant in Aid & Draw receipts to University, Various expenditures, GPF/NPS(DCPS) & other allied          financial activities as per provisions in Act & Account Code."
-        }
-      ],
-      "order": 59
+      "year": "1991",
+      "fileUrl": "/media/docs/finance/Account_Code_1991.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/Finance/Account Code 1991_20191119032337.pdf",
+      "fileSize": "15.3 MB",
+      "scope": {
+        "en": "Fundamental statutory accounting manual defining accounting principles, classification of expenditure, internal audit, commercial accounting (Ch. 27), and Comptroller powers (Ch. 26).",
+        "mr": "कृषी विद्यापीठांची मूळ वैधानिक लेखा नियमावली, वर्गीकरण पद्धती, अंतर्गत लेखापरीक्षण, व्यावसायिक शेती हिशोब (प्रकरण २७) व नियंत्रकांचे अधिकार (प्रकरण २६)."
+      }
     }
   ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 2,
-    "listCount": 2,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 14,
-    "totalRecords": 71
-  }
+  "grList": [
+    {
+      "srNo": "1",
+      "title": {
+        "en": "Government Resolution dated 04.09.2023 (Non-Plan Salary Grants)",
+        "mr": "शासन निर्णय दि. ०४.०९.२०२३ (योजनेतर वेतन अनुदान)"
+      },
+      "date": "04.09.2023",
+      "fileUrl": "/media/docs/finance/GR_Non_Plan_2023.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/Finance/GRNonPlan04Sept2023_20230925033106.pdf",
+      "fileSize": "Official PDF",
+      "scope": {
+        "en": "Government allocation and financial guidelines for Non-Plan salary and establishment expenditures across agricultural universities.",
+        "mr": "कृषी विद्यापीठांमधील योजनेतर वेतन व आस्थापना खर्चासाठी राज्य शासनाचे अनुदान वाटप व मार्गदर्शक सूचना."
+      }
+    }
+  ],
+  "budgets": [
+    {
+      "srNo": "1",
+      "title": {
+        "mr": "अर्थसंकल्प २०२५-२६ आणि २०२६-२७",
+        "en": "University Budget Estimates 2025-26 & 2026-27"
+      },
+      "fileUrl": "/media/docs/finance/Budget_2025_2027.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/Finance/Budget%20.2025-26%20&%202026-27_20260622093600.pdf",
+      "period": "2025-2027",
+      "type": "Budget"
+    },
+    {
+      "srNo": "2",
+      "title": {
+        "mr": "वित्तीय व्यवस्थापन अनुदान (F.M.G.) २०२४-२५",
+        "en": "Financial Management Grant (F.M.G.) 2024-25"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/2024-25_20250627120652.pdf",
+      "period": "2024-2025",
+      "type": "FMG"
+    },
+    {
+      "srNo": "3",
+      "title": {
+        "mr": "वित्तीय व्यवस्थापन अनुदान (F.M.G.) २०२३-२४",
+        "en": "Financial Management Grant (F.M.G.) 2023-24"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/2023-24_20250627120558.pdf",
+      "period": "2023-2024",
+      "type": "FMG"
+    },
+    {
+      "srNo": "4",
+      "title": {
+        "mr": "अर्थसंकल्प २०२२-२३",
+        "en": "University Annual Budget 2022-23"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Budget%202022-23_20230913125439.pdf",
+      "period": "2022-2023",
+      "type": "Budget"
+    },
+    {
+      "srNo": "5",
+      "title": {
+        "mr": "वित्तीय व्यवस्थापन अनुदान (F.M.G.) २०२१-२२",
+        "en": "Financial Management Grant (F.M.G.) 2021-22"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/2021-22_20250627120731.pdf",
+      "period": "2021-2022",
+      "type": "FMG"
+    },
+    {
+      "srNo": "6",
+      "title": {
+        "mr": "वित्तीय व्यवस्थापन अनुदान (F.M.G.) २०२०-२१",
+        "en": "Financial Management Grant (F.M.G.) 2020-21"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/FMG%202020-2021_20210608021709_20230913125813.pdf",
+      "period": "2020-2021",
+      "type": "FMG"
+    }
+  ],
+  "circulars": [
+    {
+      "srNo": "1",
+      "title": {
+        "mr": "समाज कल्याण व आदिवासी कल्याण विभाग, महाराष्ट्र शासन यांचेकडून मागास प्रवर्गातील विद्यार्थ्यांचे शैक्षणिक शुल्काच्या प्राप्त रक्कमेबाबत.",
+        "en": "समाज कल्याण व आदिवासी कल्याण विभाग, महाराष्ट्र शासन यांचेकडून मागास प्रवर्गातील विद्यार्थ्यांचे शैक्षणिक शुल्काच्या प्राप्त रक्कमेबाबत."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/समाज कल्याण व आदिवासी कल्याण विभाग, महाराष्ट्र शासन यांचेकडून मागास प्रवर्गातील विद्यार्थ्यांचे शैक्षणिक शुल्काच्या प्राप्त रक्कमेबाबत._20260609055740.pdf"
+    },
+    {
+      "srNo": "2",
+      "title": {
+        "mr": "781/2025 आर्थिक काटकसरीच्या उपाययोजना बाबत",
+        "en": "781/2025 आर्थिक काटकसरीच्या उपाययोजना बाबत"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/आर्थिक काटकसरीच्या उपाययोजनाबाबत परिपत्रक_20250929044401.pdf"
+    },
+    {
+      "srNo": "3",
+      "title": {
+        "mr": "अधिदान व लेखाधिकारी यांनी देयके पारीत करताना करावयाच्या कार्यवाहीबाबत.",
+        "en": "अधिदान व लेखाधिकारी यांनी देयके पारीत करताना करावयाच्या कार्यवाहीबाबत."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/देयके परिपत्रक_20250627121055.pdf"
+    },
+    {
+      "srNo": "4",
+      "title": {
+        "mr": "Tax Exemption Certificate 2025",
+        "en": "Tax Exemption Certificate 2025"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Tax Examption Certificate 2025_20250604013117.pdf"
+    },
+    {
+      "srNo": "5",
+      "title": {
+        "mr": "25 फिरता निधी परतावाबाबत..",
+        "en": "25 फिरता निधी परतावाबाबत.."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/25 फिरता निधी परतावाबाबत.._20240423102544.pdf"
+    },
+    {
+      "srNo": "6",
+      "title": {
+        "mr": "Tax Exemption Certificate 2024",
+        "en": "Tax Exemption Certificate 2024"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Tax Exemption Certificate 2024_20240405055848.pdf"
+    },
+    {
+      "srNo": "7",
+      "title": {
+        "mr": "सन २०२३-२४या आर्थिक वर्षात प्रशासकिय मंजुरी मिळालेले प्रस्ताव सन २०२४-२५ मध्ये पुनः श्च सादर न करणे बाबत व स्थायी अग्रीमांसाठी पुनः श्च मंजुरी न घेणेबाबत..",
+        "en": "सन २०२३-२४या आर्थिक वर्षात प्रशासकिय मंजुरी मिळालेले प्रस्ताव सन २०२४-२५ मध्ये पुनः श्च सादर न करणे बाबत व स्थायी अग्रीमांसाठी पुनः श्च मंजुरी न घेणेबाबत.."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/प्रशासकीय मंजुरी प्रस्ताव २०२४ परिपत्रक_20240405125141.pdf"
+    },
+    {
+      "srNo": "8",
+      "title": {
+        "mr": "देयके पारीत करणेच्‍या कार्यवाही बाबत..",
+        "en": "देयके पारीत करणेच्‍या कार्यवाही बाबत.."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Circular 872_20231222063407.pdf"
+    },
+    {
+      "srNo": "9",
+      "title": {
+        "mr": "विद्यापीठ निधीत अंतर्गत विविध बँक खात्यामधील मुदत ठेवीवरील व्याजाची रकमेबाबत",
+        "en": "विद्यापीठ निधीत अंतर्गत विविध बँक खात्यामधील मुदत ठेवीवरील व्याजाची रकमेबाबत"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/विद्यापीठ निधीत अंतर्गत विविध बँक खात्यामधील मुदत ठेवीवरील व्याजाची रकमेबाबत_20231122025529.pdf"
+    },
+    {
+      "srNo": "10",
+      "title": {
+        "mr": "विविध कार्यपुर्तीस्‍तव नस्‍ती मंजुरीस सादर करणेबाबत..",
+        "en": "विविध कार्यपुर्तीस्‍तव नस्‍ती मंजुरीस सादर करणेबाबत.."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/283_20230623055555.pdf"
+    },
+    {
+      "srNo": "11",
+      "title": {
+        "mr": "Income Tax Exemption Certificate 2023-2024",
+        "en": "Income Tax Exemption Certificate 2023-2024"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/IT exemption_20230515091703.pdf"
+    },
+    {
+      "srNo": "12",
+      "title": {
+        "mr": "विद्यार्थ्‍यांनी जमा केलेले शैक्षणिक शुल्‍क परतावाबाबत..",
+        "en": "विद्यार्थ्‍यांनी जमा केलेले शैक्षणिक शुल्‍क परतावाबाबत.."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/विद्यार्थ्‍यांनी जमा केलेले शैक्षणिक शुल्‍क परतावाबाबत.._20230202031350.pdf"
+    },
+    {
+      "srNo": "13",
+      "title": {
+        "mr": "माहे ३१ मार्च, २०२२ अखेरची जंगम / स्थावर मालमत्ता व जडवस्तू / उपभोग्य वस्तू/पशुधन बी-बियाणे धान्य इ. ची पडताळणी व तपासणी करणेबाबत.",
+        "en": "माहे ३१ मार्च, २०२२ अखेरची जंगम / स्थावर मालमत्ता व जडवस्तू / उपभोग्य वस्तू/पशुधन बी-बियाणे धान्य इ. ची पडताळणी व तपासणी करणेबाबत."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/78 भांडार पडताळणी 31.03.2022_20230103033611.pdf"
+    },
+    {
+      "srNo": "14",
+      "title": {
+        "mr": "विद्यापीठ महसुली उत्‍पन्‍न निधीमध्‍ये सर्व फिरत्‍या निधींमधून दरवर्षी निश्चित प्रमाणात कायमस्‍वरुपी २० टक्‍के अंशदान (Contribution) घेणेबाबत..",
+        "en": "विद्यापीठ महसुली उत्‍पन्‍न निधीमध्‍ये सर्व फिरत्‍या निधींमधून दरवर्षी निश्चित प्रमाणात कायमस्‍वरुपी २० टक्‍के अंशदान (Contribution) घेणेबाबत.."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/RF 20_20220801031903.pdf"
+    },
+    {
+      "srNo": "15",
+      "title": {
+        "mr": "Income Tax Exemption Certificate 2022-2023",
+        "en": "Income Tax Exemption Certificate 2022-2023"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Income Tax Exemption 2022-2023_20220623100926.pdf"
+    },
+    {
+      "srNo": "16",
+      "title": {
+        "mr": "शुध्दीपत्रक - सन 2021-22 अखेरची जंगम स्थावर मालमत्ता व जडवस्तू, उपभोग्य वस्तू, पशुधन ,बी-बीयाणे इ. ची पडताळणी व तपासणी करणेबाबत.",
+        "en": "शुध्दीपत्रक - सन 2021-22 अखेरची जंगम स्थावर मालमत्ता व जडवस्तू, उपभोग्य वस्तू, पशुधन ,बी-बीयाणे इ. ची पडताळणी व तपासणी करणेबाबत."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/शुध्दीपत्रक - सन 2021-22 अखेरची जंगम स्थावर मालमत्ता व जडवस्तू, उपभोग्य वस्तू, पशुधन ,बी-बीयाणे इ. ची पडताळणी व तपासणी करणेबाबत. (2)_20210817025112.pdf"
+    },
+    {
+      "srNo": "17",
+      "title": {
+        "mr": "सन २०२१-२२ अखेरची जंगम / स्थावर मालमत्ता व जडवस्तू / उपभोग्य वस्तू/पशुधन बी-बियाणे धान्य इ. ची पडताळणी व तपासणी करणेबाबत.",
+        "en": "सन २०२१-२२ अखेरची जंगम / स्थावर मालमत्ता व जडवस्तू / उपभोग्य वस्तू/पशुधन बी-बियाणे धान्य इ. ची पडताळणी व तपासणी करणेबाबत."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Deadstock Circular_20210803105302.pdf"
+    },
+    {
+      "srNo": "18",
+      "title": {
+        "mr": "विद्यापीठ कार्यक्षेत्रातील विविध कार्यालयांमधील निरुपयोगी / विनावापर चल (Movable Assets) मालमत्तांचे निर्लेखन व लिलाव करणेबाबत.",
+        "en": "विद्यापीठ कार्यक्षेत्रातील विविध कार्यालयांमधील निरुपयोगी / विनावापर चल (Movable Assets) मालमत्तांचे निर्लेखन व लिलाव करणेबाबत."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Circular - Movable Assets Write off_20210802030941.pdf"
+    },
+    {
+      "srNo": "19",
+      "title": {
+        "mr": "माहे मार्च २०२१ अखेरच्‍या लेखा व वित्‍तीय कामकाजांचे नियोजनाबाबत..995, dtd-26.03.2021",
+        "en": "माहे मार्च २०२१ अखेरच्‍या लेखा व वित्‍तीय कामकाजांचे नियोजनाबाबत..995, dtd-26.03.2021"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/march 2021 planning (1)_20210331044143.pdf"
+    },
+    {
+      "srNo": "20",
+      "title": {
+        "mr": "सन २०२०-२१ या आर्थिक वर्षात प्रशासकीय मंजुरी मिळालेले प्रस्ताव सन २०२१-२२ मध्ये पुनश्च मंजुरीस्ततव सादर न करणेबाबत.. ब) स्थाययी अग्रीमांसाठी पुनश्च‍ मंजुरी न घेणेबाबत जा.क्र. ११२१ दि. ३१.०३.२०२१",
+        "en": "सन २०२०-२१ या आर्थिक वर्षात प्रशासकीय मंजुरी मिळालेले प्रस्ताव सन २०२१-२२ मध्ये पुनश्च मंजुरीस्ततव सादर न करणेबाबत.. ब) स्थाययी अग्रीमांसाठी पुनश्च‍ मंजुरी न घेणेबाबत जा.क्र. ११२१ दि. ३१.०३.२०२१"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/अ) सन २०२०-२१ या आर्थिक वर्षात प्रशासकीय मंजुरी मिळालेले प्रस्ताबव सन २०२१-२२_20210331035558.pdf"
+    },
+    {
+      "srNo": "21",
+      "title": {
+        "mr": "Online meeting व Conferencing App प्रणालींच्‍या खरेदी करणेबाबत मार्गदर्शक सूचना.. जा.क्र. मफुकृवि/नियंत्रक/स्‍वीस/९२४/२०२०, ि‍दि.२६.११.२०२०",
+        "en": "Online meeting व Conferencing App प्रणालींच्‍या खरेदी करणेबाबत मार्गदर्शक सूचना.. जा.क्र. मफुकृवि/नियंत्रक/स्‍वीस/९२४/२०२०, ि‍दि.२६.११.२०२०"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/९२४-२६.११.२०२०_20201211115539.pdf"
+    },
+    {
+      "srNo": "22",
+      "title": {
+        "mr": "सन २०२१-२०२२ या वित्‍तीय वर्षाचे अंदाजपत्रक पाठविणेबाबत.. जा.क्र.२८७/दि.०७.०८.२०२०",
+        "en": "सन २०२१-२०२२ या वित्‍तीय वर्षाचे अंदाजपत्रक पाठविणेबाबत.. जा.क्र.२८७/दि.०७.०८.२०२०"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/Document 2_20200825122122.pdf"
+    },
+    {
+      "srNo": "23",
+      "title": {
+        "mr": "वीज देयकांबाबत..(जा.क्र. २२५, दि.१७.०७.२०१०)",
+        "en": "वीज देयकांबाबत..(जा.क्र. २२५, दि.१७.०७.२०१०)"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/वीज देयकांबाबत._20200727053849.pdf"
+    },
+    {
+      "srNo": "24",
+      "title": {
+        "mr": "दुरध्‍वनी देयकाबाबत.. (जा.क्र. २५०, दि.२७.०७.२०२०)",
+        "en": "दुरध्‍वनी देयकाबाबत.. (जा.क्र. २५०, दि.२७.०७.२०२०)"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/दुरध्_वनी देयकांबाबत_20200727053952.pdf"
+    },
+    {
+      "srNo": "25",
+      "title": {
+        "mr": "स्‍पष्‍टीकरण- आर्थिक काटकसरीच्‍या उपाययोजना (जा.क्र.२३७/२०२० दि.२३.०७.२०२०)",
+        "en": "स्‍पष्‍टीकरण- आर्थिक काटकसरीच्‍या उपाययोजना (जा.क्र.२३७/२०२० दि.२३.०७.२०२०)"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/आर्थिक काटकसरीच्‍या उपाययोजना २३०७२०२०_20200727053449.pdf"
+    },
+    {
+      "srNo": "26",
+      "title": {
+        "mr": "सन २०१९-२०२० या आर्थिक वर्षामध्‍ये प्रशासकीय मंजूरी मिळालेले प्रस्‍ताव सन २०२०-२०२१ मध्‍ये पुनश्‍च मंजूरीस्‍तव सादर न करणेबाबत.. स्‍थायी अग्रीमांसाठी पुनश्‍च मंजूरी न घेणेबाबत..",
+        "en": "सन २०१९-२०२० या आर्थिक वर्षामध्‍ये प्रशासकीय मंजूरी मिळालेले प्रस्‍ताव सन २०२०-२०२१ मध्‍ये पुनश्‍च मंजूरीस्‍तव सादर न करणेबाबत.. स्‍थायी अग्रीमांसाठी पुनश्‍च मंजूरी न घेणेबाबत.."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/265....03.04.2020_20200605121336.pdf"
+    },
+    {
+      "srNo": "27",
+      "title": {
+        "mr": "आर्थिक काटकसरीच्‍या उपाययोजना (जा.क्र.मफुकृवि/नियंत्रक/स्‍वीस/८०२/२०२० दि.१८.०५.२०२०)",
+        "en": "आर्थिक काटकसरीच्‍या उपाययोजना (जा.क्र.मफुकृवि/नियंत्रक/स्‍वीस/८०२/२०२० दि.१८.०५.२०२०)"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/आर्थिक काटकसरीच्या उपाययोजना_20200519112844.pdf"
+    },
+    {
+      "srNo": "28",
+      "title": {
+        "mr": "हयातीचा दाखला नमुना",
+        "en": "हयातीचा दाखला नमुना"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\हयातीचा दाखला नमुना.PDF"
+    },
+    {
+      "srNo": "29",
+      "title": {
+        "mr": "सन २०१६-१७,२०१७-१८ व २०१८-१९ या आर्थिक वर्षांचे वार्षिक ताळेबंद (बॅलन्स शीट) तयार करणेबाबत...",
+        "en": "सन २०१६-१७,२०१७-१८ व २०१८-१९ या आर्थिक वर्षांचे वार्षिक ताळेबंद (बॅलन्स शीट) तयार करणेबाबत..."
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\Balance Sheet  Circular 15.06.2018.pdf"
+    },
+    {
+      "srNo": "30",
+      "title": {
+        "mr": "सन २०१६-१७,२०१७-१८ व २०१८-१९ या आर्थिक वर्षांचे वार्षिक ताळेबंद (बॅलन्स शीट) तयार करणेबाबत...",
+        "en": "सन २०१६-१७,२०१७-१८ व २०१८-१९ या आर्थिक वर्षांचे वार्षिक ताळेबंद (बॅलन्स शीट) तयार करणेबाबत..."
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\Circular Dt. 24.10.2019 (Balance Sheet).pdf"
+    },
+    {
+      "srNo": "31",
+      "title": {
+        "mr": "नियंत्रक कार्यालयांतर्गत निर्गमित होणारे आदेश/ परिपत्रके विद्यापीठ संकेतस्‍थळावर प्रसिध्‍द करणेबाबत..",
+        "en": "नियंत्रक कार्यालयांतर्गत निर्गमित होणारे आदेश/ परिपत्रके विद्यापीठ संकेतस्‍थळावर प्रसिध्‍द करणेबाबत.."
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\696.17.10.2019.PDF"
+    },
+    {
+      "srNo": "32",
+      "title": {
+        "mr": "एक दिवसाचे वेतन पूरग्रस्‍त निधीस जमा दि.२०.०८.२०१९",
+        "en": "एक दिवसाचे वेतन पूरग्रस्‍त निधीस जमा दि.२०.०८.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\66) एक दिवसाचे वेतन पूरग्रस्‍त निधीस जमा दि.२०.०८.२०१९.pdf"
+    },
+    {
+      "srNo": "33",
+      "title": {
+        "mr": "Income Tax exempted Certificate",
+        "en": "Income Tax exempted Certificate"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\Income Tax exempted Certificate.PDF"
+    },
+    {
+      "srNo": "34",
+      "title": {
+        "mr": "64) राज्‍य शासनेतर विशेषतः भाकृअप, नवी दिल्‍ली यांचेकडून प्राप्‍त होणा-या निधीच्‍या विनियोगास्‍तव त्‍यांनी निर्देशीत केलेल्‍या प्रशासकीय, वित्‍तीय व तांत्रिक मान्‍यता विषयक तरतुदींचे पालन करण्‍याबाबत दि.२३.०७.१९",
+        "en": "64) राज्‍य शासनेतर विशेषतः भाकृअप, नवी दिल्‍ली यांचेकडून प्राप्‍त होणा-या निधीच्‍या विनियोगास्‍तव त्‍यांनी निर्देशीत केलेल्‍या प्रशासकीय, वित्‍तीय व तांत्रिक मान्‍यता विषयक तरतुदींचे पालन करण्‍याबाबत दि.२३.०७.१९"
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Finance/363-23.07.2019_20201211115241.pdf"
+    },
+    {
+      "srNo": "35",
+      "title": {
+        "mr": "माहे मार्च २०१७ अखेरची जंगम स्‍थावर मालमत्‍ता व जडवस्‍तू उपभोग्‍य वस्‍तू पशूधन, बी-बीयाणे इ. ची पडताळणी व तपासणी करणेबाबत दि.२७.०७.२०१९",
+        "en": "माहे मार्च २०१७ अखेरची जंगम स्‍थावर मालमत्‍ता व जडवस्‍तू उपभोग्‍य वस्‍तू पशूधन, बी-बीयाणे इ. ची पडताळणी व तपासणी करणेबाबत दि.२७.०७.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\माहे मार्च २०१७ अखेरची जंगम स्‍थावर मालमत्‍ता व जडवस्‍तू उपभोग्‍य वस्‍तू पशूधन, बी-बीयाणे इ. ची पडताळणी व तपासणी करणेबाबत दि.२७.०७.२०१९.pdf"
+    },
+    {
+      "srNo": "36",
+      "title": {
+        "mr": "जी एस टी नोंदणी प्रति (DDO) करणेबाबत दि.३०.०५.२०१९",
+        "en": "जी एस टी नोंदणी प्रति (DDO) करणेबाबत दि.३०.०५.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\६२) जी एस टी नोंदणी प्रति (DDO) करणेबाबत दि.३०.०५.२०१९.PDF"
+    },
+    {
+      "srNo": "37",
+      "title": {
+        "mr": "आयकर व जीएसटी विषयक उजाळणी कार्यशाळा दि. २८.०५.२०१९",
+        "en": "आयकर व जीएसटी विषयक उजाळणी कार्यशाळा दि. २८.०५.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\६१) आयकर व जीएसटी विषयक उजाळणी कार्यशाळा दि. २८.०५.२०१९.PDF"
+    },
+    {
+      "srNo": "38",
+      "title": {
+        "mr": "विद्यापीठाचे आर्थिक व्‍यवस्‍थापन व निधी बळकटीकरण  सन १९-२० चे जमा खर्चाचे अंदाजपत्रक तयार करणेस्‍तव आढावा घेणे दि.१५.०५.१९",
+        "en": "विद्यापीठाचे आर्थिक व्‍यवस्‍थापन व निधी बळकटीकरण  सन १९-२० चे जमा खर्चाचे अंदाजपत्रक तयार करणेस्‍तव आढावा घेणे दि.१५.०५.१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\६०) विद्यापीठाचे आर्थिक व्‍यवस्‍थापन व निधी बळकटीकरण  सन १९-२० चे जमा खर्चाचे अंदाजपत्रक तयार करणेस्‍तव आढावा घेणे दि.१५.०५.१९.PDF"
+    },
+    {
+      "srNo": "39",
+      "title": {
+        "mr": "संगणक, प्रिंटर, लॅपटॉप, सर्व्‍हर व इतर आयटी उपकरणांचे आयुष्‍यमान ठरविणे व कालबाह्य झाालेल्‍या उपकरणांची विल्‍हेवाट लावणेबाबत दि.९.०५.२०१९",
+        "en": "संगणक, प्रिंटर, लॅपटॉप, सर्व्‍हर व इतर आयटी उपकरणांचे आयुष्‍यमान ठरविणे व कालबाह्य झाालेल्‍या उपकरणांची विल्‍हेवाट लावणेबाबत दि.९.०५.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५९) संगणक, प्रिंटर, लॅपटॉप, सर्व्‍हर व इतर आयटी उपकरणांचे आयुष्‍यमान ठरविणे व कालबाह्य झाालेल्‍या उपकरणांची विल्‍हेवाट लावणेबाबत दि.९.०५.२०१९.pdf"
+    },
+    {
+      "srNo": "40",
+      "title": {
+        "mr": "Teching staff 7th pay dt. 5.4.2019",
+        "en": "Teching staff 7th pay dt. 5.4.2019"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५८) Teching staff 7th pay dt. 5.4.2019.pdf"
+    },
+    {
+      "srNo": "41",
+      "title": {
+        "mr": "महसुली उत्पन्न निधी परतावे   दि.५.४.२०१९",
+        "en": "महसुली उत्पन्न निधी परतावे   दि.५.४.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५७) महसुली उत्पन्न निधी परतावे   दि.५.४.२०१९.PDF"
+    },
+    {
+      "srNo": "42",
+      "title": {
+        "mr": "प्रदनाचे  धनादेश व त्यावरि करकपातिचे धनादेशबाबत दि.५.४.२०१९",
+        "en": "प्रदनाचे  धनादेश व त्यावरि करकपातिचे धनादेशबाबत दि.५.४.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५६) प्रदनाचे  धनादेश व त्यावरि करकपातिचे धनादेशबाबत दि.५.४.२०१९.PDF"
+    },
+    {
+      "srNo": "43",
+      "title": {
+        "mr": "सन १८-१९ या आर्थिक वर्षात मंजूरी मिळालेले प्रस्‍ताव पुनश्‍च मंजूरीसाठी सादर न करणे बाबत दि.२.४.१९",
+        "en": "सन १८-१९ या आर्थिक वर्षात मंजूरी मिळालेले प्रस्‍ताव पुनश्‍च मंजूरीसाठी सादर न करणे बाबत दि.२.४.१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५५) सन १८-१९ या आर्थिक वर्षात मंजूरी मिळालेले प्रस्‍ताव पुनश्‍च मंजूरीसाठी सादर न करणे बाबत दि.२.४.१९.PDF"
+    },
+    {
+      "srNo": "44",
+      "title": {
+        "mr": "Application of GST 5 per cent dt. 25.03.19",
+        "en": "Application of GST 5 per cent dt. 25.03.19"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५४) Application of GST 5 per cent dt. 25.03.19.pdf"
+    },
+    {
+      "srNo": "45",
+      "title": {
+        "mr": "माहे  मार्च २०१९ अखेरच्या वित्तीय कामकाजाबाबत  दि. २२.०३.२०१९",
+        "en": "माहे  मार्च २०१९ अखेरच्या वित्तीय कामकाजाबाबत  दि. २२.०३.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५३) माहे  मार्च २०१९ अखेरच्या वित्तीय कामकाजाबाबत  दि. २२.०३.२०१९.PDF"
+    },
+    {
+      "srNo": "46",
+      "title": {
+        "mr": "विद्यापीठाला प्राप्त होणाऱ्या उत्पादन चाचणी शुल्क देणग्या व इतर निधीवर होणाऱ्या आयकर कपाती बाबत दि. २०. ०२. २०१९",
+        "en": "विद्यापीठाला प्राप्त होणाऱ्या उत्पादन चाचणी शुल्क देणग्या व इतर निधीवर होणाऱ्या आयकर कपाती बाबत दि. २०. ०२. २०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५२) विद्यापीठाला प्राप्त होणाऱ्या उत्पादन चाचणी शुल्क देणग्या व इतर निधीवर होणाऱ्या आयकर कपाती बाबत दि. २०. ०२. २०१९.PDF"
+    },
+    {
+      "srNo": "47",
+      "title": {
+        "mr": "व्यवसायकर नोंदणी  व  व्यवसायकर विवरण नियमितपणे सादर करणे बाबत दि.१५.०२.२०१९",
+        "en": "व्यवसायकर नोंदणी  व  व्यवसायकर विवरण नियमितपणे सादर करणे बाबत दि.१५.०२.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५१) व्यवसायकर नोंदणी  व  व्यवसायकर विवरण नियमितपणे सादर करणे बाबत दि.१५.०२.२०१९.PDF"
+    },
+    {
+      "srNo": "48",
+      "title": {
+        "mr": "मंजूरी आदेशाच्या प्रति देणे बाबत दि. ०४.०२.२०१९",
+        "en": "मंजूरी आदेशाच्या प्रति देणे बाबत दि. ०४.०२.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५०) मंजूरी आदेशाच्या प्रति देणे बाबत दि. ०४.०२.२०१९.PDF"
+    },
+    {
+      "srNo": "49",
+      "title": {
+        "mr": "दि. २४ ऑगस्ट २०१८ च्या शासन निर्णयानुसार कार्यवाही करणे बाबत दि. २५.०१.२०१९",
+        "en": "दि. २४ ऑगस्ट २०१८ च्या शासन निर्णयानुसार कार्यवाही करणे बाबत दि. २५.०१.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४९) दि. २४ ऑगस्ट २०१८ च्या शासन निर्णयानुसार कार्यवाही करणे बाबत दि. २५.०१.२०१९.PDF"
+    },
+    {
+      "srNo": "50",
+      "title": {
+        "mr": "आकृती बंधानुसार सेवार्थ मधील पदांची पडताळणी दि. २२. ०१. २०१९",
+        "en": "आकृती बंधानुसार सेवार्थ मधील पदांची पडताळणी दि. २२. ०१. २०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४८) आकृती बंधानुसार सेवार्थ मधील पदांची पडताळणी दि. २२. ०१. २०१९.PDF"
+    },
+    {
+      "srNo": "51",
+      "title": {
+        "mr": "अन्य व्यक्ती  संस्था यांचे ताब्यात  वापरात  भाडेतत्वावर  अथवा अन्य प्रकारे दिलेल्या विद्यापीठ कार्यक्षेत्रातील स्थावर मालमत्ताबाबत माहिती सादर करणे बाबत दि. २२.०१.२०१९",
+        "en": "अन्य व्यक्ती  संस्था यांचे ताब्यात  वापरात  भाडेतत्वावर  अथवा अन्य प्रकारे दिलेल्या विद्यापीठ कार्यक्षेत्रातील स्थावर मालमत्ताबाबत माहिती सादर करणे बाबत दि. २२.०१.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४७) अन्य व्यक्ती  संस्था यांचे ताब्यात  वापरात  भाडेतत्वावर  अथवा अन्य प्रकारे दिलेल्या विद्यापीठ कार्यक्षेत्रातील स्थावर मालमत्ताबाबत माहिती सादर करणे बाबत दि. २२.०१.२०१९.pdf"
+    },
+    {
+      "srNo": "52",
+      "title": {
+        "mr": "GST, Income Tax, Royalty ची चालने शासन खाती बँकेत भरणा करणे बाबत दि.१९.०१.२०१९",
+        "en": "GST, Income Tax, Royalty ची चालने शासन खाती बँकेत भरणा करणे बाबत दि.१९.०१.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४६) GST, Income Tax, Royalty ची चालने शासन खाती बँकेत भरणा करणे बाबत दि.१९.०१.२०१९.PDF"
+    },
+    {
+      "srNo": "53",
+      "title": {
+        "mr": "आर्थिक वर्ष २०१८-१९ मध्ये विद्यापीठ महसुली उत्पन्न व शासनाचे वेतनेतर अनुदानात खर्च मंजुरीबाबत  दि.१४.०१.२०१९",
+        "en": "आर्थिक वर्ष २०१८-१९ मध्ये विद्यापीठ महसुली उत्पन्न व शासनाचे वेतनेतर अनुदानात खर्च मंजुरीबाबत  दि.१४.०१.२०१९"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४५) आर्थिक वर्ष २०१८-१९ मध्ये विद्यापीठ महसुली उत्पन्न व शासनाचे वेतनेतर अनुदानात खर्च मंजुरीबाबत  दि.१४.०१.२०१९.pdf"
+    },
+    {
+      "srNo": "54",
+      "title": {
+        "mr": "दि. २४ ऑगस्ट २०१८ च्या शासन निर्णयानुसार कार्यवाही करणे बाबत दि.१४.१२.२०१८",
+        "en": "दि. २४ ऑगस्ट २०१८ च्या शासन निर्णयानुसार कार्यवाही करणे बाबत दि.१४.१२.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४४) दि. २४ ऑगस्ट २०१८ च्या शासन निर्णयानुसार कार्यवाही करणे बाबत दि.१४.१२.२०१८.PDF"
+    },
+    {
+      "srNo": "55",
+      "title": {
+        "mr": "अन्य व्यक्ती  संस्था यांचे ताब्यात  वापरात  भाडेतत्वावर  अथवा अन्य प्रकारे दिलेल्या विद्यापीठ कार्यक्षेत्रातील स्थावर मालमत्ताबाबत माहिती सादर करणे बाबत दि.०४.१२.२०१८",
+        "en": "अन्य व्यक्ती  संस्था यांचे ताब्यात  वापरात  भाडेतत्वावर  अथवा अन्य प्रकारे दिलेल्या विद्यापीठ कार्यक्षेत्रातील स्थावर मालमत्ताबाबत माहिती सादर करणे बाबत दि.०४.१२.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४३) अन्य व्यक्ती  संस्था यांचे ताब्यात  वापरात  भाडेतत्वावर  अथवा अन्य प्रकारे दिलेल्या विद्यापीठ कार्यक्षेत्रातील स्थावर मालमत्ताबाबत माहिती सादर करणे बाबत दि.०४.१२.२०१८.pdf"
+    },
+    {
+      "srNo": "56",
+      "title": {
+        "mr": "सन २०१८-१९ करीता  राज्य शासन आकस्मित निधी व विद्यापीठ महसुली उत्पन्न निधीतील अनुदान एकत्रितपणे वितरित करणेबाबत दि.२६.११.२०१८",
+        "en": "सन २०१८-१९ करीता  राज्य शासन आकस्मित निधी व विद्यापीठ महसुली उत्पन्न निधीतील अनुदान एकत्रितपणे वितरित करणेबाबत दि.२६.११.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४२) सन २०१८-१९ करीता  राज्य शासन आकस्मित निधी व विद्यापीठ महसुली उत्पन्न निधीतील अनुदान एकत्रितपणे वितरित करणेबाबत दि.२६.११.२०१८.pdf"
+    },
+    {
+      "srNo": "57",
+      "title": {
+        "mr": "पारिभाषिक अंशदान निवृत्ती वेतन  योजना  राष्ट्रीय निवृत्ती वेतन योजनेतंगत योजनेच्या सभासदाचा सेवा कालवधीत मृत्यू झाल्यास त्याचा कुटुंबीयाना द्यायच्या सानू ग्रह अनुदानाबाबत दि.०१.११.२०१८",
+        "en": "पारिभाषिक अंशदान निवृत्ती वेतन  योजना  राष्ट्रीय निवृत्ती वेतन योजनेतंगत योजनेच्या सभासदाचा सेवा कालवधीत मृत्यू झाल्यास त्याचा कुटुंबीयाना द्यायच्या सानू ग्रह अनुदानाबाबत दि.०१.११.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४१) पारिभाषिक अंशदान निवृत्ती वेतन  योजना  राष्ट्रीय निवृत्ती वेतन योजनेतंगत योजनेच्या सभासदाचा सेवा कालवधीत मृत्यू झाल्यास त्याचा कुटुंबीयाना द्यायच्या सानू ग्रह अनुदानाबाबत दि.०१.११.२०१८.PDF"
+    },
+    {
+      "srNo": "58",
+      "title": {
+        "mr": "सन २०१८-१९ या आर्थिक वर्षांमधील अनुदान विनियोग व खर्चाच्या नियोजनाबाबत दि.२९.१०.२०१८",
+        "en": "सन २०१८-१९ या आर्थिक वर्षांमधील अनुदान विनियोग व खर्चाच्या नियोजनाबाबत दि.२९.१०.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४०) सन २०१८-१९ या आर्थिक वर्षांमधील अनुदान विनियोग व खर्चाच्या नियोजनाबाबत दि.२९.१०.२०१८.PDF"
+    },
+    {
+      "srNo": "59",
+      "title": {
+        "mr": "कंत्राटी मजुरांच्या मासिक वेतनाबाबत दि.२९.१०.२०१८",
+        "en": "कंत्राटी मजुरांच्या मासिक वेतनाबाबत दि.२९.१०.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३९) कंत्राटी मजुरांच्या मासिक वेतनाबाबत दि.२९.१०.२०१८.PDF"
+    },
+    {
+      "srNo": "60",
+      "title": {
+        "mr": "महागाई भत्याच्या दरात दि. ०१. ०१. २०१८ पासून सुधारणा दि. २०. १०. २०१८",
+        "en": "महागाई भत्याच्या दरात दि. ०१. ०१. २०१८ पासून सुधारणा दि. २०. १०. २०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३८) महागाई भत्याच्या दरात दि. ०१. ०१. २०१८ पासून सुधारणा दि. २०. १०. २०१८.PDF"
+    },
+    {
+      "srNo": "61",
+      "title": {
+        "mr": "वस्तू व सेवा कराच्या (GST) TDS कपाती बाबत दि.१०.१०.२०१८",
+        "en": "वस्तू व सेवा कराच्या (GST) TDS कपाती बाबत दि.१०.१०.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३७) वस्तू व सेवा कराच्या (GST) TDS कपाती बाबत दि.१०.१०.२०१८.PDF"
+    },
+    {
+      "srNo": "62",
+      "title": {
+        "mr": "विद्यापीठ कार्यक्षेत्रातील विविध कार्यालयांमधील निरुपयोगी  विनावापर चल मालमत्ताचे (Movable Assets) हस्तांतरण, निर्लेखन व लिलाव कारणेबाबतची कार्यवाही तातडीने करणेबाबत दि.२८.०९.२०१८",
+        "en": "विद्यापीठ कार्यक्षेत्रातील विविध कार्यालयांमधील निरुपयोगी  विनावापर चल मालमत्ताचे (Movable Assets) हस्तांतरण, निर्लेखन व लिलाव कारणेबाबतची कार्यवाही तातडीने करणेबाबत दि.२८.०९.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३६) विद्यापीठ कार्यक्षेत्रातील विविध कार्यालयांमधील निरुपयोगी  विनावापर चल मालमत्ताचे (Movable Assets) हस्तांतरण, निर्लेखन व लिलाव कारणेबाबतची कार्यवाही तातडीने करणेबाबत दि.२८.०९.२०१८.pdf"
+    },
+    {
+      "srNo": "63",
+      "title": {
+        "mr": "वस्तू व सेवा खरेदीसाठी Gem Portal वर Buyer ची नोंदणी करणेबाबत दि.१९.०९.२०१८",
+        "en": "वस्तू व सेवा खरेदीसाठी Gem Portal वर Buyer ची नोंदणी करणेबाबत दि.१९.०९.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३५) वस्तू व सेवा खरेदीसाठी Gem Portal वर Buyer ची नोंदणी करणेबाबत दि.१९.०९.२०१८.pdf"
+    },
+    {
+      "srNo": "64",
+      "title": {
+        "mr": "राज्यातील केरळ राज्यात पावसामुळे उदभवलेल्या  नैसर्गिक आपत्ती ग्रस्ता ना एक दिवसाचे वेतन देणे बाबत दि.१९.०९.२०१८",
+        "en": "राज्यातील केरळ राज्यात पावसामुळे उदभवलेल्या  नैसर्गिक आपत्ती ग्रस्ता ना एक दिवसाचे वेतन देणे बाबत दि.१९.०९.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३४) राज्यातील केरळ राज्यात पावसामुळे उदभवलेल्या  नैसर्गिक आपत्ती ग्रस्ता ना एक दिवसाचे वेतन देणे बाबत दि.१९.०९.२०१८.PDF"
+    },
+    {
+      "srNo": "65",
+      "title": {
+        "mr": "भा कृ अ प नवी दिल्ली अनुदानित शिष्यवृत्ती बाबत दि.०३.०९.२०१८",
+        "en": "भा कृ अ प नवी दिल्ली अनुदानित शिष्यवृत्ती बाबत दि.०३.०९.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३३) भा कृ अ प नवी दिल्ली अनुदानित शिष्यवृत्ती बाबत दि.०३.०९.२०१८.PDF"
+    },
+    {
+      "srNo": "66",
+      "title": {
+        "mr": "घर बांधणी अग्रीम परिपत्रकाबाबत दि.३०.०८.२०१८",
+        "en": "घर बांधणी अग्रीम परिपत्रकाबाबत दि.३०.०८.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३२) घर बांधणी अग्रीम परिपत्रकाबाबत दि.३०.०८.२०१८.PDF"
+    },
+    {
+      "srNo": "67",
+      "title": {
+        "mr": "राज्य उत्पादन अंदाजकरिता आकडेवारी - भांडवल निर्मितीबाबत आधारभूत माहिती पाठविणेबाबत दि.१४.०८.२०१८",
+        "en": "राज्य उत्पादन अंदाजकरिता आकडेवारी - भांडवल निर्मितीबाबत आधारभूत माहिती पाठविणेबाबत दि.१४.०८.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३१) राज्य उत्पादन अंदाजकरिता आकडेवारी - भांडवल निर्मितीबाबत आधारभूत माहिती पाठविणेबाबत दि.१४.०८.२०१८.pdf"
+    },
+    {
+      "srNo": "68",
+      "title": {
+        "mr": "विद्यापीठ निधीचे आर्थिक वर्ष २०१८-१९ चे अंदाजपत्रक सादर करणे इ देयके पारित करणेबाबत दि.३१.०७.२०१८",
+        "en": "विद्यापीठ निधीचे आर्थिक वर्ष २०१८-१९ चे अंदाजपत्रक सादर करणे इ देयके पारित करणेबाबत दि.३१.०७.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३०) विद्यापीठ निधीचे आर्थिक वर्ष २०१८-१९ चे अंदाजपत्रक सादर करणे इ देयके पारित करणेबाबत दि.३१.०७.२०१८.PDF"
+    },
+    {
+      "srNo": "69",
+      "title": {
+        "mr": "समूह गट विमा योजनेच्या (GSLI) पॉलीसीचे नूतनीकरण करणेबाबत दि.२१.०५.२०१८",
+        "en": "समूह गट विमा योजनेच्या (GSLI) पॉलीसीचे नूतनीकरण करणेबाबत दि.२१.०५.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२९) समूह गट विमा योजनेच्या (GSLI) पॉलीसीचे नूतनीकरण करणेबाबत दि.२१.०५.२०१८.PDF"
+    },
+    {
+      "srNo": "70",
+      "title": {
+        "mr": "सन २००८-०९ ते सन २०१०-११ या आर्थिक वर्षांमध्ये पुस्तकी समायोजनाने कपात करण्यात आलेल्या आयकर रकामाबाबत दि.१९.०५.२०१८",
+        "en": "सन २००८-०९ ते सन २०१०-११ या आर्थिक वर्षांमध्ये पुस्तकी समायोजनाने कपात करण्यात आलेल्या आयकर रकामाबाबत दि.१९.०५.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२८) सन २००८-०९ ते सन २०१०-११ या आर्थिक वर्षांमध्ये पुस्तकी समायोजनाने कपात करण्यात आलेल्या आयकर रकामाबाबत दि.१९.०५.२०१८.pdf"
+    },
+    {
+      "srNo": "71",
+      "title": {
+        "mr": "विद्यापीठ निधीचे आर्थिक वर्ष २०१८-१९ चे अंदाजपत्रक सादर करणे इ देयके पारित करणेबाबत दि.१८.०५.२०१८",
+        "en": "विद्यापीठ निधीचे आर्थिक वर्ष २०१८-१९ चे अंदाजपत्रक सादर करणे इ देयके पारित करणेबाबत दि.१८.०५.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२७) विद्यापीठ निधीचे आर्थिक वर्ष २०१८-१९ चे अंदाजपत्रक सादर करणे इ देयके पारित करणेबाबत दि.१८.०५.२०१८.pdf"
+    },
+    {
+      "srNo": "72",
+      "title": {
+        "mr": "वस्तू व सेवा खरेदी GeM (Govt. e Market) पोर्टल , ई - निविदा प्रक्रिया व GST Act अंतर्गत तरतुदी याआधारीत सर्वंकष कार्यपद्धती निश्चित करणेबाबत दि.१५.०५.२०१८",
+        "en": "वस्तू व सेवा खरेदी GeM (Govt. e Market) पोर्टल , ई - निविदा प्रक्रिया व GST Act अंतर्गत तरतुदी याआधारीत सर्वंकष कार्यपद्धती निश्चित करणेबाबत दि.१५.०५.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२६) वस्तू व सेवा खरेदी GeM (Govt. e Market) पोर्टल , ई - निविदा प्रक्रिया व GST Act अंतर्गत तरतुदी याआधारीत सर्वंकष कार्यपद्धती निश्चित करणेबाबत दि.१५.०५.२०१८.PDF"
+    },
+    {
+      "srNo": "73",
+      "title": {
+        "mr": "सन २०१७-१८ या आर्थिक वर्षांमध्ये प्रशासकीय मंजुरी मिळालेले प्रस्ताव सन २०१८-१९ मध्ये पुन श्च मंजुरीस्तव सादर न करणेबाबत दि.०८.०५.२०१८",
+        "en": "सन २०१७-१८ या आर्थिक वर्षांमध्ये प्रशासकीय मंजुरी मिळालेले प्रस्ताव सन २०१८-१९ मध्ये पुन श्च मंजुरीस्तव सादर न करणेबाबत दि.०८.०५.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२५) सन २०१७-१८ या आर्थिक वर्षांमध्ये प्रशासकीय मंजुरी मिळालेले प्रस्ताव सन २०१८-१९ मध्ये पुन श्च मंजुरीस्तव सादर न करणेबाबत दि.०८.०५.२०१८.PDF"
+    },
+    {
+      "srNo": "74",
+      "title": {
+        "mr": "नियंत्रक या पदाबाबत दि.०३.०५.२०१८",
+        "en": "नियंत्रक या पदाबाबत दि.०३.०५.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२४) नियंत्रक या पदाबाबत दि.०३.०५.२०१८.PDF"
+    },
+    {
+      "srNo": "75",
+      "title": {
+        "mr": "सन २०१७-१८ साठी उपयोगिता प्रमाणपत्र वेळीच सादर करणेबाबत दि.०३.०४.२०१८",
+        "en": "सन २०१७-१८ साठी उपयोगिता प्रमाणपत्र वेळीच सादर करणेबाबत दि.०३.०४.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२३) सन २०१७-१८ साठी उपयोगिता प्रमाणपत्र वेळीच सादर करणेबाबत दि.०३.०४.२०१८.PDF"
+    },
+    {
+      "srNo": "76",
+      "title": {
+        "mr": "सन २०१७-१८ या आर्थिक वर्षाचे व्यवहार बंद करतांना घयावयाची दक्षता दि.०२.०४.२०१८",
+        "en": "सन २०१७-१८ या आर्थिक वर्षाचे व्यवहार बंद करतांना घयावयाची दक्षता दि.०२.०४.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२२) सन २०१७-१८ या आर्थिक वर्षाचे व्यवहार बंद करतांना घयावयाची दक्षता दि.०२.०४.२०१८.PDF"
+    },
+    {
+      "srNo": "77",
+      "title": {
+        "mr": "राज्य शासकीय व इतर पात्र कर्मचायांना मंजूर करण्यात येणाऱ्या महागाई भात्याच्या दरात दि. १ जुलै २०१७ पासून सुधारणा करण्याबाबत दि.२२.०३.२०१८",
+        "en": "राज्य शासकीय व इतर पात्र कर्मचायांना मंजूर करण्यात येणाऱ्या महागाई भात्याच्या दरात दि. १ जुलै २०१७ पासून सुधारणा करण्याबाबत दि.२२.०३.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२१) राज्य शासकीय व इतर पात्र कर्मचायांना मंजूर करण्यात येणाऱ्या महागाई भात्याच्या दरात दि. १ जुलै २०१७ पासून सुधारणा करण्याबाबत दि.२२.०३.२०१८.PDF"
+    },
+    {
+      "srNo": "78",
+      "title": {
+        "mr": "माहे मार्च २०१८ अखेरच्या लेखा व आर्थिक कामकाजाबाबत दि.२१.०३.२०१८",
+        "en": "माहे मार्च २०१८ अखेरच्या लेखा व आर्थिक कामकाजाबाबत दि.२१.०३.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२०) माहे मार्च २०१८ अखेरच्या लेखा व आर्थिक कामकाजाबाबत दि.२१.०३.२०१८.PDF"
+    },
+    {
+      "srNo": "79",
+      "title": {
+        "mr": "माहे मार्च २०१८ अखेर वितरीत होणाऱ्या वेतनेतर   आकस्मित खर्चाच्या अनुदानाच्या विनियोगाबाबत दि.१९.०३.२०१८",
+        "en": "माहे मार्च २०१८ अखेर वितरीत होणाऱ्या वेतनेतर   आकस्मित खर्चाच्या अनुदानाच्या विनियोगाबाबत दि.१९.०३.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१९) माहे मार्च २०१८ अखेर वितरीत होणाऱ्या वेतनेतर   आकस्मित खर्चाच्या अनुदानाच्या विनियोगाबाबत दि.१९.०३.२०१८.PDF"
+    },
+    {
+      "srNo": "80",
+      "title": {
+        "mr": "DCPS योजनेतील सदस्य अधिकारी  कर्मचाऱ्यांच्या दि.३१.०३.२०१७ रोजीच्या शिल्लक निधीची पडताळणी करणेबाबत दि.२२.०२.२०१८",
+        "en": "DCPS योजनेतील सदस्य अधिकारी  कर्मचाऱ्यांच्या दि.३१.०३.२०१७ रोजीच्या शिल्लक निधीची पडताळणी करणेबाबत दि.२२.०२.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१८) DCPS योजनेतील सदस्य अधिकारी  कर्मचाऱ्यांच्या दि.३१.०३.२०१७ रोजीच्या शिल्लक निधीची पडताळणी करणेबाबत दि.२२.०२.२०१८.PDF"
+    },
+    {
+      "srNo": "81",
+      "title": {
+        "mr": "सन १९७२-७४ ते २०१०-१२ या आर्थिक वर्षातील प्रलंबित लेखा आक्षेपातील वसुली व प्रलंबित अग्रीमांबाबत उध्दभवलेल्या  आक्षेपांबाबत माहिती पाठवने बाबत दि.०१.०२.२०१८",
+        "en": "सन १९७२-७४ ते २०१०-१२ या आर्थिक वर्षातील प्रलंबित लेखा आक्षेपातील वसुली व प्रलंबित अग्रीमांबाबत उध्दभवलेल्या  आक्षेपांबाबत माहिती पाठवने बाबत दि.०१.०२.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१७) सन १९७२-७४ ते २०१०-१२ या आर्थिक वर्षातील प्रलंबित लेखा आक्षेपातील वसुली व प्रलंबित अग्रीमांबाबत उध्दभवलेल्या  आक्षेपांबाबत माहिती पाठवने बाबत दि.०१.०२.२०१८.PDF"
+    },
+    {
+      "srNo": "82",
+      "title": {
+        "mr": "सन २०१६-१७ या वर्षाचा वार्षिक ताळेबंद (Balance Sheet)  तयार करणेबाबत दि.०१.०२.२०१८",
+        "en": "सन २०१६-१७ या वर्षाचा वार्षिक ताळेबंद (Balance Sheet)  तयार करणेबाबत दि.०१.०२.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१६) सन २०१६-१७ या वर्षाचा वार्षिक ताळेबंद (Balance Sheet)  तयार करणेबाबत दि.०१.०२.२०१८.PDF"
+    },
+    {
+      "srNo": "83",
+      "title": {
+        "mr": "वेतनेतर  आकस्मिक खर्चात काटकसर करणेबाबत दि.२३.०१.२०१८",
+        "en": "वेतनेतर  आकस्मिक खर्चात काटकसर करणेबाबत दि.२३.०१.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१५) वेतनेतर  आकस्मिक खर्चात काटकसर करणेबाबत दि.२३.०१.२०१८.PDF"
+    },
+    {
+      "srNo": "84",
+      "title": {
+        "mr": "सन २००८-०९ ते २०१०-११ या आर्थिक वर्षातील आयकरासंबंधीच्या नोटिसाबाबत दि.०९.०१.२०१८",
+        "en": "सन २००८-०९ ते २०१०-११ या आर्थिक वर्षातील आयकरासंबंधीच्या नोटिसाबाबत दि.०९.०१.२०१८"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१४) सन २००८-०९ ते २०१०-११ या आर्थिक वर्षातील आयकरासंबंधीच्या नोटिसाबाबत दि.०९.०१.२०१८.PDF"
+    },
+    {
+      "srNo": "85",
+      "title": {
+        "mr": "DCPS योजनेतील सदस्य अधिकारी  कर्मचाऱ्यांच्या  दि.३१.०३.२०१७ रोजीच्या शिल्लक निधीची पडताळणी करणेबाबत दि.२७.१२.२०१७",
+        "en": "DCPS योजनेतील सदस्य अधिकारी  कर्मचाऱ्यांच्या  दि.३१.०३.२०१७ रोजीच्या शिल्लक निधीची पडताळणी करणेबाबत दि.२७.१२.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१३) DCPS योजनेतील सदस्य अधिकारी  कर्मचाऱ्यांच्या  दि.३१.०३.२०१७ रोजीच्या शिल्लक निधीची पडताळणी करणेबाबत दि.२७.१२.२०१७.PDF"
+    },
+    {
+      "srNo": "86",
+      "title": {
+        "mr": "सन २०१७-१८ या आर्थिक वर्षाचे सुधारीत अंदाजपत्रक  दि.२२.१२.२०१७",
+        "en": "सन २०१७-१८ या आर्थिक वर्षाचे सुधारीत अंदाजपत्रक  दि.२२.१२.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१२) सन २०१७-१८ या आर्थिक वर्षाचे सुधारीत अंदाजपत्रक  दि.२२.१२.२०१७.PDF"
+    },
+    {
+      "srNo": "87",
+      "title": {
+        "mr": "सेवार्थ प्रणालीतील देयके तयार करतांना करावयाची कार्यवाही दि.२०.१२.२०१७",
+        "en": "सेवार्थ प्रणालीतील देयके तयार करतांना करावयाची कार्यवाही दि.२०.१२.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\११) सेवार्थ प्रणालीतील देयके तयार करतांना करावयाची कार्यवाही दि.२०.१२.२०१७.PDF"
+    },
+    {
+      "srNo": "88",
+      "title": {
+        "mr": "मूकबधीर तसेच श्रवण शक्तीतील दोष असलेल्या शासकीय कर्मचाऱ्यांना वाहतूक भत्ता मंजूर करणेबाबत दि.१५.१२.२०१७",
+        "en": "मूकबधीर तसेच श्रवण शक्तीतील दोष असलेल्या शासकीय कर्मचाऱ्यांना वाहतूक भत्ता मंजूर करणेबाबत दि.१५.१२.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१०) मूकबधीर तसेच श्रवण शक्तीतील दोष असलेल्या शासकीय कर्मचाऱ्यांना वाहतूक भत्ता मंजूर करणेबाबत दि.१५.१२.२०१७.PDF"
+    },
+    {
+      "srNo": "89",
+      "title": {
+        "mr": "NPS योजनेत DDO   म्हणून नोंदणी करणे बाबत दि. १३. १२. २०१७",
+        "en": "NPS योजनेत DDO   म्हणून नोंदणी करणे बाबत दि. १३. १२. २०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\९) NPS योजनेत DDO   म्हणून नोंदणी करणे बाबत दि. १३. १२. २०१७.PDF"
+    },
+    {
+      "srNo": "90",
+      "title": {
+        "mr": "पी. फ. एम. एस. प्रणालीमध्ये माहिती भारणेबाबत दि.१३.११.२०१७",
+        "en": "पी. फ. एम. एस. प्रणालीमध्ये माहिती भारणेबाबत दि.१३.११.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\८) पी. फ. एम. एस. प्रणालीमध्ये माहिती भारणेबाबत दि.१३.११.२०१७.PDF"
+    },
+    {
+      "srNo": "91",
+      "title": {
+        "mr": "वेतनेत्तर खर्चात काटकसर  करणेबाबत व वस्तू सेवा खरेदीसाठी GeM (Govt. e Market) या पोर्टल चा वापर करणेबाबत दि.०७.०९.२०१७",
+        "en": "वेतनेत्तर खर्चात काटकसर  करणेबाबत व वस्तू सेवा खरेदीसाठी GeM (Govt. e Market) या पोर्टल चा वापर करणेबाबत दि.०७.०९.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\७) वेतनेत्तर खर्चात काटकसर  करणेबाबत व वस्तू सेवा खरेदीसाठी GeM (Govt. e Market) या पोर्टल चा वापर करणेबाबत दि.०७.०९.२०१७.PDF"
+    },
+    {
+      "srNo": "92",
+      "title": {
+        "mr": "माहे मार्च २०१७ अखेर जंगम  स्थावर मालमत्ता व जडवस्तू उपभोग्य वस्तू पशुधन,बी -बियाणे इ. ची पडताळणी  व तपासणी करणे बाबत दि.३१.०८.२०१७",
+        "en": "माहे मार्च २०१७ अखेर जंगम  स्थावर मालमत्ता व जडवस्तू उपभोग्य वस्तू पशुधन,बी -बियाणे इ. ची पडताळणी  व तपासणी करणे बाबत दि.३१.०८.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\६) माहे मार्च २०१७ अखेर जंगम  स्थावर मालमत्ता व जडवस्तू उपभोग्य वस्तू पशुधन,बी -बियाणे इ. ची पडताळणी  व तपासणी करणे बाबत दि.३१.०८.२०१७.PDF"
+    },
+    {
+      "srNo": "93",
+      "title": {
+        "mr": "सेवा निवृत्तीपर भविष्य निर्वाह निधी व इतर अंतिम प्रदानाचे प्रस्ताव वेळीच सादर करणेबाबत दि.०४.०८.२०१७",
+        "en": "सेवा निवृत्तीपर भविष्य निर्वाह निधी व इतर अंतिम प्रदानाचे प्रस्ताव वेळीच सादर करणेबाबत दि.०४.०८.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\५) सेवा निवृत्तीपर भविष्य निर्वाह निधी व इतर अंतिम प्रदानाचे प्रस्ताव वेळीच सादर करणेबाबत दि.०४.०८.२०१७.PDF"
+    },
+    {
+      "srNo": "94",
+      "title": {
+        "mr": "DCPS योजनेतील रक्कमेचा परतावा दि.१९.०७.२०१७",
+        "en": "DCPS योजनेतील रक्कमेचा परतावा दि.१९.०७.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\४) DCPS योजनेतील रक्कमेचा परतावा दि.१९.०७.२०१७.PDF"
+    },
+    {
+      "srNo": "95",
+      "title": {
+        "mr": "इंधन अग्रीम कार्यपद्धतीत बदल करणेबाबत दि.१४.०७.२०१७",
+        "en": "इंधन अग्रीम कार्यपद्धतीत बदल करणेबाबत दि.१४.०७.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\३) इंधन अग्रीम कार्यपद्धतीत बदल करणेबाबत दि.१४.०७.२०१७.PDF"
+    },
+    {
+      "srNo": "96",
+      "title": {
+        "mr": "इंधन अग्रीम कार्यपद्धतीत बदल करणेबाबत दि.०३.०७.२०१७",
+        "en": "इंधन अग्रीम कार्यपद्धतीत बदल करणेबाबत दि.०३.०७.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\२) इंधन अग्रीम कार्यपद्धतीत बदल करणेबाबत दि.०३.०७.२०१७.PDF"
+    },
+    {
+      "srNo": "97",
+      "title": {
+        "mr": "अदात्याच्या  लाभाथीच्या  बँक खात्यात इलेकट्रॉनिक पद्धतीने थेट प्रदान करणेबाबत  दि.०१.०७.२०१७",
+        "en": "अदात्याच्या  लाभाथीच्या  बँक खात्यात इलेकट्रॉनिक पद्धतीने थेट प्रदान करणेबाबत  दि.०१.०७.२०१७"
+      },
+      "fileUrl": "..\\..\\Uploads\\Finance\\१)  अदात्याच्या  लाभाथीच्या  बँक खात्यात इलेकट्रॉनिक पद्धतीने थेट प्रदान करणेबाबत  दि.०१.०७.२०१७.PDF"
+    }
+  ],
+  "contacts": [
+    {
+      "srNo": "1",
+      "office": {
+        "en": "Comptroller Office",
+        "mr": "नियंत्रक कार्यालय (मध्यवर्ती मुख्यालय)"
+      },
+      "designation": {
+        "en": "Comptroller (Finance & Accounts)",
+        "mr": "नियंत्रक (वित्त व लेखा)"
+      },
+      "phone": "02426-243226",
+      "email": "comptroller.mpkv@gov.in",
+      "location": {
+        "en": "Main Administrative Building, MPKV, Rahuri",
+        "mr": "मध्यवर्ती प्रशासकीय इमारत, मफुक्रुवि, राहुरी"
+      }
+    },
+    {
+      "srNo": "2",
+      "office": {
+        "en": "Assistant Comptroller - 1 & Addl. PAO",
+        "mr": "सहाय्यक नियंत्रक १ तथा अति. अधिदान व लेखा अधिकारी"
+      },
+      "designation": {
+        "en": "Assistant Comptroller - 1",
+        "mr": "सहाय्यक नियंत्रक १"
+      },
+      "phone": "02426-243225",
+      "email": "act1mpkv@gmail.com",
+      "location": {
+        "en": "Main Administrative Building, MPKV, Rahuri",
+        "mr": "मध्यवर्ती प्रशासकीय इमारत, मफुक्रुवि, राहुरी"
+      }
+    },
+    {
+      "srNo": "3",
+      "office": {
+        "en": "Assistant Comptroller - 2",
+        "mr": "सहाय्यक नियंत्रक २"
+      },
+      "designation": {
+        "en": "Assistant Comptroller - 2",
+        "mr": "सहाय्यक नियंत्रक २"
+      },
+      "phone": "02426-243374",
+      "email": "ac2mpkv@gmail.com",
+      "location": {
+        "en": "Main Administrative Building, MPKV, Rahuri",
+        "mr": "मध्यवर्ती प्रशासकीय इमारत, मफुक्रुवि, राहुरी"
+      }
+    },
+    {
+      "srNo": "4",
+      "office": {
+        "en": "Assistant Comptroller - 3",
+        "mr": "सहाय्यक नियंत्रक ३"
+      },
+      "designation": {
+        "en": "Assistant Comptroller - 3",
+        "mr": "सहाय्यक नियंत्रक ३"
+      },
+      "phone": "02426-243204",
+      "email": "assistantcompt3@gmail.com",
+      "location": {
+        "en": "Main Administrative Building, MPKV, Rahuri",
+        "mr": "मध्यवर्ती प्रशासकीय इमारत, मफुक्रुवि, राहुरी"
+      }
+    },
+    {
+      "srNo": "5",
+      "office": {
+        "en": "Assistant Comptroller - 4",
+        "mr": "सहाय्यक नियंत्रक ४"
+      },
+      "designation": {
+        "en": "Assistant Comptroller - 4",
+        "mr": "सहाय्यक नियंत्रक ४"
+      },
+      "phone": "02426-243338",
+      "email": "asstt.compt.iv@gmail.com",
+      "location": {
+        "en": "Main Administrative Building, MPKV, Rahuri",
+        "mr": "मध्यवर्ती प्रशासकीय इमारत, मफुक्रुवि, राहुरी"
+      }
+    },
+    {
+      "srNo": "6",
+      "office": {
+        "en": "Pay & Accounts Officer (PAO), Rahuri",
+        "mr": "अधिदान व लेखा अधिकारी (PAO), राहुरी"
+      },
+      "designation": {
+        "en": "Pay & Accounts Officer",
+        "mr": "अधिदान व लेखा अधिकारी"
+      },
+      "phone": "02426-243364",
+      "email": "paorahuri.mpkv@gov.in",
+      "location": {
+        "en": "Central Pay & Accounts Office, MPKV, Rahuri",
+        "mr": "मध्यवर्ती अधिदान व लेखा कार्यालय, राहुरी"
+      }
+    },
+    {
+      "srNo": "7",
+      "office": {
+        "en": "Pay & Accounts Officer, AC Pune",
+        "mr": "अधिदान व लेखा अधिकारी, कृषी महाविद्यालय, पुणे"
+      },
+      "designation": {
+        "en": "Pay & Accounts Officer (Pune Division)",
+        "mr": "अधिदान व लेखा अधिकारी (पुणे विभाग)"
+      },
+      "phone": "020-25521838",
+      "email": "paopune.mpkv@gov.in",
+      "location": {
+        "en": "College of Agriculture Campus, Shivajinagar, Pune",
+        "mr": "कृषी महाविद्यालय परिसर, शिवाजीनगर, पुणे"
+      }
+    },
+    {
+      "srNo": "8",
+      "office": {
+        "en": "Pay & Accounts Officer, AC Kolhapur",
+        "mr": "अधिदान व लेखा अधिकारी, कृषी महाविद्यालय, कोल्हापूर"
+      },
+      "designation": {
+        "en": "Pay & Accounts Officer (Kolhapur Division)",
+        "mr": "अधिदान व लेखा अधिकारी (कोल्हापूर विभाग)"
+      },
+      "phone": "0231-2606005",
+      "email": "paoackolhapur@gmail.com",
+      "location": {
+        "en": "College of Agriculture Campus, Kasaba Bawada, Kolhapur",
+        "mr": "कृषी महाविद्यालय परिसर, कसबा बावडा, कोल्हापूर"
+      }
+    },
+    {
+      "srNo": "9",
+      "office": {
+        "en": "Pay & Accounts Officer, AC Dhule",
+        "mr": "अधिदान व लेखा अधिकारी, कृषी महाविद्यालय, धुळे"
+      },
+      "designation": {
+        "en": "Pay & Accounts Officer (Khandesh Division)",
+        "mr": "अधिदान व लेखा अधिकारी (धुळे विभाग)"
+      },
+      "phone": "02562-230274",
+      "email": "paodhule@gmail.com",
+      "location": {
+        "en": "College of Agriculture Campus, Dhule",
+        "mr": "कृषी महाविद्यालय परिसर, धुळे"
+      }
+    }
+  ]
 }

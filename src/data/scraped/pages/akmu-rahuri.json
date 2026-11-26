@@ -1,12 +1,12 @@
 {
-  "slug": "akmu-rahuri",
+  "slug": "akmu-introduction",
   "url": "https://mpkv.ac.in/Akmu/Introduction",
-  "route": "/akmu-rahuri",
-  "sourcePage": "akmu-rahuri",
-  "scrapedAt": "2026-11-22T20:36:22.761516",
+  "route": "/Akmu/Introduction",
+  "sourcePage": "akmu-introduction",
+  "scrapedAt": "2026-11-26T17:32:00.000000",
   "title": {
-    "en": "AKMU Cyber Operations Rahuri",
-    "mr": "एकेएमयू सायबर संकुल राहुरी"
+    "en": "Agricultural Knowledge Management Unit (AKMU)",
+    "mr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU)"
   },
   "breadcrumb": [
     {
@@ -18,53 +18,366 @@
     },
     {
       "title": {
-        "en": "Home",
-        "mr": "मुख्यपृष्ठ"
-      },
-      "href": "/akmu-rahuri"
-    },
-    {
-      "title": {
         "en": "University Facilities",
         "mr": "विद्यापीठ सुविधा"
       },
-      "href": "/akmu-rahuri"
+      "href": "/Akmu/Introduction"
     },
     {
       "title": {
-        "en": "AKMU Cyber Operations Rahuri",
-        "mr": "एकेएमयू सायबर संकुल राहुरी"
+        "en": "AKMU Rahuri",
+        "mr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU)"
       },
-      "href": "/akmu-rahuri"
+      "href": "/Akmu/Introduction"
     }
   ],
   "hero": {
     "title": {
-      "en": "Agricultural Knowledge Management Unit",
-      "mr": "कृषि माहिती व्यवस्थापन विभाग (AKMU), राहुरी"
+      "en": "Agricultural Knowledge Management Unit (AKMU)",
+      "mr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU), राहुरी"
     },
     "subtitle": {
-      "en": "Spearheading Campus Networking, IT Services, ERP & University Portal Administration",
-      "mr": "विद्यापीठ नेटवर्किंग, संकेतस्थळ, ईआरपी व आयटी पायाभूत सुविधांचे संचालन"
+      "en": "Established as ARIS Cell in 1996-97 under NARP and renamed AKMU per ICAR Guidelines (27 Jan 2011). Operating 1 Gbps National Knowledge Network (NKN) Optical Fiber Backbone across MPKV Central Campus, Rahuri.",
+      "mr": "राष्ट्रीय कृषी संशोधन प्रकल्पांतर्गत १९९६-९७ मध्ये ARIS कक्ष म्हणून स्थापना व २७ जानेवारी २०११ रोजी ICAR मार्गदर्शक तत्त्वांनुसार AKMU नामकरण. राहुरी मध्यवर्ती आवारात १ Gbps राष्ट्रीय ज्ञान नेटवर्क (NKN) ऑप्टिकल फायबर प्रणाली कार्यरत."
     },
     "badge": {
-      "en": "High-Speed NKN Optical Fiber Backbone",
-      "mr": "राष्ट्रीय ज्ञान नेटवर्क (NKN) ब्रॉडबँड"
+      "en": "1 Gbps NKN Optical Fiber Backbone & Cyber Centre",
+      "mr": "१ Gbps राष्ट्रीय ज्ञान नेटवर्क (NKN) व सायबर केंद्र"
+    },
+    "stats": [
+      {
+        "label": {
+          "en": "NKN Connectivity",
+          "mr": "इंटरनेट वेग (NKN)"
+        },
+        "value": "1 Gbps OFC"
+      },
+      {
+        "label": {
+          "en": "Established (ARIS)",
+          "mr": "स्थापना वर्ष"
+        },
+        "value": "1996–97"
+      },
+      {
+        "label": {
+          "en": "Core IT Activities",
+          "mr": "आयटी सेवा क्षेत्रे"
+        },
+        "value": "12+"
+      },
+      {
+        "label": {
+          "en": "Trainings Conducted",
+          "mr": "आयोजित प्रशिक्षणे"
+        },
+        "value": "22+"
+      }
+    ]
+  },
+  "introduction": {
+    "historyEn": "The Indian National Agricultural Research System (NARS) with its nationwide network of educational and research institutions consisting of state agricultural universities, zonal research stations, and ICAR institutes established the Agricultural Research Information System (ARIS) in 1996-97 to strengthen research information under the National Agricultural Research Project (NARP). Further, the ARIS Cell was renamed as Agricultural Knowledge Management Unit (AKMU) as per ICAR guidelines (F.No. 3-1/2010-GAS (DIPA) dtd. 27 January, 2011).",
+    "historyMr": "भारतीय राष्ट्रीय कृषी संशोधन प्रणाली (NARS) अंतर्गत राज्य कृषी विद्यापीठे, विभागीय संशोधन केंद्रे आणि ICAR संस्थांमधील संशोधन माहिती प्रणाली बळकट करण्यासाठी १९९६-९७ मध्ये राष्ट्रीय कृषी संशोधन प्रकल्पांतर्गत (NARP) 'कृषी संशोधन माहिती प्रणाली' (ARIS) कक्षाची स्थापना करण्यात आली. पुढे २७ जानेवारी २०११ च्या ICAR मार्गदर्शक तत्त्वांनुसार (F.No. 3-1/2010-GAS (DIPA)) या कक्षाचे नामकरण 'कृषी ज्ञान व्यवस्थापन केंद्र' (AKMU) असे करण्यात आले.",
+    "infrastructureEn": "The Unit is entrusted with developing ICT in agricultural research, maintaining the University's campus network, official website (mpkv.ac.in), centralized server hosting, firewall security, and web server administration. AKMU is connected to all academic, administrative, and research buildings in the central campus through Optical Fibre Cabling (OFC). At present, AKMU is provided with 1 Gbps National Knowledge Network (NKN) internet connectivity (www.nkn.in) through BSNL, shared across all divisions and sections of Mahatma Phule Krishi Vidyapeeth, Rahuri.",
+    "infrastructureMr": "कृषी संशोधनात माहिती व संप्रेषण तंत्रज्ञानाचा (ICT) विकास, विद्यापीठाचे अंतर्गत नेटवर्क व्यवस्थापन, अधिकृत संकेतस्थळ (mpkv.ac.in), सर्व्हर होस्टिंग आणि सायबर सुरक्षा यांची जबाबदारी AKMU पार पाडते. मध्यवर्ती आवारातील सर्व इमारती ऑप्टिकल फायबर केबलने (OFC) जोडलेल्या असून BSNL मार्फत १ Gbps क्षमतेची राष्ट्रीय ज्ञान नेटवर्क (NKN) इंटरनेट सुविधा सर्व विभागांना पुरविली जाते.",
+    "images": [
+      {
+        "src": "/media/images/akmu/akmu_unit.jpg",
+        "officialUrl": "https://mpkv.ac.in/images/main/akmu.jpg",
+        "captionEn": "Agricultural Knowledge Management Unit (AKMU) Building & Facility, MPKV Rahuri",
+        "captionMr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU) इमारत व संगणकीय संकुल, मफुकृवि राहुरी"
+      },
+      {
+        "src": "/media/images/akmu/akmu_web_lab.jpg",
+        "officialUrl": "https://mpkv.ac.in/images/main/Web%20Photo.jpg",
+        "captionEn": "AKMU Computer Laboratory, ICT Server Operations & NKN Hub",
+        "captionMr": "AKMU संगणक प्रयोगशाळा, वेब सर्व्हर व NKN नेटवर्क नियंत्रण कक्ष"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "srNo": "1",
+      "title": {
+        "en": "Network/ Internet Related Services",
+        "mr": "Network/ Internet Related Services"
+      }
+    },
+    {
+      "srNo": "2",
+      "title": {
+        "en": "Website Upgradation and Maintenance",
+        "mr": "Website Upgradation and Maintenance"
+      }
+    },
+    {
+      "srNo": "3",
+      "title": {
+        "en": "LAN Support to various departments",
+        "mr": "LAN Support to various departments"
+      }
+    },
+    {
+      "srNo": "4",
+      "title": {
+        "en": "Wi-Fi Services & Department Computer Laboratories",
+        "mr": "Wi-Fi Services & Department Computer Laboratories"
+      }
+    },
+    {
+      "srNo": "5",
+      "title": {
+        "en": "Firewall Services",
+        "mr": "Firewall Services"
+      }
+    },
+    {
+      "srNo": "6",
+      "title": {
+        "en": "Web Restricted Access",
+        "mr": "Web Restricted Access"
+      }
+    },
+    {
+      "srNo": "7",
+      "title": {
+        "en": "Video Conferencing",
+        "mr": "Video Conferencing"
+      }
+    },
+    {
+      "srNo": "8",
+      "title": {
+        "en": "Antivirus support",
+        "mr": "Antivirus support"
+      }
+    },
+    {
+      "srNo": "9",
+      "title": {
+        "en": "Centralized Server hosting",
+        "mr": "Centralized Server hosting"
+      }
+    },
+    {
+      "srNo": "10",
+      "title": {
+        "en": "Web server",
+        "mr": "Web server"
+      }
+    },
+    {
+      "srNo": "11",
+      "title": {
+        "en": "Online processes like Scholarship, Admission & Scholarship Processes.",
+        "mr": "Online processes like Scholarship, Admission & Scholarship Processes."
+      }
+    },
+    {
+      "srNo": "12",
+      "title": {
+        "en": "IT support: Purchase of computer hardware, software, Inspection of hardware etc Pathology, Entomology, Seed Report etc.",
+        "mr": "IT support: Purchase of computer hardware, software, Inspection of hardware etc Pathology, Entomology, Seed Report etc."
+      }
     }
-  },
-  "stats": {
-    "totalRecords": 1
-  },
-  "menuId": "menu_home",
-  "parentMenu": {
-    "id": "menu_home",
-    "title": {
-      "en": "Home",
-      "mr": "मुख्यपृष्ठ"
+  ],
+  "trainingsConducted": [
+    {
+      "srNo": "1",
+      "title": "Human Resource Development and computer awareness",
+      "duration": "25 -29 Mar.2008",
+      "participants": "40"
+    },
+    {
+      "srNo": "2",
+      "title": "Refresher course on Computational Techniques and Office Automation in agriculture",
+      "duration": "5 - 28 January 2009",
+      "participants": "20"
+    },
+    {
+      "srNo": "3",
+      "title": "Training program to operate LAE - school result software",
+      "duration": "1 - 17 June 2009",
+      "participants": "20"
+    },
+    {
+      "srNo": "4",
+      "title": "Training programme to operate PG admission excel programme-2009",
+      "duration": "1 September 2009",
+      "participants": "2"
+    },
+    {
+      "srNo": "5",
+      "title": "Training program on UG result system smart",
+      "duration": "2 -3 Sept. 2009",
+      "participants": "18"
+    },
+    {
+      "srNo": "6",
+      "title": "Advances in e- Communication (Non Teaching Staff)",
+      "duration": "20-22 Jan. 10",
+      "participants": "33"
+    },
+    {
+      "srNo": "7",
+      "title": "Advances in e- Communication (Teaching Staff)",
+      "duration": "27-29 Jan. 10",
+      "participants": "34"
+    },
+    {
+      "srNo": "8",
+      "title": "Statistical Analysis System (SAS)",
+      "duration": "23-29 Sept 2010",
+      "participants": "34"
+    },
+    {
+      "srNo": "9",
+      "title": "Refresher course on Computational Techniques and Office Automation in agriculture",
+      "duration": "05-07-2011 to 25-07-2011",
+      "participants": "24"
+    },
+    {
+      "srNo": "10",
+      "title": "Video Conferencing Operating",
+      "duration": "31 Jan 2012",
+      "participants": "20"
+    },
+    {
+      "srNo": "11",
+      "title": "LAE Result Preparation",
+      "duration": "1 April 2012",
+      "participants": "100"
+    },
+    {
+      "srNo": "12",
+      "title": "Data base Management and Video Conferencing to KVK staff",
+      "duration": "27-29 Dec. 2012",
+      "participants": "20"
+    },
+    {
+      "srNo": "13",
+      "title": "RMS license Workshop",
+      "duration": "23-24 Dec. 2013",
+      "participants": "25"
+    },
+    {
+      "srNo": "14",
+      "title": "Workshop on MPKV web development",
+      "duration": "30-12-13 to 01-01-14",
+      "participants": "10"
+    },
+    {
+      "srNo": "15",
+      "title": "Use of ICT tools in Agriculture & Website Designing to KVK staff",
+      "duration": "29-31 January 2014",
+      "participants": "20"
+    },
+    {
+      "srNo": "16",
+      "title": "RMS license Workshop",
+      "duration": "29-31 January 2014",
+      "participants": "20"
+    },
+    {
+      "srNo": "17",
+      "title": "Uploading data NISAGENET website",
+      "duration": "20-03-2014",
+      "participants": "40"
+    },
+    {
+      "srNo": "18",
+      "title": "Workshop on MPKV web development",
+      "duration": "01-04-2014 to 08-04-2014",
+      "participants": "10"
     }
+  ],
+  "nationalTrainingBrochures": [
+    {
+      "srNo": "1",
+      "title": {
+        "en": "Hyperspectral Remote Sensing and Spectroradiometry Instruments Roles in Climate Smart Agriculture Development",
+        "mr": "हवामान अनुकूल शेती विकासामध्ये हायपरस्पेक्ट्रल रिमोट सेन्सिंग व स्पेक्ट्रोरेडिओमेट्री साधनांची भूमिका"
+      },
+      "fileUrl": "/media/docs/trainings/1_Hyperspectral_Remote_Sensing.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/3.Hyperspectral%20Remote%20Sensing%20and%20Spectroradiometry%20Instruments%20Roles%20in%20Climate%20Smart%20Agriculture%20Development_20191207010917.pdf",
+      "size": "1.28 MB",
+      "tag": "Remote Sensing"
+    },
+    {
+      "srNo": "2",
+      "title": {
+        "en": "ICT for Effective Knowledge and Extension Delivery for Climate Smart Agriculture and Water Management Technologies",
+        "mr": "हवामान अनुकूल शेती व जलव्यवस्थापन तंत्रज्ञान प्रसारासाठी प्रभावी आयसीटी (ICT) प्रणाली"
+      },
+      "fileUrl": "/media/docs/trainings/2_ICT_Knowledge_Extension.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/4.ICT%20for%20Effective%20Knowledge%20and%20Extension%20delivery%20for%20Climate%20Smart%20Agriculture%20and%20Water%20Management%20Technologies_20191207010948.pdf",
+      "size": "1.28 MB",
+      "tag": "ICT Extension"
+    },
+    {
+      "srNo": "3",
+      "title": {
+        "en": "Online Training Programme on \"Machine Learning and its Applications in Climate Smart Agriculture\"",
+        "mr": "\"मशीन लर्निंग व हवामान अनुकूल शेतीतील त्याचे उपयोजन\" राष्ट्रीय ऑनलाइन प्रशिक्षण कार्यक्रम"
+      },
+      "fileUrl": "/media/docs/trainings/3_Machine_Learning_Agriculture.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/Brochure%20&%20Schedule%20-Machine%20%20Learning_20200511010014.pdf",
+      "size": "1.91 MB",
+      "tag": "Machine Learning"
+    },
+    {
+      "srNo": "4",
+      "title": {
+        "en": "Three Weeks Offline Certificate Course on Drones for Precision Agriculture: Spraying and Hyperspectral Imaging (Aug 24 - Sep 13, 2022 under CAAST Project)",
+        "mr": "अचूक शेतीसाठी ड्रोन (फवारणी व हायपरस्पेक्ट्रल इमेजिंग) तीन आठवड्यांचा ऑफलाइन प्रमाणपत्र अभ्यासक्रम (CAAST प्रकल्प)"
+      },
+      "fileUrl": "/media/docs/trainings/4_Drone_Precision_Agriculture.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/Drone%20for%20Precision%20Agri_Brochure_updated_20220720114425_20220720122448.pdf",
+      "size": "4.13 MB",
+      "tag": "Drone & UAV"
+    }
+  ],
+  "publications": [
+    {
+      "srNo": "1",
+      "title": "MK-Sheet Operating Manual Ver (2.0)",
+      "publicationNumber": "MPKV/ DEE/ EXT.PUB./ 01/ 2011"
+    },
+    {
+      "srNo": "2",
+      "title": "Advances in e-communication",
+      "publicationNumber": "MPKV/ DEE/ EXT.PUB./ 02/ 2011"
+    },
+    {
+      "srNo": "3",
+      "title": "Data Base Management and Video Conferencing",
+      "publicationNumber": "MPKV/ DEE/ EXT.PUB./ 854/ 2012"
+    },
+    {
+      "srNo": "4",
+      "title": "Use of ICT Tools in Agriculture and Website Designing",
+      "publicationNumber": "MPKV/DEE/EXT.PUB/ 970 / 2014"
+    }
+  ],
+  "contact": {
+    "nameEn": "Dr. Avdhoot Walunj",
+    "nameMr": "डॉ. अवधूत वाळुंज",
+    "designationEn": "Coordinator, Agricultural Knowledge Management Unit (AKMU)",
+    "designationMr": "समन्वयक, कृषी ज्ञान व्यवस्थापन केंद्र (AKMU)",
+    "officePhone": "+91-02426-243273",
+    "email": "arismpkv@gmail.com",
+    "locationEn": "AKMU Building, Central Campus, Mahatma Phule Krishi Vidyapeeth, Rahuri - 413722, Dist. Ahilyanagar (M.S.)",
+    "locationMr": "AKMU संकुल, मध्यवर्ती आवार, महात्मा फुले कृषी विद्यापीठ, राहुरी - ४१३७२२, जि. अहिल्यानगर",
+    "photo": "/media/images/akmu/dr_avdhoot_walunj.jpg",
+    "officialPhotoUrl": "https://mpkv.ac.in/Uploads/AKMU/Passport%20size%20photo%20Avdhoot%202022_20241129111919.jpg"
   },
-  "submenuGroup": {
-    "en": "University Facilities",
-    "mr": "विद्यापीठ सुविधा"
+  "networkQueryInfo": {
+    "titleEn": "Campus Network Query & IT Support Desk",
+    "titleMr": "कॅम्पस नेटवर्क तक्रार व आयटी सहाय्यता कक्ष",
+    "descEn": "Submit LAN/Wi-Fi connectivity requests, firewall port access, antivirus licensing, institutional email or web portal update queries directly to the AKMU Network Administration Team.",
+    "descMr": "विद्यापीठ विभागांमधील लॅन (LAN), वाय-फाय (Wi-Fi), NKN इंटरनेट कनेक्टिव्हिटी, अँटीव्हायरस व संकेतस्थळ अद्ययावतीकरणासंबंधी तक्रारी अथवा विनंत्या नोंदवा.",
+    "officialFormUrl": "https://mpkv.ac.in/Akmu/networkComplaints",
+    "supportEmail": "arismpkv@gmail.com",
+    "supportPhone": "+91-02426-243273"
   }
 }

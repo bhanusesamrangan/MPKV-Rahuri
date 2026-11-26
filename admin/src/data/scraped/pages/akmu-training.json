@@ -3,10 +3,10 @@
   "url": "https://mpkv.ac.in/Akmu/Traning",
   "route": "/Akmu/Traning",
   "sourcePage": "akmu-training",
-  "scrapedAt": "2026-11-22T20:35:22.353942",
+  "scrapedAt": "2026-11-26T15:38:00.000000",
   "title": {
-    "en": "Trainings",
-    "mr": "प्रशिक्षण"
+    "en": "Trainings & Capacity Building Programs",
+    "mr": "प्रशिक्षण व क्षमता संवर्धन उपक्रम"
   },
   "breadcrumb": [
     {
@@ -15,1213 +15,332 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Facilities",
+        "mr": "सुविधा"
+      },
+      "href": "/akmu-training"
+    },
+    {
+      "title": {
+        "en": "AKMU Training Programs",
+        "mr": "एकेएमयू प्रशिक्षण उपक्रम"
+      },
+      "href": "/Akmu/Traning"
     }
   ],
   "hero": {
     "title": {
-      "en": "Trainings",
-      "mr": "प्रशिक्षण"
+      "en": "Trainings & Advanced Workshops",
+      "mr": "प्रशिक्षण व प्रगत कार्यशाळा"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Trainings",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — प्रशिक्षण"
+      "en": "Agricultural Knowledge Management Unit (AKMU) & Institutional Capacity Building Programs across Drones, AI/ML, Remote Sensing, and Agricultural Technologies",
+      "mr": "कृषी ज्ञान व्यवस्थापन कक्ष (AKMU), जागतिक बँक CAAST प्रकल्प, कृषी ड्रोन, मशीन लर्निंग व रिमोट सेन्सिंग प्रगत प्रशिक्षण"
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "AKMU & Institutional Capacity Building",
+      "mr": "एकेएमयू व क्षमता संवर्धन कक्ष"
+    },
+    "actRef": {
+      "en": "National Level Capacity Building supported by ICAR & World Bank NAHEP-CAAST-CSAWM",
+      "mr": "आयसीएआर व जागतिक बँक कास्ट-सीएसएडब्लूएम सहकार्य"
     }
   },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+  "akmuOverview": {
+    "center": {
+      "en": "Agricultural Knowledge Management Unit (AKMU)",
+      "mr": "कृषी ज्ञान व्यवस्थापन कक्ष (AKMU)"
     },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
+    "mandate": {
+      "en": "AKMU functions as the digital technology backbone of MPKV Rahuri, conducting specialized national certificate courses, high-performance computational training, hyperspectral analytics, and automated drone certifications.",
+      "mr": "एकेएमयू कक्ष मफुकृवि राहुरीचा डिजिटल व संगणकीय कणा असून कृषी ड्रोन, हायपरस्पेक्ट्रल इमेजिंग, डेटा सायन्स व डिजिटल कृषी विस्ताराचे राष्ट्रीय अभ्यासक्रम आयोजित करतो."
     },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+    "contact": {
+      "officer": {
+        "en": "Officer In-Charge, AKMU",
+        "mr": "प्रभारी अधिकारी, कृषी ज्ञान व्यवस्थापन कक्ष"
       },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Trainings",
-        "mr": "प्रशिक्षण"
-      },
-      "order": 55
+      "phone": "02426-243265",
+      "email": "akmumpkv@gmail.com",
+      "location": {
+        "en": "Central Administration Building, MPKV Rahuri",
+        "mr": "मध्यवर्ती प्रशासकीय इमारत, मफुकृवि राहुरी"
+      }
     }
-  ],
-  "paragraphs": [],
-  "lists": [],
-  "tables": [
+  },
+  "officialAkmuPrograms": [
     {
-      "id": "table_1",
-      "caption": null,
-      "headers": [
+      "id": "drone_precision_agri",
+      "track": "akmu",
+      "category": "Drones & Precision Agriculture",
+      "srNo": "4",
+      "title": {
+        "en": "Three Weeks Certificate Course on Drones for Precision Agriculture: Spraying and Hyperspectral Imaging",
+        "mr": "अचूक शेतीसाठी कृषी ड्रोन प्रमाणपत्र अभ्यासक्रम: फवारणी व हायपरस्पेक्ट्रल इमेजिंग (३ आठवडे)"
+      },
+      "duration": "3 Weeks (Aug 24 - Sep 13, 2022)",
+      "type": "Offline / Residential Hands-on Certificate Course",
+      "project": "World Bank NAHEP-CAAST-CSAWM Project & AKMU",
+      "target": {
+        "en": "Post-Graduate Students, University Faculty, Technical Officers & Agri-Entrepreneurs",
+        "mr": "पदव्युत्तर विद्यार्थी, विद्यापीठ शास्त्रज्ञ, तांत्रिक अधिकारी व कृषी उद्योजक"
+      },
+      "organizer": {
+        "en": "Agricultural Knowledge Management Unit (AKMU) & CAAST-CSAWM, MPKV Rahuri",
+        "mr": "कृषी ज्ञान व्यवस्थापन कक्ष (AKMU) व कास्ट-सीएसएडब्लूएम, मफुकृवि राहुरी"
+      },
+      "fileUrl": "/media/docs/trainings/4_Drone_Precision_Agriculture.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/AKMU/Drone%20for%20Precision%20Agri_Brochure_updated_20220720114425_20220720122448.pdf",
+      "fileSize": "4.3 MB",
+      "topics": [
         {
-          "en": "Sr.No",
-          "mr": "Sr.No"
+          "en": "DGCA Guidelines & Drone Flight Operations",
+          "mr": "डीजीसीए मार्गदर्शक तत्त्वे व ड्रोन उड्डाण संचलन"
         },
         {
-          "en": "Title",
-          "mr": "Title"
+          "en": "Hyperspectral & Multispectral Sensor Calibration",
+          "mr": "हायपरस्पेक्ट्रल व मल्टीस्पेक्ट्रल सेन्सर कॅलिब्रेशन"
         },
         {
-          "en": "File",
-          "mr": "File"
+          "en": "Automated Variable Rate Spraying for Crops",
+          "mr": "पिकांवर स्वयंचलित व्हेरिएबल रेट फवारणी तंत्रज्ञान"
+        },
+        {
+          "en": "UAV Flight Mission Planning & Aerial Photogrammetry",
+          "mr": "युएव्ही मिशन प्लॅनिंग व एरियल फोटोग्रामेट्री मॅपिंग"
         }
       ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Hyperspectral Remote Sensing and Spectroradiometry Instruments Roles in Climate Smart Agriculture Development",
-              "mr": "Hyperspectral Remote Sensing and Spectroradiometry Instruments Roles in Climate Smart Agriculture Development"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/3.Hyperspectral_Remote_Sensing_and_Spectroradiometry_Instruments_Roles_in_Climate_Smart_Agriculture_Development_20191207010917.pdf",
-            "originalLink": "~/../../Uploads/AKMU/3.Hyperspectral Remote Sensing and Spectroradiometry Instruments Roles in Climate Smart Agriculture Development_20191207010917.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "ICT for Effective Knowledge and Extension delivery for Climate Smart Agriculture and Water Management Technologies",
-              "mr": "ICT for Effective Knowledge and Extension delivery for Climate Smart Agriculture and Water Management Technologies"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/4.ICT_for_Effective_Knowledge_and_Extension_delivery_for_Climate_Smart_Agriculture_and_Water_Management_Technologies_20191207010948.pdf",
-            "originalLink": "~/../../Uploads/AKMU/4.ICT for Effective Knowledge and Extension delivery for Climate Smart Agriculture and Water Management Technologies_20191207010948.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Online Training Programme on \"Machine Learning and its Applications in Climate Smart Agriculture\"",
-              "mr": "Online Training Programme on \"Machine Learning and its Applications in Climate Smart Agriculture\""
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/Brochure_Schedule_-Machine_Learning_20200511010014.pdf",
-            "originalLink": "~/../../Uploads/AKMU/Brochure & Schedule -Machine  Learning_20200511010014.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Three Weeks Offline Certificate course on  Drones for Precision Agriculture: Spraying and Hyperspectral Imagine  during Aug 24- Sep 13,2022 under CAAST project",
-              "mr": "Three Weeks Offline Certificate course on  Drones for Precision Agriculture: Spraying and Hyperspectral Imagine  during Aug 24- Sep 13,2022 under CAAST project"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/Drone_for_Precision_Agri_Brochure_updated_20220720114425_20220720122448.pdf",
-            "originalLink": "~/../../Uploads/AKMU/Drone for Precision Agri_Brochure_updated_20220720114425_20220720122448.pdf"
-          }
-        ]
+      "badgeColor": "bg-emerald-100 text-emerald-950 border-emerald-300"
+    },
+    {
+      "id": "ml_climate_smart_agri",
+      "track": "akmu",
+      "category": "Machine Learning & AI",
+      "srNo": "3",
+      "title": {
+        "en": "National Online Training Programme on \"Machine Learning and its Applications in Climate Smart Agriculture\"",
+        "mr": "हवामान अनुकूल शेतीमध्ये मशीन लर्निंग व कृत्रिम बुद्धिमत्ता (AI) ॲप्लिकेशन्स राष्ट्रीय प्रशिक्षण"
+      },
+      "duration": "10 Days (Comprehensive Online Masterclass)",
+      "type": "National Online Training with Hands-on Coding Labs",
+      "project": "CAAST-CSAWM & AKMU",
+      "target": {
+        "en": "Faculty, Research Scholars, Data Scientists & Ag-Tech Professionals",
+        "mr": "प्राध्यापक, संशोधक विद्यार्थी, डेटा शास्त्रज्ञ व तंत्रज्ञान तज्ज्ञ"
+      },
+      "organizer": {
+        "en": "Centre for Advanced Agricultural Science and Technology (CAAST-CSAWM) & AKMU",
+        "mr": "प्रगत कृषी विज्ञान व तंत्रज्ञान केंद्र (CAAST-CSAWM) व एकेएमयू"
+      },
+      "fileUrl": "/media/docs/trainings/3_Machine_Learning_Agriculture.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/AKMU/Brochure%20&%20Schedule%20-Machine%20%20Learning_20200511010014.pdf",
+      "fileSize": "2.0 MB",
+      "topics": [
+        {
+          "en": "Supervised & Unsupervised Machine Learning Algorithms",
+          "mr": "पर्यवेक्षित व अपर्यवेक्षित मशीन लर्निंग अल्गोरिदम्स"
+        },
+        {
+          "en": "Crop Yield Prediction Models & Weather Forecasting",
+          "mr": "पीक उत्पादन अंदाज मॉडेल्स व हवामान अंदाज"
+        },
+        {
+          "en": "Satellite Multi-Band Image Classification using Python",
+          "mr": "पायथॉन (Python) द्वारे उपग्रह प्रतिमा वर्गीकरण"
+        },
+        {
+          "en": "Pest and Disease Forecasting Systems using Deep Learning",
+          "mr": "डीप लर्निंगद्वारे कीड-रोग प्रादुर्भाव पूर्वअंदाज"
+        }
       ],
-      "rowCount": 4,
-      "columnCount": 3
+      "badgeColor": "bg-blue-100 text-blue-950 border-blue-300"
+    },
+    {
+      "id": "ict_extension_csa",
+      "track": "akmu",
+      "category": "ICT & Digital Extension",
+      "srNo": "2",
+      "title": {
+        "en": "ICT for Effective Knowledge and Extension Delivery for Climate Smart Agriculture & Water Management Technologies",
+        "mr": "हवामान अनुकूल शेती व जलव्यवस्थापनासाठी माहिती व संप्रेषण तंत्रज्ञान (ICT) आणि विस्तार वितरण"
+      },
+      "duration": "National Level Training Program",
+      "type": "Specialized Extension & IT Workshop",
+      "project": "AKMU & Directorate of Extension Education",
+      "target": {
+        "en": "Extension Functionaries, KVK Scientists, SMS & Agricultural Officers",
+        "mr": "विस्तार कार्यकर्ते, केव्हीके शास्त्रज्ञ, विषय विशेषज्ञ व कृषी अधिकारी"
+      },
+      "organizer": {
+        "en": "Agricultural Knowledge Management Unit (AKMU), MPKV Rahuri",
+        "mr": "कृषी ज्ञान व्यवस्थापन कक्ष (AKMU), मफुकृवि राहुरी"
+      },
+      "fileUrl": "/media/docs/trainings/2_ICT_Knowledge_Extension.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/AKMU/4.ICT%20for%20Effective%20Knowledge%20and%20Extension%20delivery%20for%20Climate%20Smart%20Agriculture%20and%20Water%20Management%20Technologies_20191207010948.pdf",
+      "fileSize": "1.3 MB",
+      "topics": [
+        {
+          "en": "Mobile Agri-Apps, SMS Portals & Kisan Advisory Services",
+          "mr": "कृषी ॲप्स, एसएमएस पोर्टल्स व शेतकरी सल्लागार सेवा"
+        },
+        {
+          "en": "Decision Support Systems (DSS) for Water Management",
+          "mr": "जलव्यवस्थापनासाठी डिसिजन सपोर्ट सिस्टीम्स (DSS)"
+        },
+        {
+          "en": "Interactive Digital Media & Video Production for Farmers",
+          "mr": "शेतकऱ्यांसाठी डिजिटल ऑडिओ-व्हिडिओ तंत्रज्ञान निर्मिती"
+        },
+        {
+          "en": "IoT-enabled Soil Moisture & Weather Telemetry Networks",
+          "mr": "आयओटी (IoT) आधारित माती ओलावा व हवामान सेन्सर"
+        }
+      ],
+      "badgeColor": "bg-purple-100 text-purple-950 border-purple-300"
+    },
+    {
+      "id": "hyperspectral_remote_sensing",
+      "track": "akmu",
+      "category": "Remote Sensing & GIS",
+      "srNo": "1",
+      "title": {
+        "en": "Hyperspectral Remote Sensing and Spectroradiometry Instruments Roles in Climate Smart Agriculture Development",
+        "mr": "हवामान अनुकूल शेती विकासात हायपरस्पेक्ट्रल रिमोट सेन्सिंग व स्पेक्ट्रोरॅडिओमेट्री उपकरणांची भूमिका"
+      },
+      "duration": "Advanced Scientific Workshop",
+      "type": "Instrument Hands-on Masterclass",
+      "project": "CAAST-CSAWM & AKMU",
+      "target": {
+        "en": "Agronomists, Soil Scientists, Remote Sensing Specialists & Researchers",
+        "mr": "कृषिविज्ञ, मृद शास्त्रज्ञ, रिमोट सेन्सिंग तज्ज्ञ व संशोधक"
+      },
+      "organizer": {
+        "en": "Centre for Advanced Agricultural Science and Technology (CAAST) & AKMU",
+        "mr": "कास्ट-सीएसएडब्लूएम व कृषी ज्ञान व्यवस्थापन कक्ष"
+      },
+      "fileUrl": "/media/docs/trainings/1_Hyperspectral_Remote_Sensing.pdf",
+      "externalUrl": "https://mpkv.ac.in/Uploads/AKMU/3.Hyperspectral%20Remote%20Sensing%20and%20Spectroradiometry%20Instruments%20Roles%20in%20Climate%20Smart%20Agriculture%20Development_20191207010917.pdf",
+      "fileSize": "1.3 MB",
+      "topics": [
+        {
+          "en": "Field Spectroradiometer Operation & Spectral Signatures",
+          "mr": "फील्ड स्पेक्ट्रोरॅडिओमीटर हाताळणी व पिकांच्या स्पेक्ट्रल सिग्नेचर्स"
+        },
+        {
+          "en": "Narrow-band Vegetation Indices for Chlorophyll & Nitrogen",
+          "mr": "पिकांमधील क्लोरोफिल व नायट्रोजनसाठी नॅरो-बँड निर्देशांक"
+        },
+        {
+          "en": "Plant Water Stress Diagnostics & Canopy Reflectance",
+          "mr": "कॅनॉपी परावर्तनाद्वारे वनस्पती ताण व पाण्याचे प्रमाण निदान"
+        },
+        {
+          "en": "Hyperspectral Satellite Data Integration with Ground Truth",
+          "mr": "उपग्रह डेटा व प्रत्यक्ष जमिनीवरील नोंदींचा मेळ"
+        }
+      ],
+      "badgeColor": "bg-amber-100 text-amber-950 border-amber-300"
     }
   ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
+  "institutionalTracks": [
     {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
+      "id": "caft",
+      "track": "faculty",
+      "title": {
+        "en": "ICAR Centre of Advanced Faculty Training (CAFT)",
+        "mr": "आयसीएआर प्रगत प्राध्यापक प्रशिक्षण केंद्र (CAFT)"
+      },
+      "duration": "21 Days (National Level Residential)",
+      "target": {
+        "en": "Assistant / Associate Professors & Scientists across ICAR Institutes & SAUs",
+        "mr": "देशभरातील कृषी विद्यापीठ प्राध्यापक व आयसीएआर शास्त्रज्ञ"
+      },
+      "organizer": {
+        "en": "Post Graduate Institute (PGI), MPKV Rahuri",
+        "mr": "पदव्युत्तर संस्था (PGI), मफुकृवि राहुरी"
+      },
+      "topics": [
+        {
+          "en": "Advanced Genomics, Gene Editing & Molecular Breeding",
+          "mr": "प्रगत जीनोमिक्स, जनुक संपादन व आण्विक पैदास"
+        },
+        {
+          "en": "Bio-Analytical Tools & Chemical Residue Analysis",
+          "mr": "बायो-ॲनालिटिकल तंत्रज्ञान व कीटकनाशक अंश तपासणी"
+        },
+        {
+          "en": "Sensor-based Automated Micro-Irrigation & Fertigation",
+          "mr": "सेन्सर आधारित स्वयंचलित सूक्ष्म सिंचन व खत व्यवस्थापन"
+        }
+      ],
+      "badgeColor": "bg-rose-100 text-rose-950 border-rose-300"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
+      "id": "mtc",
+      "track": "officers",
+      "title": {
+        "en": "ICAR Model Training Courses (MTC)",
+        "mr": "आयसीएआर मॉडेल प्रशिक्षण अभ्यासक्रम (MTC)"
+      },
+      "duration": "8 Days (Residential Workshop)",
+      "target": {
+        "en": "State Agriculture Department Officers, Sub-Divisional Officers & SMS",
+        "mr": "राज्य कृषी विभाग अधिकारी, उपविभागीय अधिकारी व विषय विशेषज्ञ"
+      },
+      "organizer": {
+        "en": "Directorate of Extension Education, MPKV Rahuri",
+        "mr": "विस्तार शिक्षण संचालनालय, मफुकृवि राहुरी"
+      },
+      "topics": [
+        {
+          "en": "Climate-Resilient Agriculture & Contingency Planning",
+          "mr": "हवामान अनुकूल शेती तंत्रज्ञान व आपत्कालीन पीक नियोजन"
+        },
+        {
+          "en": "Integrated Pest Management (IPM) & Biocontrol Production",
+          "mr": "एकात्मिक कीड व्यवस्थापन व जैविक कीटकनाशक निर्मिती"
+        },
+        {
+          "en": "Strengthening Farmer Producer Organizations (FPOs)",
+          "mr": "शेतकरी उत्पादक कंपन्यांचे (FPC/FPO) व्यावसायिक बळकटीकरण"
+        }
+      ],
+      "badgeColor": "bg-teal-100 text-teal-950 border-teal-300"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/AKMU/3.Hyperspectral Remote Sensing and Spectroradiometry Instruments Roles in Climate Smart Agriculture Development_20191207010917.pdf",
-      "localPath": "/media/docs/3.Hyperspectral_Remote_Sensing_and_Spectroradiometry_Instruments_Roles_in_Climate_Smart_Agriculture_Development_20191207010917.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/AKMU/4.ICT for Effective Knowledge and Extension delivery for Climate Smart Agriculture and Water Management Technologies_20191207010948.pdf",
-      "localPath": "/media/docs/4.ICT_for_Effective_Knowledge_and_Extension_delivery_for_Climate_Smart_Agriculture_and_Water_Management_Technologies_20191207010948.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/AKMU/Brochure & Schedule -Machine  Learning_20200511010014.pdf",
-      "localPath": "/media/docs/Brochure_Schedule_-Machine_Learning_20200511010014.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/AKMU/Drone for Precision Agri_Brochure_updated_20220720114425_20220720122448.pdf",
-      "localPath": "/media/docs/Drone_for_Precision_Agri_Brochure_updated_20220720114425_20220720122448.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
+      "id": "vocational_kvk",
+      "track": "farmers",
+      "title": {
+        "en": "Vocational Agri-Skills & Entrepreneurship Development",
+        "mr": "व्यावसायिक कृषी कौशल्य व ग्रामीण उद्योजकता प्रशिक्षण"
+      },
+      "duration": "1 to 7 Days (Practical Field Hands-on)",
+      "target": {
+        "en": "Rural Youth, Women Self-Help Groups (SHGs) & Progressive Farmers",
+        "mr": "ग्रामीण युवक, महिला बचत गट व प्रगतशील शेतकरी"
+      },
+      "organizer": {
+        "en": "4 Krishi Vigyan Kendras (Dhule, Nandurbar, Borgaon, Mohol) & ATIC",
+        "mr": "४ कृषी विज्ञान केंद्रे (धुळे, नंदुरबार, बोरगाव, मोहोळ) व ॲटिक राहुरी"
+      },
+      "topics": [
+        {
+          "en": "Commercial Nursery Management & Fruit Tree Grafting",
+          "mr": "व्यावसायिक रोपवाटिका व्यवस्थापन व फळझाडे कलमे बांधणी"
+        },
+        {
+          "en": "Jaggery Powder, Spices & Agro-Food Processing Units",
+          "mr": "गुळ पावडर, मसाला प्रक्रिया व अन्नप्रक्रिया लघुउद्योग"
+        },
+        {
+          "en": "Silage Making, Hydroponic Fodder & Goat/Dairy Management",
+          "mr": "मुरघास निर्मिती, हायड्रोपोनिक्स चारा व दुग्ध-शेळीपालन"
+        }
+      ],
+      "badgeColor": "bg-cyan-100 text-cyan-950 border-cyan-300"
     }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Trainings",
-        "mr": "प्रशिक्षण"
-      },
-      "order": 55
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 0,
-    "tableCount": 1,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 18,
-    "totalRecords": 77
-  }
+  ]
 }

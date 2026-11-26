@@ -1,9 +1,9 @@
 {
   "slug": "university-engineer-works",
-  "url": "/university-engineer",
-  "route": "university-engineer",
-  "sourcePage": "https://mpkv.ac.in/UniversityEngineer",
-  "scrapedAt": "2026-11-25T07:43:26.352Z",
+  "url": "https://mpkv.ac.in/Work/AtaGlance",
+  "route": "/Work/AtaGlance",
+  "sourcePage": "university-engineer-works",
+  "scrapedAt": "2026-11-26T15:30:00.000000",
   "title": {
     "en": "University Engineer & Works Division",
     "mr": "विद्यापीठ अभियंता व बांधकाम विभाग"
@@ -14,240 +14,625 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "url": "/"
+      "href": "/"
     },
     {
       "title": {
-        "en": "University Engineer",
+        "en": "Administration",
+        "mr": "प्रशासन"
+      },
+      "href": "/administration"
+    },
+    {
+      "title": {
+        "en": "University Engineer Desk",
         "mr": "विद्यापीठ अभियंता"
       },
-      "url": "/university-engineer"
+      "href": "/Work/AtaGlance"
     }
   ],
   "hero": {
     "title": {
-      "en": "University Engineer & Estate Works",
-      "mr": "विद्यापीठ अभियंता व संपदा विभाग"
+      "en": "University Engineer & Works Directorate",
+      "mr": "विद्यापीठ अभियंता व बांधकाम संचालनालय"
     },
     "subtitle": {
-      "en": "Planning, Infrastructure Development, Modern Classrooms, Power Backup, Campus Water Supply, and Estate Maintenance across 3,200 Hectares",
-      "mr": "सुमारे ३,२०० हेक्टर क्षेत्रातील शैक्षणिक इमारती, रस्ते, विद्युत व्यवस्था, जलवितरण व स्थापत्य कामांचे नियोजन व देखभाल"
+      "en": "Comprehensive Estate Planning, Capital Infrastructure, Civil Works, Power Systems, Lift Irrigation, and Heritage Conservation across 3,200 Hectares",
+      "mr": "सुमारे ३,२०० हेक्टर क्षेत्रातील शैक्षणिक इमारती, रस्ते, विद्युत व्यवस्था, जलवितरण, उपसा सिंचन व स्थापत्य कामांचे नियोजन व संचलन"
     },
     "badge": {
-      "en": "Works & Infrastructure Division",
-      "mr": "बांधकाम व पायाभूत सुविधा विभाग"
+      "en": "Works & Infrastructure Desk",
+      "mr": "बांधकाम व पायाभूत सुविधा"
+    },
+    "actRef": {
+      "en": "Statutory Engineering Authority under Maharashtra Agricultural Universities Act & Statutes",
+      "mr": "महाराष्ट्र कृषी विद्यापीठे अधिनियम व परिनियमांतर्गत वैधानिक अभियांत्रिकी प्राधिकरण"
     }
   },
-  "paragraphs": [
-    {
-      "text": {
-        "en": "The University Engineer & Works Division at Mahatma Phule Krishi Vidyapeeth, Rahuri is entrusted with the planning, design, execution, and architectural maintenance of all civil, electrical, and public health infrastructure across the sprawling 3,200-hectare Rahuri Central Campus and its constituent regional campuses.",
-        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी येथील विद्यापीठ अभियंता व बांधकाम विभाग सुमारे ३,२०० हेक्टर क्षेत्रावर पसरलेल्या मध्यवर्ती राहुरी कॅम्पससह सर्व विभागीय महाविद्यालये व संशोधन केंद्रांमधील स्थापत्य, विद्युत आणि पाणीपुरवठा पायाभूत सुविधांचे नियोजन व देखभाल करतो."
+  "overview": {
+    "intro": {
+      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri is the premier Agricultural University of Maharashtra, serving farmers, students, and scientists through Education, Research, and Extension. The University jurisdiction spans 10 districts of Western Maharashtra with 10 Constituent Colleges, 27 Research Stations, and 9 Agricultural Technology Schools.",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी हे महाराष्ट्रातील अग्रगण्य कृषी विद्यापीठ असून पश्चिम महाराष्ट्रातील १० जिल्ह्यांमध्ये कार्यक्षेत्र पसरलेले आहे. विद्यापीठाच्या अखत्यारीत १० घटक महाविद्यालये, २७ संशोधन केंद्रे आणि ०९ कृषी तंत्र विद्यालये कार्यरत आहेत."
+    },
+    "keyStats": [
+      {
+        "label": {
+          "en": "University Estate Area",
+          "mr": "विद्यापीठ मध्यवर्ती क्षेत्र"
+        },
+        "value": "3,200 Ha",
+        "sub": {
+          "en": "Central Campus Rahuri",
+          "mr": "राहुरी मध्यवर्ती परिसर"
+        }
       },
-      "order": 1
+      {
+        "label": {
+          "en": "Constituent Colleges",
+          "mr": "घटक महाविद्यालये"
+        },
+        "value": "10",
+        "sub": {
+          "en": "Across Western Maharashtra",
+          "mr": "पश्चिम महाराष्ट्रात"
+        }
+      },
+      {
+        "label": {
+          "en": "Research Stations",
+          "mr": "संशोधन केंद्रे"
+        },
+        "value": "27",
+        "sub": {
+          "en": "5 Agro-Climatic Zones",
+          "mr": "५ कृषी-हवामान विभाग"
+        }
+      },
+      {
+        "label": {
+          "en": "Engineering Sub-Divisions",
+          "mr": "अभियांत्रिकी उपविभाग"
+        },
+        "value": "14",
+        "sub": {
+          "en": "Civil & Electrical Sections",
+          "mr": "स्थापत्य व विद्युत शाखा"
+        }
+      },
+      {
+        "label": {
+          "en": "State Capital Grants",
+          "mr": "राज्य पायाभूत सुविधा निधी"
+        },
+        "value": "₹151.00 Cr",
+        "sub": {
+          "en": "Hostels & Auditoriums",
+          "mr": "वसतिगृहे व सभागृहे"
+        }
+      },
+      {
+        "label": {
+          "en": "Irrigated Farm Command",
+          "mr": "उपसा सिंचन प्रक्षेत्र"
+        },
+        "value": "1,000+ Ac",
+        "sub": {
+          "en": "RKVY Lift Irrigation",
+          "mr": "आरकेव्हीवाय योजना"
+        }
+      }
+    ]
+  },
+  "engineeringWings": [
+    {
+      "key": "civil_works",
+      "title": {
+        "en": "Civil Engineering & Architectural Infrastructure",
+        "mr": "स्थापत्य अभियांत्रिकी व बांधकाम शाखा"
+      },
+      "head": {
+        "en": "Deputy Engineer & Sectional Engineers (Civil)",
+        "mr": "उपअभियंता व शाखा अभियंता (स्थापत्य)"
+      },
+      "scope": {
+        "en": "Structural design, architectural planning, construction of lecture halls, scientific research labs, auditoriums, student hostels, and staff residential quarters.",
+        "mr": "शैक्षणिक इमारती, संशोधन प्रयोगशाळा, प्रेक्षागृहे, वसतिगृहे व निवासी संकुलांचे स्ट्रक्चरल डिझाइन व बांधकाम."
+      },
+      "coverage": {
+        "en": "Rahuri Central Campus, Pune, Dhule, Kolhapur",
+        "mr": "राहुरी मध्यवर्ती कॅम्पस, पुणे, धुळे, कोल्हापूर"
+      }
     },
     {
-      "text": {
-        "en": "The division oversees major capital infrastructure projects, modern student hostels, hi-tech greenhouse complexes, automated drip irrigation pumping networks, solar power plants, estate water supply systems, residential quarters maintenance, and road networks conforming to green campus norms.",
-        "mr": "या विभागामार्फत नवीन शैक्षणिक इमारती, वसतिगृहे, हरितगृह संकुल, सौर ऊर्जा प्रकल्प, मध्यवर्ती पाणीपुरवठा यंत्रणा, ड्रेनेज व सांडपाणी प्रक्रिया आणि पर्यावरणपूरक कॅम्पस रस्त्यांची कामे केली जातात."
+      "key": "electrical_works",
+      "title": {
+        "en": "Electrical Power Distribution & Renewable Solar Energy",
+        "mr": "विद्युत वितरण, सौर ऊर्जा व प्रकाश व्यवस्था"
       },
-      "order": 2
-    }
-  ],
-  "tables": [
+      "head": {
+        "en": "Deputy Engineer & Sectional Engineers (Electrical)",
+        "mr": "उपअभियंता व शाखा अभियंता (विद्युत)"
+      },
+      "scope": {
+        "en": "HT/LT power sub-stations, underground cabling, 24x7 heavy diesel generator backup, rooftop and ground-mounted solar power plants, street lighting, and campus transformer maintenance.",
+        "mr": "विद्युत उपकेंद्रे, २४ तास जनरेटर बॅकअप, रूफटॉप सौर प्रकल्प, पथदिवे व ट्रान्सफॉर्मर देखभाल दुरुस्ती."
+      },
+      "coverage": {
+        "en": "Rahuri Central Campus, Pune, Dhule, Kolhapur",
+        "mr": "राहुरी मध्यवर्ती कॅम्पस, पुणे, धुळे, कोल्हापूर"
+      }
+    },
     {
-      "id": "table_engineering_subdivisions",
-      "caption": {
-        "en": "Engineering Sub-Divisions & Contact Directory",
-        "mr": "अभियांत्रिकी उपविभाग व संपर्क निर्देशिका"
+      "key": "water_public_health",
+      "title": {
+        "en": "Water Works, Lift Irrigation & Public Health Engineering",
+        "mr": "पाणीपुरवठा, उपसा सिंचन व आरोग्य अभियांत्रिकी"
       },
-      "headers": [
-        {
-          "en": "Sr.No",
-          "mr": "अ.क्र."
-        },
-        {
-          "en": "Engineering Section / Sub-Division",
-          "mr": "अभियांत्रिकी विभाग / शाखा"
-        },
-        {
-          "en": "Designated Officer",
-          "mr": "नियुक्त अधिकारी"
-        },
-        {
-          "en": "Key Infrastructure Functions",
-          "mr": "प्रमुख जबाबदाऱ्या व कार्यक्षेत्र"
-        },
-        {
-          "en": "Official Contact",
-          "mr": "अधिकृत संपर्क"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "१"
-            }
-          },
-          {
-            "text": {
-              "en": "Office of the University Engineer",
-              "mr": "विद्यापीठ अभियंता कार्यालय"
-            }
-          },
-          {
-            "text": {
-              "en": "University Engineer (Executive Engineer)",
-              "mr": "विद्यापीठ अभियंता (कार्यकारी अभियंता)"
-            }
-          },
-          {
-            "text": {
-              "en": "Overall Division Head, State Tenders, Master Planning & Approvals",
-              "mr": "विभागीय प्रमुख, निविदा मंजुरी, मुख्य नियोजन व राज्य संचलन"
-            }
-          },
-          {
-            "text": {
-              "en": "02426-243272 / ue.mpkv@gmail.com",
-              "mr": "०२४२६-२४३२७२ / ue.mpkv@gmail.com"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "२"
-            }
-          },
-          {
-            "text": {
-              "en": "Civil Works Sub-Division (Rahuri)",
-              "mr": "स्थापत्य बांधकाम उपविभाग (राहुरी)"
-            }
-          },
-          {
-            "text": {
-              "en": "Deputy Engineer (Civil)",
-              "mr": "उपअभियंता (स्थापत्य)"
-            }
-          },
-          {
-            "text": {
-              "en": "Classroom Complexes, Labs, Hostels & Residential Quarters Construction",
-              "mr": "शैक्षणिक इमारती, प्रयोगशाळा, वसतिगृहे व निवासी संकुल बांधकाम"
-            }
-          },
-          {
-            "text": {
-              "en": "Central Campus, Rahuri",
-              "mr": "मध्यवर्ती परिसर, राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "३"
-            }
-          },
-          {
-            "text": {
-              "en": "Electrical Works Sub-Division (Rahuri)",
-              "mr": "विद्युत उपविभाग (राहुरी)"
-            }
-          },
-          {
-            "text": {
-              "en": "Deputy Engineer (Electrical)",
-              "mr": "उपअभियंता (विद्युत)"
-            }
-          },
-          {
-            "text": {
-              "en": "Sub-stations, 24x7 Power Backup, Solar Energy Plants & Street Lighting",
-              "mr": "विद्युत उपकेंद्रे, २४ तास वीज पुरवठा, सौर ऊर्जा प्रकल्प"
-            }
-          },
-          {
-            "text": {
-              "en": "Central Campus, Rahuri",
-              "mr": "मध्यवर्ती परिसर, राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "४"
-            }
-          },
-          {
-            "text": {
-              "en": "Water Supply & Public Health Section",
-              "mr": "पाणीपुरवठा व आरोग्य अभियांत्रिकी शाखा"
-            }
-          },
-          {
-            "text": {
-              "en": "Sectional Engineer (PH)",
-              "mr": "शाखा अभियंता (पाणीपुरवठा)"
-            }
-          },
-          {
-            "text": {
-              "en": "Campus Potable Drinking Water, RO Filtration, Farm Pumping Pipelines",
-              "mr": "पिण्याचे पाणी वितरण, आरओ शुद्धीकरण यंत्रणा व प्रक्षेत्र सिंचन"
-            }
-          },
-          {
-            "text": {
-              "en": "Water Works, Rahuri",
-              "mr": "पाणीपुरवठा केंद्र, राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "५"
-            }
-          },
-          {
-            "text": {
-              "en": "Pune Campus Works Section",
-              "mr": "पुणे कॅम्पस बांधकाम शाखा"
-            }
-          },
-          {
-            "text": {
-              "en": "Sectional Engineer (Works Pune)",
-              "mr": "शाखा अभियंता (पुणे)"
-            }
-          },
-          {
-            "text": {
-              "en": "Heritage Building Conservation & College Infrastructure, Pune",
-              "mr": "पुणे कृषी महाविद्यालयाच्या ऐतिहासिक इमारतींचे संवर्धन व देखभाल"
-            }
-          },
-          {
-            "text": {
-              "en": "Shivajinagar, Pune",
-              "mr": "शिवाजीनगर, पुणे"
-            }
-          }
-        ]
-      ],
-      "rowCount": 5,
-      "columnCount": 5
+      "head": {
+        "en": "Sectional Engineer (Public Health / Water Works)",
+        "mr": "शाखा अभियंता (पाणीपुरवठा व आरोग्य)"
+      },
+      "scope": {
+        "en": "Canal lifting stations, raw water reservoirs, rapid sand filter plants, potable RO drinking water distribution, drainage systems, sewage treatment, and farm irrigation pipeline networks.",
+        "mr": "कॅनॉल लिफ्टिंग स्टेशन्स, पाणी साठवण तळी, जलशुद्धीकरण केंद्र, पिण्याचे पाणी वितरण, ड्रेनेज व शेती सिंचन वाहिन्या."
+      },
+      "coverage": {
+        "en": "Sprawling 3,200 Hectares Rahuri Campus & Off-Campuses",
+        "mr": "३,२०० हेक्टर राहुरी मध्यवर्ती परिसर व उपपरिसर"
+      }
+    },
+    {
+      "key": "heritage_conservation",
+      "title": {
+        "en": "Heritage Building Conservation (Pune Campus)",
+        "mr": "ऐतिहासिक वारसा इमारत संवर्धन (पुणे परिसर)"
+      },
+      "head": {
+        "en": "Sectional Engineer (Works Pune)",
+        "mr": "शाखा अभियंता (पुणे)"
+      },
+      "scope": {
+        "en": "Architectural preservation and structural strengthening of the historic Centenary Main Building at College of Agriculture Pune, established in 1907.",
+        "mr": "१९०७ साली स्थापन झालेल्या कृषी महाविद्यालय पुणे येथील ऐतिहासिक शताब्दी मुख्य इमारतीचे संवर्धन व मजबुतीकरण."
+      },
+      "coverage": {
+        "en": "College of Agriculture, Shivajinagar, Pune",
+        "mr": "कृषी महाविद्यालय परिसर, शिवाजीनगर, पुणे"
+      }
     }
   ],
-  "contentBlocks": []
+  "majorProjects": [
+    {
+      "id": "state_infra_151",
+      "title": {
+        "en": "GoM Sanctioned Infrastructure Development Grant (₹151.00 Crores)",
+        "mr": "महाराष्ट्र शासन विशेष पायाभूत सुविधा अनुदान (₹१५१.०० कोटी)"
+      },
+      "grantAmount": "₹151.00 Cr",
+      "allocation": "₹100.00 Cr for Central Campus Infrastructure",
+      "fundingAgency": {
+        "en": "Government of Maharashtra",
+        "mr": "महाराष्ट्र शासन"
+      },
+      "scope": {
+        "en": "Construction of 5 Girls Hostels, 3 Modern Auditoriums, and the landmark Dr. Babasaheb Ambedkar Multipurpose Convention Centre at Central Campus Rahuri.",
+        "mr": "राहुरी मध्यवर्ती कॅम्पसमध्ये ५ मुलींची वसतिगृहे, ३ अत्याधुनिक प्रेक्षागृहे व भव्य डॉ. बाबासाहेब आंबेडकर बहुउद्देशीय सभागृह संकुल बांधकाम."
+      },
+      "status": {
+        "en": "Major Execution Completed & In Progress",
+        "mr": "प्रमुख बांधकामे पूर्ण व प्रगतिपथावर"
+      },
+      "category": "Campus Infrastructure"
+    },
+    {
+      "id": "college_food_tech_peth",
+      "title": {
+        "en": "Krantisinha Nana Patil College of Food Technology, Peth, Sangli",
+        "mr": "क्रांतिसिंह नाना पाटील अन्नतंत्रज्ञान महाविद्यालय, पेठ, ता. वाळवा, जि. सांगली"
+      },
+      "grantAmount": "₹61.57 Cr",
+      "allocation": "Full College Campus & Hostels",
+      "fundingAgency": {
+        "en": "Government of Maharashtra",
+        "mr": "महाराष्ट्र शासन"
+      },
+      "scope": {
+        "en": "Administrative approval and architectural execution of complete educational complex, state-of-the-art food processing laboratories, student hostels, and administrative building at Peth.",
+        "mr": "पेठ येथे स्वतंत्र अन्नतंत्रज्ञान महाविद्यालयीन संकुल, अत्याधुनिक प्रक्रिया प्रयोगशाळा, वसतिगृहे व प्रशासकीय इमारतीचे बांधकाम."
+      },
+      "status": {
+        "en": "Administrative Sanction Accorded / In Progress",
+        "mr": "प्रशासकीय मान्यता प्राप्त / काम सुरू"
+      },
+      "category": "Academic Colleges"
+    },
+    {
+      "id": "rkvy_lift_irrigation",
+      "title": {
+        "en": "RKVY Lift Irrigation Scheme at Central Campus Rahuri",
+        "mr": "राहुरी मध्यवर्ती कॅम्पस आरकेव्हीवाय उपसा सिंचन योजना"
+      },
+      "grantAmount": "₹15.22 Cr",
+      "allocation": "1,000+ Acres Farm Command Area",
+      "fundingAgency": {
+        "en": "Rashtriya Krishi Vikas Yojana (RKVY) & GoM",
+        "mr": "राष्ट्रीय कृषी विकास योजना (RKVY) व शासन"
+      },
+      "scope": {
+        "en": "Installation of heavy intake pumping network, pressurized conveyance pipelines, and water storage distribution systems bringing more than 1,000 acres of university research farms under assured irrigation.",
+        "mr": "१,००० एकरांपेक्षा जास्त विद्यापीठ संशोधन प्रक्षेत्राला शाश्वत पाणीपुरवठा करण्यासाठी उपसा सिंचन योजना, मुख्य जलवाहिनी व वितरण यंत्रणा उभारणी."
+      },
+      "status": {
+        "en": "Command Area Operational",
+        "mr": "प्रक्षेत्र सिंचन कार्यान्वित"
+      },
+      "category": "Farm Irrigation & Water Works"
+    },
+    {
+      "id": "gene_bank_laboratory",
+      "title": {
+        "en": "Maharashtra Gene Bank Project Laboratory Complex",
+        "mr": "महाराष्ट्र जनुक कोष (Gene Bank) प्रकल्प मध्यवर्ती प्रयोगशाळा"
+      },
+      "grantAmount": "₹10.00 Cr",
+      "allocation": "Biotechnology & Cryopreservation Labs",
+      "fundingAgency": {
+        "en": "Government of Maharashtra",
+        "mr": "महाराष्ट्र शासन"
+      },
+      "scope": {
+        "en": "Construction of high-tech laboratory facilities, climate-controlled germplasm repositories, tissue culture rooms, and cold storage units for crop biodiversity preservation.",
+        "mr": "पिकांच्या स्थानिक वाणांचे संवर्धन करण्यासाठी वातानुकूलित जनुक बँक, ऊती संवर्धन कक्ष व उच्चस्तरीय प्रयोगशाळा संकुल उभारणी."
+      },
+      "status": {
+        "en": "Laboratory Facilities In Execution",
+        "mr": "प्रयोगशाळा संकुल बांधकाम सुरू"
+      },
+      "category": "Research Laboratories"
+    },
+    {
+      "id": "solar_steam_cooking",
+      "title": {
+        "en": "ICAR Solar Steam Cooking System for Student Hostels",
+        "mr": "आयसीएआर सौर वाफ अन्न शिजवणारी यंत्रणा (Solar Steam Cooking)"
+      },
+      "grantAmount": "₹2.20 Cr",
+      "allocation": "University Student Mess & Hostels",
+      "fundingAgency": {
+        "en": "Indian Council of Agricultural Research (ICAR), New Delhi",
+        "mr": "भारतीय कृषी संशोधन परिषद (ICAR), नवी दिल्ली"
+      },
+      "scope": {
+        "en": "Establishment of concentrating solar thermal parabolic dish collectors generating steam for eco-friendly, large-scale clean hostel cooking across MPKV jurisdiction.",
+        "mr": "विद्यार्थी वसतिगृहांमध्ये पर्यावरणपूरक व इंधन बचतीसाठी सौर ऊर्जेवर आधारित अत्याधुनिक वाफेची अन्न शिजवणारी स्वयंचलित यंत्रणा."
+      },
+      "status": {
+        "en": "Commissioned & Active",
+        "mr": "कार्यान्वित व कार्यरत"
+      },
+      "category": "Green Energy & Sustainability"
+    },
+    {
+      "id": "college_muktainagar_agri",
+      "title": {
+        "en": "New College of Agriculture Infrastructure Works, Muktainagar & Halgaon",
+        "mr": "नवीन कृषी महाविद्यालय बांधकाम कामे (मुक्ताईनगर व हळगाव)"
+      },
+      "grantAmount": "State Sanctioned",
+      "allocation": "Academic Blocks, Labs & Staff Quarters",
+      "fundingAgency": {
+        "en": "Government of Maharashtra",
+        "mr": "महाराष्ट्र शासन"
+      },
+      "scope": {
+        "en": "New institutional buildings, digital smart lecture halls, agricultural engineering workshops, and boundary development for new constituent colleges.",
+        "mr": "नवीन महाविद्यालयांसाठी प्रशासकीय इमारती, स्मार्ट वर्गखोल्या, कृषी अभियांत्रिकी कार्यशाळा व संरक्षक भिंतीचे बांधकाम."
+      },
+      "status": {
+        "en": "Progressive Phases in Progress",
+        "mr": "टप्प्याटप्प्याने कामे सुरू"
+      },
+      "category": "Academic Colleges"
+    }
+  ],
+  "campusGallery": [
+    {
+      "title": {
+        "en": "Centenary Building, College of Agriculture, Pune",
+        "mr": "शताब्दी मुख्य इमारत, कृषी महाविद्यालय, पुणे"
+      },
+      "image": "/media/images/works/Centenary_Building_Punew1.jpg",
+      "desc": {
+        "en": "Iconic British-era architectural heritage established in 1907, conserved by the University Engineering division.",
+        "mr": "१९०७ मधील ऐतिहासिक वारसा इमारत, विद्यापीठ अभियांत्रिकी विभागाकडून संवर्धित."
+      }
+    },
+    {
+      "title": {
+        "en": "Office of the University Engineer, Central Campus, Rahuri",
+        "mr": "विद्यापीठ अभियंता कार्यालय, मध्यवर्ती परिसर, राहुरी"
+      },
+      "image": "/media/images/works/University_Engineer_Office.jpg",
+      "desc": {
+        "en": "Central headquarters of the Works & Estate Division overseeing planning and tenders across 10 districts.",
+        "mr": "१० जिल्ह्यांमधील कामांचे नियोजन व निविदा संचलन करणारे मध्यवर्ती मुख्यालय."
+      }
+    },
+    {
+      "title": {
+        "en": "Dr. Babasaheb Ambedkar Multipurpose Convention Centre",
+        "mr": "डॉ. बाबासाहेब आंबेडकर बहुउद्देशीय सभागृह संकुल"
+      },
+      "image": "/media/images/works/DSC_0114w3.JPG",
+      "desc": {
+        "en": "Modern state-of-the-art convention facility constructed under the ₹100 Crore state infrastructure grant.",
+        "mr": "१०० कोटींच्या राज्य अनुदानातून उभारण्यात आलेले भव्य व आधुनिक बहुउद्देशीय सभागृह."
+      }
+    },
+    {
+      "title": {
+        "en": "Central Campus Educational Infrastructure & Roads",
+        "mr": "मध्यवर्ती शैक्षणिक संकुल व रस्ते पायाभूत सुविधा"
+      },
+      "image": "/media/images/works/DSC_0012w2.JPG",
+      "desc": {
+        "en": "Broad avenues, landscaped campus networks, and state-of-the-art student amenities spanning 3,200 hectares.",
+        "mr": "३,२०० हेक्टरवर पसरलेले प्रशस्त रस्ते, शैक्षणिक संकुले व पर्यावरणपूरक हरित परिसर."
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "srNo": "1",
+      "office": {
+        "en": "University Engineer",
+        "mr": "विद्यापीठ अभियंता (कार्यकारी अभियंता)"
+      },
+      "designation": {
+        "en": "University Engineer (Division Head)",
+        "mr": "विद्यापीठ अभियंता (विभागीय प्रमुख)"
+      },
+      "phone": "02426-243235, 02426-243272",
+      "email": "uniengineermpkv@gmail.com",
+      "location": {
+        "en": "University Engineer Office, Central Campus, Rahuri",
+        "mr": "विद्यापीठ अभियंता कार्यालय, मध्यवर्ती परिसर, राहुरी"
+      },
+      "division": "Central Headquarters"
+    },
+    {
+      "srNo": "2",
+      "office": {
+        "en": "Dy. University Engineer",
+        "mr": "उप विद्यापीठ अभियंता"
+      },
+      "designation": {
+        "en": "Deputy University Engineer",
+        "mr": "उप विद्यापीठ अभियंता"
+      },
+      "phone": "02426-243235, 02426-243272",
+      "email": "uniengineermpkv@gmail.com",
+      "location": {
+        "en": "Central Campus, Rahuri",
+        "mr": "मध्यवर्ती परिसर, राहुरी"
+      },
+      "division": "Central Headquarters"
+    },
+    {
+      "srNo": "3",
+      "office": {
+        "en": "Assistant Engineer",
+        "mr": "सहाय्यक अभियंता"
+      },
+      "designation": {
+        "en": "Assistant Engineer",
+        "mr": "सहाय्यक अभियंता"
+      },
+      "phone": "02426-243235, 02426-243272",
+      "email": "uniengineermpkv@gmail.com",
+      "location": {
+        "en": "Central Campus, Rahuri",
+        "mr": "मध्यवर्ती परिसर, राहुरी"
+      },
+      "division": "Central Headquarters"
+    },
+    {
+      "srNo": "4",
+      "office": {
+        "en": "Sectional Engineer (Civil) - Rahuri",
+        "mr": "शाखा अभियंता (स्थापत्य) - राहुरी"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Civil)",
+        "mr": "शाखा अभियंता (स्थापत्य)"
+      },
+      "phone": "02426-243235, 02426-243272",
+      "email": "uniengineermpkv@gmail.com",
+      "location": {
+        "en": "Works Sub-Division, Rahuri Campus",
+        "mr": "बांधकाम उपविभाग, राहुरी परिसर"
+      },
+      "division": "Rahuri Sub-Division"
+    },
+    {
+      "srNo": "5",
+      "office": {
+        "en": "Sectional Engineer (Electrical) - Rahuri",
+        "mr": "शाखा अभियंता (विद्युत) - राहुरी"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Electrical)",
+        "mr": "शाखा अभियंता (विद्युत)"
+      },
+      "phone": "02426-243235, 02426-243701",
+      "email": "uniengineermpkv@gmail.com",
+      "location": {
+        "en": "Electrical Sub-Division, Rahuri Campus",
+        "mr": "विद्युत उपविभाग, राहुरी परिसर"
+      },
+      "division": "Rahuri Sub-Division"
+    },
+    {
+      "srNo": "6",
+      "office": {
+        "en": "Sectional Engineer (Civil) - Pune",
+        "mr": "शाखा अभियंता (स्थापत्य) - पुणे"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Civil)",
+        "mr": "शाखा अभियंता (स्थापत्य)"
+      },
+      "phone": "020-25538489",
+      "email": "adacpune@gmail.com",
+      "location": {
+        "en": "College of Agriculture Campus, Shivajinagar, Pune",
+        "mr": "कृषी महाविद्यालय परिसर, शिवाजीनगर, पुणे"
+      },
+      "division": "Pune Sub-Division"
+    },
+    {
+      "srNo": "7",
+      "office": {
+        "en": "Sectional Engineer (Electrical) - Pune",
+        "mr": "शाखा अभियंता (विद्युत) - पुणे"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Electrical)",
+        "mr": "शाखा अभियंता (विद्युत)"
+      },
+      "phone": "020-25537038",
+      "email": "adacpune@gmail.com",
+      "location": {
+        "en": "College of Agriculture Campus, Shivajinagar, Pune",
+        "mr": "कृषी महाविद्यालय परिसर, शिवाजीनगर, पुणे"
+      },
+      "division": "Pune Sub-Division"
+    },
+    {
+      "srNo": "8",
+      "office": {
+        "en": "Sectional Engineer (Civil) - Dhule",
+        "mr": "शाखा अभियंता (स्थापत्य) - धुळे"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Civil)",
+        "mr": "शाखा अभियंता (स्थापत्य)"
+      },
+      "phone": "02562-23067, 02562-23068",
+      "email": "dhulead@gmail.com",
+      "location": {
+        "en": "College of Agriculture Campus, Dhule",
+        "mr": "कृषी महाविद्यालय परिसर, धुळे"
+      },
+      "division": "Dhule Sub-Division"
+    },
+    {
+      "srNo": "9",
+      "office": {
+        "en": "Sectional Engineer (Electrical) - Dhule",
+        "mr": "शाखा अभियंता (विद्युत) - धुळे"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Electrical)",
+        "mr": "शाखा अभियंता (विद्युत)"
+      },
+      "phone": "02562-23067, 02562-23068",
+      "email": "dhulead@gmail.com",
+      "location": {
+        "en": "College of Agriculture Campus, Dhule",
+        "mr": "कृषी महाविद्यालय परिसर, धुळे"
+      },
+      "division": "Dhule Sub-Division"
+    },
+    {
+      "srNo": "10",
+      "office": {
+        "en": "Sectional Engineer (Civil) - Kolhapur",
+        "mr": "शाखा अभियंता (स्थापत्य) - कोल्हापूर"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Civil)",
+        "mr": "शाखा अभियंता (स्थापत्य)"
+      },
+      "phone": "0231-2605153",
+      "email": "arack2006@rediffmail.com",
+      "location": {
+        "en": "RCSM College of Agriculture, Kasaba Bawada, Kolhapur",
+        "mr": "राजर्षी छत्रपती शाहू महाराज कृषी महाविद्यालय, कसबा बावडा, कोल्हापूर"
+      },
+      "division": "Kolhapur Sub-Division"
+    },
+    {
+      "srNo": "11",
+      "office": {
+        "en": "Sectional Engineer (Electrical) - Kolhapur",
+        "mr": "शाखा अभियंता (विद्युत) - कोल्हापूर"
+      },
+      "designation": {
+        "en": "Sectional Engineer (Electrical)",
+        "mr": "शाखा अभियंता (विद्युत)"
+      },
+      "phone": "0231-2605153",
+      "email": "arack2006@rediffmail.com",
+      "location": {
+        "en": "RCSM College of Agriculture, Kolhapur",
+        "mr": "राजर्षी छत्रपती शाहू महाराज कृषी महाविद्यालय, कोल्हापूर"
+      },
+      "division": "Kolhapur Sub-Division"
+    },
+    {
+      "srNo": "12",
+      "office": {
+        "en": "Junior Engineer (Civil) - Rahuri",
+        "mr": "कनिष्ठ अभियंता (स्थापत्य) - राहुरी"
+      },
+      "designation": {
+        "en": "Junior Engineer (Civil)",
+        "mr": "कनिष्ठ अभियंता (स्थापत्य)"
+      },
+      "phone": "02426-243235, 02426-243272",
+      "email": "uniengineermpkv@gmail.com",
+      "location": {
+        "en": "Central Campus, Rahuri",
+        "mr": "मध्यवर्ती परिसर, राहुरी"
+      },
+      "division": "Rahuri Sub-Division"
+    },
+    {
+      "srNo": "13",
+      "office": {
+        "en": "Junior Engineer (Civil) - Pune",
+        "mr": "कनिष्ठ अभियंता (स्थापत्य) - पुणे"
+      },
+      "designation": {
+        "en": "Junior Engineer (Civil)",
+        "mr": "कनिष्ठ अभियंता (स्थापत्य)"
+      },
+      "phone": "020-25537038",
+      "email": "adacpune@gmail.com",
+      "location": {
+        "en": "College of Agriculture Campus, Pune",
+        "mr": "कृषी महाविद्यालय परिसर, पुणे"
+      },
+      "division": "Pune Sub-Division"
+    },
+    {
+      "srNo": "14",
+      "office": {
+        "en": "Junior Engineer (Civil) - Kolhapur",
+        "mr": "कनिष्ठ अभियंता (स्थापत्य) - कोल्हापूर"
+      },
+      "designation": {
+        "en": "Junior Engineer (Civil)",
+        "mr": "कनिष्ठ अभियंता (स्थापत्य)"
+      },
+      "phone": "0231-2605153",
+      "email": "arack2006@rediffmail.com",
+      "location": {
+        "en": "RCSM College of Agriculture, Kolhapur",
+        "mr": "राजर्षी छत्रपती शाहू महाराज कृषी महाविद्यालय, कोल्हापूर"
+      },
+      "division": "Kolhapur Sub-Division"
+    }
+  ]
 }

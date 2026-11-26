@@ -1,22 +1,17 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import Link from 'next/link';
 import {
   CheckCircle2,
   Calendar,
   Download,
   Search,
-  Filter,
-  FileText,
-  Award,
-  Sparkles,
-  ArrowRight,
   Sprout
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { ResearchBreadcrumb } from './components/ResearchBreadcrumb';
 import { ResearchHero } from './components/ResearchHero';
+import fallbackRecommendationsData from '@/data/scraped/pages/research-recommendations.json';
 
 interface ResearchRecommendationsViewProps {
   pageData?: any;
@@ -27,82 +22,22 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTab, setActiveTab] = useState<'all' | 'annual' | 'cropwise'>('all');
 
-  // Annual Joint AGRESCO Compendiums (Rows 1 to 5)
-  const annualRecommendations = [
-    {
-      year: '2026',
-      titleEn: 'Joint AGRESCO Recommendations — 2026',
-      titleMr: 'संयुक्त अग्रेस्को कृषी शिफारसी — २०२६',
-      badge: 'Latest Cleared Gazette',
-      descEn: 'Full compendium of crop production, water management, plant protection, and farm machinery recommendations ratified at Joint AGRESCO 2026.',
-      descMr: 'संयुक्त अग्रेस्को २०२६ मध्ये मंजूर पीक उत्पादन तंत्रज्ञान, जलव्यवस्थापन, पीक संरक्षण व शेती अवजारांच्या सर्व शिफारसींचा अधिकृत संग्रह.',
-      mrPdf: '/media/docs/20261027_115327_18a1e7ab94c9b553f6c5e5604178c005.pdf',
-      enPdf: '/media/docs/20261027_115327_5b42efd8f990e9156cab3c7d463b64f9.pdf'
-    },
-    {
-      year: '2025',
-      titleEn: 'Joint AGRESCO Recommendations — 2025',
-      titleMr: 'संयुक्त अग्रेस्को कृषी शिफारसी — २०२५',
-      badge: 'Approved Compendium',
-      descEn: 'Complete package of scientific practices, nutrient dosages, micro-irrigation protocols, and pest management released in 2025.',
-      descMr: '२०२५ मधील खत-पाणी मात्रा, सूक्ष्म सिंचन व एकात्मिक कीड व्यवस्थापनाच्या अधिकृत शिफारसी.',
-      mrPdf: '/media/docs/2025-Marathi_20250808051343.pdf',
-      enPdf: '/media/docs/2025-English_20250808061909.pdf'
-    },
-    {
-      year: '2024',
-      titleEn: 'Joint AGRESCO Recommendations — 2024',
-      titleMr: 'संयुक्त अग्रेस्को कृषी शिफारसी — २०२४',
-      badge: 'Official Gazette',
-      descEn: 'Annual statutory recommendations for Kharif, Rabi, and Summer crops approved by all 4 Maharashtra State Agricultural Universities.',
-      descMr: 'खरीप, रब्बी व उन्हाळी पिकांसाठी चारही कृषी विद्यापीठांनी संयुक्तपणे मंजूर केलेल्या अधिकृत शिफारसी.',
-      mrPdf: '/media/docs/2024-Marathi_20241017111319.pdf',
-      enPdf: '/media/docs/2024-English_20241017111319.pdf'
-    },
-    {
-      year: '2023',
-      titleEn: 'Joint AGRESCO Recommendations — 2023',
-      titleMr: 'संयुक्त अग्रेस्को कृषी शिफारसी — २०२३',
-      badge: 'Official Gazette',
-      descEn: 'Approved scientific package for natural farming, organic inputs, soil reclamation, and crop varieties cultivation guidelines.',
-      descMr: 'सेंद्रिय शेती, क्षारपड जमीन सुधारणा व पीक लागवड तंत्रज्ञानाविषयी २०२३ च्या शिफारसी.',
-      mrPdf: '/media/docs/2023-Marathi_20230913025314.pdf',
-      enPdf: '/media/docs/2023-English_20230913025314.pdf'
-    },
-    {
-      year: '2022',
-      titleEn: 'Joint AGRESCO Recommendations — 2022',
-      titleMr: 'संयुक्त अग्रेस्को कृषी शिफारसी — २०२२',
-      badge: 'Official Gazette',
-      descEn: 'Golden Jubilee series agro-recommendations covering fruit orchards, dryland pulses, and sugarcane management.',
-      descMr: 'फळबागा, कोरडवाहू कडधान्ये व ऊस व्यवस्थापनाच्या २०२२ मधील सर्वंकष शिफारसी.',
-      mrPdf: '/media/docs/2022-Marathi_20230913025026.pdf',
-      enPdf: '/media/docs/2022-English_20230913025026.pdf'
-    }
-  ];
+  const annualRecommendations: any[] =
+    pageData?.annualRecommendations ||
+    (fallbackRecommendationsData as any)?.annualRecommendations ||
+    [];
 
-  // Crop-Wise Packages of Practices (Rows 6 to 19)
-  const cropwiseRecommendations = [
-    { sr: '6', titleEn: 'Paddy / Rice (भात)', titleMr: 'भात / Paddy', mrPdf: '/media/docs/Paddy.pdf', enPdf: '/media/docs/1._Paddy_20200110043402.pdf' },
-    { sr: '7', titleEn: 'Pearlmillet / Bajra (बाजरी)', titleMr: 'बाजरी / Pearlmillet', mrPdf: '/media/docs/Bajara.pdf', enPdf: '/media/docs/2._Pearlmillet_20200110053501.pdf' },
-    { sr: '8', titleEn: 'Sorghum / Jowar (ज्वारी)', titleMr: 'ज्वारी / Sorghum', mrPdf: '/media/docs/Rabbi_Jawar.pdf', enPdf: '/media/docs/3._Sorghum_20200110053526.pdf' },
-    { sr: '9', titleEn: 'Wheat (गहू)', titleMr: 'गहू / Wheat', mrPdf: '/media/docs/Wheat.pdf', enPdf: '/media/docs/4._Wheat_20200110053545.pdf' },
-    { sr: '10', titleEn: 'Maize (मका)', titleMr: 'मका / Maize', mrPdf: '/media/docs/Maiz.pdf', enPdf: '/media/docs/5._Maize_20200110053602.pdf' },
-    { sr: '11', titleEn: 'Minor Millets & Nutri Cereals (इतर पोषक भरड धान्य)', titleMr: 'ईतर पोषक भरड धान्य', mrPdf: '/media/docs/Minor_Milletes.pdf', enPdf: null },
-    { sr: '12', titleEn: 'Chickpea & Pulses (कडधान्ये)', titleMr: 'कडधान्ये / Chickpea', mrPdf: '/media/docs/Pulses.pdf', enPdf: '/media/docs/7._Chickpea_20200110053711.pdf' },
-    { sr: '13', titleEn: 'Oilseeds (गळीतधान्ये)', titleMr: 'गळीतधान्ये / Oilseeds', mrPdf: '/media/docs/Oil_seed.pdf', enPdf: null },
-    { sr: '14', titleEn: 'Sugarcane (ऊस)', titleMr: 'ऊस / Sugarcane', mrPdf: '/media/docs/Sugarcane.pdf', enPdf: '/media/docs/9._Sugarcane_20200110053812.pdf' },
-    { sr: '15', titleEn: 'Cotton (कापूस)', titleMr: 'कापूस / Cotton', mrPdf: '/media/docs/Cotton.pdf', enPdf: '/media/docs/10._Cotton_20200110053832.pdf' },
-    { sr: '16', titleEn: 'Fodder Crops (चारापिके)', titleMr: 'चारापिके / Fodder', mrPdf: '/media/docs/Fodder_crop.pdf', enPdf: null },
-    { sr: '17', titleEn: 'Vegetable Crops (भाजीपाला पिके)', titleMr: 'भाजीपाला पिके / Vegetable', mrPdf: '/media/docs/Vegetable.pdf', enPdf: '/media/docs/12._Vegetable_20200110053854.pdf' },
-    { sr: '18', titleEn: 'Fruit Crops (फळ पिके)', titleMr: 'फळ पिके / Fruit crops', mrPdf: '/media/docs/Fruit_crops.pdf', enPdf: '/media/docs/13._Fruit_crops_20200110060006.pdf' },
-    { sr: '19', titleEn: 'Flower Crops (फुल पिके)', titleMr: 'फुल पिके / Flower Crops', mrPdf: '/media/docs/Flower_Crops.pdf', enPdf: null }
-  ];
+  const cropwiseRecommendations: any[] =
+    pageData?.cropwiseRecommendations ||
+    (fallbackRecommendationsData as any)?.cropwiseRecommendations ||
+    [];
 
   const filteredCrops = useMemo(() => {
+    const q = searchQuery.toLowerCase().trim();
+    if (!q) return cropwiseRecommendations;
     return cropwiseRecommendations.filter((c) =>
-      c.titleEn.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      c.titleMr.toLowerCase().includes(searchQuery.toLowerCase())
+      c.titleEn.toLowerCase().includes(q) ||
+      c.titleMr.toLowerCase().includes(q)
     );
   }, [cropwiseRecommendations, searchQuery]);
 
@@ -124,18 +59,22 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
         quickChips={[
           { label: language === 'mr' ? '१,५७७+ एकूण शिफारसी' : '1,577+ Recommendations', icon: CheckCircle2 },
           { label: language === 'mr' ? '२०२२ ते २०२६ वार्षिक संग्रह' : '2022–2026 Annual Archives', icon: Calendar },
-          { label: language === 'mr' ? '१४ प्रमुख पीक मार्गदर्शिका' : '14 Crop Practice Manuals', icon: Sprout }
+          { label: language === 'mr' ? '३४ अधिकृत PDF पुस्तिका' : '34 Official PDF Manuals', icon: Sprout }
         ]}
       />
 
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] py-6 sm:py-8 space-y-12">
 
-        {/* Tab Switcher */}
-        <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200 pb-4">
-          <div className="flex flex-wrap gap-2 text-xs font-bold">
+        {/* Tab Switcher: Guaranteed flex-wrap with inline styles to prevent clipping */}
+        <div className="w-full flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-stone-200 pb-4 overflow-visible">
+          <div
+            className="flex flex-wrap items-center gap-2 text-xs font-bold w-full md:w-auto"
+            style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', width: '100%' }}
+          >
             <button
+              type="button"
               onClick={() => setActiveTab('all')}
-              className={`px-4 py-2 rounded-xl transition-all ${
+              className={`px-4 py-2 rounded-xl transition-all shrink-0 ${
                 activeTab === 'all'
                   ? 'bg-cyan-900 text-white shadow-xs'
                   : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
@@ -144,8 +83,9 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
               {language === 'mr' ? 'सर्व शिफारसी (१९)' : 'All Recommendations (19)'}
             </button>
             <button
+              type="button"
               onClick={() => setActiveTab('annual')}
-              className={`px-4 py-2 rounded-xl transition-all ${
+              className={`px-4 py-2 rounded-xl transition-all shrink-0 ${
                 activeTab === 'annual'
                   ? 'bg-cyan-900 text-white shadow-xs'
                   : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
@@ -154,19 +94,20 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
               {language === 'mr' ? 'वर्षनिहाय संग्रह (२०२२-२०२६)' : 'Annual Compendiums (2022–2026)'}
             </button>
             <button
+              type="button"
               onClick={() => setActiveTab('cropwise')}
-              className={`px-4 py-2 rounded-xl transition-all ${
+              className={`px-4 py-2 rounded-xl transition-all shrink-0 ${
                 activeTab === 'cropwise'
                   ? 'bg-cyan-900 text-white shadow-xs'
                   : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
               }`}
             >
-              {language === 'mr' ? 'पीकनिहाय तंत्रज्ञान पुस्तिका' : 'Crop-Wise Manuals (14)'}
+              {language === 'mr' ? 'पीकनिहाय तंत्रज्ञान पुस्तिका (१४)' : 'Crop-Wise Manuals (14)'}
             </button>
           </div>
 
-          <span className="text-xs font-bold text-stone-500">
-            {language === 'mr' ? 'अधिकृत राजपत्र डाउनलोड उपलब्ध' : 'Verified State Gazettes'}
+          <span className="text-xs font-bold text-stone-500 shrink-0">
+            {language === 'mr' ? 'सर्व ३४ अधिकृत PDF डाउनलोड उपलब्ध' : 'All 34 Official PDFs Ready'}
           </span>
         </div>
 
@@ -208,7 +149,7 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
                     </p>
                   </div>
 
-                  <div className="pt-4 mt-4 border-t border-stone-100 flex items-center justify-between gap-2">
+                  <div className="pt-4 mt-4 border-t border-stone-100 flex flex-wrap items-center justify-between gap-2">
                     <a
                       href={item.mrPdf}
                       target="_blank"
@@ -217,6 +158,7 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
                     >
                       <Download className="w-3.5 h-3.5" />
                       <span>{language === 'mr' ? 'मराठी PDF' : 'Marathi PDF'}</span>
+                      {item.mrSize && <span className="text-[10px] opacity-80">({item.mrSize})</span>}
                     </a>
 
                     <a
@@ -227,6 +169,7 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
                     >
                       <Download className="w-3.5 h-3.5" />
                       <span>English PDF</span>
+                      {item.enSize && <span className="text-[10px] text-cyan-200">({item.enSize})</span>}
                     </a>
                   </div>
                 </div>
@@ -268,8 +211,8 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
                     <tr className="border-b-2 border-stone-300 bg-stone-100/90 text-stone-900">
                       <th className="py-3.5 px-4 font-bold uppercase w-16 text-center">{language === 'mr' ? 'अ.क्र.' : 'Sr.'}</th>
                       <th className="py-3.5 px-4 font-bold uppercase">{language === 'mr' ? 'पीक / विषय' : 'Crop / Discipline'}</th>
-                      <th className="py-3.5 px-4 font-bold uppercase text-center w-36">{language === 'mr' ? 'मराठी आवृत्ती' : 'Marathi File'}</th>
-                      <th className="py-3.5 px-4 font-bold uppercase text-center w-36">{language === 'mr' ? 'इंग्रजी आवृत्ती' : 'English File'}</th>
+                      <th className="py-3.5 px-4 font-bold uppercase text-center w-44">{language === 'mr' ? 'मराठी आवृत्ती' : 'Marathi File'}</th>
+                      <th className="py-3.5 px-4 font-bold uppercase text-center w-44">{language === 'mr' ? 'इंग्रजी आवृत्ती' : 'English File'}</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-stone-200 font-medium text-stone-800">
@@ -291,6 +234,7 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
                             >
                               <Download className="w-3.5 h-3.5" />
                               <span>{language === 'mr' ? 'मराठी PDF' : 'Marathi'}</span>
+                              {c.mrSize && <span className="text-[10px] opacity-80">({c.mrSize})</span>}
                             </a>
                           ) : (
                             <span className="text-stone-400 text-xs">—</span>
@@ -306,6 +250,7 @@ export const ResearchRecommendationsView: React.FC<ResearchRecommendationsViewPr
                             >
                               <Download className="w-3.5 h-3.5" />
                               <span>English</span>
+                              {c.enSize && <span className="text-[10px] text-cyan-200">({c.enSize})</span>}
                             </a>
                           ) : (
                             <span className="text-stone-400 text-xs">—</span>

@@ -3,10 +3,10 @@
   "url": "https://mpkv.ac.in/Akmu/Introduction",
   "route": "/Akmu/Introduction",
   "sourcePage": "akmu-introduction",
-  "scrapedAt": "2026-11-22T20:35:21.109528",
+  "scrapedAt": "2026-11-26T17:32:00.000000",
   "title": {
-    "en": "Agriculture Knowledge Management Unit (AKMU)",
-    "mr": "कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)"
+    "en": "Agricultural Knowledge Management Unit (AKMU)",
+    "mr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU)"
   },
   "breadcrumb": [
     {
@@ -18,1190 +18,366 @@
     },
     {
       "title": {
-        "en": "Home",
-        "mr": "मुख्यपृष्ठ"
-      },
-      "href": "/akmu-introduction"
-    },
-    {
-      "title": {
         "en": "University Facilities",
         "mr": "विद्यापीठ सुविधा"
       },
-      "href": "/akmu-introduction"
+      "href": "/Akmu/Introduction"
     },
     {
       "title": {
-        "en": "Agriculture Knowledge Management Unit (AKMU)",
-        "mr": "कृषि ज्ञान व्यवस्थापन केंद्र (AKMU)"
+        "en": "AKMU Rahuri",
+        "mr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU)"
       },
-      "href": "/akmu-introduction"
+      "href": "/Akmu/Introduction"
     }
   ],
   "hero": {
     "title": {
-      "en": "Agricultural Knowledge Management Unit",
-      "mr": "कृषि माहिती व्यवस्थापन विभाग"
+      "en": "Agricultural Knowledge Management Unit (AKMU)",
+      "mr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU), राहुरी"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Agricultural Knowledge Management Unit",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — कृषि माहिती व्यवस्थापन विभाग"
+      "en": "Established as ARIS Cell in 1996-97 under NARP and renamed AKMU per ICAR Guidelines (27 Jan 2011). Operating 1 Gbps National Knowledge Network (NKN) Optical Fiber Backbone across MPKV Central Campus, Rahuri.",
+      "mr": "राष्ट्रीय कृषी संशोधन प्रकल्पांतर्गत १९९६-९७ मध्ये ARIS कक्ष म्हणून स्थापना व २७ जानेवारी २०११ रोजी ICAR मार्गदर्शक तत्त्वांनुसार AKMU नामकरण. राहुरी मध्यवर्ती आवारात १ Gbps राष्ट्रीय ज्ञान नेटवर्क (NKN) ऑप्टिकल फायबर प्रणाली कार्यरत."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
-    }
-  },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+      "en": "1 Gbps NKN Optical Fiber Backbone & Cyber Centre",
+      "mr": "१ Gbps राष्ट्रीय ज्ञान नेटवर्क (NKN) व सायबर केंद्र"
     },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h3",
-      "text": {
-        "en": "Agricultural Knowledge Management Unit",
-        "mr": "कृषि माहिती व्यवस्थापन विभाग"
-      },
-      "order": 55
-    }
-  ],
-  "paragraphs": [
-    {
-      "text": {
-        "en": "The Indian National Agricultural Research System (NARS) with its nationwide network of educational and research institutions consisting of state agricultural universities, zonal research stations, ICAR institutes with regional stations established Agricultural Research Information System (ARIS) in 1996-97 to strengthen its research information funded by National Agricultural Research Project. Besides this activity, the Unit is entrusted with responsibility of developing ICT in agricultural research, maintaining the Institute's network, the website and the web server administration. Further, ARIS cell was renamed as AKMU as per ICAR guidelines (F.No. 3-1/2010-GAS (DIPA) dtd. 27 January, 2011. The AKMU is connected to other buildings in the central campus through Optical Fibre Cabling (OFC). At present AKMU is provided with the 1Gbps National Knowledge Network (NKN) internet connectivity (www.nkn.in) through BSNL which is shared by all divisions/sections in the central campus of M.P.K.V., Rahuri.",
-        "mr": "The Indian National Agricultural Research System (NARS) with its nationwide network of educational and research institutions consisting of state agricultural universities, zonal research stations, ICAR institutes with regional stations established Agricultural Research Information System (ARIS) in 1996-97 to strengthen its research information funded by National Agricultural Research Project. Besides this activity, the Unit is entrusted with responsibility of developing ICT in agricultural research, maintaining the Institute's network, the website and the web server administration. Further, ARIS cell was renamed as AKMU as per ICAR guidelines (F.No. 3-1/2010-GAS (DIPA) dtd. 27 January, 2011. The AKMU is connected to other buildings in the central campus through Optical Fibre Cabling (OFC). At present AKMU is provided with the 1Gbps National Knowledge Network (NKN) internet connectivity (www.nkn.in) through BSNL which is shared by all divisions/sections in the central campus of M.P.K.V., Rahuri."
-      },
-      "order": 56
-    }
-  ],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "AKMU",
-          "mr": "एकेएमयू"
+    "stats": [
+      {
+        "label": {
+          "en": "NKN Connectivity",
+          "mr": "इंटरनेट वेग (NKN)"
         },
-        {
-          "en": "Introduction",
-          "mr": "Introduction"
+        "value": "1 Gbps OFC"
+      },
+      {
+        "label": {
+          "en": "Established (ARIS)",
+          "mr": "स्थापना वर्ष"
         },
-        {
-          "en": "Activities",
-          "mr": "Activities"
+        "value": "1996–97"
+      },
+      {
+        "label": {
+          "en": "Core IT Activities",
+          "mr": "आयटी सेवा क्षेत्रे"
         },
-        {
+        "value": "12+"
+      },
+      {
+        "label": {
           "en": "Trainings Conducted",
-          "mr": "Trainings Conducted"
+          "mr": "आयोजित प्रशिक्षणे"
         },
-        {
-          "en": "Publications",
-          "mr": "Publications"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        },
-        {
-          "en": "Network Query",
-          "mr": "Network Query"
-        }
-      ],
-      "order": 57
-    }
-  ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/akmu.jpg",
-      "localPath": "/media/images/akmu.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/Web Photo.jpg",
-      "localPath": "/media/images/Web_Photo.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h3",
-      "text": {
-        "en": "Agricultural Knowledge Management Unit",
-        "mr": "कृषि माहिती व्यवस्थापन विभाग"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The Indian National Agricultural Research System (NARS) with its nationwide network of educational and research institutions consisting of state agricultural universities, zonal research stations, ICAR institutes with regional stations established Agricultural Research Information System (ARIS) in 1996-97 to strengthen its research information funded by National Agricultural Research Project. Besides this activity, the Unit is entrusted with responsibility of developing ICT in agricultural research, maintaining the Institute's network, the website and the web server administration. Further, ARIS cell was renamed as AKMU as per ICAR guidelines (F.No. 3-1/2010-GAS (DIPA) dtd. 27 January, 2011. The AKMU is connected to other buildings in the central campus through Optical Fibre Cabling (OFC). At present AKMU is provided with the 1Gbps National Knowledge Network (NKN) internet connectivity (www.nkn.in) through BSNL which is shared by all divisions/sections in the central campus of M.P.K.V., Rahuri.",
-        "mr": "The Indian National Agricultural Research System (NARS) with its nationwide network of educational and research institutions consisting of state agricultural universities, zonal research stations, ICAR institutes with regional stations established Agricultural Research Information System (ARIS) in 1996-97 to strengthen its research information funded by National Agricultural Research Project. Besides this activity, the Unit is entrusted with responsibility of developing ICT in agricultural research, maintaining the Institute's network, the website and the web server administration. Further, ARIS cell was renamed as AKMU as per ICAR guidelines (F.No. 3-1/2010-GAS (DIPA) dtd. 27 January, 2011. The AKMU is connected to other buildings in the central campus through Optical Fibre Cabling (OFC). At present AKMU is provided with the 1Gbps National Knowledge Network (NKN) internet connectivity (www.nkn.in) through BSNL which is shared by all divisions/sections in the central campus of M.P.K.V., Rahuri."
-      },
-      "order": 56
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "AKMU",
-          "mr": "एकेएमयू"
-        },
-        {
-          "en": "Introduction",
-          "mr": "Introduction"
-        },
-        {
-          "en": "Activities",
-          "mr": "Activities"
-        },
-        {
-          "en": "Trainings Conducted",
-          "mr": "Trainings Conducted"
-        },
-        {
-          "en": "Publications",
-          "mr": "Publications"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        },
-        {
-          "en": "Network Query",
-          "mr": "Network Query"
-        }
-      ],
-      "order": 57
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 1,
-    "listCount": 1,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 16,
-    "totalRecords": 72
+        "value": "22+"
+      }
+    ]
   },
-  "menuId": "menu_home",
-  "parentMenu": {
-    "id": "menu_home",
-    "title": {
-      "en": "Home",
-      "mr": "मुख्यपृष्ठ"
-    }
+  "introduction": {
+    "historyEn": "The Indian National Agricultural Research System (NARS) with its nationwide network of educational and research institutions consisting of state agricultural universities, zonal research stations, and ICAR institutes established the Agricultural Research Information System (ARIS) in 1996-97 to strengthen research information under the National Agricultural Research Project (NARP). Further, the ARIS Cell was renamed as Agricultural Knowledge Management Unit (AKMU) as per ICAR guidelines (F.No. 3-1/2010-GAS (DIPA) dtd. 27 January, 2011).",
+    "historyMr": "भारतीय राष्ट्रीय कृषी संशोधन प्रणाली (NARS) अंतर्गत राज्य कृषी विद्यापीठे, विभागीय संशोधन केंद्रे आणि ICAR संस्थांमधील संशोधन माहिती प्रणाली बळकट करण्यासाठी १९९६-९७ मध्ये राष्ट्रीय कृषी संशोधन प्रकल्पांतर्गत (NARP) 'कृषी संशोधन माहिती प्रणाली' (ARIS) कक्षाची स्थापना करण्यात आली. पुढे २७ जानेवारी २०११ च्या ICAR मार्गदर्शक तत्त्वांनुसार (F.No. 3-1/2010-GAS (DIPA)) या कक्षाचे नामकरण 'कृषी ज्ञान व्यवस्थापन केंद्र' (AKMU) असे करण्यात आले.",
+    "infrastructureEn": "The Unit is entrusted with developing ICT in agricultural research, maintaining the University's campus network, official website (mpkv.ac.in), centralized server hosting, firewall security, and web server administration. AKMU is connected to all academic, administrative, and research buildings in the central campus through Optical Fibre Cabling (OFC). At present, AKMU is provided with 1 Gbps National Knowledge Network (NKN) internet connectivity (www.nkn.in) through BSNL, shared across all divisions and sections of Mahatma Phule Krishi Vidyapeeth, Rahuri.",
+    "infrastructureMr": "कृषी संशोधनात माहिती व संप्रेषण तंत्रज्ञानाचा (ICT) विकास, विद्यापीठाचे अंतर्गत नेटवर्क व्यवस्थापन, अधिकृत संकेतस्थळ (mpkv.ac.in), सर्व्हर होस्टिंग आणि सायबर सुरक्षा यांची जबाबदारी AKMU पार पाडते. मध्यवर्ती आवारातील सर्व इमारती ऑप्टिकल फायबर केबलने (OFC) जोडलेल्या असून BSNL मार्फत १ Gbps क्षमतेची राष्ट्रीय ज्ञान नेटवर्क (NKN) इंटरनेट सुविधा सर्व विभागांना पुरविली जाते.",
+    "images": [
+      {
+        "src": "/media/images/akmu/akmu_unit.jpg",
+        "officialUrl": "https://mpkv.ac.in/images/main/akmu.jpg",
+        "captionEn": "Agricultural Knowledge Management Unit (AKMU) Building & Facility, MPKV Rahuri",
+        "captionMr": "कृषी ज्ञान व्यवस्थापन केंद्र (AKMU) इमारत व संगणकीय संकुल, मफुकृवि राहुरी"
+      },
+      {
+        "src": "/media/images/akmu/akmu_web_lab.jpg",
+        "officialUrl": "https://mpkv.ac.in/images/main/Web%20Photo.jpg",
+        "captionEn": "AKMU Computer Laboratory, ICT Server Operations & NKN Hub",
+        "captionMr": "AKMU संगणक प्रयोगशाळा, वेब सर्व्हर व NKN नेटवर्क नियंत्रण कक्ष"
+      }
+    ]
   },
-  "submenuGroup": {
-    "en": "University Facilities",
-    "mr": "विद्यापीठ सुविधा"
+  "activities": [
+    {
+      "srNo": "1",
+      "title": {
+        "en": "Network/ Internet Related Services",
+        "mr": "Network/ Internet Related Services"
+      }
+    },
+    {
+      "srNo": "2",
+      "title": {
+        "en": "Website Upgradation and Maintenance",
+        "mr": "Website Upgradation and Maintenance"
+      }
+    },
+    {
+      "srNo": "3",
+      "title": {
+        "en": "LAN Support to various departments",
+        "mr": "LAN Support to various departments"
+      }
+    },
+    {
+      "srNo": "4",
+      "title": {
+        "en": "Wi-Fi Services & Department Computer Laboratories",
+        "mr": "Wi-Fi Services & Department Computer Laboratories"
+      }
+    },
+    {
+      "srNo": "5",
+      "title": {
+        "en": "Firewall Services",
+        "mr": "Firewall Services"
+      }
+    },
+    {
+      "srNo": "6",
+      "title": {
+        "en": "Web Restricted Access",
+        "mr": "Web Restricted Access"
+      }
+    },
+    {
+      "srNo": "7",
+      "title": {
+        "en": "Video Conferencing",
+        "mr": "Video Conferencing"
+      }
+    },
+    {
+      "srNo": "8",
+      "title": {
+        "en": "Antivirus support",
+        "mr": "Antivirus support"
+      }
+    },
+    {
+      "srNo": "9",
+      "title": {
+        "en": "Centralized Server hosting",
+        "mr": "Centralized Server hosting"
+      }
+    },
+    {
+      "srNo": "10",
+      "title": {
+        "en": "Web server",
+        "mr": "Web server"
+      }
+    },
+    {
+      "srNo": "11",
+      "title": {
+        "en": "Online processes like Scholarship, Admission & Scholarship Processes.",
+        "mr": "Online processes like Scholarship, Admission & Scholarship Processes."
+      }
+    },
+    {
+      "srNo": "12",
+      "title": {
+        "en": "IT support: Purchase of computer hardware, software, Inspection of hardware etc Pathology, Entomology, Seed Report etc.",
+        "mr": "IT support: Purchase of computer hardware, software, Inspection of hardware etc Pathology, Entomology, Seed Report etc."
+      }
+    }
+  ],
+  "trainingsConducted": [
+    {
+      "srNo": "1",
+      "title": "Human Resource Development and computer awareness",
+      "duration": "25 -29 Mar.2008",
+      "participants": "40"
+    },
+    {
+      "srNo": "2",
+      "title": "Refresher course on Computational Techniques and Office Automation in agriculture",
+      "duration": "5 - 28 January 2009",
+      "participants": "20"
+    },
+    {
+      "srNo": "3",
+      "title": "Training program to operate LAE - school result software",
+      "duration": "1 - 17 June 2009",
+      "participants": "20"
+    },
+    {
+      "srNo": "4",
+      "title": "Training programme to operate PG admission excel programme-2009",
+      "duration": "1 September 2009",
+      "participants": "2"
+    },
+    {
+      "srNo": "5",
+      "title": "Training program on UG result system smart",
+      "duration": "2 -3 Sept. 2009",
+      "participants": "18"
+    },
+    {
+      "srNo": "6",
+      "title": "Advances in e- Communication (Non Teaching Staff)",
+      "duration": "20-22 Jan. 10",
+      "participants": "33"
+    },
+    {
+      "srNo": "7",
+      "title": "Advances in e- Communication (Teaching Staff)",
+      "duration": "27-29 Jan. 10",
+      "participants": "34"
+    },
+    {
+      "srNo": "8",
+      "title": "Statistical Analysis System (SAS)",
+      "duration": "23-29 Sept 2010",
+      "participants": "34"
+    },
+    {
+      "srNo": "9",
+      "title": "Refresher course on Computational Techniques and Office Automation in agriculture",
+      "duration": "05-07-2011 to 25-07-2011",
+      "participants": "24"
+    },
+    {
+      "srNo": "10",
+      "title": "Video Conferencing Operating",
+      "duration": "31 Jan 2012",
+      "participants": "20"
+    },
+    {
+      "srNo": "11",
+      "title": "LAE Result Preparation",
+      "duration": "1 April 2012",
+      "participants": "100"
+    },
+    {
+      "srNo": "12",
+      "title": "Data base Management and Video Conferencing to KVK staff",
+      "duration": "27-29 Dec. 2012",
+      "participants": "20"
+    },
+    {
+      "srNo": "13",
+      "title": "RMS license Workshop",
+      "duration": "23-24 Dec. 2013",
+      "participants": "25"
+    },
+    {
+      "srNo": "14",
+      "title": "Workshop on MPKV web development",
+      "duration": "30-12-13 to 01-01-14",
+      "participants": "10"
+    },
+    {
+      "srNo": "15",
+      "title": "Use of ICT tools in Agriculture & Website Designing to KVK staff",
+      "duration": "29-31 January 2014",
+      "participants": "20"
+    },
+    {
+      "srNo": "16",
+      "title": "RMS license Workshop",
+      "duration": "29-31 January 2014",
+      "participants": "20"
+    },
+    {
+      "srNo": "17",
+      "title": "Uploading data NISAGENET website",
+      "duration": "20-03-2014",
+      "participants": "40"
+    },
+    {
+      "srNo": "18",
+      "title": "Workshop on MPKV web development",
+      "duration": "01-04-2014 to 08-04-2014",
+      "participants": "10"
+    }
+  ],
+  "nationalTrainingBrochures": [
+    {
+      "srNo": "1",
+      "title": {
+        "en": "Hyperspectral Remote Sensing and Spectroradiometry Instruments Roles in Climate Smart Agriculture Development",
+        "mr": "हवामान अनुकूल शेती विकासामध्ये हायपरस्पेक्ट्रल रिमोट सेन्सिंग व स्पेक्ट्रोरेडिओमेट्री साधनांची भूमिका"
+      },
+      "fileUrl": "/media/docs/trainings/1_Hyperspectral_Remote_Sensing.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/3.Hyperspectral%20Remote%20Sensing%20and%20Spectroradiometry%20Instruments%20Roles%20in%20Climate%20Smart%20Agriculture%20Development_20191207010917.pdf",
+      "size": "1.28 MB",
+      "tag": "Remote Sensing"
+    },
+    {
+      "srNo": "2",
+      "title": {
+        "en": "ICT for Effective Knowledge and Extension Delivery for Climate Smart Agriculture and Water Management Technologies",
+        "mr": "हवामान अनुकूल शेती व जलव्यवस्थापन तंत्रज्ञान प्रसारासाठी प्रभावी आयसीटी (ICT) प्रणाली"
+      },
+      "fileUrl": "/media/docs/trainings/2_ICT_Knowledge_Extension.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/4.ICT%20for%20Effective%20Knowledge%20and%20Extension%20delivery%20for%20Climate%20Smart%20Agriculture%20and%20Water%20Management%20Technologies_20191207010948.pdf",
+      "size": "1.28 MB",
+      "tag": "ICT Extension"
+    },
+    {
+      "srNo": "3",
+      "title": {
+        "en": "Online Training Programme on \"Machine Learning and its Applications in Climate Smart Agriculture\"",
+        "mr": "\"मशीन लर्निंग व हवामान अनुकूल शेतीतील त्याचे उपयोजन\" राष्ट्रीय ऑनलाइन प्रशिक्षण कार्यक्रम"
+      },
+      "fileUrl": "/media/docs/trainings/3_Machine_Learning_Agriculture.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/Brochure%20&%20Schedule%20-Machine%20%20Learning_20200511010014.pdf",
+      "size": "1.91 MB",
+      "tag": "Machine Learning"
+    },
+    {
+      "srNo": "4",
+      "title": {
+        "en": "Three Weeks Offline Certificate Course on Drones for Precision Agriculture: Spraying and Hyperspectral Imaging (Aug 24 - Sep 13, 2022 under CAAST Project)",
+        "mr": "अचूक शेतीसाठी ड्रोन (फवारणी व हायपरस्पेक्ट्रल इमेजिंग) तीन आठवड्यांचा ऑफलाइन प्रमाणपत्र अभ्यासक्रम (CAAST प्रकल्प)"
+      },
+      "fileUrl": "/media/docs/trainings/4_Drone_Precision_Agriculture.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/AKMU/Drone%20for%20Precision%20Agri_Brochure_updated_20220720114425_20220720122448.pdf",
+      "size": "4.13 MB",
+      "tag": "Drone & UAV"
+    }
+  ],
+  "publications": [
+    {
+      "srNo": "1",
+      "title": "MK-Sheet Operating Manual Ver (2.0)",
+      "publicationNumber": "MPKV/ DEE/ EXT.PUB./ 01/ 2011"
+    },
+    {
+      "srNo": "2",
+      "title": "Advances in e-communication",
+      "publicationNumber": "MPKV/ DEE/ EXT.PUB./ 02/ 2011"
+    },
+    {
+      "srNo": "3",
+      "title": "Data Base Management and Video Conferencing",
+      "publicationNumber": "MPKV/ DEE/ EXT.PUB./ 854/ 2012"
+    },
+    {
+      "srNo": "4",
+      "title": "Use of ICT Tools in Agriculture and Website Designing",
+      "publicationNumber": "MPKV/DEE/EXT.PUB/ 970 / 2014"
+    }
+  ],
+  "contact": {
+    "nameEn": "Dr. Avdhoot Walunj",
+    "nameMr": "डॉ. अवधूत वाळुंज",
+    "designationEn": "Coordinator, Agricultural Knowledge Management Unit (AKMU)",
+    "designationMr": "समन्वयक, कृषी ज्ञान व्यवस्थापन केंद्र (AKMU)",
+    "officePhone": "+91-02426-243273",
+    "email": "arismpkv@gmail.com",
+    "locationEn": "AKMU Building, Central Campus, Mahatma Phule Krishi Vidyapeeth, Rahuri - 413722, Dist. Ahilyanagar (M.S.)",
+    "locationMr": "AKMU संकुल, मध्यवर्ती आवार, महात्मा फुले कृषी विद्यापीठ, राहुरी - ४१३७२२, जि. अहिल्यानगर",
+    "photo": "/media/images/akmu/dr_avdhoot_walunj.jpg",
+    "officialPhotoUrl": "https://mpkv.ac.in/Uploads/AKMU/Passport%20size%20photo%20Avdhoot%202022_20241129111919.jpg"
+  },
+  "networkQueryInfo": {
+    "titleEn": "Campus Network Query & IT Support Desk",
+    "titleMr": "कॅम्पस नेटवर्क तक्रार व आयटी सहाय्यता कक्ष",
+    "descEn": "Submit LAN/Wi-Fi connectivity requests, firewall port access, antivirus licensing, institutional email or web portal update queries directly to the AKMU Network Administration Team.",
+    "descMr": "विद्यापीठ विभागांमधील लॅन (LAN), वाय-फाय (Wi-Fi), NKN इंटरनेट कनेक्टिव्हिटी, अँटीव्हायरस व संकेतस्थळ अद्ययावतीकरणासंबंधी तक्रारी अथवा विनंत्या नोंदवा.",
+    "officialFormUrl": "https://mpkv.ac.in/Akmu/networkComplaints",
+    "supportEmail": "arismpkv@gmail.com",
+    "supportPhone": "+91-02426-243273"
   }
 }

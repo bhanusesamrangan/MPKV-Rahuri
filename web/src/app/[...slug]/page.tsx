@@ -21,6 +21,13 @@ import { TransparencyRtiView } from '@/views/Stakeholder/TransparencyRtiView';
 import { CentralAdministrationView } from '@/views/Stakeholder/CentralAdministrationView';
 import { AboutMahatmaPhuleView } from '@/views/About/AboutMahatmaPhuleView';
 import { MpkvAtAGlanceView } from '@/views/About/MpkvAtAGlanceView';
+import { ActStatuteView } from '@/views/About/ActStatuteView';
+import { FinanceAccountsView } from '@/views/Stakeholder/FinanceAccountsView';
+import { UniversityEngineerView } from '@/views/Stakeholder/UniversityEngineerView';
+import { CircularsView } from '@/views/Stakeholder/CircularsView';
+import { EmployeeCornerView } from '@/views/Stakeholder/EmployeeCornerView';
+import { PeriodicEventsView } from '@/views/Stakeholder/PeriodicEventsView';
+import { AkmuView } from '@/views/Stakeholder/AkmuView';
 
 // Specialized Research Views
 import { ResearchAtAGlanceView } from '@/views/Research/ResearchAtAGlanceView';
@@ -248,21 +255,39 @@ export default async function CatchAllPage({ params }: PageProps) {
     return <GuestHouseView pageData={page} />;
   }
 
-  // 17. Trainings, Workshops & Capacity Building
+  // 17. Trainings, Workshops & Capacity Building (AKMU National Training Programs)
   if (
     pageSlug === 'trainings' ||
-    fullPath === 'trainings'
+    pageSlug === 'training' ||
+    pageSlug === 'workshops' ||
+    pageSlug === 'akmu-training' ||
+    pageSlug === 'akmu-traning' ||
+    fullPath === 'trainings' ||
+    fullPath === 'training' ||
+    fullPath === 'workshops' ||
+    fullPath === 'akmu/traning' ||
+    fullPath === 'akmu/training' ||
+    fullPath === 'akmu-training' ||
+    fullPath.startsWith('akmu/tran') ||
+    fullPath.startsWith('akmu/train')
   ) {
     return <TrainingsView pageData={page} />;
   }
 
-  // 18. Transparency & Right to Information (RTI / RTS)
+  // 18. Transparency, RTI, Grievance Redressal & Statutory Committees
   if (
     pageSlug === 'transparency' ||
     pageSlug === 'transparency-and-grievance' ||
+    pageSlug === 'transparency-rti' ||
+    pageSlug === 'grievance-redressal' ||
+    pageSlug === 'grievanceredressalsystem' ||
     fullPath === 'transparency' ||
+    fullPath === 'transparency-rti' ||
     fullPath === 'transparency-and-grievance' ||
-    fullPath === 'rti'
+    fullPath === 'rti' ||
+    fullPath === 'home/grievanceredressalsystem' ||
+    fullPath === 'officers/grivence' ||
+    fullPath === 'grievance-redressal'
   ) {
     return <TransparencyRtiView pageData={page} />;
   }
@@ -279,6 +304,160 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath.startsWith('administration/admins')
   ) {
     return <CentralAdministrationView pageData={page} />;
+  }
+
+  // 19b. Act & Statute (Maharashtra Agricultural Universities Act 1983 & Statutes 1990)
+  if (
+    pageSlug === 'act-and-statute' ||
+    pageSlug === 'actstatute' ||
+    pageSlug === 'act-statute' ||
+    fullPath === 'home/actstatute' ||
+    fullPath === 'home/act-statute' ||
+    fullPath === 'actstatute' ||
+    fullPath === 'act-and-statute' ||
+    fullPath === 'act-statute'
+  ) {
+    return <ActStatuteView pageData={page} />;
+  }
+
+  // 19c. Finance & Accounts Directorate (Office of the Comptroller)
+  if (
+    pageSlug === 'finance' ||
+    pageSlug === 'comptroller' ||
+    pageSlug === 'finance-and-accounts' ||
+    pageSlug === 'finance-accounts' ||
+    pageSlug.startsWith('finance-') ||
+    pageSlug.startsWith('finance') ||
+    fullPath === 'finance' ||
+    fullPath === 'comptroller' ||
+    fullPath.startsWith('finance/') ||
+    fullPath.startsWith('finance-')
+  ) {
+    return <FinanceAccountsView pageData={page} />;
+  }
+
+  // 19d. University Engineer & Works Division (Estate Infrastructure & Capital Works)
+  if (
+    pageSlug === 'university-engineer-works' ||
+    pageSlug === 'university-engineer' ||
+    pageSlug === 'universityengineer' ||
+    pageSlug === 'work' ||
+    pageSlug === 'works' ||
+    pageSlug.startsWith('work-') ||
+    pageSlug.startsWith('university-engineer') ||
+    fullPath === 'university-engineer' ||
+    fullPath === 'university-engineer-works' ||
+    fullPath === 'work' ||
+    fullPath === 'works' ||
+    fullPath.startsWith('work/') ||
+    fullPath.startsWith('works/')
+  ) {
+    return <UniversityEngineerView pageData={page} />;
+  }
+
+  // 19e. Official University Circulars & Office Memoranda Archive
+  if (
+    pageSlug === 'circulars' ||
+    pageSlug === 'circular' ||
+    pageSlug === 'allcircular' ||
+    pageSlug === 'all-circular' ||
+    fullPath === 'circulars' ||
+    fullPath === 'circular' ||
+    fullPath === 'allcircular/circular' ||
+    fullPath === 'all-circular/circular' ||
+    fullPath.startsWith('allcircular') ||
+    fullPath.startsWith('all-circular') ||
+    fullPath.startsWith('circulars')
+  ) {
+    return <CircularsView pageData={page} />;
+  }
+
+  // 19f. Employee Corner & Pension Portal (Staff Welfare & Service Book)
+  if (
+    pageSlug === 'employee-corner' ||
+    pageSlug === 'employee' ||
+    pageSlug === 'employees' ||
+    pageSlug === 'empcorner' ||
+    pageSlug === 'emp-corner' ||
+    fullPath === 'employee-corner' ||
+    fullPath === 'employee' ||
+    fullPath === 'employees' ||
+    fullPath === 'home/empcorner' ||
+    fullPath === 'home/emp-corner' ||
+    fullPath === 'empcorner' ||
+    fullPath === 'emp-corner' ||
+    fullPath.startsWith('home/emp') ||
+    fullPath.startsWith('employee')
+  ) {
+    return <EmployeeCornerView pageData={page} />;
+  }
+
+  // 19g. Periodical Events & Convocation Portal (Joint AGRESCO, Foundation Day, Van Mahotsav, Retrospection)
+  if (
+    pageSlug === 'events-convocation' ||
+    pageSlug === 'convocation' ||
+    pageSlug === 'periodic-events' ||
+    pageSlug === 'periodical-events' ||
+    pageSlug === 'events-joint-agresco' ||
+    pageSlug === 'joint-agresco' ||
+    pageSlug === 'agresco' ||
+    pageSlug === 'events-vanmohotsav' ||
+    pageSlug === 'vanmahostav' ||
+    pageSlug === 'vanmohotsav' ||
+    pageSlug === 'unifday' ||
+    pageSlug === 'foundation-day' ||
+    pageSlug === 'retrospection' ||
+    pageSlug === 'magova' ||
+    pageSlug === 'farmer-kisan-aadhar' ||
+    pageSlug === 'kisan-aadhar' ||
+    pageSlug === 'kisan-aadhar-sammelan' ||
+    pageSlug === 'kisanaadhar' ||
+    fullPath === 'farmer/farmerkisanadhar' ||
+    fullPath === 'farmer-kisan-aadhar' ||
+    fullPath === 'kisan-aadhar' ||
+    fullPath === 'kisan-aadhar-sammelan' ||
+    fullPath.startsWith('periodicalevent') ||
+    fullPath.startsWith('periodical-event') ||
+    fullPath.startsWith('periodical_event') ||
+    fullPath.startsWith('events-convocation') ||
+    fullPath.startsWith('events-joint-agresco') ||
+    fullPath.startsWith('events-vanmohotsav')
+  ) {
+    let initialTab = 'convocation';
+    const lower = fullPath.toLowerCase();
+    if (lower.includes('agresco')) initialTab = 'agresco';
+    else if (lower.includes('vanmahostav') || lower.includes('vanmohotsav')) initialTab = 'vanmohotsav';
+    else if (lower.includes('unifday') || lower.includes('foundation')) initialTab = 'foundation_day';
+    else if (lower.includes('retrospection') || lower.includes('magova')) initialTab = 'retrospection';
+    else if (lower.includes('kisan') || lower.includes('aadhar')) initialTab = 'kisan_aadhar';
+
+    return <PeriodicEventsView pageData={page} initialTab={initialTab} />;
+  }
+
+  // 19h. Agricultural Knowledge Management Unit (AKMU) & NKN Cyber Centre
+  if (
+    pageSlug === 'akmu-introduction' ||
+    pageSlug === 'akmu-rahuri' ||
+    pageSlug === 'akmu' ||
+    fullPath === 'akmu' ||
+    fullPath === 'akmu-introduction' ||
+    fullPath === 'akmu-rahuri' ||
+    fullPath === 'akmu/introduction' ||
+    fullPath === 'akmu/activity' ||
+    fullPath === 'akmu/trainingsconducted' ||
+    fullPath === 'akmu/publication' ||
+    fullPath === 'akmu/contact' ||
+    fullPath === 'akmu/networkcomplaints'
+  ) {
+    let initialTab = 'introduction';
+    const lower = fullPath.toLowerCase();
+    if (lower.includes('activity')) initialTab = 'activities';
+    else if (lower.includes('trainingsconducted')) initialTab = 'trainings';
+    else if (lower.includes('publication')) initialTab = 'publications';
+    else if (lower.includes('contact')) initialTab = 'contact';
+    else if (lower.includes('networkcomplaints') || lower.includes('network')) initialTab = 'network_query';
+
+    return <AkmuView pageData={page} initialTab={initialTab} />;
   }
 
   // 20. About Mahatma Jyotirao Phule (Official Biography & Archival Portrait)

@@ -1,12 +1,12 @@
 {
   "slug": "act-and-statute",
-  "url": "https://mpkv.ac.in/Home/ActStatute",
-  "route": "/Home/ActStatute",
-  "sourcePage": "act-and-statute",
-  "scrapedAt": "2026-11-22T20:35:38.667082",
+  "url": "/Home/ActStatute",
+  "route": "act-and-statute",
+  "sourcePage": "https://mpkv.ac.in/Home/ActStatute",
+  "scrapedAt": "2026-11-26T15:00:00.000Z",
   "title": {
-    "en": "Act & Statute",
-    "mr": "कायदे"
+    "en": "Maharashtra Agricultural Universities Act & Statutes",
+    "mr": "महाराष्ट्र कृषी विद्यापीठे कायदा व परिनियम"
   },
   "breadcrumb": [
     {
@@ -14,1402 +14,183 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "href": "/"
+      "url": "/"
+    },
+    {
+      "title": {
+        "en": "Governance",
+        "mr": "प्रशासन व वैधानिक रचना"
+      },
+      "url": "/administration"
+    },
+    {
+      "title": {
+        "en": "Act & Statute",
+        "mr": "कायदा व परिनियम"
+      },
+      "url": "/Home/ActStatute"
     }
   ],
   "hero": {
     "title": {
-      "en": "Act & Statute",
-      "mr": "कायदे"
+      "en": "Maharashtra Agricultural Universities Act, 1983 & Statutes, 1990",
+      "mr": "महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ व परिनियम १९९०"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Act & Statute",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — कायदे"
+      "en": "The foundational statutory legislation enacted by Maharashtra State Legislature establishing and governing Mahatma Phule Krishi Vidyapeeth, Rahuri and State Agricultural Universities.",
+      "mr": "महाराष्ट्र विधानमंडळाने संमत केलेला मूळ वैधानिक कायदा व परिनियम ज्याद्वारे महात्मा फुले कृषी विद्यापीठ, राहुरी व राज्यातील कृषी विद्यापीठांचे संचलन केले जाते."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "Foundational Statutory Legislation",
+      "mr": "मूळ वैधानिक कायदा व परिनियम"
     }
   },
-  "headings": [
+  "actDocuments": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+      "srNo": "1",
+      "title": {
+        "en": "MAU Act 1983 (Incorporating Amendments upto 2012)",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ (२०१२ पर्यंतच्या सुधारणांसह)"
       },
-      "order": 1
+      "gazetteRef": "Maharashtra Act No. XLI of 1983",
+      "fileUrl": "/media/docs/act-statute/MAU_Act_1983_upto_2012.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/MAU%20Act%201983%20upto%202012.pdf",
+      "fileSize": "487 KB",
+      "year": "1983 - 2012",
+      "scope": {
+        "en": "Principal Act establishing SAUs, jurisdiction across 10 districts, university officers, powers of Chancellor and Vice-Chancellor.",
+        "mr": "कृषी विद्यापीठांची स्थापना, १० जिल्ह्यांचे अधिकार क्षेत्र, कुलगुरू व कुलपती अधिकार आणि विद्यापीठ प्राधिकरणे."
+      }
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+      "srNo": "2",
+      "title": {
+        "en": "MAU Act 1983 — Amendment 2010-2011",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ — सुधारणा २०१०-२०११"
       },
-      "order": 2
+      "gazetteRef": "Maharashtra Act No. IX of 2012",
+      "fileUrl": "/media/docs/act-statute/MAU_Act_1983_Amendment_2010_2011.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/act2.pdf",
+      "fileSize": "20.9 MB",
+      "year": "2010 - 2011",
+      "scope": {
+        "en": "Reconstitution of Executive Council, Academic Council, reservation norms, and institutional governance restructuring.",
+        "mr": "कार्यकारी परिषद व विद्या परिषद फेररचना, आरक्षण तरतुदी व प्रशासकीय सुधारणा."
+      }
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+      "srNo": "3",
+      "title": {
+        "en": "MAU Act 1983 — Amendment 2013",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ — सुधारणा २०१३"
       },
-      "order": 3
+      "gazetteRef": "Maharashtra Act No. XIX of 2013",
+      "fileUrl": "/media/docs/act-statute/MAU_Act_1983_Amendment_2013.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/act3.PDF",
+      "fileSize": "147 KB",
+      "year": "2013",
+      "scope": {
+        "en": "Amendments concerning selection committee compositions and representation of agricultural stakeholders and farmers.",
+        "mr": "निवड समिती रचना आणि कृषी भागधारक व शेतकऱ्यांच्या प्रतिनिधित्वासंदर्भातील सुधारणा."
+      }
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
+      "srNo": "4",
+      "title": {
+        "en": "MAU Act 1983 — Amendment 2015",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ — सुधारणा २०१५"
       },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Act & Statute",
-        "mr": "कायदे"
-      },
-      "order": 55
+      "gazetteRef": "Maharashtra Act No. XLV of 2015",
+      "fileUrl": "/media/docs/act-statute/MAU_Act_1983_Amendment_2015.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/act4.pdf",
+      "fileSize": "259 KB",
+      "year": "2015",
+      "scope": {
+        "en": "Statutory updates regarding Vice-Chancellor appointment criteria, ICAR norms harmonization, and statutory officer term tenures.",
+        "mr": "कुलगुरू निवड निकष, भारतीय कृषी संशोधन परिषद (ICAR) मार्गदर्शक तत्त्वे व वैधानिक अधिकारी पदधारण कार्यकाळ."
+      }
     }
   ],
-  "paragraphs": [],
-  "lists": [],
-  "tables": [
+  "statuteDocuments": [
     {
-      "id": "table_1",
-      "caption": {
-        "en": "Maharashtra Agricultural Universities Act 1983",
-        "mr": "महाराष्ट्र कृषी विद्यापीठे अधिनियम १९८३"
+      "srNo": "1",
+      "title": {
+        "en": "Maharashtra Agricultural Universities Statutes, 1990 (Principal Statutes)",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे परिनियम १९९० (मूळ परिनियम)"
       },
-      "headers": [
-        {
-          "en": "Sr.No",
-          "mr": "Sr.No"
-        },
-        {
-          "en": "Title",
-          "mr": "Title"
-        },
-        {
-          "en": "File",
-          "mr": "File"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Act 1983 upto 2012t",
-              "mr": "MAU Act 1983 upto 2012t"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/MAU_Act_1983_upto_2012.pdf",
-            "originalLink": "/StaticPdf/MAU Act 1983 upto 2012.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Act 1983 Amendment 2010-2011",
-              "mr": "MAU Act 1983 Amendment 2010-2011"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/act2.pdf",
-            "originalLink": "/StaticPdf/act2.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Act 1983 Amendment-2013",
-              "mr": "MAU Act 1983 Amendment-2013"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/act3.PDF",
-            "originalLink": "/StaticPdf/act3.PDF"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Act 1983 Amendment-2015",
-              "mr": "MAU Act 1983 Amendment-2015"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/act4.pdf",
-            "originalLink": "/StaticPdf/act4.pdf"
-          }
-        ]
-      ],
-      "rowCount": 4,
-      "columnCount": 3
+      "gazetteRef": "Framed under Section 75, MAU Act 1983",
+      "fileUrl": "/media/docs/act-statute/MAU_Statute_1990.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/stat1.pdf",
+      "fileSize": "452 KB",
+      "year": "1990",
+      "scope": {
+        "en": "Comprehensive subordinate legislation governing university administration, teacher recruitment, duties, leave, and discipline.",
+        "mr": "विद्यापीठ प्रशासन, प्राध्यापक व कर्मचारी भरती, कर्तव्ये, रजा व शिस्तपालन विषयक मूळ नियमावली."
+      }
     },
     {
-      "id": "table_2",
-      "caption": {
-        "en": "Maharashtra Agricultural Universities Statute 1990",
-        "mr": "महाराष्ट्र कृषी विद्यापीठे परिनियम १९९०"
+      "srNo": "2",
+      "title": {
+        "en": "MAU Statute — First Amendment 2014",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे परिनियम — पहिली सुधारणा २०१४"
       },
-      "headers": [
-        {
-          "en": "Sr.No",
-          "mr": "Sr.No"
-        },
-        {
-          "en": "Title",
-          "mr": "Title"
-        },
-        {
-          "en": "File",
-          "mr": "File"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Statute 1990",
-              "mr": "MAU Statute 1990"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/stat1.pdf",
-            "originalLink": "/StaticPdf/stat1.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Statute First Amendment 2014",
-              "mr": "MAU Statute First Amendment 2014"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/stat2.pdf",
-            "originalLink": "/StaticPdf/stat2.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Statute Second Amendment 2014",
-              "mr": "MAU Statute Second Amendment 2014"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/stat3.pdf",
-            "originalLink": "/StaticPdf/stat3.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Statute Third Amendment 2023",
-              "mr": "MAU Statute Third Amendment 2023"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/stat4.pdf",
-            "originalLink": "/StaticPdf/stat4.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "MAU Statute 73 Amendment 2024",
-              "mr": "MAU Statute 73 Amendment 2024"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/stat5.pdf",
-            "originalLink": "/StaticPdf/stat5.pdf"
-          }
-        ]
-      ],
-      "rowCount": 5,
-      "columnCount": 3
+      "gazetteRef": "Govt. Gazette Notification 2014",
+      "fileUrl": "/media/docs/act-statute/MAU_Statute_First_Amendment_2014.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/stat2.pdf",
+      "fileSize": "1.9 MB",
+      "year": "2014",
+      "scope": {
+        "en": "Revisions to teaching cadre qualifications, Career Advancement Scheme (CAS) criteria, and academic workload.",
+        "mr": "शैक्षणिक संवर्ग शैक्षणिक अर्हता, करिअर ॲडव्हान्समेंट योजना (CAS) व कार्यभार सुधारणा."
+      }
+    },
+    {
+      "srNo": "3",
+      "title": {
+        "en": "MAU Statute — Second Amendment 2014",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे परिनियम — दुसरी सुधारणा २०१४"
+      },
+      "gazetteRef": "Govt. Gazette Notification 2014",
+      "fileUrl": "/media/docs/act-statute/MAU_Statute_Second_Amendment_2014.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/stat3.pdf",
+      "fileSize": "117 KB",
+      "year": "2014",
+      "scope": {
+        "en": "Administrative staff service condition amendments, promotional channels, and clerical cadre structures.",
+        "mr": "शिक्षकेतर कर्मचारी सेवा शर्ती, पदोन्नती साखळी व प्रशासकीय संवर्ग पुनर्रचना."
+      }
+    },
+    {
+      "srNo": "4",
+      "title": {
+        "en": "MAU Statute — Third Amendment 2023",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे परिनियम — तिसरी सुधारणा २०२३"
+      },
+      "gazetteRef": "Govt. Gazette Notification 2023",
+      "fileUrl": "/media/docs/act-statute/MAU_Statute_Third_Amendment_2023.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/stat4.pdf",
+      "fileSize": "9.5 MB",
+      "year": "2023",
+      "scope": {
+        "en": "7th Pay Commission service condition integration, modern academic designations, and research scientist promotion guidelines.",
+        "mr": "सातवा वेतन आयोग सेवाशर्ती समावेशन, पदनामे व कृषी शास्त्रज्ञ पदोन्नती मार्गदर्शक तत्त्वे."
+      }
+    },
+    {
+      "srNo": "5",
+      "title": {
+        "en": "MAU Statute — 73rd Amendment 2024",
+        "mr": "महाराष्ट्र कृषी विद्यापीठे परिनियम — ७३ वी सुधारणा २०२४"
+      },
+      "gazetteRef": "Maharashtra Govt. Gazette 2024",
+      "fileUrl": "/media/docs/act-statute/MAU_Statute_73_Amendment_2024.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/stat5.pdf",
+      "fileSize": "869 KB",
+      "year": "2024",
+      "scope": {
+        "en": "Latest statutory regulations governing elections to university bodies, teacher designations, and administrative governance.",
+        "mr": "विद्यापीठ प्राधिकरणांच्या निवडणुका, प्राध्यापक पदोन्नती व नवीनतम वैधानिक नियमावली."
+      }
     }
-  ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/MAU Act 1983 upto 2012.pdf",
-      "localPath": "/media/docs/MAU_Act_1983_upto_2012.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/act2.pdf",
-      "localPath": "/media/docs/act2.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/act3.PDF",
-      "localPath": "/media/docs/act3.PDF",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/act4.pdf",
-      "localPath": "/media/docs/act4.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/stat1.pdf",
-      "localPath": "/media/docs/stat1.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/stat2.pdf",
-      "localPath": "/media/docs/stat2.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/stat3.pdf",
-      "localPath": "/media/docs/stat3.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/stat4.pdf",
-      "localPath": "/media/docs/stat4.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/stat5.pdf",
-      "localPath": "/media/docs/stat5.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Act & Statute",
-        "mr": "कायदे"
-      },
-      "order": 55
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 0,
-    "tableCount": 2,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 23,
-    "totalRecords": 87
-  }
+  ]
 }

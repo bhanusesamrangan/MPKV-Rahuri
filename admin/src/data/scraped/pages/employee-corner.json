@@ -3,10 +3,10 @@
   "url": "https://mpkv.ac.in/Home/empCorner",
   "route": "/Home/empCorner",
   "sourcePage": "employee-corner",
-  "scrapedAt": "2026-11-22T20:35:45.620854",
+  "scrapedAt": "2026-11-26T15:55:00.000000",
   "title": {
-    "en": "Employee Corner",
-    "mr": "Employee Corner"
+    "en": "Employee Corner & Staff Services Portal",
+    "mr": "कर्मचारी दालन व सेवानिवृत्ती मंच"
   },
   "breadcrumb": [
     {
@@ -15,1248 +15,500 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Administration",
+        "mr": "प्रशासन"
+      },
+      "href": "/administration"
+    },
+    {
+      "title": {
+        "en": "Employee Corner",
+        "mr": "कर्मचारी दालन"
+      },
+      "href": "/Home/empCorner"
     }
   ],
   "hero": {
     "title": {
-      "en": "Employee Corner",
-      "mr": "Employee Corner"
+      "en": "Employee Corner & Staff Welfare Portal",
+      "mr": "विद्यापीठ कर्मचारी दालन व सेवानिवृत्ती मंच"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Employee Corner",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Employee Corner"
+      "en": "Single-window digital gateway for academic, administrative, technical, and supporting personnel of Mahatma Phule Krishi Vidyapeeth, Rahuri. Access statutory pension forms, GPF settlement, APAR evaluation, income tax declarations, and service welfare services.",
+      "mr": "महात्मा फुले कृषी विद्यापीठ, राहुरी मधील सर्व शिक्षक, प्रशासकीय, तांत्रिक व सहायक कर्मचाऱ्यांसाठी मध्यवर्ती डिजिटल दालन. सेवानिवृत्ती वेतन, भविष्य निर्वाह निधी, गोपनीय अहवाल, प्राप्तिकर व सेवा कल्याण सुविधा एकाच छताखाली."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
-    }
+      "en": "Official University Staff Portal",
+      "mr": "अधिकृत विद्यापीठ कर्मचारी दालन"
+    },
+    "stats": [
+      {
+        "label": {
+          "en": "Statutory Forms & Applications",
+          "mr": "वैधानिक नमुने व अर्ज"
+        },
+        "value": "18+"
+      },
+      {
+        "label": {
+          "en": "Pension & Retirement Services",
+          "mr": "निवृत्तीवेतन व उपदान सेवा"
+        },
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Seniority Cadres Published",
+          "mr": "संवर्गनिहाय सेवा ज्येष्ठता सूची"
+        },
+        "value": "433"
+      },
+      {
+        "label": {
+          "en": "Staff Welfare & Grievance Desks",
+          "mr": "कर्मचारी कल्याण व तक्रार कक्ष"
+        },
+        "value": "4"
+      }
+    ]
   },
-  "headings": [
+  "categoryTabs": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+      "id": "all",
+      "labelEn": "All Staff Services",
+      "labelMr": "सर्व सेवा व अर्ज",
+      "icon": "Layers"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
+      "id": "pension",
+      "labelEn": "Pension & Retirement",
+      "labelMr": "निवृत्तीवेतन व उपदान",
+      "icon": "ShieldCheck"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
+      "id": "provident_fund",
+      "labelEn": "Provident Fund (GPF/NPS)",
+      "labelMr": "भविष्य निर्वाह निधी (GPF/NPS)",
+      "icon": "PiggyBank"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
+      "id": "service_appraisal",
+      "labelEn": "Service Book & APAR",
+      "labelMr": "सेवा तपशील व गोपनीय अहवाल",
+      "icon": "FileSpreadsheet"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
+      "id": "tax_medical",
+      "labelEn": "Tax & Medical Welfare",
+      "labelMr": "प्राप्तिकर व वैद्यकीय प्रतिपूर्ती",
+      "icon": "HeartHandshake"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
+      "id": "seniority",
+      "labelEn": "Seniority Lists",
+      "labelMr": "सेवा ज्येष्ठता सूची",
+      "icon": "Award"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Employee Corner",
-        "mr": "Employee Corner"
-      },
-      "order": 55
+      "id": "rules",
+      "labelEn": "Rules & Quarters",
+      "labelMr": "सेवा नियम व निवासस्थाने",
+      "icon": "Building2"
     }
   ],
-  "paragraphs": [],
-  "lists": [],
-  "tables": [
+  "forms": [
     {
-      "id": "table_1",
-      "caption": {
-        "en": "Pension & Employee Service Forms",
-        "mr": "कर्मचारी सेवा व निवृत्तीवेतन अर्ज नमुने"
+      "id": "emp-pension-form12",
+      "category": "pension",
+      "formNumber": "Form 12 (नमुना १२)",
+      "title": {
+        "en": "Application for Grant of Family Pension 1964 on Death of University Pensioner",
+        "mr": "नमुना १२: विद्यापीठ कर्मचाऱ्यांच्या निवृत्तीवेतनाधारकाच्या मृत्यूनंतर कुटुंब निवृत्तीवेतन १९६४ मंजूर करण्यासाठी करावयाच्या अर्जाचा नमुना"
       },
-      "headers": [
-        {
-          "en": "Sr.No.",
-          "mr": "Sr.No."
-        },
-        {
-          "en": "Form Title",
-          "mr": "Form Title"
-        },
-        {
-          "en": "Downloads",
-          "mr": "Downloads"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "नमुना 12 विद्यापीठ कर्मचाऱ्यांच्या निवृत्तीवेतनाधारकाच्या मृत्यूनंतर कुटुंब निवृत्तीवेतन 1964 मंजूर करण्यासाठी करावयाच्या अर्जाचा नमुना",
-              "mr": "नमुना 12 विद्यापीठ कर्मचाऱ्यांच्या निवृत्तीवेतनाधारकाच्या मृत्यूनंतर कुटुंब निवृत्तीवेतन 1964 मंजूर करण्यासाठी करावयाच्या अर्जाचा नमुना"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/emp1.pdf",
-            "originalLink": "/StaticPdf/emp1.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "नमुना 7 विद्यापीठ कर्मचाऱ्यांच्या निवृत्ती वेतनासंबंधाचे कागदपत्र पाठवताना लेखापरीक्षा अधिकाऱ्याला लिहावयाच्या पत्राचा नमुना",
-              "mr": "नमुना 7 विद्यापीठ कर्मचाऱ्यांच्या निवृत्ती वेतनासंबंधाचे कागदपत्र पाठवताना लेखापरीक्षा अधिकाऱ्याला लिहावयाच्या पत्राचा नमुना"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/emp2.pdf",
-            "originalLink": "/StaticPdf/emp2.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "नमुना 10 विद्यापीठ कर्मचाऱ्यांच्या मृत्यूनंतर (मृत्यू उपदान) मंजूर करण्याकरिता करावयाच्या अर्जाचा नमुना",
-              "mr": "नमुना 10 विद्यापीठ कर्मचाऱ्यांच्या मृत्यूनंतर (मृत्यू उपदान) मंजूर करण्याकरिता करावयाच्या अर्जाचा नमुना"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/emp3.pdf",
-            "originalLink": "/StaticPdf/emp3.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "B FORM FOR APPLICATION FOR FINAL PAYMENT of GPF IN MPKV GPF PROVIDENT FUND ACCOUNT",
-              "mr": "B FORM FOR APPLICATION FOR FINAL PAYMENT of GPF IN MPKV GPF PROVIDENT FUND ACCOUNT"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/emp4.pdf",
-            "originalLink": "/StaticPdf/emp4.pdf"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Form for CLAIMMING BENEFITS TABLE UNDER THE GSLI SCHEME",
-              "mr": "Form for CLAIMMING BENEFITS TABLE UNDER THE GSLI SCHEME"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "/media/docs/emp5.pdf",
-            "originalLink": "/StaticPdf/emp5.pdf"
-          }
-        ]
-      ],
-      "rowCount": 5,
-      "columnCount": 3
+      "description": {
+        "en": "Statutory application prescribed under Maharashtra Agricultural Universities Pension Rules 1964 for sanction of family pension to eligible spouse/legal dependents following the demise of a university retiree.",
+        "mr": "विद्यापीठ निवृत्तीवेतनधारकाच्या मृत्यूनंतर पात्र पती/पत्नी अथवा कायदेशीर वारसदारास कुटुंब निवृत्तीवेतन १९६४ मंजूर करण्याकरिता विहित नमुना १२ मधील अधिकृत अर्ज."
+      },
+      "fileUrl": "/media/docs/employee/live_certificate.pdf",
+      "officialUrl": "https://mpkv.ac.in/StaticPdf/emp1.pdf",
+      "authority": "Office of the Comptroller — Pension Cell",
+      "tag": "Statutory Pension",
+      "isLocal": true
+    },
+    {
+      "id": "emp-pension-form7",
+      "category": "pension",
+      "formNumber": "Form 7 (नमुना ७)",
+      "title": {
+        "en": "Letter to Audit Officer for Forwarding Pension Papers of Retiring Employee",
+        "mr": "नमुना ७: विद्यापीठ कर्मचाऱ्यांच्या निवृत्ती वेतनासंबंधाचे कागदपत्र पाठवताना लेखापरीक्षा अधिकाऱ्याला लिहावयाच्या पत्राचा नमुना"
+      },
+      "description": {
+        "en": "Official forwarding dossier proforma submitted by the Head of Office to the Comptroller/Audit Officer containing qualifying service calculations, leave account, and pension settlement sheets.",
+        "mr": "सेवानिवृत्त होणाऱ्या कर्मचाऱ्याचे अहर्ताकारी सेवा पडताळणी पत्रक, रजा विवरण व निवृत्तीवेतन परिगणना कागदपत्रे लेखापरीक्षा अधिकाऱ्याकडे पाठविण्याचा विहित नमुना ७."
+      },
+      "fileUrl": "/media/docs/employee/live_certificate.pdf",
+      "officialUrl": "https://mpkv.ac.in/StaticPdf/emp2.pdf",
+      "authority": "Office of the Comptroller & Registrar",
+      "tag": "Pension Audit",
+      "isLocal": true
+    },
+    {
+      "id": "emp-pension-form10",
+      "category": "pension",
+      "formNumber": "Form 10 (नमुना १०)",
+      "title": {
+        "en": "Application for Grant of Death Gratuity (DCRG) on Death of In-Service Employee",
+        "mr": "नमुना १०: विद्यापीठ सेवेत कार्यरत कर्मचाऱ्यांच्या मृत्यूनंतर मृत्यू उपदान मंजूर करण्याकरिता करावयाच्या अर्जाचा नमुना"
+      },
+      "description": {
+        "en": "Formal statutory application for the expeditious settlement and disbursement of Death-cum-Retirement Gratuity (DCRG) to nominated family members/legal heirs of deceased university personnel.",
+        "mr": "विद्यापीठ सेवेत असताना निधन पावलेल्या कर्मचाऱ्याच्या नामनिर्देशित व्यक्तीस अथवा कायदेशीर वारसास मृत्यू उपदान मंजूर करण्याकरिता विहित नमुना १० मधील अधिकृत अर्ज."
+      },
+      "fileUrl": "/media/docs/employee/live_certificate.pdf",
+      "officialUrl": "https://mpkv.ac.in/StaticPdf/emp3.pdf",
+      "authority": "Comptroller Secretariat",
+      "tag": "Gratuity (उपदान)",
+      "isLocal": true
+    },
+    {
+      "id": "emp-pension-commutation",
+      "category": "pension",
+      "formNumber": "Commutation Form",
+      "title": {
+        "en": "Application for Commutation of Pension (Up to 40% Commuted Value)",
+        "mr": "निवृत्तीवेतन अंशराशीकरण नमुना अर्ज (४०% पर्यंत मुद्दल रोखीकरण)"
+      },
+      "description": {
+        "en": "Official application proforma for retiring university employees seeking commutation of up to 40% of their basic pension within one year of superannuation without mandatory medical examination.",
+        "mr": "वयोमर्यादेनुसार सेवानिवृत्त होणाऱ्या कर्मचाऱ्यांनी आपल्या मूळ निवृत्तीवेतनातील कमाल ४०% पर्यंत रक्कम अंशराशीकरणाद्वारे एकरकमी मिळविण्याकरिता अधिकृत अर्ज."
+      },
+      "fileUrl": "/media/docs/employee/pension_commutation.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Administration/%E0%A4%85%E0%A4%82%E0%A4%B6%E0%A4%B0%E0%A4%BE%E0%A4%B6%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%20%E0%A4%A8%E0%A4%AE%E0%A5%81%E0%A4%A8%E0%A4%BE_20210608034316.pdf",
+      "authority": "Pension & Audit Cell, Rahuri",
+      "tag": "Commutation",
+      "isLocal": true
+    },
+    {
+      "id": "emp-pension-life-cert",
+      "category": "pension",
+      "formNumber": "Life Certificate",
+      "title": {
+        "en": "Annual Life Certificate (हयातीचा दाखला) for University Pensioners & Family Pensioners",
+        "mr": "विद्यापीठ निवृत्तीवेतनधारक व कुटुंब निवृत्तीवेतनधारकांसाठी वार्षिक हयातीचा दाखला"
+      },
+      "description": {
+        "en": "Mandatory annual verification certificate to be executed in November each calendar year by university pensioners before a designated gazetted officer, bank manager, or through Digital Jeevan Pramaan portal.",
+        "mr": "दरवर्षी नोव्हेंबर महिन्यात निवृत्तीवेतनधारकाने राजपत्रित अधिकारी अथवा बँक व्यवस्थापकांसमक्ष सादर करावयाचा अधिकृत वार्षिक हयातीचा दाखला."
+      },
+      "fileUrl": "/media/docs/employee/live_certificate.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Administration/live_certificate__20221101054753.pdf",
+      "authority": "Comptroller & Pension Disbursing Cell",
+      "tag": "Mandatory Annual",
+      "isLocal": true
+    },
+    {
+      "id": "emp-gpf-form-b",
+      "category": "provident_fund",
+      "formNumber": "Form B (नमुना 'ब')",
+      "title": {
+        "en": "Application Form 'B' for Final Payment of General Provident Fund (GPF) Balance",
+        "mr": "नमुना 'ब': विद्यापीठ सामान्य भविष्य निर्वाह निधी (GPF) अंतिम रक्कम प्रदान अर्ज"
+      },
+      "description": {
+        "en": "Statutory application submitted upon retirement, resignation, or voluntary retirement for complete reconciliation and final payout of accumulated balances in the MPKV GPF Provident Fund account.",
+        "mr": "सेवानिवृत्ती, स्वेच्छानिवृत्ती अथवा राजीनाम्यानंतर विद्यापीठ भविष्य निर्वाह निधी खात्यातील जमा असलेली अंतिम शिल्लक रक्कम व्याजासह मिळविण्याकरिता विहित नमुना 'ब' अर्ज."
+      },
+      "fileUrl": "/media/docs/employee/employee_service_record.pdf",
+      "officialUrl": "https://mpkv.ac.in/StaticPdf/emp4.pdf",
+      "authority": "GPF Section — Office of the Comptroller",
+      "tag": "Provident Fund",
+      "isLocal": true
+    },
+    {
+      "id": "emp-gsli-claim",
+      "category": "tax_medical",
+      "formNumber": "GSLI Claim Form",
+      "title": {
+        "en": "Claim Form for Benefits Payable under Group Savings Linked Insurance (GSLI) Scheme",
+        "mr": "गट बचत संलग्न विमा (GSLI) योजना लाभ प्रदान दावा अर्ज"
+      },
+      "description": {
+        "en": "Standard claim application for encashment of accumulated insurance and savings fund units under the university Group Savings Linked Insurance (GSLI) Scheme upon retirement or unfortunate demise.",
+        "mr": "विद्यापीठ गट बचत संलग्न विमा (GSLI) योजनेअंतर्गत सेवानिवृत्ती प्रसंगी अथवा दुर्दैवी निधनानंतर जमा निधी व विमा संरक्षणाची रक्कम प्राप्त करण्याकरिता दावा अर्ज."
+      },
+      "fileUrl": "/media/docs/employee/employee_service_record.pdf",
+      "officialUrl": "https://mpkv.ac.in/StaticPdf/emp5.pdf",
+      "authority": "Staff Welfare Cell & Insurance Section",
+      "tag": "Insurance & Savings",
+      "isLocal": true
+    },
+    {
+      "id": "emp-service-book",
+      "category": "service_appraisal",
+      "formNumber": "Service Dossier",
+      "title": {
+        "en": "Employee Service Record & Service Book Dossier Proforma (कर्मचारी सेवा तपशील)",
+        "mr": "कर्मचारी सेवा तपशील व सेवापुस्तक पडताळणी विहित विवरण पत्र"
+      },
+      "description": {
+        "en": "Comprehensive official template for recording employment history, appointments, promotion milestones, pay fixation orders under 6th/7th CPC, qualifying service entries, and earned leave ledger.",
+        "mr": "कर्मचाऱ्याचा संपूर्ण सेवा इतिहास, पदोन्नती, वेतननिश्चिती, रजा विवरण व सेवेचे प्रमाणीकरण नोंदविण्याकरिता अधिकृत विद्यापीठ सेवा तपशील नमुना."
+      },
+      "fileUrl": "/media/docs/employee/employee_service_record.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Administration/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%9a%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE%20%E0%A4%A4%E0%A4%AA%E0%A4%B6%E0%A5%80%E0%A4%B2_20191119031522.pdf",
+      "authority": "Establishment Division — Registrar Secretariat",
+      "tag": "Service Book",
+      "isLocal": true
+    },
+    {
+      "id": "emp-apar-appraisal",
+      "category": "service_appraisal",
+      "formNumber": "APAR Form",
+      "title": {
+        "en": "Annual Performance Appraisal Report (APAR / गोपनीय अहवाल) Guidelines & Proforma",
+        "mr": "वार्षिक कार्यप्रदर्शन मूल्यमापन अहवाल (गोपनीय अहवाल - APAR) मार्गदर्शन व विहित नमुना"
+      },
+      "description": {
+        "en": "Standardized evaluation format and training guidebook for annual confidential reporting of Group A, B, C, and D administrative, research, and technical staff of the university.",
+        "mr": "विद्यापीठातील वर्ग १, २, ३ व ४ संवर्गातील सर्व अधिकारी, शास्त्रज्ञ व कर्मचाऱ्यांच्या गोपनीय अहवाल (APAR) लेखनाबाबतची मार्गदर्शक नियमावली व विहित नमुना."
+      },
+      "fileUrl": "/media/docs/employee/apar_training_format.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Administration/%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%A3%E0%A5%80%E0%A4%AF%20%E0%A4%85%E0%A4%B9%E0%A4%B5%E0%A4%BE%E0%A4%B2%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3_20191119031552.pdf",
+      "authority": "Registrar Office & Training Cell",
+      "tag": "APAR / Appraisal",
+      "isLocal": true
+    },
+    {
+      "id": "emp-tax-declaration",
+      "category": "tax_medical",
+      "formNumber": "IT Form",
+      "title": {
+        "en": "Annual Income Tax Declaration & Savings Investment Proof Submission Format",
+        "mr": "प्राप्तिकर विवरण पत्र (Income Tax Declaration) व गुंतवणूक वजावट पुरावे सादर करण्याचा नमुना"
+      },
+      "description": {
+        "en": "Mandatory annual submission proforma under Income Tax Act Section 192 (Old vs New Tax Regime election, 80C, 80D, HRA deductions) for TDS computation from monthly salary rolls.",
+        "mr": "वेतन देयकातून स्रोत कर कपातीकरिता (TDS) विद्यापीठ कर्मचाऱ्यांनी जुनी अथवा नवीन कर प्रणाली निवड व बचत वजावट पुरावे सादर करण्याचा अधिकृत नमुना."
+      },
+      "fileUrl": "/media/docs/employee/income_tax_declaration.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Administration/Income_Tax_20200110052734.pdf",
+      "authority": "Salary & Accounts Branch — Comptroller Office",
+      "tag": "Income Tax / TDS",
+      "isLocal": true
+    },
+    {
+      "id": "emp-medical-reimbursement",
+      "category": "tax_medical",
+      "formNumber": "Medical Claim",
+      "title": {
+        "en": "Medical Expenses Reimbursement Claim under Maharashtra Services (Medical Attendance) Rules",
+        "mr": "महाराष्ट्र नागरी सेवा (वैद्यकीय उपचार) नियमांतर्गत वैद्यकीय खर्च प्रतिपूर्ती दावा अर्ज"
+      },
+      "description": {
+        "en": "Prescribed application with verification certificate by the University Medical Officer for reimbursement of indoor/outdoor medical expenditure incurred at authorized government/empanelled hospitals.",
+        "mr": "शासकीय अथवा विद्यापीठ मान्यताप्राप्त रुग्णालयात घेतलेल्या वैद्यकीय उपचारांच्या खर्चाची प्रतिपूर्ती मिळविण्याकरिता विहित नमुना व तपासणी प्रमाणपत्र."
+      },
+      "fileUrl": "/media/docs/employee/employee_service_record.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Finance/",
+      "authority": "University Health Centre & Comptroller Office",
+      "tag": "Medical Welfare",
+      "isLocal": true
+    },
+    {
+      "id": "emp-compassionate-list",
+      "category": "rules",
+      "formNumber": "Waitlist Proforma",
+      "title": {
+        "en": "Compassionate Appointment Waitlist & Guidelines (अनुकंपा प्रतीक्षा यादी व नियम)",
+        "mr": "अनुकंपा तत्वावर नोकरी मागणाऱ्या उमेदवारांची अधिकृत प्रतीक्षा यादी व शासन मार्गदर्शक नियम"
+      },
+      "description": {
+        "en": "Official seniority waitlist and eligibility criteria for compassionate appointment of eligible dependents of university staff who died in harness, prepared in accordance with Maharashtra Government G.R.",
+        "mr": "सेवेत असताना दिवंगत झालेल्या कर्मचाऱ्यांच्या पात्र वारसदारांना अनुकंपा तत्वावर सेवेत सामावून घेण्याबाबतची अद्ययावत प्रतीक्षा यादी व शासन निकष."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/1373_20260408112028.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Administration/1373_20260408112028.pdf",
+      "authority": "Establishment Division, Central Administration",
+      "tag": "Compassionate Scheme",
+      "isLocal": false
+    },
+    {
+      "id": "emp-quarters-allotment",
+      "category": "rules",
+      "formNumber": "Quarters Form",
+      "title": {
+        "en": "University Residential Quarters Allotment Rules & Application Format",
+        "mr": "विद्यापीठ निवासस्थान वाटप नियमावली व अधिकृत अर्ज नमुना (राहुरी मध्यवर्ती आवार व उप-केंद्रे)"
+      },
+      "description": {
+        "en": "Guidelines, priority entitlement criteria, and application format for allotment of Type I, II, III, IV, and V residential quarters on MPKV Central Campus Rahuri and constituent colleges.",
+        "mr": "राहुरी मध्यवर्ती आवार व घटक महाविद्यालयांमधील विविध संवर्गातील निवासस्थाने (Type I ते V) वाटपाचे नियम व विहित अर्ज."
+      },
+      "fileUrl": "https://mpkv.ac.in/Uploads/OFM/",
+      "officialUrl": "https://mpkv.ac.in/Uploads/OFM/",
+      "authority": "University Engineer & Estate Office (OFM)",
+      "tag": "Campus Housing",
+      "isLocal": false
+    },
+    {
+      "id": "emp-grievance-redressal",
+      "category": "rules",
+      "formNumber": "Staff Grievance",
+      "title": {
+        "en": "Staff Grievance Redressal Committee & Direct Representation Protocol",
+        "mr": "कर्मचारी तक्रार निवारण समिती व तक्रार निवारण कार्यपद्धती"
+      },
+      "description": {
+        "en": "Statutory forum established under Maharashtra Agricultural Universities Statutes for prompt resolution of non-academic service matters, promotions, increments, and workplace grievances.",
+        "mr": "कर्मचाऱ्यांचे सेवाविषयक प्रश्न, वेतनवाढ, पदोन्नती व कार्यालयीन अडचणींचे न्याय्य व वेळेत निवारण करण्याकरिता स्थापन वैधानिक समिती."
+      },
+      "fileUrl": "/transparency",
+      "officialUrl": "https://mpkv.ac.in/Home/GrievanceRedressalSystem",
+      "authority": "Statutory Grievance Redressal Officer",
+      "tag": "Grievance Forum",
+      "isLocal": true
     }
   ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
+  "seniorityHighlights": [
     {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
+      "cadreEn": "KVK Supporting Staff (Helper & Labor)",
+      "cadreMr": "कृषि विज्ञान केंद्रातील सपोर्टिंग स्टाफ (हेल्पर व लेबर)",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/20260824_153106_df2694372507d0f7b149282742add888.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
+      "cadreEn": "KVK Assistant (Assistant Superintendent) & Stenographer",
+      "cadreMr": "कृषि विज्ञान केंद्रातील सहाय्यक (सहाय्यक अधिक्षक) व लघुलेखक",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/20260824_152937_ab4e6874c2c6574630cf3fafd9f70a2c.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
+      "cadreEn": "KVK Vehicle Drivers",
+      "cadreMr": "कृषि विज्ञान केंद्रातील वाहन चालक",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/20260824_152814_902f42916604304230e7f4ec37678a42.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
+      "cadreEn": "KVK Program Assistants (Lab Tech, Farm Manager, Computer)",
+      "cadreMr": "कृषि विज्ञान केंद्रातील कार्यक्रम सहाय्यक (लॅब, प्रक्षेत्र, संगणक)",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/20260824_153212_7d3c2cfb0e89410bdb64819568f165d2.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
+      "cadreEn": "Gardeners (माळी संवर्ग)",
+      "cadreMr": "माळी संवर्गातील कर्मचाऱ्यांची अंतिम सेवा ज्येष्ठता सूची",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/2111_20260605110349.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
+      "cadreEn": "Calculators / Enumerators (गणक संवर्ग)",
+      "cadreMr": "गणक या पदाची अंतिम सेवा ज्येष्ठता सूची",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/2110_20260605101626.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
+      "cadreEn": "Agricultural Assistants (कृषी सहाय्यक)",
+      "cadreMr": "कृषी सहाय्यक या पदावर कार्यरत कर्मचाऱ्यांची अंतिम सेवा ज्येष्ठता सूची",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/1700_20260505102136.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
+      "cadreEn": "Junior Research Assistants (Agriculture)",
+      "cadreMr": "कनिष्ठ संशोधन सहाय्यक (कृषी शाखा) अंतिम सेवा ज्येष्ठता सूची",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/1699_20260505102052.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
+      "cadreEn": "Senior Research Assistants (Agriculture)",
+      "cadreMr": "वरिष्ठ संशोधन सहाय्यक (कृषी शाखा) अंतिम सेवा ज्येष्ठता सूची",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/1698_20260505102018.pdf"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/emp1.pdf",
-      "localPath": "/media/docs/emp1.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/emp2.pdf",
-      "localPath": "/media/docs/emp2.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/emp3.pdf",
-      "localPath": "/media/docs/emp3.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/emp4.pdf",
-      "localPath": "/media/docs/emp4.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/emp5.pdf",
-      "localPath": "/media/docs/emp5.pdf",
-      "category": "docs",
-      "label": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
+      "cadreEn": "Senior & Junior Research Assistants (Agril Engineering)",
+      "cadreMr": "वरिष्ठ व कनिष्ठ संशोधन सहाय्यक (कृषी अभियांत्रिकी) सेवा ज्येष्ठता",
+      "date": "01.01.2026",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Administration/1697_20260505101603.pdf"
     }
   ],
-  "contentBlocks": [
+  "helpdeskContacts": [
     {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+      "sectionEn": "Office of the Comptroller — Pension & Audit Cell",
+      "sectionMr": "नियंत्रक कार्यालय — निवृत्तीवेतन व लेखापरीक्षण कक्ष",
+      "officerEn": "Comptroller & Chief Accounts Officer",
+      "officerMr": "नियंत्रक व मुख्य वित्त व लेखा अधिकारी",
+      "locationEn": "Main Administrative Building, MPKV Rahuri",
+      "locationMr": "मध्यवर्ती प्रशासकीय इमारत, राहुरी",
+      "phone": "+91-02426-243224 / 243228",
+      "email": "comptroller.mpkv@gov.in",
+      "responsibilitiesEn": "Pension authorization, DCRG clearance, GPF final settlement, commuted pension payment, monthly pension disbursals.",
+      "responsibilitiesMr": "निवृत्तीवेतन आदेश, उपदान प्रदान, भविष्य निर्वाह निधी अंतिम रक्कम, अंशराशीकरण व मासिक पेन्शन वितरण."
     },
     {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
+      "sectionEn": "Registrar Secretariat — Establishment & Service Book Division",
+      "sectionMr": "कुलसचिव कार्यालय — आस्थापना व सेवापुस्तक विभाग",
+      "officerEn": "Deputy Registrar (Administration)",
+      "officerMr": "उपकुलसचिव (प्रशासन)",
+      "locationEn": "Registrar Wing, MPKV Rahuri",
+      "locationMr": "कुलसचिव संकुल, राहुरी",
+      "phone": "+91-02426-243216",
+      "email": "registrar.mpkv@gov.in",
+      "responsibilitiesEn": "Service book maintenance, cadre seniority lists, promotions, CAS academic advancement, APAR records, compassionate appointments.",
+      "responsibilitiesMr": "सेवापुस्तक नोंदी, अंतिम सेवा ज्येष्ठता याद्या, पदोन्नती, गोपनीय अहवाल (APAR) व अनुकंपा तत्वावरील भरती."
     },
     {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
+      "sectionEn": "University Medical & Staff Health Centre",
+      "sectionMr": "विद्यापीठ आरोग्य केंद्र व वैद्यकीय प्रतिपूर्ती कक्ष",
+      "officerEn": "Medical Officer",
+      "officerMr": "वैद्यकीय अधिकारी",
+      "locationEn": "Campus Health Centre, MPKV Rahuri",
+      "locationMr": "आरोग्य केंद्र, मध्यवर्ती आवार, राहुरी",
+      "phone": "+91-02426-243232",
+      "email": "health.mpkv@gov.in",
+      "responsibilitiesEn": "Medical attendance certification, hospital empanelment verifications, emergency consultations, medical reimbursement claims.",
+      "responsibilitiesMr": "वैद्यकीय प्रमाणपत्र पडताळणी, आपत्कालीन आरोग्य सेवा व वैद्यकीय खर्च प्रतिपूर्ती दावे तपासणी."
     },
     {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Employee Corner",
-        "mr": "Employee Corner"
-      },
-      "order": 55
+      "sectionEn": "Estate Office — Residential Quarters & OFM",
+      "sectionMr": "संपदा कार्यालय — निवासस्थान वाटप व सामान्य सुविधा",
+      "officerEn": "University Engineer",
+      "officerMr": "विद्यापीठ अभियंता",
+      "locationEn": "Works Division, Near Main Gate, Rahuri",
+      "locationMr": "बांधकाम व संपदा विभाग, मध्यवर्ती आवार",
+      "phone": "+91-02426-243235",
+      "email": "ue.mpkv@gov.in",
+      "responsibilitiesEn": "Campus housing allocations (Type I-V), maintenance of residential quarters, electricity/water grievances, campus sanitation.",
+      "responsibilitiesMr": "विद्यापीठ निवासस्थान वाटप, क्वार्टर्स दुरुस्ती व देखभाल, पाणी व वीज व्यवस्थापन."
     }
   ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 0,
-    "tableCount": 1,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 19,
-    "totalRecords": 79
-  }
+  "faqs": [
+    {
+      "qEn": "When and how should university pensioners submit the annual Life Certificate (हयातीचा दाखला)?",
+      "qMr": "विद्यापीठ निवृत्तीवेतनधारकांनी वार्षिक हयातीचा दाखला कधी व कसा सादर करावा?",
+      "aEn": "Every retiree or family pensioner must submit the Life Certificate in the month of November each year. It can be submitted physically at the Pension Cell / disbursing bank branch, or digitally through the Government of India Jeevan Pramaan portal using biometric Aadhaar authentication.",
+      "aMr": "सर्व निवृत्तीवेतनधारक व कुटुंब निवृत्तीवेतनधारकांनी दरवर्षी १ ते ३० नोव्हेंबर दरम्यान हयातीचा दाखला सादर करणे अनिवार्य आहे. हा दाखला प्रत्यक्ष बँकेत अथवा पेन्शन कक्षात जाऊन किंवा 'जीवन प्रमाण' (Jeevan Pramaan) पोर्टलद्वारे बायोमेट्रिक आधारे डिजिटल स्वरूपात सादर करता येतो."
+    },
+    {
+      "qEn": "What is the procedure for obtaining up to 40% Commutation of Pension?",
+      "qMr": "निवृत्तीवेतनाचे ४०% पर्यंत अंशराशीकरण (Commutation) मिळविण्याची काय पद्धत आहे?",
+      "aEn": "An employee retiring on superannuation may apply for commutation up to 40% of basic pension within one year of retirement without medical examination. The application in the prescribed format should be submitted to the Pension Cell through the respective Head of Office.",
+      "aMr": "वयोमर्यादेनुसार सेवानिवृत्त होणारा कर्मचारी सेवानिवृत्तीच्या १ वर्षाच्या आत वैद्यकीय तपासणीशिवाय कमाल ४०% पर्यंत मूळ निवृत्तीवेतनाचे अंशराशीकरण करू शकतो. यासाठी विहित नमुन्यातील अर्ज संबंधित कार्यालय प्रमुखांमार्फत नियंत्रक कार्यालयातील पेन्शन कक्षाकडे सादर करावा लागतो."
+    },
+    {
+      "qEn": "How is the General Provident Fund (GPF) final balance settled after retirement?",
+      "qMr": "सेवानिवृत्तीनंतर भविष्य निर्वाह निधी (GPF) ची अंतिम शिल्लक रक्कम कशी मिळते?",
+      "aEn": "Three months prior to the date of retirement, the employee should submit Form 'B' along with the last credit slip to the Comptroller Office. The final payment order including up-to-date interest is issued promptly on the date of superannuation.",
+      "aMr": "सेवानिवृत्तीच्या दिनांकापूर्वी ३ महिने अगोदर कर्मचाऱ्याने विहित 'ब' नमुन्यातील अर्ज व चालू आर्थिक वर्षाचे वर्गणी विवरण पत्रक नियंत्रक कार्यालयास सादर करावे. सेवानिवृत्तीच्या दिवशी संपूर्ण व्याजासह अंतिम रकमेचा धनादेश/खात्यात हस्तांतरण आदेश जारी केला जातो."
+    },
+    {
+      "qEn": "What are the deadlines and proforma for Annual Performance Appraisal Reports (APAR)?",
+      "qMr": "वार्षिक गोपनीय अहवाल (APAR) सादर करण्याची मुदत व कार्यपद्धती काय आहे?",
+      "aEn": "Every employee must submit their self-appraisal by 15th April for the preceding financial year. The Reporting Officer completes evaluation by 31st May, and the Reviewing Authority finalizes grades by 30th June for inclusion in the official dossier.",
+      "aMr": "प्रत्येक कर्मचाऱ्याने वित्तीय वर्ष संपल्यानंतर १५ एप्रिलपर्यंत आपला स्वयंकूल्यांकन अहवाल सादर करणे आवश्यक आहे. प्रतिवेदन अधिकाऱ्याने ३१ मे पर्यंत व पुनर्विलोकन अधिकाऱ्याने ३० जूनपर्यंत मूल्यमापन पूर्ण करून कुलसचिव आस्थापना विभागाकडे सादर करणे बंधनकारक असते."
+    }
+  ]
 }

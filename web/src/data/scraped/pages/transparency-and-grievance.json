@@ -1,12 +1,12 @@
 {
   "slug": "transparency-and-grievance",
-  "url": "/transparency",
-  "route": "transparency",
-  "sourcePage": "https://mpkv.ac.in/Transparency",
-  "scrapedAt": "2026-11-25T07:43:26.352Z",
+  "url": "/Home/GrievanceRedressalSystem",
+  "route": "transparency-and-grievance",
+  "sourcePage": "https://mpkv.ac.in/Home/GrievanceRedressalSystem",
+  "scrapedAt": "2026-11-26T14:50:00.000Z",
   "title": {
-    "en": "Transparency, RTI & Public Grievance Portal",
-    "mr": "पारदर्शकता, माहिती अधिकार व लोकतक्रार निवारण दालन"
+    "en": "Statutory Transparency, RTI & Grievance Redressal System",
+    "mr": "वैधानिक पारदर्शकता, माहिती अधिकार (RTI) व तक्रार निवारण प्रणाली"
   },
   "breadcrumb": [
     {
@@ -18,429 +18,240 @@
     },
     {
       "title": {
-        "en": "Transparency & RTI",
-        "mr": "पारदर्शकता व माहिती अधिकार"
+        "en": "Transparency & Grievance",
+        "mr": "पारदर्शकता व तक्रार निवारण"
       },
-      "url": "/transparency"
+      "url": "/Home/GrievanceRedressalSystem"
     }
   ],
   "hero": {
     "title": {
-      "en": "Transparency & RTI Desk",
-      "mr": "पारदर्शकता व माहिती अधिकार कक्ष"
+      "en": "Statutory Transparency & Grievance Redressal System",
+      "mr": "वैधानिक पारदर्शकता व तक्रार निवारण प्रणाली"
     },
     "subtitle": {
-      "en": "Statutory Information Under Right to Information (RTI) Act 2005 and Maharashtra Right to Public Services Act 2015",
-      "mr": "माहितीचा अधिकार अधिनियम २००५ व महाराष्ट्र लोकसेवा हक्क अधिनियम २०१५ अंतर्गत वैधानिक माहिती व सेवा"
+      "en": "Fulfilling our institutional mandate under Right to Information (RTI) Act 2005, Maharashtra Right to Public Services Act 2015, POSH Act 2013, and UGC Anti-Ragging Regulations.",
+      "mr": "माहितीचा अधिकार अधिनियम २००५, महाराष्ट्र लोकसेवा हक्क अधिनियम २०१५ (आपले सरकार), लैंगिक छळ प्रतिबंधक कायदा २०१३ व यूजीसी रॅगिंग प्रतिबंधक नियमांन्वये वैधानिक हमी."
     },
     "badge": {
-      "en": "Statutory Transparency & RTI",
-      "mr": "वैधानिक पारदर्शकता व आरटीआय"
+      "en": "Statutory Governance & Public Accountability",
+      "mr": "वैधानिक संचलन व जन उत्तरदायित्व"
     }
   },
-  "paragraphs": [
+  "topLinks": [
     {
-      "text": {
-        "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri is committed to complete administrative transparency, accountable public service delivery, and statutory compliance under the Right to Information (RTI) Act, 2005 and Maharashtra Right to Public Services Act, 2015. Citizens and stakeholders can access university records, seek official information, and avail time-bound notified public services.",
-        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी हे माहितीचा अधिकार अधिनियम २००५ (RTI) आणि महाराष्ट्र लोकसेवा हक्क अधिनियम २०१५ नुसार पारदर्शक व गतिमान प्रशासनासाठी कटिबद्ध आहे. नागरिक आणि शेतकरी बंधूंना विद्यापीठाची माहिती, सेवा व प्रमाणपत्रे विहित वेळेत प्राप्त व्हावीत यासाठी नोडल अधिकारी नियुक्त करण्यात आले आहेत."
+      "title": {
+        "en": "RTI Manual & Act",
+        "mr": "माहिती अधिकार अधिनियम व नियम"
       },
-      "order": 1
+      "fileUrl": "/media/docs/transparency/RTI.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
+      "tag": "RTI Act 2005"
     },
     {
-      "text": {
-        "en": "To ensure fairness, the university maintains an online and physical grievance redressal cell, anti-ragging committees across all constituent campuses, an Internal Complaints Committee (ICC for women safety), and an appellate mechanism headed by the University Registrar.",
-        "mr": "तक्रार निवारणासाठी विद्यापीठात ऑनलाइन व प्रत्यक्ष तक्रार निवारण कक्ष, सर्व महाविद्यालयांमध्ये रॅगिंग विरोधी समिती, महिला तक्रार निवारण समिती (ICC) आणि कुलसचिवांच्या अध्यक्षतेखालील प्रथम अपिलीय प्राधिकरण सक्रिय आहे."
+      "title": {
+        "en": "Right to Public Services (RTS)",
+        "mr": "महाराष्ट्र लोकसेवा हक्क नियम"
       },
-      "order": 2
-    }
-  ],
-  "tables": [
-    {
-      "id": "table_rti_officers",
-      "caption": {
-        "en": "Right to Information (RTI Act 2005) Designated Officers Directory",
-        "mr": "माहितीचा अधिकार (RTI Act २००५) नियुक्त अधिकाऱ्यांची निर्देशिका"
-      },
-      "headers": [
-        {
-          "en": "Sr.No",
-          "mr": "अ.क्र."
-        },
-        {
-          "en": "RTI Authority Level",
-          "mr": "प्राधिकरण स्तर"
-        },
-        {
-          "en": "Designated Officer",
-          "mr": "नियुक्त अधिकारी"
-        },
-        {
-          "en": "Scope & Jurisdiction",
-          "mr": "अधिकार क्षेत्र"
-        },
-        {
-          "en": "Official Contact & Address",
-          "mr": "संपर्क व पत्ता"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "१"
-            }
-          },
-          {
-            "text": {
-              "en": "First Appellate Authority (FAA)",
-              "mr": "प्रथम अपिलीय अधिकारी"
-            }
-          },
-          {
-            "text": {
-              "en": "Registrar, MPKV Rahuri",
-              "mr": "कुलसचिव, मफुकृवि राहुरी"
-            }
-          },
-          {
-            "text": {
-              "en": "Entire University Administrative Jurisdiction",
-              "mr": "संपूर्ण विद्यापीठ प्रशासकीय कार्यक्षेत्र"
-            }
-          },
-          {
-            "text": {
-              "en": "Central Campus, Rahuri (02426-243216)",
-              "mr": "मध्यवर्ती परिसर, राहुरी (०२४२६-२४३२१६)"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "२"
-            }
-          },
-          {
-            "text": {
-              "en": "Central Public Information Officer (CPIO)",
-              "mr": "केंद्रीय जनमाहिती अधिकारी (प्रशासन)"
-            }
-          },
-          {
-            "text": {
-              "en": "Assistant Registrar (Administration)",
-              "mr": "सहायक कुलसचिव (प्रशासन)"
-            }
-          },
-          {
-            "text": {
-              "en": "Central Administration & University Records",
-              "mr": "मध्यवर्ती प्रशासन व विद्यापीठ अभिलेख"
-            }
-          },
-          {
-            "text": {
-              "en": "Registrar Office, Rahuri (02426-243216)",
-              "mr": "कुलसचिव कार्यालय, राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "३"
-            }
-          },
-          {
-            "text": {
-              "en": "Public Information Officer (Academic)",
-              "mr": "जनमाहिती अधिकारी (शैक्षणिक)"
-            }
-          },
-          {
-            "text": {
-              "en": "Assistant Registrar (Education)",
-              "mr": "सहायक कुलसचिव (शिक्षण)"
-            }
-          },
-          {
-            "text": {
-              "en": "Student Admissions, Examinations & Degrees",
-              "mr": "विद्यार्थी प्रवेश, परीक्षा, पदव्या व गुणपत्रके"
-            }
-          },
-          {
-            "text": {
-              "en": "Academic Branch, MPKV Rahuri",
-              "mr": "शैक्षणिक शाखा, मफुकृवि राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "४"
-            }
-          },
-          {
-            "text": {
-              "en": "Public Information Officer (Research)",
-              "mr": "जनमाहिती अधिकारी (संशोधन)"
-            }
-          },
-          {
-            "text": {
-              "en": "Assistant Registrar (Research)",
-              "mr": "सहायक कुलसचिव (संशोधन)"
-            }
-          },
-          {
-            "text": {
-              "en": "Research Schemes, AICRP, Patents & Farm Implements",
-              "mr": "संशोधन योजना, पेटंट्स व शेती अवजारे"
-            }
-          },
-          {
-            "text": {
-              "en": "Directorate of Research, Rahuri",
-              "mr": "संशोधन संचालनालय, राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "५"
-            }
-          },
-          {
-            "text": {
-              "en": "Public Information Officer (Pune Campus)",
-              "mr": "जनमाहिती अधिकारी (पुणे कॅम्पस)"
-            }
-          },
-          {
-            "text": {
-              "en": "Assistant Registrar, College of Agri Pune",
-              "mr": "सहायक कुलसचिव, कृषि महाविद्यालय पुणे"
-            }
-          },
-          {
-            "text": {
-              "en": "Pune College Campus & Sub-Stations",
-              "mr": "पुणे महाविद्यालय परिसर व उपकेंद्रे"
-            }
-          },
-          {
-            "text": {
-              "en": "Shivajinagar, Pune (020-25537033)",
-              "mr": "शिवाजीनगर, पुणे (०२०-२५५३७०३३)"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "६"
-            }
-          },
-          {
-            "text": {
-              "en": "Public Information Officer (Kolhapur Campus)",
-              "mr": "जनमाहिती अधिकारी (कोल्हापूर कॅम्पस)"
-            }
-          },
-          {
-            "text": {
-              "en": "Assistant Registrar, RCSM College Kolhapur",
-              "mr": "सहायक कुलसचिव, राछशाम महाविद्यालय कोल्हापूर"
-            }
-          },
-          {
-            "text": {
-              "en": "Kolhapur Campus & Regional Stations",
-              "mr": "कोल्हापूर परिसर व विभागीय केंद्रे"
-            }
-          },
-          {
-            "text": {
-              "en": "Kasaba Bawada, Kolhapur (0231-2605851)",
-              "mr": "कसबा बावडा, कोल्हापूर (०२३१-२६०५८५१)"
-            }
-          }
-        ]
-      ],
-      "rowCount": 6,
-      "columnCount": 5
+      "fileUrl": "/media/docs/transparency/Right_to_Service.pdf",
+      "externalUrl": "https://mpkv.ac.in/StaticPdf/Right%20to%20Service%20(1).pdf",
+      "tag": "RTS 2015"
     },
     {
-      "id": "table_rts_services",
-      "caption": {
-        "en": "Right to Public Services (RTS Act 2015) Notified University Services",
-        "mr": "महाराष्ट्र लोकसेवा हक्क (RTS Act २०१५) अधिसूचित विद्यापीठ सेवा"
+      "title": {
+        "en": "Aaple Sarkar Portal",
+        "mr": "आपले सरकार पोर्टल (महाऑनलाइन)"
       },
-      "headers": [
-        {
-          "en": "Sr.No",
-          "mr": "अ.क्र."
-        },
-        {
-          "en": "Notified Public Service",
-          "mr": "अधिसूचित लोकसेवा"
-        },
-        {
-          "en": "Designated Officer",
-          "mr": "पदनिर्देशित अधिकारी"
-        },
-        {
-          "en": "Stipulated Time Limit",
-          "mr": "विहित कालमर्यादा"
-        },
-        {
-          "en": "First Appellate Officer",
-          "mr": "प्रथम अपिलीय अधिकारी"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "१"
-            }
-          },
-          {
-            "text": {
-              "en": "Issue of Official Degree Transcript / Grade Cards",
-              "mr": "अधिकृत पदवी ट्रान्सक्रिप्ट / गुणपत्रिका देणे"
-            }
-          },
-          {
-            "text": {
-              "en": "Assistant Registrar (Academic)",
-              "mr": "सहायक कुलसचिव (शिक्षण)"
-            }
-          },
-          {
-            "text": {
-              "en": "15 Working Days",
-              "mr": "१५ कामाचे दिवस"
-            }
-          },
-          {
-            "text": {
-              "en": "Registrar, MPKV Rahuri",
-              "mr": "कुलसचिव, मफुकृवि राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "२"
-            }
-          },
-          {
-            "text": {
-              "en": "Verification of Educational Degree Certificates",
-              "mr": "शैक्षणिक पदवी प्रमाणपत्रांचे अधिकृत पडताळणी"
-            }
-          },
-          {
-            "text": {
-              "en": "Controller of Examinations",
-              "mr": "परीक्षा नियंत्रक"
-            }
-          },
-          {
-            "text": {
-              "en": "15 Working Days",
-              "mr": "१५ कामाचे दिवस"
-            }
-          },
-          {
-            "text": {
-              "en": "Registrar, MPKV Rahuri",
-              "mr": "कुलसचिव, मफुकृवि राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "३"
-            }
-          },
-          {
-            "text": {
-              "en": "Issue of Student Migration Certificate",
-              "mr": "स्थलांतर प्रमाणपत्र (मायग्रेशन) देणे"
-            }
-          },
-          {
-            "text": {
-              "en": "Assistant Registrar (Academic)",
-              "mr": "सहायक कुलसचिव (शिक्षण)"
-            }
-          },
-          {
-            "text": {
-              "en": "7 Working Days",
-              "mr": "७ कामाचे दिवस"
-            }
-          },
-          {
-            "text": {
-              "en": "Registrar, MPKV Rahuri",
-              "mr": "कुलसचिव, मफुकृवि राहुरी"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "४"
-            }
-          },
-          {
-            "text": {
-              "en": "Soil & Irrigation Water Health Card Testing Report",
-              "mr": "माती व पाणी तपासणी अहवाल देणे"
-            }
-          },
-          {
-            "text": {
-              "en": "In-Charge, Soil Testing Laboratory",
-              "mr": "प्रभारी, मृद परीक्षण प्रयोगशाळा"
-            }
-          },
-          {
-            "text": {
-              "en": "15 Working Days",
-              "mr": "१५ कामाचे दिवस"
-            }
-          },
-          {
-            "text": {
-              "en": "Associate Dean (Respective College)",
-              "mr": "सहयोगी अधिष्ठाता"
-            }
-          }
-        ]
-      ],
-      "rowCount": 4,
-      "columnCount": 5
+      "externalUrl": "https://aaplesarkar.mahaonline.gov.in/en",
+      "tag": "Government of Maharashtra"
+    },
+    {
+      "title": {
+        "en": "Online RTI Maharashtra",
+        "mr": "आरटीआय ऑनलाइन महाराष्ट्र"
+      },
+      "externalUrl": "https://rtionline.maharashtra.gov.in",
+      "tag": "Digital RTI Submission"
     }
   ],
-  "contentBlocks": []
+  "antiSexualHarassment": {
+    "title": {
+      "en": "Internal Complaints Committee (Anti-Sexual Harassment POSH Cell)",
+      "mr": "अंतर्गत तक्रार निवारण समिती (लैंगिक छळ प्रतिबंधक कक्ष)"
+    },
+    "mandate": {
+      "en": "Formed pursuant to Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 and UGC Regulations to ensure zero-tolerance towards harassment.",
+      "mr": "कामाच्या ठिकाणी महिलांचे लैंगिक छळापासून संरक्षण (प्रतिबंध, मनाई आणि निवारण) अधिनियम २०१३ व यूजीसी नियमांनुसार महिला व विद्यार्थिनींसाठी सुरक्षित वातावरण सुनिश्चित करणे."
+    },
+    "documents": [
+      {
+        "title": {
+          "en": "Prevention, Prohibition and Redressal Act, 2013",
+          "mr": "लैंगिक छळ प्रतिबंध, मनाई आणि निवारण अधिनियम, २०१३"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Sexual_Harassment_Act_2013.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/AntiAct.pdf"
+      },
+      {
+        "title": {
+          "en": "Committee Composition & Statutory Terms",
+          "mr": "समिती रचना व वैधानिक अधिकार"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Sexual_Harassment_Composition.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/AntiCompo.pdf"
+      },
+      {
+        "title": {
+          "en": "Notified University ICC Committee Order (Gazette)",
+          "mr": "अधिसूचित विद्यापीठ अंतर्गत तक्रार समिती आदेश (गॅझेट)"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Sexual_Harassment_Committees.pdf",
+        "externalUrl": "https://mpkv.ac.in/Uploads/Education/20260825_163230_922240bc8c94932b04f6693e2a1f96e4.pdf"
+      }
+    ]
+  },
+  "antiRagging": {
+    "title": {
+      "en": "Anti-Ragging Regulatory Cell & Monitoring Committee",
+      "mr": "रॅगिंग प्रतिबंधक नियामक कक्ष व सनियंत्रण समिती"
+    },
+    "mandate": {
+      "en": "Strict enforcement of UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009 with zero-tolerance policy across all campuses.",
+      "mr": "विद्यापीठ अनुदान आयोग (UGC) रॅगिंग प्रतिबंधक नियम २००९ व सुधारणांनुसार सर्व संलग्न महाविद्यालये व वसतिगृहांमध्ये रॅगिंग प्रतिबंधक कायद्याचे कठोर पालन."
+    },
+    "helpline": "1800-180-5522 (Toll Free National Anti-Ragging Helpline)",
+    "documents": [
+      {
+        "title": {
+          "en": "UGC Anti-Ragging Regulations, 2009",
+          "mr": "यूजीसी रॅगिंग प्रतिबंधक नियमावली, २००९"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Ragging_UGC_Regulations_2009.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/RagUgc.pdf"
+      },
+      {
+        "title": {
+          "en": "First Amendment (2012)",
+          "mr": "पहिली सुधारणा (२०१२)"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Ragging_First_Amendment_2012.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/RagFirst.pdf"
+      },
+      {
+        "title": {
+          "en": "Second Amendment (2013)",
+          "mr": "दुसरी सुधारणा (२०१३)"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Ragging_Second_Amendment_2013.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/RagScond.pdf"
+      },
+      {
+        "title": {
+          "en": "Third Amendment (2016)",
+          "mr": "तिसरी सुधारणा (२०१६)"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Ragging_Third_Amendment_2016.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/RagThird.pdf"
+      },
+      {
+        "title": {
+          "en": "Anti-Ragging Squad & Committee Composition",
+          "mr": "रॅगिंग विरोधी पथक व समिती रचना"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Ragging_Composition.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/Composion.pdf"
+      },
+      {
+        "title": {
+          "en": "Notified Anti-Ragging Committees Order",
+          "mr": "अधिसूचित रॅगिंग विरोधी समिती आदेश"
+        },
+        "fileUrl": "/media/docs/transparency/Anti_Ragging_Committees.pdf",
+        "externalUrl": "https://mpkv.ac.in/Uploads/Education/1223_20240809043124.pdf"
+      }
+    ]
+  },
+  "vigilanceAndGrievance": {
+    "title": {
+      "en": "Vigilance & Grievance Redressal System",
+      "mr": "दक्षता व तक्रार निवारण प्रणाली"
+    },
+    "mandate": {
+      "en": "Official statutory committees notified by university order for prompt redressal of grievances of students, faculty, staff and general public.",
+      "mr": "विद्यार्थी, प्राध्यापक, शिक्षकेतर कर्मचारी व नागरिक यांच्या तक्रारींच्या विहित मुदतीत निवारणासाठी अधिकृत दक्षता व तक्रार निवारण समित्या."
+    },
+    "documents": [
+      {
+        "title": {
+          "en": "Vigilance and Grievance Redressal Committees Notification",
+          "mr": "दक्षता व तक्रार निवारण समिती अधिकृत अधिसूचना"
+        },
+        "fileUrl": "/media/docs/transparency/Vigilance_Grievance_Redressal_Committees.pdf",
+        "externalUrl": "https://mpkv.ac.in/StaticPdf/Notification.pdf"
+      }
+    ]
+  },
+  "districts": [
+    "Ahmednagar",
+    "Akola",
+    "Amravati",
+    "Sambhajinagar",
+    "Beed",
+    "Bhandara",
+    "Buldhana",
+    "Chandrapur",
+    "Dhule",
+    "Gadchiroli",
+    "Gondia",
+    "Hingoli",
+    "Jalgaon",
+    "Jalna",
+    "Kolhapur",
+    "Latur",
+    "Mumbai",
+    "Nagpur",
+    "Nanded",
+    "Nandurbar",
+    "Nashik",
+    "Osmanabad",
+    "Palghar",
+    "Parbhani",
+    "Pune",
+    "Raigad",
+    "Ratnagiri",
+    "Sangli",
+    "Satara",
+    "Sindhudurg",
+    "Solapur",
+    "Thane",
+    "Wardha",
+    "Washim",
+    "Yavatmal"
+  ],
+  "departments": [
+    "Agriculture Agronomy",
+    "Dairy Science",
+    "Seed Science & Technology",
+    "Agriculture Soil Science Chemistry",
+    "Agriculture Plant Pathology",
+    "Agriculture Biotechnology & Physics",
+    "Horticulture",
+    "Agriculture Microbiology",
+    "Agriculture Irrigation Water Management",
+    "Agriculture Extension Education",
+    "Agriculture Plant Physiology",
+    "Agriculture Meteorology",
+    "Agriculture Entomology",
+    "Food Science & Technology",
+    "Agriculture Botany",
+    "Biochemistry",
+    "Animal Science & Husbandry and Dairy Science",
+    "Agriculture Economics",
+    "Fruit Science",
+    "Genetics and Plant Breeding",
+    "Soil Water Conservation",
+    "Irrigation Drainage Engineering",
+    "Agriculture Process Engineering",
+    "Farm Machinery and Power"
+  ]
 }

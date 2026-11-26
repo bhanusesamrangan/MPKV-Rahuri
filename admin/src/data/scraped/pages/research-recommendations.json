@@ -3,16 +3,45 @@
   "url": "https://mpkv.ac.in/Research/ResearchTechRecomm",
   "route": "/Research/ResearchTechRecomm",
   "sourcePage": "research-recommendations",
-  "scrapedAt": "2026-11-22T20:36:16.636323",
+  "scrapedAt": "2026-11-26T17:20:00.000000",
   "title": {
-    "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Agro Recommendations",
+    "mr": "कृषि शिफारसी"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Technology & Releases",
+        "mr": "प्रगत तंत्रज्ञान व वाण"
+      },
+      "href": "/research/recommendations"
+    },
+    {
+      "title": {
+        "en": "Agro Recommendations",
+        "mr": "कृषि शिफारसी"
+      },
+      "href": "/research/recommendations"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Technology Recommendations",
+      "mr": "Research Technology Recommendations"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Recommendations - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -2170,5 +2199,213 @@
     "noticeCount": 0,
     "mediaCount": 48,
     "totalRecords": 122
-  }
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Technology & Releases",
+    "mr": "प्रगत तंत्रज्ञान व वाण"
+  },
+  "annualRecommendations": [
+    {
+      "year": "2026",
+      "titleEn": "Joint AGRESCO Recommendations — 2026",
+      "titleMr": "संयुक्त अग्रेस्को कृषी शिफारसी — २०२६",
+      "badge": "Latest Cleared Gazette",
+      "descEn": "Full compendium of crop production, water management, plant protection, and farm machinery recommendations ratified at Joint AGRESCO 2026.",
+      "descMr": "संयुक्त अग्रेस्को २०२६ मध्ये मंजूर पीक उत्पादन तंत्रज्ञान, जलव्यवस्थापन, पीक संरक्षण व शेती अवजारांच्या सर्व शिफारसींचा अधिकृत संग्रह.",
+      "mrPdf": "/media/docs/recommendations/2026_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/2026_english.pdf",
+      "mrOriginalUrl": "https://mpkv.ac.in/Uploads/Research/20261027_115327_18a1e7ab94c9b553f6c5e5604178c005.pdf",
+      "enOriginalUrl": "https://mpkv.ac.in/Uploads/Research/20261027_115327_5b42efd8f990e9156cab3c7d463b64f9.pdf",
+      "mrSize": "648 KB",
+      "enSize": "509 KB"
+    },
+    {
+      "year": "2025",
+      "titleEn": "Joint AGRESCO Recommendations — 2025",
+      "titleMr": "संयुक्त अग्रेस्को कृषी शिफारसी — २०२५",
+      "badge": "Approved Compendium",
+      "descEn": "Complete package of scientific practices, nutrient dosages, micro-irrigation protocols, and pest management released in 2025.",
+      "descMr": "२०२५ मधील खत-पाणी मात्रा, सूक्ष्म सिंचन व एकात्मिक कीड व्यवस्थापनाच्या अधिकृत शिफारसी.",
+      "mrPdf": "/media/docs/recommendations/2025_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/2025_english.pdf",
+      "mrOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2025-Marathi_20250808051343.pdf",
+      "enOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2025-English_20250808061909.pdf",
+      "mrSize": "393 KB",
+      "enSize": "331 KB"
+    },
+    {
+      "year": "2024",
+      "titleEn": "Joint AGRESCO Recommendations — 2024",
+      "titleMr": "संयुक्त अग्रेस्को कृषी शिफारसी — २०२४",
+      "badge": "Official Gazette",
+      "descEn": "Annual statutory recommendations for Kharif, Rabi, and Summer crops approved by all 4 Maharashtra State Agricultural Universities.",
+      "descMr": "खरीप, रब्बी व उन्हाळी पिकांसाठी चारही कृषी विद्यापीठांनी संयुक्तपणे मंजूर केलेल्या अधिकृत शिफारसी.",
+      "mrPdf": "/media/docs/recommendations/2024_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/2024_english.pdf",
+      "mrOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2024-Marathi_20241017111319.pdf",
+      "enOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2024-English_20241017111319.pdf",
+      "mrSize": "430 KB",
+      "enSize": "301 KB"
+    },
+    {
+      "year": "2023",
+      "titleEn": "Joint AGRESCO Recommendations — 2023",
+      "titleMr": "संयुक्त अग्रेस्को कृषी शिफारसी — २०२३",
+      "badge": "Official Gazette",
+      "descEn": "Approved scientific package for natural farming, organic inputs, soil reclamation, and crop varieties cultivation guidelines.",
+      "descMr": "सेंद्रिय शेती, क्षारपड जमीन सुधारणा व पीक लागवड तंत्रज्ञानाविषयी २०२३ च्या शिफारसी.",
+      "mrPdf": "/media/docs/recommendations/2023_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/2023_english.pdf",
+      "mrOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2023-Marathi_20230913025314.pdf",
+      "enOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2023-English_20230913025314.pdf",
+      "mrSize": "211 KB",
+      "enSize": "286 KB"
+    },
+    {
+      "year": "2022",
+      "titleEn": "Joint AGRESCO Recommendations — 2022",
+      "titleMr": "संयुक्त अग्रेस्को कृषी शिफारसी — २०२२",
+      "badge": "Official Gazette",
+      "descEn": "Golden Jubilee series agro-recommendations covering fruit orchards, dryland pulses, and sugarcane management.",
+      "descMr": "फळबागा, कोरडवाहू कडधान्ये व ऊस व्यवस्थापनाच्या २०२२ मधील सर्वंकष शिफारसी.",
+      "mrPdf": "/media/docs/recommendations/2022_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/2022_english.pdf",
+      "mrOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2022-Marathi_20230913025026.pdf",
+      "enOriginalUrl": "https://mpkv.ac.in/Uploads/Research/2022-English_20230913025026.pdf",
+      "mrSize": "501 KB",
+      "enSize": "430 KB"
+    }
+  ],
+  "cropwiseRecommendations": [
+    {
+      "sr": "6",
+      "titleEn": "Paddy / Rice (भात)",
+      "titleMr": "भात / Paddy",
+      "mrPdf": "/media/docs/recommendations/paddy_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/paddy_english.pdf",
+      "mrSize": "330 KB",
+      "enSize": "1.30 MB"
+    },
+    {
+      "sr": "7",
+      "titleEn": "Pearlmillet / Bajra (बाजरी)",
+      "titleMr": "बाजरी / Pearlmillet",
+      "mrPdf": "/media/docs/recommendations/bajara_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/pearlmillet_english.pdf",
+      "mrSize": "298 KB",
+      "enSize": "684 KB"
+    },
+    {
+      "sr": "8",
+      "titleEn": "Sorghum / Jowar (ज्वारी)",
+      "titleMr": "ज्वारी / Sorghum",
+      "mrPdf": "/media/docs/recommendations/rabbi_jowar_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/sorghum_english.pdf",
+      "mrSize": "308 KB",
+      "enSize": "1.24 MB"
+    },
+    {
+      "sr": "9",
+      "titleEn": "Wheat (गहू)",
+      "titleMr": "गहू / Wheat",
+      "mrPdf": "/media/docs/recommendations/wheat_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/wheat_english.pdf",
+      "mrSize": "279 KB",
+      "enSize": "1.25 MB"
+    },
+    {
+      "sr": "10",
+      "titleEn": "Maize (मका)",
+      "titleMr": "मका / Maize",
+      "mrPdf": "/media/docs/recommendations/maize_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/maize_english.pdf",
+      "mrSize": "208 KB",
+      "enSize": "890 KB"
+    },
+    {
+      "sr": "11",
+      "titleEn": "Minor Millets & Nutri Cereals (इतर पोषक भरड धान्य)",
+      "titleMr": "ईतर पोषक भरड धान्य",
+      "mrPdf": "/media/docs/recommendations/minor_millets_marathi.pdf",
+      "enPdf": null,
+      "mrSize": "237 KB"
+    },
+    {
+      "sr": "12",
+      "titleEn": "Chickpea & Pulses (कडधान्ये)",
+      "titleMr": "कडधान्ये / Chickpea",
+      "mrPdf": "/media/docs/recommendations/pulses_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/chickpea_english.pdf",
+      "mrSize": "290 KB",
+      "enSize": "828 KB"
+    },
+    {
+      "sr": "13",
+      "titleEn": "Oilseeds (गळीतधान्ये)",
+      "titleMr": "गळीतधान्ये / Oilseeds",
+      "mrPdf": "/media/docs/recommendations/oilseed_marathi.pdf",
+      "enPdf": null,
+      "mrSize": "519 KB"
+    },
+    {
+      "sr": "14",
+      "titleEn": "Sugarcane (ऊस)",
+      "titleMr": "ऊस / Sugarcane",
+      "mrPdf": "/media/docs/recommendations/sugarcane_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/sugarcane_english.pdf",
+      "mrSize": "442 KB",
+      "enSize": "2.03 MB"
+    },
+    {
+      "sr": "15",
+      "titleEn": "Cotton (कापूस)",
+      "titleMr": "कापूस / Cotton",
+      "mrPdf": "/media/docs/recommendations/cotton_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/cotton_english.pdf",
+      "mrSize": "489 KB",
+      "enSize": "1.62 MB"
+    },
+    {
+      "sr": "16",
+      "titleEn": "Fodder Crops (चारापिके)",
+      "titleMr": "चारापिके / Fodder",
+      "mrPdf": "/media/docs/recommendations/fodder_crop_marathi.pdf",
+      "enPdf": null,
+      "mrSize": "277 KB"
+    },
+    {
+      "sr": "17",
+      "titleEn": "Vegetable Crops (भाजीपाला पिके)",
+      "titleMr": "भाजीपाला पिके / Vegetable",
+      "mrPdf": "/media/docs/recommendations/vegetable_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/vegetable_english.pdf",
+      "mrSize": "660 KB",
+      "enSize": "2.33 MB"
+    },
+    {
+      "sr": "18",
+      "titleEn": "Fruit Crops (फळ पिके)",
+      "titleMr": "फळ पिके / Fruit crops",
+      "mrPdf": "/media/docs/recommendations/fruit_crops_marathi.pdf",
+      "enPdf": "/media/docs/recommendations/fruit_crops_english.pdf",
+      "mrSize": "499 KB",
+      "enSize": "738 KB"
+    },
+    {
+      "sr": "19",
+      "titleEn": "Flower Crops (फुल पिके)",
+      "titleMr": "फुल पिके / Flower Crops",
+      "mrPdf": "/media/docs/recommendations/flower_crops_marathi.pdf",
+      "enPdf": null,
+      "mrSize": "212 KB"
+    }
+  ]
 }

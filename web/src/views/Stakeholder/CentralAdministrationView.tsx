@@ -26,7 +26,6 @@ import {
   Briefcase,
   Clock,
   ArrowRight,
-  ZoomIn,
   GitFork,
   ArrowDown,
   ChevronDown,
@@ -431,9 +430,12 @@ export const CentralAdministrationView: React.FC<CentralAdministrationViewProps>
       {/* 3. Main Navigation & Content Section */}
       <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-[50px] pb-16 space-y-8">
 
-        {/* 10 Unique Administration Tabs Strip (Flex-wrap ensures all 10 tabs are 100% visible with zero horizontal clipping) */}
-        <div className="p-3 sm:p-4 rounded-2xl bg-white border border-stone-200/90 shadow-xs">
-          <div className="flex flex-wrap items-center gap-2">
+        {/* 10 Unique Administration Tabs Strip (Guaranteed flex-wrap with inline styles to prevent any browser/CSS clipping) */}
+        <div className="w-full p-3 sm:p-4 rounded-2xl bg-white border border-stone-200/90 shadow-xs overflow-visible">
+          <div
+            className="flex flex-wrap items-center gap-2 w-full"
+            style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', width: '100%' }}
+          >
             {tabsList.map((tab) => {
               const isActive = activeTab === tab.key;
               const Icon = tab.icon;
@@ -442,7 +444,7 @@ export const CentralAdministrationView: React.FC<CentralAdministrationViewProps>
                   key={tab.key}
                   type="button"
                   onClick={() => handleTabChange(tab.key)}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 shrink-0 ${
                     isActive
                       ? 'bg-emerald-900 text-white shadow-xs'
                       : 'bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200/60'

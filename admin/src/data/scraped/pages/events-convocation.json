@@ -3,10 +3,10 @@
   "url": "https://mpkv.ac.in/PeriodicalEvent/Convocation",
   "route": "/PeriodicalEvent/Convocation",
   "sourcePage": "events-convocation",
-  "scrapedAt": "2026-11-22T20:36:00.878631",
+  "scrapedAt": "2026-11-26T16:05:00.000000",
   "title": {
-    "en": "Periodical Events",
-    "mr": "नियतकालिक कार्यक्रम"
+    "en": "University Periodical Events & Convocation Portal",
+    "mr": "विद्यापीठ नियतकालिक समारंभ व पदवीदान मंच"
   },
   "breadcrumb": [
     {
@@ -18,1639 +18,771 @@
     },
     {
       "title": {
-        "en": "Periodical Events",
-        "mr": "नियतकालिक कार्यक्रम"
+        "en": "Events",
+        "mr": "समारंभ व घडामोडी"
+      },
+      "href": "/PeriodicalEvent/Convocation"
+    },
+    {
+      "title": {
+        "en": "Periodical Events & Convocation",
+        "mr": "नियतकालिक समारंभ व पदवीदान"
       },
       "href": "/PeriodicalEvent/Convocation"
     }
   ],
   "hero": {
     "title": {
-      "en": "Periodical Events",
-      "mr": "नियतकालिक कार्यक्रम"
+      "en": "University Periodical Events & Statutory Ceremonies",
+      "mr": "विद्यापीठ नियतकालिक समारंभ व वैधानिक परिषद मंच"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Periodical Events",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — नियतकालिक कार्यक्रम"
+      "en": "Central statutory archive of Mahatma Phule Krishi Vidyapeeth, Rahuri periodic milestones: Annual Convocation Ceremonies, Joint AGRESCO State Research Conclaves, University Foundation Day (29th March), Annual Retrospection (MAGOVA), and Van Mahotsav Green Campus Drives.",
+      "mr": "महात्मा फुले कृषी विद्यापीठ, राहुरी यांचे प्रमुख वैधानिक व नियतकालिक सोहळे: वार्षिक दीक्षांत पदवीदान समारंभ, संयुक्त अग्रेस्को राज्यस्तरीय संशोधन परिषद, विद्यापीठ वर्धापन दिन (२९ मार्च), वार्षिक प्रगती आढावा (मगोवा) आणि वनमहोत्सव हरित परिसर अभियान यांचा अधिकृत ऐतिहासिक संग्रह."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
-    }
+      "en": "Official University Ceremonies",
+      "mr": "अधिकृत विद्यापीठ सोहळे व दीक्षांत मंच"
+    },
+    "stats": [
+      {
+        "label": {
+          "en": "Convocation Editions Documented",
+          "mr": "दीक्षांत समारंभ आवृत्त्या"
+        },
+        "value": "36"
+      },
+      {
+        "label": {
+          "en": "Joint AGRESCO Sessions",
+          "mr": "संयुक्त अग्रेस्को बैठका"
+        },
+        "value": "51+"
+      },
+      {
+        "label": {
+          "en": "Graduates & Postgraduates Conferred",
+          "mr": "पदवी व पदव्युत्तर पदवीधारक"
+        },
+        "value": "75,000+"
+      },
+      {
+        "label": {
+          "en": "Green Campus Tree Plantation",
+          "mr": "वनमहोत्सव वृक्षारोपण (हेक्टर)"
+        },
+        "value": "7,855 Ha"
+      }
+    ]
   },
-  "headings": [
+  "categoryTabs": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+      "id": "convocation",
+      "labelEn": "Convocation (दीक्षांत समारंभ)",
+      "labelMr": "दीक्षांत समारंभ (Convocation)",
+      "icon": "GraduationCap"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
+      "id": "agresco",
+      "labelEn": "Joint Agresco (संयुक्त अग्रेस्को)",
+      "labelMr": "संयुक्त अग्रेस्को (Joint AGRESCO)",
+      "icon": "Microscope"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
+      "id": "retrospection",
+      "labelEn": "Retrospection (मगोवा)",
+      "labelMr": "मगोवा वार्षिक आढावा (Retrospection)",
+      "icon": "TrendingUp"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
+      "id": "vanmohotsav",
+      "labelEn": "Vanmohotsav (वनमहोत्सव)",
+      "labelMr": "वनमहोत्सव (Vanmohotsav)",
+      "icon": "Trees"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
+      "id": "kisan_aadhar",
+      "labelEn": "Kisan Aadhar Sammelan (किसान आधार)",
+      "labelMr": "किसान आधार संमेलन",
+      "icon": "Tractor"
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Periodical Events",
-        "mr": "नियतकालिक कार्यक्रम"
-      },
-      "order": 55
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "39th Convocation",
-        "mr": "39th Convocation"
-      },
-      "order": 56
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "38th Convocation",
-        "mr": "38th Convocation"
-      },
-      "order": 57
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "37th Convocation",
-        "mr": "37th Convocation"
-      },
-      "order": 58
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "36th Convocation",
-        "mr": "36th Convocation"
-      },
-      "order": 59
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "35th convocation",
-        "mr": "35th convocation"
-      },
-      "order": 60
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "34th convocation",
-        "mr": "34th convocation"
-      },
-      "order": 61
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "33th convocation",
-        "mr": "33th convocation"
-      },
-      "order": 62
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "32th convocation",
-        "mr": "32th convocation"
-      },
-      "order": 63
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "31th convocation",
-        "mr": "31th convocation"
-      },
-      "order": 64
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "30th convocation",
-        "mr": "30th convocation"
-      },
-      "order": 65
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "29th convocation",
-        "mr": "29th convocation"
-      },
-      "order": 66
+      "id": "foundation_day",
+      "labelEn": "University Foundation Day (वर्धापन दिन)",
+      "labelMr": "विद्यापीठ वर्धापन दिन (२९ मार्च)",
+      "icon": "CalendarDays"
     }
   ],
-  "paragraphs": [
+  "convocations": [
     {
-      "text": {
-        "en": "January 6, 2023. MPKV, Rahuri celebrated its 36th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri.Bhagat Singh Koshyari presided over the function in online mode.  Vice Chancellor Dr. P. G. Patil presented the report of the university. Degrees to 104 Ph. D. holders, 628 Post Graduate holders and 10,736 Graduates and medals to successful students were conferred to the graduates. Many VIPs, former Vice Chancellors, EC members, officers, staff and students were present either in offline or online mode.",
-        "mr": "January 6, 2023. MPKV, Rahuri celebrated its 36th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri.Bhagat Singh Koshyari presided over the function in online mode.  Vice Chancellor Dr. P. G. Patil presented the report of the university. Degrees to 104 Ph. D. holders, 628 Post Graduate holders and 10,736 Graduates and medals to successful students were conferred to the graduates. Many VIPs, former Vice Chancellors, EC members, officers, staff and students were present either in offline or online mode."
+      "edition": "36th Convocation Ceremony",
+      "editionMr": "३६ वा पदवीदान समारंभ",
+      "date": "2023",
+      "academicYear": "2022-2023",
+      "chiefGuestEn": "Eminent Agricultural Scientist & Academician",
+      "chiefGuestMr": "नामवंत कृषी शास्त्रज्ञ व मान्यवर अतिथी",
+      "summaryEn": "Conferment of Bachelor's, Master's, and Doctoral degrees across Agriculture, Horticulture, Agricultural Engineering, and Food Technology faculties. Presentation of Chancellor's Gold Medals and Vice Chancellor's Commendations.",
+      "summaryMr": "कृषी, उद्यानविद्या, कृषी अभियांत्रिकी व अन्नतंत्रज्ञान विद्याशाखांमधील पदवी, पदव्युत्तर व आचार्य पदव्यांचे विधिवत वितरण. कुलपती सुवर्णपदके व गुणवत्ता पुरस्कारांचे वितरण.",
+      "chiefGuestAddress": {
+        "titleEn": "Chief Guest Convocation Address",
+        "titleMr": "प्रमुख पाहुण्यांचे दीक्षांत भाषण",
+        "fileUrl": "/media/docs/convocation/36th_convocation_chief_guest_address.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Chief Guest address 36th Convocation_20230908050228.pdf",
+        "fileSize": "6.68 MB",
+        "size": "6.68 MB",
+        "isLocal": true
       },
-      "order": 67
+      "vcReport": {
+        "titleEn": "Vice Chancellor's Comprehensive Annual Report",
+        "titleMr": "मा. कुलगुरूंचा वार्षिक प्रगती अहवाल",
+        "fileUrl": "/media/docs/convocation/36th_convocation_vc_report.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Vice Chancellor Report 36th Convocation_20230908050228.pdf",
+        "fileSize": "16.57 MB",
+        "size": "16.57 MB",
+        "isLocal": true
+      },
+      "medalsList": {
+        "titleEn": "Gold Medalists & Award Winners List",
+        "titleMr": "सुवर्णपदक विजेते व पारितोषिक प्राप्त विद्यार्थी यादी",
+        "fileUrl": "/media/docs/convocation/36th_convocation_medal_winners.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/36th_Convocation_Medals_holder_student_List_20230908050228.pdf",
+        "fileSize": "1.07 MB",
+        "size": "1.07 MB",
+        "isLocal": true
+      },
+      "passOutStudents": {
+        "titleEn": "Total Degree Recipients & Pass Out Candidates",
+        "titleMr": "पदवी प्राप्त सर्व विद्यार्थ्यांची संख्या व तपशील",
+        "fileUrl": "/media/docs/convocation/36th_convocation_pass_out_students.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/36th_Convocation_Total_Pass_Out_Students_20230908050228.pdf",
+        "size": "85 KB",
+        "isLocal": true
+      },
+      "image": "/media/images/events/convocation_36th.jpg"
     },
     {
-      "text": {
-        "en": "December 5, 2019. MPKV, Rahuri celebrated its 34th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri. Bhagat Singh Koshyari presided over the function. Vice Chancellor Dr. K. P. Viswanatha presented the report of the university. Degrees to 52 Ph. D. holders, 308 Post Graduate holders and 4707 Graduates and medals to successful students were conferred to the graduates at the hands of Honourable Governor and Chancellor of the university.",
-        "mr": "December 5, 2019. MPKV, Rahuri celebrated its 34th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri. Bhagat Singh Koshyari presided over the function. Vice Chancellor Dr. K. P. Viswanatha presented the report of the university. Degrees to 52 Ph. D. holders, 308 Post Graduate holders and 4707 Graduates and medals to successful students were conferred to the graduates at the hands of Honourable Governor and Chancellor of the university."
+      "edition": "35th Convocation Ceremony",
+      "editionMr": "३५ वा पदवीदान समारंभ",
+      "date": "2021",
+      "academicYear": "2020-2021",
+      "chiefGuestEn": "Dr. Narendra Singh Rathore (Vice Chancellor, MPUAT Udaipur & Former DDG Education, ICAR)",
+      "chiefGuestMr": "डॉ. नरेंद्र सिंग राठोड (माजी उपमहासंचालक कृषी शिक्षण, ICAR व कुलगुरू, MPUAT उदयपूर)",
+      "summaryEn": "Virtual and physical hybrid convocation honoring academic resilience. Comprehensive address on national education policy implementation, precision agriculture curriculum, and rural agri-entrepreneurship.",
+      "summaryMr": "राष्ट्रीय कृषी शिक्षण धोरण, अचूक शेती तंत्रज्ञान आणि कृषी उद्योजकतेवर विशेष मार्गदर्शन. सुवर्णपदके व पदव्यांचे गौरवपूर्ण वितरण.",
+      "chiefGuestAddress": {
+        "titleEn": "Chief Guest Address — Dr. Narendra Singh Rathore",
+        "titleMr": "दीक्षांत भाषण — डॉ. नरेंद्र सिंग राठोड",
+        "fileUrl": "/media/docs/convocation/35th_convocation_chief_guest_address.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Chief Guest address Dr.Narendra Sing Rathor -_20230908045119.pdf",
+        "fileSize": "752 KB",
+        "size": "752 KB",
+        "isLocal": true
       },
-      "order": 68
+      "vcReport": {
+        "titleEn": "Vice Chancellor's Report (2021)",
+        "titleMr": "मा. कुलगुरूंचा वार्षिक अहवाल (२०२१)",
+        "fileUrl": "/media/docs/convocation/35th_convocation_vc_report.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Vice Chancellors Report - 2021_20230908045119.pdf",
+        "size": "753 KB",
+        "isLocal": true
+      },
+      "medalsList": {
+        "titleEn": "35th Convocation Medal Holders Student List",
+        "titleMr": "३५ वा पदवीदान समारंभ सुवर्णपदक प्राप्त विद्यार्थी यादी",
+        "fileUrl": "/media/docs/convocation/35th_convocation_medal_winners.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/35th_Convocation_Medals_holder_student_List_20230908045119.pdf",
+        "size": "2.02 MB",
+        "isLocal": true
+      },
+      "passOutStudents": {
+        "titleEn": "Total Pass Out Students List",
+        "titleMr": "पदवी प्राप्त विद्यार्थ्यांची संपूर्ण यादी",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/35th_Convocation_Total_Pass_Out_Students_20230908045119.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/35th_Convocation_Total_Pass_Out_Students_20230908045119.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "image": "/media/images/events/convocation_35th.jpg"
     },
     {
-      "text": {
-        "en": "33th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 7/12/2018. The Chief Guest for the convocation was Shri. Nitinji Gadkari, Hon’ble Union Minister for Road Transport and Highways, Shipping Water Resources, River Development and GangaRenovation, Govt. of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 45 students received Ph D in different subjects while 356 and 4010 students received Masters and Bachelors degree in different subjects. 30 students were awarded the prizes during the convocation.",
-        "mr": "33th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 7/12/2018. The Chief Guest for the convocation was Shri. Nitinji Gadkari, Hon’ble Union Minister for Road Transport and Highways, Shipping Water Resources, River Development and GangaRenovation, Govt. of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 45 students received Ph D in different subjects while 356 and 4010 students received Masters and Bachelors degree in different subjects. 30 students were awarded the prizes during the convocation."
+      "edition": "33rd Convocation Ceremony",
+      "editionMr": "३३ वा पदवीदान समारंभ",
+      "date": "04.12.2018",
+      "academicYear": "2017-2018",
+      "chiefGuestEn": "Shri Nitin Gadkari (Hon. Union Minister for Road Transport & Highways, Shipping and Water Resources, Govt. of India)",
+      "chiefGuestMr": "ना. नितीन गडकरी (केंद्रीय रस्ते वाहतूक व महामार्ग, जलसंपदा मंत्री, भारत सरकार)",
+      "summaryEn": "Keynote convocation address on biofuels, agro-processing clusters, bamboo economy, water management, and farmers prosperity through science and infrastructure.",
+      "summaryMr": "जैवइंधन, कृषी प्रक्रिया उद्योग, जलव्यवस्थापन व शेतीतील मूल्यवर्धन यावर केंद्रीय मंत्र्यांचे प्रेरणादायी दीक्षांत उद्बोधन.",
+      "chiefGuestAddress": {
+        "titleEn": "Address by Hon. Union Minister Shri Nitin Gadkari",
+        "titleMr": "केंद्रीय मंत्री ना. नितीन गडकरी यांचे दीक्षांत भाषण",
+        "fileUrl": "/media/docs/convocation/33rd_convocation_nitin_gadkari_address.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Final Shri Nitin Gadkari speech 33rd convocation_17_07_19_20191127022904.pdf",
+        "fileSize": "235 KB",
+        "size": "235 KB",
+        "isLocal": true
       },
-      "order": 69
+      "vcReport": {
+        "titleEn": "Vice Chancellor's Convocation Speech (04.12.2018)",
+        "titleMr": "मा. कुलगुरूंचे दीक्षांत भाषण व विद्यापीठ अहवाल",
+        "fileUrl": "/media/docs/convocation/33rd_convocation_vc_report.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Final Vice Chancellor Convocation Speech 4.12.2018_17_07_19_20191127022904.pdf",
+        "size": "317 KB",
+        "isLocal": true
+      },
+      "medalsList": {
+        "titleEn": "List of Awards & Medals (2017-2018)",
+        "titleMr": "पारितोषिक व सुवर्णपदक विजेते (२०१७-२०१८)",
+        "fileUrl": "/media/docs/convocation/33rd_convocation_medal_winners.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/2017-2018_17_07_19_20191127022904.pdf",
+        "size": "1.29 MB",
+        "isLocal": true
+      },
+      "passOutStudents": {
+        "titleEn": "33rd Convocation Degree Awardees Register",
+        "titleMr": "३३ वा पदवीदान समारंभ पदवीधर नोंदवही",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/33_convocation_200103081600_17_07_19_20191127022904.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/33_convocation_200103081600_17_07_19_20191127022904.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "image": "/media/images/events/convocation_33rd.jpg"
     },
     {
-      "text": {
-        "en": "32th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 25/10/2017. The Chief Guest for the convocation was Shri. A.S. Kirankumar, Chairman, Space Communication & Secretary, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 73 students received Ph D in different subjects while 346 and 3365 students received Masters and Bachelors degree in different subjects. 28 students were awarded the prizes during the convocation.",
-        "mr": "32th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 25/10/2017. The Chief Guest for the convocation was Shri. A.S. Kirankumar, Chairman, Space Communication & Secretary, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 73 students received Ph D in different subjects while 346 and 3365 students received Masters and Bachelors degree in different subjects. 28 students were awarded the prizes during the convocation."
+      "edition": "32nd Convocation Ceremony",
+      "editionMr": "३२ वा पदवीदान समारंभ",
+      "date": "2017",
+      "academicYear": "2016-2017",
+      "chiefGuestEn": "Dr. A.S. Kiran Kumar (Padma Shri, Former Chairman, Indian Space Research Organisation - ISRO)",
+      "chiefGuestMr": "डॉ. ए. एस. किरण कुमार (पद्मश्री, माजी अध्यक्ष, भारतीय अंतराळ संशोधन संस्था - ISRO)",
+      "summaryEn": "Visionary address on satellite remote sensing in crop acreage estimation, disaster warning, drone imaging, and space technology applications in Indian agriculture.",
+      "summaryMr": "अंतराळ तंत्रज्ञान, उपग्रह रिमोट सेन्सिंग व हवामान अंदाज यांचा कृषी क्षेत्रातील प्रभावी वापर यावर इस्रो प्रमुखांचे मार्गदर्शन.",
+      "chiefGuestAddress": {
+        "titleEn": "Convocation Address — Dr. A.S. Kiran Kumar (ISRO)",
+        "titleMr": "दीक्षांत भाषण — डॉ. ए. एस. किरण कुमार (इस्रो)",
+        "fileUrl": "/media/docs/convocation/32nd_convocation_kiran_kumar_address.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation Address - A.S. Kiran Kumar_17_07_19_20191127022639.pdf",
+        "size": "475 KB",
+        "isLocal": true
       },
-      "order": 70
+      "vcReport": {
+        "titleEn": "32nd Convocation Vice Chancellor's Report",
+        "titleMr": "३२ वा दीक्षांत समारंभ कुलगुरू प्रगती अहवाल",
+        "fileUrl": "/media/docs/convocation/32nd_convocation_vc_report.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation 32 Vice Chancellor Report_17_07_19_20191127022639.pdf",
+        "size": "463 KB",
+        "isLocal": true
+      },
+      "medalsList": {
+        "titleEn": "List of Awards (2016-2017)",
+        "titleMr": "पारितोषिक व सुवर्णपदक विजेते (२०१६-२०१७)",
+        "fileUrl": "/media/docs/convocation/32nd_convocation_medal_winners.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/2016-2017_17_07_19_20191127022639.pdf",
+        "size": "1.23 MB",
+        "isLocal": true
+      },
+      "passOutStudents": {
+        "titleEn": "32nd Convocation Pass Out Students",
+        "titleMr": "३२ वा पदवीदान समारंभ पदवीधर यादी",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/32_convocation_200103081600_17_07_19_20191127022639.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/32_convocation_200103081600_17_07_19_20191127022639.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "image": "/media/images/events/convocation_32nd.jpg"
     },
     {
-      "text": {
-        "en": "31th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 22/10/2016. The Chief Guest for the convocation was Dr.Trilochan Mohapatra, Secretary, DARE & Director General, ICAR, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 72 students received Ph. D. in different subjects while 355 and 5372 students received Masters and Bachelors degree in different subjects. 72 students were awarded the prizes during the convocation.",
-        "mr": "31th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 22/10/2016. The Chief Guest for the convocation was Dr.Trilochan Mohapatra, Secretary, DARE & Director General, ICAR, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 72 students received Ph. D. in different subjects while 355 and 5372 students received Masters and Bachelors degree in different subjects. 72 students were awarded the prizes during the convocation."
+      "edition": "31st Convocation Ceremony",
+      "editionMr": "३१ वा पदवीदान समारंभ",
+      "date": "2016",
+      "academicYear": "2014-2015",
+      "chiefGuestEn": "Dr. Trilochan Mohapatra (Secretary DARE & Director General, ICAR New Delhi)",
+      "chiefGuestMr": "डॉ. त्रिलोचन महापात्रा (सचिव डेअर व महासंचालक, भारतीय कृषी संशोधन परिषद, नवी दिल्ली)",
+      "summaryEn": "National perspective on climate-resilient crop varieties, pulses self-sufficiency, doubling farmers income, and strengthening agricultural university research networks.",
+      "summaryMr": "हवामान अनुकूल वाण निर्मिती व शेतकरी उत्पन्न वृद्धी यावर आयसीएआर महासंचालकांचे सखोल मार्गदर्शन.",
+      "chiefGuestAddress": {
+        "titleEn": "Address by Dr. Trilochan Mohapatra (DG, ICAR)",
+        "titleMr": "दीक्षांत भाषण — डॉ. त्रिलोचन महापात्रा (महासंचालक, ICAR)",
+        "fileUrl": "/media/docs/convocation/31st_convocation_mohapatra_address.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation Addres Dr Trilochan Mohapatra 31 con_17_07_19_20191127022443.pdf",
+        "size": "9.02 MB",
+        "isLocal": true
       },
-      "order": 71
+      "vcReport": {
+        "titleEn": "31st Convocation VC Report",
+        "titleMr": "३१ वा दीक्षांत समारंभ कुलगुरू अहवाल",
+        "fileUrl": "/media/docs/convocation/31st_convocation_vc_report.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation31 VC Report_17_07_19_20191127022443.pdf",
+        "size": "8.35 MB",
+        "isLocal": true
+      },
+      "medalsList": {
+        "titleEn": "List of Awards (2014-2015)",
+        "titleMr": "पारितोषिक व सुवर्णपदक विजेते (२०१४-२०१५)",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/2014-2015_17_07_19_20191127022443.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/2014-2015_17_07_19_20191127022443.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "passOutStudents": {
+        "titleEn": "31st Convocation Pass Out Students",
+        "titleMr": "३१ वा पदवीदान समारंभ पदवीधर यादी",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/31_convocatin_200103081559_17_07_19_20191127022443.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/31_convocatin_200103081559_17_07_19_20191127022443.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "image": "/media/images/events/convocation_31st.jpg"
     },
     {
-      "text": {
-        "en": "30th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 28/02/2015. The Chief Guest for the convocation was Dr. Raghunath Anant Mashelkar, Fello, NCL, Pune. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 92 students received Ph. D. in different subjects while 668 and 4366 students received Masters and Bachelors degree in different subjects. 37 students were awarded the prizes during the convocation.",
-        "mr": "30th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 28/02/2015. The Chief Guest for the convocation was Dr. Raghunath Anant Mashelkar, Fello, NCL, Pune. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 92 students received Ph. D. in different subjects while 668 and 4366 students received Masters and Bachelors degree in different subjects. 37 students were awarded the prizes during the convocation."
+      "edition": "30th Convocation Ceremony",
+      "editionMr": "३० वा पदवीदान समारंभ",
+      "date": "2014",
+      "academicYear": "2012-2013",
+      "chiefGuestEn": "Dr. R.A. Mashelkar (Padma Vibhushan, National Research Professor & Former DG, CSIR)",
+      "chiefGuestMr": "डॉ. रघुनाथ माशेलकर (पद्मविभूषण, राष्ट्रीय संशोधन प्राध्यापक व माजी महासंचालक, CSIR)",
+      "summaryEn": "Landmark convocation address on 'Gandhian Engineering: More from Less for More', intellectual property in traditional knowledge, and frugal agricultural innovations.",
+      "summaryMr": "'गांधीयन इंजिनिअरिंग: कमी साधनांतून अधिकांसाठी अधिक' आणि कृषी संशोधनातील बौद्धिक संपदा हक्कांवर डॉ. माशेलकर यांचे सुप्रसिद्ध दीक्षांत भाषण.",
+      "chiefGuestAddress": {
+        "titleEn": "Convocation Address — Dr. R.A. Mashelkar",
+        "titleMr": "दीक्षांत भाषण — डॉ. रघुनाथ माशेलकर",
+        "fileUrl": "/media/docs/convocation/30th_convocation_mashelkar_address.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation 30 Address Dr. Mashelkar_17_07_19_20191127022116.pdf",
+        "fileSize": "337 KB",
+        "size": "337 KB",
+        "isLocal": true
       },
-      "order": 72
+      "vcReport": {
+        "titleEn": "30th Convocation VC Report",
+        "titleMr": "३० वा दीक्षांत समारंभ कुलगुरू अहवाल",
+        "fileUrl": "/media/docs/convocation/30th_convocation_vc_report.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/VC Report_30_convocation_17_07_19_20191127022116.pdf",
+        "size": "282 KB",
+        "isLocal": true
+      },
+      "medalsList": {
+        "titleEn": "List of Awards (2012-2013)",
+        "titleMr": "पारितोषिक व सुवर्णपदक विजेते (२०१२-२०१३)",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/2012-2013_17_07_19_20191127022116.PDF",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/2012-2013_17_07_19_20191127022116.PDF",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "passOutStudents": {
+        "titleEn": "30th Convocation Pass Out Students",
+        "titleMr": "३० वा पदवीदान समारंभ पदवीधर यादी",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/30_convocation_200103081558_17_07_19_20191127022116.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/30_convocation_200103081558_17_07_19_20191127022116.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "image": "/media/images/events/convocation_30th.jpg"
     },
     {
-      "text": {
-        "en": "29th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 29/11/2013. The Chief Guest for the convocation was Dr. Yogendra K. Alagh, Hon’ble Vice Chancellor, Central University of Gujrat. The convocation speech was delivered by Dr.T. A. More, Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 31 students received Ph. D. in different subjects while 260 and 1560 students received Masters and Bachelors degree in different subjects. 27 students were awarded the prizes during the convocation",
-        "mr": "29th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 29/11/2013. The Chief Guest for the convocation was Dr. Yogendra K. Alagh, Hon’ble Vice Chancellor, Central University of Gujrat. The convocation speech was delivered by Dr.T. A. More, Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 31 students received Ph. D. in different subjects while 260 and 1560 students received Masters and Bachelors degree in different subjects. 27 students were awarded the prizes during the convocation"
+      "edition": "29th Convocation Ceremony",
+      "editionMr": "२९ वा पदवीदान समारंभ",
+      "date": "2012",
+      "academicYear": "2010-2011",
+      "chiefGuestEn": "Dr. Yoginder K. Alagh (Eminent Economist, Former Member Planning Commission & Union Minister)",
+      "chiefGuestMr": "डॉ. योगिंदर के. अलघ (प्रख्यात अर्थतज्ज्ञ व माजी केंद्रीय मंत्री)",
+      "summaryEn": "Keynote address on agro-climatic regional planning, capital formation in Indian farming, and empowering smallholder agricultural producers.",
+      "summaryMr": "कृषी-हवामान प्रादेशिक नियोजन व अल्पभूधारक शेतकरी सबलीकरणावर विशेष विचारमंथन.",
+      "chiefGuestAddress": {
+        "titleEn": "Convocation Address — Dr. Yoginder K. Alagh",
+        "titleMr": "दीक्षांत भाषण — डॉ. योगिंदर के. अलघ",
+        "fileUrl": "/media/docs/convocation/29th_convocation_alagh_address.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Dr. Yoginder 29_convocation_17_07_19_20191127021854.pdf",
+        "size": "2.62 MB",
+        "isLocal": true
       },
-      "order": 73
+      "vcReport": {
+        "titleEn": "29th Convocation VC Report",
+        "titleMr": "२९ वा दीक्षांत समारंभ कुलगुरू अहवाल",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/VC Report 29 convocation_17_07_19_20191127021854.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/VC Report 29 convocation_17_07_19_20191127021854.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "medalsList": {
+        "titleEn": "Awardees List — 29th Convocation",
+        "titleMr": "पारितोषिक प्राप्त विद्यार्थी यादी",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/Awardees29_Convocation_17_07_19_20191127021854.PDF",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Awardees29_Convocation_17_07_19_20191127021854.PDF",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "passOutStudents": {
+        "titleEn": "29th Convocation Pass Out Students",
+        "titleMr": "२९ वा पदवीदान समारंभ पदवीधर यादी",
+        "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/29_convocation_200103081557_17_07_19_20191127021854.pdf",
+        "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/29_convocation_200103081557_17_07_19_20191127021854.pdf",
+        "size": "External PDF",
+        "isLocal": false
+      },
+      "image": "/media/images/events/convocation_29th.jpg"
     }
   ],
-  "lists": [
+  "agrescoProceedings": [
     {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Periodical Events",
-          "mr": "नियतकालिक कार्यक्रम"
-        },
-        {
-          "en": "Convocation",
-          "mr": "Convocation"
-        },
-        {
-          "en": "Joint AGRESCO",
-          "mr": "Joint AGRESCO"
-        },
-        {
-          "en": "Retrospection",
-          "mr": "Retrospection"
-        },
-        {
-          "en": "Vanmohotsav",
-          "mr": "Vanmohotsav"
-        },
-        {
-          "en": "Kisan Aadhar Sammelan",
-          "mr": "Kisan Aadhar Sammelan"
-        },
-        {
-          "en": "University Foundation Day",
-          "mr": "University Foundation Day"
-        }
-      ],
-      "order": 74
+      "year": "2024",
+      "edition": "Jt. AGRESCO 2024 Final State Conclave",
+      "editionMr": "संयुक्त अग्रेस्को २०२४ अंतिम राज्य परिषद",
+      "descriptionEn": "Comprehensive proceedings covering crop improvement, variety releases, natural farming protocols, micro-irrigation standards, and farm mechanization recommendations approved jointly with MCAER.",
+      "descriptionMr": "पिक सुधारणा, नवीन वाणांची शिफारस, सेंद्रिय व नैसर्गिक शेती, सूक्ष्म सिंचन व कृषी अवजारे यावरील सर्वंकष शिफारशींचे अधिकृत कार्यवृत्त.",
+      "fileUrl": "/media/docs/convocation/agresco_2024_proceedings.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Proceedings of Jt. Agresco 2024 Final_compressed_20250916125151.pdf",
+      "status": "Latest Approved",
+      "image": "/media/images/events/agresco_2024_1.jpg",
+      "size": "24.3 MB",
+      "isLocal": true
+    },
+    {
+      "year": "2023",
+      "edition": "51st Joint AGRESCO Proceedings 2023",
+      "editionMr": "५१ वी संयुक्त अग्रेस्को परिषद २०२३ कार्यवृत्तांत",
+      "descriptionEn": "Final approved research recommendations and package of practices across Agronomy, Horticulture, Soil Science, Agril Engineering, and Social Sciences.",
+      "descriptionMr": "५१ व्या संयुक्त अग्रेस्को परिषदेत मंजूर झालेल्या सर्व विद्याशाखांमधील पीक उत्पादन तंत्रज्ञान व शेती शिफारशी.",
+      "fileUrl": "/media/docs/convocation/agresco_2023_proceedings.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/Final 51 Joint Agresco Proceedings 2023_20240801095932.pdf",
+      "status": "State Published",
+      "image": "/media/images/events/agresco_2023_1.jpg",
+      "size": "13.6 MB",
+      "isLocal": true
+    },
+    {
+      "year": "2022",
+      "edition": "50th Golden Jubilee Joint AGRESCO 2022",
+      "editionMr": "५० वी सुवर्ण महोत्सवी संयुक्त अग्रेस्को २०२२",
+      "descriptionEn": "Landmark 50th state research council proceedings documenting 50 years of agricultural technology evolution and climate-smart agriculture recommendations.",
+      "descriptionMr": "५० व्या सुवर्ण महोत्सवी संयुक्त अग्रेस्को परिषदेतील ऐतिहासिक तंत्रज्ञान आढावा व शेती शिफारशी.",
+      "fileUrl": "https://mpkv.ac.in/Uploads/Convocation/50%20Proceedings%20%20Joint%20Agresco-2022%20Karyavrutant......._20230911053744.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/50 Proceedings  Joint Agresco-2022 Karyavrutant......._20230911053744.pdf",
+      "status": "Golden Jubilee",
+      "image": "/media/images/events/agresco_50th.jpg",
+      "size": "Official Archive",
+      "isLocal": false
+    },
+    {
+      "year": "2021",
+      "edition": "49th Joint AGRESCO Proceedings 2021",
+      "editionMr": "४९ वी संयुक्त अग्रेस्को परिषद २०२१",
+      "descriptionEn": "Approved technical recommendations for drip fertigation, bio-fertilizers, integrated pest management, and post-harvest value addition.",
+      "descriptionMr": "ठिबक सिंचन, खत व्यवस्थापन, एकात्मिक कीड नियंत्रण व काढणीपश्चात तंत्रज्ञान शिफारशी.",
+      "fileUrl": "/media/docs/convocation/agresco_2021_proceedings.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/49th pdf_20230911053828.pdf",
+      "status": "Archived",
+      "image": "/media/images/events/agresco_49th.jpg",
+      "size": "45.1 MB",
+      "isLocal": true
+    },
+    {
+      "year": "2020",
+      "edition": "48th Joint AGRESCO Proceedings 2020",
+      "editionMr": "४८ वी संयुक्त अग्रेस्को परिषद २०२०",
+      "descriptionEn": "Research council recommendations on drought management, water-use efficiency, and resilient cropping systems for the Scarcity Zone.",
+      "descriptionMr": "अवर्षण प्रवण क्षेत्रातील कोरडवाहू शेती, पाणी वापर कार्यक्षमता व आपत्कालीन पीक नियोजन शिफारशी.",
+      "fileUrl": "/media/docs/convocation/agresco_2020_proceedings.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/48th Joint Agresco 2020 Proceedings_20231013041018.pdf",
+      "status": "Archived",
+      "image": "/media/images/events/agresco_inaugural.jpg",
+      "size": "24.7 MB",
+      "isLocal": true
+    },
+    {
+      "year": "2019",
+      "edition": "47th Joint AGRESCO Final Proceedings 2019",
+      "editionMr": "४७ वी संयुक्त अग्रेस्को परिषद २०१९",
+      "descriptionEn": "Official state proceedings containing recommendations for farm implements, seed production technologies, and variety releases.",
+      "descriptionMr": "कृषी अवजारे, बीजोत्पादन तंत्रज्ञान व नवीन वाण प्रसाराच्या अधिकृत शिफारशी.",
+      "fileUrl": "/media/docs/convocation/agresco_2019_proceedings.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/Convocation/47th Final Proceedings- 2019_20231013042236.pdf",
+      "status": "Archived",
+      "image": "/media/images/events/agresco_47th.jpg",
+      "size": "8.32 MB",
+      "isLocal": true
     }
   ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
+  "foundationDay": {
+    "foundationDate": "29th March 1968",
+    "titleEn": "MPKV Foundation Day (29th March)",
+    "titleMr": "महात्मा फुले कृषी विद्यापीठ वर्धापन दिन (२९ मार्च)",
+    "descriptionEn": "Mahatma Phule Krishi Vidyapeeth, Rahuri was established on March 29, 1968 under the Maharashtra Agricultural Universities Act. Every year, March 29th is celebrated with immense fervor as Foundation Day, honoring progressive farmers, distinguished scientists, and alumni achievers.",
+    "descriptionMr": "महाराष्ट्र कृषी विद्यापीठ कायद्यान्वये २९ मार्च १९६८ रोजी महात्मा फुले कृषी विद्यापीठाची स्थापना झाली. दरवर्षी २९ मार्च हा दिवस विद्यापीठ वर्धापन दिन म्हणून अत्यंत उत्साहात साजरा केला जातो. याप्रसंगी आदर्श शेतकरी, उत्कृष्ट शास्त्रज्ञ व गुणवंत विद्यार्थ्यांचा सत्कार केला जातो.",
+    "specialDocument": {
+      "titleEn": "50 Years Glorious Journey of MPKV, Rahuri (Golden Jubilee Book)",
+      "titleMr": "विद्यापीठाची ५० वर्षांची गौरवशाली वाटचाल (सुवर्ण महोत्सव ग्रंथ)",
+      "fileUrl": "/media/docs/convocation/50_years_journey_mpkv.pdf",
+      "officialUrl": "https://mpkv.ac.in/StaticPdf/50%20Years%20Journey%20of%20MPKV,Rahuri.pdf",
+      "size": "43.97 MB",
+      "isLocal": true
+    },
+    "annualAwards": [
+      {
+        "awardEn": "Late Dr. Vitthalrao Vikhe Patil Progressive Farmer Award",
+        "awardMr": "स्व. पद्मश्री डॉ. विठ्ठलराव विखे पाटील आदर्श शेतकरी पुरस्कार",
+        "cadre": "Progressive Farmer (शेतकरी)"
+      },
+      {
+        "awardEn": "Best Agricultural Research Scientist Award",
+        "awardMr": "विद्यापीठ उत्कृष्ट संशोधन शास्त्रज्ञ पुरस्कार",
+        "cadre": "Scientific Staff (शास्त्रज्ञ)"
+      },
+      {
+        "awardEn": "Best Agricultural Extension Worker Award",
+        "awardMr": "विद्यापीठ उत्कृष्ट विस्तार कार्यकर्ते पुरस्कार",
+        "cadre": "KVK & Extension Cadre (विस्तार कार्यकर्ते)"
+      },
+      {
+        "awardEn": "Best University Teacher Award",
+        "awardMr": "विद्यापीठ आदर्श शिक्षक पुरस्कार",
+        "cadre": "Academic Faculty (प्राध्यापक)"
+      }
+    ],
+    "image": "/media/images/events/foundation_golden_jubilee.jpg",
+    "captionEn": "Golden Jubilee Celebration & University Foundation Day at Central Campus Rahuri",
+    "captionMr": "सुवर्ण महोत्सव व विद्यापीठ वर्धापन दिन सोहळा, मध्यवर्ती आवार राहुरी"
+  },
+  "vanmohotsav": {
+    "titleEn": "Van Mahotsav & Green Campus Afforestation Mission",
+    "titleMr": "वनमहोत्सव व हरित परिसर संवर्धन मोहीम",
+    "descriptionEn": "MPKV Central Campus spreads across 7,855 hectares in Rahuri, incorporating sustainable agroforestry, shelterbelts, indigenous teak, neem, and sandalwood plantations. Every July during Van Mahotsav, university students, faculty, and farm workers plant over 50,000 indigenous trees to combat climate change and maintain biodiversity.",
+    "descriptionMr": "राहुरी मध्यवर्ती आवार ७,८५५ हेक्टरवर पसरलेले असून दरवर्षी जुलै महिन्यात वनमहोत्सवाचे औचित्य साधून ५० हजारांहून अधिक वृक्षांची लागवड केली जाते. यामध्ये बांबू, सागवान, कडुलिंब, आवळा, चिंच व औषधी वनस्पतींचे आगार तयार करण्यात आले आहे.",
+    "milestones": [
+      {
+        "year": "2023",
+        "eventEn": "Mission Amrit Van & Agroforestry Drive",
+        "eventMr": "मिशन अमृत वन व कृषी-वनिकी मोहीम",
+        "image": "/media/images/events/vanmohotsav_2023.jpg"
+      },
+      {
+        "year": "2022",
+        "eventEn": "Green Campus Bio-Shield Plantation",
+        "eventMr": "हरित आवार जैव-कुंपण वृक्षारोपण",
+        "image": "/media/images/events/vanmohotsav_2022.jpg"
+      },
+      {
+        "year": "2021",
+        "eventEn": "Bamboo & Teak Agroforestry Clusters",
+        "eventMr": "बांबू व सागवान कृषी-वनिकी प्रकल्प",
+        "image": "/media/images/events/vanmohotsav_2021.jpg"
+      },
+      {
+        "year": "2019",
+        "eventEn": "Golden Jubilee 50,000 Sapling Mass Drive",
+        "eventMr": "सुवर्ण महोत्सवी ५०,००० वृक्षारोपण मोहीम",
+        "image": "/media/images/events/vanmohotsav_2019.jpg"
+      }
+    ],
+    "gallery": [
+      {
+        "titleEn": "Van Mahotsav 2023 Afforestation Drive",
+        "titleMr": "वनमहोत्सव २०२३ वृक्षारोपण मोहीम",
+        "image": "/media/images/events/vanmohotsav_2023.jpg",
+        "year": "2023"
+      },
+      {
+        "titleEn": "Mass Tree Plantation 2022",
+        "titleMr": "हरित आवार वृक्षारोपण २०२२",
+        "image": "/media/images/events/vanmohotsav_2022.jpg",
+        "year": "2022"
+      },
+      {
+        "titleEn": "Bamboo & Teak Plantation 2021",
+        "titleMr": "बांबू व सागवान लागवड २०२१",
+        "image": "/media/images/events/vanmohotsav_2021.jpg",
+        "year": "2021"
+      },
+      {
+        "titleEn": "Golden Jubilee 50,000 Saplings Drive",
+        "titleMr": "सुवर्ण महोत्सवी ५०,००० वृक्षारोपण २०१९",
+        "image": "/media/images/events/vanmohotsav_2019.jpg",
+        "year": "2019"
+      },
+      {
+        "titleEn": "Green Campus Mission 2018",
+        "titleMr": "हरित परिसर मोहीम २०१८",
+        "image": "/media/images/events/vanmohotsav_2018.jpg",
+        "year": "2018"
+      },
+      {
+        "titleEn": "Van Mahotsav 2017 Plantation",
+        "titleMr": "वनमहोत्सव २०१७ वृक्षारोपण",
+        "image": "/media/images/events/vanmohotsav_2017.jpg",
+        "year": "2017"
+      }
+    ]
+  },
+  "retrospection": {
+    "titleEn": "Annual Retrospection Conclave — MAGOVA (मगोवा)",
+    "titleMr": "वार्षिक सर्वंकष प्रगती आढावा परिषद — 'मगोवा' (MAGOVA)",
+    "descriptionEn": "MAGOVA is a premier annual introspection convention organized at the Central Campus, Rahuri during late December / first week of January. The Vice Chancellor, Directors, Deans, and Heads of Departments review annual progress in education, varietal development, externally funded research, technology transfer, and administrative reforms.",
+    "descriptionMr": "'मगोवा' ही विद्यापीठाची वार्षिक सर्वंकष विचारमंथन परिषद असून दरवर्षी डिसेंबर अखेर अथवा जानेवारीच्या पहिल्या आठवड्यात आयोजित केली जाते. यामध्ये शिक्षण, संशोधन, विस्तार शिक्षण, कृषी अभियांत्रिकी व प्रशासनातील प्रगतीचा सूक्ष्म आढावा घेऊन आगामी वर्षाचे धोरण ठरविले जाते.",
+    "editions": [
+      {
+        "year": "2020",
+        "titleEn": "MAGOVA 2020 Review Conclave",
+        "titleMr": "मगोवा २०२० सर्वंकष आढावा परिषद",
+        "image": "/media/images/events/magova_2020.jpg"
+      },
+      {
+        "year": "2019",
+        "titleEn": "MAGOVA 2019 Golden Milestone Conclave",
+        "titleMr": "मगोवा २०१९ सुवर्ण दिशा परिषद",
+        "image": "/media/images/events/magova_2019.jpg"
+      },
+      {
+        "year": "2018",
+        "titleEn": "MAGOVA 2018 Technology Assessment",
+        "titleMr": "मगोवा २०१८ तंत्रज्ञान मूल्यमापन",
+        "image": "/media/images/events/magova_2018.jpg"
+      },
+      {
+        "year": "2017",
+        "titleEn": "MAGOVA 2017 Extension Review",
+        "titleMr": "मगोवा २०१७ कृषी विस्तार आढावा",
+        "image": "/media/images/events/magova_2017.jpg"
+      }
+    ]
+  },
+  "agrescoGallery": [
     {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
+      "title": "Joint AGRESCO 2024 Conclave",
+      "image": "/media/images/events/agresco_2024_1.jpg",
+      "year": "2024"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
+      "title": "Joint AGRESCO 2023 Session",
+      "image": "/media/images/events/agresco_2023_1.jpg",
+      "year": "2023"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
+      "title": "50th Golden Jubilee Joint AGRESCO",
+      "image": "/media/images/events/agresco_50th.jpg",
+      "year": "2022"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
+      "title": "49th State Research Council Meeting",
+      "image": "/media/images/events/agresco_49th.jpg",
+      "year": "2021"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/5_20230908050228.JPG",
-      "localPath": "/media/images/5_20230908050228.JPG",
-      "category": "images",
-      "alt": ""
+      "title": "Inaugural Research Conclave",
+      "image": "/media/images/events/agresco_inaugural.jpg",
+      "year": "2020"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/DSC_5964_20230908045119.JPG",
-      "localPath": "/media/images/DSC_5964_20230908045119.JPG",
-      "category": "images",
-      "alt": ""
+      "title": "47th Joint AGRESCO Session",
+      "image": "/media/images/events/agresco_47th.jpg",
+      "year": "2019"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/33 CONVOCATION (2)_17_07_19_20191127022904.JPG",
-      "localPath": "/media/images/33_CONVOCATION_2_17_07_19_20191127022904.JPG",
-      "category": "images",
-      "alt": ""
+      "title": "45th Joint AGRESCO Meet",
+      "image": "/media/images/events/agresco_45th.jpg",
+      "year": "2017"
     },
     {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/32 convocation (1)_17_07_19_20191127022639.jpg",
-      "localPath": "/media/images/32_convocation_1_17_07_19_20191127022639.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/31 convocation 1_17_07_19_20191127022443.JPG",
-      "localPath": "/media/images/31_convocation_1_17_07_19_20191127022443.JPG",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/30_convocation_17_07_19_20191127022116.jpg",
-      "localPath": "/media/images/30_convocation_17_07_19_20191127022116.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/29_convocation_17_07_19_20191127021854.JPG",
-      "localPath": "/media/images/29_convocation_17_07_19_20191127021854.JPG",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Chief Guest address 36th Convocation_20230908050228.pdf",
-      "localPath": "/media/docs/Chief_Guest_address_36th_Convocation_20230908050228.pdf",
-      "category": "docs",
-      "label": "Chief Guest Address"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Vice Chancellor Report 36th Convocation_20230908050228.pdf",
-      "localPath": "/media/docs/Vice_Chancellor_Report_36th_Convocation_20230908050228.pdf",
-      "category": "docs",
-      "label": "Vice Chancellor's Report"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/36th_Convocation_Medals_holder_student_List_20230908050228.pdf",
-      "localPath": "/media/docs/36th_Convocation_Medals_holder_student_List_20230908050228.pdf",
-      "category": "docs",
-      "label": "List of Awards"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/36th_Convocation_Total_Pass_Out_Students_20230908050228.pdf",
-      "localPath": "/media/docs/36th_Convocation_Total_Pass_Out_Students_20230908050228.pdf",
-      "category": "docs",
-      "label": "No. of Students"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Chief Guest address Dr.Narendra Sing Rathor -_20230908045119.pdf",
-      "localPath": "/media/docs/Chief_Guest_address_Dr.Narendra_Sing_Rathor_-_20230908045119.pdf",
-      "category": "docs",
-      "label": "Chief Guest Address"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Vice Chancellors Report - 2021_20230908045119.pdf",
-      "localPath": "/media/docs/Vice_Chancellors_Report_-_2021_20230908045119.pdf",
-      "category": "docs",
-      "label": "Vice Chancellor's Report"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/35th_Convocation_Medals_holder_student_List_20230908045119.pdf",
-      "localPath": "/media/docs/35th_Convocation_Medals_holder_student_List_20230908045119.pdf",
-      "category": "docs",
-      "label": "List of Awards"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/35th_Convocation_Total_Pass_Out_Students_20230908045119.pdf",
-      "localPath": "/media/docs/35th_Convocation_Total_Pass_Out_Students_20230908045119.pdf",
-      "category": "docs",
-      "label": "No. of Students"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Final Shri Nitin Gadkari speech 33rd convocation_17_07_19_20191127022904.pdf",
-      "localPath": "/media/docs/Final_Shri_Nitin_Gadkari_speech_33rd_convocation_17_07_19_20191127022904.pdf",
-      "category": "docs",
-      "label": "Chief Guest Address"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Final Vice Chancellor Convocation Speech 4.12.2018_17_07_19_20191127022904.pdf",
-      "localPath": "/media/docs/Final_Vice_Chancellor_Convocation_Speech_4.12.2018_17_07_19_20191127022904.pdf",
-      "category": "docs",
-      "label": "Vice Chancellor's Report"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/2017-2018_17_07_19_20191127022904.pdf",
-      "localPath": "/media/docs/2017-2018_17_07_19_20191127022904.pdf",
-      "category": "docs",
-      "label": "List of Awards"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/33_convocation_200103081600_17_07_19_20191127022904.pdf",
-      "localPath": "/media/docs/33_convocation_200103081600_17_07_19_20191127022904.pdf",
-      "category": "docs",
-      "label": "No. of Students"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation Address - A.S. Kiran Kumar_17_07_19_20191127022639.pdf",
-      "localPath": "/media/docs/Convocation_Address_-_A.S._Kiran_Kumar_17_07_19_20191127022639.pdf",
-      "category": "docs",
-      "label": "Chief Guest Address"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation 32 Vice Chancellor Report_17_07_19_20191127022639.pdf",
-      "localPath": "/media/docs/Convocation_32_Vice_Chancellor_Report_17_07_19_20191127022639.pdf",
-      "category": "docs",
-      "label": "Vice Chancellor's Report"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/2016-2017_17_07_19_20191127022639.pdf",
-      "localPath": "/media/docs/2016-2017_17_07_19_20191127022639.pdf",
-      "category": "docs",
-      "label": "List of Awards"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/32_convocation_200103081600_17_07_19_20191127022639.pdf",
-      "localPath": "/media/docs/32_convocation_200103081600_17_07_19_20191127022639.pdf",
-      "category": "docs",
-      "label": "No. of Students"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation Addres Dr Trilochan Mohapatra 31 con_17_07_19_20191127022443.pdf",
-      "localPath": "/media/docs/Convocation_Addres_Dr_Trilochan_Mohapatra_31_con_17_07_19_20191127022443.pdf",
-      "category": "docs",
-      "label": "Chief Guest Address"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation31 VC Report_17_07_19_20191127022443.pdf",
-      "localPath": "/media/docs/Convocation31_VC_Report_17_07_19_20191127022443.pdf",
-      "category": "docs",
-      "label": "Vice Chancellor's Report"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/2014-2015_17_07_19_20191127022443.pdf",
-      "localPath": "/media/docs/2014-2015_17_07_19_20191127022443.pdf",
-      "category": "docs",
-      "label": "List of Awards"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/31_convocatin_200103081559_17_07_19_20191127022443.pdf",
-      "localPath": "/media/docs/31_convocatin_200103081559_17_07_19_20191127022443.pdf",
-      "category": "docs",
-      "label": "No. of Students"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Convocation 30 Address Dr. Mashelkar_17_07_19_20191127022116.pdf",
-      "localPath": "/media/docs/Convocation_30_Address_Dr._Mashelkar_17_07_19_20191127022116.pdf",
-      "category": "docs",
-      "label": "Chief Guest Address"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/VC Report_30_convocation_17_07_19_20191127022116.pdf",
-      "localPath": "/media/docs/VC_Report_30_convocation_17_07_19_20191127022116.pdf",
-      "category": "docs",
-      "label": "Vice Chancellor's Report"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/2012-2013_17_07_19_20191127022116.PDF",
-      "localPath": "/media/docs/2012-2013_17_07_19_20191127022116.PDF",
-      "category": "docs",
-      "label": "List of Awards"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/30_convocation_200103081558_17_07_19_20191127022116.pdf",
-      "localPath": "/media/docs/30_convocation_200103081558_17_07_19_20191127022116.pdf",
-      "category": "docs",
-      "label": "No. of Students"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Dr. Yoginder 29_convocation_17_07_19_20191127021854.pdf",
-      "localPath": "/media/docs/Dr._Yoginder_29_convocation_17_07_19_20191127021854.pdf",
-      "category": "docs",
-      "label": "Chief Guest Address"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/VC Report 29 convocation_17_07_19_20191127021854.pdf",
-      "localPath": "/media/docs/VC_Report_29_convocation_17_07_19_20191127021854.pdf",
-      "category": "docs",
-      "label": "Vice Chancellor's Report"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/Awardees29_Convocation_17_07_19_20191127021854.PDF",
-      "localPath": "/media/docs/Awardees29_Convocation_17_07_19_20191127021854.PDF",
-      "category": "docs",
-      "label": "List of Awards"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/Convocation/29_convocation_200103081557_17_07_19_20191127021854.pdf",
-      "localPath": "/media/docs/29_convocation_200103081557_17_07_19_20191127021854.pdf",
-      "category": "docs",
-      "label": "No. of Students"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
+      "title": "44th Joint AGRESCO Conclave",
+      "image": "/media/images/events/agresco_44th.jpg",
+      "year": "2016"
     }
   ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Periodical Events",
-        "mr": "नियतकालिक कार्यक्रम"
-      },
-      "order": 55
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "39th Convocation",
-        "mr": "39th Convocation"
-      },
-      "order": 56
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "38th Convocation",
-        "mr": "38th Convocation"
-      },
-      "order": 57
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "37th Convocation",
-        "mr": "37th Convocation"
-      },
-      "order": 58
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "36th Convocation",
-        "mr": "36th Convocation"
-      },
-      "order": 59
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "35th convocation",
-        "mr": "35th convocation"
-      },
-      "order": 60
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "34th convocation",
-        "mr": "34th convocation"
-      },
-      "order": 61
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "33th convocation",
-        "mr": "33th convocation"
-      },
-      "order": 62
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "32th convocation",
-        "mr": "32th convocation"
-      },
-      "order": 63
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "31th convocation",
-        "mr": "31th convocation"
-      },
-      "order": 64
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "30th convocation",
-        "mr": "30th convocation"
-      },
-      "order": 65
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "29th convocation",
-        "mr": "29th convocation"
-      },
-      "order": 66
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "January 6, 2023. MPKV, Rahuri celebrated its 36th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri.Bhagat Singh Koshyari presided over the function in online mode.  Vice Chancellor Dr. P. G. Patil presented the report of the university. Degrees to 104 Ph. D. holders, 628 Post Graduate holders and 10,736 Graduates and medals to successful students were conferred to the graduates. Many VIPs, former Vice Chancellors, EC members, officers, staff and students were present either in offline or online mode.",
-        "mr": "January 6, 2023. MPKV, Rahuri celebrated its 36th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri.Bhagat Singh Koshyari presided over the function in online mode.  Vice Chancellor Dr. P. G. Patil presented the report of the university. Degrees to 104 Ph. D. holders, 628 Post Graduate holders and 10,736 Graduates and medals to successful students were conferred to the graduates. Many VIPs, former Vice Chancellors, EC members, officers, staff and students were present either in offline or online mode."
-      },
-      "order": 67
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "December 5, 2019. MPKV, Rahuri celebrated its 34th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri. Bhagat Singh Koshyari presided over the function. Vice Chancellor Dr. K. P. Viswanatha presented the report of the university. Degrees to 52 Ph. D. holders, 308 Post Graduate holders and 4707 Graduates and medals to successful students were conferred to the graduates at the hands of Honourable Governor and Chancellor of the university.",
-        "mr": "December 5, 2019. MPKV, Rahuri celebrated its 34th Convocation. Honourable Governor of Maharashtra and Chancellor of the university Shri. Bhagat Singh Koshyari presided over the function. Vice Chancellor Dr. K. P. Viswanatha presented the report of the university. Degrees to 52 Ph. D. holders, 308 Post Graduate holders and 4707 Graduates and medals to successful students were conferred to the graduates at the hands of Honourable Governor and Chancellor of the university."
-      },
-      "order": 68
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "33th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 7/12/2018. The Chief Guest for the convocation was Shri. Nitinji Gadkari, Hon’ble Union Minister for Road Transport and Highways, Shipping Water Resources, River Development and GangaRenovation, Govt. of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 45 students received Ph D in different subjects while 356 and 4010 students received Masters and Bachelors degree in different subjects. 30 students were awarded the prizes during the convocation.",
-        "mr": "33th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 7/12/2018. The Chief Guest for the convocation was Shri. Nitinji Gadkari, Hon’ble Union Minister for Road Transport and Highways, Shipping Water Resources, River Development and GangaRenovation, Govt. of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 45 students received Ph D in different subjects while 356 and 4010 students received Masters and Bachelors degree in different subjects. 30 students were awarded the prizes during the convocation."
-      },
-      "order": 69
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "32th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 25/10/2017. The Chief Guest for the convocation was Shri. A.S. Kirankumar, Chairman, Space Communication & Secretary, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 73 students received Ph D in different subjects while 346 and 3365 students received Masters and Bachelors degree in different subjects. 28 students were awarded the prizes during the convocation.",
-        "mr": "32th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 25/10/2017. The Chief Guest for the convocation was Shri. A.S. Kirankumar, Chairman, Space Communication & Secretary, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha ,Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 73 students received Ph D in different subjects while 346 and 3365 students received Masters and Bachelors degree in different subjects. 28 students were awarded the prizes during the convocation."
-      },
-      "order": 70
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "31th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 22/10/2016. The Chief Guest for the convocation was Dr.Trilochan Mohapatra, Secretary, DARE & Director General, ICAR, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 72 students received Ph. D. in different subjects while 355 and 5372 students received Masters and Bachelors degree in different subjects. 72 students were awarded the prizes during the convocation.",
-        "mr": "31th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 22/10/2016. The Chief Guest for the convocation was Dr.Trilochan Mohapatra, Secretary, DARE & Director General, ICAR, Government of India. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 72 students received Ph. D. in different subjects while 355 and 5372 students received Masters and Bachelors degree in different subjects. 72 students were awarded the prizes during the convocation."
-      },
-      "order": 71
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "30th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 28/02/2015. The Chief Guest for the convocation was Dr. Raghunath Anant Mashelkar, Fello, NCL, Pune. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 92 students received Ph. D. in different subjects while 668 and 4366 students received Masters and Bachelors degree in different subjects. 37 students were awarded the prizes during the convocation.",
-        "mr": "30th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 28/02/2015. The Chief Guest for the convocation was Dr. Raghunath Anant Mashelkar, Fello, NCL, Pune. The convocation speech was delivered by Dr.K.P.Viswanatha , Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 92 students received Ph. D. in different subjects while 668 and 4366 students received Masters and Bachelors degree in different subjects. 37 students were awarded the prizes during the convocation."
-      },
-      "order": 72
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "29th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 29/11/2013. The Chief Guest for the convocation was Dr. Yogendra K. Alagh, Hon’ble Vice Chancellor, Central University of Gujrat. The convocation speech was delivered by Dr.T. A. More, Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 31 students received Ph. D. in different subjects while 260 and 1560 students received Masters and Bachelors degree in different subjects. 27 students were awarded the prizes during the convocation",
-        "mr": "29th convocation of Mahatma Phule Krishi Vidyapeeth, Rahuri was held on 29/11/2013. The Chief Guest for the convocation was Dr. Yogendra K. Alagh, Hon’ble Vice Chancellor, Central University of Gujrat. The convocation speech was delivered by Dr.T. A. More, Hon’ble Vice Chancellor, M.P.K.V., Rahuri. 31 students received Ph. D. in different subjects while 260 and 1560 students received Masters and Bachelors degree in different subjects. 27 students were awarded the prizes during the convocation"
-      },
-      "order": 73
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Periodical Events",
-          "mr": "नियतकालिक कार्यक्रम"
-        },
-        {
-          "en": "Convocation",
-          "mr": "Convocation"
-        },
-        {
-          "en": "Joint AGRESCO",
-          "mr": "Joint AGRESCO"
-        },
-        {
-          "en": "Retrospection",
-          "mr": "Retrospection"
-        },
-        {
-          "en": "Vanmohotsav",
-          "mr": "Vanmohotsav"
-        },
-        {
-          "en": "Kisan Aadhar Sammelan",
-          "mr": "Kisan Aadhar Sammelan"
-        },
-        {
-          "en": "University Foundation Day",
-          "mr": "University Foundation Day"
-        }
-      ],
-      "order": 74
-    }
-  ],
-  "stats": {
-    "headingCount": 66,
-    "paragraphCount": 7,
-    "listCount": 1,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 49,
-    "totalRecords": 122
+  "kisanAadhar": {
+    "titleEn": "Kisan Aadhar Sammelan (State Farmers Convention)",
+    "titleMr": "किसान आधार संमेलन (राज्यस्तरीय शेतकरी महासंमेलन)",
+    "descriptionEn": "Kisan Aadhar Sammelan is a flagship mega state farmers convention organized annually since 2017 jointly by Mahatma Phule Krishi Vidyapeeth, Rahuri and the Department of Agriculture, Government of Maharashtra (along with ATMA Ahmednagar). It features high-tech agricultural exhibitions, live crop demonstrations, cattle shows, farmers-scientists interaction workshops, and seed distribution.",
+    "descriptionMr": "महात्मा फुले कृषी विद्यापीठ, राहुरी आणि कृषी विभाग, महाराष्ट्र शासन (व आत्मा अहमदनगर) यांच्या संयुक्त विद्यमाने २०१७ पासून भव्य 'किसान आधार संमेलन' आयोजित केले जाते. यामध्ये अत्याधुनिक कृषी प्रदर्शन, विविध पिकांचे जिवंत प्रक्षेत्र प्रात्यक्षिके, पशुप्रदर्शन, शेतकरी-शास्त्रज्ञ चर्चासत्रे व उन्नत बी-बियाणे वाटप केले जाते.",
+    "bannerImage": "/media/images/events/kas_home.jpg",
+    "gallery": [
+      {
+        "titleEn": "Kisan Aadhar Sammelan 2019",
+        "titleMr": "किसान आधार संमेलन २०१९",
+        "image": "/media/images/events/kas_2019.jpg",
+        "year": "2019"
+      },
+      {
+        "titleEn": "Kisan Aadhar Sammelan 2018 Live Demonstrations",
+        "titleMr": "किसान आधार संमेलन २०१८ प्रक्षेत्र प्रात्यक्षिके",
+        "image": "/media/images/events/kas_2018.jpg",
+        "year": "2018"
+      },
+      {
+        "titleEn": "Kisan Aadhar Sammelan 2017 Inaugural Session",
+        "titleMr": "किसान आधार संमेलन २०१७ उद्घाटन सोहळा",
+        "image": "/media/images/events/kas_2017.jpg",
+        "year": "2017"
+      }
+    ],
+    "editions": [
+      {
+        "year": "2018",
+        "date": "15 to 18 October 2018",
+        "venue": "Central Campus, MPKV Rahuri",
+        "titleEn": "Kisan Aadhar Sammelan 2018 (15-18 Oct 2018)",
+        "titleMr": "किसान आधार संमेलन २०१८ (१५ ते १८ ऑक्टोबर २०१८)",
+        "descriptionEn": "Held at Central Campus Rahuri with over 150,000 farmers participating across Maharashtra. Featured live crop demonstrations, cattle show, innovative machinery, and crop-specific technical seminars.",
+        "descriptionMr": "राहुरी मध्यवर्ती आवार येथे आयोजित. राज्यभरातून १.५ लाखांहून अधिक शेतकरी सहभागी. विविध पिकांची प्रात्यक्षिके, पशुप्रदर्शन व शास्त्रज्ञांची मार्गदर्शन सत्रे.",
+        "documents": [
+          {
+            "titleEn": "Information Brochure (माहितीपत्रक)",
+            "titleMr": "किसान आधार संमेलन २०१८ माहितीपत्रक",
+            "fileUrl": "/media/docs/kisan-aadhar/kas_brochure_2018.pdf",
+            "officialUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASBrochure2018_19_07_19_20191127120642.pdf",
+            "size": "4.55 MB",
+            "type": "Brochure"
+          },
+          {
+            "titleEn": "Official Poster (भीत्तीपत्रक)",
+            "titleMr": "किसान आधार संमेलन २०१८ भीत्तीपत्रक",
+            "fileUrl": "/media/docs/kisan-aadhar/kas_poster_2018.pdf",
+            "officialUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASPoster2018_19_07_19_20191127120642.pdf",
+            "size": "4.27 MB",
+            "type": "Poster"
+          },
+          {
+            "titleEn": "Technical Programme & Seminar Schedule (चर्चासत्रे)",
+            "titleMr": "किसान आधार संमेलन २०१८ तांत्रिक चर्चासत्रे कार्यक्रम",
+            "fileUrl": "/media/docs/kisan-aadhar/kas_technical_programme_2018.pdf",
+            "officialUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASTechnicalProgramme2018_19_07_19_20191127120642.pdf",
+            "size": "233 KB",
+            "type": "Technical Programme"
+          }
+        ]
+      },
+      {
+        "year": "2017",
+        "date": "25 to 29 September 2017",
+        "venue": "Central Campus, MPKV Rahuri",
+        "titleEn": "Kisan Aadhar Sammelan 2017 (25-29 Sept 2017)",
+        "titleMr": "किसान आधार संमेलन २०१७ (२५ ते २९ सप्टेंबर २०१७)",
+        "descriptionEn": "Organized under the theme 'New India Manthan — Sankalp Se Siddhi, Unnat Sheti - Samruddha Shetkari' in collaboration with ATMA Ahmednagar. Grand state-level technology display and farmers convention.",
+        "descriptionMr": "'न्यू इंडिया मंथन — संकल्प से सिद्धी, उन्नत शेती - समृद्ध शेतकरी' या संकल्पनेखाली आत्मा अहमदनगरच्या सहकार्याने आयोजित. भव्य कृषी तंत्रज्ञान प्रदर्शन.",
+        "documents": [
+          {
+            "titleEn": "Information Brochure (माहितीपत्रक)",
+            "titleMr": "किसान आधार संमेलन २०१७ माहितीपत्रक",
+            "fileUrl": "/media/docs/kisan-aadhar/kas_brochure_2017.pdf",
+            "officialUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASBrochure2017_17_07_19_20191126051511.pdf",
+            "size": "4.15 MB",
+            "type": "Brochure"
+          },
+          {
+            "titleEn": "Official Poster (भीत्तीपत्रक)",
+            "titleMr": "किसान आधार संमेलन २०१७ भीत्तीपत्रक",
+            "fileUrl": "/media/docs/kisan-aadhar/kas_poster_2017.pdf",
+            "officialUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/KASPoster2017_17_07_19_20191126051511.pdf",
+            "size": "156 KB",
+            "type": "Poster"
+          },
+          {
+            "titleEn": "Technical Sessions Schedule (चर्चासत्रे)",
+            "titleMr": "किसान आधार संमेलन २०१७ चर्चासत्रे कार्यक्रम",
+            "fileUrl": "/media/docs/kisan-aadhar/kas_technical_programme_2017.pdf",
+            "officialUrl": "https://mpkv.ac.in/Uploads/KisanAdhar/Technical%20Programme%20KAs%202017_17_07_19_20191127115956.pdf",
+            "size": "270 KB",
+            "type": "Technical Programme"
+          }
+        ]
+      }
+    ]
   }
 }
