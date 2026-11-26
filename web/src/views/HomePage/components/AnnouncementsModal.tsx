@@ -216,8 +216,29 @@ export const AnnouncementsModal: React.FC<AnnouncementsModalProps> = ({
           });
         });
 
-        // 4. Parse scraped circulars tables
-        const circularTables = circularsDataRaw?.tables || [];
+        // 4. Parse scraped circulars sections (and legacy tables fallback)
+        const rawCircularsAny = circularsDataRaw as any;
+        const circularItems = rawCircularsAny?.sections?.all || [];
+        circularItems.forEach((item: any, idx: number) => {
+          const titleText = item?.title?.[language] || item?.title?.en || item?.title?.mr || '';
+          if (!titleText) return;
+
+          const fLink = item?.fileUrl || '';
+          records.push({
+            id: item?.id || `circ_scraped_${idx}_${records.length}`,
+            sr: item?.globalSrNo || item?.srNo || String(records.length + 1),
+            title: titleText,
+            date: item?.year || 'Circular Notice',
+            category:
+              language === 'mr'
+                ? item?.categoryLabel?.mr || 'प्रशासकीय परिपत्रक'
+                : item?.categoryLabel?.en || 'Administrative Circular',
+            fileLink: resolveLink('', fLink),
+            originalLink: fLink ? resolveLink('', fLink) : undefined
+          });
+        });
+
+        const circularTables = rawCircularsAny?.tables || [];
         circularTables.forEach((table: any) => {
           (table.rows || []).forEach((r: any, idx: number) => {
             const cells = r.value || [];
