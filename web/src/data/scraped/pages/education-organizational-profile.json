@@ -103,8 +103,8 @@
   "governanceBodies": [
     {
       "title": {
-        "en": "Academic Council (विद्या परिषद)",
-        "mr": "विद्या परिषद (Academic Council)"
+        "en": "Academic Council",
+        "mr": "विद्या परिषद"
       },
       "desc": {
         "en": "Supreme academic authority responsible for prescribing courses, academic regulations, admissions, and awarding degrees.",
@@ -117,8 +117,8 @@
     },
     {
       "title": {
-        "en": "Board of Studies (अभ्यास मंडळ)",
-        "mr": "अभ्यास मंडळे (Board of Studies)"
+        "en": "Board of Studies",
+        "mr": "अभ्यास मंडळे"
       },
       "desc": {
         "en": "Subject-specific bodies drafting syllabi, course credits, laboratory manuals, and examination standards.",
@@ -131,8 +131,8 @@
     },
     {
       "title": {
-        "en": "Faculty of Agriculture (कृषि विद्याशाखा)",
-        "mr": "कृषि विद्याशाखा (Faculty of Agriculture)"
+        "en": "Faculty of Agriculture",
+        "mr": "कृषि विद्याशाखा"
       },
       "desc": {
         "en": "Coordinates 11 academic departments, 8 constituent agriculture colleges, and PG Institute research.",
@@ -145,7 +145,7 @@
     },
     {
       "title": {
-        "en": "Faculty of Agricultural Engineering (अभियांत्रिकी विद्याशाखा)",
+        "en": "Faculty of Agricultural Engineering",
         "mr": "कृषि अभियांत्रिकी विद्याशाखा"
       },
       "desc": {

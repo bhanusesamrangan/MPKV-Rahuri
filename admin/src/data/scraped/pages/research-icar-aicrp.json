@@ -5,14 +5,43 @@
   "sourcePage": "research-icar-aicrp",
   "scrapedAt": "2026-11-22T20:36:15.042787",
   "title": {
-    "en": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "ICAR-AICRP",
+    "mr": "अखिल भारतीय समन्वित प्रकल्प (AICRP)"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Research Schemes",
+        "mr": "संशोधन योजना"
+      },
+      "href": "/research/aicrp"
+    },
+    {
+      "title": {
+        "en": "ICAR-AICRP",
+        "mr": "अखिल भारतीय समन्वित प्रकल्प (AICRP)"
+      },
+      "href": "/research/aicrp"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Schemes ICAR",
+      "mr": "Research Schemes ICAR"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Schemes ICAR - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -2203,7 +2232,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -2756,5 +2785,17 @@
     "noticeCount": 0,
     "mediaCount": 59,
     "totalRecords": 159
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Research Schemes",
+    "mr": "संशोधन योजना"
   }
 }

@@ -154,10 +154,10 @@ export const ExtensionCoordinationTree: React.FC = () => {
               Apex Executive Authority
             </span>
             <h4 className="text-base sm:text-lg font-black font-serif tracking-wide">
-              {language === 'mr' ? 'मा. कुलगुरू (Vice Chancellor)' : 'Hon’ble Vice Chancellor'}
+              {language === 'mr' ? 'मा. कुलगुरू' : 'Hon’ble Vice Chancellor'}
             </h4>
             <p className="text-[11px] text-sky-200 mt-0.5 font-medium">
-              Mahatma Phule Krishi Vidyapeeth, Rahuri
+              {language === 'mr' ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी' : 'Mahatma Phule Krishi Vidyapeeth, Rahuri'}
             </p>
           </div>
 

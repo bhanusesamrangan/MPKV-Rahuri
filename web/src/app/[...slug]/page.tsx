@@ -1,5 +1,6 @@
 import { DynamicPageView } from '@/components/DynamicPageView';
 import { getPageData } from '@/lib/pageLoader';
+import { PhotoGalleryView } from '@/views/HomePage/PhotoGalleryView';
 
 // Specialized Education Views
 import { EducationAtAGlanceView } from '@/views/Education/EducationAtAGlanceView';
@@ -28,6 +29,12 @@ import { CircularsView } from '@/views/Stakeholder/CircularsView';
 import { EmployeeCornerView } from '@/views/Stakeholder/EmployeeCornerView';
 import { PeriodicEventsView } from '@/views/Stakeholder/PeriodicEventsView';
 import { AkmuView } from '@/views/Stakeholder/AkmuView';
+import { NodalCellView } from '@/views/Stakeholder/NodalCellView';
+import { PmeCellView } from '@/views/Stakeholder/PmeCellView';
+import { IqacView } from '@/views/Stakeholder/IqacView';
+import { ExecutiveCouncilView } from '@/views/Stakeholder/ExecutiveCouncilView';
+import { OfficersDirectoryView } from '@/views/Stakeholder/OfficersDirectoryView';
+import { ContactsView } from '@/views/Stakeholder/ContactsView';
 
 // Specialized Research Views
 import { ResearchAtAGlanceView } from '@/views/Research/ResearchAtAGlanceView';
@@ -53,6 +60,38 @@ import { ExtensionAdhocProjectsView } from '@/views/Extension/ExtensionAdhocProj
 import { ExtensionRegionalCentersView } from '@/views/Extension/ExtensionRegionalCentersView';
 import { ExtensionDistrictCentersView } from '@/views/Extension/ExtensionDistrictCentersView';
 
+// Specialized Library Views (10 Unique Pages)
+import { LibraryAboutView } from '@/views/Library/LibraryAboutView';
+import { LibraryCollectionsView } from '@/views/Library/LibraryCollectionsView';
+import { LibrarySectionsView } from '@/views/Library/LibrarySectionsView';
+import { LibraryFacilitiesView } from '@/views/Library/LibraryFacilitiesView';
+import { LibraryServicesView } from '@/views/Library/LibraryServicesView';
+import { LibraryLinksView } from '@/views/Library/LibraryLinksView';
+import { LibraryActivitiesView } from '@/views/Library/LibraryActivitiesView';
+import { LibraryOffCampusView } from '@/views/Library/LibraryOffCampusView';
+import { LibraryNewsEventsView } from '@/views/Library/LibraryNewsEventsView';
+import { LibraryContactView } from '@/views/Library/LibraryContactView';
+
+// Specialized Students Views (9 Unique Pages)
+import { StudentAdmissionView } from '@/views/Students/StudentAdmissionView';
+import { StudentSportsView } from '@/views/Students/StudentSportsView';
+import { StudentHostelsView } from '@/views/Students/StudentHostelsView';
+import { StudentCircularsView } from '@/views/Students/StudentCircularsView';
+import { StudentInternationalView } from '@/views/Students/StudentInternationalView';
+import { StudentPgiFormsView } from '@/views/Students/StudentPgiFormsView';
+import { StudentComplaintsView } from '@/views/Students/StudentComplaintsView';
+import { StudentScholarshipsView } from '@/views/Students/StudentScholarshipsView';
+import { StudentGalleryView } from '@/views/Students/StudentGalleryView';
+
+// Specialized Farmer Views (7 Unique Designs)
+import { FarmerScientistForumView } from '@/views/Farmer/FarmerScientistForumView';
+import { FarmerKisanAadharView } from '@/views/Farmer/FarmerKisanAadharView';
+import { FarmerServicesView } from '@/views/Farmer/FarmerServicesView';
+import { FarmerSuccessStoriesView } from '@/views/Farmer/FarmerSuccessStoriesView';
+import { FarmerSeedsView } from '@/views/Farmer/FarmerSeedsView';
+import { FarmerNurseryView } from '@/views/Farmer/FarmerNurseryView';
+import { FarmerInputsView } from '@/views/Farmer/FarmerInputsView';
+
 interface PageProps {
   params: Promise<{
     slug: string[];
@@ -66,9 +105,8 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (page?.title) {
     const enTitle = typeof page.title === 'object' ? page.title.en : page.title;
-    const mrTitle = typeof page.title === 'object' ? page.title.mr : page.title;
     return {
-      title: `${mrTitle || enTitle} | MPKV Rahuri`,
+      title: `${enTitle} | MPKV Rahuri`,
       description:
         page.hero?.subtitle?.en ||
         page.hero?.subheadline?.en ||
@@ -235,6 +273,95 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath === 'students/corner'
   ) {
     return <StudentsHubView pageData={page} />;
+  }
+
+  // 14b. Specialized Students Submenu & Internal Pages (9 Unique Designs)
+  if (
+    pageSlug === 'student-admission-procedure' ||
+    fullPath === 'students/admission' ||
+    fullPath === 'student/admissionprocedure'
+  ) {
+    return <StudentAdmissionView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'student-sports' ||
+    fullPath === 'students/sports' ||
+    fullPath === 'student/sporthome'
+  ) {
+    return <StudentSportsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'student-hostels' ||
+    fullPath === 'students/hostels' ||
+    fullPath === 'student/studhostel'
+  ) {
+    return <StudentHostelsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'student-circulars' ||
+    fullPath === 'students/circulars' ||
+    fullPath === 'student/studcircular'
+  ) {
+    return <StudentCircularsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'student-international-cell' ||
+    fullPath.startsWith('students/international') ||
+    fullPath.startsWith('student/international')
+  ) {
+    const intlTab = fullPath.includes('facilities')
+      ? 'facilities'
+      : fullPath.includes('desk')
+      ? 'desk'
+      : fullPath.includes('reach')
+      ? 'reach'
+      : 'home';
+    return <StudentInternationalView pageData={page} defaultTab={intlTab} />;
+  }
+
+  if (
+    pageSlug === 'student-pgi-form' ||
+    fullPath === 'students/pgi-form' ||
+    fullPath === 'student/studentform'
+  ) {
+    return <StudentPgiFormsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'student-complaints' ||
+    fullPath === 'students/complaints' ||
+    fullPath === 'student/studentcomplaints'
+  ) {
+    return <StudentComplaintsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'student-scholarships' ||
+    fullPath === 'students/scholarships' ||
+    fullPath === 'student/scoler'
+  ) {
+    return <StudentScholarshipsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'photo-gallery' ||
+    fullPath === 'gallery' ||
+    fullPath === 'photo-gallery' ||
+    fullPath === 'home/homegalleryall'
+  ) {
+    return <PhotoGalleryView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'student-photo-gallery' ||
+    fullPath === 'students/photo-gallery' ||
+    fullPath === 'student/studcorner'
+  ) {
+    return <StudentGalleryView pageData={page} />;
   }
 
   // 15. Alumni Portal & Global Network
@@ -408,12 +535,9 @@ export default async function CatchAllPage({ params }: PageProps) {
     pageSlug === 'foundation-day' ||
     pageSlug === 'retrospection' ||
     pageSlug === 'magova' ||
-    pageSlug === 'farmer-kisan-aadhar' ||
     pageSlug === 'kisan-aadhar' ||
     pageSlug === 'kisan-aadhar-sammelan' ||
     pageSlug === 'kisanaadhar' ||
-    fullPath === 'farmer/farmerkisanadhar' ||
-    fullPath === 'farmer-kisan-aadhar' ||
     fullPath === 'kisan-aadhar' ||
     fullPath === 'kisan-aadhar-sammelan' ||
     fullPath.startsWith('periodicalevent') ||
@@ -432,6 +556,72 @@ export default async function CatchAllPage({ params }: PageProps) {
     else if (lower.includes('kisan') || lower.includes('aadhar')) initialTab = 'kisan_aadhar';
 
     return <PeriodicEventsView pageData={page} initialTab={initialTab} />;
+  }
+
+  // 19g-b. Specialized Farmer Menu & Internal Pages (7 Unique Designs)
+  if (
+    pageSlug === 'farmer-scientist-forum' ||
+    fullPath === 'farmer/scientist-forum' ||
+    fullPath === 'farmer/farmersciforum'
+  ) {
+    return <FarmerScientistForumView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'farmer-kisan-aadhar' ||
+    fullPath === 'farmer/kisan-aadhar' ||
+    fullPath === 'farmer/farmerkisanadhar'
+  ) {
+    return <FarmerKisanAadharView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'farmer-services' ||
+    fullPath === 'farmer/services'
+  ) {
+    return <FarmerServicesView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'farmer-success-stories' ||
+    fullPath === 'farmer/success-stories' ||
+    fullPath === 'farmer/successstory'
+  ) {
+    return <FarmerSuccessStoriesView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'seeds-availability' ||
+    fullPath === 'seeds-availability' ||
+    fullPath === 'farmer/seeds'
+  ) {
+    return <FarmerSeedsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'nursery-stock' ||
+    fullPath === 'nursery-stock' ||
+    fullPath === 'farmer/planting-materials'
+  ) {
+    return <FarmerNurseryView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'farmer-inputs' ||
+    fullPath === 'farmer/farmerinputes' ||
+    fullPath === 'farmer/bio-fertilizers' ||
+    fullPath === 'farmer/bio-pesticides' ||
+    fullPath === 'farmer/phule-micrograde' ||
+    fullPath === 'farmer/bio-inputs'
+  ) {
+    const focus = fullPath.includes('bio-pesticides')
+      ? 'bio-pesticides'
+      : fullPath.includes('micrograde')
+      ? 'phule-micrograde'
+      : fullPath.includes('bio-fertilizers')
+      ? 'bio-fertilizers'
+      : 'all';
+    return <FarmerInputsView pageData={page} focusProduct={focus} />;
   }
 
   // 19h. Agricultural Knowledge Management Unit (AKMU) & NKN Cyber Centre
@@ -458,6 +648,84 @@ export default async function CatchAllPage({ params }: PageProps) {
     else if (lower.includes('networkcomplaints') || lower.includes('network')) initialTab = 'network_query';
 
     return <AkmuView pageData={page} initialTab={initialTab} />;
+  }
+
+  // 19i. ICAR Nodal Cell (Higher Agricultural Education)
+  if (
+    pageSlug === 'nodal-cell' ||
+    pageSlug === 'icar-nodal-cell' ||
+    fullPath === 'nodal-cell' ||
+    fullPath === 'icar-nodal-cell' ||
+    fullPath === 'pmeandnodel/nodelguidelines' ||
+    fullPath === 'pmeandnodel/nodelproforma' ||
+    fullPath === 'pmeandnodel/nodelcirculars' ||
+    fullPath === 'pmeandnodel/nodelofficer'
+  ) {
+    let initialTab = 'guidelines';
+    const lower = fullPath.toLowerCase();
+    if (lower.includes('proforma')) initialTab = 'proforma';
+    else if (lower.includes('circular')) initialTab = 'circulars';
+    else if (lower.includes('officer')) initialTab = 'officer';
+
+    return <NodalCellView pageData={page} initialTab={initialTab} />;
+  }
+
+  // 19j. Planning, Monitoring & Evaluation (PME) Cell
+  if (
+    pageSlug === 'pme-cell' ||
+    pageSlug === 'pme' ||
+    fullPath === 'pme-cell' ||
+    fullPath === 'pme' ||
+    fullPath === 'pmeandnodel/pmeintroduction' ||
+    fullPath === 'pmeandnodel/pmecirculars' ||
+    fullPath === 'pmeandnodel/pmeofficer'
+  ) {
+    let initialTab = 'guidelines';
+    const lower = fullPath.toLowerCase();
+    if (lower.includes('circular')) initialTab = 'circulars';
+    else if (lower.includes('officer') || lower.includes('contact')) initialTab = 'officer';
+
+    return <PmeCellView pageData={page} initialTab={initialTab} />;
+  }
+
+  // 19k. Internal Quality Assurance Cell (IQAC)
+  if (
+    pageSlug === 'iqac' ||
+    fullPath === 'iqac' ||
+    fullPath === 'home/iqac'
+  ) {
+    return <IqacView pageData={page} />;
+  }
+
+  // 19l. Executive Council (Section 30 of MAU Act 1983)
+  if (
+    pageSlug === 'executive-council' ||
+    pageSlug === 'exconcil' ||
+    fullPath === 'executive-council' ||
+    fullPath === 'officers/exconcil' ||
+    fullPath === 'exconcil'
+  ) {
+    return <ExecutiveCouncilView pageData={page} />;
+  }
+
+  // 19m. Statutory University Officers Directory (/officers/directory, /Officers/OfficersContacts)
+  if (
+    pageSlug === 'officers-directory' ||
+    fullPath === 'officers' ||
+    fullPath === 'officers/directory' ||
+    fullPath === 'officers/officerscontacts'
+  ) {
+    return <OfficersDirectoryView pageData={page} />;
+  }
+
+  // 19n. University Contacts Desk (/contact-us, /contacts, /Officers/Contacts)
+  if (
+    pageSlug === 'contacts-directory' ||
+    fullPath === 'contact-us' ||
+    fullPath === 'contacts' ||
+    fullPath === 'officers/contacts'
+  ) {
+    return <ContactsView pageData={page} />;
   }
 
   // 20. About Mahatma Jyotirao Phule (Official Biography & Archival Portrait)
@@ -763,6 +1031,93 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath === 'extension/extensioncenterdec'
   ) {
     return <ExtensionDistrictCentersView pageData={page} />;
+  }
+
+  // =========================================================================
+  // SPECIALIZED LIBRARY VIEWS (All 10 Submenu Pages - Each With Unique Design)
+  // =========================================================================
+
+  if (
+    pageSlug === 'library-about' ||
+    pageSlug === 'central-library-rahuri' ||
+    fullPath === 'library' ||
+    fullPath === 'library/about' ||
+    fullPath === 'library/libabout' ||
+    fullPath === 'central-library-rahuri'
+  ) {
+    return <LibraryAboutView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-collections' ||
+    fullPath === 'library/collections' ||
+    fullPath === 'library/libcollections'
+  ) {
+    return <LibraryCollectionsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-sections' ||
+    fullPath === 'library/sections' ||
+    fullPath === 'library/libsections'
+  ) {
+    return <LibrarySectionsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-facilities' ||
+    fullPath === 'library/facilities' ||
+    fullPath === 'library/libfacilities'
+  ) {
+    return <LibraryFacilitiesView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-services' ||
+    fullPath === 'library/services' ||
+    fullPath === 'library/libservices'
+  ) {
+    return <LibraryServicesView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-links' ||
+    fullPath === 'library/links' ||
+    fullPath === 'library/liblinks'
+  ) {
+    return <LibraryLinksView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-activities' ||
+    fullPath === 'library/activities' ||
+    fullPath === 'library/libactivities'
+  ) {
+    return <LibraryActivitiesView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-off-campus' ||
+    fullPath === 'library/off-campus' ||
+    fullPath === 'library/liboffcampus'
+  ) {
+    return <LibraryOffCampusView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-news-events' ||
+    fullPath === 'library/news-events' ||
+    fullPath === 'library/libnewsevents'
+  ) {
+    return <LibraryNewsEventsView pageData={page} />;
+  }
+
+  if (
+    pageSlug === 'library-contact' ||
+    fullPath === 'library/contact' ||
+    fullPath === 'library/libcontact'
+  ) {
+    return <LibraryContactView pageData={page} />;
   }
 
   // Default fallback for other pages

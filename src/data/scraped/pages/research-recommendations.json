@@ -113,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -643,8 +643,8 @@
           },
           {
             "text": {
-              "en": "शिफारशी-२०२६ / Recommendations-2026",
-              "mr": "शिफारशी-२०२६ / Recommendations-2026"
+              "en": "Recommendations-2026",
+              "mr": "शिफारशी-२०२६"
             },
             "fileLink": "",
             "originalLink": ""
@@ -677,8 +677,8 @@
           },
           {
             "text": {
-              "en": "शिफारशी-२०२५ / Recommendations-2025",
-              "mr": "शिफारशी-२०२५ / Recommendations-2025"
+              "en": "Recommendations-2025",
+              "mr": "शिफारशी-२०२५"
             },
             "fileLink": "",
             "originalLink": ""
@@ -711,8 +711,8 @@
           },
           {
             "text": {
-              "en": "शिफारशी-२०२४ / Recommendations-2024",
-              "mr": "शिफारशी-२०२४ / Recommendations-2024"
+              "en": "Recommendations-2024",
+              "mr": "शिफारशी-२०२४"
             },
             "fileLink": "",
             "originalLink": ""
@@ -745,8 +745,8 @@
           },
           {
             "text": {
-              "en": "शिफारशी-२०२३ / Recommendations-2023",
-              "mr": "शिफारशी-२०२३ / Recommendations-2023"
+              "en": "Recommendations-2023",
+              "mr": "शिफारशी-२०२३"
             },
             "fileLink": "",
             "originalLink": ""
@@ -779,8 +779,8 @@
           },
           {
             "text": {
-              "en": "शिफारशी-२०२२  / Recommendations-2022",
-              "mr": "शिफारशी-२०२२  / Recommendations-2022"
+              "en": "Recommendations-2022",
+              "mr": "शिफारशी-२०२२"
             },
             "fileLink": "",
             "originalLink": ""
@@ -813,8 +813,8 @@
           },
           {
             "text": {
-              "en": "भात / Paddy",
-              "mr": "भात / Paddy"
+              "en": "Paddy",
+              "mr": "भात"
             },
             "fileLink": "",
             "originalLink": ""
@@ -847,8 +847,8 @@
           },
           {
             "text": {
-              "en": "बाजरी / Pearlmillet",
-              "mr": "बाजरी / Pearlmillet"
+              "en": "Pearlmillet",
+              "mr": "बाजरी"
             },
             "fileLink": "",
             "originalLink": ""
@@ -881,8 +881,8 @@
           },
           {
             "text": {
-              "en": "ज्वारी / Sorghum",
-              "mr": "ज्वारी / Sorghum"
+              "en": "Sorghum",
+              "mr": "ज्वारी"
             },
             "fileLink": "",
             "originalLink": ""
@@ -915,8 +915,8 @@
           },
           {
             "text": {
-              "en": "गहु / 4. Wheat",
-              "mr": "गहु / 4. Wheat"
+              "en": "Wheat",
+              "mr": "गहु"
             },
             "fileLink": "",
             "originalLink": ""
@@ -949,8 +949,8 @@
           },
           {
             "text": {
-              "en": "मका / 5. Maize",
-              "mr": "मका / 5. Maize"
+              "en": "Maize",
+              "mr": "मका"
             },
             "fileLink": "",
             "originalLink": ""
@@ -983,8 +983,8 @@
           },
           {
             "text": {
-              "en": "ईतर पोषक भरड धान्य /",
-              "mr": "ईतर पोषक भरड धान्य /"
+              "en": "Nutri Cereals & Minor Millets",
+              "mr": "ईतर पोषक भरड धान्य"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1017,8 +1017,8 @@
           },
           {
             "text": {
-              "en": "कडधान्ये / Chickpea",
-              "mr": "कडधान्ये / Chickpea"
+              "en": "Chickpea",
+              "mr": "कडधान्ये"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1051,8 +1051,8 @@
           },
           {
             "text": {
-              "en": "गळीतधान्ये /",
-              "mr": "गळीतधान्ये /"
+              "en": "Oilseeds",
+              "mr": "गळीतधान्ये"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1085,8 +1085,8 @@
           },
           {
             "text": {
-              "en": "ऊस / Sugarcane",
-              "mr": "ऊस / Sugarcane"
+              "en": "Sugarcane",
+              "mr": "ऊस"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1119,8 +1119,8 @@
           },
           {
             "text": {
-              "en": "कापूस / Cotton",
-              "mr": "कापूस / Cotton"
+              "en": "Cotton",
+              "mr": "कापूस"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1153,8 +1153,8 @@
           },
           {
             "text": {
-              "en": "चारापिके /",
-              "mr": "चारापिके /"
+              "en": "Fodder Crops",
+              "mr": "चारापिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1187,8 +1187,8 @@
           },
           {
             "text": {
-              "en": "भाजीपाला पिके / Vegetable",
-              "mr": "भाजीपाला पिके / Vegetable"
+              "en": "Vegetable",
+              "mr": "भाजीपाला पिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1221,8 +1221,8 @@
           },
           {
             "text": {
-              "en": "फळ पिके / Fruit crops",
-              "mr": "फळ पिके / Fruit crops"
+              "en": "Fruit crops",
+              "mr": "फळ पिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1255,8 +1255,8 @@
           },
           {
             "text": {
-              "en": "फुल पिके /",
-              "mr": "फुल पिके /"
+              "en": "Flower Crops",
+              "mr": "फुल पिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1646,7 +1646,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },

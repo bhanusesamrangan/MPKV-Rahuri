@@ -152,7 +152,7 @@ export const AgriAppsShowcase: React.FC = () => {
             </h2>
             <p className="text-slate-600 text-xs sm:text-sm md:text-[14.5px] mt-1 max-w-3xl">
               {language === 'mr'
-                ? 'मफुकृवि राहुरी शास्त्रज्ञ विकसित शेतकरी व संशोधकांसाठी अत्याधुनिक निर्णय साहाय्य प्रणाली (Decision Support Systems).'
+                ? 'मफुकृवि राहुरी शास्त्रज्ञ विकसित शेतकरी व संशोधकांसाठी अत्याधुनिक निर्णय साहाय्य प्रणाली.'
                 : 'Proprietary smart agriculture decision support systems developed by MPKV scientists for farmers & researchers.'}
             </p>
           </div>

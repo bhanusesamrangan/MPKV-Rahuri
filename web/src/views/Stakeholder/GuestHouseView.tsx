@@ -452,7 +452,7 @@ export const GuestHouseView: React.FC<GuestHouseViewProps> = ({ pageData }) => {
             <div className="text-xs sm:text-[13px] text-slate-700 leading-relaxed font-normal">
               <strong>{language === 'mr' ? 'आरक्षण व दर सूचना: ' : 'Booking & Rate Guidelines: '}</strong>
               {language === 'mr'
-                ? 'अधिकृत दर (Official Rate) केवळ शासकीय व विद्यापीठ कामासाठी येणाऱ्या मान्यवरांसाठी लागू आहे. अनधिकृत दर (Unofficial Rate) खाजगी/इतर पाहुण्यांसाठी लागू राहील. आरक्षण निश्चितीसाठी संबंधित इन-चार्ज अधिकाऱ्यांशी आगाऊ संपर्क साधावा.'
+                ? 'अधिकृत दर केवळ शासकीय व विद्यापीठ कामासाठी येणाऱ्या मान्यवरांसाठी लागू आहे. अनधिकृत दर खाजगी/इतर पाहुण्यांसाठी लागू राहील. आरक्षण निश्चितीसाठी संबंधित इन-चार्ज अधिकाऱ्यांशी आगाऊ संपर्क साधावा.'
                 : 'Official rates apply exclusively to dignitaries and officers traveling on sanctioned university/government duty. Unofficial rates apply to other guests. Advance booking must be confirmed with the respective in-charge officer.'}
             </div>
           </div>

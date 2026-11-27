@@ -6,7 +6,130 @@
       "mr": "मुख्यपृष्ठ"
     },
     "href": "/",
-    "icon": "Home"
+    "icon": "Home",
+    "children": [
+      {
+        "id": "home_group_1",
+        "title": {
+          "en": "Highlights & Updates",
+          "mr": "प्रमुख आढावा व अद्यतने"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Top Highlights",
+              "mr": "प्रमुख झलक"
+            },
+            "href": "/#hero"
+          },
+          {
+            "title": {
+              "en": "Leadership",
+              "mr": "नेतृत्व"
+            },
+            "href": "/#leadership"
+          },
+          {
+            "title": {
+              "en": "News & Notices",
+              "mr": "बातम्या व निविदा"
+            },
+            "href": "/#announcements"
+          },
+          {
+            "title": {
+              "en": "Farmer First",
+              "mr": "शेतकरी प्रथम"
+            },
+            "href": "/#farmer-first"
+          },
+          {
+            "title": {
+              "en": "Awards & Standing",
+              "mr": "पुरस्कार व मानांकन"
+            },
+            "href": "/#recognitions"
+          }
+        ]
+      },
+      {
+        "id": "home_group_2",
+        "title": {
+          "en": "University & Portals",
+          "mr": "विद्यापीठ व दालने"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Core Pillars",
+              "mr": "प्रमुख स्तंभ"
+            },
+            "href": "/#pillars"
+          },
+          {
+            "title": {
+              "en": "MPKV in Numbers",
+              "mr": "दृष्टीक्षेपात आकडेवारी"
+            },
+            "href": "/#at-a-glance"
+          },
+          {
+            "title": {
+              "en": "Stakeholder Desk",
+              "mr": "हितधारक दालन"
+            },
+            "href": "/#portals"
+          },
+          {
+            "title": {
+              "en": "Heritage & Vision",
+              "mr": "वारसा व दृष्टी"
+            },
+            "href": "/#heritage"
+          }
+        ]
+      },
+      {
+        "id": "home_group_3",
+        "title": {
+          "en": "Media, Apps & Links",
+          "mr": "माध्यम, अ‍ॅप्स व दुवे"
+        },
+        "is_group": true,
+        "children": [
+          {
+            "title": {
+              "en": "Directories",
+              "mr": "संस्था निर्देशिका"
+            },
+            "href": "/#directories"
+          },
+          {
+            "title": {
+              "en": "Media Gallery",
+              "mr": "माध्यम दालन"
+            },
+            "href": "/#media-gallery"
+          },
+          {
+            "title": {
+              "en": "Agri Apps",
+              "mr": "कृषी अ‍ॅप्स"
+            },
+            "href": "/#agri-apps"
+          },
+          {
+            "title": {
+              "en": "Quick Links",
+              "mr": "शीघ्र दुवे"
+            },
+            "href": "/#quick-links"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "menu_education",
@@ -580,6 +703,20 @@
               "mr": "तक्रार निवारण व अँटी रॅगिंग"
             },
             "href": "/students/complaints"
+          },
+          {
+            "title": {
+              "en": "Scholarship Links",
+              "mr": "शिष्यवृत्ती दुवे"
+            },
+            "href": "/students/scholarships"
+          },
+          {
+            "title": {
+              "en": "Student Photo Gallery",
+              "mr": "विद्यार्थी छायाचित्र दालन"
+            },
+            "href": "/students/photo-gallery"
           }
         ]
       },
@@ -594,7 +731,7 @@
           {
             "title": {
               "en": "Doctoral (Ph.D.) Eligibility",
-              "mr": "आचार्य (Ph.D.) पात्रता"
+              "mr": "आचार्य पदवी पात्रता"
             },
             "href": "/education/doctoral"
           },
@@ -633,10 +770,10 @@
     "icon": "Sprout",
     "children": [
       {
-        "id": "farm_group_1",
+        "id": "farm_col_1",
         "title": {
           "en": "Forums & Publications",
-          "mr": "शेतकरी मंच व प्रकाशने"
+          "mr": "मंच व प्रकाशने"
         },
         "is_group": true,
         "children": [
@@ -657,9 +794,9 @@
         ]
       },
       {
-        "id": "farm_group_2",
+        "id": "farm_col_2",
         "title": {
-          "en": "Sammelan & Success Stories",
+          "en": "Sammelan & Stories",
           "mr": "संमेलन व यशोगाथा"
         },
         "is_group": true,
@@ -677,7 +814,17 @@
               "mr": "प्रगतीशील शेतकरी यशोगाथा"
             },
             "href": "/farmer/success-stories"
-          },
+          }
+        ]
+      },
+      {
+        "id": "farm_col_3",
+        "title": {
+          "en": "Services",
+          "mr": "शेतकरी सेवा"
+        },
+        "is_group": true,
+        "children": [
           {
             "title": {
               "en": "Services",
@@ -688,7 +835,7 @@
         ]
       },
       {
-        "id": "farm_group_3",
+        "id": "farm_col_4",
         "title": {
           "en": "Inputs",
           "mr": "कृषि निविष्ठा"

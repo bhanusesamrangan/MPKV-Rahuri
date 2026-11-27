@@ -89,35 +89,40 @@ export const ResearchOrganizationalProfileView: React.FC<ResearchOrganizationalP
 
   const hierarchyLevels = [
     {
-      level: 'Apex Authority / सर्वोच्च नेतृत्व',
+      levelEn: 'Apex Authority',
+      levelMr: 'सर्वोच्च नेतृत्व',
       titleEn: 'Vice-Chancellor, MPKV Rahuri',
       titleMr: 'कुलगुरू, म.फु.कृ.वि. राहुरी',
       descEn: 'Overall statutory and executive leadership of university research policies and Agricultural Research Council.',
       descMr: 'विद्यापीठाच्या संशोधन धोरणांचे व कृषी संशोधन परिषदेचे सर्वोच्च वैधानिक नेतृत्व.'
     },
     {
-      level: 'Directorate Executive / संशोधन संचालक',
+      levelEn: 'Directorate Executive',
+      levelMr: 'संशोधन संचालक',
       titleEn: 'Director of Research',
       titleMr: 'संचालक संशोधन',
       descEn: 'Planning, monitoring, budgeting, and statutory execution of 27 stations, 45 AICRPs, and 82 State schemes.',
       descMr: '२७ संशोधन केंद्रे, ४५ AICRP आणि ८२ राज्य शासन योजनांचे नियोजन, अर्थसंकल्प व प्रत्यक्ष अंमलबजावणी.'
     },
     {
-      level: 'Zonal Research Leadership / विभागीय संशोधन संचालक',
+      levelEn: 'Zonal Research Leadership',
+      levelMr: 'विभागीय संशोधन संचालक',
       titleEn: 'Associate Directors of Research (ZARS)',
       titleMr: 'सहयोगी संशोधन संचालक (विभागीय कृषी संशोधन केंद्रे)',
       descEn: 'Zonal command across Western Ghat, Sub-Montane, Plain, Scarcity, and Central Plateau agro-climatic zones.',
       descMr: 'कोल्हापूर, सोलापूर, इगतपुरी, गणेशखिंड (पुणे) व राहुरी येथील ५ विभागीय कृषी संशोधन केंद्रांचे नेतृत्व.'
     },
     {
-      level: 'Commodity Specialists / पीक विशेषज्ज्ञ व प्रकल्प प्रमुख',
+      levelEn: 'Commodity Specialists',
+      levelMr: 'पीक विशेषज्ज्ञ व प्रकल्प प्रमुख',
       titleEn: 'Chief Crop Specialists & Scheme In-Charges',
       titleMr: 'प्रमुख पीक विशेषज्ज्ञ व योजना प्रमुख',
       descEn: 'Specialized crop stations: Wheat (Niphad), Sugarcane (Padegaon), Oilseeds (Jalgaon), Cotton (Rahuri), Pulses (Rahuri), Dryland (Solapur).',
       descMr: 'ऊस (पाडेगाव), गहू (निफाड), गळीतधान्ये (जळगाव), कापूस (राहुरी), कडधान्ये (राहुरी), कोरडवाहू शेती (सोलापूर).'
     },
     {
-      level: 'Scientific Field Force / संशोधन शास्त्रज्ञ वृंद',
+      levelEn: 'Scientific Field Force',
+      levelMr: 'संशोधन शास्त्रज्ञ वृंद',
       titleEn: 'Senior Research Scientists, Agronomists & Pathologists',
       titleMr: 'वरिष्ठ शास्त्रज्ञ, कृषिविद्यावेत्ते व कीटकशास्त्रज्ञ',
       descEn: 'Executing field trials, multi-location varietal testing, AICRP technical programs, and farmer demonstrations.',
@@ -209,7 +214,7 @@ export const ResearchOrganizationalProfileView: React.FC<ResearchOrganizationalP
                     </div>
                     <div>
                       <span className="text-[10px] font-bold uppercase tracking-wider text-blue-700">
-                        {lvl.level}
+                        {language === 'mr' ? lvl.levelMr : lvl.levelEn}
                       </span>
                       <h3 className="text-base sm:text-lg font-bold text-slate-900 font-serif">
                         {language === 'mr' ? lvl.titleMr : lvl.titleEn}

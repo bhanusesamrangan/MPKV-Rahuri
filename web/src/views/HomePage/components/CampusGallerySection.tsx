@@ -58,9 +58,6 @@ export const CampusGallerySection: React.FC = () => {
   const [isPlayingAudio, setIsPlayingAudio] = useState<boolean>(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  // Filmstrip horizontal scroll ref
-  const filmstripRef = useRef<HTMLDivElement | null>(null);
-
   // 10 Curated Authentic Photos & Videos
   const galleryItems: GalleryItem[] = [
     {
@@ -263,14 +260,6 @@ export const CampusGallerySection: React.FC = () => {
     setActiveIndex(idx);
   };
 
-  // Filmstrip horizontal scroll controls
-  const scrollFilmstrip = (direction: 'left' | 'right') => {
-    if (filmstripRef.current) {
-      const scrollAmount = direction === 'left' ? -280 : 280;
-      filmstripRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-    }
-  };
-
   // Audio stream & file control
   const audioTracks = {
     rajyageet: {
@@ -367,7 +356,7 @@ export const CampusGallerySection: React.FC = () => {
               className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs transition-all shadow-xs hover:shadow-md"
             >
               <Play className="w-3.5 h-3.5 fill-white" />
-              <span>{language === 'mr' ? 'यूट्यूब चॅनेल (@mpkvrahuri1161)' : 'Official YouTube (@mpkvrahuri1161)'}</span>
+              <span>{language === 'mr' ? 'अधिकृत यूट्यूब वाहिनी' : 'Official YouTube'}</span>
               <ExternalLink className="w-3 h-3 text-rose-200" />
             </a>
           </div>
@@ -601,7 +590,7 @@ export const CampusGallerySection: React.FC = () => {
                         title={language === 'mr' ? 'अधिकृत यूट्यूब चॅनेल' : 'Official YouTube Channel'}
                       >
                         <ExternalLink className="w-3.5 h-3.5" />
-                        <span>{language === 'mr' ? 'चॅनेल (@mpkvrahuri1161)' : 'Channel'}</span>
+                        <span>{language === 'mr' ? 'यूट्यूब वाहिनी' : 'Channel'}</span>
                       </a>
                     </div>
                   ) : (
@@ -722,77 +711,6 @@ export const CampusGallerySection: React.FC = () => {
               </div>
             </div>
 
-          </div>
-
-        </div>
-
-        {/* ========================================================================= */}
-        {/* INTERACTIVE HORIZONTAL FILMSTRIP CAROUSEL                                 */}
-        {/* ========================================================================= */}
-        <div className="rounded-2xl bg-white border border-stone-300 p-3 sm:p-4 shadow-2xs space-y-2">
-          
-          <div className="flex items-center justify-between px-1">
-            <div className="flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-amber-600" />
-              <span className="text-xs font-bold text-slate-800 uppercase tracking-wider">
-                {language === 'mr' ? 'त्वरित फोटो पट्टी (फिल्मस्ट्रिप)' : 'Quick Filmstrip Explorer'}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-1.5">
-              <button
-                onClick={() => scrollFilmstrip('left')}
-                className="p-1.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 transition-colors"
-                title="Scroll left"
-              >
-                <ChevronLeft className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => scrollFilmstrip('right')}
-                className="p-1.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 transition-colors"
-                title="Scroll right"
-              >
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
-
-          {/* Filmstrip Track */}
-          <div
-            ref={filmstripRef}
-            className="flex items-center gap-3 overflow-x-auto pb-2 pt-1 scroll-smooth custom-scrollbar"
-          >
-            {filteredItems.map((item, idx) => {
-              const isSelected = idx === safeActiveIndex;
-              return (
-                <button
-                  key={`filmstrip_${item.id}`}
-                  onClick={() => handleSelect(idx)}
-                  className={`flex-shrink-0 group relative rounded-xl overflow-hidden transition-all duration-200 text-left ${
-                    isSelected
-                      ? 'ring-3 ring-emerald-600 shadow-md scale-102'
-                      : 'opacity-70 hover:opacity-100 ring-1 ring-stone-300'
-                  }`}
-                >
-                  <div className="w-32 sm:w-40 h-20 sm:h-24 relative bg-stone-200">
-                    <img
-                      src={item.image}
-                      alt={getBilingual(item.title)}
-                      className="w-full h-full object-cover group-hover:scale-106 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                    <span className="absolute bottom-1.5 left-2 right-2 text-[10px] font-bold text-white truncate drop-shadow">
-                      {getBilingual(item.title)}
-                    </span>
-                    {isSelected && (
-                      <div className="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-emerald-600 text-white font-mono text-[9px] font-bold">
-                        {idx + 1}
-                      </div>
-                    )}
-                  </div>
-                </button>
-              );
-            })}
           </div>
 
         </div>
@@ -1007,7 +925,7 @@ export const CampusGallerySection: React.FC = () => {
                     className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/20 hover:bg-white/30 text-white text-xs font-bold transition-all shadow-md backdrop-blur-sm"
                   >
                     <ExternalLink className="w-3.5 h-3.5" />
-                    <span>{language === 'mr' ? 'अधिकृत चॅनेल (@mpkvrahuri1161)' : 'Official Channel (@mpkvrahuri1161)'}</span>
+                    <span>{language === 'mr' ? 'अधिकृत यूट्यूब वाहिनी' : 'Official Channel'}</span>
                   </a>
                 </div>
               )}

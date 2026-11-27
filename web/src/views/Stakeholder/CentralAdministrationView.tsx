@@ -553,7 +553,7 @@ export const CentralAdministrationView: React.FC<CentralAdministrationViewProps>
                     }`}
                   >
                     <GitFork className="w-3.5 h-3.5" />
-                    <span>{language === 'mr' ? 'वृक्ष रचना (Tree View)' : 'Tree View'}</span>
+                    <span>{language === 'mr' ? 'वृक्ष रचना' : 'Tree View'}</span>
                   </button>
 
                   <button
@@ -566,7 +566,7 @@ export const CentralAdministrationView: React.FC<CentralAdministrationViewProps>
                     }`}
                   >
                     <Layers className="w-3.5 h-3.5" />
-                    <span>{language === 'mr' ? 'शाखा व कक्ष तपशील (Desks)' : 'Desks Breakdown'}</span>
+                    <span>{language === 'mr' ? 'शाखा व कक्ष तपशील' : 'Desks Breakdown'}</span>
                   </button>
                 </div>
               </div>
@@ -655,7 +655,7 @@ export const CentralAdministrationView: React.FC<CentralAdministrationViewProps>
                           </div>
                           <div>
                             <h4 className="text-sm sm:text-base font-bold text-slate-900 font-serif">
-                              {language === 'mr' ? 'प्रशासन शाखा (Administration Wing)' : 'Administration Wing'}
+                              {language === 'mr' ? 'प्रशासन शाखा' : 'Administration Wing'}
                             </h4>
                             <p className="text-[11px] text-stone-500">
                               {language === 'mr' ? '५ कार्यकक्ष: आस्थापना, सर्वसाधारण, वित्त, पेन्शन व विधी' : '5 Functional Desks: Establishment, General, Finance, Pension & Legal'}

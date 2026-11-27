@@ -633,7 +633,7 @@ export const ResearchThrustAreasView: React.FC<ResearchThrustAreasViewProps> = (
                     }`}
                   >
                     <ListOrdered className="w-4 h-4" />
-                    <span>{language === 'mr' ? 'रोडमॅप रो (Blueprint)' : 'Blueprint Horizon'}</span>
+                    <span>{language === 'mr' ? 'रोडमॅप मांडणी' : 'Blueprint Horizon'}</span>
                   </button>
                 </div>
               </div>
@@ -948,7 +948,7 @@ export const ResearchThrustAreasView: React.FC<ResearchThrustAreasViewProps> = (
                 {/* Key Technical Deliverables */}
                 <div className="space-y-2">
                   <div className="text-xs font-bold uppercase text-stone-500 tracking-wider">
-                    {language === 'mr' ? 'प्रमुख तंत्रज्ञान निष्पत्ती (Deliverables)' : 'Key Technical Deliverables'}
+                    {language === 'mr' ? 'प्रमुख तंत्रज्ञान निष्पत्ती' : 'Key Technical Deliverables'}
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                     {(language === 'mr' ? selectedPriority.tagsMr : selectedPriority.tagsEn).map((tag: string, idx: number) => (

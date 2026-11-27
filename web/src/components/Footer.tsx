@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
-import { Mail, Phone, MapPin, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const { language } = useLanguage();
@@ -70,19 +70,19 @@ export const Footer: React.FC = () => {
             <li>
               <Link href="/post-graduate-institute-rahuri" className="hover:text-amber-800 transition-colors flex items-center gap-1.5">
                 <span className="text-slate-400">›</span>
-                <span>{language === 'mr' ? 'पदव्युत्तर महाविद्यालय (PGI Rahuri)' : 'Post Graduate Institute, Rahuri'}</span>
+                <span>{language === 'mr' ? 'पदव्युत्तर महाविद्यालय, राहुरी' : 'Post Graduate Institute, Rahuri'}</span>
               </Link>
             </li>
             <li>
               <Link href="/dr-as-caet-rahuri" className="hover:text-amber-800 transition-colors flex items-center gap-1.5">
                 <span className="text-slate-400">›</span>
-                <span>{language === 'mr' ? 'डॉ. अ.शि. कृषि अभियांत्रिकी (CAET)' : 'Dr. A.S. CAET, Rahuri'}</span>
+                <span>{language === 'mr' ? 'डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय' : 'Dr. A.S. CAET, Rahuri'}</span>
               </Link>
             </li>
             <li>
               <Link href="/central-library-rahuri" className="hover:text-amber-800 transition-colors flex items-center gap-1.5">
                 <span className="text-slate-400">›</span>
-                <span>{language === 'mr' ? 'मध्यवर्ती ग्रंथालय (Central Library)' : 'Central University Library'}</span>
+                <span>{language === 'mr' ? 'मध्यवर्ती ग्रंथालय' : 'Central University Library'}</span>
               </Link>
             </li>
           </ul>
@@ -158,11 +158,68 @@ export const Footer: React.FC = () => {
                 registrar.mpkv@nic.in
               </a>
             </div>
-            <div className="pt-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-50 border border-emerald-200/60 text-emerald-900 text-xs font-medium">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                <span>GIGW 3.0 & WCAG 2.1 AA Compliant</span>
-              </span>
+            <div className="pt-2.5">
+              <div
+                className="inline-flex items-center gap-3 px-3.5 py-2 rounded-xl bg-gradient-to-br from-white via-emerald-50/70 to-teal-50/50 border border-emerald-300/80 shadow-2xs"
+                role="img"
+                aria-label="GIGW 3.0 & WCAG 2.1 AA Compliant"
+              >
+                {/* Iconic Vector Compliance Seal Emblem */}
+                <div className="relative w-10 h-10 flex items-center justify-center shrink-0">
+                  <svg viewBox="0 0 44 44" className="w-10 h-10" fill="none" aria-hidden="true">
+                    {/* Outer dotted verification ring */}
+                    <circle
+                      cx="22"
+                      cy="22"
+                      r="20"
+                      stroke="#059669"
+                      strokeWidth="1.2"
+                      strokeDasharray="2.2 2.2"
+                      strokeOpacity="0.65"
+                    />
+                    {/* Inner solid emerald medallion ring */}
+                    <circle cx="22" cy="22" r="16" fill="#ecfdf5" stroke="#047857" strokeWidth="1.25" />
+                    {/* Compliance shield silhouette */}
+                    <path
+                      d="M22 10.5L30.5 13.8V21.2C30.5 26.8 26.9 31.1 22 33C17.1 31.1 13.5 26.8 13.5 21.2V13.8L22 10.5Z"
+                      fill="#065f46"
+                    />
+                    {/* Gold accent top bar inside shield */}
+                    <path d="M16.5 15.2H27.5" stroke="#f59e0b" strokeWidth="1.3" strokeLinecap="round" />
+                    {/* Verification check mark */}
+                    <path
+                      d="M17.8 22.3L20.7 25.1L26.5 18.8"
+                      stroke="#ffffff"
+                      strokeWidth="2.1"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="absolute -bottom-0.5 -right-0.5 px-1 py-px rounded bg-amber-500 text-white text-[8px] font-extrabold leading-none tracking-tight shadow-2xs">
+                    AA
+                  </span>
+                </div>
+
+                <div className="h-8 w-px bg-emerald-200/90 shrink-0" />
+
+                {/* Structured Compliance Tags */}
+                <div className="flex flex-col gap-1 leading-none">
+                  <span className="text-[9.5px] font-bold uppercase tracking-[0.12em] text-emerald-800/80">
+                    {language === 'mr' ? 'अधिकृत सुगम्यता प्रमाणित' : 'Gov Web Standard'}
+                  </span>
+                  <div className="flex flex-wrap items-center gap-1">
+                    <span className="px-1.5 py-0.5 rounded-md bg-emerald-800 text-white text-[10.5px] font-bold tracking-tight">
+                      GIGW 3.0
+                    </span>
+                    <span className="px-1.5 py-0.5 rounded-md bg-white border border-emerald-300 text-emerald-900 text-[10.5px] font-bold tracking-tight">
+                      WCAG 2.1 AA
+                    </span>
+                    <span className="text-[11px] font-semibold text-emerald-950 ml-0.5">
+                      {language === 'mr' ? 'अनुरूप' : 'Compliant'}
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -192,7 +249,7 @@ export const Footer: React.FC = () => {
                   : 'Developed and hosted by Analytica Business Solutions'}
               </span>
               <a
-                href="https://abs-solutions.in"
+                href="https://analyticabs.co.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white px-2 py-0.5 rounded-md border border-stone-200/90 shadow-2xs hover:shadow-xs transition-all hover:scale-105"

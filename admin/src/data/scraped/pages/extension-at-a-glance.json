@@ -5,14 +5,43 @@
   "sourcePage": "extension-at-a-glance",
   "scrapedAt": "2026-11-22T20:35:32.192314",
   "title": {
-    "en": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Extension at a Glance",
+    "mr": "दृष्टीक्षेपात विस्तार शिक्षण"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "href": "/extension/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Extension Overview & Centers",
+        "mr": "विस्तार सेवा व केंद्रे"
+      },
+      "href": "/extension/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Extension at a Glance",
+        "mr": "दृष्टीक्षेपात विस्तार शिक्षण"
+      },
+      "href": "/extension/at-a-glance"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Extension At a Glance",
+      "mr": "Extension At a Glance"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension At a Glance - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -754,7 +783,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1316,5 +1345,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 73
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Extension Overview & Centers",
+    "mr": "विस्तार सेवा व केंद्रे"
   }
 }

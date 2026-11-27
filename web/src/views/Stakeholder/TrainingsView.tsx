@@ -122,7 +122,7 @@ export const TrainingsView: React.FC<TrainingsViewProps> = ({ pageData }) => {
       topics: [
         { en: 'Supervised & Unsupervised Machine Learning Algorithms', mr: 'पर्यवेक्षित व अपर्यवेक्षित मशीन लर्निंग अल्गोरिदम्स' },
         { en: 'Crop Yield Prediction Models & Weather Forecasting', mr: 'पीक उत्पादन अंदाज मॉडेल्स व हवामान अंदाज' },
-        { en: 'Satellite Multi-Band Image Classification using Python', mr: 'पायथॉन (Python) द्वारे उपग्रह प्रतिमा वर्गीकरण' },
+        { en: 'Satellite Multi-Band Image Classification using Python', mr: 'पायथॉनद्वारे उपग्रह प्रतिमा वर्गीकरण' },
         { en: 'Pest and Disease Forecasting Systems using Deep Learning', mr: 'डीप लर्निंगद्वारे कीड-रोग प्रादुर्भाव पूर्वअंदाज' }
       ],
       badgeColor: 'bg-blue-100 text-blue-950 border-blue-300',

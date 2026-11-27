@@ -3,7 +3,7 @@
   "url": "https://mpkv.ac.in/Officers/ExConcil",
   "route": "/Officers/ExConcil",
   "sourcePage": "executive-council",
-  "scrapedAt": "2026-11-22T20:35:59.291153",
+  "scrapedAt": "2026-11-26T20:48:00.000000",
   "title": {
     "en": "Executive Council",
     "mr": "कार्यकारी परिषद"
@@ -18,2639 +18,609 @@
     },
     {
       "title": {
-        "en": "Officers",
-        "mr": "अधिकारी"
+        "en": "Administration & Officers",
+        "mr": "अधिकारी व प्रशासन"
       },
-      "href": "/executive-council"
-    },
-    {
-      "title": {
-        "en": "Governance",
-        "mr": "शासन व मंडळ"
-      },
-      "href": "/executive-council"
+      "href": "/administration"
     },
     {
       "title": {
         "en": "Executive Council",
         "mr": "कार्यकारी परिषद"
       },
-      "href": "/executive-council"
+      "href": "/Officers/ExConcil"
     }
   ],
   "hero": {
     "title": {
-      "en": "Contacts",
-      "mr": "संपर्क"
+      "en": "University Executive Council",
+      "mr": "विद्यापीठ कार्यकारी परिषद"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Contacts",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — संपर्क"
+      "en": "Apex statutory executive authority constituted under Section 30 of the Maharashtra Agricultural Universities (Krishi Vidyapeeths) Act, 1983 (Amended 2003), chaired by the Hon. Vice-Chancellor with State Legislature, ICAR, eminent scientists, progressive farmers, and State Directorate leaders.",
+      "mr": "महाराष्ट्र कृषी विद्यापीठे अधिनियम १९८३ (सुधारणा २००३) कलम ३० अन्वये गठीत सर्वोच्च वैधानिक कार्यकारी मंडळ — मा. कुलगुरूंच्या अध्यक्षतेखाली विधानसभा-विधानपरिषद प्रतिनिधी, ICAR, नामवंत कृषी शास्त्रज्ञ, प्रगतशील शेतकरी व राज्य संचालकांचा समावेश."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
-    }
+      "en": "Maharashtra Agricultural Universities Act 1983 • Section 30",
+      "mr": "महाराष्ट्र कृषी विद्यापीठ अधिनियम १९८३ • कलम ३०"
+    },
+    "stats": [
+      {
+        "label": {
+          "en": "Statutory Composition",
+          "mr": "वैधानिक सदस्य संख्या"
+        },
+        "value": "26 Seats"
+      },
+      {
+        "label": {
+          "en": "Ex-Officio Chairman",
+          "mr": "पदसिद्ध अध्यक्ष"
+        },
+        "value": "Vice-Chancellor"
+      },
+      {
+        "label": {
+          "en": "Legislature Nominees",
+          "mr": "विधिमंडळ प्रतिनिधी"
+        },
+        "value": "5 MLA / MLC"
+      },
+      {
+        "label": {
+          "en": "Governing Act",
+          "mr": "कायदा तरतूद"
+        },
+        "value": "Sec. 30 (2003)"
+      }
+    ]
   },
-  "headings": [
+  "members": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+      "srNo": "1",
+      "categoryKey": "leadership",
+      "provision": {
+        "en": "Sec. 30(1)(i)",
+        "mr": "३०(१) (एक)"
       },
-      "order": 1
+      "category": {
+        "en": "Ex-Officio Chairman",
+        "mr": "पदसिद्ध अध्यक्ष"
+      },
+      "nameAndAddress": {
+        "en": "Dr. Vilas K. Kharche — Hon. Vice-Chancellor, MPKV Rahuri",
+        "mr": "डॉ. विलास के. खर्चे मा. कुलगुरु, मफुकृवि, राहुरी"
+      },
+      "contactRawMr": "०२४२६-२४३२०८  फॅक्स ०२४२६-२४३३०२ vcmpkv@gmail.com",
+      "phone": "02426-243208 (Fax: 243302)",
+      "email": "vcmpkv@gmail.com",
+      "photo": "/media/images/executive-council/ec_member_01.jpg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+      "srNo": "2",
+      "categoryKey": "scientists_icar",
+      "provision": {
+        "en": "Sec. 30(1)(viii)",
+        "mr": "30 (1) आठ"
       },
-      "order": 2
+      "category": {
+        "en": "Eminent Agricultural Scientist",
+        "mr": "नामवंत कृषी वेज्ञानिक"
+      },
+      "nameAndAddress": {
+        "en": "Dr. Ashok S. Dhawan — Former Vice-Chancellor, VNMKV Parbhani (B-27, Venkateshwara Green, Ausa Road, Latur 413512)",
+        "mr": "डॉ. अशोक एस ढवण माझी कुलगुरू, वसंतराव नाईक मराठवाडा कृषि विद्यापीठ, परभणी, बी- २७, वेंकटेश्वरा ग्रीन, औसा रोड, लातूर ४१३ ५१२"
+      },
+      "contactRawMr": "9421849226 dhawanas2015@gmail.com",
+      "phone": "9421849226",
+      "email": "dhawanas2015@gmail.com",
+      "photo": "/media/images/executive-council/ec_member_02.png",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+      "srNo": "3",
+      "categoryKey": "legislature",
+      "provision": {
+        "en": "Sec. 30(1)(xii)",
+        "mr": "३०(१) बारा"
       },
-      "order": 3
+      "category": {
+        "en": "Maharashtra Legislative Assembly Representative",
+        "mr": "महाराष्ट्र विधानसभा प्रतिनिधी"
+      },
+      "nameAndAddress": {
+        "en": "Hon. MLA Shri Hemant Ogale (Shriram Apartment, Siddhivinayak Mandir Rd, Ward 7, Shrirampur, Dist. Ahilyanagar 413709)",
+        "mr": "मा. आ. श्री. हेमंत ओगले श्रीराम अपार्टमेंट, सिद्धिविनायक मंदिर रोड, प्रभाग क्रमांक 7, श्रीरामपूर, ता. श्रीरामपूर जि. अहिल्यानगर-413 709"
+      },
+      "contactRawMr": "9970057447 hemant.ogale@gmail.com; hemantogale7@gmail.com",
+      "phone": "9970057447",
+      "email": "hemant.ogale@gmail.com",
+      "photo": "/media/images/executive-council/ec_member_03.jpg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
+      "srNo": "4",
+      "categoryKey": "legislature",
+      "provision": {
+        "en": "Sec. 30(1)(xii)",
+        "mr": "30(1) बारा"
       },
-      "order": 4
+      "category": {
+        "en": "Maharashtra Legislative Assembly Representative",
+        "mr": "महाराष्ट्र विधानसभा प्रतिनिधी"
+      },
+      "nameAndAddress": {
+        "en": "Hon. MLA Shri Vikram Pachpute (At Post Kashti, Tal. Shrigonda, Dist. Ahilyanagar)",
+        "mr": "मा. आ. श्री. विक्रम पाचपुते मु. पो. काष्टी ता. श्रीगोंदा जि. अहिल्यानगर"
+      },
+      "contactRawMr": "8605905555 mlavikrampachpute@gmail.com",
+      "phone": "8605905555",
+      "email": "mlavikrampachpute@gmail.com",
+      "photo": "/media/images/executive-council/ec_member_04.jpeg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
+      "srNo": "5",
+      "categoryKey": "legislature",
+      "provision": {
+        "en": "Sec. 30(1)(xii)",
+        "mr": "30(1) बारा"
       },
-      "order": 5
+      "category": {
+        "en": "Maharashtra Legislative Assembly Representative",
+        "mr": "महाराष्ट्र विधानसभा प्रतिनिधी"
+      },
+      "nameAndAddress": {
+        "en": "Hon. MLA Shri Rohit Pawar (601, Subhadra Bag, Pimpli, Baramati, Dist. Pune 413102)",
+        "mr": "मा.आ. श्री रोहित पवार ६०१, सुभद्रा बाग पिंपळी पुणे-४१३ १०२"
+      },
+      "contactRawMr": "9822822111 rrp@rohitpawar.org",
+      "phone": "9822822111",
+      "email": "rrp@rohitpawar.org",
+      "photo": "/media/images/executive-council/ec_member_05.jpg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
+      "srNo": "6",
+      "categoryKey": "legislature",
+      "provision": {
+        "en": "Sec. 30(1)(xiii) (Amended 2003)",
+        "mr": "30 (१) (तेरा) (सुधारीत २००३)"
       },
-      "order": 6
+      "category": {
+        "en": "Maharashtra Legislative Council Representative",
+        "mr": "महाराष्ट्र विधानपरिषद प्रतिनिधी"
+      },
+      "nameAndAddress": {
+        "en": "Hon. MLC Shri Kishor Darade (House No. 3426, Old Mali Galli, Yeola, Dist. Nashik)",
+        "mr": "मा आ श्री किशोर दराडे घर नं. ३४२६ जुने माळी गल्ली, येवला ता. येवला, जि. नाशिक"
+      },
+      "contactRawMr": "9822651850 kbdarade@gmail.com",
+      "phone": "9822651850",
+      "email": "kbdarade@gmail.com",
+      "photo": "/media/images/executive-council/ec_member_06.jpg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
+      "srNo": "7",
+      "categoryKey": "legislature",
+      "provision": {
+        "en": "Sec. 30(1)(xiii) (Amended 2003)",
+        "mr": "30 (१) (तेरा) (सुधारीत २००३)"
       },
-      "order": 7
+      "category": {
+        "en": "Maharashtra Legislative Council Representative",
+        "mr": "महाराष्ट्र विधानपरिषद प्रतिनिधी"
+      },
+      "nameAndAddress": {
+        "en": "Hon. MLC Shri Satyajeet Tambe (Prabha Niwas, Lane 1, Near Bus Stand, Indiranagar, Sangamner, Dist. Ahilyanagar)",
+        "mr": "मा.आ. श्री. सत्यजित तांबे प्रभा निवास गल्ली नं.१ बस स्टॅन्ड जवळ इंदिरानगर संगमनेर, ता. संगमनेर, जि. अहिल्यानगर"
+      },
+      "contactRawMr": "9822933333 office@satyajeettambe.com",
+      "phone": "9822933333",
+      "email": "office@satyajeettambe.com",
+      "photo": "/media/images/executive-council/ec_member_07.jpg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+      "srNo": "8",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(ix) (Amended 2003)",
+        "mr": "३०(१) (नऊ) सुधारित २००३"
       },
-      "order": 8
+      "category": {
+        "en": "Progressive Farmer",
+        "mr": "प्रगतशील शेतकरी"
+      },
+      "nameAndAddress": {
+        "en": "Shri Dattatray Mahadeo Ugale (At Madilage Budruk, Tal. Bhudargad, Dist. Kolhapur)",
+        "mr": "श्री दत्तात्रय महादेव उगले रा मडीलगे बुद्रुक  तालुका भुदरगड जिल्हा कोल्हापुर"
+      },
+      "contactRawMr": "9423283297 dattajiraougale@gmail.com",
+      "phone": "9423283297",
+      "email": "dattajiraougale@gmail.com",
+      "photo": "/media/images/executive-council/ec_member_08.jpeg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
+      "srNo": "9",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(ix) (Amended 2003)",
+        "mr": "३०(१)  (नऊ) सुधारित २००३"
       },
-      "order": 9
+      "category": {
+        "en": "Progressive Farmer",
+        "mr": "प्रगतशील शेतकरी"
+      },
+      "nameAndAddress": {
+        "en": "Shri Shashikant Haridas Tarange (Tarangewadi, Post Bijwadi, Tal. Indapur, Dist. Pune 413106)",
+        "mr": "श्री. शशिकांत हरिदास तरंगे रा. तरंगवाडी, पो. बिजवडी, ता. इंदापूर जि. पुणे ४१३१०६"
+      },
+      "contactRawMr": "9823684246 shashikanttarange777@gmail.com",
+      "phone": "9823684246",
+      "email": "shashikanttarange777@gmail.com",
+      "photo": "/media/images/executive-council/ec_member_09.png",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
+      "srNo": "10",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(ix) (Amended 2003)",
+        "mr": "३०(१)  (नऊ) सुधारित २००३"
       },
-      "order": 10
+      "category": {
+        "en": "Progressive Farmer",
+        "mr": "प्रगतशील शेतकरी"
+      },
+      "nameAndAddress": {
+        "en": "Seat To Be Nominated",
+        "mr": "नामनिर्देशनाधीन / रिक्त पद"
+      },
+      "contactRawMr": "",
+      "phone": "",
+      "email": "",
+      "photo": "",
+      "isVacant": true
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+      "srNo": "11",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(ix) (Amended 2003)",
+        "mr": "३०(१)  (नऊ) सुधारित २००३"
       },
-      "order": 11
+      "category": {
+        "en": "Progressive Farmer",
+        "mr": "प्रगतशील शेतकरी"
+      },
+      "nameAndAddress": {
+        "en": "Seat To Be Nominated",
+        "mr": "नामनिर्देशनाधीन / रिक्त पद"
+      },
+      "contactRawMr": "",
+      "phone": "",
+      "email": "",
+      "photo": "",
+      "isVacant": true
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+      "srNo": "12",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(ix) (Amended 2003)",
+        "mr": "३०(१)  (नऊ) सुधारित २००३"
       },
-      "order": 12
+      "category": {
+        "en": "Progressive Farmer",
+        "mr": "प्रगतशील शेतकरी"
+      },
+      "nameAndAddress": {
+        "en": "Seat To Be Nominated",
+        "mr": "नामनिर्देशनाधीन / रिक्त पद"
+      },
+      "contactRawMr": "",
+      "phone": "",
+      "email": "",
+      "photo": "",
+      "isVacant": true
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
+      "srNo": "13",
+      "categoryKey": "scientists_icar",
+      "provision": {
+        "en": "Sec. 30(1)(x)",
+        "mr": "३०(१) (दहा)"
       },
-      "order": 13
+      "category": {
+        "en": "ICAR Representative",
+        "mr": "भारतीय कृषी अनुसंधान परिषद यांचे प्रतिनिधी"
+      },
+      "nameAndAddress": {
+        "en": "Dr. K. Sammi Reddy — Director, ICAR-National Institute of Abiotic Stress Management (NIASM), Malegaon, Baramati, Dist. Pune 413115",
+        "mr": "मा. डॉ. के. सामी रेड्डी संचालक भाकृअप- राष्ट्रीय अजैविक ताण व्यवस्थापन संस्था माळेगांव ता. बारामती, जि. पुणे-413 115"
+      },
+      "contactRawMr": "9652114864 director.niasm@icar.org.in",
+      "phone": "9652114864",
+      "email": "director.niasm@icar.org.in",
+      "photo": "/media/images/executive-council/ec_member_13.jpeg",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
+      "srNo": "14",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(xi)",
+        "mr": "३०(१) (अकरा)"
       },
-      "order": 14
+      "category": {
+        "en": "Agri-Entrepreneur",
+        "mr": "कृषी उद्योजक"
+      },
+      "nameAndAddress": {
+        "en": "Seat To Be Nominated",
+        "mr": "नामनिर्देशनाधीन / रिक्त पद"
+      },
+      "contactRawMr": "",
+      "phone": "",
+      "email": "",
+      "photo": "",
+      "isVacant": true
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
+      "srNo": "15",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(xiv)",
+        "mr": "३०(१) (चौदा)"
       },
-      "order": 15
+      "category": {
+        "en": "Chairman, Zilla Parishad Agriculture Committee",
+        "mr": "जिल्हा परिषदेच्या कृषी समितीचे सभापती"
+      },
+      "nameAndAddress": {
+        "en": "Seat To Be Nominated",
+        "mr": "नामनिर्देशनाधीन / रिक्त पद"
+      },
+      "contactRawMr": "",
+      "phone": "",
+      "email": "",
+      "photo": "",
+      "isVacant": true
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
+      "srNo": "16",
+      "categoryKey": "farmers_agripreneurs",
+      "provision": {
+        "en": "Sec. 30(1)(xiv)",
+        "mr": "३०(१) (चौदा)"
       },
-      "order": 16
+      "category": {
+        "en": "Chairman, Zilla Parishad Agriculture Committee",
+        "mr": "जिल्हा परिषदेच्या कृषी समितीचे सभापती"
+      },
+      "nameAndAddress": {
+        "en": "Seat To Be Nominated",
+        "mr": "नामनिर्देशनाधीन / रिक्त पद"
+      },
+      "contactRawMr": "",
+      "phone": "",
+      "email": "",
+      "photo": "",
+      "isVacant": true
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
+      "srNo": "17",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(ii) (Amended 2003)",
+        "mr": "३०(१) (दोन) (सुधारित २००३)"
       },
-      "order": 17
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "पदसिद्ध सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Director of Agriculture (Inputs & Quality Control), Commissionerate of Agriculture, Central Building, Pune (Nominee of Agriculture Commissioner)",
+        "mr": "कृषि आयुक्त, महाराष्ट्र शासन, पुणे, यांचेकडुन नामनिर्देशित कृषि संचालक (नि.व.गु.नि.) कृषि आयुक्तालय, मध्यवर्ती इमारत, पुणे"
+      },
+      "contactRawMr": "०२०-२६१२७७०८ फॅक्स ०२०-२६१३१०६४ directorqe@rediffmail.com",
+      "phone": "020-26127708",
+      "email": "directorqe@rediffmail.com",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+      "srNo": "18",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(iii) (Amended 2003)",
+        "mr": "३०(१) (तीन) (सुधारित २००३)"
       },
-      "order": 18
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "पदसिद्ध सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Regional Joint Commissioner of Animal Husbandry, Near Ashok Stambh, Nashik (Nominee of Animal Husbandry Commissioner)",
+        "mr": "पशुसंवर्धन आयुक्त, महाराष्ट्र शासन यांचे कडून नामनिर्देशित प्रादेशिक पशुसंवर्धन सहआयुक्त, जनावरांचा दवाखाना अशोकस्तंभाजवळ, नाशिक"
+      },
+      "contactRawMr": "०२५३-२५७७०१५ फॅक्स ०२५३-२५७१९२८ rjenashik@gmail.com",
+      "phone": "0253-2577015",
+      "email": "rjenashik@gmail.com",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+      "srNo": "19",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(iv)",
+        "mr": "३० (१) (चार)"
       },
-      "order": 19
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "पदसिद्ध सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Director of Horticulture, Maharashtra State, Narveer Tanaji Marg, Shivajinagar, Pune",
+        "mr": "फलोत्पादन संचालक, महाराष्ट्र राज्य, अधिक्षक कृषि अधिकारी यांचे कार्यालया जवळ, नरवीर तानाजीमार्ग, शिवाजीनगर, पुणे"
+      },
+      "contactRawMr": "०२०-२५५३८०९५/२५५५३७०४५ फॅक्स ०२०-२५५३७५६५ agridhrt@gmail.com",
+      "phone": "020-25538095",
+      "email": "agridhrt@gmail.com",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
+      "srNo": "20",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(v)",
+        "mr": "३०(१) (पाच)"
       },
-      "order": 20
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "पदसिद्ध सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Chief Conservator of Forests (Territorial), Old Mumbai-Agra Road, Tryambak Naka, Opp. Tribal Dev. Bhavan, Nashik",
+        "mr": "मुख्य वनसंरक्षक (प्रादेशिक), जुनामुंबई-आग्रामार्ग, त्र्यंबकनाका, आदिवासी विकासभवन समोर, नाशिक"
+      },
+      "contactRawMr": "०२५३-२५९८५४५ ccfnashik२०१२@gmail.com",
+      "phone": "0253-2598545",
+      "email": "ccfnashik2012@gmail.com",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
+      "srNo": "21",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(vi)",
+        "mr": "३०(१) (सहा)"
       },
-      "order": 21
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Director of Research, MPKV, Rahuri",
+        "mr": "संशोधन संचालक मफुकृवि, राहुरी"
+      },
+      "contactRawMr": "०२४२६-२४३२२३ फॅक्स - ०२४२ ०२४२६-२४३२२३ dormpkv@rediffmail.com",
+      "phone": "02426-243223",
+      "email": "dormpkv@rediffmail.com",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
+      "srNo": "22",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(vii)",
+        "mr": "३०(१) (सात)"
       },
-      "order": 22
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Dean (Faculty of Agriculture), MPKV, Rahuri",
+        "mr": "अधिष्ठाता (कृषि) मफुकृवि, राहुरी"
+      },
+      "contactRawMr": "४२६-२४३२०६ फॅक्स ०२४२ ०२४२६-२४३२२७ dean.mpkv@nic.in",
+      "phone": "02426-243206",
+      "email": "dean.mpkv@nic.in",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
+      "srNo": "23",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(xvi) (Amended 2003)",
+        "mr": "३०(१) (सोळा) (सुधारित २००३)"
       },
-      "order": 23
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "पदसिद्ध सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Regional Dairy Development Officer, Nashik Division, Govt. Milk Scheme Campus, Tryambak Road, Nashik (Nominee of Dairy Dev. Commissioner)",
+        "mr": "दुग्धव्यवसाय विकास आयुक्त, महाराष्ट्र शासन यांचेकडून नामनिर्देशित प्रादेशिक दुग्धव्यवसाय विकास अधिकारी नाशिक विभाग, शासकीय दुध योजना आवार, त्र्यंबकरोड, नाशिक"
+      },
+      "contactRawMr": "०२५३-२५७३०२३ / २५७८११६ rddonsk(@dataone.in",
+      "phone": "0253-2573023",
+      "email": "rddonsk@dataone.in",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
+      "srNo": "24",
+      "categoryKey": "ex_officio",
+      "provision": {
+        "en": "Sec. 30(1)(xvii) (Amended 2003)",
+        "mr": "३० (१) (सतरा) (सुधारित २००३)"
       },
-      "order": 24
+      "category": {
+        "en": "Ex-Officio Member",
+        "mr": "पदसिद्ध सदस्य"
+      },
+      "nameAndAddress": {
+        "en": "Regional Deputy Commissioner of Fisheries, Old Govt. Ashwin Barrack No. 13, Near ISP, Nashik Road-1",
+        "mr": "मत्स्यव्यवसाय आयुक्त, महाराष्ट्र शासन यांचे कडून नामनिर्देशित प्रादेशिक उपआयुक्त मत्स्यव्यवसाय, जुनी शासकीय अश्विन बैरेक क्र.१३, महसुल आयुक्त कार्यालयाजवळ, आयएसपीजवळ, नाशिकरोड-१"
+      },
+      "contactRawMr": "०२५३- २४५५९५५ rdefnashik@gmail.com",
+      "phone": "0253-2455955",
+      "email": "rdefnashik@gmail.com",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
+      "srNo": "25",
+      "categoryKey": "leadership",
+      "provision": {
+        "en": "Sec. 30(1)(xv) (Amended 2003)",
+        "mr": "३० (१) (पंधरा) (सुधारित २००३)"
       },
-      "order": 25
+      "category": {
+        "en": "Ex-Officio Member Secretary",
+        "mr": "पदसिद्ध सदस्य सचिव"
+      },
+      "nameAndAddress": {
+        "en": "Registrar, MPKV, Rahuri",
+        "mr": "कुलसचिव, मफुकृवि, राहुरी"
+      },
+      "contactRawMr": "०२४२६-२४३२१६ फैक्स-०२४२६-२४३८१६ registrar.mpkv@nic.in",
+      "phone": "02426-243216 (Fax: 243816)",
+      "email": "registrar.mpkv@nic.in",
+      "photo": "",
+      "isVacant": false
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
+      "srNo": "26",
+      "categoryKey": "leadership",
+      "provision": {
+        "en": "Statute 3(11)",
+        "mr": "परिनियम ३ (११)"
       },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
+      "category": {
+        "en": "Invitee",
+        "mr": "निमंत्रित"
       },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
+      "nameAndAddress": {
+        "en": "Comptroller, MPKV, Rahuri",
+        "mr": "नियंत्रक मफुकृवि, राहुरी"
       },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Contacts",
-        "mr": "संपर्क"
-      },
-      "order": 55
-    },
-    {
-      "level": "h4",
-      "text": {
-        "en": "महात्मा फुले कृषि विद्यापीठ",
-        "mr": "महात्मा फुले कृषि विद्यापीठ"
-      },
-      "order": 56
+      "contactRawMr": "०२४२६-२४३२२६ comptroller.mpkv@gov.in",
+      "phone": "02426-243226",
+      "email": "comptroller.mpkv@gov.in",
+      "photo": "",
+      "isVacant": false
     }
-  ],
-  "paragraphs": [
-    {
-      "text": {
-        "en": "अ.ग्रामीण जनतेचे विस्तार शिक्षण,",
-        "mr": "अ.ग्रामीण जनतेचे विस्तार शिक्षण,"
-      },
-      "order": 57
-    },
-    {
-      "text": {
-        "en": "ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;",
-        "mr": "ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;"
-      },
-      "order": 58
-    },
-    {
-      "text": {
-        "en": "क.शारीरिक व लष्करी प्रशिक्षण देणे,",
-        "mr": "क.शारीरिक व लष्करी प्रशिक्षण देणे,"
-      },
-      "order": 59
-    },
-    {
-      "text": {
-        "en": "ड.क्रीडा व व्यायाम मंडळे,",
-        "mr": "ड.क्रीडा व व्यायाम मंडळे,"
-      },
-      "order": 60
-    },
-    {
-      "text": {
-        "en": "ई.विद्यार्थ्यांचे कल्याण;",
-        "mr": "ई.विद्यार्थ्यांचे कल्याण;"
-      },
-      "order": 61
-    }
-  ],
-  "lists": [
-    {
-      "type": "ol",
-      "items": [
-        {
-          "en": "विद्यापीठाकडे कोणते कार्यक्रम असावेत याची स्थूल रूपाने आखणी करणे;",
-          "mr": "विद्यापीठाकडे कोणते कार्यक्रम असावेत याची स्थूल रूपाने आखणी करणे;"
-        },
-        {
-          "en": "विद्यापीठाच्या वार्षिक अहवालावर चर्चा करणे आणि त्याचा आढावा घेणे व त्यावर सूचना करणे",
-          "mr": "विद्यापीठाच्या वार्षिक अहवालावर चर्चा करणे आणि त्याचा आढावा घेणे व त्यावर सूचना करणे"
-        },
-        {
-          "en": "विद्यापिठाच्या वार्षिक वित्तीय अंदाजावर विचार करने होते तैयार करने अनित्यावर सूचना करने",
-          "mr": "विद्यापिठाच्या वार्षिक वित्तीय अंदाजावर विचार करने होते तैयार करने अनित्यावर सूचना करने"
-        },
-        {
-          "en": "राज्य शासनाच्या मान्यतेने विद्यापीठ मालमत्तेच्या तारणावर विद्यापीठाच्या प्रयोजनांसाठी कर्ज घेणे",
-          "mr": "राज्य शासनाच्या मान्यतेने विद्यापीठ मालमत्तेच्या तारणावर विद्यापीठाच्या प्रयोजनांसाठी कर्ज घेणे"
-        },
-        {
-          "en": "परिनियमांस अधिन राहून विद्यापीठाच्या वतीने मृत्युपत्र दाणे, देणग्या आणि विद्यापीठाकडे हस्तांतरित करण्यात आलेली कोणतीही स्थावर किंवा जंगम मालमत्ता स्वीकारणे",
-          "mr": "परिनियमांस अधिन राहून विद्यापीठाच्या वतीने मृत्युपत्र दाणे, देणग्या आणि विद्यापीठाकडे हस्तांतरित करण्यात आलेली कोणतीही स्थावर किंवा जंगम मालमत्ता स्वीकारणे"
-        },
-        {
-          "en": "विद्यापीठाच्या वतीने कोणत्याही स्थावर किंवा जंगम मालमत्तेचे हस्तांतरण करणे",
-          "mr": "विद्यापीठाच्या वतीने कोणत्याही स्थावर किंवा जंगम मालमत्तेचे हस्तांतरण करणे"
-        },
-        {
-          "en": "विद्यार्थ्यांसाठी घटक महाविद्यालये, विभाग, वस्तीगृह, संशोधन केंद्र, कृषी क्षेत्रे, शाळा, ग्रंथालय, प्रयोगशाळा व प्रात्यक्षिक केंद्र सुरू करणे व त्यांचे व्यवस्था पाहणे आणि कर्मचाऱ्यांना इतर सोयी पुरवणे",
-          "mr": "विद्यार्थ्यांसाठी घटक महाविद्यालये, विभाग, वस्तीगृह, संशोधन केंद्र, कृषी क्षेत्रे, शाळा, ग्रंथालय, प्रयोगशाळा व प्रात्यक्षिक केंद्र सुरू करणे व त्यांचे व्यवस्था पाहणे आणि कर्मचाऱ्यांना इतर सोयी पुरवणे"
-        },
-        {
-          "en": "विद्यापीठाचे आर्थिक व्यवहार, लेखे व गुंतवणूक यांची व्यवस्था ठेवणे व त्यांचे नियमन करणे;",
-          "mr": "विद्यापीठाचे आर्थिक व्यवहार, लेखे व गुंतवणूक यांची व्यवस्था ठेवणे व त्यांचे नियमन करणे;"
-        },
-        {
-          "en": "विहित करण्यात येईल त्याप्रमाणे फी व इतर खर्च निश्चित करणे, त्यांची मागणी करणे व ती स्वीकारणे;",
-          "mr": "विहित करण्यात येईल त्याप्रमाणे फी व इतर खर्च निश्चित करणे, त्यांची मागणी करणे व ती स्वीकारणे;"
-        },
-        {
-          "en": "संशोधन कार्य चालविण्यासाठी आणि ज्ञानामध्ये प्रगती व त्याचा प्रसार यासाठी तिला योग्य वाटेल अशा ज्ञानशाखेतील आणि पाठ्यक्रमातील शिक्षण, अध्यापन व प्रशिक्षण यासाठी तरतूद करणे",
-          "mr": "संशोधन कार्य चालविण्यासाठी आणि ज्ञानामध्ये प्रगती व त्याचा प्रसार यासाठी तिला योग्य वाटेल अशा ज्ञानशाखेतील आणि पाठ्यक्रमातील शिक्षण, अध्यापन व प्रशिक्षण यासाठी तरतूद करणे"
-        },
-        {
-          "en": "महाविद्यालये आणि पदव्युत्तर पतसंस्था यांच्या संलग्निकरणास मान्यता देणे;",
-          "mr": "महाविद्यालये आणि पदव्युत्तर पतसंस्था यांच्या संलग्निकरणास मान्यता देणे;"
-        },
-        {
-          "en": "संलग्न महाविद्यालयांतील व मान्यता प्राप्त परिसंस्थेतील शैक्षणिक दर्जास मान्यता देणे व तो राखण्यात येत आहे याबद्दल खात्री करून घेणे;",
-          "mr": "संलग्न महाविद्यालयांतील व मान्यता प्राप्त परिसंस्थेतील शैक्षणिक दर्जास मान्यता देणे व तो राखण्यात येत आहे याबद्दल खात्री करून घेणे;"
-        },
-        {
-          "en": "उच्च शिक्षण व संशोधन परिसंस्था यांना मान्यता देणे आणि त्यांची मान्यता काढून घेणे;",
-          "mr": "उच्च शिक्षण व संशोधन परिसंस्था यांना मान्यता देणे आणि त्यांची मान्यता काढून घेणे;"
-        },
-        {
-          "en": "पुढील गोष्टींसाठी तरतूद करणेअ.ग्रामीण जनतेचे विस्तार शिक्षण,ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;",
-          "mr": "पुढील गोष्टींसाठी तरतूद करणेअ.ग्रामीण जनतेचे विस्तार शिक्षण,ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;"
-        },
-        {
-          "en": "संलग्न महाविद्यालयांच्या व मान्यताप्राप्त परिसंस्थांच्या तपासणीची व्यवस्था करणे व ती करण्याबद्दल निदेश देणे व त्यांचे कार्यक्षमता रहावी आणि त्यांच्या कर्मचारी वर्गाच्या सेवेची खातर जमा करण्यासाठी म्हणून अनुदेश देणे आणि अशा अनुदेशांकडे दुर्लक्ष करण्यात आल्यास, त्यांच्या संलग्न करण्याच्या किंवा मान्यता देण्यासंबंधीच्या शर्तीत फेरफार करणे विषयी किंवा तिला योग्य वाटेल अशी इतर उपाययोजना करण्याविषयी शिफारस करणे;",
-          "mr": "संलग्न महाविद्यालयांच्या व मान्यताप्राप्त परिसंस्थांच्या तपासणीची व्यवस्था करणे व ती करण्याबद्दल निदेश देणे व त्यांचे कार्यक्षमता रहावी आणि त्यांच्या कर्मचारी वर्गाच्या सेवेची खातर जमा करण्यासाठी म्हणून अनुदेश देणे आणि अशा अनुदेशांकडे दुर्लक्ष करण्यात आल्यास, त्यांच्या संलग्न करण्याच्या किंवा मान्यता देण्यासंबंधीच्या शर्तीत फेरफार करणे विषयी किंवा तिला योग्य वाटेल अशी इतर उपाययोजना करण्याविषयी शिफारस करणे;"
-        },
-        {
-          "en": "संलग्न महाविद्यालय आणि मान्यता प्राप्त परिसंस्था यांतील कर्मचारी वर्गाची वेतन श्रेणी आणि त्यांच्या सेवेच्या शर्ती निश्चित करणे व त्यांचे पालन होत आहे यांची खात्री करून घेणे;",
-          "mr": "संलग्न महाविद्यालय आणि मान्यता प्राप्त परिसंस्था यांतील कर्मचारी वर्गाची वेतन श्रेणी आणि त्यांच्या सेवेच्या शर्ती निश्चित करणे व त्यांचे पालन होत आहे यांची खात्री करून घेणे;"
-        },
-        {
-          "en": "परिनियम व विनयम करणे, त्यात सुधारणा करणे व त्यांचे निरसन करणे;",
-          "mr": "परिनियम व विनयम करणे, त्यात सुधारणा करणे व त्यांचे निरसन करणे;"
-        },
-        {
-          "en": "विनियम स्वीकारणे, नाकारणे किंवा विद्या परिषदेकडे किंवा इतर कोणत्याही प्राधिकरणाकडे ते विचारार्थ परत पाठविणे;",
-          "mr": "विनियम स्वीकारणे, नाकारणे किंवा विद्या परिषदेकडे किंवा इतर कोणत्याही प्राधिकरणाकडे ते विचारार्थ परत पाठविणे;"
-        },
-        {
-          "en": "परीक्षक नेमणे, त्यांचे जर काही परिश्रमिक असल्यास, ते निश्चित करणे आणि विद्यापीठांच्या परीक्षा व इतर चाचणी परीक्षा घेण्याची व त्यांचे निकाल प्रसिद्ध करण्याची व्यवस्था करणे;",
-          "mr": "परीक्षक नेमणे, त्यांचे जर काही परिश्रमिक असल्यास, ते निश्चित करणे आणि विद्यापीठांच्या परीक्षा व इतर चाचणी परीक्षा घेण्याची व त्यांचे निकाल प्रसिद्ध करण्याची व्यवस्था करणे;"
-        },
-        {
-          "en": "विद्यापीठ यथोचितरित्या चालावे म्हणून तिला आवश्यक वाटतील अशी, स्थायी किंवा तात्पुरती, मंडळे व समित्या नेमणे व त्यांची रचना, कामे आणि मुदत निश्चित करून देणे;",
-          "mr": "विद्यापीठ यथोचितरित्या चालावे म्हणून तिला आवश्यक वाटतील अशी, स्थायी किंवा तात्पुरती, मंडळे व समित्या नेमणे व त्यांची रचना, कामे आणि मुदत निश्चित करून देणे;"
-        },
-        {
-          "en": "तिला योग्य वाटतील अशा आपल्या अधिकारांपैकी कोणतेही अधिकार कुलगुरूस किंवा विद्यापीठाच्या किंवा तिने नेमलेल्या मंडळाच्या किंवा समितीच्या इतर अधिकाऱ्यांस परिनीयमाद्वारे प्रदान करणे;",
-          "mr": "तिला योग्य वाटतील अशा आपल्या अधिकारांपैकी कोणतेही अधिकार कुलगुरूस किंवा विद्यापीठाच्या किंवा तिने नेमलेल्या मंडळाच्या किंवा समितीच्या इतर अधिकाऱ्यांस परिनीयमाद्वारे प्रदान करणे;"
-        },
-        {
-          "en": "विद्यापीठाच्या सामायिक शिक्याचा नमुना ठरविणे व त्याची अभिरक्षा आणि त्याच्या वापराचे नियमन यासंबंधी तरतूद करणे;",
-          "mr": "विद्यापीठाच्या सामायिक शिक्याचा नमुना ठरविणे व त्याची अभिरक्षा आणि त्याच्या वापराचे नियमन यासंबंधी तरतूद करणे;"
-        },
-        {
-          "en": "अधिछात्रवृत्त्या (प्रवासी अधिछात्रवृत्यांसह) शिष्यवृत्त्या, छात्रवृत्या, विद्यार्थीवेतने, पदके व पारितोषिके मंजूर करणे;",
-          "mr": "अधिछात्रवृत्त्या (प्रवासी अधिछात्रवृत्यांसह) शिष्यवृत्त्या, छात्रवृत्या, विद्यार्थीवेतने, पदके व पारितोषिके मंजूर करणे;"
-        },
-        {
-          "en": "पदवी, पदविका प्रमाणपत्रे व इतर विद्या विषयक विशेषोपाधी बहाल करण्यासंबंधी कुलपतीस शिफारस करणे;",
-          "mr": "पदवी, पदविका प्रमाणपत्रे व इतर विद्या विषयक विशेषोपाधी बहाल करण्यासंबंधी कुलपतीस शिफारस करणे;"
-        },
-        {
-          "en": "सन्मान्य पदव्या किंवा विद्याविषयक इतर विशेषोपाधि मंजूर करणे;",
-          "mr": "सन्मान्य पदव्या किंवा विद्याविषयक इतर विशेषोपाधि मंजूर करणे;"
-        },
-        {
-          "en": "विद्यापीठ व त्याच्या नियंत्रणा खालील महाविद्यालये व संस्था यांच्या विद्यार्थ्यांच्या व कर्मचारी वर्गाच्या गरजा भागवण्यासाठी ग्राहक सहकारी संस्थांसाठी तरतूद करणे;",
-          "mr": "विद्यापीठ व त्याच्या नियंत्रणा खालील महाविद्यालये व संस्था यांच्या विद्यार्थ्यांच्या व कर्मचारी वर्गाच्या गरजा भागवण्यासाठी ग्राहक सहकारी संस्थांसाठी तरतूद करणे;"
-        },
-        {
-          "en": "ह्या अधिनियमाद्वारे किंवा तदन्वये तिला प्रदान करण्यात येतील अशा इतर अधिकारांचा वापर करणे व तिच्यावर लादण्यात येतील अशी इतर कर्तव्ये पार पाडणे;",
-          "mr": "ह्या अधिनियमाद्वारे किंवा तदन्वये तिला प्रदान करण्यात येतील अशा इतर अधिकारांचा वापर करणे व तिच्यावर लादण्यात येतील अशी इतर कर्तव्ये पार पाडणे;"
-        },
-        {
-          "en": "ज्याकरिता या अधिनियमात किंवा परिणीयमात अन्यथा कोणतीही तरतूद करण्यात आलेली नाही, अशा विद्यापीठाच्या सर्व अधिकारांचा व या अधिनियमाच्या किंवा परिणीयमांच्या उपबंधांची अंमलबजावणी करण्यासाठी आवश्यक आहेत अशा इतर सर्व अधिकारांचा वापर करणे.",
-          "mr": "ज्याकरिता या अधिनियमात किंवा परिणीयमात अन्यथा कोणतीही तरतूद करण्यात आलेली नाही, अशा विद्यापीठाच्या सर्व अधिकारांचा व या अधिनियमाच्या किंवा परिणीयमांच्या उपबंधांची अंमलबजावणी करण्यासाठी आवश्यक आहेत अशा इतर सर्व अधिकारांचा वापर करणे."
-        }
-      ],
-      "order": 62
-    }
-  ],
-  "tables": [
-    {
-      "id": "table_1",
-      "caption": {
-        "en": "कार्यकारी परिषद सदस्य",
-        "mr": "कार्यकारी परिषद सदस्य"
-      },
-      "headers": [
-        {
-          "en": "Sr.No.",
-          "mr": "Sr.No."
-        },
-        {
-          "en": "महाराष्ट्र कृषी विद्यापीठ अधिनियम  १९८३ (सुधारणा २००३)मधील तरतूद",
-          "mr": "महाराष्ट्र कृषी विद्यापीठ अधिनियम  १९८३ (सुधारणा २००३)मधील तरतूद"
-        },
-        {
-          "en": "प्रवर्ग",
-          "mr": "प्रवर्ग"
-        },
-        {
-          "en": "कार्यकारी परिषद सदस्यांचे पूर्ण नाव व पत्ता",
-          "mr": "कार्यकारी परिषद सदस्यांचे पूर्ण नाव व पत्ता"
-        },
-        {
-          "en": "संपर्क",
-          "mr": "संपर्क"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (एक)",
-              "mr": "३०(१) (एक)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध अध्यक्ष",
-              "mr": "पदसिद्ध अध्यक्ष"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "डॉ. विलास के. खर्चेमा. कुलगुरु, मफुकृवि, राहुरी",
-              "mr": "डॉ. विलास के. खर्चेमा. कुलगुरु, मफुकृवि, राहुरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२४२६-२४३२०८  फॅक्स ०२४२६-२४३३०२vcmpkv@gmail.com",
-              "mr": "०२४२६-२४३२०८  फॅक्स ०२४२६-२४३३०२vcmpkv@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "30 (1) आठ",
-              "mr": "30 (1) आठ"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "नामवंत कृषी वेज्ञानिक",
-              "mr": "नामवंत कृषी वेज्ञानिक"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "डॉ. अशोक एस ढवणमाझी कुलगुरू, वसंतराव नाईक मराठवाडा कृषि विद्यापीठ, परभणी, बी- २७, वेंकटेश्वरा ग्रीन, औसा रोड, लातूर ४१३ ५१२",
-              "mr": "डॉ. अशोक एस ढवणमाझी कुलगुरू, वसंतराव नाईक मराठवाडा कृषि विद्यापीठ, परभणी, बी- २७, वेंकटेश्वरा ग्रीन, औसा रोड, लातूर ४१३ ५१२"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9421849226dhawanas2015@gmail.com",
-              "mr": "9421849226dhawanas2015@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) बारा",
-              "mr": "३०(१) बारा"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "महाराष्ट्र विधानसभा प्रतिनिधी",
-              "mr": "महाराष्ट्र विधानसभा प्रतिनिधी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मा. आ. श्री. हेमंत ओगलेश्रीराम अपार्टमेंट, सिद्धिविनायक मंदिर रोड, प्रभाग क्रमांक 7, श्रीरामपूर, ता. श्रीरामपूर जि. अहिल्यानगर-413 709",
-              "mr": "मा. आ. श्री. हेमंत ओगलेश्रीराम अपार्टमेंट, सिद्धिविनायक मंदिर रोड, प्रभाग क्रमांक 7, श्रीरामपूर, ता. श्रीरामपूर जि. अहिल्यानगर-413 709"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9970057447hemant.ogale@gmail.com; hemantogale7@gmail.com",
-              "mr": "9970057447hemant.ogale@gmail.com; hemantogale7@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "30(1) बारा",
-              "mr": "30(1) बारा"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "महाराष्ट्र विधानसभा प्रतिनिधी",
-              "mr": "महाराष्ट्र विधानसभा प्रतिनिधी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मा. आ. श्री. विक्रम पाचपुतेमु. पो. काष्टी ता. श्रीगोंदा जि. अहिल्यानगर",
-              "mr": "मा. आ. श्री. विक्रम पाचपुतेमु. पो. काष्टी ता. श्रीगोंदा जि. अहिल्यानगर"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "8605905555mlavikrampachpute@gmail.com",
-              "mr": "8605905555mlavikrampachpute@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "30(1) बारा",
-              "mr": "30(1) बारा"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "महाराष्ट्र विधानसभा प्रतिनिधी",
-              "mr": "महाराष्ट्र विधानसभा प्रतिनिधी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मा.आ. श्री रोहित पवार६०१, सुभद्रा बाग पिंपळी पुणे-४१३ १०२",
-              "mr": "मा.आ. श्री रोहित पवार६०१, सुभद्रा बाग पिंपळी पुणे-४१३ १०२"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9822822111rrp@rohitpawar.org",
-              "mr": "9822822111rrp@rohitpawar.org"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "6"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "30 (१) (तेरा) (सुधारीत २००३)",
-              "mr": "30 (१) (तेरा) (सुधारीत २००३)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "महाराष्ट्र विधानपरिषद प्रतिनिधी",
-              "mr": "महाराष्ट्र विधानपरिषद प्रतिनिधी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मा आ श्री किशोर दराडेघर नं. ३४२६ जुने माळी गल्ली, येवला ता. येवला, जि. नाशिक",
-              "mr": "मा आ श्री किशोर दराडेघर नं. ३४२६ जुने माळी गल्ली, येवला ता. येवला, जि. नाशिक"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9822651850kbdarade@gmail.com",
-              "mr": "9822651850kbdarade@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "7",
-              "mr": "7"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "30 (१) (तेरा) (सुधारीत २००३)",
-              "mr": "30 (१) (तेरा) (सुधारीत २००३)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "महाराष्ट्र विधानपरिषद प्रतिनिधी",
-              "mr": "महाराष्ट्र विधानपरिषद प्रतिनिधी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मा.आ. श्री. सत्यजित तांबेप्रभा निवास गल्ली नं.१ बस स्टॅन्ड जवळ इंदिरानगर संगमनेर, ता. संगमनेर, जि. अहिल्यानगर",
-              "mr": "मा.आ. श्री. सत्यजित तांबेप्रभा निवास गल्ली नं.१ बस स्टॅन्ड जवळ इंदिरानगर संगमनेर, ता. संगमनेर, जि. अहिल्यानगर"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9822933333office@satyajeettambe.com",
-              "mr": "9822933333office@satyajeettambe.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "8",
-              "mr": "8"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (नऊ) सुधारित २००३",
-              "mr": "३०(१) (नऊ) सुधारित २००३"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "प्रगतशील शेतकरी",
-              "mr": "प्रगतशील शेतकरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "श्री दत्तात्रय महादेव उगलेरा मडीलगे बुद्रुक  तालुका भुदरगड जिल्हा कोल्हापुर",
-              "mr": "श्री दत्तात्रय महादेव उगलेरा मडीलगे बुद्रुक  तालुका भुदरगड जिल्हा कोल्हापुर"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9423283297dattajiraougale@gmail.com",
-              "mr": "9423283297dattajiraougale@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "9",
-              "mr": "9"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१)  (नऊ) सुधारित २००३",
-              "mr": "३०(१)  (नऊ) सुधारित २००३"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "प्रगतशील शेतकरी",
-              "mr": "प्रगतशील शेतकरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "श्री. शशिकांत हरिदास तरंगेरा. तरंगवाडी, पो. बिजवडी, ता. इंदापूर जि. पुणे ४१३१०६",
-              "mr": "श्री. शशिकांत हरिदास तरंगेरा. तरंगवाडी, पो. बिजवडी, ता. इंदापूर जि. पुणे ४१३१०६"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9823684246shashikanttarange777@gmail.com",
-              "mr": "9823684246shashikanttarange777@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "10",
-              "mr": "10"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१)  (नऊ) सुधारित २००३",
-              "mr": "३०(१)  (नऊ) सुधारित २००३"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "प्रगतशील शेतकरी",
-              "mr": "प्रगतशील शेतकरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "11",
-              "mr": "11"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१)  (नऊ) सुधारित २००३",
-              "mr": "३०(१)  (नऊ) सुधारित २००३"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "प्रगतशील शेतकरी",
-              "mr": "प्रगतशील शेतकरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "12",
-              "mr": "12"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१)  (नऊ) सुधारित २००३",
-              "mr": "३०(१)  (नऊ) सुधारित २००३"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "प्रगतशील शेतकरी",
-              "mr": "प्रगतशील शेतकरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "13",
-              "mr": "13"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (दहा)",
-              "mr": "३०(१) (दहा)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "भारतीय कृषी अनुसंधान परिषद यांचे प्रतिनिधी",
-              "mr": "भारतीय कृषी अनुसंधान परिषद यांचे प्रतिनिधी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मा. डॉ. के. सामी रेड्डीसंचालक भाकृअप- राष्ट्रीय अजैविक ताण व्यवस्थापन संस्था माळेगांव ता. बारामती, जि. पुणे-413 115",
-              "mr": "मा. डॉ. के. सामी रेड्डीसंचालक भाकृअप- राष्ट्रीय अजैविक ताण व्यवस्थापन संस्था माळेगांव ता. बारामती, जि. पुणे-413 115"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "9652114864director.niasm@icar.org.in",
-              "mr": "9652114864director.niasm@icar.org.in"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "14",
-              "mr": "14"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (अकरा)",
-              "mr": "३०(१) (अकरा)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "कृषी उद्योजक",
-              "mr": "कृषी उद्योजक"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "--",
-              "mr": "--"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "15",
-              "mr": "15"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (चौदा)",
-              "mr": "३०(१) (चौदा)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "जिल्हा परिषदेच्या कृषी समितीचे सभापती",
-              "mr": "जिल्हा परिषदेच्या कृषी समितीचे सभापती"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "16",
-              "mr": "16"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (चौदा)",
-              "mr": "३०(१) (चौदा)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "जिल्हा परिषदेच्या कृषी समितीचे सभापती",
-              "mr": "जिल्हा परिषदेच्या कृषी समितीचे सभापती"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "",
-              "mr": ""
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "17",
-              "mr": "17"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (दोन) (सुधारित २००३)",
-              "mr": "३०(१) (दोन) (सुधारित २००३)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध सदस्य",
-              "mr": "पदसिद्ध सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "कृषि आयुक्त, महाराष्ट्र शासन, पुणे, यांचेकडुन नामनिर्देशित कृषि संचालक (नि.व.गु.नि.) कृषि आयुक्तालय, मध्यवर्ती इमारत, पुणे",
-              "mr": "कृषि आयुक्त, महाराष्ट्र शासन, पुणे, यांचेकडुन नामनिर्देशित कृषि संचालक (नि.व.गु.नि.) कृषि आयुक्तालय, मध्यवर्ती इमारत, पुणे"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२०-२६१२७७०८ फॅक्स ०२०-२६१३१०६४directorqe@rediffmail.com",
-              "mr": "०२०-२६१२७७०८ फॅक्स ०२०-२६१३१०६४directorqe@rediffmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "18",
-              "mr": "18"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (तीन) (सुधारित २००३)",
-              "mr": "३०(१) (तीन) (सुधारित २००३)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध सदस्य",
-              "mr": "पदसिद्ध सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पशुसंवर्धन आयुक्त, महाराष्ट्र शासन यांचे कडून नामनिर्देशित प्रादेशिक पशुसंवर्धन सहआयुक्त, जनावरांचा दवाखाना अशोकस्तंभाजवळ, नाशिक",
-              "mr": "पशुसंवर्धन आयुक्त, महाराष्ट्र शासन यांचे कडून नामनिर्देशित प्रादेशिक पशुसंवर्धन सहआयुक्त, जनावरांचा दवाखाना अशोकस्तंभाजवळ, नाशिक"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२५३-२५७७०१५ फॅक्स ०२५३-२५७१९२८rjenashik@gmail.com",
-              "mr": "०२५३-२५७७०१५ फॅक्स ०२५३-२५७१९२८rjenashik@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "19",
-              "mr": "19"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३० (१) (चार)",
-              "mr": "३० (१) (चार)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध सदस्य",
-              "mr": "पदसिद्ध सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "फलोत्पादन संचालक, महाराष्ट्र राज्य, अधिक्षक कृषि अधिकारी यांचे कार्यालया जवळ, नरवीर तानाजीमार्ग, शिवाजीनगर, पुणे",
-              "mr": "फलोत्पादन संचालक, महाराष्ट्र राज्य, अधिक्षक कृषि अधिकारी यांचे कार्यालया जवळ, नरवीर तानाजीमार्ग, शिवाजीनगर, पुणे"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२०-२५५३८०९५/२५५५३७०४५ फॅक्स ०२०-२५५३७५६५agridhrt@gmail.com",
-              "mr": "०२०-२५५३८०९५/२५५५३७०४५ फॅक्स ०२०-२५५३७५६५agridhrt@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "20",
-              "mr": "20"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (पाच)",
-              "mr": "३०(१) (पाच)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध सदस्य",
-              "mr": "पदसिद्ध सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मुख्य वनसंरक्षक (प्रादेशिक), जुनामुंबई-आग्रामार्ग, त्र्यंबकनाका, आदिवासी विकासभवन समोर, नाशिक",
-              "mr": "मुख्य वनसंरक्षक (प्रादेशिक), जुनामुंबई-आग्रामार्ग, त्र्यंबकनाका, आदिवासी विकासभवन समोर, नाशिक"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२५३-२५९८५४५ccfnashik२०१२@gmail.com",
-              "mr": "०२५३-२५९८५४५ccfnashik२०१२@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "21",
-              "mr": "21"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (सहा)",
-              "mr": "३०(१) (सहा)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "सदस्य",
-              "mr": "सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "संशोधन संचालकमफुकृवि, राहुरी",
-              "mr": "संशोधन संचालकमफुकृवि, राहुरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२४२६-२४३२२३ फॅक्स - ०२४२ ०२४२६-२४३२२३dor.mpkv@mpkv.ac.in",
-              "mr": "०२४२६-२४३२२३ फॅक्स - ०२४२ ०२४२६-२४३२२३dor.mpkv@mpkv.ac.in"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "22",
-              "mr": "22"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (सात)",
-              "mr": "३०(१) (सात)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "सदस्य",
-              "mr": "सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "अधिष्ठाता (कृषि)मफुकृवि, राहुरी",
-              "mr": "अधिष्ठाता (कृषि)मफुकृवि, राहुरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "४२६-२४३२०६ फॅक्स ०२४२ ०२४२६-२४३२२७dean.mpkv@nic.in",
-              "mr": "४२६-२४३२०६ फॅक्स ०२४२ ०२४२६-२४३२२७dean.mpkv@nic.in"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "23",
-              "mr": "23"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३०(१) (सोळा) (सुधारित २००३)",
-              "mr": "३०(१) (सोळा) (सुधारित २००३)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध सदस्य",
-              "mr": "पदसिद्ध सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "दुग्धव्यवसाय विकास आयुक्त, महाराष्ट्र शासन यांचेकडून नामनिर्देशित प्रादेशिक दुग्धव्यवसाय विकास अधिकारी नाशिक विभाग, शासकीय दुध योजना आवार, त्र्यंबकरोड, नाशिक",
-              "mr": "दुग्धव्यवसाय विकास आयुक्त, महाराष्ट्र शासन यांचेकडून नामनिर्देशित प्रादेशिक दुग्धव्यवसाय विकास अधिकारी नाशिक विभाग, शासकीय दुध योजना आवार, त्र्यंबकरोड, नाशिक"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२५३-२५७३०२३ / २५७८११६rddonsk(@dataone.in",
-              "mr": "०२५३-२५७३०२३ / २५७८११६rddonsk(@dataone.in"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "24",
-              "mr": "24"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३० (१) (सतरा) (सुधारित २००३)",
-              "mr": "३० (१) (सतरा) (सुधारित २००३)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध सदस्य",
-              "mr": "पदसिद्ध सदस्य"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "मत्स्यव्यवसाय आयुक्त, महाराष्ट्र शासन यांचे कडून नामनिर्देशित प्रादेशिक उपआयुक्त मत्स्यव्यवसाय, जुनी शासकीय अश्विन बैरेक क्र.१३, महसुल आयुक्त कार्यालयाजवळ, आयएसपीजवळ, नाशिकरोड-१",
-              "mr": "मत्स्यव्यवसाय आयुक्त, महाराष्ट्र शासन यांचे कडून नामनिर्देशित प्रादेशिक उपआयुक्त मत्स्यव्यवसाय, जुनी शासकीय अश्विन बैरेक क्र.१३, महसुल आयुक्त कार्यालयाजवळ, आयएसपीजवळ, नाशिकरोड-१"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२५३- २४५५९५५rdefnashik@gmail.com",
-              "mr": "०२५३- २४५५९५५rdefnashik@gmail.com"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "25",
-              "mr": "25"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "३० (१) (पंधरा) (सुधारित २००३)",
-              "mr": "३० (१) (पंधरा) (सुधारित २००३)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "पदसिद्ध सदस्य सचिव",
-              "mr": "पदसिद्ध सदस्य सचिव"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "कुलसचिव,मफुकृवि, राहुरी",
-              "mr": "कुलसचिव,मफुकृवि, राहुरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२४२६-२४३२१६ फैक्स-०२४२६-२४३८१६registrar.mpkv@nic.in",
-              "mr": "०२४२६-२४३२१६ फैक्स-०२४२६-२४३८१६registrar.mpkv@nic.in"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "26",
-              "mr": "26"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "परिनियम ३ (११)",
-              "mr": "परिनियम ३ (११)"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "निमंत्रित",
-              "mr": "निमंत्रित"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "नियंत्रकमफुकृवि, राहुरी",
-              "mr": "नियंत्रकमफुकृवि, राहुरी"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "०२४२६-२४३२२६comptroller.mpkv@gov.in",
-              "mr": "०२४२६-२४३२२६comptroller.mpkv@gov.in"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ]
-      ],
-      "rowCount": 26,
-      "columnCount": 5
-    }
-  ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/PP Web copy_20251203085241_20251212101535.jpg",
-      "localPath": "/media/images/PP_Web_copy_20251203085241_20251212101535.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/20261120_143408_a0a08a5d50be0130492569032594554f.png",
-      "localPath": "/media/images/20261120_143408_a0a08a5d50be0130492569032594554f.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/Hemant Ogale_20260311050028.jpg",
-      "localPath": "/media/images/Hemant_Ogale_20260311050028.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/WhatsApp Image 2026-03-06 at 11.43.39 AM_20260311045433.jpeg",
-      "localPath": "/media/images/WhatsApp_Image_2026-03-06_at_11.43.39_AM_20260311045433.jpeg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/Passport 01_20251212102438.jpg",
-      "localPath": "/media/images/Passport_01_20251212102438.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/Hon. MLC Shri KIshor Darade_20241224105450.jpg",
-      "localPath": "/media/images/Hon._MLC_Shri_KIshor_Darade_20241224105450.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/Tame S EC-Member_20241224105832.jpg",
-      "localPath": "/media/images/Tame_S_EC-Member_20241224105832.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/WhatsApp Image 2024-12-20 at 12.48.55 PM (1)_20241220124630.jpeg",
-      "localPath": "/media/images/WhatsApp_Image_2024-12-20_at_12.48.55_PM_1_20241220124630.jpeg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/20261120_121500_3464180b80cf8210bfb9a857a0448c8e.png",
-      "localPath": "/media/images/20261120_121500_3464180b80cf8210bfb9a857a0448c8e.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/download_20251212102102.jpg",
-      "localPath": "/media/images/download_20251212102102.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/download_20251212102148.jpg",
-      "localPath": "/media/images/download_20251212102148.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/download_20260625095333.jpg",
-      "localPath": "/media/images/download_20260625095333.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/WhatsApp Image 2026-03-06 at 11.16.09 AM_20260311045357.jpeg",
-      "localPath": "/media/images/WhatsApp_Image_2026-03-06_at_11.16.09_AM_20260311045357.jpeg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/Uploads/OFM/download_20251212102306.jpg",
-      "localPath": "/media/images/download_20251212102306.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Contacts",
-        "mr": "संपर्क"
-      },
-      "order": 55
-    },
-    {
-      "type": "heading",
-      "level": "h4",
-      "text": {
-        "en": "महात्मा फुले कृषि विद्यापीठ",
-        "mr": "महात्मा फुले कृषि विद्यापीठ"
-      },
-      "order": 56
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "अ.ग्रामीण जनतेचे विस्तार शिक्षण,",
-        "mr": "अ.ग्रामीण जनतेचे विस्तार शिक्षण,"
-      },
-      "order": 57
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;",
-        "mr": "ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;"
-      },
-      "order": 58
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "क.शारीरिक व लष्करी प्रशिक्षण देणे,",
-        "mr": "क.शारीरिक व लष्करी प्रशिक्षण देणे,"
-      },
-      "order": 59
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "ड.क्रीडा व व्यायाम मंडळे,",
-        "mr": "ड.क्रीडा व व्यायाम मंडळे,"
-      },
-      "order": 60
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "ई.विद्यार्थ्यांचे कल्याण;",
-        "mr": "ई.विद्यार्थ्यांचे कल्याण;"
-      },
-      "order": 61
-    },
-    {
-      "type": "list",
-      "listType": "ol",
-      "items": [
-        {
-          "en": "विद्यापीठाकडे कोणते कार्यक्रम असावेत याची स्थूल रूपाने आखणी करणे;",
-          "mr": "विद्यापीठाकडे कोणते कार्यक्रम असावेत याची स्थूल रूपाने आखणी करणे;"
-        },
-        {
-          "en": "विद्यापीठाच्या वार्षिक अहवालावर चर्चा करणे आणि त्याचा आढावा घेणे व त्यावर सूचना करणे",
-          "mr": "विद्यापीठाच्या वार्षिक अहवालावर चर्चा करणे आणि त्याचा आढावा घेणे व त्यावर सूचना करणे"
-        },
-        {
-          "en": "विद्यापिठाच्या वार्षिक वित्तीय अंदाजावर विचार करने होते तैयार करने अनित्यावर सूचना करने",
-          "mr": "विद्यापिठाच्या वार्षिक वित्तीय अंदाजावर विचार करने होते तैयार करने अनित्यावर सूचना करने"
-        },
-        {
-          "en": "राज्य शासनाच्या मान्यतेने विद्यापीठ मालमत्तेच्या तारणावर विद्यापीठाच्या प्रयोजनांसाठी कर्ज घेणे",
-          "mr": "राज्य शासनाच्या मान्यतेने विद्यापीठ मालमत्तेच्या तारणावर विद्यापीठाच्या प्रयोजनांसाठी कर्ज घेणे"
-        },
-        {
-          "en": "परिनियमांस अधिन राहून विद्यापीठाच्या वतीने मृत्युपत्र दाणे, देणग्या आणि विद्यापीठाकडे हस्तांतरित करण्यात आलेली कोणतीही स्थावर किंवा जंगम मालमत्ता स्वीकारणे",
-          "mr": "परिनियमांस अधिन राहून विद्यापीठाच्या वतीने मृत्युपत्र दाणे, देणग्या आणि विद्यापीठाकडे हस्तांतरित करण्यात आलेली कोणतीही स्थावर किंवा जंगम मालमत्ता स्वीकारणे"
-        },
-        {
-          "en": "विद्यापीठाच्या वतीने कोणत्याही स्थावर किंवा जंगम मालमत्तेचे हस्तांतरण करणे",
-          "mr": "विद्यापीठाच्या वतीने कोणत्याही स्थावर किंवा जंगम मालमत्तेचे हस्तांतरण करणे"
-        },
-        {
-          "en": "विद्यार्थ्यांसाठी घटक महाविद्यालये, विभाग, वस्तीगृह, संशोधन केंद्र, कृषी क्षेत्रे, शाळा, ग्रंथालय, प्रयोगशाळा व प्रात्यक्षिक केंद्र सुरू करणे व त्यांचे व्यवस्था पाहणे आणि कर्मचाऱ्यांना इतर सोयी पुरवणे",
-          "mr": "विद्यार्थ्यांसाठी घटक महाविद्यालये, विभाग, वस्तीगृह, संशोधन केंद्र, कृषी क्षेत्रे, शाळा, ग्रंथालय, प्रयोगशाळा व प्रात्यक्षिक केंद्र सुरू करणे व त्यांचे व्यवस्था पाहणे आणि कर्मचाऱ्यांना इतर सोयी पुरवणे"
-        },
-        {
-          "en": "विद्यापीठाचे आर्थिक व्यवहार, लेखे व गुंतवणूक यांची व्यवस्था ठेवणे व त्यांचे नियमन करणे;",
-          "mr": "विद्यापीठाचे आर्थिक व्यवहार, लेखे व गुंतवणूक यांची व्यवस्था ठेवणे व त्यांचे नियमन करणे;"
-        },
-        {
-          "en": "विहित करण्यात येईल त्याप्रमाणे फी व इतर खर्च निश्चित करणे, त्यांची मागणी करणे व ती स्वीकारणे;",
-          "mr": "विहित करण्यात येईल त्याप्रमाणे फी व इतर खर्च निश्चित करणे, त्यांची मागणी करणे व ती स्वीकारणे;"
-        },
-        {
-          "en": "संशोधन कार्य चालविण्यासाठी आणि ज्ञानामध्ये प्रगती व त्याचा प्रसार यासाठी तिला योग्य वाटेल अशा ज्ञानशाखेतील आणि पाठ्यक्रमातील शिक्षण, अध्यापन व प्रशिक्षण यासाठी तरतूद करणे",
-          "mr": "संशोधन कार्य चालविण्यासाठी आणि ज्ञानामध्ये प्रगती व त्याचा प्रसार यासाठी तिला योग्य वाटेल अशा ज्ञानशाखेतील आणि पाठ्यक्रमातील शिक्षण, अध्यापन व प्रशिक्षण यासाठी तरतूद करणे"
-        },
-        {
-          "en": "महाविद्यालये आणि पदव्युत्तर पतसंस्था यांच्या संलग्निकरणास मान्यता देणे;",
-          "mr": "महाविद्यालये आणि पदव्युत्तर पतसंस्था यांच्या संलग्निकरणास मान्यता देणे;"
-        },
-        {
-          "en": "संलग्न महाविद्यालयांतील व मान्यता प्राप्त परिसंस्थेतील शैक्षणिक दर्जास मान्यता देणे व तो राखण्यात येत आहे याबद्दल खात्री करून घेणे;",
-          "mr": "संलग्न महाविद्यालयांतील व मान्यता प्राप्त परिसंस्थेतील शैक्षणिक दर्जास मान्यता देणे व तो राखण्यात येत आहे याबद्दल खात्री करून घेणे;"
-        },
-        {
-          "en": "उच्च शिक्षण व संशोधन परिसंस्था यांना मान्यता देणे आणि त्यांची मान्यता काढून घेणे;",
-          "mr": "उच्च शिक्षण व संशोधन परिसंस्था यांना मान्यता देणे आणि त्यांची मान्यता काढून घेणे;"
-        },
-        {
-          "en": "पुढील गोष्टींसाठी तरतूद करणेअ.ग्रामीण जनतेचे विस्तार शिक्षण,ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;",
-          "mr": "पुढील गोष्टींसाठी तरतूद करणेअ.ग्रामीण जनतेचे विस्तार शिक्षण,ब.विद्यापीठाचे, संबंधित शासकीय विभागाचे आणि जिल्हा परिषदेचे कर्मचारी सेवेत असताना त्यांना प्रशिक्षण देणे,क.शारीरिक व लष्करी प्रशिक्षण देणे,ड.क्रीडा व व्यायाम मंडळे,ई.विद्यार्थ्यांचे कल्याण;"
-        },
-        {
-          "en": "संलग्न महाविद्यालयांच्या व मान्यताप्राप्त परिसंस्थांच्या तपासणीची व्यवस्था करणे व ती करण्याबद्दल निदेश देणे व त्यांचे कार्यक्षमता रहावी आणि त्यांच्या कर्मचारी वर्गाच्या सेवेची खातर जमा करण्यासाठी म्हणून अनुदेश देणे आणि अशा अनुदेशांकडे दुर्लक्ष करण्यात आल्यास, त्यांच्या संलग्न करण्याच्या किंवा मान्यता देण्यासंबंधीच्या शर्तीत फेरफार करणे विषयी किंवा तिला योग्य वाटेल अशी इतर उपाययोजना करण्याविषयी शिफारस करणे;",
-          "mr": "संलग्न महाविद्यालयांच्या व मान्यताप्राप्त परिसंस्थांच्या तपासणीची व्यवस्था करणे व ती करण्याबद्दल निदेश देणे व त्यांचे कार्यक्षमता रहावी आणि त्यांच्या कर्मचारी वर्गाच्या सेवेची खातर जमा करण्यासाठी म्हणून अनुदेश देणे आणि अशा अनुदेशांकडे दुर्लक्ष करण्यात आल्यास, त्यांच्या संलग्न करण्याच्या किंवा मान्यता देण्यासंबंधीच्या शर्तीत फेरफार करणे विषयी किंवा तिला योग्य वाटेल अशी इतर उपाययोजना करण्याविषयी शिफारस करणे;"
-        },
-        {
-          "en": "संलग्न महाविद्यालय आणि मान्यता प्राप्त परिसंस्था यांतील कर्मचारी वर्गाची वेतन श्रेणी आणि त्यांच्या सेवेच्या शर्ती निश्चित करणे व त्यांचे पालन होत आहे यांची खात्री करून घेणे;",
-          "mr": "संलग्न महाविद्यालय आणि मान्यता प्राप्त परिसंस्था यांतील कर्मचारी वर्गाची वेतन श्रेणी आणि त्यांच्या सेवेच्या शर्ती निश्चित करणे व त्यांचे पालन होत आहे यांची खात्री करून घेणे;"
-        },
-        {
-          "en": "परिनियम व विनयम करणे, त्यात सुधारणा करणे व त्यांचे निरसन करणे;",
-          "mr": "परिनियम व विनयम करणे, त्यात सुधारणा करणे व त्यांचे निरसन करणे;"
-        },
-        {
-          "en": "विनियम स्वीकारणे, नाकारणे किंवा विद्या परिषदेकडे किंवा इतर कोणत्याही प्राधिकरणाकडे ते विचारार्थ परत पाठविणे;",
-          "mr": "विनियम स्वीकारणे, नाकारणे किंवा विद्या परिषदेकडे किंवा इतर कोणत्याही प्राधिकरणाकडे ते विचारार्थ परत पाठविणे;"
-        },
-        {
-          "en": "परीक्षक नेमणे, त्यांचे जर काही परिश्रमिक असल्यास, ते निश्चित करणे आणि विद्यापीठांच्या परीक्षा व इतर चाचणी परीक्षा घेण्याची व त्यांचे निकाल प्रसिद्ध करण्याची व्यवस्था करणे;",
-          "mr": "परीक्षक नेमणे, त्यांचे जर काही परिश्रमिक असल्यास, ते निश्चित करणे आणि विद्यापीठांच्या परीक्षा व इतर चाचणी परीक्षा घेण्याची व त्यांचे निकाल प्रसिद्ध करण्याची व्यवस्था करणे;"
-        },
-        {
-          "en": "विद्यापीठ यथोचितरित्या चालावे म्हणून तिला आवश्यक वाटतील अशी, स्थायी किंवा तात्पुरती, मंडळे व समित्या नेमणे व त्यांची रचना, कामे आणि मुदत निश्चित करून देणे;",
-          "mr": "विद्यापीठ यथोचितरित्या चालावे म्हणून तिला आवश्यक वाटतील अशी, स्थायी किंवा तात्पुरती, मंडळे व समित्या नेमणे व त्यांची रचना, कामे आणि मुदत निश्चित करून देणे;"
-        },
-        {
-          "en": "तिला योग्य वाटतील अशा आपल्या अधिकारांपैकी कोणतेही अधिकार कुलगुरूस किंवा विद्यापीठाच्या किंवा तिने नेमलेल्या मंडळाच्या किंवा समितीच्या इतर अधिकाऱ्यांस परिनीयमाद्वारे प्रदान करणे;",
-          "mr": "तिला योग्य वाटतील अशा आपल्या अधिकारांपैकी कोणतेही अधिकार कुलगुरूस किंवा विद्यापीठाच्या किंवा तिने नेमलेल्या मंडळाच्या किंवा समितीच्या इतर अधिकाऱ्यांस परिनीयमाद्वारे प्रदान करणे;"
-        },
-        {
-          "en": "विद्यापीठाच्या सामायिक शिक्याचा नमुना ठरविणे व त्याची अभिरक्षा आणि त्याच्या वापराचे नियमन यासंबंधी तरतूद करणे;",
-          "mr": "विद्यापीठाच्या सामायिक शिक्याचा नमुना ठरविणे व त्याची अभिरक्षा आणि त्याच्या वापराचे नियमन यासंबंधी तरतूद करणे;"
-        },
-        {
-          "en": "अधिछात्रवृत्त्या (प्रवासी अधिछात्रवृत्यांसह) शिष्यवृत्त्या, छात्रवृत्या, विद्यार्थीवेतने, पदके व पारितोषिके मंजूर करणे;",
-          "mr": "अधिछात्रवृत्त्या (प्रवासी अधिछात्रवृत्यांसह) शिष्यवृत्त्या, छात्रवृत्या, विद्यार्थीवेतने, पदके व पारितोषिके मंजूर करणे;"
-        },
-        {
-          "en": "पदवी, पदविका प्रमाणपत्रे व इतर विद्या विषयक विशेषोपाधी बहाल करण्यासंबंधी कुलपतीस शिफारस करणे;",
-          "mr": "पदवी, पदविका प्रमाणपत्रे व इतर विद्या विषयक विशेषोपाधी बहाल करण्यासंबंधी कुलपतीस शिफारस करणे;"
-        },
-        {
-          "en": "सन्मान्य पदव्या किंवा विद्याविषयक इतर विशेषोपाधि मंजूर करणे;",
-          "mr": "सन्मान्य पदव्या किंवा विद्याविषयक इतर विशेषोपाधि मंजूर करणे;"
-        },
-        {
-          "en": "विद्यापीठ व त्याच्या नियंत्रणा खालील महाविद्यालये व संस्था यांच्या विद्यार्थ्यांच्या व कर्मचारी वर्गाच्या गरजा भागवण्यासाठी ग्राहक सहकारी संस्थांसाठी तरतूद करणे;",
-          "mr": "विद्यापीठ व त्याच्या नियंत्रणा खालील महाविद्यालये व संस्था यांच्या विद्यार्थ्यांच्या व कर्मचारी वर्गाच्या गरजा भागवण्यासाठी ग्राहक सहकारी संस्थांसाठी तरतूद करणे;"
-        },
-        {
-          "en": "ह्या अधिनियमाद्वारे किंवा तदन्वये तिला प्रदान करण्यात येतील अशा इतर अधिकारांचा वापर करणे व तिच्यावर लादण्यात येतील अशी इतर कर्तव्ये पार पाडणे;",
-          "mr": "ह्या अधिनियमाद्वारे किंवा तदन्वये तिला प्रदान करण्यात येतील अशा इतर अधिकारांचा वापर करणे व तिच्यावर लादण्यात येतील अशी इतर कर्तव्ये पार पाडणे;"
-        },
-        {
-          "en": "ज्याकरिता या अधिनियमात किंवा परिणीयमात अन्यथा कोणतीही तरतूद करण्यात आलेली नाही, अशा विद्यापीठाच्या सर्व अधिकारांचा व या अधिनियमाच्या किंवा परिणीयमांच्या उपबंधांची अंमलबजावणी करण्यासाठी आवश्यक आहेत अशा इतर सर्व अधिकारांचा वापर करणे.",
-          "mr": "ज्याकरिता या अधिनियमात किंवा परिणीयमात अन्यथा कोणतीही तरतूद करण्यात आलेली नाही, अशा विद्यापीठाच्या सर्व अधिकारांचा व या अधिनियमाच्या किंवा परिणीयमांच्या उपबंधांची अंमलबजावणी करण्यासाठी आवश्यक आहेत अशा इतर सर्व अधिकारांचा वापर करणे."
-        }
-      ],
-      "order": 62
-    }
-  ],
-  "stats": {
-    "headingCount": 56,
-    "paragraphCount": 5,
-    "listCount": 1,
-    "tableCount": 1,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 29,
-    "totalRecords": 116
-  },
-  "menuId": "menu_officers",
-  "parentMenu": {
-    "id": "menu_officers",
-    "title": {
-      "en": "Officers",
-      "mr": "अधिकारी"
-    }
-  },
-  "submenuGroup": {
-    "en": "Governance",
-    "mr": "शासन व मंडळ"
-  }
+  ]
 }

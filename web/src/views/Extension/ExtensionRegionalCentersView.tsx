@@ -192,7 +192,7 @@ export const ExtensionRegionalCentersView: React.FC<ExtensionRegionalCentersView
 
                   <div className="p-3 bg-stone-50 rounded-xl border border-stone-200/70 text-xs text-stone-700 space-y-1">
                     <span className="font-bold text-slate-900 block">
-                      {language === 'mr' ? 'कार्यक्षेत्र (Jurisdiction):' : 'Jurisdiction Area:'}
+                      {language === 'mr' ? 'कार्यक्षेत्र:' : 'Jurisdiction Area:'}
                     </span>
                     <span>{language === 'mr' ? rec.jurisdictionMr : rec.jurisdictionEn}</span>
                   </div>

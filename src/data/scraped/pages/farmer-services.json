@@ -3,7 +3,7 @@
   "url": "https://mpkv.ac.in/Farmer/Services",
   "route": "/farmer/services",
   "sourcePage": "Farmer/Services",
-  "scrapedAt": "2026-11-24T15:55:00.000Z",
+  "scrapedAt": "2026-11-27T05:39:39.775116+00:00",
   "title": {
     "en": "Services",
     "mr": "शेतकरी सुविधा व सेवा"
@@ -282,5 +282,13 @@
   "submenuGroup": {
     "en": "Sammelan & Success Stories",
     "mr": "संमेलन व यशोगाथा"
+  },
+  "rightToServicePdf": {
+    "title": {
+      "en": "Maharashtra Right to Public Services Act — MPKV Citizen Charter (PDF)",
+      "mr": "महाराष्ट्र लोकसेवा हक्क अधिनियम — मफुकृवि सेवा हमी सनद (PDF)"
+    },
+    "href": "/media/docs/farmer/right_to_service.pdf",
+    "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf"
   }
 }

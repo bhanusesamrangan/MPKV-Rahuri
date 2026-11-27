@@ -1,26 +1,55 @@
 {
   "slug": "education-affiliated-colleges",
   "url": "https://mpkv.ac.in/Education/EduAffiletedClg",
-  "route": "/Education/EduAffiletedClg",
-  "sourcePage": "education-affiliated-colleges",
+  "route": "/education/affiliated-colleges",
+  "sourcePage": "Education/EduAffiletedClg",
   "scrapedAt": "2026-11-22T20:35:24.731387",
   "title": {
-    "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Affiliated Colleges",
+    "mr": "संलग्न महाविद्यालये"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Education",
+        "mr": "शिक्षण"
+      },
+      "href": "/education/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "href": "/education/affiliated-colleges"
+    },
+    {
+      "title": {
+        "en": "Affiliated Colleges",
+        "mr": "संलग्न महाविद्यालये"
+      },
+      "href": "/education/affiliated-colleges"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Affiliated Colleges Directory",
+      "mr": "संलग्न महाविद्यालयांची सर्वसमावेशक माहिती"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — Affiliated Colleges - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "64 non-grant affiliated agricultural colleges across Western Maharashtra offering Bachelor’s degree programmes under MPKV academic regulation.",
+      "mr": "मफुकृवि च्या शैक्षणिक नियमावलीनुसार पदवी अभ्यासक्रम चालविणारी पश्चिम महाराष्ट्रातील ६४ विनाअनुदानित संलग्न महाविद्यालये."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "64 Non-Grant Affiliated Colleges | 6 Degree Streams",
+      "mr": "६४ विनाअनुदानित संलग्न महाविद्यालये | ६ पदवी शाखा"
     }
   },
   "headings": [
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -575,7 +604,7 @@
         },
         {
           "en": "Diploma (Agril. Tech. Schools)",
-          "mr": "Diploma (Agril. Tech. Schools)"
+          "mr": "कृषी तंत्र विद्यालये पदविका"
         },
         {
           "en": "Certificate Courses",
@@ -4280,7 +4309,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -4824,7 +4853,7 @@
         },
         {
           "en": "Diploma (Agril. Tech. Schools)",
-          "mr": "Diploma (Agril. Tech. Schools)"
+          "mr": "कृषी तंत्र विद्यालये पदविका"
         },
         {
           "en": "Certificate Courses",
@@ -4892,5 +4921,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 143
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
   }
 }

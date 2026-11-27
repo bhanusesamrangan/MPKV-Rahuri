@@ -5,23 +5,37 @@
   "sourcePage": "colleges-campus",
   "scrapedAt": "2026-11-22T20:35:45.144603",
   "title": {
-    "en": "Campus",
-    "mr": "Campus"
+    "en": "Colleges & Campuses",
+    "mr": "महाविद्यालये व संकुले"
   },
   "breadcrumb": [
     {
       "title": {
         "en": "Home",
-        "mr": "Home"
+        "mr": "मुख्यपृष्ठ"
       },
-      "href": ""
+      "href": "/"
     },
     {
       "title": {
-        "en": "Our Campus",
-        "mr": "Our Campus"
+        "en": "Education",
+        "mr": "शिक्षण"
       },
-      "href": ""
+      "href": "/colleges-campus"
+    },
+    {
+      "title": {
+        "en": "Colleges",
+        "mr": "महाविद्यालये"
+      },
+      "href": "/colleges-campus"
+    },
+    {
+      "title": {
+        "en": "Colleges & Campuses",
+        "mr": "महाविद्यालये व संकुले"
+      },
+      "href": "/colleges-campus"
     }
   ],
   "hero": {
@@ -99,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -697,7 +711,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1180,5 +1194,17 @@
     "noticeCount": 0,
     "mediaCount": 16,
     "totalRecords": 74
+  },
+  "menuId": "menu_education",
+  "parentMenu": {
+    "id": "menu_education",
+    "title": {
+      "en": "Education",
+      "mr": "शिक्षण"
+    }
+  },
+  "submenuGroup": {
+    "en": "Colleges",
+    "mr": "महाविद्यालये"
   }
 }

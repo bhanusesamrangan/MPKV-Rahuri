@@ -59,7 +59,7 @@ export const AcademicRegulationsView: React.FC<AcademicRegulationsViewProps> = (
         },
         {
           en: 'One Credit represents one hour of theory lecture or two hours of laboratory/practical fieldwork per week.',
-          mr: '१ श्रेयांक (Credit) म्हणजे दर आठवड्याला १ तास व्याख्यान किंवा २ तास प्रयोगशाळा/शेत प्रात्यक्षिक.'
+          mr: '१ श्रेयांक म्हणजे दर आठवड्याला १ तास व्याख्यान किंवा २ तास प्रयोगशाळा/शेत प्रात्यक्षिक.'
         },
         {
           en: 'Undergraduate students must complete the prescribed credit load (approx. 160–184 credits) across 8 semesters.',
@@ -111,11 +111,11 @@ export const AcademicRegulationsView: React.FC<AcademicRegulationsViewProps> = (
         },
         {
           en: 'OGPA Criteria: 6.00 to 6.99 (Second Class); 7.00 to 7.99 (First Class); 8.00 and above (First Class with Distinction).',
-          mr: 'OGPA श्रेणी: ६.०० ते ६.९९ (द्वितीय श्रेणी); ७.०० ते ७.९९ (प्रथम श्रेणी); ८.०० व त्याहून अधिक (विशेष प्रावीण्य - Distinction).'
+          mr: 'OGPA श्रेणी: ६.०० ते ६.९९ (द्वितीय श्रेणी); ७.०० ते ७.९९ (प्रथम श्रेणी); ८.०० व त्याहून अधिक (विशेष प्रावीण्य).'
         },
         {
           en: 'Provision for Improvement Examination: Available once for passed courses with GP below 6.00.',
-          mr: 'गुण सुधारणा परीक्षा (Improvement): ६.०० पेक्षा कमी ग्रेड पॉईंट असणाऱ्या उत्तीर्ण विषयांसाठी एकदा संधी.'
+          mr: 'गुण सुधारणा परीक्षा: ६.०० पेक्षा कमी ग्रेड पॉईंट असणाऱ्या उत्तीर्ण विषयांसाठी एकदा संधी.'
         }
       ]
     },

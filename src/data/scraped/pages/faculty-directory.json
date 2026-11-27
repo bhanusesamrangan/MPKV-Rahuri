@@ -49,7 +49,7 @@
     {
       "text": {
         "en": "To facilitate global research collaboration and scientific transparency, detailed individual academic profiles, publications, h-index citations, and patents of all MPKV faculty members are cataloged on the official National IRINS (Indian Research Information Network System) Portal at mpkv.irins.org.",
-        "mr": "संशोधनातील पारदर्शकता व जागतिक सहकार्यासाठी सर्व प्राध्यापकांची वैयक्तिक संशोधक प्रोफाइल, शोधनिबंध, h-index उद्धरणे आणि पेटंट्स राष्ट्रीय आयरिन्स (IRINS - Vidwan) प्रणालीवर mpkv.irins.org येथे ऑनलाइन उपलब्ध आहेत."
+        "mr": "संशोधनातील पारदर्शकता व जागतिक सहकार्यासाठी सर्व प्राध्यापकांची वैयक्तिक संशोधक प्रोफाइल, शोधनिबंध, h-index उद्धरणे आणि पेटंट्स राष्ट्रीय आयरिन्स प्रणालीवर mpkv.irins.org येथे ऑनलाइन उपलब्ध आहेत."
       },
       "order": 2
     }
@@ -832,6 +832,6 @@
   "totalFacultyCount": 22,
   "collegeInfo": {
     "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology (AICTE Accredited)",
-    "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय (AICTE मान्यताप्राप्त)"
+    "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय (एआयसीटीई मान्यताप्राप्त)"
   }
 }

@@ -70,7 +70,7 @@ export const OrganizationalProfileView: React.FC<OrganizationalProfileViewProps>
 
   const governanceBodies = [
     {
-      title: { en: 'Academic Council (विद्या परिषद)', mr: 'विद्या परिषद (Academic Council)' },
+      title: { en: 'Academic Council', mr: 'विद्या परिषद' },
       level: { en: 'Apex Academic Authority', mr: 'सर्वोच्च शैक्षणिक प्राधिकरण' },
       desc: {
         en: 'The supreme statutory academic authority responsible for prescribing syllabi, academic regulations, examination conduct, degree approvals, and academic policy.',
@@ -83,7 +83,7 @@ export const OrganizationalProfileView: React.FC<OrganizationalProfileViewProps>
       badge: 'Supreme Statutory Body'
     },
     {
-      title: { en: 'Board of Studies (अभ्यास मंडळे)', mr: 'अभ्यास मंडळे (Board of Studies)' },
+      title: { en: 'Board of Studies', mr: 'अभ्यास मंडळे' },
       level: { en: 'Subject & Curricula Formulation', mr: 'विषयनिहाय अभ्यासक्रम रचना' },
       desc: {
         en: 'Subject-specific statutory bodies drafting detailed curricula, course credit allocations, laboratory practical manuals, and panel of examiners.',
@@ -96,7 +96,7 @@ export const OrganizationalProfileView: React.FC<OrganizationalProfileViewProps>
       badge: 'Subject Experts'
     },
     {
-      title: { en: 'Faculty of Agriculture (कृषि विद्याशाखा)', mr: 'कृषि विद्याशाखा (Faculty of Agriculture)' },
+      title: { en: 'Faculty of Agriculture', mr: 'कृषि विद्याशाखा' },
       level: { en: 'Faculty Governance', mr: 'विद्याशाखा प्रशासन' },
       desc: {
         en: 'Administers 11 fundamental agricultural departments, 8 constituent agricultural colleges, and post-graduate institute programmes.',
@@ -109,7 +109,7 @@ export const OrganizationalProfileView: React.FC<OrganizationalProfileViewProps>
       badge: '11 Departments'
     },
     {
-      title: { en: 'Faculty of Agricultural Engineering (अभियांत्रिकी विद्याशाखा)', mr: 'कृषि अभियांत्रिकी विद्याशाखा' },
+      title: { en: 'Faculty of Agricultural Engineering', mr: 'कृषि अभियांत्रिकी विद्याशाखा' },
       level: { en: 'Engineering Governance', mr: 'अभियांत्रिकी प्रशासन' },
       desc: {
         en: 'Directs agricultural engineering education across Dr. ASCAET Rahuri and Kashti colleges in 5 specialized disciplines.',

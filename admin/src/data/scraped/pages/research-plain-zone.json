@@ -5,14 +5,43 @@
   "sourcePage": "research-plain-zone",
   "scrapedAt": "2026-11-22T20:36:04.917381",
   "title": {
-    "en": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Plain Zone",
+    "mr": "पठार विभाग"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Agro-Climatic Research Stations",
+        "mr": "कृषि हवामान संशोधन केंद्रे"
+      },
+      "href": "/research/plain-zone"
+    },
+    {
+      "title": {
+        "en": "Plain Zone",
+        "mr": "पठार विभाग"
+      },
+      "href": "/research/plain-zone"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Plain Zone",
+      "mr": "Research Plain Zone"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Plain Zone - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -770,7 +799,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1323,5 +1352,17 @@
     "noticeCount": 0,
     "mediaCount": 19,
     "totalRecords": 74
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Agro-Climatic Research Stations",
+    "mr": "कृषि हवामान संशोधन केंद्रे"
   }
 }

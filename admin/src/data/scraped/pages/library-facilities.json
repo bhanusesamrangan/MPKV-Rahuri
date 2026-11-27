@@ -1,12 +1,20 @@
 {
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "scrapedAt": "2026-11-26T16:14:28.081382+00:00",
   "slug": "library-facilities",
   "url": "https://mpkv.ac.in/Library/LibFacilities",
   "route": "/Library/LibFacilities",
   "sourcePage": "library-facilities",
-  "scrapedAt": "2026-11-22T20:35:55.695327",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "Facilities & Reading Halls",
+    "mr": "वाचक सुविधा व अभ्यासिका"
   },
   "breadcrumb": [
     {
@@ -21,1448 +29,192 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "About & Collections",
+        "mr": "माहिती व ग्रंथसंग्रह"
+      },
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "Facilities & Reading Halls",
+        "mr": "वाचक सुविधा व अभ्यासिका"
+      },
+      "href": "/library/facilities"
     }
   ],
+  "submenuGroup": {
+    "en": "About & Collections",
+    "mr": "माहिती व ग्रंथसंग्रह"
+  },
   "hero": {
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Reading Halls, Borrowing Privileges & Library Rules",
+      "mr": "वाचक अभ्यासिका (४९५ आसनक्षमता), देवाणघेवाण व नियम"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Library",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — ग्रंथालय"
+      "en": "495-seat reading capacity including dedicated wings for Girls and Ph.D. Scholars, open up to 23:00 hrs alongside structured Borrower's Ticket (BT) entitlements.",
+      "mr": "मुली व पीएच.डी. संशोधकांसाठी स्वतंत्र अभ्यासिका कक्षासह एकाच वेळी ४९५ विद्यार्थ्यांची आसनक्षमता आणि रात्री ११:०० वाजेपर्यंत सेवा."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "495 Seats • Open till 23:00 hrs",
+      "mr": "४९५ आसनक्षमता • रात्री ११:०० पर्यंत"
     }
   },
-  "headings": [
+  "facilities": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+      "title": {
+        "en": "Lending of Books for Home Reading",
+        "mr": "गृहवाचनासाठी पुस्तक देवाणघेवाण"
       },
-      "order": 1
+      "desc": {
+        "en": "The books can be consulted within the library and can also be issued to the readers for home reading.",
+        "mr": "पुस्तके ग्रंथालयात वाचण्यासाठी तसेच घरी नेण्यासाठी अधिकृत वाचकांना दिली जातात."
+      }
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+      "title": {
+        "en": "Reading Room Facility (495 Seats)",
+        "mr": "विस्तीर्ण अभ्यासिका (४९५ आसनक्षमता)"
       },
-      "order": 2
+      "desc": {
+        "en": "Considering the need of the students, library has made seating arrangement for 495 students at a time.",
+        "mr": "विद्यार्थ्यांच्या गरजेनुसार ग्रंथालयात एकाच वेळी ४९५ विद्यार्थ्यांच्या बसण्याची सुसज्ज व्यवस्था करण्यात आली आहे."
+      }
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+      "title": {
+        "en": "Dedicated Girls & Ph.D. Scholar Wings",
+        "mr": "मुली व पीएच.डी. संशोधकांसाठी स्वतंत्र अभ्यासिका"
       },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Library",
-        "mr": "ग्रंथालय"
-      },
-      "order": 55
+      "desc": {
+        "en": "The library provides separate reading room facility for registered girls & Ph.D students.",
+        "mr": "नोंदणीकृत विद्यार्थिनी आणि पीएच.डी. विद्यार्थ्यांसाठी स्वतंत्र अभ्यासिका सुविधा उपलब्ध आहे."
+      }
     }
   ],
-  "paragraphs": [
+  "timings": [
     {
-      "text": {
-        "en": "The books canbe consulted within the library and can also be issued to the readers for home reading.",
-        "mr": "The books canbe consulted within the library and can also be issued to the readers for home reading."
+      "facility": {
+        "en": "University Library (Main Wing & Stack)",
+        "mr": "मुख्य विद्यापीठ ग्रंथालय"
       },
-      "order": 56
+      "hours": "09:00 hrs – 17:15 hrs",
+      "note": {
+        "en": "Throughout the year except Sundays and public holidays (extended to 21:00 hrs on About Wing)",
+        "mr": "रविवार व शासकीय सुट्ट्या वगळता वर्षभर कार्यरत"
+      }
     },
     {
-      "text": {
-        "en": "Considering the need of the students, library has made seating arrangement within 495 students at a time.",
-        "mr": "Considering the need of the students, library has made seating arrangement within 495 students at a time."
+      "facility": {
+        "en": "Student Reading Room Facility",
+        "mr": "विद्यार्थी अभ्यासिका"
       },
-      "order": 57
-    },
-    {
-      "text": {
-        "en": "The library are provide separate reading room facility for registered girls & Ph.D students.",
-        "mr": "The library are provide separate reading room facility for registered girls & Ph.D students."
-      },
-      "order": 58
-    },
-    {
-      "text": {
-        "en": "The University Library is kept open from 9.00 to 17.15 hrs throughout the year except Sundays and holidays. The University Library has also provided Reading Room Facility to the students, which is kept open from 6.00 hrs to 23.00 hrs.",
-        "mr": "The University Library is kept open from 9.00 to 17.15 hrs throughout the year except Sundays and holidays. The University Library has also provided Reading Room Facility to the students, which is kept open from 6.00 hrs to 23.00 hrs."
-      },
-      "order": 59
+      "hours": "06:00 hrs – 23:00 hrs",
+      "note": {
+        "en": "Extended morning-to-night study hours for exam preparation",
+        "mr": "सकाळी ६:०० ते रात्री ११:०० वाजेपर्यंत खुले"
+      }
     }
   ],
-  "lists": [
+  "entitlements": [
     {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Library",
-          "mr": "ग्रंथालय"
-        },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Collections",
-          "mr": "Collections"
-        },
-        {
-          "en": "Sections",
-          "mr": "Sections"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Links",
-          "mr": "Links"
-        },
-        {
-          "en": "Activities",
-          "mr": "Activities"
-        },
-        {
-          "en": "Off Campus Libraries",
-          "mr": "Off Campus Libraries"
-        },
-        {
-          "en": "News & Events",
-          "mr": "News & Events"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 60
+      "srNo": 1,
+      "category": {
+        "en": "Under Graduate Students",
+        "mr": "पदवी विद्यार्थी (UG)"
+      },
+      "books": 2,
+      "duration": {
+        "en": "15 days",
+        "mr": "१५ दिवस"
+      },
+      "ruleText": "2 Books for 15 days"
     },
     {
-      "type": "ol",
-      "items": [
-        {
-          "en": "The member is issued certain number of Borrower's Ticket (BT) for borrowing books. The BTs are NOT TRANSFERABLE and member is     responsible for any loss of book issued against his BT. On loss of BT member shall have to pay a fine of Rs.10/- per BT.",
-          "mr": "The member is issued certain number of Borrower's Ticket (BT) for borrowing books. The BTs are NOT TRANSFERABLE and member is     responsible for any loss of book issued against his BT. On loss of BT member shall have to pay a fine of Rs.10/- per BT."
-        },
-        {
-          "en": "If the book issued to the member is not returned on or before the due date, a late fee of Rs.1/- per day per book is charged. In case of    book issued for overnight is not returned next day, the late fee of Rs.2/- is charged per day per book.",
-          "mr": "If the book issued to the member is not returned on or before the due date, a late fee of Rs.1/- per day per book is charged. In case of    book issued for overnight is not returned next day, the late fee of Rs.2/- is charged per day per book."
-        },
-        {
-          "en": "Member should not mark, underline or highlight the words or sentences in the book by pencil or by ink.",
-          "mr": "Member should not mark, underline or highlight the words or sentences in the book by pencil or by ink."
-        },
-        {
-          "en": "The member is responsible for any damage caused to the book during the period it remains with him.",
-          "mr": "The member is responsible for any damage caused to the book during the period it remains with him."
-        },
-        {
-          "en": "Borrower shall examine the condition of book before getting it issued in his name. The last borrower will be held responsible for any    damage to the book.",
-          "mr": "Borrower shall examine the condition of book before getting it issued in his name. The last borrower will be held responsible for any    damage to the book."
-        },
-        {
-          "en": "Do not pull the book from the shelf by holding its back cover. To take out a book from the shelf, first push back two or three adjacent books    and then hold firmly the needed book at the middle of the spine and pull it lightly",
-          "mr": "Do not pull the book from the shelf by holding its back cover. To take out a book from the shelf, first push back two or three adjacent books    and then hold firmly the needed book at the middle of the spine and pull it lightly"
-        },
-        {
-          "en": "The book can be renewed for further period, if it is not required by any reader. The library has framed certain rules for circulation of books    so that all the members will have an equal opportunity to get the books. The membership is opened to bonafide students, faculty members    and ministerial staff. Members from different categories are entitled to get issued the books as follows:",
-          "mr": "The book can be renewed for further period, if it is not required by any reader. The library has framed certain rules for circulation of books    so that all the members will have an equal opportunity to get the books. The membership is opened to bonafide students, faculty members    and ministerial staff. Members from different categories are entitled to get issued the books as follows:"
-        }
-      ],
-      "order": 61
+      "srNo": 2,
+      "category": {
+        "en": "Post Graduate Students",
+        "mr": "पदव्युत्तर विद्यार्थी (PG)"
+      },
+      "books": 2,
+      "duration": {
+        "en": "15 days",
+        "mr": "१५ दिवस"
+      },
+      "ruleText": "2 Books for 15 days"
+    },
+    {
+      "srNo": 3,
+      "category": {
+        "en": "Ph.D. Students",
+        "mr": "पीएच.डी. संशोधक विद्यार्थी"
+      },
+      "books": 4,
+      "duration": {
+        "en": "15 days",
+        "mr": "१५ दिवस"
+      },
+      "ruleText": "4 Books for 15 days"
+    },
+    {
+      "srNo": 4,
+      "category": {
+        "en": "Teaching Staff",
+        "mr": "अध्यापन वर्ग (प्राध्यापक)"
+      },
+      "books": 5,
+      "duration": {
+        "en": "1 semester",
+        "mr": "एक सत्र"
+      },
+      "ruleText": "5 Books for a semester"
+    },
+    {
+      "srNo": 5,
+      "category": {
+        "en": "Ministerial Staff",
+        "mr": "प्रशासकीय कर्मचारी"
+      },
+      "books": 1,
+      "duration": {
+        "en": "15 days",
+        "mr": "१५ दिवस"
+      },
+      "ruleText": "1 Book for 15 days"
     }
   ],
-  "tables": [
+  "rules": [
     {
-      "id": "table_1",
-      "caption": null,
-      "headers": [
-        {
-          "en": "Sr.No.",
-          "mr": "Sr.No."
-        },
-        {
-          "en": "Student",
-          "mr": "Student"
-        },
-        {
-          "en": "Rule",
-          "mr": "Rule"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Under Graduate Students",
-              "mr": "Under Graduate Students"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "2 Books for 15 days",
-              "mr": "2 Books for 15 days"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Post Graduate Students",
-              "mr": "Post Graduate Students"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "2 Books for 15 days",
-              "mr": "2 Books for 15 days"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Ph.D Students",
-              "mr": "Ph.D Students"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "4 Books for 15 days",
-              "mr": "4 Books for 15 days"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Teaching Staff",
-              "mr": "Teaching Staff"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "5 Books for a semester",
-              "mr": "5 Books for a semester"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Ministerial Staff",
-              "mr": "Ministerial Staff"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "1 Book for 15 days",
-              "mr": "1 Book for 15 days"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ]
-      ],
-      "rowCount": 5,
-      "columnCount": 3
+      "en": "The member is issued certain number of Borrower's Ticket (BT) for borrowing books. The BTs are NOT TRANSFERABLE and member is responsible for any loss of book issued against his BT. On loss of BT, member shall have to pay a fine of Rs. 10/- per BT.",
+      "mr": "सदस्यांना पुस्तक घेण्यासाठी ठराविक बॉरोअर्स तिकीट (BT) दिले जातात. ही तिकिटे हस्तांतरणीय नाहीत; तिकीट हरवल्यास प्रति BT ₹१०/- दंड आकारला जाईल."
+    },
+    {
+      "en": "If the book issued to the member is not returned on or before the due date, a late fee of Rs. 1/- per day per book is charged. In case a book issued for overnight is not returned next day, a late fee of Rs. 2/- is charged per day per book.",
+      "mr": "मुदतीच्या आत पुस्तक परत न केल्यास प्रतिदिन प्रतिपुस्तक ₹१/- विलंब शुल्क आकारले जाईल. रात्रीपुरत्या पुस्तकास विलंब झाल्यास प्रतिदिन ₹२/- शुल्क लागू राहील."
+    },
+    {
+      "en": "Member should not mark, underline or highlight words or sentences in the book by pencil or ink.",
+      "mr": "वाचकांनी पुस्तकात पेन्सिल किंवा शाईने खुणा करू नयेत अथवा अधोरेखित करू नये."
+    },
+    {
+      "en": "The member is responsible for any damage caused to the book during the period it remains with them.",
+      "mr": "पुस्तक ताब्यात असताना झालेल्या कोणत्याही नुकसानीस संबंधित वाचक जबाबदार राहील."
+    },
+    {
+      "en": "Borrower shall examine the condition of book before getting it issued in their name. The last borrower will be held responsible for any damage to the book.",
+      "mr": "पुस्तक नावावर घेण्यापूर्वी त्याची स्थिती तपासून घ्यावी; नुकसान आढळल्यास शेवटच्या वाचकास जबाबदार धरले जाईल."
+    },
+    {
+      "en": "Do not pull the book from the shelf by holding its back cover. First push back two or three adjacent books and hold firmly at the middle of the spine to pull lightly.",
+      "mr": "कपाटातून पुस्तक काढताना मागच्या कव्हरला धरून ओढू नये; शेजारची पुस्तके मागे सरकवून मणक्याच्या मध्यभागातून हळुवार बाहेर काढावे."
+    },
+    {
+      "en": "The book can be renewed for further period if it is not required by any other reader. Membership is open to bonafide students, faculty members and ministerial staff.",
+      "mr": "इतर कोणाची मागणी नसल्यास पुस्तकाचे नूतनीकरण करता येईल."
     }
-  ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Library",
-        "mr": "ग्रंथालय"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The books canbe consulted within the library and can also be issued to the readers for home reading.",
-        "mr": "The books canbe consulted within the library and can also be issued to the readers for home reading."
-      },
-      "order": 56
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "Considering the need of the students, library has made seating arrangement within 495 students at a time.",
-        "mr": "Considering the need of the students, library has made seating arrangement within 495 students at a time."
-      },
-      "order": 57
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The library are provide separate reading room facility for registered girls & Ph.D students.",
-        "mr": "The library are provide separate reading room facility for registered girls & Ph.D students."
-      },
-      "order": 58
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The University Library is kept open from 9.00 to 17.15 hrs throughout the year except Sundays and holidays. The University Library has also provided Reading Room Facility to the students, which is kept open from 6.00 hrs to 23.00 hrs.",
-        "mr": "The University Library is kept open from 9.00 to 17.15 hrs throughout the year except Sundays and holidays. The University Library has also provided Reading Room Facility to the students, which is kept open from 6.00 hrs to 23.00 hrs."
-      },
-      "order": 59
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Library",
-          "mr": "ग्रंथालय"
-        },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Collections",
-          "mr": "Collections"
-        },
-        {
-          "en": "Sections",
-          "mr": "Sections"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Links",
-          "mr": "Links"
-        },
-        {
-          "en": "Activities",
-          "mr": "Activities"
-        },
-        {
-          "en": "Off Campus Libraries",
-          "mr": "Off Campus Libraries"
-        },
-        {
-          "en": "News & Events",
-          "mr": "News & Events"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 60
-    },
-    {
-      "type": "list",
-      "listType": "ol",
-      "items": [
-        {
-          "en": "The member is issued certain number of Borrower's Ticket (BT) for borrowing books. The BTs are NOT TRANSFERABLE and member is     responsible for any loss of book issued against his BT. On loss of BT member shall have to pay a fine of Rs.10/- per BT.",
-          "mr": "The member is issued certain number of Borrower's Ticket (BT) for borrowing books. The BTs are NOT TRANSFERABLE and member is     responsible for any loss of book issued against his BT. On loss of BT member shall have to pay a fine of Rs.10/- per BT."
-        },
-        {
-          "en": "If the book issued to the member is not returned on or before the due date, a late fee of Rs.1/- per day per book is charged. In case of    book issued for overnight is not returned next day, the late fee of Rs.2/- is charged per day per book.",
-          "mr": "If the book issued to the member is not returned on or before the due date, a late fee of Rs.1/- per day per book is charged. In case of    book issued for overnight is not returned next day, the late fee of Rs.2/- is charged per day per book."
-        },
-        {
-          "en": "Member should not mark, underline or highlight the words or sentences in the book by pencil or by ink.",
-          "mr": "Member should not mark, underline or highlight the words or sentences in the book by pencil or by ink."
-        },
-        {
-          "en": "The member is responsible for any damage caused to the book during the period it remains with him.",
-          "mr": "The member is responsible for any damage caused to the book during the period it remains with him."
-        },
-        {
-          "en": "Borrower shall examine the condition of book before getting it issued in his name. The last borrower will be held responsible for any    damage to the book.",
-          "mr": "Borrower shall examine the condition of book before getting it issued in his name. The last borrower will be held responsible for any    damage to the book."
-        },
-        {
-          "en": "Do not pull the book from the shelf by holding its back cover. To take out a book from the shelf, first push back two or three adjacent books    and then hold firmly the needed book at the middle of the spine and pull it lightly",
-          "mr": "Do not pull the book from the shelf by holding its back cover. To take out a book from the shelf, first push back two or three adjacent books    and then hold firmly the needed book at the middle of the spine and pull it lightly"
-        },
-        {
-          "en": "The book can be renewed for further period, if it is not required by any reader. The library has framed certain rules for circulation of books    so that all the members will have an equal opportunity to get the books. The membership is opened to bonafide students, faculty members    and ministerial staff. Members from different categories are entitled to get issued the books as follows:",
-          "mr": "The book can be renewed for further period, if it is not required by any reader. The library has framed certain rules for circulation of books    so that all the members will have an equal opportunity to get the books. The membership is opened to bonafide students, faculty members    and ministerial staff. Members from different categories are entitled to get issued the books as follows:"
-        }
-      ],
-      "order": 61
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 4,
-    "listCount": 2,
-    "tableCount": 1,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 14,
-    "totalRecords": 78
-  }
+  ]
 }

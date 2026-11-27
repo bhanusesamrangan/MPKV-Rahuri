@@ -1038,7 +1038,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
                     {/* Field 1: Name */}
                     <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-2">
                       <span className="font-bold text-slate-900 shrink-0 text-sm sm:text-base">
-                        {language === 'mr' ? 'नाव (Name)' : 'Name'} -
+                        {language === 'mr' ? 'नाव' : 'Name'} -
                       </span>
                       <span className="font-bold text-slate-900 text-sm sm:text-base font-serif">
                         {language === 'mr' ? station.name.mr : station.name.en}
@@ -1048,7 +1048,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
                     {/* Field 2: Establishment */}
                     <div className="flex flex-wrap items-baseline gap-1 sm:gap-2">
                       <span className="font-bold text-slate-900 shrink-0">
-                        {language === 'mr' ? 'स्थापना (Establishment)' : 'Establishment'} -
+                        {language === 'mr' ? 'स्थापना' : 'Establishment'} -
                       </span>
                       <span className="text-stone-700 font-semibold bg-stone-100 px-2.5 py-0.5 rounded-md border border-stone-200 inline-flex items-center gap-1">
                         <Calendar className="w-3 h-3 text-stone-500" />
@@ -1059,7 +1059,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
                     {/* Field 3: Name of Incharge */}
                     <div className="flex flex-wrap items-baseline gap-1 sm:gap-2">
                       <span className="font-bold text-slate-900 shrink-0">
-                        {language === 'mr' ? 'प्रभारी अधिकारी (Name of Incharge)' : 'Name of Incharge'} -
+                        {language === 'mr' ? 'प्रभारी अधिकारी' : 'Name of Incharge'} -
                       </span>
                       <span className="text-emerald-950 font-bold inline-flex items-center gap-1">
                         <User className="w-3 h-3 text-emerald-700" />
@@ -1071,7 +1071,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
                     {station.contact && (
                       <div className="flex flex-wrap items-baseline gap-1 sm:gap-2">
                         <span className="font-bold text-slate-900 shrink-0">
-                          {language === 'mr' ? 'संपर्क (Contact)' : 'Contact'} -
+                          {language === 'mr' ? 'संपर्क' : 'Contact'} -
                         </span>
                         <div className="flex flex-wrap items-center gap-2">
                           {station.contact.split(',').map((phone, pIdx) => {
@@ -1096,7 +1096,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
                     {station.email && (
                       <div className="flex flex-wrap items-baseline gap-1 sm:gap-2">
                         <span className="font-bold text-slate-900 shrink-0">
-                          {language === 'mr' ? 'ईमेल (Email)' : 'Email'} -
+                          {language === 'mr' ? 'ईमेल' : 'Email'} -
                         </span>
                         <div className="flex flex-wrap items-center gap-2">
                           {station.email.split(',').map((em, eIdx) => {
@@ -1119,7 +1119,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
                     {/* Field 6: Crops */}
                     <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-2 pt-1 border-t border-stone-100">
                       <span className="font-bold text-slate-900 shrink-0">
-                        {language === 'mr' ? 'प्रमुख पिके (Crops)' : 'Crops'} -
+                        {language === 'mr' ? 'प्रमुख पिके' : 'Crops'} -
                       </span>
                       <span className="text-stone-800 font-medium leading-relaxed">
                         {language === 'mr' ? station.crops.mr : station.crops.en}
@@ -1129,7 +1129,7 @@ export const ResearchAgroClimaticZonesView: React.FC<ResearchAgroClimaticZonesVi
                     {/* Field 7: Research Schemes */}
                     <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-2">
                       <span className="font-bold text-slate-900 shrink-0">
-                        {language === 'mr' ? 'संशोधन योजना (Research Schemes)' : 'Research Schemes'} -
+                        {language === 'mr' ? 'संशोधन योजना' : 'Research Schemes'} -
                       </span>
                       <span className="text-stone-700 leading-relaxed font-medium">
                         {language === 'mr' ? station.schemes.mr : station.schemes.en}

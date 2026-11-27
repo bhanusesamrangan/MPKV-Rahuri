@@ -3,7 +3,7 @@
   "url": "https://mpkv.ac.in/Farmer/SuccessStories",
   "route": "/farmer/success-stories",
   "sourcePage": "Farmer/SuccessStories",
-  "scrapedAt": "2026-11-24T15:55:00.000Z",
+  "scrapedAt": "2026-11-27T05:39:39.775116+00:00",
   "title": {
     "en": "Success Stories",
     "mr": "प्रगतीशील शेतकरी यशोगाथा"
@@ -250,5 +250,27 @@
   "submenuGroup": {
     "en": "Sammelan & Success Stories",
     "mr": "संमेलन व यशोगाथा"
-  }
+  },
+  "officialDocuments": [
+    {
+      "srNo": 1,
+      "year": "2021",
+      "title": {
+        "mr": "श्री. साहेबराव चिकणे — राज्यस्तरीय पिक स्पर्धा प्रथम क्रमांक (रब्बी ज्वारी)",
+        "en": "Shri. Sahebrao Chikne — State Level Crop Competition 1st Rank (Rabi Sorghum)"
+      },
+      "href": "/media/docs/farmer/sahebrao_chikne_rabi_jowar_2021.pdf",
+      "sourceLabel": "Farmer/SuccessStory"
+    },
+    {
+      "srNo": 2,
+      "year": "Featured",
+      "title": {
+        "mr": "श्री. मारुती गिते — प्रगतीशील शेतकरी यशोगाथा",
+        "en": "Shri. Maruti Gite — Progressive Farmer Success Story (Official PDF)"
+      },
+      "href": "/media/docs/farmer/maruti_gite_success_story.pdf",
+      "sourceLabel": "Farmer Menu — Success Stories"
+    }
+  ]
 }

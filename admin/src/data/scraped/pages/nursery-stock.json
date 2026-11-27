@@ -1,12 +1,24 @@
 {
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "scrapedAt": "2026-11-27T05:39:39.775116+00:00",
   "slug": "nursery-stock",
   "url": "https://mpkv.ac.in/Farmer/FarmerInputes",
   "route": "/nursery-stock",
   "sourcePage": "nursery-stock",
-  "scrapedAt": "2026-11-22T20:36:22.761281",
+  "submenuGroup": {
+    "en": "Inputs",
+    "mr": "कृषि निविष्ठा"
+  },
   "title": {
-    "en": "Nursery Plants & Grafts Availability (MPKV Rahuri)",
-    "mr": "रोपे व कलमे उपलब्धता साठा (मफुकृवि राहुरी)"
+    "en": "Planting Materials & Nursery Stock",
+    "mr": "रोपवाटिका व कलमे उपलब्धता"
   },
   "breadcrumb": [
     {
@@ -21,518 +33,517 @@
         "en": "Farmer Services",
         "mr": "शेतकरी सेवा"
       },
-      "href": "#"
+      "href": "/farmer/services"
     },
     {
       "title": {
-        "en": "Nursery Stock",
-        "mr": "रोपवाटिका साठा"
+        "en": "Planting Materials",
+        "mr": "रोपे व कलमे"
       },
       "href": "/nursery-stock"
     }
   ],
   "hero": {
     "title": {
-      "en": "Rahuri Central & Horticulture Nursery Stock",
-      "mr": "राहुरी रोपवाटिका अधिकृत साठा"
+      "en": "MPKV 11-Center Planting Material & Nursery Stock",
+      "mr": "मफुकृवि ११ रोपवाटिका केंद्रे — रोपे व कलमे साठा"
     },
     "subtitle": {
-      "en": "Certified Seedlings, Grafts, and Forest Saplings directly from MPKV Rahuri",
-      "mr": "मफुकृवि राहुरी प्रक्षेत्रातील दर्जेदार फळझाडे, कलमे व रोपे"
+      "en": "Live regional inventory across 11 MPKV campus, research station & college nurseries (Rahuri, Pune, Ganeshkhind, Kolhapur, Sangli, Solapur, Shrirampur, Lakhmapur, Dhule).",
+      "mr": "राहुरी, पुणे, कोल्हापूर, सांगली, सोलापूर, श्रीरामपूर, लखमापूर आणि धुळे येथील ११ अधिकृत रोपवाटिकांमधील थेट साठा व दरपत्रक."
     },
     "badge": {
-      "en": "Government Rate Certified",
-      "mr": "शासनमान्य प्रमाणित दर"
+      "en": "11 Nurseries • 57 Plant Lots",
+      "mr": "11 केंद्रे • 57 रोप नोंदी"
     }
   },
-  "tables": [
+  "nurseries": [
     {
-      "id": "horticulture_nursery_table",
-      "caption": {
-        "en": "Horticulture Nursery & Farm, MPKV Rahuri",
-        "mr": "उद्यानविद्या रोपवाटिका, प्रक्षेत्र मफुकृवि राहुरी"
-      },
-      "headers": [
+      "id": "nursery-01",
+      "srNo": 1,
+      "centerName": "उद्यानविद्या रोपवाटिका,प्रक्षेत्र मफुकृवि राहुरी,०२४२६-२४३४४२",
+      "phone": "०२४२६-२४३४४२",
+      "items": [
         {
-          "en": "Sr. No.",
-          "mr": "अ. क्र."
+          "srNo": "1",
+          "plantName": "डाळिंब वाण फुले भगवा सुपर",
+          "rate": "30",
+          "availableQty": "70000",
+          "updatedOn": "15/10/2026"
         },
         {
-          "en": "Plant / Graft Name",
-          "mr": "रोपांचे / कलमांचे नाव"
+          "srNo": "2",
+          "plantName": "लिंबू वाण फुले सरबत्ती",
+          "rate": "40",
+          "availableQty": "5083",
+          "updatedOn": "15/10/2026"
         },
         {
-          "en": "Rate per Plant",
-          "mr": "प्रति रोप दर"
+          "srNo": "3",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "8531",
+          "updatedOn": "15/10/2026"
         },
         {
-          "en": "Available Qty",
-          "mr": "उपलब्ध संख्या"
+          "srNo": "4",
+          "plantName": "अंजीर लोकल",
+          "rate": "50",
+          "availableQty": "189",
+          "updatedOn": "15/10/2026"
         },
         {
-          "en": "Last Updated",
-          "mr": "अपडेट तारीख"
+          "srNo": "5",
+          "plantName": "चिकू वाण कालीपत्ती",
+          "rate": "150",
+          "availableQty": "154",
+          "updatedOn": "15/10/2026"
+        },
+        {
+          "srNo": "6",
+          "plantName": "सीताफळ वाण फुले पुरंदर",
+          "rate": "50",
+          "availableQty": "16722",
+          "updatedOn": "15/10/2026"
         }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            }
-          },
-          {
-            "text": {
-              "mr": "डाळिंब वाण फुले भगवा सुपर",
-              "en": "डाळिंब वाण फुले भगवा सुपर"
-            }
-          },
-          {
-            "text": {
-              "mr": "30",
-              "en": "30"
-            }
-          },
-          {
-            "text": {
-              "mr": "70000",
-              "en": "70000"
-            }
-          },
-          {
-            "text": {
-              "en": "15/10/2026",
-              "mr": "15/10/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            }
-          },
-          {
-            "text": {
-              "mr": "लिंबू वाण फुले सरबत्ती",
-              "en": "लिंबू वाण फुले सरबत्ती"
-            }
-          },
-          {
-            "text": {
-              "mr": "40",
-              "en": "40"
-            }
-          },
-          {
-            "text": {
-              "mr": "5083",
-              "en": "5083"
-            }
-          },
-          {
-            "text": {
-              "en": "15/10/2026",
-              "mr": "15/10/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            }
-          },
-          {
-            "text": {
-              "mr": "आंबा वाण केशर",
-              "en": "आंबा वाण केशर"
-            }
-          },
-          {
-            "text": {
-              "mr": "90",
-              "en": "90"
-            }
-          },
-          {
-            "text": {
-              "mr": "8531",
-              "en": "8531"
-            }
-          },
-          {
-            "text": {
-              "en": "15/10/2026",
-              "mr": "15/10/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            }
-          },
-          {
-            "text": {
-              "mr": "अंजीर लोकल",
-              "en": "अंजीर लोकल"
-            }
-          },
-          {
-            "text": {
-              "mr": "50",
-              "en": "50"
-            }
-          },
-          {
-            "text": {
-              "mr": "189",
-              "en": "189"
-            }
-          },
-          {
-            "text": {
-              "en": "15/10/2026",
-              "mr": "15/10/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            }
-          },
-          {
-            "text": {
-              "mr": "चिकू वाण कालीपत्ती",
-              "en": "चिकू वाण कालीपत्ती"
-            }
-          },
-          {
-            "text": {
-              "mr": "150",
-              "en": "150"
-            }
-          },
-          {
-            "text": {
-              "mr": "154",
-              "en": "154"
-            }
-          },
-          {
-            "text": {
-              "en": "15/10/2026",
-              "mr": "15/10/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "6"
-            }
-          },
-          {
-            "text": {
-              "mr": "सीताफळ वाण फुले पुरंदर",
-              "en": "सीताफळ वाण फुले पुरंदर"
-            }
-          },
-          {
-            "text": {
-              "mr": "50",
-              "en": "50"
-            }
-          },
-          {
-            "text": {
-              "mr": "16722",
-              "en": "16722"
-            }
-          },
-          {
-            "text": {
-              "en": "15/10/2026",
-              "mr": "15/10/2026"
-            }
-          }
-        ]
-      ],
-      "rowCount": 6,
-      "columnCount": 5
+      ]
     },
     {
-      "id": "central_nursery_table",
-      "caption": {
-        "en": "Central Nursery, Seed Department, MPKV Rahuri",
-        "mr": "मध्यवर्ती रोपवाटिका, बियाणे विभाग मफुकृवि राहुरी"
-      },
-      "headers": [
+      "id": "nursery-02",
+      "srNo": 2,
+      "centerName": "मध्यवर्ती रोपवाटिका,बियाणे विभाग  मफुकृवि राहुरी,०२४२६-२४३३३८",
+      "phone": "०२४२६-२४३३३८",
+      "items": [
         {
-          "en": "Sr. No.",
-          "mr": "अ. क्र."
+          "srNo": "1",
+          "plantName": "डाळिंब वाण फुले भगवा सुपर",
+          "rate": "30",
+          "availableQty": "2163",
+          "updatedOn": "21/09/2026"
         },
         {
-          "en": "Plant / Graft Name",
-          "mr": "रोपांचे / कलमांचे नाव"
+          "srNo": "2",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "70885",
+          "updatedOn": "21/09/2026"
         },
         {
-          "en": "Rate per Plant",
-          "mr": "प्रति रोप दर"
+          "srNo": "3",
+          "plantName": "नारळ बाणवली गादीवाफयावरील रोप",
+          "rate": "120",
+          "availableQty": "100",
+          "updatedOn": "21/09/2026"
         },
         {
-          "en": "Available Qty",
-          "mr": "उपलब्ध संख्या"
+          "srNo": "4",
+          "plantName": "लिंबू वाण साई सरबती",
+          "rate": "40",
+          "availableQty": "1493",
+          "updatedOn": "21/09/2026"
         },
         {
-          "en": "Last Updated",
-          "mr": "अपडेट तारीख"
+          "srNo": "5",
+          "plantName": "सिताफळ  वाण फुले पुरंदर",
+          "rate": "50",
+          "availableQty": "11229",
+          "updatedOn": "21/09/2026"
+        },
+        {
+          "srNo": "6",
+          "plantName": "चिकू वाण कालीपत्ती",
+          "rate": "150",
+          "availableQty": "844",
+          "updatedOn": "21/09/2026"
+        },
+        {
+          "srNo": "7",
+          "plantName": "पेरू वाण सरदार",
+          "rate": "60",
+          "availableQty": "11830",
+          "updatedOn": "21/09/2026"
         }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            }
-          },
-          {
-            "text": {
-              "mr": "डाळिंब वाण फुले भगवा सुपर",
-              "en": "डाळिंब वाण फुले भगवा सुपर"
-            }
-          },
-          {
-            "text": {
-              "mr": "30",
-              "en": "30"
-            }
-          },
-          {
-            "text": {
-              "mr": "2163",
-              "en": "2163"
-            }
-          },
-          {
-            "text": {
-              "en": "21/09/2026",
-              "mr": "21/09/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            }
-          },
-          {
-            "text": {
-              "mr": "आंबा वाण केशर",
-              "en": "आंबा वाण केशर"
-            }
-          },
-          {
-            "text": {
-              "mr": "90",
-              "en": "90"
-            }
-          },
-          {
-            "text": {
-              "mr": "70885",
-              "en": "70885"
-            }
-          },
-          {
-            "text": {
-              "en": "21/09/2026",
-              "mr": "21/09/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            }
-          },
-          {
-            "text": {
-              "mr": "नारळ बाणवली गादीवाफयावरील रोप",
-              "en": "नारळ बाणवली गादीवाफयावरील रोप"
-            }
-          },
-          {
-            "text": {
-              "mr": "120",
-              "en": "120"
-            }
-          },
-          {
-            "text": {
-              "mr": "100",
-              "en": "100"
-            }
-          },
-          {
-            "text": {
-              "en": "21/09/2026",
-              "mr": "21/09/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            }
-          },
-          {
-            "text": {
-              "mr": "लिंबू वाण साई सरबती",
-              "en": "लिंबू वाण साई सरबती"
-            }
-          },
-          {
-            "text": {
-              "mr": "40",
-              "en": "40"
-            }
-          },
-          {
-            "text": {
-              "mr": "1493",
-              "en": "1493"
-            }
-          },
-          {
-            "text": {
-              "en": "21/09/2026",
-              "mr": "21/09/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            }
-          },
-          {
-            "text": {
-              "mr": "सिताफळ  वाण फुले पुरंदर",
-              "en": "सिताफळ  वाण फुले पुरंदर"
-            }
-          },
-          {
-            "text": {
-              "mr": "50",
-              "en": "50"
-            }
-          },
-          {
-            "text": {
-              "mr": "11229",
-              "en": "11229"
-            }
-          },
-          {
-            "text": {
-              "en": "21/09/2026",
-              "mr": "21/09/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "6"
-            }
-          },
-          {
-            "text": {
-              "mr": "चिकू वाण कालीपत्ती",
-              "en": "चिकू वाण कालीपत्ती"
-            }
-          },
-          {
-            "text": {
-              "mr": "150",
-              "en": "150"
-            }
-          },
-          {
-            "text": {
-              "mr": "844",
-              "en": "844"
-            }
-          },
-          {
-            "text": {
-              "en": "21/09/2026",
-              "mr": "21/09/2026"
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "7",
-              "mr": "7"
-            }
-          },
-          {
-            "text": {
-              "mr": "पेरू वाण सरदार",
-              "en": "पेरू वाण सरदार"
-            }
-          },
-          {
-            "text": {
-              "mr": "60",
-              "en": "60"
-            }
-          },
-          {
-            "text": {
-              "mr": "11830",
-              "en": "11830"
-            }
-          },
-          {
-            "text": {
-              "en": "21/09/2026",
-              "mr": "21/09/2026"
-            }
-          }
-        ]
-      ],
-      "rowCount": 7,
-      "columnCount": 5
+      ]
+    },
+    {
+      "id": "nursery-03",
+      "srNo": 3,
+      "centerName": "मोदी बाग रोपवाटिका,उद्यानविद्या विभाग कृषी विद्यालय, पुणे",
+      "phone": "",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "शोभिवंत रोपे",
+          "rate": "--",
+          "availableQty": "1566",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "लिंबू वाण फुले सरबत्ती",
+          "rate": "40",
+          "availableQty": "1440",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "3",
+          "plantName": "सीताफळ वाण फुले पुरंदर",
+          "rate": "50",
+          "availableQty": "4183",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "4",
+          "plantName": "डाळिंब वाण फुले भगवा सुपर",
+          "rate": "30",
+          "availableQty": "6634",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "5",
+          "plantName": "डाळिंब वाण भगवा",
+          "rate": "30",
+          "availableQty": "550",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "6",
+          "plantName": "पेरू वाण सरदार",
+          "rate": "60",
+          "availableQty": "6697",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "7",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "20810",
+          "updatedOn": "22/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-04",
+      "srNo": 4,
+      "centerName": "राष्ट्रीय कृषी संशोधन प्रकल्प ,गणेशखिंड, पुणे  ०२०-२५६९३७५०",
+      "phone": "०२०-२५६९३७५०",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "पेरू वाण फुले अमृत",
+          "rate": "60",
+          "availableQty": "3781",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "आवळा लोकल",
+          "rate": "30",
+          "availableQty": "414",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "3",
+          "plantName": "डाळिंब वाण भगवा",
+          "rate": "30",
+          "availableQty": "6612",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "4",
+          "plantName": "डाळिंब वाण फुले भगवा सुपर",
+          "rate": "30",
+          "availableQty": "4982",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "5",
+          "plantName": "नारळ बाणवली",
+          "rate": "250",
+          "availableQty": "531",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "6",
+          "plantName": "चिकू वाण कालीपत्ती",
+          "rate": "150",
+          "availableQty": "3812",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "7",
+          "plantName": "शोभिवंत रोपे",
+          "rate": "--",
+          "availableQty": "18418",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "8",
+          "plantName": "इतर रोपे",
+          "rate": "--",
+          "availableQty": "3680",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "9",
+          "plantName": "चिंच लोकल",
+          "rate": "30",
+          "availableQty": "2292",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "10",
+          "plantName": "सीताफळ वाण फुले पुरंदर",
+          "rate": "50",
+          "availableQty": "2970",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "11",
+          "plantName": "लिंबू वाण फुले सरबत्ती",
+          "rate": "40",
+          "availableQty": "4864",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "12",
+          "plantName": "पेरू वाण सरदार",
+          "rate": "60",
+          "availableQty": "11545",
+          "updatedOn": "22/09/2026"
+        },
+        {
+          "srNo": "13",
+          "plantName": "आंबा वाण केशर ,तोतापुरी, फुले अभिरुची",
+          "rate": "90",
+          "availableQty": "14101",
+          "updatedOn": "22/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-05",
+      "srNo": 5,
+      "centerName": "उद्यानविद्या रोपवाटिका, रा.छ.शा.म. कृषी महाविद्यालय कोल्हापूर ०२३१-२६०७५९०",
+      "phone": "०२३१-२६०७५९०",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "शोभिवंत रोपे",
+          "rate": "--",
+          "availableQty": "4106",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "इतर रोपे",
+          "rate": "--",
+          "availableQty": "92",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "3",
+          "plantName": "जांभूळ वाण लोकल",
+          "rate": "30",
+          "availableQty": "943",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "4",
+          "plantName": "लिंबू वाण फुले सरबत्ती",
+          "rate": "40",
+          "availableQty": "1779",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "5",
+          "plantName": "चिंच वाण लोकल",
+          "rate": "30",
+          "availableQty": "50",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "6",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "4080",
+          "updatedOn": "30/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-06",
+      "srNo": 6,
+      "centerName": "कृषी संशोधन प्रकल्प,कसबे दिग्रज,सांगली- ०२३३ -२४३७२७५",
+      "phone": "०२३३ -२४३७२७५",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "डाळिंब वाण फुले भगवा सुपर",
+          "rate": "30",
+          "availableQty": "2850",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "1670",
+          "updatedOn": "30/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-07",
+      "srNo": 7,
+      "centerName": "राष्ट्रीय कृषी संशोधन प्रकल्प,सोलापूर -०२१७-२३७३०४७",
+      "phone": "०२१७-२३७३०४७",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "674",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "लिंबू वाण फुले सरबत्ती",
+          "rate": "40",
+          "availableQty": "1863",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "3",
+          "plantName": "सीताफळ वाण फुले पुरंदर",
+          "rate": "50",
+          "availableQty": "1871",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "4",
+          "plantName": "डाळिंब वाण फुले भगवा सुपर",
+          "rate": "30",
+          "availableQty": "1321",
+          "updatedOn": "30/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-08",
+      "srNo": 8,
+      "centerName": "अखिल भारतीय समन्वयीत फळपिके , संशोधन प्रकल्प,उपकेंद्र श्रीरामपूर- ०२४२२-२२७२५४/ ०२४२६-२४३३४४",
+      "phone": "०२४२२-२२७२५४/ ०२४२६-२४३३४४",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "लिंबू वाण साई  सरबत्ती (पिशवीतील )",
+          "rate": "40",
+          "availableQty": "1270",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "लिंबू वाण फुले सरबत्ती (पिशवीतील )",
+          "rate": "40",
+          "availableQty": "5354",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "3",
+          "plantName": "मोसंबी वाण फुले रसिका  (पिशवीतील )",
+          "rate": "80",
+          "availableQty": "152",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "4",
+          "plantName": "मोसंबी वाण फुले मोसंबी (पिशवीतील )",
+          "rate": "80",
+          "availableQty": "7315",
+          "updatedOn": "30/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-09",
+      "srNo": 9,
+      "centerName": "डाळिंब संशोधन व तंत्रज्ञान प्रसारण केंद्र ,लखमापूर  ता. बागलाण जि. नाशिक- ०२५५५-२३५५५५ , २३५४४४",
+      "phone": "०२५५५-२३५५५५",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "डाळिंब वाण फुले भगवा सुपर",
+          "rate": "30",
+          "availableQty": "1000",
+          "updatedOn": "30/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-10",
+      "srNo": 10,
+      "centerName": "कृषी महाविद्यालय धुळे  - ०२५६२-२३०३६८",
+      "phone": "०२५६२-२३०३६८",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "लिंबू वाण फुले सरबत्ती",
+          "rate": "40",
+          "availableQty": "1500",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "लिंबू वाण साई सरबत्ती",
+          "rate": "40",
+          "availableQty": "1500",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "3",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "200",
+          "updatedOn": "30/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "nursery-11",
+      "srNo": 11,
+      "centerName": "राष्ट्रीय कृषी संशोधन प्रकल्प, शेंडापार्क,कोल्हापूर- ०२३१-२६९२४१६",
+      "phone": "०२३१-२६९२४१६",
+      "items": [
+        {
+          "srNo": "1",
+          "plantName": "इतर रोपे",
+          "rate": "--",
+          "availableQty": "500",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "2",
+          "plantName": "सीताफळ वाण फुले पुरंदर",
+          "rate": "50",
+          "availableQty": "1000",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "3",
+          "plantName": "लिंबू वाण फुले सरबत्ती",
+          "rate": "40",
+          "availableQty": "1600",
+          "updatedOn": "30/09/2026"
+        },
+        {
+          "srNo": "4",
+          "plantName": "आंबा वाण केशर",
+          "rate": "90",
+          "availableQty": "300",
+          "updatedOn": "30/09/2026"
+        }
+      ]
     }
-  ],
-  "stats": {
-    "horticulturePlantsCount": 6,
-    "centralPlantsCount": 7,
-    "tableCount": 2,
-    "totalRecords": 13
-  }
+  ]
 }

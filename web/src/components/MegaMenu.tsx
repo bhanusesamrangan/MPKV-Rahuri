@@ -215,6 +215,26 @@ export const MegaMenu: React.FC = () => {
 
   const menuItems = Array.isArray(navMenuData) ? navMenuData : ((navMenuData as any).menu_items || []);
 
+  // Handle smooth anchor scrolling when clicking a homepage section link (/#section-id) while already on '/'
+  const handleAnchorLinkClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string,
+    onDone?: () => void
+  ) => {
+    if (onDone) onDone();
+    if (href.startsWith('/#') && pathname === '/') {
+      const targetId = href.slice(2);
+      const el = document.getElementById(targetId);
+      if (el) {
+        e.preventDefault();
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (typeof window !== 'undefined') {
+          window.history.replaceState(null, '', href);
+        }
+      }
+    }
+  };
+
   // Helper to check if a top-level menu item or any of its children/submenus is currently selected/active
   const isMenuSelected = (item: any): boolean => {
     if (!pathname) return false;
@@ -339,12 +359,12 @@ export const MegaMenu: React.FC = () => {
               } else if (childrenCount === 2) {
                 gridCols = 'grid-cols-2';
                 widthClass = 'w-[720px] xl:w-[800px]';
-                alignClass = item.id === 'menu_farmer' ? 'right-0 xl:-left-24' : (item.id === 'menu_students' ? '-left-32 xl:-left-12' : (item.id === 'menu_library' ? '-left-16 xl:left-0' : 'left-0'));
+                alignClass = item.id === 'menu_farmer' ? 'right-0 lg:-right-16 xl:-right-24' : (item.id === 'menu_students' ? '-left-32 xl:-left-12' : (item.id === 'menu_library' ? '-left-16 xl:left-0' : 'left-0'));
               } else if (childrenCount === 3) {
                 gridCols = 'grid-cols-3';
                 if (item.id === 'menu_farmer') {
-                  widthClass = 'w-[840px] xl:w-[920px] 2xl:w-[960px]';
-                  alignClass = 'right-0 xl:-left-44 2xl:-left-28';
+                  widthClass = 'w-[760px] xl:w-[840px] 2xl:w-[880px]';
+                  alignClass = 'right-0 lg:-right-16 xl:-right-24';
                 } else {
                   widthClass = 'w-[960px] xl:w-[1100px]';
                   alignClass = 'left-0';
@@ -355,8 +375,8 @@ export const MegaMenu: React.FC = () => {
                   widthClass = 'w-[840px] xl:w-[900px] 2xl:w-[940px]';
                   alignClass = '-left-12 xl:-left-20 2xl:-left-24';
                 } else if (item.id === 'menu_farmer') {
-                  widthClass = 'w-[780px] xl:w-[840px] 2xl:w-[880px]';
-                  alignClass = 'right-0 xl:-left-36 2xl:-left-24';
+                  widthClass = 'w-[760px] xl:w-[840px] 2xl:w-[880px]';
+                  alignClass = 'right-0 lg:-right-16 xl:-right-24';
                 } else {
                   widthClass = 'w-[1140px] xl:w-[1320px] 2xl:w-[1440px]';
                   alignClass = 'left-0';
@@ -371,30 +391,58 @@ export const MegaMenu: React.FC = () => {
                   onMouseLeave={handleMouseLeaveItem}
                 >
                   {hasChildren ? (
-                    <button
-                      onClick={() => {
-                        clearTimers();
-                        setActiveDropdown((prev) => (prev === item.id ? null : item.id));
-                      }}
-                      className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive || isSelected
-                        ? 'bg-white/20 text-white shadow-xs border border-white/25 font-semibold'
-                        : 'text-white/95 hover:bg-white/15 hover:text-white'
-                        }`}
-                    >
-                      {IconComponent && (
-                        <IconComponent
-                          className={`w-3.5 h-3.5 transition-colors ${isSelected ? 'text-amber-300' : 'text-emerald-200'}`}
-                        />
-                      )}
-                      <span className={isSelected ? 'text-white font-semibold' : ''}>{getBilingual(item.title)}</span>
-                      <ChevronDown
-                        className={`w-3.5 h-3.5 transition-transform duration-150 ${isDropdownActive ? 'rotate-180 text-white' : isSelected ? 'text-amber-300' : 'text-emerald-200/80'
+                    item.href && item.href !== '#' ? (
+                      <Link
+                        href={item.href}
+                        onClick={() => {
+                          clearTimers();
+                          setActiveDropdown(null);
+                        }}
+                        className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive || isSelected
+                          ? 'bg-white/20 text-white shadow-xs border border-white/25 font-semibold'
+                          : 'text-white/95 hover:bg-white/15 hover:text-white'
                           }`}
-                      />
-                      {(isDropdownActive || isSelected) && (
-                        <span className="absolute bottom-0.5 left-2 right-2 h-[2.5px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
-                      )}
-                    </button>
+                      >
+                        {IconComponent && (
+                          <IconComponent
+                            className={`w-3.5 h-3.5 transition-colors ${isSelected ? 'text-amber-300' : 'text-emerald-200'}`}
+                          />
+                        )}
+                        <span className={isSelected ? 'text-white font-semibold' : ''}>{getBilingual(item.title)}</span>
+                        <ChevronDown
+                          className={`w-3.5 h-3.5 transition-transform duration-150 ${isDropdownActive ? 'rotate-180 text-white' : isSelected ? 'text-amber-300' : 'text-emerald-200/80'
+                            }`}
+                        />
+                        {(isDropdownActive || isSelected) && (
+                          <span className="absolute bottom-0.5 left-2 right-2 h-[2.5px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
+                        )}
+                      </Link>
+                    ) : (
+                      <button
+                        onClick={() => {
+                          clearTimers();
+                          setActiveDropdown((prev) => (prev === item.id ? null : item.id));
+                        }}
+                        className={`flex items-center gap-1 xl:gap-1.5 px-2 xl:px-3 py-1.5 xl:py-2 text-[11.5px] xl:text-[13.5px] font-medium rounded-xl transition-all relative cursor-pointer whitespace-nowrap ${isDropdownActive || isSelected
+                          ? 'bg-white/20 text-white shadow-xs border border-white/25 font-semibold'
+                          : 'text-white/95 hover:bg-white/15 hover:text-white'
+                          }`}
+                      >
+                        {IconComponent && (
+                          <IconComponent
+                            className={`w-3.5 h-3.5 transition-colors ${isSelected ? 'text-amber-300' : 'text-emerald-200'}`}
+                          />
+                        )}
+                        <span className={isSelected ? 'text-white font-semibold' : ''}>{getBilingual(item.title)}</span>
+                        <ChevronDown
+                          className={`w-3.5 h-3.5 transition-transform duration-150 ${isDropdownActive ? 'rotate-180 text-white' : isSelected ? 'text-amber-300' : 'text-emerald-200/80'
+                            }`}
+                        />
+                        {(isDropdownActive || isSelected) && (
+                          <span className="absolute bottom-0.5 left-2 right-2 h-[2.5px] bg-gradient-to-r from-amber-300 via-amber-400 to-amber-300 rounded-full shadow-2xs" />
+                        )}
+                      </button>
+                    )
                   ) : (
                     <Link
                       href={item.href}
@@ -426,11 +474,7 @@ export const MegaMenu: React.FC = () => {
                         {/* Top Accent Gradient Line */}
                         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-600 via-amber-400 to-emerald-600 rounded-t-2xl" />
 
-                        {item.children.map((group: any, idx: number) => {
-                          const isFarmer = item.id === 'menu_farmer';
-                          const isFarmerDirectCol = isFarmer && !group.is_group;
-
-                          return (
+                        {item.children.map((group: any, idx: number) => (
                             <div key={idx} className="space-y-2 min-w-0 flex flex-col">
                               {group.is_group && (
                                 <div className="flex items-start gap-1.5 border-b border-stone-200 pb-2 mb-2 min-h-[38px]">
@@ -440,30 +484,11 @@ export const MegaMenu: React.FC = () => {
                                   </h5>
                                 </div>
                               )}
-                              <ul className={isFarmerDirectCol ? "space-y-2.5" : "space-y-1.5"}>
+                              <ul className="space-y-1.5">
                                 {(group.children || [group]).map((leaf: any, lIdx: number) => {
                                   const cleanPath = (pathname || '').replace(/\/$/, '') || '/';
                                   const cleanLeafHref = (leaf.href || '').replace(/\/$/, '') || '/';
                                   const isLeafActive = cleanPath === cleanLeafHref;
-
-                                  if (isFarmerDirectCol) {
-                                    // Primary direct action links for Farmer menu (matching Image 2)
-                                    return (
-                                      <li key={lIdx}>
-                                        <Link
-                                          href={leaf.href}
-                                          onClick={() => setActiveDropdown(null)}
-                                          className={`group/link flex items-center gap-1.5 text-xs xl:text-[13px] py-1.5 px-2 rounded-xl transition-all font-bold tracking-wide uppercase ${isLeafActive
-                                            ? 'bg-emerald-50 text-emerald-950 border-l-2 border-emerald-600 shadow-2xs'
-                                            : 'text-slate-800 hover:bg-emerald-50 hover:text-emerald-900'
-                                            }`}
-                                        >
-                                          <span className="text-emerald-700 font-extrabold text-sm leading-none shrink-0">»</span>
-                                          <span className="text-left leading-snug flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
-                                        </Link>
-                                      </li>
-                                    );
-                                  }
 
                                   return (
                                     <li key={lIdx}>
@@ -480,15 +505,12 @@ export const MegaMenu: React.FC = () => {
                                       ) : (
                                         <Link
                                           href={leaf.href}
-                                          onClick={() => setActiveDropdown(null)}
+                                          onClick={(e) => handleAnchorLinkClick(e, leaf.href, () => setActiveDropdown(null))}
                                           className={`group/link flex items-start justify-between gap-2 text-xs xl:text-[13px] py-1.5 px-2 rounded-xl transition-all ${isLeafActive
                                             ? 'bg-emerald-50 text-emerald-950 font-bold border-l-2 border-emerald-600 shadow-2xs'
                                             : 'text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-950'
                                             }`}
                                         >
-                                          {isFarmer && (
-                                            <span className="text-emerald-600 font-bold text-xs mr-1 shrink-0">›</span>
-                                          )}
                                           <span className="text-left leading-snug font-medium group-hover/link:font-semibold flex-1 min-w-0 break-words">{getBilingual(leaf.title)}</span>
                                           <ArrowRight className="w-3.5 h-3.5 text-emerald-700 opacity-0 group-hover/link:opacity-100 group-hover/link:translate-x-1 transition-all flex-shrink-0 mt-0.5" />
                                         </Link>
@@ -498,8 +520,7 @@ export const MegaMenu: React.FC = () => {
                                 })}
                               </ul>
                             </div>
-                          );
-                        })}
+                          ))}
 
                         {/* Bottom MegaMenu Quick Footer Tag */}
                         <div className="col-span-full pt-3 mt-1 border-t border-stone-200 flex items-center justify-between text-[11px] text-slate-500">
@@ -688,11 +709,13 @@ export const MegaMenu: React.FC = () => {
                                       <Link
                                         key={lIdx}
                                         href={leaf.href}
-                                        onClick={() => {
-                                          setIsMobileOpen(false);
-                                          setExpandedCategory(null);
-                                          setExpandedGroup(null);
-                                        }}
+                                        onClick={(e) =>
+                                          handleAnchorLinkClick(e, leaf.href, () => {
+                                            setIsMobileOpen(false);
+                                            setExpandedCategory(null);
+                                            setExpandedGroup(null);
+                                          })
+                                        }
                                         className={`flex items-center justify-between px-2 py-1 rounded-md text-[11px] sm:text-xs transition-colors ${isLeafActive
                                           ? 'bg-emerald-500/30 text-white font-semibold'
                                           : 'text-white/85 hover:bg-white/10 hover:text-white'

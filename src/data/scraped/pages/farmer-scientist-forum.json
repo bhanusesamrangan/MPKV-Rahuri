@@ -1,12 +1,24 @@
 {
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "scrapedAt": "2026-11-27T05:39:39.775116+00:00",
   "slug": "farmer-scientist-forum",
   "url": "https://mpkv.ac.in/Farmer/FarmerSciForum",
   "route": "/Farmer/FarmerSciForum",
   "sourcePage": "farmer-scientist-forum",
-  "scrapedAt": "2026-11-22T20:35:37.653418",
+  "submenuGroup": {
+    "en": "Forums & Publications",
+    "mr": "मंच व प्रकाशने"
+  },
   "title": {
     "en": "Farmer Scientist Forum",
-    "mr": "शेतकरी शास्त्रज्ञ मंच"
+    "mr": "शेतकरी – शास्त्रज्ञ मंच"
   },
   "breadcrumb": [
     {
@@ -21,1333 +33,133 @@
         "en": "Farmer Services",
         "mr": "शेतकरी सेवा"
       },
-      "href": "/seeds-availability"
-    },
-    {
-      "title": {
-        "en": "Forums & Publications",
-        "mr": "शेतकरी मंच व प्रकाशने"
-      },
-      "href": "/farmer/scientist-forum"
+      "href": "/farmer/services"
     },
     {
       "title": {
         "en": "Farmer Scientist Forum",
-        "mr": "शेतकरी शास्त्रज्ञ मंच"
+        "mr": "शेतकरी – शास्त्रज्ञ मंच"
       },
       "href": "/farmer/scientist-forum"
     }
   ],
   "hero": {
     "title": {
-      "en": "Farmer",
-      "mr": "शेतकरी"
+      "en": "Farmer – Scientist Forum",
+      "mr": "शेतकरी – शास्त्रज्ञ मंच"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Farmer",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — शेतकरी"
+      "en": "Launched on 11 October 2005 across MPKV research stations, colleges & polytechnics — connecting 1,668 member farmers through 54 active grassroot forums.",
+      "mr": "११ ऑक्टोबर २००५ पासून ५४ शेतकरी-शास्त्रज्ञ मंच आणि १,६६८ सभासद शेतकऱ्यांच्या समन्वयातून सुधारित कृषि तंत्रज्ञान प्रसार."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "Est. 11 Oct 2005 • 54 Forums • 1,668 Members",
+      "mr": "स्थापना ११ ऑक्टोबर २००५ • ५४ मंच • १,६६८ सभासद"
     }
   },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Farmer",
-        "mr": "शेतकरी"
-      },
-      "order": 55
-    }
-  ],
-  "paragraphs": [
-    {
-      "text": {
-        "en": "महात्मा फुले कृषि विद्यापीठाच्या संशोधन प्रक्रियेतून निर्माण झालेले सुधारित कृषि तंत्रज्ञान, शेतकरी आणि शास्त्रज्ञ यांच्या योग्य समन्वयातून प्रसारीत केले तर त्याचे अवलंबन शेतकरी स्तरावर मोठया प्रमाणावर होऊन कृषिविकासाला चालना मिळेल, याच संकल्पनेतून विस्तार कार्याला बळकटीकरण येण्यासाठी 11 ऑक्टोबर, 2005 पासून हाती घेतलेला आहे. महात्मा फुले कृषि विद्यापीठ अंतर्गत संशोधन केंद्रे, कृषि महाविद्यालये आणि कृषि तंत्र विद्यालये येथे एकुण 54 शेतकरी - शास्त्रज्ञ मंचाची स्थापना केली असून एकूण 1668 सभासद याचा लाभ घेत आहेत.",
-        "mr": "महात्मा फुले कृषि विद्यापीठाच्या संशोधन प्रक्रियेतून निर्माण झालेले सुधारित कृषि तंत्रज्ञान, शेतकरी आणि शास्त्रज्ञ यांच्या योग्य समन्वयातून प्रसारीत केले तर त्याचे अवलंबन शेतकरी स्तरावर मोठया प्रमाणावर होऊन कृषिविकासाला चालना मिळेल, याच संकल्पनेतून विस्तार कार्याला बळकटीकरण येण्यासाठी 11 ऑक्टोबर, 2005 पासून हाती घेतलेला आहे. महात्मा फुले कृषि विद्यापीठ अंतर्गत संशोधन केंद्रे, कृषि महाविद्यालये आणि कृषि तंत्र विद्यालये येथे एकुण 54 शेतकरी - शास्त्रज्ञ मंचाची स्थापना केली असून एकूण 1668 सभासद याचा लाभ घेत आहेत."
-      },
-      "order": 56
-    }
-  ],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Farmer",
-          "mr": "शेतकरी"
-        },
-        {
-          "en": "Farmer Scientist Forum",
-          "mr": "Farmer Scientist Forum"
-        },
-        {
-          "en": "Kisan Aadhar Sammelan",
-          "mr": "Kisan Aadhar Sammelan"
-        },
-        {
-          "en": "Inputs",
-          "mr": "Inputs"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Publications",
-          "mr": "Publications"
-        },
-        {
-          "en": "Success Stories",
-          "mr": "Success Stories"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "कृषि विद्यापीठातील शास्त्रज्ञ अधिकारी शेतकरी यांच्यामध्ये समन्वय साधून त्यांना मार्गदर्शन करणे.",
-          "mr": "कृषि विद्यापीठातील शास्त्रज्ञ अधिकारी शेतकरी यांच्यामध्ये समन्वय साधून त्यांना मार्गदर्शन करणे."
-        },
-        {
-          "en": "शेतक-यांच्या आणि गावांच्या सर्वांगिण आर्थिक व सामाजिक विकासासाठी कृषि विद्यापीठामार्फत विविध योजना राबविणे.",
-          "mr": "शेतक-यांच्या आणि गावांच्या सर्वांगिण आर्थिक व सामाजिक विकासासाठी कृषि विद्यापीठामार्फत विविध योजना राबविणे."
-        },
-        {
-          "en": "विद्यापीठाने विकसीत केलेले संशोधीत तंत्रज्ञानाचा वापर करणेकरिता शेतक-यांना प्रवृत्त करणे.",
-          "mr": "विद्यापीठाने विकसीत केलेले संशोधीत तंत्रज्ञानाचा वापर करणेकरिता शेतक-यांना प्रवृत्त करणे."
-        },
-        {
-          "en": "शेतीविषयक परिस्थितीनुसार शेतक-यांकडून आलेल्या प्रश्नांची त्वरीत दखल घेऊन त्यानुसार संशोधनाचे नियोजन करणे.",
-          "mr": "शेतीविषयक परिस्थितीनुसार शेतक-यांकडून आलेल्या प्रश्नांची त्वरीत दखल घेऊन त्यानुसार संशोधनाचे नियोजन करणे."
-        },
-        {
-          "en": "मंचातील सभासदांच्या शेतीचा एक आदर्श निर्माण करणे त्याचे अनुकरण इतर शेतक-यांनी करणे बाबत प्रोत्साहन देणे.",
-          "mr": "मंचातील सभासदांच्या शेतीचा एक आदर्श निर्माण करणे त्याचे अनुकरण इतर शेतक-यांनी करणे बाबत प्रोत्साहन देणे."
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "शेतकरी-शास्त्रज्ञ मंचाची महिन्यातून एकदा बैठक आयोजित करणे आणि हंगामनिहाय शेतक-यांचे प्रश्न सोडविणे.",
-          "mr": "शेतकरी-शास्त्रज्ञ मंचाची महिन्यातून एकदा बैठक आयोजित करणे आणि हंगामनिहाय शेतक-यांचे प्रश्न सोडविणे."
-        },
-        {
-          "en": "विद्यापीठामार्फत घेण्यात येणा-या सर्व प्रात्यक्षिका मध्ये मंचाच्या सभासदाला प्राधान्य देणे.",
-          "mr": "विद्यापीठामार्फत घेण्यात येणा-या सर्व प्रात्यक्षिका मध्ये मंचाच्या सभासदाला प्राधान्य देणे."
-        },
-        {
-          "en": "मंचातील सभासद शेतक-यांची संपूर्ण माहिती प्रश्नावलीत भरुन तिचे विश्लेषण करुन मार्गदर्शन करणे.",
-          "mr": "मंचातील सभासद शेतक-यांची संपूर्ण माहिती प्रश्नावलीत भरुन तिचे विश्लेषण करुन मार्गदर्शन करणे."
-        },
-        {
-          "en": "मंचातील प्रत्येक सभासदराच्या जमिनीची आरोग्यपत्रिका तयार करुन पीक पध्दती आणिखत मात्रा सुचविणे.",
-          "mr": "मंचातील प्रत्येक सभासदराच्या जमिनीची आरोग्यपत्रिका तयार करुन पीक पध्दती आणिखत मात्रा सुचविणे."
-        },
-        {
-          "en": "पिकांचे फिरते चिकित्सालय तज्ञ पथकासह मंचातील सभासदांच्या गावांना प्राधान्य देणे.",
-          "mr": "पिकांचे फिरते चिकित्सालय तज्ञ पथकासह मंचातील सभासदांच्या गावांना प्राधान्य देणे."
-        },
-        {
-          "en": "कृषि विद्यापीठातील आयोजित करण्यात येणा-या सर्वचर्चासत्रे / कृषि प्रदर्शने / मेळावे/ प्रशिक्षण / शिवार फेरीमध्ये मंचातील सभासदांना निमंत्रित करणे.",
-          "mr": "कृषि विद्यापीठातील आयोजित करण्यात येणा-या सर्वचर्चासत्रे / कृषि प्रदर्शने / मेळावे/ प्रशिक्षण / शिवार फेरीमध्ये मंचातील सभासदांना निमंत्रित करणे."
-        },
-        {
-          "en": "उत्पादित शेतमालाकरिता योग्य त्या बाजारपेठेची माहिती तसेच काढणीपश्चात तंत्रज्ञानाबदल सभासदांना माहिती देणे.",
-          "mr": "उत्पादित शेतमालाकरिता योग्य त्या बाजारपेठेची माहिती तसेच काढणीपश्चात तंत्रज्ञानाबदल सभासदांना माहिती देणे."
-        }
-      ],
-      "order": 59
-    }
-  ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/fs1.jpg",
-      "localPath": "/media/images/fs1.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/fs2.jpg",
-      "localPath": "/media/images/fs2.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/fs3.jpg",
-      "localPath": "/media/images/fs3.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/fs4.JPG",
-      "localPath": "/media/images/fs4.JPG",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/FSF.pdf",
-      "localPath": "/media/docs/FSF.pdf",
-      "category": "docs",
-      "label": "शेतकरी - शास्त्रज्ञ मंच"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Farmer",
-        "mr": "शेतकरी"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "महात्मा फुले कृषि विद्यापीठाच्या संशोधन प्रक्रियेतून निर्माण झालेले सुधारित कृषि तंत्रज्ञान, शेतकरी आणि शास्त्रज्ञ यांच्या योग्य समन्वयातून प्रसारीत केले तर त्याचे अवलंबन शेतकरी स्तरावर मोठया प्रमाणावर होऊन कृषिविकासाला चालना मिळेल, याच संकल्पनेतून विस्तार कार्याला बळकटीकरण येण्यासाठी 11 ऑक्टोबर, 2005 पासून हाती घेतलेला आहे. महात्मा फुले कृषि विद्यापीठ अंतर्गत संशोधन केंद्रे, कृषि महाविद्यालये आणि कृषि तंत्र विद्यालये येथे एकुण 54 शेतकरी - शास्त्रज्ञ मंचाची स्थापना केली असून एकूण 1668 सभासद याचा लाभ घेत आहेत.",
-        "mr": "महात्मा फुले कृषि विद्यापीठाच्या संशोधन प्रक्रियेतून निर्माण झालेले सुधारित कृषि तंत्रज्ञान, शेतकरी आणि शास्त्रज्ञ यांच्या योग्य समन्वयातून प्रसारीत केले तर त्याचे अवलंबन शेतकरी स्तरावर मोठया प्रमाणावर होऊन कृषिविकासाला चालना मिळेल, याच संकल्पनेतून विस्तार कार्याला बळकटीकरण येण्यासाठी 11 ऑक्टोबर, 2005 पासून हाती घेतलेला आहे. महात्मा फुले कृषि विद्यापीठ अंतर्गत संशोधन केंद्रे, कृषि महाविद्यालये आणि कृषि तंत्र विद्यालये येथे एकुण 54 शेतकरी - शास्त्रज्ञ मंचाची स्थापना केली असून एकूण 1668 सभासद याचा लाभ घेत आहेत."
-      },
-      "order": 56
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Farmer",
-          "mr": "शेतकरी"
-        },
-        {
-          "en": "Farmer Scientist Forum",
-          "mr": "Farmer Scientist Forum"
-        },
-        {
-          "en": "Kisan Aadhar Sammelan",
-          "mr": "Kisan Aadhar Sammelan"
-        },
-        {
-          "en": "Inputs",
-          "mr": "Inputs"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Publications",
-          "mr": "Publications"
-        },
-        {
-          "en": "Success Stories",
-          "mr": "Success Stories"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "कृषि विद्यापीठातील शास्त्रज्ञ अधिकारी शेतकरी यांच्यामध्ये समन्वय साधून त्यांना मार्गदर्शन करणे.",
-          "mr": "कृषि विद्यापीठातील शास्त्रज्ञ अधिकारी शेतकरी यांच्यामध्ये समन्वय साधून त्यांना मार्गदर्शन करणे."
-        },
-        {
-          "en": "शेतक-यांच्या आणि गावांच्या सर्वांगिण आर्थिक व सामाजिक विकासासाठी कृषि विद्यापीठामार्फत विविध योजना राबविणे.",
-          "mr": "शेतक-यांच्या आणि गावांच्या सर्वांगिण आर्थिक व सामाजिक विकासासाठी कृषि विद्यापीठामार्फत विविध योजना राबविणे."
-        },
-        {
-          "en": "विद्यापीठाने विकसीत केलेले संशोधीत तंत्रज्ञानाचा वापर करणेकरिता शेतक-यांना प्रवृत्त करणे.",
-          "mr": "विद्यापीठाने विकसीत केलेले संशोधीत तंत्रज्ञानाचा वापर करणेकरिता शेतक-यांना प्रवृत्त करणे."
-        },
-        {
-          "en": "शेतीविषयक परिस्थितीनुसार शेतक-यांकडून आलेल्या प्रश्नांची त्वरीत दखल घेऊन त्यानुसार संशोधनाचे नियोजन करणे.",
-          "mr": "शेतीविषयक परिस्थितीनुसार शेतक-यांकडून आलेल्या प्रश्नांची त्वरीत दखल घेऊन त्यानुसार संशोधनाचे नियोजन करणे."
-        },
-        {
-          "en": "मंचातील सभासदांच्या शेतीचा एक आदर्श निर्माण करणे त्याचे अनुकरण इतर शेतक-यांनी करणे बाबत प्रोत्साहन देणे.",
-          "mr": "मंचातील सभासदांच्या शेतीचा एक आदर्श निर्माण करणे त्याचे अनुकरण इतर शेतक-यांनी करणे बाबत प्रोत्साहन देणे."
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "शेतकरी-शास्त्रज्ञ मंचाची महिन्यातून एकदा बैठक आयोजित करणे आणि हंगामनिहाय शेतक-यांचे प्रश्न सोडविणे.",
-          "mr": "शेतकरी-शास्त्रज्ञ मंचाची महिन्यातून एकदा बैठक आयोजित करणे आणि हंगामनिहाय शेतक-यांचे प्रश्न सोडविणे."
-        },
-        {
-          "en": "विद्यापीठामार्फत घेण्यात येणा-या सर्व प्रात्यक्षिका मध्ये मंचाच्या सभासदाला प्राधान्य देणे.",
-          "mr": "विद्यापीठामार्फत घेण्यात येणा-या सर्व प्रात्यक्षिका मध्ये मंचाच्या सभासदाला प्राधान्य देणे."
-        },
-        {
-          "en": "मंचातील सभासद शेतक-यांची संपूर्ण माहिती प्रश्नावलीत भरुन तिचे विश्लेषण करुन मार्गदर्शन करणे.",
-          "mr": "मंचातील सभासद शेतक-यांची संपूर्ण माहिती प्रश्नावलीत भरुन तिचे विश्लेषण करुन मार्गदर्शन करणे."
-        },
-        {
-          "en": "मंचातील प्रत्येक सभासदराच्या जमिनीची आरोग्यपत्रिका तयार करुन पीक पध्दती आणिखत मात्रा सुचविणे.",
-          "mr": "मंचातील प्रत्येक सभासदराच्या जमिनीची आरोग्यपत्रिका तयार करुन पीक पध्दती आणिखत मात्रा सुचविणे."
-        },
-        {
-          "en": "पिकांचे फिरते चिकित्सालय तज्ञ पथकासह मंचातील सभासदांच्या गावांना प्राधान्य देणे.",
-          "mr": "पिकांचे फिरते चिकित्सालय तज्ञ पथकासह मंचातील सभासदांच्या गावांना प्राधान्य देणे."
-        },
-        {
-          "en": "कृषि विद्यापीठातील आयोजित करण्यात येणा-या सर्वचर्चासत्रे / कृषि प्रदर्शने / मेळावे/ प्रशिक्षण / शिवार फेरीमध्ये मंचातील सभासदांना निमंत्रित करणे.",
-          "mr": "कृषि विद्यापीठातील आयोजित करण्यात येणा-या सर्वचर्चासत्रे / कृषि प्रदर्शने / मेळावे/ प्रशिक्षण / शिवार फेरीमध्ये मंचातील सभासदांना निमंत्रित करणे."
-        },
-        {
-          "en": "उत्पादित शेतमालाकरिता योग्य त्या बाजारपेठेची माहिती तसेच काढणीपश्चात तंत्रज्ञानाबदल सभासदांना माहिती देणे.",
-          "mr": "उत्पादित शेतमालाकरिता योग्य त्या बाजारपेठेची माहिती तसेच काढणीपश्चात तंत्रज्ञानाबदल सभासदांना माहिती देणे."
-        }
-      ],
-      "order": 59
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 1,
-    "listCount": 3,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 20,
-    "totalRecords": 76
+  "intro": {
+    "mr": "महात्मा फुले कृषि विद्यापीठाच्या संशोधन प्रक्रियेतून निर्माण झालेले सुधारित कृषि तंत्रज्ञान, शेतकरी आणि शास्त्रज्ञ यांच्या योग्य समन्वयातून प्रसारीत केले तर त्याचे अवलंबन शेतकरी स्तरावर मोठया प्रमाणावर होऊन कृषिविकासाला चालना मिळेल, याच संकल्पनेतून विस्तार कार्याला बळकटीकरण येण्यासाठी 11 ऑक्टोबर, 2005 पासून हाती घेतलेला आहे. महात्मा फुले कृषि विद्यापीठ अंतर्गत संशोधन केंद्रे, कृषि महाविद्यालये आणि कृषि तंत्र विद्यालये येथे एकुण 54 शेतकरी - शास्त्रज्ञ मंचाची स्थापना केली असून एकूण 1668 सभासद याचा लाभ घेत आहेत.",
+    "en": "Initiated on 11 October 2005 to strengthen technology transfer through direct scientist–farmer coordination. Across MPKV research stations, constituent agriculture colleges, and agricultural technology schools, 54 Farmer–Scientist Forums have been established serving 1,668 member farmers."
   },
-  "menuId": "menu_farmer",
-  "parentMenu": {
-    "id": "menu_farmer",
+  "objectives": [
+    {
+      "mr": "कृषि विद्यापीठातील शास्त्रज्ञ अधिकारी शेतकरी यांच्यामध्ये समन्वय साधून त्यांना मार्गदर्शन करणे.",
+      "en": "Coordinate between university scientists, officers and farmers for field guidance."
+    },
+    {
+      "mr": "शेतक-यांच्या आणि गावांच्या सर्वांगिण आर्थिक व सामाजिक विकासासाठी कृषि विद्यापीठामार्फत विविध योजना राबविणे.",
+      "en": "Implement university extension schemes for holistic socio-economic development of farmers and villages."
+    },
+    {
+      "mr": "विद्यापीठाने विकसीत केलेले संशोधीत तंत्रज्ञानाचा वापर करणेकरिता शेतक-यांना प्रवृत्त करणे.",
+      "en": "Motivate farmers to adopt improved technologies and varieties developed by the university."
+    },
+    {
+      "mr": "शेतीविषयक परिस्थितीनुसार शेतक-यांकडून आलेल्या प्रश्नांची त्वरीत दखल घेऊन त्यानुसार संशोधनाचे नियोजन करणे.",
+      "en": "Respond promptly to field problems raised by farmers and align research planning accordingly."
+    },
+    {
+      "mr": "मंचातील सभासदांच्या शेतीचा एक आदर्श निर्माण करणे त्याचे अनुकरण इतर शेतक-यांनी करणे बाबत प्रोत्साहन देणे.",
+      "en": "Establish model demonstration farms of forum members to encourage peer adoption."
+    }
+  ],
+  "functions": [
+    {
+      "mr": "शेतकरी-शास्त्रज्ञ मंचाची महिन्यातून एकदा बैठक आयोजित करणे आणि हंगामनिहाय शेतक-यांचे प्रश्न सोडविणे.",
+      "en": "Conduct monthly forum meetings to resolve season-wise agricultural issues."
+    },
+    {
+      "mr": "विद्यापीठामार्फत घेण्यात येणा-या सर्व प्रात्यक्षिका मध्ये मंचाच्या सभासदाला प्राधान्य देणे.",
+      "en": "Provide priority to forum members across all university field demonstrations."
+    },
+    {
+      "mr": "मंचातील सभासद शेतक-यांची संपूर्ण माहिती प्रश्नावलीत भरुन तिचे विश्लेषण करुन मार्गदर्शन करणे.",
+      "en": "Collect, analyze and advise on detailed member farmer farm profiles."
+    },
+    {
+      "mr": "मंचातील प्रत्येक सभासदाच्या जमिनीची आरोग्यपत्रिका तयार करुन पीक पध्दती आणि खत मात्रा सुचविणे.",
+      "en": "Prepare Soil Health Cards for each member and recommend cropping patterns & fertilizer doses."
+    },
+    {
+      "mr": "पिकांचे फिरते चिकित्सालय तज्ञ पथकासह मंचातील सभासदांच्या गावांना प्राधान्य देणे.",
+      "en": "Prioritize member villages for Mobile Crop Clinics led by specialist teams."
+    },
+    {
+      "mr": "कृषि विद्यापीठातील आयोजित करण्यात येणा-या सर्व चर्चासत्रे / कृषि प्रदर्शने / मेळावे / प्रशिक्षण / शिवार फेरीमध्ये मंचातील सभासदांना निमंत्रित करणे.",
+      "en": "Invite members to university seminars, agri expos, trainings & Shivar Pheri field days."
+    },
+    {
+      "mr": "उत्पादित शेतमालाकरिता योग्य त्या बाजारपेठेची माहिती तसेच काढणीपश्चात तंत्रज्ञानाबद्दल सभासदांना माहिती देणे.",
+      "en": "Provide market intelligence and post-harvest technology guidance to members."
+    }
+  ],
+  "photos": [
+    {
+      "src": "/media/images/farmer/fs1.jpg",
+      "caption": {
+        "mr": "शेतकरी – शास्त्रज्ञ मंच संवाद सत्र १",
+        "en": "Farmer – Scientist Forum Field Interaction I"
+      }
+    },
+    {
+      "src": "/media/images/farmer/fs2.jpg",
+      "caption": {
+        "mr": "शेतकरी – शास्त्रज्ञ मंच प्रात्यक्षिक व चर्चा २",
+        "en": "Farmer – Scientist Forum Demonstration Session II"
+      }
+    },
+    {
+      "src": "/media/images/farmer/fs3.jpg",
+      "caption": {
+        "mr": "प्रक्षेत्र भेट व शास्त्रज्ञ मार्गदर्शन ३",
+        "en": "Field Visit & Scientist Advisory III"
+      }
+    },
+    {
+      "src": "/media/images/farmer/fs4.jpg",
+      "caption": {
+        "mr": "शेतकरी सहभाग व प्रशिक्षण उपक्रम ४",
+        "en": "Farmer Participation & Training Activity IV"
+      }
+    }
+  ],
+  "document": {
     "title": {
-      "en": "Farmer Services",
-      "mr": "शेतकरी सेवा"
-    }
+      "mr": "शेतकरी – शास्त्रज्ञ मंच अधिकृत माहितीपुस्तिका (PDF)",
+      "en": "Farmer – Scientist Forum Official Booklet (PDF)"
+    },
+    "href": "/media/docs/farmer/fsf_booklet.pdf"
   },
-  "submenuGroup": {
-    "en": "Forums & Publications",
-    "mr": "शेतकरी मंच व प्रकाशने"
+  "contact": {
+    "role": {
+      "mr": "व्यवस्थापक, कृषी तंत्रज्ञान माहिती केंद्र (ATIC)",
+      "en": "Manager, Agricultural Technology Information Centre (ATIC)"
+    },
+    "address": {
+      "mr": "महात्मा फुले कृषी विद्यापीठ, राहुरी, जि. अहमदनगर - ४१३७२२",
+      "en": "MPKV, Rahuri, Dist. Ahmednagar - 413722"
+    },
+    "phone": "02426 / 243861",
+    "email": "aticmpkv@rediffmail.com"
   }
 }

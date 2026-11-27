@@ -5,14 +5,43 @@
   "sourcePage": "extension-krishi-vigyan-kendras",
   "scrapedAt": "2026-11-22T20:35:34.267192",
   "title": {
-    "en": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Krishi Vigyan Kendras (KVK)",
+    "mr": "कृषि विज्ञान केंद्रे (KVK)"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "href": "/extension/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Extension Overview & Centers",
+        "mr": "विस्तार सेवा व केंद्रे"
+      },
+      "href": "/extension/krishi-vigyan-kendras"
+    },
+    {
+      "title": {
+        "en": "Krishi Vigyan Kendras (KVK)",
+        "mr": "कृषि विज्ञान केंद्रे (KVK)"
+      },
+      "href": "/extension/krishi-vigyan-kendras"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Krishi Vigyan Kendra",
+      "mr": "Krishi Vigyan Kendra"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Krishi Vigyan Kendra - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1524,7 +1553,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -2082,5 +2111,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 90
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Extension Overview & Centers",
+    "mr": "विस्तार सेवा व केंद्रे"
   }
 }

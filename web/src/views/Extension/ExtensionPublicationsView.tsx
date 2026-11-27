@@ -856,10 +856,10 @@ export const ExtensionPublicationsView: React.FC<ExtensionPublicationsViewProps>
           mr: 'त्रैमासिक "श्री सुगी", वार्षिक "कृषिदर्शनी" डायरी, ई-वार्ता व तांत्रिक पुस्तिकांचा अधिकृत कृषी ज्ञानभांडार.'
         }}
         quickChips={[
-          { label: 'श्री सुगी (Shree Sugi)', icon: BookOpen },
-          { label: 'कृषिदर्शनी (Krishidarshani)', icon: Calendar },
-          { label: 'मफुकृवि ई-वार्ता', icon: FileText },
-          { label: 'वार्षिक अहवाल', icon: BookMarked }
+          { label: language === 'mr' ? 'श्री सुगी' : 'Shree Sugi', icon: BookOpen },
+          { label: language === 'mr' ? 'कृषिदर्शनी' : 'Krishidarshani', icon: Calendar },
+          { label: language === 'mr' ? 'मफुकृवि ई-वार्ता' : 'MPKV E-Varta', icon: FileText },
+          { label: language === 'mr' ? 'वार्षिक अहवाल' : 'Annual Reports', icon: BookMarked }
         ]}
       />
 
@@ -914,9 +914,9 @@ export const ExtensionPublicationsView: React.FC<ExtensionPublicationsViewProps>
           <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-emerald-950 to-stone-900 text-white shadow-xl flex flex-col sm:flex-row items-center gap-6 relative overflow-hidden">
             <div className="relative w-36 h-48 rounded-xl overflow-hidden shadow-lg shrink-0 border-2 border-emerald-400/80 bg-stone-800">
               <img
-                src="/media/images/extension/KD_2019_cover.jpg"
+                src="/media/images/extension/krishidarshani_cover.jpg"
                 alt="Krishidarshani Diary"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 onError={(e: any) => {
                   e.target.onerror = null;
                   e.target.src = '/media/images/mpkv_icon.png';

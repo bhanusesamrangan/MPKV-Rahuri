@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Mahatma Phule Krishi Vidyapeeth, Rahuri | म.फु.कृ.वि. राहुरी',
+  title: 'Mahatma Phule Krishi Vidyapeeth (Agriculture University), Rahuri',
   description: 'Official Portal of Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri, Ahilyanagar',
   icons: {
     icon: [

@@ -3,10 +3,18 @@
   "url": "https://mpkv.ac.in/Officers/Contacts",
   "route": "/Officers/Contacts",
   "sourcePage": "contacts-directory",
-  "scrapedAt": "2026-11-22T20:35:58.717999",
+  "scrapedAt": "2026-11-27T06:19:37.344113+00:00",
+  "menuId": "menu_contacts",
+  "parentMenu": {
+    "id": "menu_contacts",
+    "title": {
+      "en": "Contacts",
+      "mr": "संपर्क"
+    }
+  },
   "title": {
-    "en": "Contacts",
-    "mr": "संपर्क"
+    "en": "University Contacts Desk",
+    "mr": "विद्यापीठ संपर्क कक्ष"
   },
   "breadcrumb": [
     {
@@ -15,1325 +23,203 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Contacts",
+        "mr": "संपर्क"
+      },
+      "href": "/contact-us"
     }
   ],
   "hero": {
     "title": {
-      "en": "Contacts",
-      "mr": "संपर्क"
+      "en": "University Contacts & Helpline Desk",
+      "mr": "विद्यापीठ अधिकृत संपर्क व मदत कक्ष"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Contacts",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — संपर्क"
+      "en": "Direct campus telephone directory for ATIC, Seed Availability, Admissions, Planting Material, Guest Houses, Farm Machinery, Fertilizers, Security & Administration.",
+      "mr": "ॲटिक (ATIC), बियाणे उपलब्धता, प्रवेश प्रक्रिया, रोपवाटिका, अतिथीगृहे, अवजारे, खते, सुरक्षा व प्रशासन कार्यालयांचे थेट दूरध्वनी क्रमांक."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "STD Code: 02426 • 9 Direct Desks",
+      "mr": "STD कोड: ०२४२६ • ९ थेट संपर्क कक्ष"
     }
   },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+  "address": {
+    "line1": {
+      "en": "Mahatma Phule Krishi Vidyapeeth (Agriculture University)",
+      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी"
     },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Contacts",
-        "mr": "संपर्क"
-      },
-      "order": 55
+    "line2": {
+      "en": "Rahuri - 413722, Dist. Ahilyanagar (Ahmednagar), Maharashtra, India",
+      "mr": "राहुरी - ४१३७२२, जि. अहिल्यानगर (अहमदनगर), महाराष्ट्र"
     }
-  ],
-  "paragraphs": [],
-  "lists": [],
-  "tables": [
+  },
+  "desks": [
     {
-      "id": "table_1",
-      "caption": null,
-      "headers": [
-        {
-          "en": "Sr.No.",
-          "mr": "Sr.No."
-        },
-        {
-          "en": "Particulars of work",
-          "mr": "Particulars of work"
-        },
-        {
-          "en": "Contact Number",
-          "mr": "Contact Number"
-        }
+      "srNo": 1,
+      "category": "Farmer & Seeds",
+      "particulars": {
+        "en": "ATIC (Agricultural Technology Information Centre)",
+        "mr": "ॲटिक (कृषी तंत्रज्ञान माहिती केंद्र)"
+      },
+      "rawContact": "02426-243861",
+      "numbers": [
+        "02426-243861"
       ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "ATIC",
-              "mr": "ATIC"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243861",
-              "mr": "02426-243861"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Seed Availability",
-              "mr": "Seed Availability"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243345,243279,243051",
-              "mr": "02426-243345,243279,243051"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Admission Process",
-              "mr": "Admission Process"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243215",
-              "mr": "02426-243215"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Planting Material",
-              "mr": "Planting Material"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243338",
-              "mr": "02426-243338"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Security Office",
-              "mr": "Security Office"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243271",
-              "mr": "02426-243271"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "6"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Farm Machinery",
-              "mr": "Farm Machinery"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243219",
-              "mr": "02426-243219"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "7",
-              "mr": "7"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Fertilizers",
-              "mr": "Fertilizers"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243231",
-              "mr": "02426-243231"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "8",
-              "mr": "8"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Guest Houses",
-              "mr": "Guest Houses"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243358,243235",
-              "mr": "02426-243358,243235"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "9",
-              "mr": "9"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Administrative Matters",
-              "mr": "Administrative Matters"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "02426-243366",
-              "mr": "02426-243366"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ]
+      "internalHref": "/extension/atic",
+      "note": {
+        "en": "Single-window farm advisory, publications & query desk",
+        "mr": "शेतकरी मार्गदर्शन, प्रकाशने व माहिती केंद्र"
+      }
+    },
+    {
+      "srNo": 2,
+      "category": "Farmer & Seeds",
+      "particulars": {
+        "en": "Seed Availability",
+        "mr": "बियाणे उपलब्धता"
+      },
+      "rawContact": "02426-243345, 243279, 243051",
+      "numbers": [
+        "02426-243345",
+        "02426-243279",
+        "02426-243051"
       ],
-      "rowCount": 9,
-      "columnCount": 3
+      "internalHref": "/seeds-availability",
+      "note": {
+        "en": "Central Seed Processing Plant & certified seed procurement",
+        "mr": "मध्यवर्ती बियाणे प्रक्रिया केंद्र व प्रमाणित बियाणे"
+      }
+    },
+    {
+      "srNo": 3,
+      "category": "Academics & Admin",
+      "particulars": {
+        "en": "Admission Process",
+        "mr": "प्रवेश प्रक्रिया"
+      },
+      "rawContact": "02426-243215",
+      "numbers": [
+        "02426-243215"
+      ],
+      "internalHref": "/students/admission",
+      "note": {
+        "en": "Office of Deputy Registrar (Academic) — UG, PG, Ph.D & Diploma",
+        "mr": "उपकुलसचिव (शैक्षणिक) — पदवी, पदव्युत्तर व पदविका प्रवेश"
+      }
+    },
+    {
+      "srNo": 4,
+      "category": "Farmer & Seeds",
+      "particulars": {
+        "en": "Planting Material",
+        "mr": "रोपे व कलमे (लागवड साहित्य)"
+      },
+      "rawContact": "02426-243338",
+      "numbers": [
+        "02426-243338"
+      ],
+      "internalHref": "/nursery-stock",
+      "note": {
+        "en": "Central Nursery, Seed Department & grafted fruit saplings",
+        "mr": "मध्यवर्ती रोपवाटिका, बियाणे विभाग व कलमे"
+      }
+    },
+    {
+      "srNo": 5,
+      "category": "Campus & Security",
+      "particulars": {
+        "en": "Security Office",
+        "mr": "सुरक्षा कार्यालय"
+      },
+      "rawContact": "02426-243271",
+      "numbers": [
+        "02426-243271"
+      ],
+      "internalHref": "",
+      "note": {
+        "en": "Central Campus vigilance & campus security desk",
+        "mr": "मुख्य संकुल सुरक्षा व दक्षता विभाग"
+      }
+    },
+    {
+      "srNo": 6,
+      "category": "Farmer & Seeds",
+      "particulars": {
+        "en": "Farm Machinery",
+        "mr": "कृषी अवजारे व यंत्रे"
+      },
+      "rawContact": "02426-243219",
+      "numbers": [
+        "02426-243219"
+      ],
+      "internalHref": "/farm-implements",
+      "note": {
+        "en": "Agricultural Engineering implements & machinery workshop",
+        "mr": "कृषी अभियांत्रिकी अवजारे व यंत्र निर्मिती"
+      }
+    },
+    {
+      "srNo": 7,
+      "category": "Farmer & Seeds",
+      "particulars": {
+        "en": "Fertilizers",
+        "mr": "खते व सूक्ष्म अन्नद्रव्ये"
+      },
+      "rawContact": "02426-243231",
+      "numbers": [
+        "02426-243231"
+      ],
+      "internalHref": "/farmer/bio-fertilizers",
+      "note": {
+        "en": "Bio-fertilizers, Phule Micrograde & nutrient testing enquiries",
+        "mr": "जैविक खते व फुले मायक्रोग्रेड माहिती"
+      }
+    },
+    {
+      "srNo": 8,
+      "category": "Campus & Security",
+      "particulars": {
+        "en": "Guest Houses",
+        "mr": "विद्यापीठ अतिथीगृहे"
+      },
+      "rawContact": "02426-243358, 243235",
+      "numbers": [
+        "02426-243358",
+        "02426-243235"
+      ],
+      "internalHref": "/guest-house",
+      "note": {
+        "en": "VIP Suites, Farmers Niwas & campus guest accommodation",
+        "mr": "अतिथी निवास व शेतकरी निवासासाठी संपर्क"
+      }
+    },
+    {
+      "srNo": 9,
+      "category": "Academics & Admin",
+      "particulars": {
+        "en": "Administrative Matters",
+        "mr": "प्रशासकीय कामकाज"
+      },
+      "rawContact": "02426-243366",
+      "numbers": [
+        "02426-243366"
+      ],
+      "internalHref": "/administration",
+      "note": {
+        "en": "Central Registrar Office & general administrative enquiries",
+        "mr": "कुलसचिव व सामान्य प्रशासनिक चौकशी कक्ष"
+      }
     }
   ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Contacs 1.pdf",
-      "localPath": "/media/docs/Contacs_1.pdf",
-      "category": "docs",
-      "label": "Krishidarshani"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Contacts",
-        "mr": "संपर्क"
-      },
-      "order": 55
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 0,
-    "tableCount": 1,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 15,
-    "totalRecords": 79
-  }
+  "krishidarshaniContactsPdf": {
+    "title": {
+      "en": "For other contacts see Krishidarshani Directory (PDF)",
+      "mr": "इतर सर्व संपर्कांसाठी कृषिदर्शनी संपर्क निर्देशिका पहा (PDF)"
+    },
+    "href": "/media/docs/contacts/krishidarshani_contacts.pdf"
+  },
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.495879092341!2d74.64541031490532!3d19.347669786932578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc945a0089c929%3A0x8a222967de57e9b9!2sMahatma+Phule+Krishi+Vidyapeeth+Rahuri!5e0!3m2!1sen!2sin!4v1543414368050"
 }

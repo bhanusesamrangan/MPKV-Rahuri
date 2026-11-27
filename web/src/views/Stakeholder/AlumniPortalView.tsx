@@ -71,7 +71,7 @@ export const AlumniPortalView: React.FC<AlumniPortalViewProps> = ({ pageData }) 
     },
     {
       id: 'caet',
-      college: { en: 'Dr. Annasaheb Shinde CAET Alumni (Agroneers)', mr: 'डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय माजी विद्यार्थी (Agroneers)' },
+      college: { en: 'Dr. Annasaheb Shinde CAET Alumni (Agroneers)', mr: 'डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय माजी विद्यार्थी संघ' },
       campus: { en: 'Rahuri Central Campus', mr: 'राहुरी मध्यवर्ती कॅम्पस' },
       established: '1969',
       legacy: {

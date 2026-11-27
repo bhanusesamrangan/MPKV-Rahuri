@@ -305,7 +305,7 @@ export const PeriodicEventsView: React.FC<PeriodicEventsViewProps> = ({ pageData
                 </h4>
                 <p className="text-amber-900/90 leading-relaxed">
                   {language === 'mr'
-                    ? 'प्रत्यक्ष (In-Person) अथवा अनुपस्थितीत (In-Absentia) पदवी प्रमाणपत्र प्राप्त करण्याकरिता कुलसचिव परीक्षा विभागामार्फत विहित मुदतीत अर्ज करणे आवश्यक आहे.'
+                    ? 'प्रत्यक्ष अथवा अनुपस्थितीत पदवी प्रमाणपत्र प्राप्त करण्याकरिता कुलसचिव परीक्षा विभागामार्फत विहित मुदतीत अर्ज करणे आवश्यक आहे.'
                     : 'Graduates may receive degree certificates in person or in absentia by submitting the prescribed application along with statutory fee to the Examination Branch.'}
                 </p>
               </div>
@@ -482,7 +482,7 @@ export const PeriodicEventsView: React.FC<PeriodicEventsViewProps> = ({ pageData
             <div className="p-5 rounded-2xl bg-white border border-stone-200 shadow-2xs space-y-2">
               <div className="flex items-center gap-2 text-emerald-900 font-bold text-sm">
                 <Microscope className="w-4 h-4 text-emerald-700" />
-                <span>{language === 'mr' ? 'संयुक्त कृषी संशोधन आणि विस्तार परिषद (Joint AGRESCO)' : 'Joint Agricultural Research & Extension Council (Joint AGRESCO)'}</span>
+                <span>{language === 'mr' ? 'संयुक्त कृषी संशोधन आणि विस्तार परिषद' : 'Joint Agricultural Research & Extension Council (Joint AGRESCO)'}</span>
               </div>
               <p className="text-xs text-stone-600 leading-relaxed">
                 {language === 'mr'

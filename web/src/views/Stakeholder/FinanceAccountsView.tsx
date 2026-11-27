@@ -385,7 +385,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
                   </h3>
                   <p className="text-xs sm:text-sm text-stone-600">
                     {language === 'mr'
-                      ? 'नियंत्रक (Comptroller) -> ५ मुख्य सहाय्यक नियंत्रक व अधिदान व लेखा अधिकारी शाखा -> कार्यालय अधीक्षक ते शेतमजूर संवर्ग.'
+                      ? 'नियंत्रक -> ५ मुख्य सहाय्यक नियंत्रक व अधिदान व लेखा अधिकारी शाखा -> कार्यालय अधीक्षक ते शेतमजूर संवर्ग.'
                       : 'Comptroller apex -> 5 Assistant Comptroller & PAO wings -> superintendent, clerical, and support staff cadres.'}
                   </p>
                 </div>
@@ -404,7 +404,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
                 <div className="space-y-4">
                   <div className="p-4 rounded-2xl bg-stone-50 border border-stone-200 flex items-center justify-between">
                     <span className="text-xs font-bold text-stone-700">
-                      {language === 'mr' ? 'मूळ प्रशासकीय फ्लो चार्ट (FinaceFlowChart.jpg)' : 'Official Flow Chart (FinaceFlowChart.jpg)'}
+                      {language === 'mr' ? 'मूळ प्रशासकीय फ्लो चार्ट' : 'Official Flow Chart'}
                     </span>
                     <a
                       href={flowChartImage}
@@ -434,7 +434,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
                         {language === 'mr' ? 'सर्वोच्च प्रमुख' : 'Apex Financial Authority'}
                       </span>
                       <h4 className="text-xl sm:text-2xl font-bold font-serif text-white">
-                        {language === 'mr' ? 'नियंत्रक (Comptroller)' : 'Comptroller (Finance & Accounts)'}
+                        {language === 'mr' ? 'नियंत्रक' : 'Comptroller (Finance & Accounts)'}
                       </h4>
                       <p className="text-xs text-emerald-200 font-medium">
                         {language === 'mr'
@@ -449,7 +449,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
 
                     <div className="w-0.5 h-8 bg-stone-300 my-1" />
                     <div className="text-xs font-bold text-stone-500 uppercase tracking-widest px-3 py-1 rounded-full bg-stone-100 border border-stone-200">
-                      {language === 'mr' ? '५ मुख्य कार्यकारी शाखा (५ Wings)' : '5 Executive Financial Wings'}
+                      {language === 'mr' ? '५ मुख्य कार्यकारी शाखा' : '5 Executive Financial Wings'}
                     </div>
                     <div className="w-0.5 h-8 bg-stone-300 my-1" />
                   </div>
@@ -486,7 +486,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
                             {/* Cadre Hierarchy Under Wing */}
                             <div className="pt-3 border-t border-stone-100 space-y-1.5">
                               <div className="text-[11px] font-bold text-stone-700 uppercase tracking-wide">
-                                {language === 'mr' ? 'कर्मचारी उतरंड (Staff Cadre):' : 'Staff Cadre Under Wing:'}
+                                {language === 'mr' ? 'कर्मचारी उतरंड:' : 'Staff Cadre Under Wing:'}
                               </div>
                               <div className="space-y-1 pl-2 border-l-2 border-emerald-500">
                                 {wing.hierarchy.map((cad: any, cidx: number) => (
@@ -519,7 +519,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
                     <div className="flex items-center gap-2">
                       <Landmark className="w-4 h-4 text-amber-800" />
                       <h4 className="text-base font-bold text-slate-900 font-serif">
-                        {language === 'mr' ? 'विभागीय अधिदान व लेखा कार्यालये (Regional PAO Units)' : 'Regional Pay & Accounts Offices (Off-Campus Colleges)'}
+                        {language === 'mr' ? 'विभागीय अधिदान व लेखा कार्यालये' : 'Regional Pay & Accounts Offices (Off-Campus Colleges)'}
                       </h4>
                     </div>
                     <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
@@ -684,7 +684,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="p-5 rounded-2xl bg-white border border-stone-200 space-y-1.5 shadow-2xs">
                   <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-100 text-amber-900">
-                    {language === 'mr' ? 'प्रकरण २६ (Chapter 26)' : 'Chapter 26'}
+                    {language === 'mr' ? 'प्रकरण २६' : 'Chapter 26'}
                   </span>
                   <h5 className="text-sm font-bold text-slate-900 font-serif pt-1">
                     {language === 'mr' ? 'नियंत्रकांचे अधिकार व वित्तीय कर्तव्ये' : 'Comptroller Powers & Financial Duties'}
@@ -698,7 +698,7 @@ export const FinanceAccountsView: React.FC<FinanceViewProps> = ({ pageData }) =>
 
                 <div className="p-5 rounded-2xl bg-white border border-stone-200 space-y-1.5 shadow-2xs">
                   <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-900">
-                    {language === 'mr' ? 'प्रकरण २७ (Chapter 27)' : 'Chapter 27'}
+                    {language === 'mr' ? 'प्रकरण २७' : 'Chapter 27'}
                   </span>
                   <h5 className="text-sm font-bold text-slate-900 font-serif pt-1">
                     {language === 'mr' ? 'व्यावसायिक शेती हिशोब व नफा-तोटा ताळेबंद' : 'Commercial Farm Accounting & Balance Sheets'}

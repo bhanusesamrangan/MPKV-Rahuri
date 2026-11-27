@@ -208,7 +208,7 @@ export const ResearchCoordinationTree: React.FC = () => {
                 Commodity & Disciplinary Experts
               </span>
               <h4 className="text-sm sm:text-base font-bold font-serif">
-                {language === 'mr' ? 'प्रमुख पीक विशेषज्ज्ञ (Specialists)' : 'Specialists & Commodity Leads'}
+                {language === 'mr' ? 'प्रमुख पीक विशेषज्ज्ञ' : 'Specialists & Commodity Leads'}
               </h4>
             </div>
 
@@ -221,20 +221,20 @@ export const ResearchCoordinationTree: React.FC = () => {
 
               <div className="grid grid-cols-2 gap-2.5 text-xs text-slate-800 font-semibold">
                 <div className="p-2.5 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                  <div className="text-[10px] text-amber-700 uppercase font-bold">Wheat Specialist</div>
-                  <div className="text-xs font-bold text-slate-900 mt-0.5">Niphad (निफाड)</div>
+                  <div className="text-[10px] text-amber-700 uppercase font-bold">{language === 'mr' ? 'गहू विशेषज्ज्ञ' : 'Wheat Specialist'}</div>
+                  <div className="text-xs font-bold text-slate-900 mt-0.5">{language === 'mr' ? 'निफाड' : 'Niphad'}</div>
                 </div>
                 <div className="p-2.5 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                  <div className="text-[10px] text-amber-700 uppercase font-bold">Oilseeds Specialist</div>
-                  <div className="text-xs font-bold text-slate-900 mt-0.5">Jalgaon (जळगाव)</div>
+                  <div className="text-[10px] text-amber-700 uppercase font-bold">{language === 'mr' ? 'गळीतधान्य विशेषज्ज्ञ' : 'Oilseeds Specialist'}</div>
+                  <div className="text-xs font-bold text-slate-900 mt-0.5">{language === 'mr' ? 'जळगाव' : 'Jalgaon'}</div>
                 </div>
                 <div className="p-2.5 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                  <div className="text-[10px] text-amber-700 uppercase font-bold">Sugarcane Specialist</div>
-                  <div className="text-xs font-bold text-slate-900 mt-0.5">Padegaon (पाडेगाव)</div>
+                  <div className="text-[10px] text-amber-700 uppercase font-bold">{language === 'mr' ? 'ऊस विशेषज्ज्ञ' : 'Sugarcane Specialist'}</div>
+                  <div className="text-xs font-bold text-slate-900 mt-0.5">{language === 'mr' ? 'पाडेगाव' : 'Padegaon'}</div>
                 </div>
                 <div className="p-2.5 rounded-xl bg-white border border-amber-200 shadow-2xs">
-                  <div className="text-[10px] text-amber-700 uppercase font-bold">Soil Specialist</div>
-                  <div className="text-xs font-bold text-slate-900 mt-0.5">Solapur (सोलापूर)</div>
+                  <div className="text-[10px] text-amber-700 uppercase font-bold">{language === 'mr' ? 'मृदा विशेषज्ज्ञ' : 'Soil Specialist'}</div>
+                  <div className="text-xs font-bold text-slate-900 mt-0.5">{language === 'mr' ? 'सोलापूर' : 'Solapur'}</div>
                 </div>
               </div>
             </div>
@@ -252,15 +252,15 @@ export const ResearchCoordinationTree: React.FC = () => {
 
               <div className="space-y-2 text-xs text-slate-800 font-semibold">
                 <div className="p-2.5 rounded-xl bg-white border border-blue-200 flex items-center justify-between">
-                  <span>1. Faculty of Agriculture (कृषी विद्याशाखा)</span>
+                  <span>{language === 'mr' ? '१. कृषी विद्याशाखा' : '1. Faculty of Agriculture'}</span>
                   <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-blue-50 text-blue-900">
-                    Academic Lead
+                    {language === 'mr' ? 'शैक्षणिक प्रमुख' : 'Academic Lead'}
                   </span>
                 </div>
                 <div className="p-2.5 rounded-xl bg-white border border-blue-200 flex items-center justify-between">
-                  <span>2. Faculty of Agril. Engineering (कृषी अभियांत्रिकी)</span>
+                  <span>{language === 'mr' ? '२. कृषी अभियांत्रिकी विद्याशाखा' : '2. Faculty of Agril. Engineering'}</span>
                   <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded bg-blue-50 text-blue-900">
-                    Technology Lead
+                    {language === 'mr' ? 'तांत्रिक प्रमुख' : 'Technology Lead'}
                   </span>
                 </div>
               </div>

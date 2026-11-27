@@ -14,8 +14,6 @@ import {
   Eye,
   Sun,
   Moon,
-  Trophy,
-  Medal,
   PhoneCall
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
@@ -109,7 +107,7 @@ export const Topbar: React.FC = () => {
                 className="hover:text-slate-900 text-slate-600 transition-colors inline-flex items-center gap-1 font-medium text-[11px]"
               >
                 <ExternalLink className="w-3 h-3 text-amber-600" />
-                <span>{language === 'mr' ? 'प्राध्यापक (IRINS)' : 'Faculty (IRINS)'}</span>
+                <span>{language === 'mr' ? 'प्राध्यापक माहिती पोर्टल' : 'Faculty (IRINS)'}</span>
               </a>
               <span className="text-slate-300">|</span>
 
@@ -147,36 +145,9 @@ export const Topbar: React.FC = () => {
             <div className="flex items-center gap-1.5 sm:gap-2 relative flex-shrink-0">
               {/* Desktop Academic Accreditation & Hotline Badges (Hidden on mobile < md, shown on desktop md+) */}
               <div className="hidden md:flex items-center gap-1 sm:gap-1.5 flex-shrink-0">
-                {/* 1. ICAR 'A' Grade Trust Badge */}
-                <div className="inline-flex items-center gap-1 bg-white hover:bg-emerald-50/50 border border-slate-200/90 rounded-md px-1.5 sm:px-2 py-0.5 transition-colors shadow-2xs">
-                  <span className="px-1 py-0.2 rounded bg-emerald-100 text-emerald-800 font-bold text-[9.5px] leading-tight border border-emerald-300/60">
-                    {language === 'mr' ? "आयसीएआर 'अ'" : "ICAR 'A'"}
-                  </span>
-                  <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
-                    <span>{language === 'mr' ? 'मान्यताप्राप्त' : 'Accredited'}</span>
-                    <span className="hidden xl:inline text-slate-400 mx-0.5">·</span>
-                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">{language === 'mr' ? 'विद्यापीठ' : 'Grade Univ'}</span>
-                  </span>
-                </div>
-
-                {/* 2. PPVFRA National Record Badge */}
-                <div
-                  className="inline-flex items-center gap-1 bg-white hover:bg-amber-50/50 border border-slate-200/90 rounded-md px-1.5 sm:px-2 py-0.5 transition-colors shadow-2xs"
-                  title={language === 'mr' ? 'पीपीव्ही व एफआरए अंतर्गत सर्वाधिक ३६ पीक वाणांची राष्ट्रीय विक्रमी नोंदणी' : 'PPV & FRA National Record for 36 Registered Crop Varieties'}
-                >
-                  <span className="p-0.5 rounded bg-amber-100 text-amber-800">
-                    <Medal className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-amber-700" />
-                  </span>
-                  <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
-                    <span className="font-semibold text-slate-800">{language === 'mr' ? 'पीपीव्ही-एफआरए' : 'PPVFRA'}</span>
-                    <span className="hidden xl:inline text-slate-400 mx-0.5">·</span>
-                    <span className="hidden xl:inline text-slate-500 text-[9.5px]">{language === 'mr' ? 'राष्ट्रीय विक्रम' : 'Natl Record'}</span>
-                  </span>
-                </div>
-
                 {/* 3. Central Seed Desk Hotline */}
                 <a
-                  href="tel:02426243345"
+                  href="tel:02426243338"
                   className="inline-flex items-center gap-1 bg-white hover:bg-slate-50 border border-slate-200/90 hover:border-emerald-300 rounded-md px-1.5 sm:px-2 py-0.5 transition-colors shadow-2xs group/phone"
                   title={language === 'mr' ? 'राहुरी बियाणे विक्री कक्षास कॉल करा (कामकाज: सोम - शुक्र)' : 'Call Rahuri Central Seed Desk (Operational: Mon - Fri)'}
                 >
@@ -186,7 +157,7 @@ export const Topbar: React.FC = () => {
                   <span className="text-[10px] sm:text-[10.5px] font-medium text-slate-700 leading-tight whitespace-nowrap">
                     <span className="text-slate-600">{language === 'mr' ? 'बियाणे' : 'Seed Desk'}: </span>
                     <span className="font-bold text-slate-800 font-mono group-hover/phone:text-[#2d6445] transition-colors">
-                      02426-243345
+                      02426-243338
                     </span>
                     <span className="text-[9.5px] text-emerald-800 font-semibold ml-1 bg-emerald-50 px-1 py-0.2 rounded border border-emerald-200">
                       {language === 'mr' ? 'सोम-शुक्र' : 'Mon-Fri'}
@@ -369,31 +340,10 @@ export const Topbar: React.FC = () => {
           </div>
 
           {/* Mobile Secondary Badges Strip (Shown ONLY on mobile < md) */}
-          <div className="flex md:hidden items-center justify-between sm:justify-center gap-1 pt-1 mt-0.5 border-t border-stone-200/60 overflow-x-auto whitespace-nowrap scrollbar-none py-0.5">
-            {/* 1. ICAR 'A' Grade Trust Badge */}
-            <div className="inline-flex items-center gap-1 bg-white border border-slate-200/90 rounded-md px-1.5 py-0.5 shadow-2xs flex-shrink-0">
-              <span className="px-1 py-0.2 rounded bg-emerald-100 text-emerald-800 font-bold text-[9px] leading-tight border border-emerald-300/60">
-                {language === 'mr' ? "आयसीएआर 'अ'" : "ICAR 'A'"}
-              </span>
-              <span className="text-[10px] font-medium text-slate-700 leading-tight">
-                {language === 'mr' ? 'मान्यताप्राप्त' : 'Accredited'}
-              </span>
-            </div>
-
-            {/* 2. PPVFRA National Record Badge */}
-            <div className="inline-flex items-center gap-1 bg-white border border-slate-200/90 rounded-md px-1.5 py-0.5 shadow-2xs flex-shrink-0">
-              <span className="p-0.5 rounded bg-amber-100 text-amber-800">
-                <Medal className="w-2.5 h-2.5 text-amber-700" />
-              </span>
-              <span className="text-[10px] font-medium text-slate-700 leading-tight">
-                <span className="font-semibold text-slate-800">{language === 'mr' ? 'पीपीव्ही-एफआरए' : 'PPVFRA'}</span>
-                <span className="text-slate-500 text-[9px] ml-0.5">{language === 'mr' ? 'विक्रम' : 'Record'}</span>
-              </span>
-            </div>
-
+          <div className="flex md:hidden items-center justify-center gap-1 pt-1 mt-0.5 border-t border-stone-200/60 overflow-x-auto whitespace-nowrap scrollbar-none py-0.5">
             {/* 3. Central Seed Desk Hotline */}
             <a
-              href="tel:02426243345"
+              href="tel:02426243338"
               className="inline-flex items-center gap-1 bg-white hover:bg-slate-50 border border-slate-200/90 hover:border-emerald-300 rounded-md px-1.5 sm:px-2 py-0.5 shadow-2xs flex-shrink-0 group/phone"
               title={language === 'mr' ? 'राहुरी बियाणे विक्री कक्षास कॉल करा (कामकाज: सोम - शुक्र)' : 'Call Rahuri Central Seed Desk (Operational: Mon - Fri)'}
             >
@@ -403,7 +353,7 @@ export const Topbar: React.FC = () => {
               <span className="text-[10px] font-medium text-slate-700 leading-tight">
                 <span className="text-slate-600">{language === 'mr' ? 'बियाणे' : 'Seed'}: </span>
                 <span className="font-bold text-slate-800 font-mono group-hover/phone:text-[#2d6445]">
-                  02426-243345
+                  02426-243338
                 </span>
                 <span className="text-[9px] font-semibold text-emerald-800 ml-1 bg-emerald-50 px-1 py-0.2 rounded border border-emerald-200">
                   {language === 'mr' ? 'सोम-शुक्र' : 'Mon-Fri'}

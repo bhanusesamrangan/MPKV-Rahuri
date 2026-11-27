@@ -5,7 +5,7 @@
   "sourcePage": "Education/EduCourseMaster",
   "title": {
     "en": "Doctoral (Ph.D.) Eligibility",
-    "mr": "आचार्य (Ph.D.) पात्रता"
+    "mr": "आचार्य पदवी पात्रता"
   },
   "menuId": "menu_students",
   "parentMenu": {
@@ -44,7 +44,7 @@
     {
       "title": {
         "en": "Doctoral (Ph.D.) Eligibility",
-        "mr": "आचार्य (Ph.D.) पात्रता"
+        "mr": "आचार्य पदवी पात्रता"
       },
       "href": "/education/doctoral"
     }
@@ -67,7 +67,7 @@
     {
       "name": {
         "en": "Agronomy",
-        "mr": "कृषिविद्या (Agronomy)"
+        "mr": "कृषिविद्या"
       },
       "degree": "M.Sc. (Agri) & Ph.D.",
       "seats": "32 (M.Sc.) + 8 (Ph.D.)"

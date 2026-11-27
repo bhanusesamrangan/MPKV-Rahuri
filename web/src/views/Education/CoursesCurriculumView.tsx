@@ -278,7 +278,7 @@ export const CoursesCurriculumView: React.FC<CoursesCurriculumViewProps> = ({ pa
                             className="inline-flex items-center justify-center gap-1.5 w-full py-2 px-3 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-900 font-bold text-xs border border-blue-200 transition-colors"
                           >
                             <FileDown className="w-4 h-4" />
-                            <span>{language === 'mr' ? 'अभ्यासक्रम पुस्तिका (Syllabus PDF)' : 'Download Syllabus (PDF)'}</span>
+                            <span>{language === 'mr' ? 'अभ्यासक्रम पुस्तिका' : 'Download Syllabus'}</span>
                           </a>
                         </div>
                       )}
@@ -469,7 +469,7 @@ export const CoursesCurriculumView: React.FC<CoursesCurriculumViewProps> = ({ pa
                 <span>{language === 'mr' ? 'उच्च संशोधन व पदव्युत्तर' : 'Advanced Post-Graduate & Research Degrees'}</span>
               </div>
               <h2 id="pg-heading" className="text-2xl sm:text-3xl font-extrabold text-stone-900">
-                {language === 'mr' ? 'पदव्युत्तर (M.Sc./M.Tech./MBA) व आचार्य पदवी (Ph.D.) अभ्यासक्रम' : 'Post-Graduate & Doctoral Programmes'}
+                {language === 'mr' ? 'पदव्युत्तर व आचार्य पदवी अभ्यासक्रम' : 'Post-Graduate & Doctoral Programmes'}
               </h2>
             </div>
 
@@ -504,7 +504,7 @@ export const CoursesCurriculumView: React.FC<CoursesCurriculumViewProps> = ({ pa
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <h3 className="text-lg font-bold text-stone-900 flex items-center gap-2">
                   <FileText className="w-5 h-5 text-purple-700" />
-                  <span>{language === 'mr' ? 'पदव्युत्तर अभ्यासक्रम पुस्तिका (ICAR NCG Syllabi Downloads)' : 'Master\'s Programme Syllabi (ICAR NCG Recommended)'}</span>
+                  <span>{language === 'mr' ? 'पदव्युत्तर अभ्यासक्रम पुस्तिका' : 'Master\'s Programme Syllabi (ICAR NCG Recommended)'}</span>
                 </h3>
 
                 {/* View Mode Toggle & Print */}
@@ -877,7 +877,7 @@ export const CoursesCurriculumView: React.FC<CoursesCurriculumViewProps> = ({ pa
                 <div className="space-y-4">
                   <h3 className="text-lg font-bold text-stone-900 flex items-center gap-2">
                     <Award className="w-5 h-5 text-orange-600" />
-                    <span>{language === 'mr' ? 'घटक माळी प्रशिक्षण केंद्रे (Constituent Centers)' : 'Constituent Mali Training Centers'}</span>
+                    <span>{language === 'mr' ? 'घटक माळी प्रशिक्षण केंद्रे' : 'Constituent Mali Training Centers'}</span>
                   </h3>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -952,7 +952,7 @@ export const CoursesCurriculumView: React.FC<CoursesCurriculumViewProps> = ({ pa
                 {/* Unaided Centers Cards */}
                 <div className="space-y-4">
                   <h3 className="text-base font-bold text-stone-900">
-                    {language === 'mr' ? 'विनाअनुदानित मान्यताप्राप्त माळी प्रशिक्षण केंद्रे (Unaided Centers)' : 'Unaided Approved Mali Training Centers'}
+                    {language === 'mr' ? 'विनाअनुदानित मान्यताप्राप्त माळी प्रशिक्षण केंद्रे' : 'Unaided Approved Mali Training Centers'}
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="p-5 rounded-2xl bg-white border border-stone-200 shadow-xs flex flex-col justify-between">

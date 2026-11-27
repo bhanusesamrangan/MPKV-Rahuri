@@ -350,7 +350,7 @@ export const ExtensionKVKView: React.FC<ExtensionKVKViewProps> = () => {
           <div className="p-6 rounded-3xl bg-white border border-stone-200 shadow-2xs space-y-2.5">
             <div className="flex items-center gap-2 text-emerald-800 text-xs font-bold uppercase tracking-wider">
               <Sparkles className="w-4 h-4 text-emerald-600" />
-              <span>{language === 'mr' ? 'दृष्टिकोन (Vision)' : 'KVK Vision'}</span>
+              <span>{language === 'mr' ? 'दृष्टिकोन' : 'KVK Vision'}</span>
             </div>
             <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
               {language === 'mr'
@@ -362,7 +362,7 @@ export const ExtensionKVKView: React.FC<ExtensionKVKViewProps> = () => {
           <div className="p-6 rounded-3xl bg-white border border-stone-200 shadow-2xs space-y-2.5">
             <div className="flex items-center gap-2 text-amber-800 text-xs font-bold uppercase tracking-wider">
               <Target className="w-4 h-4 text-amber-600" />
-              <span>{language === 'mr' ? 'ध्येय (Mission)' : 'KVK Mission'}</span>
+              <span>{language === 'mr' ? 'ध्येय' : 'KVK Mission'}</span>
             </div>
             <p className="text-xs sm:text-sm text-stone-700 leading-relaxed font-medium">
               {language === 'mr'
@@ -398,7 +398,7 @@ export const ExtensionKVKView: React.FC<ExtensionKVKViewProps> = () => {
                     : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
                 }`}
               >
-                {language === 'mr' ? 'सर्व १७ केंद्रे (All 17)' : 'All 17 KVKs'}
+                {language === 'mr' ? 'सर्व १७ केंद्रे' : 'All 17 KVKs'}
               </button>
               <button
                 onClick={() => setSelectedType('university')}

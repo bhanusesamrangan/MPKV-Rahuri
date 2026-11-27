@@ -3,10 +3,10 @@
   "url": "https://mpkv.ac.in/PmeAndNodel/PmeIntroduction",
   "route": "/PmeAndNodel/PmeIntroduction",
   "sourcePage": "pme-cell",
-  "scrapedAt": "2026-11-22T20:36:02.826851",
+  "scrapedAt": "2026-11-26T20:40:00.000000",
   "title": {
     "en": "Priority Setting, Monitoring & Evaluation (PME) Cell",
-    "mr": "प्राधान्यक्रम निर्धारण, सनियंत्रण व मूल्यमापन कक्ष (PME)"
+    "mr": "नियोजन, संनियंत्रण व मूल्यमापन कक्ष"
   },
   "breadcrumb": [
     {
@@ -18,1154 +18,221 @@
     },
     {
       "title": {
-        "en": "Research",
-        "mr": "संशोधन"
+        "en": "Research & Governance",
+        "mr": "संशोधन व प्रशासन"
       },
-      "href": "/pme-cell"
+      "href": "/PmeAndNodel/PmeIntroduction"
     },
     {
       "title": {
-        "en": "Overview & Schemes",
-        "mr": "संशोधन आढावा व योजना"
+        "en": "PME Cell",
+        "mr": "PME कक्ष"
       },
-      "href": "/pme-cell"
-    },
-    {
-      "title": {
-        "en": "Priority Setting, Monitoring & Evaluation (PME) Cell",
-        "mr": "प्राधान्यक्रम निर्धारण, सनियंत्रण व मूल्यमापन कक्ष (PME)"
-      },
-      "href": "/pme-cell"
+      "href": "/PmeAndNodel/PmeIntroduction"
     }
   ],
   "hero": {
     "title": {
-      "en": "PME Cell",
-      "mr": "पीएमई सेल"
+      "en": "Planning, Monitoring & Evaluation (PME) Cell",
+      "mr": "नियोजन, संनियंत्रण व मूल्यमापन कक्ष"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — PME Cell",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — पीएमई सेल"
+      "en": "Functioning since May 2018 at MPKV Rahuri to plan and monitor university development schemes, process infrastructure & research proposals with Government of Maharashtra & MCAER, and scrutinize scientist awards, trainings, and conference proposals.",
+      "mr": "मे २०१८ पासून कार्यरत PME कक्ष विद्यापीठाच्या विकास योजनांचे नियोजन व संनियंत्रण, महाराष्ट्र शासन व MCAER कडे संशोधन व पायाभूत सुविधा प्रस्ताव पाठविणे आणि शास्त्रज्ञांच्या पुरस्कार, प्रशिक्षण व परिषद प्रस्तावांची छाननी करण्याचे कार्य करते."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
-    }
+      "en": "Functioning Since May 2018 • State & Research Planning Cell",
+      "mr": "स्थापना मे २०१८ • विद्यापीठ नियोजन व मूल्यमापन कक्ष"
+    },
+    "stats": [
+      {
+        "label": {
+          "en": "Established",
+          "mr": "स्थापना"
+        },
+        "value": "May 2018"
+      },
+      {
+        "label": {
+          "en": "Proformas & Circulars",
+          "mr": "नमुने व परिपत्रके"
+        },
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Core Focus Areas",
+          "mr": "कार्यक्षेत्रे"
+        },
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Location",
+          "mr": "कार्यालय"
+        },
+        "value": "Admin Bldg"
+      }
+    ]
   },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "PME Cell",
-        "mr": "पीएमई सेल"
-      },
-      "order": 55
-    }
-  ],
-  "paragraphs": [
-    {
-      "text": {
-        "en": "The Planning, Monitoring and Evaluation Cell has been functioning since May 2018. The major focus of this PME Cell is to plan and monitor various development programmes and activities of the Mahatma Phule Krishi Vidyapeeth. The PME Cell acts as a coordination unit between the University and Government Departments of Maharashtra State. The PME Cell processes the new research scheme proposals of the University in getting funds for infrastructure development and facilitates implementation of various schemes for the benefit of the farming community. It is also involved scruitinizing award, training, conferences, workshop and seminar proposals of scientists and faculties for onward submission. The PME Cell is under development. Various activities have been initiated for implementation in the university. The cell has developed various formats for proposals regarding projects, to attend conferences, seminars, training and workshops. The university vision document, infrastructure plan, student database is being prepared. The PME Cell has prepared guidelines regarding attending conferences and trainings by scientists and faculties. The PME Cell is working towards quality planning, research, and monitoring of research, education and extension education activities. The PME Cell office is in administration building of the university and near the office of Directorate of Rsearch. The PME Cell office is in administration building of the university.",
-        "mr": "The Planning, Monitoring and Evaluation Cell has been functioning since May 2018. The major focus of this PME Cell is to plan and monitor various development programmes and activities of the Mahatma Phule Krishi Vidyapeeth. The PME Cell acts as a coordination unit between the University and Government Departments of Maharashtra State. The PME Cell processes the new research scheme proposals of the University in getting funds for infrastructure development and facilitates implementation of various schemes for the benefit of the farming community. It is also involved scruitinizing award, training, conferences, workshop and seminar proposals of scientists and faculties for onward submission. The PME Cell is under development. Various activities have been initiated for implementation in the university. The cell has developed various formats for proposals regarding projects, to attend conferences, seminars, training and workshops. The university vision document, infrastructure plan, student database is being prepared. The PME Cell has prepared guidelines regarding attending conferences and trainings by scientists and faculties. The PME Cell is working towards quality planning, research, and monitoring of research, education and extension education activities. The PME Cell office is in administration building of the university and near the office of Directorate of Rsearch. The PME Cell office is in administration building of the university."
-      },
-      "order": 56
-    }
-  ],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "PME Cell",
-          "mr": "पीएमई सेल"
-        },
-        {
-          "en": "Guidelines",
-          "mr": "Guidelines"
-        },
-        {
-          "en": "Circulars",
-          "mr": "Circulars"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 57
-    }
-  ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "PME Cell",
-        "mr": "पीएमई सेल"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The Planning, Monitoring and Evaluation Cell has been functioning since May 2018. The major focus of this PME Cell is to plan and monitor various development programmes and activities of the Mahatma Phule Krishi Vidyapeeth. The PME Cell acts as a coordination unit between the University and Government Departments of Maharashtra State. The PME Cell processes the new research scheme proposals of the University in getting funds for infrastructure development and facilitates implementation of various schemes for the benefit of the farming community. It is also involved scruitinizing award, training, conferences, workshop and seminar proposals of scientists and faculties for onward submission. The PME Cell is under development. Various activities have been initiated for implementation in the university. The cell has developed various formats for proposals regarding projects, to attend conferences, seminars, training and workshops. The university vision document, infrastructure plan, student database is being prepared. The PME Cell has prepared guidelines regarding attending conferences and trainings by scientists and faculties. The PME Cell is working towards quality planning, research, and monitoring of research, education and extension education activities. The PME Cell office is in administration building of the university and near the office of Directorate of Rsearch. The PME Cell office is in administration building of the university.",
-        "mr": "The Planning, Monitoring and Evaluation Cell has been functioning since May 2018. The major focus of this PME Cell is to plan and monitor various development programmes and activities of the Mahatma Phule Krishi Vidyapeeth. The PME Cell acts as a coordination unit between the University and Government Departments of Maharashtra State. The PME Cell processes the new research scheme proposals of the University in getting funds for infrastructure development and facilitates implementation of various schemes for the benefit of the farming community. It is also involved scruitinizing award, training, conferences, workshop and seminar proposals of scientists and faculties for onward submission. The PME Cell is under development. Various activities have been initiated for implementation in the university. The cell has developed various formats for proposals regarding projects, to attend conferences, seminars, training and workshops. The university vision document, infrastructure plan, student database is being prepared. The PME Cell has prepared guidelines regarding attending conferences and trainings by scientists and faculties. The PME Cell is working towards quality planning, research, and monitoring of research, education and extension education activities. The PME Cell office is in administration building of the university and near the office of Directorate of Rsearch. The PME Cell office is in administration building of the university."
-      },
-      "order": 56
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "PME Cell",
-          "mr": "पीएमई सेल"
-        },
-        {
-          "en": "Guidelines",
-          "mr": "Guidelines"
-        },
-        {
-          "en": "Circulars",
-          "mr": "Circulars"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 57
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 1,
-    "listCount": 1,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 14,
-    "totalRecords": 70
+  "introduction": {
+    "historyEn": "The Planning, Monitoring and Evaluation (PME) Cell has been functioning since May 2018. The major focus of the PME Cell is to plan and monitor various development programmes and activities of Mahatma Phule Krishi Vidyapeeth. It acts as a coordination unit between the University and Government Departments of Maharashtra State, processing new research scheme proposals to secure funds for infrastructure development and facilitating schemes for the farming community.",
+    "historyMr": "नियोजन, संनियंत्रण व मूल्यमापन कक्ष (PME Cell) मे २०१८ पासून कार्यरत आहे. महात्मा फुले कृषी विद्यापीठाच्या विविध विकास कार्यक्रमांचे आणि उपक्रमांचे नियोजन व संनियंत्रण करणे हा या कक्षाचा मुख्य उद्देश आहे. हा कक्ष विद्यापीठ आणि महाराष्ट्र शासनाचे विविध विभाग यांच्यातील समन्वय दुवा म्हणून कार्य करतो, तसेच पायाभूत सुविधा विकासासाठी नवीन संशोधन योजनांचे प्रस्ताव तयार करून निधी उपलब्ध करून देतो.",
+    "mandateEn": "The Cell is actively involved in scrutinizing award, training, conference, workshop, and seminar proposals of university scientists and faculty for onward submission. It has developed standardized formats for project proposals, research publications, books, awards, and popular articles, while preparing the University Vision Document, infrastructure plan, and student database. The PME Cell office is located in the Administration Building near the Office of the Directorate of Research.",
+    "mandateMr": "विद्यापीठातील शास्त्रज्ञ व प्राध्यापकांचे पुरस्कार, प्रशिक्षण, राष्ट्रीय-आंतरराष्ट्रीय परिषद व कार्यशाळा प्रस्ताव छाननी करून पुढील मंजुरीसाठी सादर करण्याची जबाबदारी PME कक्ष पार पाडतो. या कक्षाने प्रकल्प प्रस्ताव, संशोधन प्रकाशने, पुस्तके व लोकप्रिय लेखांसाठी विहित नमुने विकसित केले असून विद्यापीठाचे व्हिजन डॉक्युमेंट व पायाभूत सुविधा आराखडा तयार करण्याचे काम सुरू आहे. PME कक्षाचे कार्यालय मध्यवर्ती प्रशासकीय इमारतीत संशोधन संचालक कार्यालयाजवळ स्थित आहे."
   },
-  "menuId": "menu_research",
-  "parentMenu": {
-    "id": "menu_research",
-    "title": {
-      "en": "Research",
-      "mr": "संशोधन"
+  "pillars": [
+    {
+      "titleEn": "Govt. & MCAER Coordination",
+      "titleMr": "शासन व MCAER समन्वय",
+      "descEn": "Acts as official liaison between MPKV Rahuri, MCAER Pune, and Maharashtra State Government Departments for new development & research schemes.",
+      "descMr": "नवीन संशोधन व विकास योजनांच्या मंजुरीसाठी विद्यापीठ, MCAER पुणे आणि महाराष्ट्र शासन यांच्यात अधिकृत समन्वय."
+    },
+    {
+      "titleEn": "Project & Infrastructure Planning",
+      "titleMr": "प्रकल्प व पायाभूत सुविधा नियोजन",
+      "descEn": "Processes new research scheme proposals for infrastructure funding, prepares University Vision Document & long-term capital plans.",
+      "descMr": "पायाभूत सुविधा निधीसाठी नवीन संशोधन प्रस्ताव प्रक्रिया, विद्यापीठ व्हिजन डॉक्युमेंट व विकास आराखडा निर्मिती."
+    },
+    {
+      "titleEn": "Scientist Proposal Scrutiny",
+      "titleMr": "शास्त्रज्ञ प्रस्ताव छाननी",
+      "descEn": "Scrutinizes faculty/scientist proposals for national/international trainings, awards, conferences, seminars, workshops & publications.",
+      "descMr": "शास्त्रज्ञ व प्राध्यापकांच्या पुरस्कार, प्रशिक्षण, परिषद, कार्यशाळा व प्रकाशन प्रस्तावांची तांत्रिक छाननी व मार्गदर्शक तत्त्वे."
+    },
+    {
+      "titleEn": "Quality Monitoring & Reporting",
+      "titleMr": "गुणवत्ता संनियंत्रण व आढावा",
+      "descEn": "Monitors execution quality across Research, Education, and Extension Education wings and maintains ongoing ad-hoc project & staff databases.",
+      "descMr": "संशोधन, शिक्षण व विस्तार शिक्षण उपक्रमांचे गुणवत्ता संनियंत्रण तसेच प्रकल्प व मनुष्यबळ माहिती संकलन."
     }
-  },
-  "submenuGroup": {
-    "en": "Overview & Schemes",
-    "mr": "संशोधन आढावा व योजना"
+  ],
+  "documents": [
+    {
+      "srNo": "1",
+      "category": "Proforma Formats",
+      "title": {
+        "en": "Training Format Proforma",
+        "mr": "प्रशिक्षण प्रस्ताव नमुना"
+      },
+      "fileUrl": "/media/docs/pme-cell/01_training_format.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Training%20format.pdf",
+      "fileSize": "14 KB"
+    },
+    {
+      "srNo": "2",
+      "category": "Proforma Formats",
+      "title": {
+        "en": "Award Nomination Proforma",
+        "mr": "पुरस्कार नामांकन नमुना"
+      },
+      "fileUrl": "/media/docs/pme-cell/02_award_proforma.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Award%20proforma.pdf",
+      "fileSize": "14 KB"
+    },
+    {
+      "srNo": "3",
+      "category": "Proforma Formats",
+      "title": {
+        "en": "Popular Article Submission Proforma",
+        "mr": "लोकप्रिय लेख सादरीकरण नमुना"
+      },
+      "fileUrl": "/media/docs/pme-cell/03_popular_article.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Popular%20Article.pdf",
+      "fileSize": "14 KB"
+    },
+    {
+      "srNo": "4",
+      "category": "Proforma Formats",
+      "title": {
+        "en": "New Research Project Proposal Proforma",
+        "mr": "नवीन संशोधन प्रकल्प प्रस्ताव नमुना"
+      },
+      "fileUrl": "/media/docs/pme-cell/04_project_proposal.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Project%20proposal.pdf",
+      "fileSize": "15 KB"
+    },
+    {
+      "srNo": "5",
+      "category": "Proforma Formats",
+      "title": {
+        "en": "Research Publication Reporting Proforma",
+        "mr": "संशोधन प्रकाशन विवरण नमुना"
+      },
+      "fileUrl": "/media/docs/pme-cell/05_research_publication.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Research%20Publication.pdf",
+      "fileSize": "14 KB"
+    },
+    {
+      "srNo": "6",
+      "category": "Proforma Formats",
+      "title": {
+        "en": "Paper Presentation in Conferences / Seminars Proforma",
+        "mr": "परिषद व चर्चासत्रांमध्ये शोधनिबंध सादरीकरण नमुना"
+      },
+      "fileUrl": "/media/docs/pme-cell/06_conference_paper_presentation.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Papre%20Presentation%20to%20the%20Conferences.pdf",
+      "fileSize": "14 KB"
+    },
+    {
+      "srNo": "7",
+      "category": "Proforma Formats",
+      "title": {
+        "en": "Books & Technical Manuals Proforma",
+        "mr": "पुस्तके व हस्तपुस्तिका प्रकाशन नमुना"
+      },
+      "fileUrl": "/media/docs/pme-cell/07_books_proforma.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Books.pdf",
+      "fileSize": "14 KB"
+    },
+    {
+      "srNo": "8",
+      "category": "Circulars & Guidelines",
+      "title": {
+        "en": "Information of University Staff and Students (Official Circular)",
+        "mr": "विद्यापीठ अधिकारी, कर्मचारी व विद्यार्थ्यांची माहिती (अधिकृत परिपत्रक)"
+      },
+      "fileUrl": "/media/docs/pme-cell/08_staff_students_info_circular.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/Circular1.pdf",
+      "fileSize": "362 KB"
+    },
+    {
+      "srNo": "9",
+      "category": "Circulars & Guidelines",
+      "title": {
+        "en": "Information of Ongoing Ad-hoc Research Projects",
+        "mr": "सद्यस्थितीत सुरू असलेल्या तदर्थ संशोधन प्रकल्पांची माहिती"
+      },
+      "fileUrl": "/media/docs/pme-cell/09_ongoing_adhoc_research_project.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/1009.pdf",
+      "fileSize": "503 KB"
+    },
+    {
+      "srNo": "10",
+      "category": "Circulars & Guidelines",
+      "title": {
+        "en": "MCAER Pune Project Proposal Approval Guidelines (Circular dated 16.03.2026)",
+        "mr": "महाराष्ट्र कृषी शिक्षण व संशोधन परिषद पुणे यांच्याकडे प्रस्ताव मंजुरीसाठीचे मार्गदर्शक तत्त्वे (दि. १६.०३.२०२६)"
+      },
+      "fileUrl": "/media/docs/pme-cell/10_mcaer_proposal_approval_guidelines_2026.pdf",
+      "officialUrl": "https://mpkv.ac.in/Uploads/PmeCell/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%2016.03.2026%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF%20%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%20%E0%A4%B5%20%E0%A4%B8%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A4%A6%20%E0%A4%AA%E0%A5%81%E0%A4%A3%E0%A5%87%20%E0%A4%AF%E0%A4%BE%E0%A4%82%E0%A4%9A%E0%A5%87%20%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A6%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%95%20%E0%A4%A4%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A5%87_20260318120544.pdf",
+      "fileSize": "5.55 MB"
+    }
+  ],
+  "officer": {
+    "nameEn": "Dr. Narayan Annasaheb Musmade",
+    "nameMr": "डॉ. नारायण अण्णासाहेब मुसमाडे",
+    "designationEn": "PME Cell In-Charge, Mahatma Phule Krishi Vidyapeeth, Rahuri",
+    "designationMr": "प्रभारी अधिकारी, PME कक्ष, महात्मा फुले कृषी विद्यापीठ, राहुरी",
+    "phone": "+91-02426-243240",
+    "mobile": "09420452667",
+    "emails": [
+      "planningmpkv@gmail.com",
+      "pmempkv@gmail.com"
+    ],
+    "photo": "/media/images/pme-cell/dr_narayan_musmade.png",
+    "officialPhotoUrl": "https://mpkv.ac.in/Uploads/PmeCell/pmeIncharcge_20260227123900.PNG",
+    "locationEn": "PME Cell Office, Administration Building (Near Directorate of Research), MPKV, Rahuri - 413722, Dist. Ahilyanagar (M.S.)",
+    "locationMr": "PME कक्ष कार्यालय, प्रशासकीय इमारत (संशोधन संचालक कार्यालयाजवळ), मफुकृवि, राहुरी - ४१३७२२"
   }
 }

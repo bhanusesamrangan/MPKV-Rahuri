@@ -146,9 +146,9 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
     {
       id: 'phule-revati',
       src: '/media/images/extension/atic1.jpg',
-      titleEn: 'Phule Revati (फुले रेवती)',
-      titleMr: 'फुले रेवती (Phule Revati)',
-      cropEn: 'Rabi Sorghum (ज्वारी)',
+      titleEn: 'Phule Revati',
+      titleMr: 'फुले रेवती',
+      cropEn: 'Rabi Sorghum',
       cropMr: 'रब्बी ज्वारी',
       category: 'sorghum',
       centerEn: 'AICRP on Sorghum, MPKV Rahuri',
@@ -169,9 +169,9 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
     {
       id: 'phule-vasudha',
       src: '/media/images/extension/atic2.jpg',
-      titleEn: 'Phule Vasudha (फुले वसुधा)',
-      titleMr: 'फुले वसुधा (Phule Vasudha)',
-      cropEn: 'Rabi Sorghum (ज्वारी)',
+      titleEn: 'Phule Vasudha',
+      titleMr: 'फुले वसुधा',
+      cropEn: 'Rabi Sorghum',
       cropMr: 'रब्बी ज्वारी',
       category: 'sorghum',
       centerEn: 'AICRP on Sorghum, MPKV Rahuri',
@@ -192,9 +192,9 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
     {
       id: 'phule-suchitra',
       src: '/media/images/extension/atic3.jpg',
-      titleEn: 'Phule Suchitra [SPV 2048] (फुले सुचित्रा)',
-      titleMr: 'फुले सुचित्रा [SPV 2048]',
-      cropEn: 'Rabi Sorghum (ज्वारी)',
+      titleEn: 'Phule Suchitra (SPV 2048)',
+      titleMr: 'फुले सुचित्रा (SPV २०४८)',
+      cropEn: 'Rabi Sorghum',
       cropMr: 'रब्बी ज्वारी',
       category: 'sorghum',
       centerEn: 'AICRP on Sorghum, MPKV Rahuri',
@@ -217,7 +217,7 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
       src: '/media/images/extension/atic13.jpg',
       titleEn: 'Phule Suchitra (Cob & Field View)',
       titleMr: 'फुले सुचित्रा (कणीस व पीक वैशिष्ट्ये)',
-      cropEn: 'Rabi Sorghum (ज्वारी)',
+      cropEn: 'Rabi Sorghum',
       cropMr: 'रब्बी ज्वारी',
       category: 'sorghum',
       centerEn: 'AICRP on Sorghum, MPKV Rahuri',
@@ -238,9 +238,9 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
     {
       id: 'phule-kranti-stylo',
       src: '/media/images/extension/aitic14.jpg',
-      titleEn: 'Stylo - Phule Kranti (स्टायलो - फुले क्रांती)',
-      titleMr: 'स्टायलो - फुले क्रांती (Stylo)',
-      cropEn: 'Leguminous Fodder (द्विदल चारा पीक)',
+      titleEn: 'Stylo - Phule Kranti',
+      titleMr: 'स्टायलो - फुले क्रांती',
+      cropEn: 'Leguminous Fodder',
       cropMr: 'बहुवार्षिक द्विदल चारा पीक',
       category: 'fodder',
       centerEn: 'AICRP on Forage Crops, MPKV Rahuri',
@@ -263,7 +263,7 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
       src: '/media/images/extension/atic16.jpg',
       titleEn: 'Rabi Sorghum Package of Practices',
       titleMr: 'रब्बी ज्वारी लागवडीचे तंत्रज्ञान',
-      cropEn: 'Production Technology (लागवड तंत्रज्ञान)',
+      cropEn: 'Production Technology',
       cropMr: 'सुधारित कृषी तंत्रज्ञान',
       category: 'technology',
       centerEn: 'AICRP on Sorghum, MPKV Rahuri',
@@ -284,9 +284,9 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
     {
       id: 'phule-vimukta-okra',
       src: '/media/images/extension/atic17.jpg',
-      titleEn: 'Okra - Phule Vimukta (भेंडी - फुले विमुक्ता)',
-      titleMr: 'भेंडी - फुले विमुक्ता (Okra)',
-      cropEn: 'Vegetables (भाजीपाला)',
+      titleEn: 'Okra - Phule Vimukta',
+      titleMr: 'भेंडी - फुले विमुक्ता',
+      cropEn: 'Vegetables',
       cropMr: 'भाजीपाला पीक',
       category: 'vegetables',
       centerEn: 'ZARS Ganeshkhind, Pune / MPKV Rahuri',
@@ -307,9 +307,9 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
     {
       id: 'phule-gunwant-napier',
       src: '/media/images/extension/atic18.jpg',
-      titleEn: 'Hybrid Napier - Phule Gunwant (संकरित नेपिअर - फुले गुणवंत)',
+      titleEn: 'Hybrid Napier - Phule Gunwant',
       titleMr: 'संकरित नेपिअर - फुले गुणवंत',
-      cropEn: 'Perennial Grass (बहुवार्षिक चारा गवत)',
+      cropEn: 'Perennial Grass',
       cropMr: 'बहुवार्षिक चारा गवत',
       category: 'fodder',
       centerEn: 'AICRP on Forage Crops, MPKV Rahuri',
@@ -772,7 +772,7 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
 
                 <div>
                   <h4 className="text-lg sm:text-xl font-black font-serif text-slate-900">
-                    {language === 'mr' ? 'व्यवस्थापक (The Manager)' : 'The Manager'}
+                    {language === 'mr' ? 'व्यवस्थापक' : 'The Manager'}
                   </h4>
                   <p className="text-xs text-stone-600 font-semibold mt-0.5">
                     Agricultural Technology Information Center (ATIC)
@@ -807,7 +807,7 @@ export const ExtensionAticView: React.FC<ExtensionAticViewProps> = () => {
 
                 <div>
                   <h4 className="text-lg sm:text-xl font-black font-serif text-slate-900">
-                    {language === 'mr' ? 'जनसंपर्क अधिकारी (Public Relation Officer)' : 'The Public Relation Officer'}
+                    {language === 'mr' ? 'जनसंपर्क अधिकारी' : 'The Public Relation Officer'}
                   </h4>
                   <p className="text-xs text-stone-600 font-semibold mt-0.5">
                     Agricultural Technology Information Center (ATIC)

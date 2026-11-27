@@ -17,7 +17,9 @@ import {
   FileText,
   Calendar,
   Building,
-  Check
+  Check,
+  ChevronRight,
+  ChevronDown
 } from 'lucide-react';
 
 interface RecognitionItem {
@@ -67,52 +69,6 @@ export const AchievementsNirfSection: React.FC = () => {
 
   const recognitions: RecognitionItem[] = [
     {
-      id: 'ppvfra_record',
-      year: '2016',
-      category: 'ppvfra',
-      title: {
-        en: 'National Record for Maximum Extant Notified Varieties (36 Crop Varieties Registered with PPV & FRA)',
-        mr: 'पीपीव्ही व एफआरए नवी दिल्ली अंतर्गत सर्वाधिक ३६ अधिसूचित पीक वाणांची राष्ट्रीय विक्रमी नोंदणी'
-      },
-      authority: {
-        en: 'Protection of Plant Varieties & Farmers’ Rights Authority, Govt. of India',
-        mr: 'पीपीव्ही व एफआरए, कृषि व शेतकरी कल्याण मंत्रालय, भारत सरकार'
-      },
-      tag: language === 'mr' ? 'राष्ट्रीय विक्रम' : 'National Record',
-      description: {
-        en: 'MPKV holds the all-India national record among all agricultural universities for legal registration and protection of 36 farmer-centric extant varieties under the PPV & FRA Act 2001.',
-        mr: 'शेतकरी केंद्रित ३६ अधिसूचित वाणांची कायदेशीर नोंदणी व हक्क संरक्षण मिळवणारे महात्मा फुले कृषि विद्यापीठ हे देशातील सर्वोच्च विद्यापीठ ठरले.'
-      },
-      details: {
-        en: 'Under the statutory provisions of the Protection of Plant Varieties & Farmers\' Rights Act, MPKV completed rigorous DUS (Distinctiveness, Uniformity and Stability) testing for 36 notified crop varieties. This landmark achievement safeguards indigenous germplasm, ensures royalty protection, and secures farmers’ legal rights across Maharashtra and India.',
-        mr: 'वनस्पती वाण संरक्षण व शेतकरी हक्क कायदा २००१ च्या वैधानिक तरतुदींनुसार, मफुकृविने ३६ अधिसूचित पीक वाणांची DUS (वैशिष्ट्य, एकसारखेपणा व स्थिरता) चाचणी यशस्वीरीत्या पूर्ण केली. या ऐतिहासिक विक्रमामुळे महाराष्ट्रातील शेतकरी वाणांचे हक्क आणि जनुकीय संपदा सुरक्षित झाली आहे.'
-      },
-      highlights: [
-        {
-          en: 'All-India National Record with 36 extant notified crop varieties registered.',
-          mr: '३६ अधिसूचित पीक वाणांची नोंदणी करून संपूर्ण भारतात सर्वोच्च राष्ट्रीय विक्रम प्रस्थापित.'
-        },
-        {
-          en: 'Covers staple crops: Sorghum (Phule Yashoda), Chickpea (Phule Digvijay), Sugarcane, and Pomegranate (Phule Bhagwa).',
-          mr: 'ज्वारी (फुले यशोदा), हरभरा (फुले दिग्विजय), ऊस व डाळिंब (फुले भगवा) अशा प्रमुख पिकांचा समावेश.'
-        },
-        {
-          en: 'Ensures seed purity, legal intellectual property protection, and benefits to local growers.',
-          mr: 'वाणांची शुद्धता, बौद्धिक संपदा हक्क आणि शेतकरी बंधूंना थेट लाभ मिळवून देण्याची हमी.'
-        }
-      ],
-      icon: Medal,
-      styles: {
-        yearBg: 'bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black',
-        tagBg: 'bg-amber-100 text-amber-950 border-amber-300',
-        iconBg: 'bg-gradient-to-br from-amber-500 to-orange-600 text-white shadow-xs',
-        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-amber-50/50',
-        border: 'border-amber-200/90 hover:border-amber-400',
-        titleHover: 'group-hover:text-amber-950',
-        glow: 'hover:shadow-amber-500/10'
-      }
-    },
-    {
       id: 'icar_accreditation',
       year: language === 'mr' ? 'अद्ययावत' : 'Current',
       category: 'icar',
@@ -159,6 +115,190 @@ export const AchievementsNirfSection: React.FC = () => {
       }
     },
     {
+      id: 'state_awards',
+      year: '2023',
+      category: 'history',
+      title: {
+        en: 'Government of Maharashtra Vasantrao Naik State Awards for Farm Innovation',
+        mr: 'महाराष्ट्र शासन वसंतराव नाईक स्मृती राज्य कृषी संशोधन व विस्तार पुरस्कार'
+      },
+      authority: {
+        en: 'Govt. of Maharashtra & Vasantrao Naik Prathisthan',
+        mr: 'महाराष्ट्र शासन व वसंतराव नाईक स्मृती प्रतिष्ठान'
+      },
+      tag: language === 'mr' ? 'राज्य पुरस्कार' : 'State Honour',
+      description: {
+        en: 'Bestowed upon university scientists and extension units for transformative contribution to drought mitigation and sugarcane drip automation.',
+        mr: 'उसाचे सूक्ष्म सिंचन, डाळिंब तेलकट डाग रोग नियंत्रण व कोरडवाहू तंत्रज्ञानातील संशोधनासाठी राज्यस्तरीय गौरव.'
+      },
+      details: {
+        en: 'Instituted by the Government of Maharashtra and the Vasantrao Naik Memorial Foundation, this prestigious state honour has been awarded to MPKV scientists for path-breaking research in drought mitigation, sugarcane wide-row mechanization, and biological management of bacterial blight in pomegranate orchards.',
+        mr: 'महाराष्ट्र शासन व वसंतराव नाईक स्मृती प्रतिष्ठान द्वारे शेतीतील उल्लेखनीय संशोधन व तंत्रज्ञानासाठी मफुकृविच्या शास्त्रज्ञांना हा राज्य पुरस्कार प्रदान करण्यात आला आहे. उसाची पट्टा पद्धत, ठिबक सिंचन, डाळिंबावरील तेलकट डाग रोगाचे एकात्मिक नियंत्रण व कोरडवाहू शेती तंत्रज्ञानासाठी हा बहुमान प्राप्त झाला.'
+      },
+      highlights: [
+        {
+          en: 'State-level apex recognition instituted in memory of late Chief Minister Vasantrao Naik.',
+          mr: 'माजी मुख्यमंत्री कै. वसंतराव नाईक यांच्या स्मृतीप्रीत्यर्थ दिला जाणारा राज्यस्तरीय सर्वोच्च पुरस्कार.'
+        },
+        {
+          en: 'Celebrates breakthrough agronomic solutions mitigating agricultural drought in Western Maharashtra.',
+          mr: 'पश्चिम महाराष्ट्रातील कोरडवाहू व दुष्काळी भागातील शेतीसाठी क्रांतिकारी उपायांची दखल.'
+        },
+        {
+          en: 'Direct contribution to boosting state productivity in sugarcane, pomegranate, and pulses.',
+          mr: 'ऊस, डाळिंब व कडधान्य पिकांच्या राज्यस्तरीय उत्पादकतेत भरीव वाढ करण्यात मोठे योगदान.'
+        }
+      ],
+      icon: Flame,
+      styles: {
+        yearBg: 'bg-gradient-to-r from-emerald-600 to-amber-600 text-white font-bold',
+        tagBg: 'bg-emerald-100 text-emerald-950 border-emerald-300',
+        iconBg: 'bg-gradient-to-br from-emerald-500 to-amber-600 text-white shadow-xs',
+        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-emerald-50/50',
+        border: 'border-emerald-200/90 hover:border-emerald-400',
+        titleHover: 'group-hover:text-emerald-950',
+        glow: 'hover:shadow-emerald-500/10'
+      }
+    },
+    {
+      id: 'aicrp_pearlmillet',
+      year: '2021',
+      category: 'aicrp',
+      title: {
+        en: 'National Commendation for Climate-Resilient Bajra & Forage Crops Breeding',
+        mr: 'अखिल भारतीय बाजरी व चारा पिके समन्वित संशोधन प्रकल्पाचे उत्कृष्ट राष्ट्रीय कार्य'
+      },
+      authority: {
+        en: 'ICAR AICRP National Review Panel',
+        mr: 'आयसीएआर राष्ट्रीय पुनरावलोकन समिती'
+      },
+      tag: language === 'mr' ? 'राष्ट्रीय प्रशंसा' : 'National Citation',
+      description: {
+        en: 'Recognized for releasing iron and zinc-rich biofortified pearl millet hybrids and multi-cut sweet fodder sorghum varieties.',
+        mr: 'लोह व जस्तयुक्त पोषणसमृद्ध बाजरी संकरित वाण आणि पौष्टिक चारा पिकांच्या संशोधनासाठी राष्ट्रीय प्रशंसा.'
+      },
+      details: {
+        en: 'The ICAR National Review Panel commended MPKV’s multi-location breeding trials in pearl millet and forage sorghum. The university released pioneering biofortified hybrids rich in micronutrients like iron and zinc to combat malnutrition, alongside multi-cut high-biomass fodder crops supporting the state’s thriving dairy industry.',
+        mr: 'भा.कृ.अनु.प. च्या राष्ट्रीय परीक्षण समितीने मफुकृविच्या बाजरी व चारा पिके प्रकल्पाच्या उल्लेखनीय कार्याची प्रशंसा केली. कुपोषणावर मात करण्यासाठी लोह व जस्तयुक्त पोषणसमृद्ध बाजरी आणि दुग्ध व्यवसायाला बळ देणाऱ्या बहुवार्षिक गोड ज्वारी चारा वाणांची निर्मिती करण्यात आली.'
+      },
+      highlights: [
+        {
+          en: 'Bred high-iron and high-zinc biofortified pearl millet varieties combating rural malnutrition.',
+          mr: 'ग्रामीण भागातील कुपोषणावर मात करण्यासाठी लोह व जस्तयुक्त संकरित बाजरी वाण विकसित.'
+        },
+        {
+          en: 'Released high-yield forage crops (Phule Jaywant, Phule Gunvant) providing round-the-year green fodder.',
+          mr: 'फुले जयवंत व फुले गुणवंत या बहुवार्षिक चारा वाणांमुळे पशुपालकांना वर्षभर हिरवा चारा उपलब्ध.'
+        },
+        {
+          en: 'High digestibility and palatability enhancing milk productivity across Maharashtra dairy farms.',
+          mr: 'उत्कृष्ट पचनक्षमता व पौष्टिक घटकांमुळे जनावरांच्या दूध उत्पादनात भरीव वाढ.'
+        }
+      ],
+      icon: Award,
+      styles: {
+        yearBg: 'bg-gradient-to-r from-teal-600 to-emerald-700 text-white font-bold',
+        tagBg: 'bg-teal-100 text-teal-950 border-teal-300',
+        iconBg: 'bg-gradient-to-br from-teal-500 to-emerald-700 text-white shadow-xs',
+        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-teal-50/50',
+        border: 'border-teal-200/90 hover:border-teal-400',
+        titleHover: 'group-hover:text-teal-950',
+        glow: 'hover:shadow-teal-500/10'
+      }
+    },
+    {
+      id: 'ppvfra_community',
+      year: '2017',
+      category: 'ppvfra',
+      title: {
+        en: 'Plant Genome Saviour Community Recognitions & Tribal Germplasm Protection',
+        mr: 'वनस्पती जनुक संरक्षक समुदाय पुरस्कार व स्थानिक शेतकरी वाण संरक्षण'
+      },
+      authority: {
+        en: 'PPV & FRA, Ministry of Agriculture & Farmers Welfare, Govt. of India',
+        mr: 'पीपीव्ही व एफआरए, भारत सरकार'
+      },
+      tag: language === 'mr' ? 'शेतकरी हक्क संरक्षण' : 'Farmers’ Rights',
+      description: {
+        en: 'Facilitated local farming communities and tribal growers in Western Ghats to gain national recognition and financial rewards for agro-biodiversity conservation.',
+        mr: 'पश्चिम घाटातील पारंपारिक देशी बियाणे व जैवविविधता संवर्धनासाठी स्थानिक शेतकरी समुदायांना राष्ट्रीय सन्मान मिळवून देण्यात योगदान.'
+      },
+      details: {
+        en: 'MPKV’s Department of Agricultural Botany systematically surveyed, documented, and registered landraces and heritage crop varieties preserved by indigenous farming communities in the Sahyadri Western Ghats. Through MPKV’s legal and scientific facilitation, tribal farmer groups won the prestigious Plant Genome Saviour Community Awards with ₹10 lakh cash felicitations.',
+        mr: 'सह्याद्रीच्या पश्चिम घाट व आदिवासी पट्ट्यात शेतकऱ्यांनी शतकानुशतके जतन केलेल्या स्थानिक देशी वाणांचे विद्यापीठाच्या कृषी वनस्पतीशास्त्र विभागाने वैज्ञानिक परीक्षण व नोंदणी केली. विद्यापीठाच्या प्रयत्नांमुळे आदिवासी शेतकरी गटांना प्रत्येकी १० लाख रुपयांचा "वनस्पती जनुक संरक्षक समुदाय पुरस्कार" भारत सरकारकडून प्राप्त झाला.'
+      },
+      highlights: [
+        {
+          en: 'Empowered tribal and grassroots farming communities with legal sovereignty over indigenous seeds.',
+          mr: 'आदिवासी व पारंपरिक शेतकऱ्यांना त्यांच्या पारंपरिक बियाण्यांवर कायदेशीर स्वामित्त्व मिळवून दिले.'
+        },
+        {
+          en: 'Conserved heritage cultivars of scented rice, finger millet (Ragi), and medicinal crops.',
+          mr: 'सुवासिक भात, नाचणी, वरई व दुर्मीळ औषधी वनस्पतींच्या पारंपरिक वाणांचे संवर्धन.'
+        },
+        {
+          en: 'Direct institutional support for establishing local community seed banks in tribal talukas.',
+          mr: 'आदिवासी तालुक्यांमध्ये स्थानिक शेतकरी बियाणे बँका स्थापन करण्यासाठी विद्यापीठाचे मार्गदर्शन.'
+        }
+      ],
+      icon: Sprout,
+      styles: {
+        yearBg: 'bg-gradient-to-r from-amber-600 to-yellow-600 text-white font-bold',
+        tagBg: 'bg-amber-100 text-amber-950 border-amber-300',
+        iconBg: 'bg-gradient-to-br from-amber-500 to-yellow-600 text-white shadow-xs',
+        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-amber-50/50',
+        border: 'border-amber-200/90 hover:border-amber-400',
+        titleHover: 'group-hover:text-amber-950',
+        glow: 'hover:shadow-amber-500/10'
+      }
+    },
+    {
+      id: 'ppvfra_record',
+      year: '2016',
+      category: 'ppvfra',
+      title: {
+        en: 'National Record for Maximum Extant Notified Varieties (36 Crop Varieties Registered with PPV & FRA)',
+        mr: 'पीपीव्ही व एफआरए नवी दिल्ली अंतर्गत सर्वाधिक ३६ अधिसूचित पीक वाणांची राष्ट्रीय विक्रमी नोंदणी'
+      },
+      authority: {
+        en: 'Protection of Plant Varieties & Farmers’ Rights Authority, Govt. of India',
+        mr: 'पीपीव्ही व एफआरए, कृषि व शेतकरी कल्याण मंत्रालय, भारत सरकार'
+      },
+      tag: language === 'mr' ? 'राष्ट्रीय विक्रम' : 'National Record',
+      description: {
+        en: 'MPKV holds the all-India national record among all agricultural universities for legal registration and protection of 36 farmer-centric extant varieties under the PPV & FRA Act 2001.',
+        mr: 'शेतकरी केंद्रित ३६ अधिसूचित वाणांची कायदेशीर नोंदणी व हक्क संरक्षण मिळवणारे महात्मा फुले कृषि विद्यापीठ हे देशातील सर्वोच्च विद्यापीठ ठरले.'
+      },
+      details: {
+        en: 'Under the statutory provisions of the Protection of Plant Varieties & Farmers\' Rights Act, MPKV completed rigorous DUS (Distinctiveness, Uniformity and Stability) testing for 36 notified crop varieties. This landmark achievement safeguards indigenous germplasm, ensures royalty protection, and secures farmers’ legal rights across Maharashtra and India.',
+        mr: 'वनस्पती वाण संरक्षण व शेतकरी हक्क कायदा २००१ च्या वैधानिक तरतुदींनुसार, मफुकृविने ३६ अधिसूचित पीक वाणांची DUS (वैशिष्ट्य, एकसारखेपणा व स्थिरता) चाचणी यशस्वीरीत्या पूर्ण केली. या ऐतिहासिक विक्रमामुळे महाराष्ट्रातील शेतकरी वाणांचे हक्क आणि जनुकीय संपदा सुरक्षित झाली आहे.'
+      },
+      highlights: [
+        {
+          en: 'All-India National Record with 36 extant notified crop varieties registered.',
+          mr: '३६ अधिसूचित पीक वाणांची नोंदणी करून संपूर्ण भारतात सर्वोच्च राष्ट्रीय विक्रम प्रस्थापित.'
+        },
+        {
+          en: 'Covers staple crops: Sorghum (Phule Yashoda), Chickpea (Phule Digvijay), Sugarcane, and Pomegranate (Phule Bhagwa).',
+          mr: 'ज्वारी (फुले यशोदा), हरभरा (फुले दिग्विजय), ऊस व डाळिंब (फुले भगवा) अशा प्रमुख पिकांचा समावेश.'
+        },
+        {
+          en: 'Ensures seed purity, legal intellectual property protection, and benefits to local growers.',
+          mr: 'वाणांची शुद्धता, बौद्धिक संपदा हक्क आणि शेतकरी बंधूंना थेट लाभ मिळवून देण्याची हमी.'
+        }
+      ],
+      icon: Medal,
+      styles: {
+        yearBg: 'bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black',
+        tagBg: 'bg-amber-100 text-amber-950 border-amber-300',
+        iconBg: 'bg-gradient-to-br from-amber-500 to-orange-600 text-white shadow-xs',
+        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-amber-50/50',
+        border: 'border-amber-200/90 hover:border-amber-400',
+        titleHover: 'group-hover:text-amber-950',
+        glow: 'hover:shadow-amber-500/10'
+      }
+    },
+    {
       id: 'seed_research',
       year: '2015',
       category: 'icar',
@@ -190,7 +330,7 @@ export const AchievementsNirfSection: React.FC = () => {
         },
         {
           en: 'Single-window seed distribution desk catering directly to farmers at Rahuri headquarters.',
-          mr: 'राहुरी मुख्यालयात शेतकऱ्यांसाठी थेट बियाणे विक्री कक्षाची (Helpline 02426-243345) सुविधा.'
+          mr: 'राहुरी मुख्यालयात शेतकऱ्यांसाठी थेट बियाणे विक्री कक्षाची (संपर्क: ०२४२६-२४३३३८) सुविधा.'
         }
       ],
       icon: Sprout,
@@ -251,52 +391,6 @@ export const AchievementsNirfSection: React.FC = () => {
       }
     },
     {
-      id: 'vegetable_aicrp',
-      year: '2013',
-      category: 'aicrp',
-      title: {
-        en: 'Late Amit Singh Memorial Award for Best AICRP Centre of Vegetables in India',
-        mr: 'अखिल भारतीय भाजीपाला समन्वित संशोधन प्रकल्पास देशातील "सर्वोत्कृष्ट केंद्र" पुरस्कार'
-      },
-      authority: {
-        en: 'ICAR All India Coordinated Research Project (AICRP)',
-        mr: 'आयसीएआर अखिल भारतीय समन्वित प्रकल्प'
-      },
-      tag: language === 'mr' ? 'देशात प्रथम' : 'Rank 1 in India',
-      description: {
-        en: 'Ranked 1st in India for outstanding varietal development, disease-resistant vegetables, and greenhouse cultivation technologies.',
-        mr: 'भाजीपाला पिकांचे उच्च उत्पादनक्षम व रोगप्रतिकारक वाण विकसित करण्यात संपूर्ण देशात प्रथम क्रमांकाचा मान.'
-      },
-      details: {
-        en: 'The All India Coordinated Research Project (AICRP) on Vegetable Crops at MPKV Rahuri was awarded the Late Amit Singh Memorial Award as the #1 Best Centre in India. The Rahuri vegetable scientists released iconic varieties including Phule Samarth and Phule Suvarna in Onion, Phule Pragati in Brinjal, and high-yield disease-resistant chillies.',
-        mr: 'भाजीपाला पिकांच्या अखिल भारतीय समन्वित संशोधन प्रकल्पात देशातील सर्व विद्यापीठांना मागे टाकत मफुकृवि राहुरी केंद्राने देशात प्रथम क्रमांक मिळवून कै. अमित सिंग स्मृती पुरस्कार जिंकला. कांदा (फुले समर्थ, फुले सुवर्णा), वांगी, मिरची व टोमॅटो पिकांमधील दर्जेदार वाण निर्मितीचे राष्ट्रीय स्तरावर कौतुक झाले.'
-      },
-      highlights: [
-        {
-          en: 'Adjudged Rank 1 among all vegetable research centres across Indian agricultural universities.',
-          mr: 'देशातील सर्व कृषी विद्यापीठांच्या भाजीपाला केंद्रांमध्ये प्रथम क्रमांकाचा राष्ट्रीय पुरस्कार.'
-        },
-        {
-          en: 'Pioneered world-renowned red and white onion varieties suitable for export and dehydration.',
-          mr: 'निर्यात व डिहायड्रेशनसाठी उपयुक्त लाल व पांढऱ्या कांद्याचे जगप्रसिद्ध वाण विकसित.'
-        },
-        {
-          en: 'Introduced low-cost naturally ventilated polyhouses for year-round off-season vegetable farming.',
-          mr: 'हंगामबाह्य भाजीपाला उत्पादनासाठी कमी खर्चाच्या पॉलिहाउस तंत्रज्ञानाचा प्रसार.'
-        }
-      ],
-      icon: Trophy,
-      styles: {
-        yearBg: 'bg-gradient-to-r from-rose-600 to-pink-700 text-white font-bold',
-        tagBg: 'bg-rose-100 text-rose-950 border-rose-300',
-        iconBg: 'bg-gradient-to-br from-rose-500 to-pink-600 text-white shadow-xs',
-        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-rose-50/50',
-        border: 'border-rose-200/90 hover:border-rose-400',
-        titleHover: 'group-hover:text-rose-950',
-        glow: 'hover:shadow-rose-500/10'
-      }
-    },
-    {
       id: 'safflower_aicrp',
       year: '2013',
       category: 'aicrp',
@@ -343,190 +437,57 @@ export const AchievementsNirfSection: React.FC = () => {
       }
     },
     {
-      id: 'ppvfra_community',
-      year: '2017',
-      category: 'ppvfra',
-      title: {
-        en: 'Plant Genome Saviour Community Recognitions & Tribal Germplasm Protection',
-        mr: 'वनस्पती जनुक संरक्षक समुदाय पुरस्कार व स्थानिक शेतकरी वाण संरक्षण'
-      },
-      authority: {
-        en: 'PPV & FRA, Ministry of Agriculture & Farmers Welfare, Govt. of India',
-        mr: 'पीपीव्ही व एफआरए, भारत सरकार'
-      },
-      tag: language === 'mr' ? 'शेतकरी हक्क संरक्षण' : 'Farmers’ Rights',
-      description: {
-        en: 'Facilitated local farming communities and tribal growers in Western Ghats to gain national recognition and financial rewards for agro-biodiversity conservation.',
-        mr: 'पश्चिम घाटातील पारंपारिक देशी बियाणे व जैवविविधता संवर्धनासाठी स्थानिक शेतकरी समुदायांना राष्ट्रीय सन्मान मिळवून देण्यात योगदान.'
-      },
-      details: {
-        en: 'MPKV’s Department of Agricultural Botany systematically surveyed, documented, and registered landraces and heritage crop varieties preserved by indigenous farming communities in the Sahyadri Western Ghats. Through MPKV’s legal and scientific facilitation, tribal farmer groups won the prestigious Plant Genome Saviour Community Awards with ₹10 lakh cash felicitations.',
-        mr: 'सह्याद्रीच्या पश्चिम घाट व आदिवासी पट्ट्यात शेतकऱ्यांनी शतकानुशतके जतन केलेल्या स्थानिक देशी वाणांचे विद्यापीठाच्या कृषी वनस्पतीशास्त्र विभागाने वैज्ञानिक परीक्षण व नोंदणी केली. विद्यापीठाच्या प्रयत्नांमुळे आदिवासी शेतकरी गटांना प्रत्येकी १० लाख रुपयांचा "वनस्पती जनुक संरक्षक समुदाय पुरस्कार" भारत सरकारकडून प्राप्त झाला.'
-      },
-      highlights: [
-        {
-          en: 'Empowered tribal and grassroots farming communities with legal sovereignty over indigenous seeds.',
-          mr: 'आदिवासी व पारंपरिक शेतकऱ्यांना त्यांच्या पारंपरिक बियाण्यांवर कायदेशीर स्वामित्त्व मिळवून दिले.'
-        },
-        {
-          en: 'Conserved heritage cultivars of scented rice, finger millet (Ragi), and medicinal crops.',
-          mr: 'सुवासिक भात, नाचणी, वरई व दुर्मीळ औषधी वनस्पतींच्या पारंपरिक वाणांचे संवर्धन.'
-        },
-        {
-          en: 'Direct institutional support for establishing local community seed banks in tribal talukas.',
-          mr: 'आदिवासी तालुक्यांमध्ये स्थानिक शेतकरी बियाणे बँका स्थापन करण्यासाठी विद्यापीठाचे मार्गदर्शन.'
-        }
-      ],
-      icon: Sprout,
-      styles: {
-        yearBg: 'bg-gradient-to-r from-amber-600 to-yellow-600 text-white font-bold',
-        tagBg: 'bg-amber-100 text-amber-950 border-amber-300',
-        iconBg: 'bg-gradient-to-br from-amber-500 to-yellow-600 text-white shadow-xs',
-        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-amber-50/50',
-        border: 'border-amber-200/90 hover:border-amber-400',
-        titleHover: 'group-hover:text-amber-950',
-        glow: 'hover:shadow-amber-500/10'
-      }
-    },
-    {
-      id: 'aicrp_pearlmillet',
-      year: '2021',
+      id: 'vegetable_aicrp',
+      year: '2013',
       category: 'aicrp',
       title: {
-        en: 'National Commendation for Climate-Resilient Bajra & Forage Crops Breeding',
-        mr: 'अखिल भारतीय बाजरी व चारा पिके समन्वित संशोधन प्रकल्पाचे उत्कृष्ट राष्ट्रीय कार्य'
+        en: 'Late Amit Singh Memorial Award for Best AICRP Centre of Vegetables in India',
+        mr: 'अखिल भारतीय भाजीपाला समन्वित संशोधन प्रकल्पास देशातील "सर्वोत्कृष्ट केंद्र" पुरस्कार'
       },
       authority: {
-        en: 'ICAR AICRP National Review Panel',
-        mr: 'आयसीएआर राष्ट्रीय पुनरावलोकन समिती'
+        en: 'ICAR All India Coordinated Research Project (AICRP)',
+        mr: 'आयसीएआर अखिल भारतीय समन्वित प्रकल्प'
       },
-      tag: language === 'mr' ? 'राष्ट्रीय प्रशंसा' : 'National Citation',
+      tag: language === 'mr' ? 'देशात प्रथम' : 'Rank 1 in India',
       description: {
-        en: 'Recognized for releasing iron and zinc-rich biofortified pearl millet hybrids and multi-cut sweet fodder sorghum varieties.',
-        mr: 'लोह व जस्तयुक्त पोषणसमृद्ध बाजरी संकरित वाण आणि पौष्टिक चारा पिकांच्या संशोधनासाठी राष्ट्रीय प्रशंसा.'
+        en: 'Ranked 1st in India for outstanding varietal development, disease-resistant vegetables, and greenhouse cultivation technologies.',
+        mr: 'भाजीपाला पिकांचे उच्च उत्पादनक्षम व रोगप्रतिकारक वाण विकसित करण्यात संपूर्ण देशात प्रथम क्रमांकाचा मान.'
       },
       details: {
-        en: 'The ICAR National Review Panel commended MPKV’s multi-location breeding trials in pearl millet and forage sorghum. The university released pioneering biofortified hybrids rich in micronutrients like iron and zinc to combat malnutrition, alongside multi-cut high-biomass fodder crops supporting the state’s thriving dairy industry.',
-        mr: 'भा.कृ.अनु.प. च्या राष्ट्रीय परीक्षण समितीने मफुकृविच्या बाजरी व चारा पिके प्रकल्पाच्या उल्लेखनीय कार्याची प्रशंसा केली. कुपोषणावर मात करण्यासाठी लोह व जस्तयुक्त पोषणसमृद्ध बाजरी आणि दुग्ध व्यवसायाला बळ देणाऱ्या बहुवार्षिक गोड ज्वारी चारा वाणांची निर्मिती करण्यात आली.'
+        en: 'The All India Coordinated Research Project (AICRP) on Vegetable Crops at MPKV Rahuri was awarded the Late Amit Singh Memorial Award as the #1 Best Centre in India. The Rahuri vegetable scientists released iconic varieties including Phule Samarth and Phule Suvarna in Onion, Phule Pragati in Brinjal, and high-yield disease-resistant chillies.',
+        mr: 'भाजीपाला पिकांच्या अखिल भारतीय समन्वित संशोधन प्रकल्पात देशातील सर्व विद्यापीठांना मागे टाकत मफुकृवि राहुरी केंद्राने देशात प्रथम क्रमांक मिळवून कै. अमित सिंग स्मृती पुरस्कार जिंकला. कांदा (फुले समर्थ, फुले सुवर्णा), वांगी, मिरची व टोमॅटो पिकांमधील दर्जेदार वाण निर्मितीचे राष्ट्रीय स्तरावर कौतुक झाले.'
       },
       highlights: [
         {
-          en: 'Bred high-iron and high-zinc biofortified pearl millet varieties combating rural malnutrition.',
-          mr: 'ग्रामीण भागातील कुपोषणावर मात करण्यासाठी लोह व जस्तयुक्त संकरित बाजरी वाण विकसित.'
+          en: 'Adjudged Rank 1 among all vegetable research centres across Indian agricultural universities.',
+          mr: 'देशातील सर्व कृषी विद्यापीठांच्या भाजीपाला केंद्रांमध्ये प्रथम क्रमांकाचा राष्ट्रीय पुरस्कार.'
         },
         {
-          en: 'Released high-yield forage crops (Phule Jaywant, Phule Gunvant) providing round-the-year green fodder.',
-          mr: 'फुले जयवंत व फुले गुणवंत या बहुवार्षिक चारा वाणांमुळे पशुपालकांना वर्षभर हिरवा चारा उपलब्ध.'
+          en: 'Pioneered world-renowned red and white onion varieties suitable for export and dehydration.',
+          mr: 'निर्यात व डिहायड्रेशनसाठी उपयुक्त लाल व पांढऱ्या कांद्याचे जगप्रसिद्ध वाण विकसित.'
         },
         {
-          en: 'High digestibility and palatability enhancing milk productivity across Maharashtra dairy farms.',
-          mr: 'उत्कृष्ट पचनक्षमता व पौष्टिक घटकांमुळे जनावरांच्या दूध उत्पादनात भरीव वाढ.'
+          en: 'Introduced low-cost naturally ventilated polyhouses for year-round off-season vegetable farming.',
+          mr: 'हंगामबाह्य भाजीपाला उत्पादनासाठी कमी खर्चाच्या पॉलिहाउस तंत्रज्ञानाचा प्रसार.'
         }
       ],
-      icon: Award,
+      icon: Trophy,
       styles: {
-        yearBg: 'bg-gradient-to-r from-teal-600 to-emerald-700 text-white font-bold',
-        tagBg: 'bg-teal-100 text-teal-950 border-teal-300',
-        iconBg: 'bg-gradient-to-br from-teal-500 to-emerald-700 text-white shadow-xs',
-        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-teal-50/50',
-        border: 'border-teal-200/90 hover:border-teal-400',
-        titleHover: 'group-hover:text-teal-950',
-        glow: 'hover:shadow-teal-500/10'
-      }
-    },
-    {
-      id: 'nirf_2025',
-      year: '2025',
-      category: 'history',
-      title: {
-        en: 'Ranked 15th Among Agricultural Universities Across India (NIRF 2025 Milestone)',
-        mr: 'देशातील कृषी विद्यापीठांमध्ये १५ वे मानांकन (NIRF २०२५ ऐतिहासिक गौरव)'
-      },
-      authority: {
-        en: 'Ministry of Education, Govt. of India (NIRF 2025)',
-        mr: 'शिक्षण मंत्रालय, भारत सरकार (एनआयआरएफ २०२५)'
-      },
-      tag: language === 'mr' ? '२०२५ गौरव' : '2025 Milestone',
-      description: {
-        en: 'Officially ranked 15th in India in the Agricultural Category under the National Institutional Ranking Framework (NIRF) in the 2025 edition.',
-        mr: 'सन २०२५ च्या राष्ट्रीय संस्थागत मानांकन आराखड्यात (NIRF) कृषी विद्यापीठांच्या श्रेणीत देशात १५ वे स्थान प्राप्त.'
-      },
-      details: {
-        en: 'In the 2025 National Institutional Ranking Framework (NIRF) evaluated by the Ministry of Education, Govt. of India, Mahatma Phule Krishi Vidyapeeth was ranked 15th among all agricultural universities nationwide. This ranking evaluated teaching resources, graduation outcomes, research citations, patents, and agricultural extension outreach.',
-        mr: 'भारत सरकारच्या शिक्षण मंत्रालयाने जाहीर केलेल्या सन २०२५ च्या राष्ट्रीय संस्थागत मानांकन आराखड्यात (NIRF) मफुकृवि राहुरीस देशभरातील कृषी विद्यापीठांमध्ये १५ वे मानांकन मिळाले होते. अध्यापन संसाधने, संशोधन शोधनिबंध, पेटंट्स व थेट शेतकरी पोहोच या निकषांवर हे ऐतिहासिक मानांकन प्राप्त झाले.'
-      },
-      highlights: [
-        {
-          en: '15th Rank all-India among dedicated State Agricultural Universities in NIRF 2025.',
-          mr: 'एनआयआरएफ २०२५ मध्ये देशातील कृषी विद्यापीठांच्या श्रेणीत १५ वे राष्ट्रीय मानांकन.'
-        },
-        {
-          en: 'Evaluated across Teaching, Learning & Resources (TLR) and Research Professional Practice (RPC).',
-          mr: 'अध्यापन, अध्ययन, पायाभूत सुविधा व प्रगत संशोधन कार्यात उच्चांकी गुणांकन.'
-        },
-        {
-          en: 'Reflects extensive farmer outreach connecting 10 districts and over 5,000+ villages.',
-          mr: '१० जिल्हे आणि ५,००० हून अधिक गावांपर्यंत पोहोचणाऱ्या विद्यापीठीय विस्तार सेवेची दखल.'
-        }
-      ],
-      icon: Medal,
-      styles: {
-        yearBg: 'bg-gradient-to-r from-sky-600 to-indigo-700 text-white font-bold',
-        tagBg: 'bg-sky-100 text-sky-950 border-sky-300',
-        iconBg: 'bg-gradient-to-br from-sky-500 to-indigo-600 text-white shadow-xs',
-        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-sky-50/50',
-        border: 'border-sky-200/90 hover:border-sky-400',
-        titleHover: 'group-hover:text-sky-950',
-        glow: 'hover:shadow-sky-500/10'
-      }
-    },
-    {
-      id: 'state_awards',
-      year: '2023',
-      category: 'history',
-      title: {
-        en: 'Government of Maharashtra Vasantrao Naik State Awards for Farm Innovation',
-        mr: 'महाराष्ट्र शासन वसंतराव नाईक स्मृती राज्य कृषी संशोधन व विस्तार पुरस्कार'
-      },
-      authority: {
-        en: 'Govt. of Maharashtra & Vasantrao Naik Prathisthan',
-        mr: 'महाराष्ट्र शासन व वसंतराव नाईक स्मृती प्रतिष्ठान'
-      },
-      tag: language === 'mr' ? 'राज्य पुरस्कार' : 'State Honour',
-      description: {
-        en: 'Bestowed upon university scientists and extension units for transformative contribution to drought mitigation and sugarcane drip automation.',
-        mr: 'उसाचे सूक्ष्म सिंचन, डाळिंब तेलकट डाग रोग नियंत्रण व कोरडवाहू तंत्रज्ञानातील संशोधनासाठी राज्यस्तरीय गौरव.'
-      },
-      details: {
-        en: 'Instituted by the Government of Maharashtra and the Vasantrao Naik Memorial Foundation, this prestigious state honour has been awarded to MPKV scientists for path-breaking research in drought mitigation, sugarcane wide-row mechanization, and biological management of bacterial blight in pomegranate orchards.',
-        mr: 'महाराष्ट्र शासन व वसंतराव नाईक स्मृती प्रतिष्ठान द्वारे शेतीतील उल्लेखनीय संशोधन व तंत्रज्ञानासाठी मफुकृविच्या शास्त्रज्ञांना हा राज्य पुरस्कार प्रदान करण्यात आला आहे. उसाची पट्टा पद्धत, ठिबक सिंचन, डाळिंबावरील तेलकट डाग रोगाचे एकात्मिक नियंत्रण व कोरडवाहू शेती तंत्रज्ञानासाठी हा बहुमान प्राप्त झाला.'
-      },
-      highlights: [
-        {
-          en: 'State-level apex recognition instituted in memory of late Chief Minister Vasantrao Naik.',
-          mr: 'माजी मुख्यमंत्री कै. वसंतराव नाईक यांच्या स्मृतीप्रीत्यर्थ दिला जाणारा राज्यस्तरीय सर्वोच्च पुरस्कार.'
-        },
-        {
-          en: 'Celebrates breakthrough agronomic solutions mitigating agricultural drought in Western Maharashtra.',
-          mr: 'पश्चिम महाराष्ट्रातील कोरडवाहू व दुष्काळी भागातील शेतीसाठी क्रांतिकारी उपायांची दखल.'
-        },
-        {
-          en: 'Direct contribution to boosting state productivity in sugarcane, pomegranate, and pulses.',
-          mr: 'ऊस, डाळिंब व कडधान्य पिकांच्या राज्यस्तरीय उत्पादकतेत भरीव वाढ करण्यात मोठे योगदान.'
-        }
-      ],
-      icon: Flame,
-      styles: {
-        yearBg: 'bg-gradient-to-r from-emerald-600 to-amber-600 text-white font-bold',
-        tagBg: 'bg-emerald-100 text-emerald-950 border-emerald-300',
-        iconBg: 'bg-gradient-to-br from-emerald-500 to-amber-600 text-white shadow-xs',
-        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-emerald-50/50',
-        border: 'border-emerald-200/90 hover:border-emerald-400',
-        titleHover: 'group-hover:text-emerald-950',
-        glow: 'hover:shadow-emerald-500/10'
+        yearBg: 'bg-gradient-to-r from-rose-600 to-pink-700 text-white font-bold',
+        tagBg: 'bg-rose-100 text-rose-950 border-rose-300',
+        iconBg: 'bg-gradient-to-br from-rose-500 to-pink-600 text-white shadow-xs',
+        cardBg: 'bg-white hover:bg-gradient-to-br hover:from-white hover:to-rose-50/50',
+        border: 'border-rose-200/90 hover:border-rose-400',
+        titleHover: 'group-hover:text-rose-950',
+        glow: 'hover:shadow-rose-500/10'
       }
     }
   ];
+
+  const openRecognitionById = (id: string) => {
+    const found = recognitions.find((item) => item.id === id);
+    if (found) setSelectedRecognition(found);
+  };
 
   const filteredRecognitions = activeCategory === 'all'
     ? recognitions
@@ -603,7 +564,7 @@ export const AchievementsNirfSection: React.FC = () => {
               <div className="flex flex-wrap items-center gap-2.5">
                 <button
                   type="button"
-                  onClick={() => setSelectedRecognition(recognitions[0])}
+                  onClick={() => openRecognitionById('ppvfra_record')}
                   className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-xs uppercase tracking-wider shadow-sm transition-all hover:scale-105 cursor-pointer"
                 >
                   <Medal className="w-3.5 h-3.5" />
@@ -611,7 +572,7 @@ export const AchievementsNirfSection: React.FC = () => {
                 </button>
                 <button
                   type="button"
-                  onClick={() => setSelectedRecognition(recognitions[1])}
+                  onClick={() => openRecognitionById('icar_accreditation')}
                   className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-emerald-200 text-xs font-semibold transition-all cursor-pointer"
                 >
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
@@ -619,7 +580,7 @@ export const AchievementsNirfSection: React.FC = () => {
                 </button>
                 <button
                   type="button"
-                  onClick={() => setSelectedRecognition(recognitions[2])}
+                  onClick={() => openRecognitionById('seed_research')}
                   className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-emerald-200 text-xs font-semibold transition-all cursor-pointer"
                 >
                   <Sprout className="w-3.5 h-3.5 text-amber-400" />
@@ -647,7 +608,7 @@ export const AchievementsNirfSection: React.FC = () => {
                 {/* Pillar 1: ICAR Accreditation */}
                 <button
                   type="button"
-                  onClick={() => setSelectedRecognition(recognitions[1])}
+                  onClick={() => openRecognitionById('icar_accreditation')}
                   className="w-full text-left p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 flex items-start gap-3 hover:bg-white/20 transition-all group/p1 cursor-pointer"
                 >
                   <div className="p-2 rounded-xl bg-emerald-400/20 text-emerald-300 border border-emerald-400/30 group-hover/p1:scale-105 transition-transform shrink-0">
@@ -666,7 +627,7 @@ export const AchievementsNirfSection: React.FC = () => {
                 {/* Pillar 2: PPVFRA National Record */}
                 <button
                   type="button"
-                  onClick={() => setSelectedRecognition(recognitions[0])}
+                  onClick={() => openRecognitionById('ppvfra_record')}
                   className="w-full text-left p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 flex items-start gap-3 hover:bg-white/20 transition-all group/p2 cursor-pointer"
                 >
                   <div className="p-2 rounded-xl bg-amber-400/20 text-amber-300 border border-amber-400/30 group-hover/p2:scale-105 transition-transform shrink-0">
@@ -685,7 +646,7 @@ export const AchievementsNirfSection: React.FC = () => {
                 {/* Pillar 3: Dual Centre of Excellence */}
                 <button
                   type="button"
-                  onClick={() => setSelectedRecognition(recognitions[3])}
+                  onClick={() => openRecognitionById('water_management')}
                   className="w-full text-left p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 flex items-start gap-3 hover:bg-white/20 transition-all group/p3 cursor-pointer"
                 >
                   <div className="p-2 rounded-xl bg-cyan-400/20 text-cyan-300 border border-cyan-400/30 group-hover/p3:scale-105 transition-transform shrink-0">
@@ -704,7 +665,7 @@ export const AchievementsNirfSection: React.FC = () => {
                 {/* Pillar 4: AICRP Excellence */}
                 <button
                   type="button"
-                  onClick={() => setSelectedRecognition(recognitions[4])}
+                  onClick={() => openRecognitionById('vegetable_aicrp')}
                   className="w-full text-left p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 flex items-start gap-3 hover:bg-white/20 transition-all group/p4 cursor-pointer"
                 >
                   <div className="p-2 rounded-xl bg-rose-400/20 text-rose-300 border border-rose-400/30 group-hover/p4:scale-105 transition-transform shrink-0">
@@ -759,7 +720,7 @@ export const AchievementsNirfSection: React.FC = () => {
                 { id: 'icar' as const, label: { en: 'ICAR Standing', mr: 'आयसीएआर' } },
                 { id: 'ppvfra' as const, label: { en: 'PPV & FRA', mr: 'पीपीव्ही-एफआरए' } },
                 { id: 'aicrp' as const, label: { en: 'AICRP Research', mr: 'संशोधन पुरस्कार' } },
-                { id: 'history' as const, label: { en: 'Milestones (inc. NIRF 2025)', mr: 'ऐतिहासिक (NIRF २०२५ सह)' } },
+                { id: 'history' as const, label: { en: 'State Honours', mr: 'राज्य सन्मान' } },
               ].map(tab => (
                 <button
                   key={tab.id}
@@ -775,56 +736,87 @@ export const AchievementsNirfSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Grid of Distinct Recognition Cards - Click opens popup modal */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-            {filteredRecognitions.map((item) => {
+          {/* Compact Horizontal 3-Column Connected Flow Chart (Latest → 2013) */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-4">
+            {filteredRecognitions.map((item, idx) => {
               const Icon = item.icon;
+              const stepLabel = String(idx + 1).padStart(2, '0');
+              const hasNextInRow = idx < filteredRecognitions.length - 1 && (idx % 3 !== 2);
+              const hasNextRowWrap = idx < filteredRecognitions.length - 1 && (idx % 3 === 2);
+
               return (
-                <button
-                  key={item.id}
-                  type="button"
-                  onClick={() => setSelectedRecognition(item)}
-                  className={`w-full text-left p-4 rounded-2xl ${item.styles.cardBg} border ${item.styles.border} shadow-2xs hover:shadow-md ${item.styles.glow} transition-all duration-300 flex flex-col justify-between group cursor-pointer`}
-                >
-                  <div className="space-y-3 w-full">
-                    {/* Top Year & Tag */}
-                    <div className="flex items-center justify-between gap-2">
-                      <span className={`px-2.5 py-1 rounded-xl text-xs font-black shadow-2xs ${item.styles.yearBg}`}>
-                        {item.year}
-                      </span>
-                      <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md border ${item.styles.tagBg}`}>
-                        {item.tag}
-                      </span>
-                    </div>
-
-                    {/* Icon + Title */}
-                    <div className="flex items-start gap-2.5">
-                      <div className={`p-2 rounded-xl flex-shrink-0 group-hover:scale-110 transition-transform duration-300 ${item.styles.iconBg}`}>
-                        <Icon className="w-4 h-4" />
+                <div key={item.id} className="relative flex flex-col">
+                  {/* Horizontal Flow Arrow to Next Node in Row (Desktop 3-col) */}
+                  {hasNextInRow && (
+                    <div
+                      aria-hidden="true"
+                      className="hidden lg:flex items-center justify-center absolute top-1/2 -translate-y-1/2 -right-7 w-7 z-20 pointer-events-none"
+                    >
+                      <div className="w-2.5 h-0.5 bg-emerald-400" />
+                      <div className="w-5 h-5 rounded-full bg-white border border-emerald-300 shadow-2xs flex items-center justify-center text-emerald-700 shrink-0">
+                        <ChevronRight className="w-3 h-3" />
                       </div>
-                      <h4 className={`text-xs sm:text-[13px] font-bold text-slate-900 transition-colors leading-snug line-clamp-3 ${item.styles.titleHover}`}>
-                        {getBilingual(item.title)}
-                      </h4>
+                    </div>
+                  )}
+
+                  {/* Row-End Downward Flow Step Connector */}
+                  {hasNextRowWrap && (
+                    <div
+                      aria-hidden="true"
+                      className="hidden lg:flex flex-col items-center absolute -bottom-4 left-1/2 -translate-x-1/2 z-20 pointer-events-none"
+                    >
+                      <div className="w-4 h-4 rounded-full bg-white border border-amber-300 shadow-2xs flex items-center justify-center text-amber-700">
+                        <ChevronDown className="w-2.5 h-2.5" />
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Compact Flowchart Node Card */}
+                  <button
+                    type="button"
+                    onClick={() => setSelectedRecognition(item)}
+                    className={`w-full h-full text-left p-3.5 rounded-2xl ${item.styles.cardBg} border ${item.styles.border} shadow-2xs hover:shadow-md ${item.styles.glow} transition-all duration-200 flex flex-col justify-between gap-2.5 group cursor-pointer`}
+                  >
+                    <div className="space-y-2 w-full">
+                      {/* Node Header: Step + Year + Badge */}
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-[10px] font-mono font-bold text-stone-400 bg-stone-100 px-1.5 py-0.5 rounded">
+                            {stepLabel}
+                          </span>
+                          <span className={`px-2 py-0.5 rounded-lg text-[11px] font-black shadow-2xs ${item.styles.yearBg}`}>
+                            {item.year}
+                          </span>
+                        </div>
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-md border ${item.styles.tagBg}`}>
+                          {item.tag}
+                        </span>
+                      </div>
+
+                      {/* Node Icon + Title */}
+                      <div className="flex items-start gap-2.5">
+                        <div className={`p-1.5 rounded-lg flex-shrink-0 group-hover:scale-105 transition-transform ${item.styles.iconBg}`}>
+                          <Icon className="w-3.5 h-3.5" />
+                        </div>
+                        <h4 className={`text-xs sm:text-[13px] font-bold text-slate-900 transition-colors leading-snug line-clamp-2 ${item.styles.titleHover}`}>
+                          {getBilingual(item.title)}
+                        </h4>
+                      </div>
                     </div>
 
-                    {/* Brief Descriptive Context */}
-                    <p className="text-[11px] text-stone-600 leading-relaxed line-clamp-3">
-                      {getBilingual(item.description)}
-                    </p>
-                  </div>
-
-                  {/* Authority & Detail Footer (No external redirect arrow, clear in-place popup indicator) */}
-                  <div className="mt-3.5 pt-2.5 border-t border-stone-200/70 flex items-center justify-between text-[11px] text-slate-500 w-full gap-2">
-                    <span className="font-medium line-clamp-1 text-slate-600 group-hover:text-slate-800 transition-colors flex items-center gap-1.5 min-w-0">
-                      <Building className="w-3 h-3 text-stone-400 shrink-0" />
-                      <span className="truncate">{getBilingual(item.authority)}</span>
-                    </span>
-                    <span className="text-[10px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 shrink-0 flex items-center gap-1 group-hover:bg-emerald-100 transition-colors">
-                      <Sparkles className="w-2.5 h-2.5 text-emerald-600" />
-                      <span>{language === 'mr' ? 'तपशील' : 'Details'}</span>
-                    </span>
-                  </div>
-                </button>
+                    {/* Compact Footer: Authority + Popup Trigger */}
+                    <div className="pt-2 border-t border-stone-200/70 flex items-center justify-between text-[11px] text-slate-500 w-full gap-2">
+                      <span className="font-medium text-slate-600 flex items-center gap-1 min-w-0">
+                        <Building className="w-3 h-3 text-stone-400 shrink-0" />
+                        <span className="truncate">{getBilingual(item.authority)}</span>
+                      </span>
+                      <span className="text-[10px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200 shrink-0 flex items-center gap-1 group-hover:bg-emerald-100 transition-colors">
+                        <Sparkles className="w-2.5 h-2.5 text-emerald-600" />
+                        <span>{language === 'mr' ? 'तपशील' : 'Details'}</span>
+                      </span>
+                    </div>
+                  </button>
+                </div>
               );
             })}
           </div>

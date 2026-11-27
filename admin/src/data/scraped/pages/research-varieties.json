@@ -5,14 +5,43 @@
   "sourcePage": "research-varieties",
   "scrapedAt": "2026-11-22T20:36:17.155010",
   "title": {
-    "en": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Crop Varieties Released",
+    "mr": "विकसित पीक वाण"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/research/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Technology & Releases",
+        "mr": "प्रगत तंत्रज्ञान व वाण"
+      },
+      "href": "/research/varieties"
+    },
+    {
+      "title": {
+        "en": "Crop Varieties Released",
+        "mr": "विकसित पीक वाण"
+      },
+      "href": "/research/varieties"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Technology Varieties",
+      "mr": "Research Technology Varieties"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Technology Varieties - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -614,8 +643,8 @@
           },
           {
             "text": {
-              "en": "ज्वारी / Sorghum",
-              "mr": "ज्वारी / Sorghum"
+              "en": "Sorghum",
+              "mr": "ज्वारी"
             },
             "fileLink": "",
             "originalLink": ""
@@ -648,8 +677,8 @@
           },
           {
             "text": {
-              "en": "गहु / Wheat",
-              "mr": "गहु / Wheat"
+              "en": "Wheat",
+              "mr": "गहु"
             },
             "fileLink": "",
             "originalLink": ""
@@ -682,8 +711,8 @@
           },
           {
             "text": {
-              "en": "मका / Maize",
-              "mr": "मका / Maize"
+              "en": "Maize",
+              "mr": "मका"
             },
             "fileLink": "",
             "originalLink": ""
@@ -716,8 +745,8 @@
           },
           {
             "text": {
-              "en": "ईतर पोषक भरड धान्य  / Nutri Cereals",
-              "mr": "ईतर पोषक भरड धान्य  / Nutri Cereals"
+              "en": "Nutri Cereals",
+              "mr": "ईतर पोषक भरड धान्य"
             },
             "fileLink": "",
             "originalLink": ""
@@ -750,8 +779,8 @@
           },
           {
             "text": {
-              "en": "कडधान्ये / Pulses",
-              "mr": "कडधान्ये / Pulses"
+              "en": "Pulses",
+              "mr": "कडधान्ये"
             },
             "fileLink": "",
             "originalLink": ""
@@ -784,8 +813,8 @@
           },
           {
             "text": {
-              "en": "गळीतधान्ये / Oilseeds",
-              "mr": "गळीतधान्ये / Oilseeds"
+              "en": "Oilseeds",
+              "mr": "गळीतधान्ये"
             },
             "fileLink": "",
             "originalLink": ""
@@ -818,8 +847,8 @@
           },
           {
             "text": {
-              "en": "ऊस / Sugarcane",
-              "mr": "ऊस / Sugarcane"
+              "en": "Sugarcane",
+              "mr": "ऊस"
             },
             "fileLink": "",
             "originalLink": ""
@@ -852,8 +881,8 @@
           },
           {
             "text": {
-              "en": "कापूस / Cotton",
-              "mr": "कापूस / Cotton"
+              "en": "Cotton",
+              "mr": "कापूस"
             },
             "fileLink": "",
             "originalLink": ""
@@ -886,8 +915,8 @@
           },
           {
             "text": {
-              "en": "चारापिके / Fodder",
-              "mr": "चारापिके / Fodder"
+              "en": "Fodder",
+              "mr": "चारापिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -920,8 +949,8 @@
           },
           {
             "text": {
-              "en": "भाजीपाला पिके / Vegetable",
-              "mr": "भाजीपाला पिके / Vegetable"
+              "en": "Vegetable",
+              "mr": "भाजीपाला पिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -954,8 +983,8 @@
           },
           {
             "text": {
-              "en": "हळद व पानवेल / Turmeric &amp; Beetlevine",
-              "mr": "हळद व पानवेल / Turmeric &amp; Beetlevine"
+              "en": "Turmeric & Betelvine",
+              "mr": "हळद व पानवेल"
             },
             "fileLink": "",
             "originalLink": ""
@@ -988,8 +1017,8 @@
           },
           {
             "text": {
-              "en": "फुल पिके / Flower",
-              "mr": "फुल पिके / Flower"
+              "en": "Flower",
+              "mr": "फुल पिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1022,8 +1051,8 @@
           },
           {
             "text": {
-              "en": "फळ पिके / Fruit",
-              "mr": "फळ पिके / Fruit"
+              "en": "Fruit",
+              "mr": "फळ पिके"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1056,8 +1085,8 @@
           },
           {
             "text": {
-              "en": "बाजरी, भात  / Pearlmillet, Rice",
-              "mr": "बाजरी, भात  / Pearlmillet, Rice"
+              "en": "Pearlmillet, Rice",
+              "mr": "बाजरी, भात"
             },
             "fileLink": "",
             "originalLink": ""
@@ -1411,7 +1440,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1964,5 +1993,17 @@
     "noticeCount": 0,
     "mediaCount": 42,
     "totalRecords": 111
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Technology & Releases",
+    "mr": "प्रगत तंत्रज्ञान व वाण"
   }
 }

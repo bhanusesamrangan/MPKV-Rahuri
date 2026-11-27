@@ -39,10 +39,18 @@ export const printElement = (elementId: string, pageTitle: string = 'Mahatma Phu
     year: 'numeric'
   });
 
+  const isMr = typeof document !== 'undefined' ? document.documentElement.lang !== 'en' : true;
+  const headerTitle = isMr ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी' : 'Mahatma Phule Krishi Vidyapeeth, Rahuri';
+  const officialTag = isMr ? 'अधिकृत विद्यापीठ पोर्टल माहिती' : 'Official University Portal Document';
+  const printedLabel = isMr ? 'मुद्रित दिनांक' : 'Printed on';
+  const footerAddr = isMr
+    ? 'महात्मा फुले कृषि विद्यापीठ, राहुरी - ४१३७२२ जि. अहिल्यानगर (महाराष्ट्र)'
+    : 'Mahatma Phule Krishi Vidyapeeth, Rahuri - 413722 Dist. Ahilyanagar (MS)';
+
   doc.open();
   doc.write(`
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="${isMr ? 'mr' : 'en'}">
       <head>
         <meta charset="utf-8" />
         <title>${pageTitle}</title>
@@ -154,19 +162,19 @@ export const printElement = (elementId: string, pageTitle: string = 'Mahatma Phu
       <body>
         <div class="print-doc-header">
           <div>
-            <h1>महात्मा फुले कृषि विद्यापीठ, राहुरी</h1>
+            <h1>${headerTitle}</h1>
             <p>${pageTitle}</p>
           </div>
           <div class="meta-right">
-            <span style="font-weight: 600; color: #047857;">अधिकृत विद्यापीठ पोर्टल माहिती</span><br />
-            <span>Printed on: ${currentDate}</span>
+            <span style="font-weight: 600; color: #047857;">${officialTag}</span><br />
+            <span>${printedLabel}: ${currentDate}</span>
           </div>
         </div>
         <main>
           ${targetElement.innerHTML}
         </main>
         <div class="print-doc-footer">
-          <span>Mahatma Phule Krishi Vidyapeeth, Rahuri - 413722 Dist. Ahilyanagar (MS)</span>
+          <span>${footerAddr}</span>
           <span>https://mpkv.ac.in</span>
         </div>
       </body>

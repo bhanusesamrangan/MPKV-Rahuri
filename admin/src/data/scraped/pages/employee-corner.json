@@ -197,7 +197,7 @@
       "category": "pension",
       "formNumber": "Life Certificate",
       "title": {
-        "en": "Annual Life Certificate (हयातीचा दाखला) for University Pensioners & Family Pensioners",
+        "en": "Annual Life Certificate for University Pensioners & Family Pensioners",
         "mr": "विद्यापीठ निवृत्तीवेतनधारक व कुटुंब निवृत्तीवेतनधारकांसाठी वार्षिक हयातीचा दाखला"
       },
       "description": {
@@ -251,7 +251,7 @@
       "category": "service_appraisal",
       "formNumber": "Service Dossier",
       "title": {
-        "en": "Employee Service Record & Service Book Dossier Proforma (कर्मचारी सेवा तपशील)",
+        "en": "Employee Service Record & Service Book Dossier Proforma",
         "mr": "कर्मचारी सेवा तपशील व सेवापुस्तक पडताळणी विहित विवरण पत्र"
       },
       "description": {
@@ -269,7 +269,7 @@
       "category": "service_appraisal",
       "formNumber": "APAR Form",
       "title": {
-        "en": "Annual Performance Appraisal Report (APAR / गोपनीय अहवाल) Guidelines & Proforma",
+        "en": "Annual Performance Appraisal Report (APAR) Guidelines & Proforma",
         "mr": "वार्षिक कार्यप्रदर्शन मूल्यमापन अहवाल (गोपनीय अहवाल - APAR) मार्गदर्शन व विहित नमुना"
       },
       "description": {
@@ -288,7 +288,7 @@
       "formNumber": "IT Form",
       "title": {
         "en": "Annual Income Tax Declaration & Savings Investment Proof Submission Format",
-        "mr": "प्राप्तिकर विवरण पत्र (Income Tax Declaration) व गुंतवणूक वजावट पुरावे सादर करण्याचा नमुना"
+        "mr": "प्राप्तिकर विवरण पत्र व गुंतवणूक वजावट पुरावे सादर करण्याचा नमुना"
       },
       "description": {
         "en": "Mandatory annual submission proforma under Income Tax Act Section 192 (Old vs New Tax Regime election, 80C, 80D, HRA deductions) for TDS computation from monthly salary rolls.",
@@ -323,7 +323,7 @@
       "category": "rules",
       "formNumber": "Waitlist Proforma",
       "title": {
-        "en": "Compassionate Appointment Waitlist & Guidelines (अनुकंपा प्रतीक्षा यादी व नियम)",
+        "en": "Compassionate Appointment Waitlist & Guidelines",
         "mr": "अनुकंपा तत्वावर नोकरी मागणाऱ्या उमेदवारांची अधिकृत प्रतीक्षा यादी व शासन मार्गदर्शक नियम"
       },
       "description": {

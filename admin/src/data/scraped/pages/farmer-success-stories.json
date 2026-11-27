@@ -1,0 +1,276 @@
+{
+  "slug": "farmer-success-stories",
+  "url": "https://mpkv.ac.in/Farmer/SuccessStories",
+  "route": "/farmer/success-stories",
+  "sourcePage": "Farmer/SuccessStories",
+  "scrapedAt": "2026-11-27T05:39:39.775116+00:00",
+  "title": {
+    "en": "Success Stories",
+    "mr": "प्रगतीशील शेतकरी यशोगाथा"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Farmer Services",
+        "mr": "शेतकरी सेवा"
+      },
+      "href": "/seeds-availability"
+    },
+    {
+      "title": {
+        "en": "Sammelan & Success Stories",
+        "mr": "संमेलन व यशोगाथा"
+      },
+      "href": "/farmer/success-stories"
+    },
+    {
+      "title": {
+        "en": "Success Stories",
+        "mr": "प्रगतीशील शेतकरी यशोगाथा"
+      },
+      "href": "/farmer/success-stories"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Farmer Success Stories & Field Innovations",
+      "mr": "प्रगतीशील शेतकरी यशोगाथा व प्रयोग"
+    },
+    "subtitle": {
+      "en": "Inspiring achievements and technological adoptions by progressive farmers across Western Maharashtra using MPKV Rahuri varieties and agricultural packages.",
+      "mr": "महात्मा फुले कृषि विद्यापीठाचे वाण, तंत्रज्ञान व शिफारसींचा वापर करून पश्चिम महाराष्ट्रात समृद्धी साधणाऱ्या प्रगतीशील शेतकऱ्यांच्या यशोगाथा."
+    },
+    "badge": {
+      "en": "Inspiring Agricultural Achievements",
+      "mr": "प्रेरणादायी शेती यशोगाथा"
+    }
+  },
+  "headings": [
+    {
+      "level": "h2",
+      "text": {
+        "en": "Featured Farmer Success Highlights",
+        "mr": "निवडक शेतकरी यशोगाथा व उत्पादन नोंदी"
+      },
+      "order": 1
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": {
+        "en": "Across the 10 districts under MPKV Rahuri, thousands of progressive farmers have adopted university-recommended micro-irrigation systems, bio-fertilizers, Phule crop varieties, and mechanized farm implements, resulting in record yields and substantial income enhancement.",
+        "mr": "विद्यापीठाच्या कार्यक्षेत्रातील १० जिल्ह्यांमध्ये शेतकऱ्यांनी विद्यापीठ विकसित पीक वाण, सूक्ष्म सिंचन, सेंद्रिय निविष्ठा व आधुनिक अवजारांचा अवलंब करून शेतीमध्ये उल्लेखनीय उत्पादन व नफा मिळवला आहे."
+      },
+      "order": 1
+    }
+  ],
+  "lists": [],
+  "tables": [
+    {
+      "title": {
+        "en": "Outstanding Farmer Case Studies",
+        "mr": "उल्लेखनीय शेतकरी यशोगाथा तपशील"
+      },
+      "headers": [
+        {
+          "en": "Sr. No.",
+          "mr": "अ.क्र."
+        },
+        {
+          "en": "Farmer Name & Location",
+          "mr": "शेतकऱ्याचे नाव व गाव/जिल्हा"
+        },
+        {
+          "en": "Crop & Variety Adopted",
+          "mr": "पीक व वापरलेला वाण"
+        },
+        {
+          "en": "Key Innovation / Technology",
+          "mr": "वापरलेले तंत्रज्ञान / पद्धती"
+        },
+        {
+          "en": "Yield & Economic Impact",
+          "mr": "उत्पादन व आर्थिक परिणाम"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": {
+              "en": "1",
+              "mr": "१"
+            }
+          },
+          {
+            "text": {
+              "en": "Shri. Dnyaneshwar Patil (Dist. Jalgaon)",
+              "mr": "श्री. ज्ञानेश्वर पाटील (जि. जळगाव)"
+            }
+          },
+          {
+            "text": {
+              "en": "Banana — Phule Grand Naine",
+              "mr": "केळी — फुले ग्रँड नैन"
+            }
+          },
+          {
+            "text": {
+              "en": "High density planting with automated drip fertigation",
+              "mr": "अतिसघन लागवड व ठिबकद्वारे विद्राव्य खत व्यवस्थापन"
+            }
+          },
+          {
+            "text": {
+              "en": "38 tonnes/acre, Net profit Rs. 4.2 Lakh/acre",
+              "mr": "३८ टन/एकर, रु. ४.२ लाख निव्वळ नफा"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "2",
+              "mr": "२"
+            }
+          },
+          {
+            "text": {
+              "en": "Smt. Sunita Shinde (Dist. Ahilyanagar)",
+              "mr": "श्रीमती सुनिता शिंदे (जि. अहिल्यानगर)"
+            }
+          },
+          {
+            "text": {
+              "en": "Pomegranate — Phule Bhagwa",
+              "mr": "डाळिंब — फुले भगवा"
+            }
+          },
+          {
+            "text": {
+              "en": "Integrated Pest Management (IPM) & Bio-agents",
+              "mr": "एकात्मिक कीड व्यवस्थापन व जैविक बुरशीनाशक वापर"
+            }
+          },
+          {
+            "text": {
+              "en": "Export quality yield of 12 tonnes/acre",
+              "mr": "१२ टन/एकर दर्जेदार निर्यातक्षम डाळिंब उत्पादन"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "3",
+              "mr": "३"
+            }
+          },
+          {
+            "text": {
+              "en": "Shri. Ramesh Gaikwad (Dist. Pune)",
+              "mr": "श्री. रमेश गायकवाड (जि. पुणे)"
+            }
+          },
+          {
+            "text": {
+              "en": "Chickpea — Phule Vikram",
+              "mr": "हरभरा — फुले विक्रम"
+            }
+          },
+          {
+            "text": {
+              "en": "Broad Bed Furrow (BBF) with seed treatment & Bio-inputs",
+              "mr": "रुंद वरंबा सरी (BBF) पद्धत व ट्रायकोडर्मा बीजप्रक्रिया"
+            }
+          },
+          {
+            "text": {
+              "en": "16 quintals/acre under protective irrigation",
+              "mr": "१६ क्विंटल/एकर विक्रमी उत्पादन"
+            }
+          }
+        ],
+        [
+          {
+            "text": {
+              "en": "4",
+              "mr": "४"
+            }
+          },
+          {
+            "text": {
+              "en": "Shri. Balasaheb More (Dist. Solapur)",
+              "mr": "श्री. बाळासाहेब मोरे (जि. सोलापूर)"
+            }
+          },
+          {
+            "text": {
+              "en": "Rabi Sorghum — Phule Suchitra",
+              "mr": "रब्बी ज्वारी — फुले सुचित्रा"
+            }
+          },
+          {
+            "text": {
+              "en": "In-situ moisture conservation with compartmental bunding",
+              "mr": "compartmental bunding द्वारे मूलस्थानी ओलावा संवर्धन"
+            }
+          },
+          {
+            "text": {
+              "en": "14 quintals/acre grain yield in drought zone",
+              "mr": "अवर्षणग्रस्त भागात १४ क्विंटल/एकर धान्य उत्पादन"
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "cards": [],
+  "notices": [],
+  "tenders": [],
+  "circulars": [],
+  "mediaAssets": [],
+  "contentBlocks": [],
+  "stats": [],
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "submenuGroup": {
+    "en": "Sammelan & Success Stories",
+    "mr": "संमेलन व यशोगाथा"
+  },
+  "officialDocuments": [
+    {
+      "srNo": 1,
+      "year": "2021",
+      "title": {
+        "mr": "श्री. साहेबराव चिकणे — राज्यस्तरीय पिक स्पर्धा प्रथम क्रमांक (रब्बी ज्वारी)",
+        "en": "Shri. Sahebrao Chikne — State Level Crop Competition 1st Rank (Rabi Sorghum)"
+      },
+      "href": "/media/docs/farmer/sahebrao_chikne_rabi_jowar_2021.pdf",
+      "sourceLabel": "Farmer/SuccessStory"
+    },
+    {
+      "srNo": 2,
+      "year": "Featured",
+      "title": {
+        "mr": "श्री. मारुती गिते — प्रगतीशील शेतकरी यशोगाथा",
+        "en": "Shri. Maruti Gite — Progressive Farmer Success Story (Official PDF)"
+      },
+      "href": "/media/docs/farmer/maruti_gite_success_story.pdf",
+      "sourceLabel": "Farmer Menu — Success Stories"
+    }
+  ]
+}

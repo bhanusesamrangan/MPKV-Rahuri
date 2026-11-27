@@ -5,8 +5,8 @@
   "sourcePage": "privacy-policy",
   "scrapedAt": "2026-11-22T20:35:44.207714",
   "title": {
-    "en": "Privacy Policy",
-    "mr": "गोपनीयता धोरण"
+    "en": "Website Policies & Terms",
+    "mr": "वेबसाइट वापर नियमावली व धोरण"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/privacy-policy"
+    },
+    {
+      "title": {
+        "en": "Policies",
+        "mr": "धोरणे"
+      },
+      "href": "/privacy-policy"
+    },
+    {
+      "title": {
+        "en": "Website Policies & Terms",
+        "mr": "वेबसाइट वापर नियमावली व धोरण"
+      },
+      "href": "/privacy-policy"
     }
   ],
   "hero": {
@@ -92,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -657,7 +678,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1118,5 +1139,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 72
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "Policies",
+    "mr": "धोरणे"
   }
 }

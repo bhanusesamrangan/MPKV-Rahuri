@@ -5,8 +5,8 @@
   "sourcePage": "agricultural-universities",
   "scrapedAt": "2026-11-22T20:35:39.168832",
   "title": {
-    "en": "Internal Quality Assurance Cell",
-    "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+    "en": "Agricultural Universities in Maharashtra",
+    "mr": "महाराष्ट्रातील चारही कृषि विद्यापीठे"
   },
   "breadcrumb": [
     {
@@ -15,6 +15,27 @@
         "mr": "मुख्यपृष्ठ"
       },
       "href": "/"
+    },
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/agricultural-universities"
+    },
+    {
+      "title": {
+        "en": "About University",
+        "mr": "विद्यापीठ परिचय"
+      },
+      "href": "/agricultural-universities"
+    },
+    {
+      "title": {
+        "en": "Agricultural Universities in Maharashtra",
+        "mr": "महाराष्ट्रातील चारही कृषि विद्यापीठे"
+      },
+      "href": "/agricultural-universities"
     }
   ],
   "hero": {
@@ -92,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -2838,7 +2859,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -3275,5 +3296,17 @@
     "noticeCount": 0,
     "mediaCount": 14,
     "totalRecords": 133
+  },
+  "menuId": "menu_home",
+  "parentMenu": {
+    "id": "menu_home",
+    "title": {
+      "en": "Home",
+      "mr": "मुख्यपृष्ठ"
+    }
+  },
+  "submenuGroup": {
+    "en": "About University",
+    "mr": "विद्यापीठ परिचय"
   }
 }

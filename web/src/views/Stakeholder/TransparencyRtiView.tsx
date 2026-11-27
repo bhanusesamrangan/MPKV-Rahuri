@@ -457,7 +457,7 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-bold transition-all shadow-sm"
               >
-                <span>{language === 'mr' ? 'आपले सरकार (MahaOnline)' : 'Aaple Sarkar Portal'}</span>
+                <span>{language === 'mr' ? 'आपले सरकार पोर्टल' : 'Aaple Sarkar Portal'}</span>
                 <ExternalLink className="w-3 h-3" />
               </a>
 
@@ -736,12 +736,12 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
                           onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                           className="w-full px-3.5 py-2.5 rounded-xl bg-stone-50 border border-stone-200 text-xs text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:border-blue-800 transition-all"
                         >
-                          <option value="academic">{language === 'mr' ? 'शैक्षणिक व प्रवेश (Academic)' : 'Academic & Admission'}</option>
-                          <option value="examination">{language === 'mr' ? 'परीक्षा व पदवी (Examination)' : 'Examination & Degrees'}</option>
-                          <option value="hostel">{language === 'mr' ? 'वसतिगृह व सुविधा (Hostel & Facilities)' : 'Hostel & Student Facilities'}</option>
-                          <option value="farm_services">{language === 'mr' ? 'शेतकरी सेवा व बियाणे (Farmer Services)' : 'Farmer & Seed Services'}</option>
-                          <option value="administration">{language === 'mr' ? 'प्रशासकीय व आस्थापना (Administrative)' : 'General Administrative'}</option>
-                          <option value="other">{language === 'mr' ? 'इतर (Other Inquiries)' : 'Other Inquiries'}</option>
+                          <option value="academic">{language === 'mr' ? 'शैक्षणिक व प्रवेश' : 'Academic & Admission'}</option>
+                          <option value="examination">{language === 'mr' ? 'परीक्षा व पदवी' : 'Examination & Degrees'}</option>
+                          <option value="hostel">{language === 'mr' ? 'वसतिगृह व सुविधा' : 'Hostel & Student Facilities'}</option>
+                          <option value="farm_services">{language === 'mr' ? 'शेतकरी सेवा व बियाणे' : 'Farmer & Seed Services'}</option>
+                          <option value="administration">{language === 'mr' ? 'प्रशासकीय व आस्थापना' : 'General Administrative'}</option>
+                          <option value="other">{language === 'mr' ? 'इतर' : 'Other Inquiries'}</option>
                         </select>
                       </div>
                     </div>
@@ -1179,7 +1179,7 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
               </div>
               <p className="text-xs sm:text-sm text-stone-600 leading-relaxed font-normal">
                 {language === 'mr'
-                  ? 'ऑफलाइन अर्जासोबत १० रुपयांचा कोर्ट फी स्टॅम्प किंवा "The Comptroller, MPKV Rahuri" यांच्या नावे धनाकर्ष (Demand Draft) जोडावा. माहितीचा अधिकार नियम २००५ अन्वये A4/A3 आकाराच्या छायांकित प्रतींसाठी २ रुपये प्रति पृष्ठ दर विहित आहे. अभिलेख निरीक्षणासाठी प्रथम तासासाठी कोणतेही शुल्क नाही; त्यानंतर प्रत्येक तासासाठी ५ रुपये शुल्क आकारले जाते.'
+                  ? 'ऑफलाइन अर्जासोबत १० रुपयांचा कोर्ट फी स्टॅम्प किंवा कुलसचिव/नियंत्रक, मफुकृवि राहुरी यांच्या नावे धनाकर्ष जोडावा. माहितीचा अधिकार नियम २००५ अन्वये A4/A3 आकाराच्या छायांकित प्रतींसाठी २ रुपये प्रति पृष्ठ दर विहित आहे. अभिलेख निरीक्षणासाठी प्रथम तासासाठी कोणतेही शुल्क नाही; त्यानंतर प्रत्येक तासासाठी ५ रुपये शुल्क आकारले जाते.'
                   : 'Physical applications must accompany a ₹10 Court Fee Stamp or Demand Draft drawn in favor of "The Comptroller, MPKV Rahuri". Under RTI Rules 2005, photocopy charges are ₹2 per A4/A3 page. First hour of record inspection is free; ₹5 is charged for each subsequent hour.'}
               </p>
             </div>

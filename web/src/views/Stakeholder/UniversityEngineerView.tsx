@@ -470,12 +470,12 @@ export const UniversityEngineerView: React.FC<UniversityEngineerViewProps> = ({ 
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-900 flex items-center justify-center text-xs font-bold shrink-0">1</span>
                     <h4 className="text-sm font-bold text-slate-900 font-serif">
-                      {language === 'mr' ? 'तांत्रिक मान्यता व अंदाजपत्रके (Technical Sanctions)' : 'Technical Sanctions & Estimates'}
+                      {language === 'mr' ? 'तांत्रिक मान्यता व अंदाजपत्रके' : 'Technical Sanctions & Estimates'}
                     </h4>
                   </div>
                   <p className="text-xs text-stone-600 leading-relaxed font-medium pl-8">
                     {language === 'mr'
-                      ? 'विद्यापीठाच्या सर्व नवीन इमारती, वसतिगृहे, प्रयोगशाळा व सिंचन प्रकल्पांचे सविस्तर अंदाजपत्रक (Detailed Estimates) तयार करणे व विहित मर्यादेत तांत्रिक मान्यता देणे.'
+                      ? 'विद्यापीठाच्या सर्व नवीन इमारती, वसतिगृहे, प्रयोगशाळा व सिंचन प्रकल्पांचे सविस्तर अंदाजपत्रक तयार करणे व विहित मर्यादेत तांत्रिक मान्यता देणे.'
                       : 'Preparation of detailed architectural plans, structural designs, and cost estimates for all capital works conforming to state PWD specifications and awarding technical sanctions.'}
                   </p>
                 </div>
@@ -484,7 +484,7 @@ export const UniversityEngineerView: React.FC<UniversityEngineerViewProps> = ({ 
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-900 flex items-center justify-center text-xs font-bold shrink-0">2</span>
                     <h4 className="text-sm font-bold text-slate-900 font-serif">
-                      {language === 'mr' ? 'ई-निविदा व करार व्यवस्थापन (E-Tenders)' : 'E-Tendering & Contract Administration'}
+                      {language === 'mr' ? 'ई-निविदा व करार व्यवस्थापन' : 'E-Tendering & Contract Administration'}
                     </h4>
                   </div>
                   <p className="text-xs text-stone-600 leading-relaxed font-medium pl-8">
@@ -498,7 +498,7 @@ export const UniversityEngineerView: React.FC<UniversityEngineerViewProps> = ({ 
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-900 flex items-center justify-center text-xs font-bold shrink-0">3</span>
                     <h4 className="text-sm font-bold text-slate-900 font-serif">
-                      {language === 'mr' ? 'कॅम्पस संपदा व देखभाल (Estate Custody)' : 'Campus Estate Custody & Maintenance'}
+                      {language === 'mr' ? 'कॅम्पस संपदा व देखभाल' : 'Campus Estate Custody & Maintenance'}
                     </h4>
                   </div>
                   <p className="text-xs text-stone-600 leading-relaxed font-medium pl-8">
@@ -771,7 +771,7 @@ export const UniversityEngineerView: React.FC<UniversityEngineerViewProps> = ({ 
               <div className="p-6 rounded-2xl bg-stone-50 border border-stone-200 space-y-4">
                 <div className="space-y-2">
                   <h4 className="text-base font-bold text-slate-900 font-serif">
-                    {language === 'mr' ? 'महाराष्ट्र शासन महाटेंडर्स प्रणाली (Government of Maharashtra E-Tenders)' : 'Government of Maharashtra E-Tendering Portal (MahaTenders)'}
+                    {language === 'mr' ? 'महाराष्ट्र शासन महाटेंडर्स प्रणाली' : 'Government of Maharashtra E-Tendering Portal (MahaTenders)'}
                   </h4>
                   <p className="text-xs sm:text-sm text-stone-600 leading-relaxed font-medium max-w-3xl">
                     {language === 'mr'

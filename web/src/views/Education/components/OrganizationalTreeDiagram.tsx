@@ -87,7 +87,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
             <span>{language === 'mr' ? 'संस्थात्मक झाड रचना' : 'Institutional Hierarchy'}</span>
           </div>
           <h2 id="org-tree-heading" className="text-2xl sm:text-3xl font-extrabold text-stone-900">
-            {language === 'mr' ? 'शैक्षणिक प्रशासन वृक्ष रचना (Tree Structure)' : 'Educational Administration Tree Structure'}
+            {language === 'mr' ? 'शैक्षणिक प्रशासन वृक्ष रचना' : 'Educational Administration Tree Structure'}
           </h2>
           <p className="text-xs sm:text-sm text-stone-600 mt-1">
             {language === 'mr'
@@ -144,7 +144,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
                 {language === 'mr' ? 'सर्वोच्च विद्यापीठ प्रमुख' : 'Supreme University Executive'}
               </span>
               <h3 className="text-lg sm:text-xl font-extrabold tracking-tight text-white mt-0.5">
-                {language === 'mr' ? 'मा. कुलगुरू (Vice Chancellor)' : 'Vice Chancellor'}
+                {language === 'mr' ? 'मा. कुलगुरू' : 'Vice Chancellor'}
               </h3>
             </div>
             
@@ -162,7 +162,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
                 {language === 'mr' ? 'शैक्षणिक प्रमुख' : 'Head of Academic Affairs'}
               </span>
               <h3 className="text-base sm:text-lg font-extrabold tracking-tight text-white mt-0.5">
-                {language === 'mr' ? 'शिक्षण संचालक (Director of Education)' : 'Director of Education'}
+                {language === 'mr' ? 'शिक्षण संचालक' : 'Director of Education'}
               </h3>
               <p className="text-xs text-emerald-100 font-medium mt-0.5">
                 {language === 'mr' ? 'डॉ. एस. बी. खर्बडे (प्रभारी)' : 'Dr. S. B. Kharbade (I/c)'}
@@ -191,7 +191,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
                   {/* Node Header: Faculties */}
                   <div className="px-6 py-2.5 rounded-xl bg-emerald-900 text-white font-bold text-sm shadow-xs border border-emerald-700/60 flex items-center gap-2 mb-4">
                     <GraduationCap className="w-4 h-4 text-amber-400" />
-                    <span>{language === 'mr' ? 'विद्याशाखा (Faculties)' : 'Faculties'}</span>
+                    <span>{language === 'mr' ? 'विद्याशाखा' : 'Faculties'}</span>
                   </div>
 
                   {/* Horizontal bar under Faculties for 3 Streams */}
@@ -210,7 +210,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
                             Dean (Agriculture)
                           </span>
                           <h4 className="text-sm font-bold text-stone-900">
-                            {language === 'mr' ? 'कृषि शाखा (Agriculture)' : 'Agriculture'}
+                            {language === 'mr' ? 'कृषि शाखा' : 'Agriculture'}
                           </h4>
                         </div>
 
@@ -220,7 +220,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
                             onClick={() => toggleSection('agriColleges')}
                             className="w-full flex items-center justify-between text-left p-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100/70 text-emerald-950 font-bold text-xs transition-colors"
                           >
-                            <span>{language === 'mr' ? 'घटक महाविद्यालये (Colleges)' : 'Colleges (Dean)'} ({agriColleges.length})</span>
+                            <span>{language === 'mr' ? 'घटक महाविद्यालये' : 'Colleges (Dean)'} ({agriColleges.length})</span>
                             {expandedSection.agriColleges ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                           </button>
 
@@ -242,7 +242,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
                             onClick={() => toggleSection('agriDepts')}
                             className="w-full flex items-center justify-between text-left p-1.5 rounded-lg bg-amber-50 hover:bg-amber-100/70 text-amber-950 font-bold text-xs transition-colors"
                           >
-                            <span>{language === 'mr' ? '१४ विभाग (Departments)' : 'Departments (Head)'} ({agriDepartments.length})</span>
+                            <span>{language === 'mr' ? '१४ विभाग' : 'Departments (Head)'} ({agriDepartments.length})</span>
                             {expandedSection.agriDepts ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                           </button>
 
@@ -270,7 +270,7 @@ export const OrganizationalTreeDiagram: React.FC = () => {
                             Dean (Agril. Engg)
                           </span>
                           <h4 className="text-sm font-bold text-stone-900">
-                            {language === 'mr' ? 'कृषि अभियांत्रिकी (Engineering)' : 'Agricultural Engineering'}
+                            {language === 'mr' ? 'कृषि अभियांत्रिकी' : 'Agricultural Engineering'}
                           </h4>
                         </div>
 

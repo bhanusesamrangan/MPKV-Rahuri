@@ -321,8 +321,8 @@ export const ActStatuteView: React.FC<ActStatuteViewProps> = ({ pageData }) => {
             <div className="flex flex-wrap items-center gap-2">
               {[
                 { key: 'all', labelEn: 'All Statutory Documents', labelMr: 'सर्व वैधानिक दस्तऐवज', count: allDocs.length, icon: Layers },
-                { key: 'act', labelEn: 'The Principal Act & Amendments', labelMr: 'कायदा व दुरुस्त्या (Act)', count: actDocuments.length, icon: Scale },
-                { key: 'statute', labelEn: 'Statutes & Amendments', labelMr: 'परिनियम व सुधारणा (Statute)', count: statuteDocuments.length, icon: BookOpen },
+                { key: 'act', labelEn: 'The Principal Act & Amendments', labelMr: 'कायदा व दुरुस्त्या', count: actDocuments.length, icon: Scale },
+                { key: 'statute', labelEn: 'Statutes & Amendments', labelMr: 'परिनियम व सुधारणा', count: statuteDocuments.length, icon: BookOpen },
                 { key: 'governance', labelEn: 'Statutory Governance Framework', labelMr: 'वैधानिक अधिकार रचना', count: null, icon: Building2 }
               ].map((tab) => {
                 const isActive = activeTab === tab.key;
@@ -411,8 +411,8 @@ export const ActStatuteView: React.FC<ActStatuteViewProps> = ({ pageData }) => {
                           }`}
                         >
                           {isAct
-                            ? (language === 'mr' ? 'कायदा (Act)' : 'Principal Act')
-                            : (language === 'mr' ? 'परिनियम (Statute)' : 'Statute')}
+                            ? (language === 'mr' ? 'मूळ कायदा' : 'Principal Act')
+                            : (language === 'mr' ? 'परिनियम' : 'Statute')}
                         </span>
 
                         <span className="text-xs font-mono font-bold text-stone-500 flex items-center gap-1">
@@ -595,7 +595,7 @@ export const ActStatuteView: React.FC<ActStatuteViewProps> = ({ pageData }) => {
               </div>
               <p className="text-xs sm:text-sm text-stone-600 leading-relaxed font-normal">
                 {language === 'mr'
-                  ? 'महाराष्ट्र कृषी विद्यापीठे परिनियम १९९० हे महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ च्या कलम ७५ अन्वये राज्य शासनाने मंजूर केले आहेत. हे परिनियम विद्यापीठाच्या सर्व ४ कृषी विद्यापीठांना समान रीतीने लागू असून वेळोवेळी महाराष्ट्र शासन राजपत्रात (Government Gazette) प्रसिद्ध झालेल्या सुधारणांनुसार यात दुरुस्त्या करण्यात आल्या आहेत.'
+                  ? 'महाराष्ट्र कृषी विद्यापीठे परिनियम १९९० हे महाराष्ट्र कृषी विद्यापीठे कायदा १९८३ च्या कलम ७५ अन्वये राज्य शासनाने मंजूर केले आहेत. हे परिनियम विद्यापीठाच्या सर्व ४ कृषी विद्यापीठांना समान रीतीने लागू असून वेळोवेळी महाराष्ट्र शासन राजपत्रात प्रसिद्ध झालेल्या सुधारणांनुसार यात दुरुस्त्या करण्यात आल्या आहेत.'
                   : 'The Maharashtra Agricultural Universities Statutes, 1990 were framed under Section 75 of the MAU Act, 1983 and approved by the Government of Maharashtra. These uniform statutes apply across all 4 State Agricultural Universities and are periodically updated through official Government Gazette notifications.'}
               </p>
             </div>

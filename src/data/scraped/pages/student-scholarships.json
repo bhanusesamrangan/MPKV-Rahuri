@@ -1,0 +1,139 @@
+{
+  "menuId": "menu_students",
+  "parentMenu": {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Welfare & Facilities",
+    "mr": "विद्यार्थी सुविधा व कल्याण"
+  },
+  "scrapedAt": "2026-11-27T05:22:00.499495+00:00",
+  "slug": "student-scholarships",
+  "url": "https://mpkv.ac.in/Student/scoler",
+  "route": "/Student/scoler",
+  "sourcePage": "student-scholarships",
+  "title": {
+    "en": "Scholarship Links",
+    "mr": "शिष्यवृत्ती पोर्टल दुवे"
+  },
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Students",
+        "mr": "विद्यार्थी"
+      },
+      "href": "/students"
+    },
+    {
+      "title": {
+        "en": "Scholarship Links",
+        "mr": "शिष्यवृत्ती दुवे"
+      },
+      "href": "/students/scholarships"
+    }
+  ],
+  "hero": {
+    "title": {
+      "en": "Official State & National Scholarship Portals",
+      "mr": "राज्य व राष्ट्रीय शिष्यवृत्ती अधिकृत पोर्टल संच"
+    },
+    "subtitle": {
+      "en": "Direct access to all 7 official scholarship, fellowship & freeship portals listed on the MPKV Student Sidenav (TRTI, SARTHI, MAHAJYOTI, BARTI, MSCE, NSP & MahaDBT).",
+      "mr": "TRTI, SARTHI, MAHAJYOTI, BARTI, MSCE, NSP आणि MahaDBT या सर्व ७ अधिकृत शिष्यवृत्ती पोर्टल्सवर थेट प्रवेश."
+    },
+    "badge": {
+      "en": "7 Official Scholarship Portals",
+      "mr": "७ अधिकृत शिष्यवृत्ती पोर्टल"
+    }
+  },
+  "scholarships": [
+    {
+      "srNo": 1,
+      "name": "TRTI — Tribal Research & Training Institute",
+      "category": "State Portal",
+      "displayUrl": "trti.maharashtra.gov.in",
+      "url": "https://trti.maharashtra.gov.in",
+      "agency": {
+        "en": "Govt. of Maharashtra Scheduled Tribe Fellowships & Pre/Post-Matric Support",
+        "mr": "आदिवासी संशोधन व प्रशिक्षण संस्था, महाराष्ट्र शासन"
+      }
+    },
+    {
+      "srNo": 2,
+      "name": "SARTHI — Chhatrapati Shahu Maharaj Research Institute",
+      "category": "State Portal",
+      "displayUrl": "sarthi.maharashtra.gov.in",
+      "url": "https://sarthi.maharashtra.gov.in",
+      "agency": {
+        "en": "Maratha, Kunbi, Kunbi-Maratha Fellowships, Hostels & M.Phil/Ph.D Assistance",
+        "mr": "छत्रपती शाहू महाराज संशोधन, प्रशिक्षण व मानव विकास संस्था (सारथी), पुणे"
+      }
+    },
+    {
+      "srNo": 3,
+      "name": "MAHAJYOTI — Mahatma Jyotiba Phule Research Institute",
+      "category": "State Portal",
+      "displayUrl": "mahajyoti.org.in",
+      "url": "https://mahajyoti.org.in",
+      "agency": {
+        "en": "OBC, VJNT & SBC Research Fellowships, Training & Freeships",
+        "mr": "महात्मा ज्योतिबा फुले संशोधन व प्रशिक्षण संस्था (महाज्योती), नागपूर"
+      }
+    },
+    {
+      "srNo": 4,
+      "name": "BARTI — Dr. Babasaheb Ambedkar Research Institute",
+      "category": "State Portal",
+      "displayUrl": "barti.maharashtra.gov.in",
+      "url": "https://barti.maharashtra.gov.in",
+      "agency": {
+        "en": "Scheduled Caste Research Fellowships (BANRF) & Competitive Exam Guidance",
+        "mr": "डॉ. बाबासाहेब आंबेडकर संशोधन व प्रशिक्षण संस्था (बार्टी), पुणे"
+      }
+    },
+    {
+      "srNo": 5,
+      "name": "MSCE Pune — PUP / PSS Scholarship Portal",
+      "category": "State Portal",
+      "displayUrl": "mscepuppss.in",
+      "url": "https://www.mscepuppss.in",
+      "agency": {
+        "en": "Maharashtra State Council of Examination State Scholarship Wing",
+        "mr": "महाराष्ट्र राज्य परीक्षा परिषद शिष्यवृत्ती दालन"
+      }
+    },
+    {
+      "srNo": 6,
+      "name": "National Scholarship Portal (NSP)",
+      "category": "National Portal",
+      "displayUrl": "scholarships.gov.in",
+      "url": "https://scholarships.gov.in",
+      "agency": {
+        "en": "Government of India Central Ministry Scholarships & ICAR/UGC Grants",
+        "mr": "भारत सरकार राष्ट्रीय शिष्यवृत्ती पोर्टल"
+      }
+    },
+    {
+      "srNo": 7,
+      "name": "MahaDBT — Aaple Sarkar DBT Portal",
+      "category": "State Portal",
+      "displayUrl": "mahadbt.maharashtra.gov.in",
+      "url": "https://mahadbt.maharashtra.gov.in",
+      "agency": {
+        "en": "Unified Maharashtra Post-Matric Scholarship, EBC (Rajarshi Shahu) & Hostel Allowance",
+        "mr": "महाराष्ट्र शासन महाडीबीटी एकत्रित शिष्यवृत्ती पोर्टल"
+      }
+    }
+  ]
+}

@@ -5,14 +5,43 @@
   "sourcePage": "research-farm-implements",
   "scrapedAt": "2026-11-22T20:36:04.408138",
   "title": {
-    "en": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "Farm Implements & Machinery",
+    "mr": "शेती अवजारे व यंत्रे"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Research",
+        "mr": "संशोधन"
+      },
+      "href": "/farm-implements"
+    },
+    {
+      "title": {
+        "en": "Technology & Releases",
+        "mr": "प्रगत तंत्रज्ञान व वाण"
+      },
+      "href": "/farm-implements"
+    },
+    {
+      "title": {
+        "en": "Farm Implements & Machinery",
+        "mr": "शेती अवजारे व यंत्रे"
+      },
+      "href": "/farm-implements"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Research Farm Implements",
+      "mr": "Research Farm Implements"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Research Farm Implements - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -795,7 +824,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1348,5 +1377,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 71
+  },
+  "menuId": "menu_research",
+  "parentMenu": {
+    "id": "menu_research",
+    "title": {
+      "en": "Research",
+      "mr": "संशोधन"
+    }
+  },
+  "submenuGroup": {
+    "en": "Technology & Releases",
+    "mr": "प्रगत तंत्रज्ञान व वाण"
   }
 }

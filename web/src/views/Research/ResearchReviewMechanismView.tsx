@@ -31,7 +31,7 @@ export const ResearchReviewMechanismView: React.FC<ResearchReviewMechanismViewPr
   const stages = [
     {
       num: '01',
-      month: { en: 'January (वार्षिक जानेवारी)', mr: 'जानेवारी' },
+      month: { en: 'January', mr: 'जानेवारी' },
       titleEn: 'Groupwise Research Review Committee (RRC)',
       titleMr: 'गटनिहाय संशोधन पुनरावलोकन समिती (RRC)',
       authorityEn: 'Chairman: Hon. Vice-Chancellor | Co-Chairman: Director of Research | Convener: Respective HOD',
@@ -43,7 +43,7 @@ export const ResearchReviewMechanismView: React.FC<ResearchReviewMechanismViewPr
     },
     {
       num: '02',
-      month: { en: 'February – March (फेब्रुवारी ते मार्च)', mr: 'फेब्रुवारी ते मार्च' },
+      month: { en: 'February – March', mr: 'फेब्रुवारी ते मार्च' },
       titleEn: 'Groupwise Research Programme Planning Meetings',
       titleMr: 'गटनिहाय संशोधन कार्यक्रम नियोजन बैठक',
       authorityEn: 'Chairman: Hon. Vice-Chancellor | Co-Chairman: Director of Research | Convener: Respective HOD',
@@ -55,8 +55,8 @@ export const ResearchReviewMechanismView: React.FC<ResearchReviewMechanismViewPr
     },
     {
       num: '03',
-      month: { en: 'Annual Statutory Meet (वार्षिक वैधानिक बैठक)', mr: 'वार्षिक वैधानिक सभा' },
-      titleEn: 'Agricultural Research Council (कृषी संशोधन परिषद)',
+      month: { en: 'Annual Statutory Meet', mr: 'वार्षिक वैधानिक सभा' },
+      titleEn: 'Agricultural Research Council',
       titleMr: 'कृषी संशोधन परिषद (वैधानिक सल्लागार मंडळ)',
       authorityEn: 'Statute 14(I), Section 29, MAU 1990 | Chairman: Vice-Chancellor | Member Secretary: Director of Research',
       authorityMr: 'परिनियम १४(१), कलम २९, म.कृ.वि. १९९० | अध्यक्ष: कुलगुरू | सदस्य सचिव: संचालक संशोधन',
@@ -67,9 +67,9 @@ export const ResearchReviewMechanismView: React.FC<ResearchReviewMechanismViewPr
     },
     {
       num: '04',
-      month: { en: 'May (वार्षिक मे महिना - चक्रीय आयोजन)', mr: 'मे महिना (चक्रीय)' },
-      titleEn: 'Joint AGRESCO (संयुक्त अग्रेस्को)',
-      titleMr: 'संयुक्त अग्रेस्को (Joint AGRESCO) — राज्यस्तरीय सर्वोच्च मंच',
+      month: { en: 'May (Rotational)', mr: 'मे महिना (चक्रीय)' },
+      titleEn: 'Joint AGRESCO',
+      titleMr: 'संयुक्त अग्रेस्को — राज्यस्तरीय सर्वोच्च मंच',
       authorityEn: 'Chairman: Hon. Pro-Chancellor (Minister of Agriculture, MS) | Co-Chairmen: Vice-Chancellors of all 4 SAUs',
       authorityMr: 'अध्यक्ष: मा. प्रति-कुलपती (कृषी मंत्री, महाराष्ट्र शासन) | सह-अध्यक्ष: चारही कृषी विद्यापीठांचे कुलगुरू',
       color: 'border-emerald-300 bg-emerald-50/50',

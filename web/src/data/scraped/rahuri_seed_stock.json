@@ -12,135 +12,135 @@
         "sr_no": "1",
         "crop": {
           "mr": "बरसीम",
-          "en": "बरसीम"
+          "en": "Berseem"
         },
         "variety": {
           "mr": "फुले -वरदान",
-          "en": "फुले -वरदान"
+          "en": "Phule Vardhan"
         },
         "seed_type": {
           "mr": "सत्यप्रत  बियाणे",
-          "en": "सत्यप्रत  बियाणे"
+          "en": "Truthful Seed"
         },
         "rate_per_bag": {
           "mr": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )",
-          "en": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )"
+          "en": "400/- Rs. (Per Bag 1 kg)"
         },
         "available_bags": {
           "mr": "१५०  बॅगा",
-          "en": "१५०  बॅगा"
+          "en": "150 Bags"
         },
         "quintal": {
           "mr": "१.५  क्विं.",
-          "en": "१.५  क्विं."
+          "en": "1.5 Qtls"
         }
       },
       {
         "sr_no": "2",
         "crop": {
           "mr": "हरभरा",
-          "en": "हरभरा"
+          "en": "Chickpea (Gram)"
         },
         "variety": {
           "mr": "फुले -विश्वराज",
-          "en": "फुले -विश्वराज"
+          "en": "Phule Vishwaraj"
         },
         "seed_type": {
           "mr": "प्रमाणित बियाणे",
-          "en": "प्रमाणित बियाणे"
+          "en": "Certified Seed"
         },
         "rate_per_bag": {
           "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
-          "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
+          "en": "2400/- Rs. (Per Bag 30 kg)"
         },
         "available_bags": {
           "mr": "५८ बॅगा",
-          "en": "५८ बॅगा"
+          "en": "58 Bags"
         },
         "quintal": {
           "mr": "१७.४ क्विं.",
-          "en": "१७.४ क्विं."
+          "en": "17.4 Qtls"
         }
       },
       {
         "sr_no": "3",
         "crop": {
           "mr": "गहू",
-          "en": "गहू"
+          "en": "Wheat"
         },
         "variety": {
           "mr": "फुले - अनुपम",
-          "en": "फुले - अनुपम"
+          "en": "Phule Anupam"
         },
         "seed_type": {
           "mr": "सत्यप्रत  बियाणे",
-          "en": "सत्यप्रत  बियाणे"
+          "en": "Truthful Seed"
         },
         "rate_per_bag": {
           "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
-          "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
+          "en": "2400/- Rs. (Per Bag 40 kg)"
         },
         "available_bags": {
           "mr": "११० बॅगा",
-          "en": "११० बॅगा"
+          "en": "110 Bags"
         },
         "quintal": {
           "mr": "४४ क्विं.",
-          "en": "४४ क्विं."
+          "en": "44 Qtls"
         }
       },
       {
         "sr_no": "4",
         "crop": {
           "mr": "हरभरा",
-          "en": "हरभरा"
+          "en": "Chickpea (Gram)"
         },
         "variety": {
           "mr": "फुले -विक्रम",
-          "en": "फुले -विक्रम"
+          "en": "Phule Vikram"
         },
         "seed_type": {
           "mr": "प्रमाणित बियाणे",
-          "en": "प्रमाणित बियाणे"
+          "en": "Certified Seed"
         },
         "rate_per_bag": {
           "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
-          "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
+          "en": "2400/- Rs. (Per Bag 30 kg)"
         },
         "available_bags": {
           "mr": "१० बॅगा",
-          "en": "१० बॅगा"
+          "en": "10 Bags"
         },
         "quintal": {
           "mr": "३  क्विं.",
-          "en": "३  क्विं."
+          "en": "3 Qtls"
         }
       },
       {
         "sr_no": "5",
         "crop": {
           "mr": "गहू",
-          "en": "गहू"
+          "en": "Wheat"
         },
         "variety": {
           "mr": "फुले -समाधान",
-          "en": "फुले -समाधान"
+          "en": "Phule Samadhan"
         },
         "seed_type": {
           "mr": "सत्यप्रत  बियाणे",
-          "en": "सत्यप्रत  बियाणे"
+          "en": "Truthful Seed"
         },
         "rate_per_bag": {
           "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
-          "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
+          "en": "2400/- Rs. (Per Bag 40 kg)"
         },
         "available_bags": {
           "mr": "११६ बॅगा",
-          "en": "११६ बॅगा"
+          "en": "116 Bags"
         },
         "quintal": {
           "mr": "४६.४  क्विं",
-          "en": "४६.४  क्विं"
+          "en": "46.4 Qtls"
         }
       }
     ]
@@ -164,7 +164,7 @@
         "sr_no": "1",
         "plant_name": {
           "mr": "डाळिंब वाण फुले भगवा सुपर",
-          "en": "डाळिंब वाण फुले भगवा सुपर"
+          "en": "Pomegranate Variety Phule Bhagwa Super"
         },
         "rate_per_plant": {
           "mr": "30",
@@ -180,7 +180,7 @@
         "sr_no": "2",
         "plant_name": {
           "mr": "लिंबू वाण फुले सरबत्ती",
-          "en": "लिंबू वाण फुले सरबत्ती"
+          "en": "Acid Lime Variety Phule Sarbati"
         },
         "rate_per_plant": {
           "mr": "40",
@@ -196,7 +196,7 @@
         "sr_no": "3",
         "plant_name": {
           "mr": "आंबा वाण केशर",
-          "en": "आंबा वाण केशर"
+          "en": "Mango Variety Kesar"
         },
         "rate_per_plant": {
           "mr": "90",
@@ -212,7 +212,7 @@
         "sr_no": "4",
         "plant_name": {
           "mr": "अंजीर लोकल",
-          "en": "अंजीर लोकल"
+          "en": "Fig Local"
         },
         "rate_per_plant": {
           "mr": "50",
@@ -228,7 +228,7 @@
         "sr_no": "5",
         "plant_name": {
           "mr": "चिकू वाण कालीपत्ती",
-          "en": "चिकू वाण कालीपत्ती"
+          "en": "Sapota (Chiku) Variety Kalipatti"
         },
         "rate_per_plant": {
           "mr": "150",
@@ -244,7 +244,7 @@
         "sr_no": "6",
         "plant_name": {
           "mr": "सीताफळ वाण फुले पुरंदर",
-          "en": "सीताफळ वाण फुले पुरंदर"
+          "en": "Custard Apple Variety Phule Purandar"
         },
         "rate_per_plant": {
           "mr": "50",
@@ -269,7 +269,7 @@
         "sr_no": "1",
         "plant_name": {
           "mr": "डाळिंब वाण फुले भगवा सुपर",
-          "en": "डाळिंब वाण फुले भगवा सुपर"
+          "en": "Pomegranate Variety Phule Bhagwa Super"
         },
         "rate_per_plant": {
           "mr": "30",
@@ -285,7 +285,7 @@
         "sr_no": "2",
         "plant_name": {
           "mr": "आंबा वाण केशर",
-          "en": "आंबा वाण केशर"
+          "en": "Mango Variety Kesar"
         },
         "rate_per_plant": {
           "mr": "90",
@@ -301,7 +301,7 @@
         "sr_no": "3",
         "plant_name": {
           "mr": "नारळ बाणवली गादीवाफयावरील रोप",
-          "en": "नारळ बाणवली गादीवाफयावरील रोप"
+          "en": "Coconut Variety Banawali Raised Bed Seedlings"
         },
         "rate_per_plant": {
           "mr": "120",
@@ -317,7 +317,7 @@
         "sr_no": "4",
         "plant_name": {
           "mr": "लिंबू वाण साई सरबती",
-          "en": "लिंबू वाण साई सरबती"
+          "en": "Acid Lime Variety Sai Sarbati"
         },
         "rate_per_plant": {
           "mr": "40",
@@ -333,7 +333,7 @@
         "sr_no": "5",
         "plant_name": {
           "mr": "सिताफळ  वाण फुले पुरंदर",
-          "en": "सिताफळ  वाण फुले पुरंदर"
+          "en": "Custard Apple Variety Phule Purandar"
         },
         "rate_per_plant": {
           "mr": "50",
@@ -349,7 +349,7 @@
         "sr_no": "6",
         "plant_name": {
           "mr": "चिकू वाण कालीपत्ती",
-          "en": "चिकू वाण कालीपत्ती"
+          "en": "Sapota (Chiku) Variety Kalipatti"
         },
         "rate_per_plant": {
           "mr": "150",
@@ -365,7 +365,7 @@
         "sr_no": "7",
         "plant_name": {
           "mr": "पेरू वाण सरदार",
-          "en": "पेरू वाण सरदार"
+          "en": "Guava Variety Sardar (L-49)"
         },
         "rate_per_plant": {
           "mr": "60",

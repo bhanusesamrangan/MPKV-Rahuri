@@ -3,7 +3,7 @@
   "url": "https://mpkv.ac.in/Home/Iqac",
   "route": "/Home/Iqac",
   "sourcePage": "iqac",
-  "scrapedAt": "2026-11-22T20:35:42.798478",
+  "scrapedAt": "2026-11-26T20:45:00.000000",
   "title": {
     "en": "Internal Quality Assurance Cell (IQAC)",
     "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC)"
@@ -18,1288 +18,178 @@
     },
     {
       "title": {
-        "en": "Education",
-        "mr": "शिक्षण"
-      },
-      "href": "/iqac"
-    },
-    {
-      "title": {
         "en": "Academic Quality",
         "mr": "शैक्षणिक गुणवत्ता"
       },
-      "href": "/iqac"
+      "href": "/Home/Iqac"
     },
     {
       "title": {
-        "en": "Internal Quality Assurance Cell (IQAC)",
+        "en": "IQAC",
         "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC)"
       },
-      "href": "/iqac"
+      "href": "/Home/Iqac"
     }
   ],
   "hero": {
     "title": {
-      "en": "Internal Quality Assurance Cell",
-      "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
+      "en": "Internal Quality Assurance Cell (IQAC)",
+      "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC)"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Internal Quality Assurance Cell",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — अंतर्गत गुणवत्ता हमी कक्ष"
+      "en": "Formulated in March 2014 at MPKV Rahuri and revised per MCAER Pune directives as the Internal Quality Assessment Cell — overseeing institution-wide academic documentation, API/PBAS appraisal criteria under UGC norms, and Career Advancement Scheme (CAS) promotions.",
+      "mr": "महात्मा फुले कृषी विद्यापीठ, राहुरी येथे मार्च २०१४ मध्ये स्थापित व MCAER पुणे यांच्या निर्देशांनुसार पुनर्रचित अंतर्गत गुणवत्ता मूल्यांकन कक्ष — विद्यापीठातील शिक्षण व संशोधन कर्मचाऱ्यांचे API/PBAS मूल्यांकन, CAS पदोन्नती छाननी व संस्थात्मक दस्तऐवजीकरण केंद्र."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
-    }
-  },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
+      "en": "Formulated March 2014 • MCAER & UGC Aligned Quality Cell",
+      "mr": "स्थापना मार्च २०१४ • MCAER व UGC गुणवत्ता मानक कक्ष"
     },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Internal Quality Assurance Cell",
-        "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
-      },
-      "order": 55
-    }
-  ],
-  "paragraphs": [
-    {
-      "text": {
-        "en": "The Internal Quality Assurance Cell (IQAC) was formulated at Mahatma Phule Krishi Vidyapeeth, Rahuri in March, 2014. As per directives of MCAER, Pune the Internal Quality Assurance Cell was revised as Internal Quality Assessment Cell and its composition was changed as per following table.",
-        "mr": "The Internal Quality Assurance Cell (IQAC) was formulated at Mahatma Phule Krishi Vidyapeeth, Rahuri in March, 2014. As per directives of MCAER, Pune the Internal Quality Assurance Cell was revised as Internal Quality Assessment Cell and its composition was changed as per following table."
-      },
-      "order": 56
-    },
-    {
-      "text": {
-        "en": "The IQAC acts as the documentation and record-keeping cell for the institution including assistance in the development of the API (Academic Performance Indicator) criteria as per PBAS (Performance Based Appraisal System), proforma using the indicative template separately developed according to UGC Rules and regulations common to all teaching / research staff members in the jurisdiction of the University. The IQAC scrutinizes all cases of promotion through Career Advancement Scheme and scrutinizes the applications submitted by the University Officers for the various posts outside University as per requirement.",
-        "mr": "The IQAC acts as the documentation and record-keeping cell for the institution including assistance in the development of the API (Academic Performance Indicator) criteria as per PBAS (Performance Based Appraisal System), proforma using the indicative template separately developed according to UGC Rules and regulations common to all teaching / research staff members in the jurisdiction of the University. The IQAC scrutinizes all cases of promotion through Career Advancement Scheme and scrutinizes the applications submitted by the University Officers for the various posts outside University as per requirement."
-      },
-      "order": 57
-    }
-  ],
-  "lists": [],
-  "tables": [
-    {
-      "id": "table_1",
-      "caption": null,
-      "headers": [
-        {
-          "en": "Committee",
-          "mr": "Committee"
+    "stats": [
+      {
+        "label": {
+          "en": "Formulated",
+          "mr": "स्थापना"
         },
-        {
-          "en": "Chairman",
-          "mr": "Chairman"
+        "value": "March 2014"
+      },
+      {
+        "label": {
+          "en": "Committee Members",
+          "mr": "समिती सदस्य"
         },
-        {
-          "en": "Other members",
-          "mr": "Other members"
+        "value": "13 Posts"
+      },
+      {
+        "label": {
+          "en": "Core Frameworks",
+          "mr": "प्रमुख कार्यप्रणाली"
         },
-        {
-          "en": "Secretary",
-          "mr": "Secretary"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "No. of Posts",
-              "mr": "No. of Posts"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "Name of post",
-              "mr": "Name of post"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Hon.Vice-Chancellor",
-              "mr": "Hon.Vice-Chancellor"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Directors",
-              "mr": "Directors"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Associate Dean",
-              "mr": "Associate Dean"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Senior HOD’s",
-              "mr": "Senior HOD’s"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Senior Professors",
-              "mr": "Senior Professors"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Out side Experts",
-              "mr": "Out side Experts"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          },
-          {
-            "text": {
-              "en": "Registrar",
-              "mr": "Registrar"
-            },
-            "fileLink": "",
-            "originalLink": ""
-          }
-        ]
-      ],
-      "rowCount": 2,
-      "columnCount": 4
-    }
-  ],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/DocScanner Sep 13, 2023 12-13 PM.pdf",
-      "localPath": "/media/docs/DocScanner_Sep_13_2023_12-13_PM.pdf",
-      "category": "docs",
-      "label": "IQAC Committee"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+        "value": "API / PBAS / CAS"
       },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Internal Quality Assurance Cell",
-        "mr": "अंतर्गत गुणवत्ता हमी कक्ष"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The Internal Quality Assurance Cell (IQAC) was formulated at Mahatma Phule Krishi Vidyapeeth, Rahuri in March, 2014. As per directives of MCAER, Pune the Internal Quality Assurance Cell was revised as Internal Quality Assessment Cell and its composition was changed as per following table.",
-        "mr": "The Internal Quality Assurance Cell (IQAC) was formulated at Mahatma Phule Krishi Vidyapeeth, Rahuri in March, 2014. As per directives of MCAER, Pune the Internal Quality Assurance Cell was revised as Internal Quality Assessment Cell and its composition was changed as per following table."
-      },
-      "order": 56
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "The IQAC acts as the documentation and record-keeping cell for the institution including assistance in the development of the API (Academic Performance Indicator) criteria as per PBAS (Performance Based Appraisal System), proforma using the indicative template separately developed according to UGC Rules and regulations common to all teaching / research staff members in the jurisdiction of the University. The IQAC scrutinizes all cases of promotion through Career Advancement Scheme and scrutinizes the applications submitted by the University Officers for the various posts outside University as per requirement.",
-        "mr": "The IQAC acts as the documentation and record-keeping cell for the institution including assistance in the development of the API (Academic Performance Indicator) criteria as per PBAS (Performance Based Appraisal System), proforma using the indicative template separately developed according to UGC Rules and regulations common to all teaching / research staff members in the jurisdiction of the University. The IQAC scrutinizes all cases of promotion through Career Advancement Scheme and scrutinizes the applications submitted by the University Officers for the various posts outside University as per requirement."
-      },
-      "order": 57
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 2,
-    "listCount": 0,
-    "tableCount": 1,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 15,
-    "totalRecords": 74
+      {
+        "label": {
+          "en": "Statutory Authority",
+          "mr": "नियामक निर्देश"
+        },
+        "value": "MCAER & UGC"
+      }
+    ]
   },
-  "menuId": "menu_education",
-  "parentMenu": {
-    "id": "menu_education",
-    "title": {
-      "en": "Education",
-      "mr": "शिक्षण"
-    }
+  "introduction": {
+    "formulationEn": "The Internal Quality Assurance Cell (IQAC) was formulated at Mahatma Phule Krishi Vidyapeeth, Rahuri in March, 2014. As per directives of MCAER, Pune, the Internal Quality Assurance Cell was revised as the Internal Quality Assessment Cell and its composition was updated.",
+    "formulationMr": "महात्मा फुले कृषी विद्यापीठ, राहुरी येथे मार्च २०१४ मध्ये अंतर्गत गुणवत्ता हमी कक्षाची (IQAC) स्थापना करण्यात आली. महाराष्ट्र कृषी शिक्षण व संशोधन परिषद (MCAER), पुणे यांच्या निर्देशांनुसार या कक्षाची 'अंतर्गत गुणवत्ता मूल्यांकन कक्ष' म्हणून पुनर्रचना करून समितीची रचना निश्चित करण्यात आली आहे.",
+    "mandateEn": "The IQAC acts as the documentation and record-keeping cell for the institution, including assistance in the development of the API (Academic Performance Indicator) criteria as per PBAS (Performance Based Appraisal System) proforma using the indicative template separately developed according to UGC Rules and Regulations common to all teaching and research staff members in the jurisdiction of the University. The IQAC scrutinizes all cases of promotion through the Career Advancement Scheme (CAS) and scrutinizes applications submitted by University Officers for various posts outside the University as per requirement.",
+    "mandateMr": "IQAC कक्ष विद्यापीठाचे अधिकृत दस्तऐवजीकरण व अभिलेख संकलन केंद्र म्हणून कार्य करते. विद्यापीठ कार्यक्षेत्रातील सर्व शिक्षक व संशोधन कर्मचाऱ्यांसाठी UGC नियम व नियमावलीनुसार PBAS (Performance Based Appraisal System) अंतर्गत API (Academic Performance Indicator) निकष व विहित नमुने विकसित करण्यास कक्ष सहाय्य करते. तसेच करिअर ॲडव्हान्समेंट स्कीम (CAS) अंतर्गत सर्व पदोन्नती प्रस्तावांची आणि विद्यापीठ अधिकाऱ्यांनी विद्यापीठाबाहेरील पदांसाठी केलेल्या अर्जांची छाननी IQAC मार्फत केली जाते."
   },
-  "submenuGroup": {
-    "en": "Academic Quality",
-    "mr": "शैक्षणिक गुणवत्ता"
-  }
+  "committeeComposition": [
+    {
+      "srNo": "1",
+      "role": {
+        "en": "Chairman",
+        "mr": "अध्यक्ष"
+      },
+      "postEn": "Hon. Vice-Chancellor",
+      "postMr": "मा. कुलगुरू",
+      "postsCount": 1
+    },
+    {
+      "srNo": "2",
+      "role": {
+        "en": "Other Members",
+        "mr": "इतर सदस्य"
+      },
+      "postEn": "Directors (Instruction, Research & Extension)",
+      "postMr": "संचालक (शिक्षण, संशोधन व विस्तार)",
+      "postsCount": 3
+    },
+    {
+      "srNo": "3",
+      "role": {
+        "en": "Other Members",
+        "mr": "इतर सदस्य"
+      },
+      "postEn": "Associate Dean",
+      "postMr": "सहयोगी अधिष्ठाता",
+      "postsCount": 1
+    },
+    {
+      "srNo": "4",
+      "role": {
+        "en": "Other Members",
+        "mr": "इतर सदस्य"
+      },
+      "postEn": "Senior HODs (Heads of Departments)",
+      "postMr": "वरिष्ठ विभाग प्रमुख (HOD)",
+      "postsCount": 2
+    },
+    {
+      "srNo": "5",
+      "role": {
+        "en": "Other Members",
+        "mr": "इतर सदस्य"
+      },
+      "postEn": "Senior Professors",
+      "postMr": "वरिष्ठ प्राध्यापक",
+      "postsCount": 2
+    },
+    {
+      "srNo": "6",
+      "role": {
+        "en": "Other Members",
+        "mr": "इतर सदस्य"
+      },
+      "postEn": "Outside Experts",
+      "postMr": "बाह्य विषयतज्ज्ञ",
+      "postsCount": 3
+    },
+    {
+      "srNo": "7",
+      "role": {
+        "en": "Member Secretary",
+        "mr": "सदस्य सचिव"
+      },
+      "postEn": "Registrar",
+      "postMr": "कुलसचिव",
+      "postsCount": 1
+    }
+  ],
+  "functions": [
+    {
+      "titleEn": "API & PBAS Evaluation Framework",
+      "titleMr": "API व PBAS मूल्यमापन प्रणाली",
+      "descEn": "Develops Academic Performance Indicator (API) criteria and PBAS indicative proforma per UGC Rules common to all teaching and research staff.",
+      "descMr": "सर्व शिक्षक व संशोधक कर्मचाऱ्यांसाठी UGC नियमांनुसार PBAS आधारित API मूल्यमापन निकष व नमुने विकसित करणे."
+    },
+    {
+      "titleEn": "Career Advancement Scheme (CAS)",
+      "titleMr": "करिअर ॲडव्हान्समेंट स्कीम (CAS) छाननी",
+      "descEn": "Scrutinizes all faculty and scientist promotion dossiers submitted under the Career Advancement Scheme across MPKV jurisdiction.",
+      "descMr": "विद्यापीठ कार्यक्षेत्रातील प्राध्यापक व शास्त्रज्ञांच्या CAS पदोन्नती प्रकरणांची सखोल व काटेकोर छाननी करणे."
+    },
+    {
+      "titleEn": "External Officer Application Vetting",
+      "titleMr": "बाह्य पदांच्या अर्जांची छाननी",
+      "descEn": "Verifies and scrutinizes applications submitted by University Officers for prestigious appointments outside the University.",
+      "descMr": "विद्यापीठ अधिकाऱ्यांनी विद्यापीठाबाहेरील पदांसाठी सादर केलेल्या अर्जांची नियमांनुसार छाननी व पडताळणी करणे."
+    },
+    {
+      "titleEn": "Institutional Record Keeping",
+      "titleMr": "संस्थात्मक दस्तऐवजीकरण केंद्र",
+      "descEn": "Serves as the central academic quality documentation and record-keeping repository aligning with MCAER Pune standards.",
+      "descMr": "MCAER पुणे मार्गदर्शक तत्त्वांनुसार शैक्षणिक गुणवत्ता अभिलेख व दस्तऐवजीकरणाचे मध्यवर्ती केंद्र म्हणून कार्य करणे."
+    }
+  ],
+  "documents": [
+    {
+      "id": "iqac-committee-doc",
+      "title": {
+        "en": "IQAC Committee Constitution & Member Notification",
+        "mr": "अंतर्गत गुणवत्ता हमी कक्ष (IQAC) समिती रचना व सदस्य अधिसूचना"
+      },
+      "fileUrl": "/media/docs/iqac/iqac_committee.pdf",
+      "officialUrl": "https://mpkv.ac.in/StaticPdf/DocScanner%20Sep%2013,%202023%2012-13%20PM.pdf",
+      "fileSize": "922 KB",
+      "date": "Sep 13, 2023"
+    }
+  ]
 }

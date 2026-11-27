@@ -1,12 +1,20 @@
 {
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "scrapedAt": "2026-11-26T16:14:28.081382+00:00",
   "slug": "library-news-events",
   "url": "https://mpkv.ac.in/Library/LibNewsEvents",
   "route": "/Library/LibNewsEvents",
   "sourcePage": "library-news-events",
-  "scrapedAt": "2026-11-22T20:35:56.714000",
   "title": {
-    "en": "Library",
-    "mr": "ग्रंथालय"
+    "en": "News, Events & Publications",
+    "mr": "बातम्या, उपक्रम व ग्रंथालय प्रकाशने"
   },
   "breadcrumb": [
     {
@@ -21,1234 +29,171 @@
         "en": "Library",
         "mr": "ग्रंथालय"
       },
-      "href": "/Library/About"
+      "href": "/library/about"
+    },
+    {
+      "title": {
+        "en": "Digital & Off-Campus",
+        "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+      },
+      "href": "/library/links"
+    },
+    {
+      "title": {
+        "en": "News & Book Exhibitions",
+        "mr": "बातम्या व ग्रंथ प्रदर्शन"
+      },
+      "href": "/library/news-events"
     }
   ],
+  "submenuGroup": {
+    "en": "Digital & Off-Campus",
+    "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
+  },
   "hero": {
     "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
+      "en": "Library Dispatches, Workshops & Official Publications",
+      "mr": "कार्यशाळा, सल्लागार समिती बैठका व ग्रंथालयाची ८ प्रकाशने"
     },
     "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Library",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — ग्रंथालय"
+      "en": "Visual highlights from university librarian capacity-building workshops, Library Advisory Committee meets, and 8 compiled catalogues & bibliographic manuals.",
+      "mr": "संलग्न व घटक महाविद्यालयीन ग्रंथपाल कार्यशाळा, सल्लागार समिती कामकाज तसेच ग्रंथालयाने प्रकाशित केलेली ८ अधिकृत प्रकाशने."
     },
     "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
+      "en": "4 Event Photos • 2 News Dispatches • 8 Publications",
+      "mr": "४ छायाचित्रे • २ बातम्या • ८ प्रकाशने"
     }
   },
-  "headings": [
+  "newsItems": [
     {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
+      "id": "workshop-2019",
+      "date": "11th April 2019",
+      "category": {
+        "en": "State Workshop",
+        "mr": "एक दिवसीय कार्यशाळा"
       },
-      "order": 1
+      "title": {
+        "en": "One-Day Workshop for Affiliated & Constituent College Librarians",
+        "mr": "संलग्न व घटक महाविद्यालयांच्या ग्रंथपालांसाठी एक दिवसीय कार्यशाळा"
+      },
+      "venue": {
+        "en": "University Library Conference Hall",
+        "mr": "विद्यापीठ ग्रंथालय परिषद सभागृह"
+      },
+      "chairperson": {
+        "en": "Dean (F/A), MPKV Rahuri",
+        "mr": "अधिष्ठाता (कृषी), मफुकृवि राहुरी"
+      },
+      "participants": 32,
+      "summary": {
+        "en": "Recently, The University Library organized a one day workshop on “Update Recent Knowledge & skill of library for affiliated & consulted college Librarian” dated 11th April 2019 of university library conference hall under the chairmanship of the Dean (F/A), MPKV, Rahuri. Total 32 participants attended the one day workshop.",
+        "mr": "११ एप्रिल २०१९ रोजी अधिष्ठाता (कृषी) यांच्या अध्यक्षतेखाली ग्रंथालय परिषद सभागृहात 'संलग्न व घटक महाविद्यालयीन ग्रंथपालांचे अद्ययावत ज्ञान व कौशल्य विकास' या विषयावर एक दिवसीय कार्यशाळा आयोजित करण्यात आली, यात ३२ सहभागी उपस्थित होते."
+      }
     },
     {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
+      "id": "lac-meeting-2019",
+      "date": "14th June 2019",
+      "category": {
+        "en": "Governance Meeting",
+        "mr": "सल्लागार समिती बैठक"
       },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
+      "title": {
+        "en": "Library Advisory Committee (LAC) Meeting",
+        "mr": "ग्रंथालय सल्लागार समिती बैठक"
       },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
+      "venue": {
+        "en": "Chamber of the University Librarian",
+        "mr": "विद्यापीठ ग्रंथपाल दालन"
       },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
+      "chairperson": {
+        "en": "Dean (F/A) & Chairman, Library Advisory Committee",
+        "mr": "अधिष्ठाता (कृषी) व अध्यक्ष, ग्रंथालय सल्लागार समिती"
       },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Library",
-        "mr": "ग्रंथालय"
-      },
-      "order": 55
+      "participants": null,
+      "summary": {
+        "en": "Library Advisory Committee meeting was held on 14th June 2019 in chamber of the University Librarian under the Chairmanship of the Dean (F/A), MPKV, Rahuri & Chairman, Library Advisory Committee along with other Library Advisory Committee members and discussed various points and matter relative to library department.",
+        "mr": "१४ जून २०१९ रोजी विद्यापीठ ग्रंथपालांच्या दालनात अधिष्ठाता (कृषी) व सल्लागार समिती अध्यक्ष यांच्या नेतृत्वाखाली ग्रंथालय सल्लागार समितीची बैठक पार पडली व विविध धोरणात्मक विषयांवर चर्चा करण्यात आली."
+      }
     }
   ],
-  "paragraphs": [
+  "publications": [
     {
-      "text": {
-        "en": "Doctoral Research (Ph.D Theses Abstract) 1970-2011. Bibliography of Doctoral Theses (1970-2011). Guidelines for online resources. Library and Information Services: A Manual for PGS-501 Course. Catalogue of Acta Horticulture. Catalogue of Back volume available. Catalogue of Indian Standards. World Bibliography of Ber.",
-        "mr": "Doctoral Research (Ph.D Theses Abstract) 1970-2011. Bibliography of Doctoral Theses (1970-2011). Guidelines for online resources. Library and Information Services: A Manual for PGS-501 Course. Catalogue of Acta Horticulture. Catalogue of Back volume available. Catalogue of Indian Standards. World Bibliography of Ber."
-      },
-      "order": 56
+      "srNo": 1,
+      "code": "PUB-01",
+      "title": "Doctoral Research (Ph.D Theses Abstract) 1970-2011",
+      "type": "Abstract Compendium"
+    },
+    {
+      "srNo": 2,
+      "code": "PUB-02",
+      "title": "Bibliography of Doctoral Theses (1970-2011)",
+      "type": "Bibliography"
+    },
+    {
+      "srNo": 3,
+      "code": "PUB-03",
+      "title": "Guidelines for online resources",
+      "type": "User Guide"
+    },
+    {
+      "srNo": 4,
+      "code": "PUB-04",
+      "title": "Library and Information Services: A Manual for PGS-501 Course",
+      "type": "Academic Manual"
+    },
+    {
+      "srNo": 5,
+      "code": "PUB-05",
+      "title": "Catalogue of Acta Horticulture",
+      "type": "Serial Catalogue"
+    },
+    {
+      "srNo": 6,
+      "code": "PUB-06",
+      "title": "Catalogue of Back volume available",
+      "type": "Holdings Catalogue"
+    },
+    {
+      "srNo": 7,
+      "code": "PUB-07",
+      "title": "Catalogue of Indian Standards",
+      "type": "Standards Catalogue"
+    },
+    {
+      "srNo": 8,
+      "code": "PUB-08",
+      "title": "World Bibliography of Ber",
+      "type": "Crop Bibliography"
     }
   ],
-  "lists": [
+  "photos": [
     {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Library",
-          "mr": "ग्रंथालय"
-        },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Collections",
-          "mr": "Collections"
-        },
-        {
-          "en": "Sections",
-          "mr": "Sections"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Links",
-          "mr": "Links"
-        },
-        {
-          "en": "Activities",
-          "mr": "Activities"
-        },
-        {
-          "en": "Off Campus Libraries",
-          "mr": "Off Campus Libraries"
-        },
-        {
-          "en": "News & Events",
-          "mr": "News & Events"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 57
+      "src": "/media/images/library/E1.jpg",
+      "caption": {
+        "en": "Library Workshop & Event Session — Highlight I",
+        "mr": "ग्रंथालय कार्यशाळा व उपक्रम — छायाचित्र १"
+      }
     },
     {
-      "type": "ol",
-      "items": [
-        {
-          "en": "Recently, The University Library organized a one day workshop on “Update Recent Knowledge & skill of library for affiliated & consulted\r\n                        college Librarian” dated 11th April 2019 of university library conference hall under the chairmanship of the Dean (F/A), MPKV, Rahuri. Total\r\n                        32 participants attended the one day workshop.",
-          "mr": "Recently, The University Library organized a one day workshop on “Update Recent Knowledge & skill of library for affiliated & consulted\r\n                        college Librarian” dated 11th April 2019 of university library conference hall under the chairmanship of the Dean (F/A), MPKV, Rahuri. Total\r\n                        32 participants attended the one day workshop."
-        },
-        {
-          "en": "Library Advisory Committee Library Advisory Committee meeting was held on 14th June 2019 in chamber of the University Librarian under\r\n                        the Chairmanship of the Dean (F/A), MPKV, Rahuri & Chairman, Library Advisory Committee along with other Library Advisory Committee\r\n                        members and discussed various points and matter relative to library department.",
-          "mr": "Library Advisory Committee Library Advisory Committee meeting was held on 14th June 2019 in chamber of the University Librarian under\r\n                        the Chairmanship of the Dean (F/A), MPKV, Rahuri & Chairman, Library Advisory Committee along with other Library Advisory Committee\r\n                        members and discussed various points and matter relative to library department."
-        }
-      ],
-      "order": 58
+      "src": "/media/images/library/E2.jpg",
+      "caption": {
+        "en": "Library Conference & Delegates — Highlight II",
+        "mr": "ग्रंथालय परिषद व सहभागी — छायाचित्र २"
+      }
+    },
+    {
+      "src": "/media/images/library/E3.jpg",
+      "caption": {
+        "en": "Book Exhibition & Scholar Interaction — Highlight III",
+        "mr": "ग्रंथ प्रदर्शन व संवाद — छायाचित्र ३"
+      }
+    },
+    {
+      "src": "/media/images/library/E4.jpg",
+      "caption": {
+        "en": "Advisory Committee & Academic Session — Highlight IV",
+        "mr": "सल्लागार समिती व शैक्षणिक सत्र — छायाचित्र ४"
+      }
     }
-  ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/E4.jpg",
-      "localPath": "/media/images/E4.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/E3.jpg",
-      "localPath": "/media/images/E3.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/E1.jpg",
-      "localPath": "/media/images/E1.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/main/E2.jpg",
-      "localPath": "/media/images/E2.jpg",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Library",
-        "mr": "ग्रंथालय"
-      },
-      "order": 55
-    },
-    {
-      "type": "paragraph",
-      "text": {
-        "en": "Doctoral Research (Ph.D Theses Abstract) 1970-2011. Bibliography of Doctoral Theses (1970-2011). Guidelines for online resources. Library and Information Services: A Manual for PGS-501 Course. Catalogue of Acta Horticulture. Catalogue of Back volume available. Catalogue of Indian Standards. World Bibliography of Ber.",
-        "mr": "Doctoral Research (Ph.D Theses Abstract) 1970-2011. Bibliography of Doctoral Theses (1970-2011). Guidelines for online resources. Library and Information Services: A Manual for PGS-501 Course. Catalogue of Acta Horticulture. Catalogue of Back volume available. Catalogue of Indian Standards. World Bibliography of Ber."
-      },
-      "order": 56
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Library",
-          "mr": "ग्रंथालय"
-        },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Collections",
-          "mr": "Collections"
-        },
-        {
-          "en": "Sections",
-          "mr": "Sections"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Links",
-          "mr": "Links"
-        },
-        {
-          "en": "Activities",
-          "mr": "Activities"
-        },
-        {
-          "en": "Off Campus Libraries",
-          "mr": "Off Campus Libraries"
-        },
-        {
-          "en": "News & Events",
-          "mr": "News & Events"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "list",
-      "listType": "ol",
-      "items": [
-        {
-          "en": "Recently, The University Library organized a one day workshop on “Update Recent Knowledge & skill of library for affiliated & consulted\r\n                        college Librarian” dated 11th April 2019 of university library conference hall under the chairmanship of the Dean (F/A), MPKV, Rahuri. Total\r\n                        32 participants attended the one day workshop.",
-          "mr": "Recently, The University Library organized a one day workshop on “Update Recent Knowledge & skill of library for affiliated & consulted\r\n                        college Librarian” dated 11th April 2019 of university library conference hall under the chairmanship of the Dean (F/A), MPKV, Rahuri. Total\r\n                        32 participants attended the one day workshop."
-        },
-        {
-          "en": "Library Advisory Committee Library Advisory Committee meeting was held on 14th June 2019 in chamber of the University Librarian under\r\n                        the Chairmanship of the Dean (F/A), MPKV, Rahuri & Chairman, Library Advisory Committee along with other Library Advisory Committee\r\n                        members and discussed various points and matter relative to library department.",
-          "mr": "Library Advisory Committee Library Advisory Committee meeting was held on 14th June 2019 in chamber of the University Librarian under\r\n                        the Chairmanship of the Dean (F/A), MPKV, Rahuri & Chairman, Library Advisory Committee along with other Library Advisory Committee\r\n                        members and discussed various points and matter relative to library department."
-        }
-      ],
-      "order": 58
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 1,
-    "listCount": 2,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 18,
-    "totalRecords": 74
-  }
+  ]
 }

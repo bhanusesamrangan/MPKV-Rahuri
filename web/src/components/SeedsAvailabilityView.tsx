@@ -122,10 +122,10 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
                   {language === 'mr' ? 'बियाणे विक्री कक्ष थेट संपर्क' : 'Rahuri Seed Desk Direct'}
                 </div>
                 <a
-                  href="tel:02426243345"
+                  href="tel:02426243338"
                   className="text-slate-800 hover:text-amber-700 font-semibold text-base sm:text-lg tracking-tight transition-colors block"
                 >
-                  02426-243345 / 243279
+                  02426-243338
                 </a>
               </div>
             </div>
@@ -618,7 +618,7 @@ export const SeedsAvailabilityView: React.FC<SeedsAvailabilityViewProps> = ({
         </div>
 
         <a
-          href="tel:02426243345"
+          href="tel:02426243338"
           className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-2xl text-xs sm:text-sm shadow-xs transition-colors flex-shrink-0"
         >
           <Phone className="w-4 h-4" />

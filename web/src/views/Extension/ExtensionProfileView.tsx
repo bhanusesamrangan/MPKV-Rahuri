@@ -88,7 +88,7 @@ export const ExtensionProfileView: React.FC<ExtensionProfileViewProps> = () => {
           mr: 'पश्चिम महाराष्ट्रातील शेतकरी सक्षमीकरण आणि कृषी तंत्रज्ञान प्रसाराचे बहुस्तरीय संघटनात्मक जाळे.'
         }}
         quickChips={[
-          { label: language === 'mr' ? 'झाड रचना (Tree View)' : 'Tree View Chart', icon: GitFork },
+          { label: language === 'mr' ? 'झाड रचना' : 'Tree View Chart', icon: GitFork },
           { label: language === 'mr' ? '४ विस्तार विभाग' : '4 Operational Wings', icon: Layers },
           { label: language === 'mr' ? '१० जिल्हे कार्यक्षेत्र' : '10 Districts Coverage', icon: MapPin },
           { label: language === 'mr' ? '१७ केव्हीके नेटवर्क' : '17 KVK Network', icon: Building2 }
@@ -104,7 +104,7 @@ export const ExtensionProfileView: React.FC<ExtensionProfileViewProps> = () => {
               {language === 'mr' ? 'विस्तार शिक्षण समन्वय संरचना' : 'Extension Coordination Hierarchy'}
             </h2>
             <p className="text-xs text-stone-500 mt-0.5">
-              {language === 'mr' ? 'झाड रचना (Tree View), अधिकृत तक्ता व स्तरबद्ध सूची' : 'Tree View Flowchart, Official Chart & Tier-based Cadre Breakdown'}
+              {language === 'mr' ? 'झाड रचना, अधिकृत तक्ता व स्तरबद्ध सूची' : 'Tree View Flowchart, Official Chart & Tier-based Cadre Breakdown'}
             </p>
           </div>
 
@@ -118,7 +118,7 @@ export const ExtensionProfileView: React.FC<ExtensionProfileViewProps> = () => {
               }`}
             >
               <GitFork className="w-3.5 h-3.5" />
-              <span>{language === 'mr' ? 'झाड रचना (Tree View)' : 'Tree View'}</span>
+              <span>{language === 'mr' ? 'झाड रचना' : 'Tree View'}</span>
             </button>
 
             <button
@@ -130,7 +130,7 @@ export const ExtensionProfileView: React.FC<ExtensionProfileViewProps> = () => {
               }`}
             >
               <GitBranch className="w-3.5 h-3.5" />
-              <span>{language === 'mr' ? 'अधिकृत तक्ता (Chart)' : 'Official Chart'}</span>
+              <span>{language === 'mr' ? 'अधिकृत तक्ता' : 'Official Chart'}</span>
             </button>
 
             <button
@@ -142,7 +142,7 @@ export const ExtensionProfileView: React.FC<ExtensionProfileViewProps> = () => {
               }`}
             >
               <Layers className="w-3.5 h-3.5" />
-              <span>{language === 'mr' ? 'स्तरबद्ध रचना (Tiers)' : 'Tier List'}</span>
+              <span>{language === 'mr' ? 'स्तरबद्ध रचना' : 'Tier List'}</span>
             </button>
           </div>
         </div>

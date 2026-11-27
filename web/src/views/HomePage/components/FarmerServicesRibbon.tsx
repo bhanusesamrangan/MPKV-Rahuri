@@ -252,7 +252,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
 
           {/* Seed Sales Desk Helpline Card with Pulse */}
           <a
-            href="tel:02426243345"
+            href="tel:02426243338"
             className="flex-shrink-0 flex items-center gap-3 px-4 py-2.5 rounded-2xl bg-white border border-emerald-200/90 shadow-xs hover:shadow-md hover:border-emerald-400 transition-all group"
           >
             <div className="relative p-2.5 rounded-xl bg-gradient-to-br from-emerald-600 to-green-700 text-white shadow-xs flex items-center justify-center">
@@ -264,7 +264,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
                 <span>{language === 'mr' ? 'बियाणे विक्री कक्ष (थेट संपर्क)' : 'Seed Sales Desk (Helpline)'}</span>
               </div>
               <div className="text-emerald-950 font-bold text-sm tracking-wide">
-                02426-243345
+                02426-243338
               </div>
               <div className="text-[10.5px] text-emerald-800 font-medium mt-0.5 flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 inline-block shrink-0" />

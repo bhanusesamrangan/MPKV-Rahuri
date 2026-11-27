@@ -1,9 +1,17 @@
 {
+  "menuId": "menu_library",
+  "parentMenu": {
+    "id": "menu_library",
+    "title": {
+      "en": "Library",
+      "mr": "ग्रंथालय"
+    }
+  },
+  "scrapedAt": "2026-11-26T16:14:28.081382+00:00",
   "slug": "library-links",
   "url": "https://mpkv.ac.in/Library/LibLinks",
   "route": "/Library/LibLinks",
   "sourcePage": "library-links",
-  "scrapedAt": "2026-11-22T20:35:56.206882",
   "title": {
     "en": "Digital Links & CeRA Journals",
     "mr": "डिजिटल ई-रिसोर्सेस व CeRA"
@@ -38,1386 +46,195 @@
       "href": "/library/links"
     }
   ],
-  "hero": {
-    "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
-    },
-    "subtitle": {
-      "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Library",
-      "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी — ग्रंथालय"
-    },
-    "badge": {
-      "en": "Official University Portal",
-      "mr": "अधिकृत विद्यापीठ दालन"
-    }
-  },
-  "headings": [
-    {
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "level": "h2",
-      "text": {
-        "en": "Library",
-        "mr": "ग्रंथालय"
-      },
-      "order": 55
-    }
-  ],
-  "paragraphs": [],
-  "lists": [
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Library",
-          "mr": "ग्रंथालय"
-        },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Collections",
-          "mr": "Collections"
-        },
-        {
-          "en": "Sections",
-          "mr": "Sections"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Links",
-          "mr": "Links"
-        },
-        {
-          "en": "Activities",
-          "mr": "Activities"
-        },
-        {
-          "en": "Off Campus Libraries",
-          "mr": "Off Campus Libraries"
-        },
-        {
-          "en": "News & Events",
-          "mr": "News & Events"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 56
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Astral ebooks -astralebooks.com",
-          "mr": "Astral ebooks -astralebooks.com"
-        },
-        {
-          "en": "Cabi ebooks -https://mahatma-cabi-patron.eb20.com/Collections/Books/mahatma+bespoke",
-          "mr": "Cabi ebooks -https://mahatma-cabi-patron.eb20.com/Collections/Books/mahatma+bespoke"
-        },
-        {
-          "en": "Arts and Science Publisher -www.asapglobe.com",
-          "mr": "Arts and Science Publisher -www.asapglobe.com"
-        },
-        {
-          "en": "Taylor & Francis e-  books-https://www.taylorfrancis.com/search?subject=SCAG0505&key",
-          "mr": "Taylor & Francis e-  books-https://www.taylorfrancis.com/search?subject=SCAG0505&key"
-        },
-        {
-          "en": "Kartonline -https://www.cambridge.org/core/what-we-publish/books",
-          "mr": "Kartonline -https://www.cambridge.org/core/what-we-publish/books"
-        },
-        {
-          "en": "New India Publishing Agency –https://www.nipaers.com/univebooks/dashboard",
-          "mr": "New India Publishing Agency –https://www.nipaers.com/univebooks/dashboard"
-        },
-        {
-          "en": "Anisha Publications - https://www.anishapublications.com",
-          "mr": "Anisha Publications - https://www.anishapublications.com"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "CeRA  (jgateplus.com)http://jgateplus.com/search",
-          "mr": "CeRA  (jgateplus.com)http://jgateplus.com/search"
-        },
-        {
-          "en": "Indianjournals.com (22 titles)https://www.indianjournals.com/ijor.aspx?target=journals_list&type=alpha",
-          "mr": "Indianjournals.com (22 titles)https://www.indianjournals.com/ijor.aspx?target=journals_list&type=alpha"
-        },
-        {
-          "en": "onos.gov.in - https://onos.gov.in",
-          "mr": "onos.gov.in - https://onos.gov.in"
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "https://www.indiastatagri.com/(LINK is given on jgateplus portalhttps://jgateplus.com/search/?spage=authorfinder#authorfinder)",
-          "mr": "https://www.indiastatagri.com/(LINK is given on jgateplus portalhttps://jgateplus.com/search/?spage=authorfinder#authorfinder)"
-        },
-        {
-          "en": "http://www.fao.org",
-          "mr": "http://www.fao.org"
-        },
-        {
-          "en": "Govt. of Maharashtra(Agril. Dept.)http://krishi.maharashtra.gov.in/1250/Taluka-Level",
-          "mr": "Govt. of Maharashtra(Agril. Dept.)http://krishi.maharashtra.gov.in/1250/Taluka-Level"
-        },
-        {
-          "en": "JRF /SRF Online Test Series-https://www.nipaers.com/univhome",
-          "mr": "JRF /SRF Online Test Series-https://www.nipaers.com/univhome"
-        }
-      ],
-      "order": 59
-    },
-    {
-      "type": "ul",
-      "items": [
-        {
-          "en": "Krishikosh -http://krishikosh.egranth.ac.in( Books , Journals , Reports , Articles , Theses etc.( full text ) are available) e-Books ( Full Text )",
-          "mr": "Krishikosh -http://krishikosh.egranth.ac.in( Books , Journals , Reports , Articles , Theses etc.( full text ) are available) e-Books ( Full Text )"
-        },
-        {
-          "en": "Egranth -http://www.egranth.ac.in( Option krishikosh )",
-          "mr": "Egranth -http://www.egranth.ac.in( Option krishikosh )"
-        },
-        {
-          "en": "E- krishishiksha (e-courses)https://ecourses.icar.gov.in/",
-          "mr": "E- krishishiksha (e-courses)https://ecourses.icar.gov.in/"
-        },
-        {
-          "en": "IDEAL (A platform of Indian Agricultural Libraries)http://agricat.egranth.ac.in",
-          "mr": "IDEAL (A platform of Indian Agricultural Libraries)http://agricat.egranth.ac.in"
-        },
-        {
-          "en": "Web OPAC–http://mpkvlibrary.ourlib.in",
-          "mr": "Web OPAC–http://mpkvlibrary.ourlib.in"
-        },
-        {
-          "en": "Plagiarism Software-https://www.drillbitplagiarismcheck.com/drillbit_new/drillbitlogin",
-          "mr": "Plagiarism Software-https://www.drillbitplagiarismcheck.com/drillbit_new/drillbitlogin"
-        }
-      ],
-      "order": 60
-    }
-  ],
-  "tables": [],
-  "cards": [],
-  "notices": [],
-  "tenders": [],
-  "circulars": [],
-  "mediaAssets": [
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/mpkv icon.png",
-      "localPath": "/media/images/mpkv_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/images/seed icon.png",
-      "localPath": "/media/images/seed_icon.png",
-      "category": "images",
-      "alt": ""
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/RTI.pdf",
-      "localPath": "/media/docs/RTI.pdf",
-      "category": "docs",
-      "label": "RTI"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service (1).pdf",
-      "localPath": "/media/docs/Right_to_Service_1_.pdf",
-      "category": "docs",
-      "label": "Right to Service"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDoctor.pdf",
-      "localPath": "/media/docs/EligibilityDoctor.pdf",
-      "category": "docs",
-      "label": "Doctoral"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityMaster_.pdf",
-      "localPath": "/media/docs/EligibilityMaster_.pdf",
-      "category": "docs",
-      "label": "Master's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityBachelor.pdf",
-      "localPath": "/media/docs/EligibilityBachelor.pdf",
-      "category": "docs",
-      "label": "Bachelor's"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/EligibilityDiploma.pdf",
-      "localPath": "/media/docs/EligibilityDiploma.pdf",
-      "category": "docs",
-      "label": "Diploma"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Right to Service.pdf",
-      "localPath": "/media/docs/Right_to_Service.pdf",
-      "category": "docs",
-      "label": "Services"
-    },
-    {
-      "originalUrl": "https://mpkv.ac.in/StaticPdf/Citizens Charter  2019.pdf",
-      "localPath": "/media/docs/Citizens_Charter_2019.pdf",
-      "category": "docs",
-      "label": "Citizens Charter"
-    }
-  ],
-  "contentBlocks": [
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Education at a Glance",
-        "mr": "Education at a Glance"
-      },
-      "order": 1
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 2
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 3
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Colleges",
-        "mr": "महाविद्यालये"
-      },
-      "order": 4
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Courses & Curriculum",
-        "mr": "अभ्यासक्रम"
-      },
-      "order": 5
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Faculty",
-        "mr": "विद्याशाखा"
-      },
-      "order": 6
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 7
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
-      },
-      "order": 8
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Certificate Courses",
-        "mr": "Certificate Courses"
-      },
-      "order": 9
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research at a Glance",
-        "mr": "Research at a Glance"
-      },
-      "order": 10
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 11
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 12
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Stations",
-        "mr": "संशोधन केंद्रे"
-      },
-      "order": 13
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Schemes",
-        "mr": "संशोधन योजना"
-      },
-      "order": 14
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Technology",
-        "mr": "तंत्रज्ञान"
-      },
-      "order": 15
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Research Review Mechanism",
-        "mr": "Research Review Mechanism"
-      },
-      "order": 16
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension at a Glance",
-        "mr": "Extension at a Glance"
-      },
-      "order": 17
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Organizational Profile",
-        "mr": "Organizational Profile"
-      },
-      "order": 18
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Thrust Areas",
-        "mr": "Thrust Areas"
-      },
-      "order": 19
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 20
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Krishi Vigyan Kendras",
-        "mr": "Krishi Vigyan Kendras"
-      },
-      "order": 21
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Communication Center",
-        "mr": "Communication Center"
-      },
-      "order": 22
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Ad-hoc Extension Projects",
-        "mr": "Ad-hoc Extension Projects"
-      },
-      "order": 23
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Agricultural Technology\n                                                        Information Centre",
-        "mr": "Agricultural Technology\n                                                        Information Centre"
-      },
-      "order": 24
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Extension Centers",
-        "mr": "विस्तार केंद्रे"
-      },
-      "order": 25
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "About",
-        "mr": "About"
-      },
-      "order": 26
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Collections",
-        "mr": "Collections"
-      },
-      "order": 27
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sections",
-        "mr": "Sections"
-      },
-      "order": 28
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Facilities",
-        "mr": "Facilities"
-      },
-      "order": 29
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 30
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Links",
-        "mr": "Links"
-      },
-      "order": 31
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Activities",
-        "mr": "Activities"
-      },
-      "order": 32
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Off Campus Libraries",
-        "mr": "Off Campus Libraries"
-      },
-      "order": 33
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "News & Events",
-        "mr": "News & Events"
-      },
-      "order": 34
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Contacts",
-        "mr": "Contacts"
-      },
-      "order": 35
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Procedure",
-        "mr": "Admission Procedure"
-      },
-      "order": 36
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Sports",
-        "mr": "Sports"
-      },
-      "order": 37
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Hostels",
-        "mr": "Hostels"
-      },
-      "order": 38
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Circulars",
-        "mr": "Circulars"
-      },
-      "order": 39
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "International Students",
-        "mr": "International Students"
-      },
-      "order": 40
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Academic Regulations",
-        "mr": "Academic Regulations"
-      },
-      "order": 41
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Student's Form (PGI)",
-        "mr": "Student's Form (PGI)"
-      },
-      "order": 42
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Students Complaints",
-        "mr": "Students Complaints"
-      },
-      "order": 43
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Admission Eligibility",
-        "mr": "प्रवेश पात्रता"
-      },
-      "order": 44
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Farmer\n                                                        Scientist Forum",
-        "mr": "Farmer\n                                                        Scientist Forum"
-      },
-      "order": 45
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Kisan Aadhar Sammelan",
-        "mr": "Kisan Aadhar Sammelan"
-      },
-      "order": 46
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Services",
-        "mr": "Services"
-      },
-      "order": 47
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Publications",
-        "mr": "Publications"
-      },
-      "order": 48
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Success Stories",
-        "mr": "Success Stories"
-      },
-      "order": 49
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Inputs",
-        "mr": "निविष्ठा"
-      },
-      "order": 50
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Pune",
-        "mr": "College of Agriculture, Pune"
-      },
-      "order": 51
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "College of Agriculture, Dhule",
-        "mr": "College of Agriculture, Dhule"
-      },
-      "order": 52
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "R. C. S. M. College of Agriculture, Kolhapur",
-        "mr": "R. C. S. M. College of Agriculture, Kolhapur"
-      },
-      "order": 53
-    },
-    {
-      "type": "heading",
-      "level": "h6",
-      "text": {
-        "en": "Dr A.S. College of Agril. Engg. & Tech., Rahuri",
-        "mr": "Dr A.S. College of Agril. Engg. & Tech., Rahuri"
-      },
-      "order": 54
-    },
-    {
-      "type": "heading",
-      "level": "h2",
-      "text": {
-        "en": "Library",
-        "mr": "ग्रंथालय"
-      },
-      "order": 55
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Library",
-          "mr": "ग्रंथालय"
-        },
-        {
-          "en": "About",
-          "mr": "About"
-        },
-        {
-          "en": "Collections",
-          "mr": "Collections"
-        },
-        {
-          "en": "Sections",
-          "mr": "Sections"
-        },
-        {
-          "en": "Facilities",
-          "mr": "Facilities"
-        },
-        {
-          "en": "Services",
-          "mr": "Services"
-        },
-        {
-          "en": "Links",
-          "mr": "Links"
-        },
-        {
-          "en": "Activities",
-          "mr": "Activities"
-        },
-        {
-          "en": "Off Campus Libraries",
-          "mr": "Off Campus Libraries"
-        },
-        {
-          "en": "News & Events",
-          "mr": "News & Events"
-        },
-        {
-          "en": "Contact",
-          "mr": "Contact"
-        }
-      ],
-      "order": 56
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Astral ebooks -astralebooks.com",
-          "mr": "Astral ebooks -astralebooks.com"
-        },
-        {
-          "en": "Cabi ebooks -https://mahatma-cabi-patron.eb20.com/Collections/Books/mahatma+bespoke",
-          "mr": "Cabi ebooks -https://mahatma-cabi-patron.eb20.com/Collections/Books/mahatma+bespoke"
-        },
-        {
-          "en": "Arts and Science Publisher -www.asapglobe.com",
-          "mr": "Arts and Science Publisher -www.asapglobe.com"
-        },
-        {
-          "en": "Taylor & Francis e-  books-https://www.taylorfrancis.com/search?subject=SCAG0505&key",
-          "mr": "Taylor & Francis e-  books-https://www.taylorfrancis.com/search?subject=SCAG0505&key"
-        },
-        {
-          "en": "Kartonline -https://www.cambridge.org/core/what-we-publish/books",
-          "mr": "Kartonline -https://www.cambridge.org/core/what-we-publish/books"
-        },
-        {
-          "en": "New India Publishing Agency –https://www.nipaers.com/univebooks/dashboard",
-          "mr": "New India Publishing Agency –https://www.nipaers.com/univebooks/dashboard"
-        },
-        {
-          "en": "Anisha Publications - https://www.anishapublications.com",
-          "mr": "Anisha Publications - https://www.anishapublications.com"
-        }
-      ],
-      "order": 57
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "CeRA  (jgateplus.com)http://jgateplus.com/search",
-          "mr": "CeRA  (jgateplus.com)http://jgateplus.com/search"
-        },
-        {
-          "en": "Indianjournals.com (22 titles)https://www.indianjournals.com/ijor.aspx?target=journals_list&type=alpha",
-          "mr": "Indianjournals.com (22 titles)https://www.indianjournals.com/ijor.aspx?target=journals_list&type=alpha"
-        },
-        {
-          "en": "onos.gov.in - https://onos.gov.in",
-          "mr": "onos.gov.in - https://onos.gov.in"
-        }
-      ],
-      "order": 58
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "https://www.indiastatagri.com/(LINK is given on jgateplus portalhttps://jgateplus.com/search/?spage=authorfinder#authorfinder)",
-          "mr": "https://www.indiastatagri.com/(LINK is given on jgateplus portalhttps://jgateplus.com/search/?spage=authorfinder#authorfinder)"
-        },
-        {
-          "en": "http://www.fao.org",
-          "mr": "http://www.fao.org"
-        },
-        {
-          "en": "Govt. of Maharashtra(Agril. Dept.)http://krishi.maharashtra.gov.in/1250/Taluka-Level",
-          "mr": "Govt. of Maharashtra(Agril. Dept.)http://krishi.maharashtra.gov.in/1250/Taluka-Level"
-        },
-        {
-          "en": "JRF /SRF Online Test Series-https://www.nipaers.com/univhome",
-          "mr": "JRF /SRF Online Test Series-https://www.nipaers.com/univhome"
-        }
-      ],
-      "order": 59
-    },
-    {
-      "type": "list",
-      "listType": "ul",
-      "items": [
-        {
-          "en": "Krishikosh -http://krishikosh.egranth.ac.in( Books , Journals , Reports , Articles , Theses etc.( full text ) are available) e-Books ( Full Text )",
-          "mr": "Krishikosh -http://krishikosh.egranth.ac.in( Books , Journals , Reports , Articles , Theses etc.( full text ) are available) e-Books ( Full Text )"
-        },
-        {
-          "en": "Egranth -http://www.egranth.ac.in( Option krishikosh )",
-          "mr": "Egranth -http://www.egranth.ac.in( Option krishikosh )"
-        },
-        {
-          "en": "E- krishishiksha (e-courses)https://ecourses.icar.gov.in/",
-          "mr": "E- krishishiksha (e-courses)https://ecourses.icar.gov.in/"
-        },
-        {
-          "en": "IDEAL (A platform of Indian Agricultural Libraries)http://agricat.egranth.ac.in",
-          "mr": "IDEAL (A platform of Indian Agricultural Libraries)http://agricat.egranth.ac.in"
-        },
-        {
-          "en": "Web OPAC–http://mpkvlibrary.ourlib.in",
-          "mr": "Web OPAC–http://mpkvlibrary.ourlib.in"
-        },
-        {
-          "en": "Plagiarism Software-https://www.drillbitplagiarismcheck.com/drillbit_new/drillbitlogin",
-          "mr": "Plagiarism Software-https://www.drillbitplagiarismcheck.com/drillbit_new/drillbitlogin"
-        }
-      ],
-      "order": 60
-    }
-  ],
-  "stats": {
-    "headingCount": 55,
-    "paragraphCount": 0,
-    "listCount": 5,
-    "tableCount": 0,
-    "cardCount": 0,
-    "noticeCount": 0,
-    "mediaCount": 14,
-    "totalRecords": 69
-  },
-  "menuId": "menu_library",
-  "parentMenu": {
-    "id": "menu_library",
-    "title": {
-      "en": "Library",
-      "mr": "ग्रंथालय"
-    }
-  },
   "submenuGroup": {
     "en": "Digital & Off-Campus",
     "mr": "ई-रिसोर्सेस व इतर महाविद्यालये"
-  }
+  },
+  "hero": {
+    "title": {
+      "en": "Digital E-Resources, CeRA Journals & Plagiarism Suite",
+      "mr": "ई-पुस्तके, CeRA ई-जर्नल्स, कृषिकोश व डिजिटल पोर्टल संच"
+    },
+    "subtitle": {
+      "en": "Direct verified access to all 21 official portals curated by MPKV Central Library — E-Books, ONOS, CeRA J-Gate+, IndiaStatAgri, Krishikosh, Web OPAC & DrillBit.",
+      "mr": "MPKV मध्यवर्ती ग्रंथालयाची सर्व २१ अधिकृत डिजिटल साधने — ई-पुस्तके, CeRA, ONOS, कृषिकोश, Web OPAC व DrillBit थेट प्रवेश."
+    },
+    "badge": {
+      "en": "21 Verified Knowledge Portals",
+      "mr": "२१ अधिकृत डिजिटल दुवे"
+    }
+  },
+  "resourceGroups": [
+    {
+      "id": "ebooks",
+      "title": {
+        "en": "E-Books Platforms",
+        "mr": "ई-पुस्तके"
+      },
+      "links": [
+        {
+          "name": "Astral eBooks",
+          "host": "astralebooks.com",
+          "url": "http://www.astralebooks.com",
+          "note": "Agricultural & Biological Sciences e-book catalogue"
+        },
+        {
+          "name": "CABI eBooks (MPKV Patron Portal)",
+          "host": "mahatma-cabi-patron.eb20.com",
+          "url": "https://mahatma-cabi-patron.eb20.com/Collections/Books/mahatma+bespoke",
+          "note": "Mahatma Phule KV bespoke CABI collection"
+        },
+        {
+          "name": "Arts and Science Publisher",
+          "host": "asapglobe.com",
+          "url": "http://asapglobe.com/",
+          "note": "ASAP Globe academic reference titles"
+        },
+        {
+          "name": "Taylor & Francis E-Books",
+          "host": "taylorfrancis.com",
+          "url": "https://www.taylorfrancis.com/search?subject=SCAG0505&key=",
+          "note": "Agricultural Sciences & Agronomy collection"
+        },
+        {
+          "name": "Kartonline (Cambridge Core Books)",
+          "host": "cambridge.org",
+          "url": "https://www.cambridge.org/core/what-we-publish/books",
+          "note": "Cambridge University Press academic books"
+        },
+        {
+          "name": "New India Publishing Agency (NIPA)",
+          "host": "nipaers.com",
+          "url": "https://www.nipaers.com/univebooks/dashboard",
+          "note": "NIPA University eBooks institutional dashboard"
+        },
+        {
+          "name": "Anisha Publications",
+          "host": "anishapublications.com",
+          "url": "https://www.anishapublications.com/",
+          "note": "Agricultural & allied science titles"
+        }
+      ]
+    },
+    {
+      "id": "ejournals",
+      "title": {
+        "en": "E-Journals & Consortia",
+        "mr": "ई-जर्नल्स व राष्ट्रीय कन्सोर्टियम"
+      },
+      "links": [
+        {
+          "name": "CeRA (J-Gate Plus)",
+          "host": "jgateplus.com",
+          "url": "http://jgateplus.com/search",
+          "note": "ICAR Consortium for e-Resources in Agriculture journal search"
+        },
+        {
+          "name": "IndianJournals.com (22 Titles)",
+          "host": "indianjournals.com",
+          "url": "https://www.indianjournals.com/ijor.aspx?target=journals_list&type=alpha",
+          "note": "22 subscribed Indian agricultural & scientific journals"
+        },
+        {
+          "name": "ONOS (One Nation One Subscription)",
+          "host": "onos.gov.in",
+          "url": "https://onos.gov.in/",
+          "note": "Govt. of India unified national scholarly journal access"
+        }
+      ]
+    },
+    {
+      "id": "statistical",
+      "title": {
+        "en": "Statistical Data & Competitive Exam Prep",
+        "mr": "सांख्यिकी माहिती व स्पर्धा परीक्षा"
+      },
+      "links": [
+        {
+          "name": "IndiaStatAgri",
+          "host": "indiastatagri.com",
+          "url": "https://www.indiastatagri.com/",
+          "note": "Indian agricultural statistics across districts & crops"
+        },
+        {
+          "name": "J-Gate Plus AuthorFinder",
+          "host": "jgateplus.com",
+          "url": "https://jgateplus.com/search/?spage=authorfinder#authorfinder",
+          "note": "Author citation & research output lookup"
+        },
+        {
+          "name": "FAO (Food & Agriculture Organization)",
+          "host": "fao.org",
+          "url": "http://www.fao.org",
+          "note": "Global FAOSTAT data, technical reports & standards"
+        },
+        {
+          "name": "Govt. of Maharashtra (Agril. Dept.)",
+          "host": "krishi.maharashtra.gov.in",
+          "url": "http://krishi.maharashtra.gov.in/1250/Taluka-Level",
+          "note": "Taluka-level Maharashtra agricultural department portal"
+        },
+        {
+          "name": "JRF / SRF Online Test Series (NIPA)",
+          "host": "nipaers.com",
+          "url": "https://www.nipaers.com/univhome",
+          "note": "ICAR JRF/SRF mock test series portal"
+        }
+      ]
+    },
+    {
+      "id": "repositories",
+      "title": {
+        "en": "Repositories, e-Courses & Union OPAC",
+        "mr": "संशोधन प्रबंध कोष, ई-अभ्यासक्रम व OPAC"
+      },
+      "links": [
+        {
+          "name": "Krishikosh (ICAR Institutional Repository)",
+          "host": "krishikosh.egranth.ac.in",
+          "url": "http://krishikosh.egranth.ac.in",
+          "note": "MPKV M.Sc./Ph.D. theses, full-text books, reports & journals uploaded"
+        },
+        {
+          "name": "e-Granth (ICAR Full Text Archive)",
+          "host": "egranth.ac.in",
+          "url": "http://www.egranth.ac.in",
+          "note": "Digital archive across 12 NARS libraries (select Krishikosh option)"
+        },
+        {
+          "name": "e-KrishiShiksha (e-Courses)",
+          "host": "ecourses.icar.gov.in",
+          "url": "https://ecourses.icar.gov.in/",
+          "note": "ICAR official undergraduate & postgraduate e-courseware"
+        },
+        {
+          "name": "IDEAL (Indian Agricultural Libraries Platform)",
+          "host": "agricat.egranth.ac.in",
+          "url": "http://agricat.egranth.ac.in",
+          "note": "National union catalogue of Indian agricultural libraries"
+        },
+        {
+          "name": "MPKV Web OPAC",
+          "host": "mpkvlibrary.ourlib.in",
+          "url": "http://mpkvlibrary.ourlib.in/",
+          "note": "Search books, theses & serial holdings in MPKV Central Library"
+        }
+      ]
+    },
+    {
+      "id": "plagiarism",
+      "title": {
+        "en": "Research Integrity & Plagiarism Check",
+        "mr": "साहित्यिक चोरी तपासणी प्रणाली"
+      },
+      "links": [
+        {
+          "name": "DrillBit Plagiarism Detection Software",
+          "host": "drillbitplagiarismcheck.com",
+          "url": "https://www.drillbitplagiarismcheck.com/drillbit_new/drillbitlogin",
+          "note": "Authorized thesis & manuscript originality check portal"
+        }
+      ]
+    }
+  ]
 }

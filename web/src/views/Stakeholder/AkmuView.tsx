@@ -61,7 +61,6 @@ export const AkmuView: React.FC<AkmuViewProps> = ({ pageData, initialTab }) => {
   const intro = data?.introduction || {};
   const activities = data?.activities || [];
   const trainingsConducted = data?.trainingsConducted || [];
-  const nationalBrochures = data?.nationalTrainingBrochures || [];
   const publications = data?.publications || [];
   const contact = data?.contact || {};
   const networkQueryInfo = data?.networkQueryInfo || {};
@@ -75,7 +74,7 @@ export const AkmuView: React.FC<AkmuViewProps> = ({ pageData, initialTab }) => {
   const tabs = [
     { id: 'introduction', labelEn: 'Introduction & NKN', labelMr: 'परिचय व NKN नेटवर्क', icon: Cpu },
     { id: 'activities', labelEn: `Activities (${activities.length})`, labelMr: `आयटी उपक्रम (${activities.length})`, icon: Server },
-    { id: 'trainings', labelEn: `Trainings & PDFs (${nationalBrochures.length + trainingsConducted.length})`, labelMr: `प्रशिक्षणे व PDF (${nationalBrochures.length + trainingsConducted.length})`, icon: GraduationCap },
+    { id: 'trainings', labelEn: `Trainings Conducted (${trainingsConducted.length})`, labelMr: `आयोजित प्रशिक्षणे (${trainingsConducted.length})`, icon: GraduationCap },
     { id: 'publications', labelEn: `Publications (${publications.length})`, labelMr: `प्रकाशने (${publications.length})`, icon: BookOpen },
     { id: 'contact', labelEn: 'Coordinator & Contact', labelMr: 'समन्वयक व संपर्क', icon: Users },
     { id: 'network_query', labelEn: 'Network Query Desk', labelMr: 'नेटवर्क तक्रार कक्ष', icon: Wrench }
@@ -476,66 +475,9 @@ export const AkmuView: React.FC<AkmuViewProps> = ({ pageData, initialTab }) => {
           </div>
         )}
 
-        {/* TAB 3: NATIONAL TRAINING BROCHURES (PDFs) + 18 HISTORICAL TRAININGS CONDUCTED */}
+        {/* TAB 3: 18 HISTORICAL TRAININGS CONDUCTED */}
         {activeTab === 'trainings' && (
           <div className="space-y-6">
-            {/* 4 National Training Programs with Downloadable Brochures */}
-            <div className="p-6 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-stone-100">
-                <div>
-                  <h2 className="text-lg sm:text-xl font-extrabold text-stone-900 font-serif flex items-center gap-2">
-                    <FileText className="w-5 h-5 text-amber-600" />
-                    <span>{language === 'mr' ? 'अधिकृत राष्ट्रीय प्रशिक्षण माहितीपत्रके (PDF डाउनलोड)' : 'Official CAAST / AKMU National Training Brochures (PDFs)'}</span>
-                  </h2>
-                  <p className="text-xs text-stone-500 mt-0.5">
-                    {language === 'mr'
-                      ? 'ड्रोन, मशीन लर्निंग, हायपरस्पेक्ट्रल रिमोट सेन्सिंग व आयसीटी विषयक राष्ट्रीय अभ्यासक्रम वेळापत्रक व माहितीपत्रक.'
-                      : 'Complete downloadable syllabus & schedules for national courses conducted under CAAST-CSAWM & AKMU.'}
-                  </p>
-                </div>
-                <Link
-                  href="/Akmu/Traning"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold hover:bg-emerald-100 transition shrink-0"
-                >
-                  <span>{language === 'mr' ? 'सविस्तर प्रशिक्षण दालन पहा' : 'Full Trainings Portal'}</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </Link>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {nationalBrochures.map((b: any) => (
-                  <div
-                    key={b.srNo}
-                    className="p-4 rounded-2xl bg-stone-50 border border-stone-200 flex flex-col justify-between space-y-3"
-                  >
-                    <div className="space-y-2">
-                      <div className="flex items-center justify-between gap-2 text-xs">
-                        <span className="px-2.5 py-0.5 rounded-md bg-emerald-900 text-amber-300 font-bold">
-                          #{b.srNo} • {b.tag}
-                        </span>
-                        <span className="text-[11px] font-semibold text-stone-500">{b.size}</span>
-                      </div>
-                      <h3 className="text-xs sm:text-sm font-bold text-stone-900 font-serif leading-snug">
-                        {getBilingual(b.title)}
-                      </h3>
-                    </div>
-
-                    <div className="pt-2 border-t border-stone-200/70 flex items-center justify-between">
-                      <a
-                        href={b.fileUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-900 text-white font-bold text-xs hover:bg-emerald-950 transition shadow-2xs"
-                      >
-                        <Download className="w-3.5 h-3.5 text-amber-300" />
-                        <span>{language === 'mr' ? 'माहितीपत्रक PDF डाउनलोड' : 'Download Brochure PDF'}</span>
-                      </a>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             {/* 18 Historical Trainings Conducted Table */}
             <div className="p-6 rounded-3xl bg-white border border-stone-200/90 shadow-xs space-y-4">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-stone-100">
@@ -795,15 +737,6 @@ export const AkmuView: React.FC<AkmuViewProps> = ({ pageData, initialTab }) => {
                       <Send className="w-3.5 h-3.5 text-amber-300" />
                       <span>{language === 'mr' ? 'तक्रार तयार करा' : 'Submit Network Query'}</span>
                     </button>
-                    <a
-                      href={networkQueryInfo.officialFormUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 font-bold text-xs transition"
-                    >
-                      <span>{language === 'mr' ? 'मूळ पोर्टल फॉर्म उघडा' : 'Open Official Portal Form'}</span>
-                      <ExternalLink className="w-3.5 h-3.5" />
-                    </a>
                   </div>
                 </form>
               )}

@@ -5,14 +5,43 @@
   "sourcePage": "extension-district-centers",
   "scrapedAt": "2026-11-22T20:35:33.702168",
   "title": {
-    "en": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-    "mr": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+    "en": "District Extension Centers",
+    "mr": "जिल्हा विस्तार केंद्रे"
   },
-  "breadcrumb": [],
+  "breadcrumb": [
+    {
+      "title": {
+        "en": "Home",
+        "mr": "मुख्यपृष्ठ"
+      },
+      "href": "/"
+    },
+    {
+      "title": {
+        "en": "Extension",
+        "mr": "विस्तार"
+      },
+      "href": "/extension/at-a-glance"
+    },
+    {
+      "title": {
+        "en": "Regional & District Centers",
+        "mr": "विभागीय व जिल्हा विस्तार केंद्रे"
+      },
+      "href": "/extension/district-centers"
+    },
+    {
+      "title": {
+        "en": "District Extension Centers",
+        "mr": "जिल्हा विस्तार केंद्रे"
+      },
+      "href": "/extension/district-centers"
+    }
+  ],
   "hero": {
     "title": {
-      "en": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
-      "mr": "Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri"
+      "en": "Extension Center DEC",
+      "mr": "Extension Center DEC"
     },
     "subtitle": {
       "en": "Mahatma Phule Krishi Vidyapeeth, Rahuri — Extension Center DEC - Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri",
@@ -84,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -921,7 +950,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1451,5 +1480,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 76
+  },
+  "menuId": "menu_extension",
+  "parentMenu": {
+    "id": "menu_extension",
+    "title": {
+      "en": "Extension",
+      "mr": "विस्तार"
+    }
+  },
+  "submenuGroup": {
+    "en": "Regional & District Centers",
+    "mr": "विभागीय व जिल्हा विस्तार केंद्रे"
   }
 }

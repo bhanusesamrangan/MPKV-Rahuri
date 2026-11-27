@@ -144,7 +144,7 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
       title: { en: 'Western Ghat Zone', mr: 'पश्चिम घाट विभाग' },
       districts: { en: 'High altitude ghats of Mahabaleshwar, Igatpuri, Radhanagari, Peint, Surgana', mr: 'महाबळेश्वर, इगतपुरी, राधानगरी, पेठ, सुरगाणा सह्याद्री घाटमाथा परिसर' },
       climate: { en: 'Heavy to extremely heavy rainfall (3000-5000+ mm), cool misty weather', mr: 'मुसळधार ते अतिवृष्टी (३०००-५०००+ मिमी), थंड, धुक्याचे व आल्हाददायक हवामान' },
-      soils: { en: 'Laterite and lateritic acidic soils rich in organic matter but deficient in phosphorus', mr: 'सेंद्रिय कर्बयुक्त जांभी (Laterite) व आम्लधर्मीय जमीन' },
+      soils: { en: 'Laterite and lateritic acidic soils rich in organic matter but deficient in phosphorus', mr: 'सेंद्रिय कर्बयुक्त जांभी व आम्लधर्मीय जमीन' },
       crops: { en: 'Hill Millets (Finger millet / Nachani, Proso millet), High-altitude Paddy, Strawberry, Sub-tropical fruits', mr: 'डोंगरी तृणधान्ये (नाचणी, वरी), खरीप भात, स्ट्रॉबेरी, उपोष्ण कटिबंधीय फळे' },
       keyStation: { en: 'Wheat Rust Research Station, Mahabaleshwar & ARS, Igatpuri', mr: 'गहू तांबेरा संशोधन केंद्र, महाबळेश्वर व कृषी संशोधन केंद्र, इगतपुरी' },
       badgeColor: 'bg-sky-100 text-sky-950 border-sky-300'
@@ -478,7 +478,7 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
     },
     {
       year: '2019-20',
-      title: { en: 'AICRP on Mushroom - Best Centre in India Award', mr: 'अखिल भारतीय अळंबी (Mushroom) संशोधन प्रकल्प - देशातील सर्वोत्तम केंद्र' },
+      title: { en: 'AICRP on Mushroom - Best Centre in India Award', mr: 'अखिल भारतीय अळंबी संशोधन प्रकल्प - देशातील सर्वोत्तम केंद्र' },
       by: { en: 'ICAR - Directorate of Mushroom Research', mr: 'आयसीएआर - अळंबी संशोधन संचालनालय' },
       desc: {
         en: 'Conferred upon the Mushroom Project at College of Agriculture, Pune for oyster and button mushroom spawn innovations.',
@@ -629,20 +629,20 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
 
               <div className="space-y-2 text-xs">
                 <div className="flex items-start justify-between gap-2">
-                  <span className="text-emerald-200 font-medium">{language === 'mr' ? 'कुलपती (Chancellor):' : 'Chancellor:'}</span>
+                  <span className="text-emerald-200 font-medium">{language === 'mr' ? 'कुलपती:' : 'Chancellor:'}</span>
                   <span className="font-bold text-white text-right">{language === 'mr' ? 'मा. राज्यपाल, महाराष्ट्र राज्य' : 'Governor of Maharashtra'}</span>
                 </div>
                 <div className="flex items-start justify-between gap-2">
-                  <span className="text-emerald-200 font-medium">{language === 'mr' ? 'प्र-कुलपती (Pro-Chancellor):' : 'Pro-Chancellor:'}</span>
+                  <span className="text-emerald-200 font-medium">{language === 'mr' ? 'प्र-कुलपती:' : 'Pro-Chancellor:'}</span>
                   <span className="font-bold text-white text-right">{language === 'mr' ? 'मा. कृषी मंत्री, महाराष्ट्र राज्य' : 'Minister of Agriculture, MS'}</span>
                 </div>
                 <div className="flex items-start justify-between gap-2">
-                  <span className="text-emerald-200 font-medium">{language === 'mr' ? 'कुलगुरू (Vice-Chancellor):' : 'Vice-Chancellor:'}</span>
+                  <span className="text-emerald-200 font-medium">{language === 'mr' ? 'कुलगुरू:' : 'Vice-Chancellor:'}</span>
                   <span className="font-bold text-amber-300 text-right">{language === 'mr' ? 'डॉ. विलास के. खर्चे' : 'Dr. Vilas K. Kharche'}</span>
                 </div>
                 <div className="flex items-start justify-between gap-2 pt-1 border-t border-white/10">
                   <span className="text-emerald-200 font-medium">{language === 'mr' ? 'सर्वोच्च धोरण मंडळ:' : 'Apex Policy Body:'}</span>
-                  <span className="font-semibold text-white text-right">{language === 'mr' ? 'कार्यकारी परिषद (Executive Council)' : 'Executive Council'}</span>
+                  <span className="font-semibold text-white text-right">{language === 'mr' ? 'कार्यकारी परिषद' : 'Executive Council'}</span>
                 </div>
               </div>
             </div>
@@ -698,7 +698,7 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
                     : 'text-stone-700 hover:text-stone-950 hover:bg-stone-100'
                 }`}
               >
-                {language === 'mr' ? 'सर्व माहिती (All)' : 'Complete Overview'}
+                {language === 'mr' ? 'सर्व माहिती' : 'Complete Overview'}
               </button>
               <button
                 type="button"
@@ -839,28 +839,28 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
                     <div className="p-3 rounded-xl bg-white/10 border border-white/10 flex items-start gap-2.5">
                       <span className="w-5 h-5 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">१</span>
                       <div>
-                        <strong className="text-white block font-semibold">{language === 'mr' ? 'कार्यकारी परिषद (Executive Council)' : 'Executive Council'}</strong>
+                        <strong className="text-white block font-semibold">{language === 'mr' ? 'कार्यकारी परिषद' : 'Executive Council'}</strong>
                         <span className="text-stone-300 text-[11px] font-normal">{language === 'mr' ? 'विद्यापीठाचे सर्वोच्च धोरण ठरवणारे मंडळ; यात लोकप्रतिनिधी, शास्त्रज्ञ, ICAR प्रतिनिधी व प्रगतशील शेतकरी समाविष्ट.' : 'Highest policy-making body comprising legislators, scientists, ICAR reps & progressive farmers.'}</span>
                       </div>
                     </div>
                     <div className="p-3 rounded-xl bg-white/10 border border-white/10 flex items-start gap-2.5">
                       <span className="w-5 h-5 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">२</span>
                       <div>
-                        <strong className="text-white block font-semibold">{language === 'mr' ? 'विद्वत परिषद (Academic Council)' : 'Academic Council'}</strong>
+                        <strong className="text-white block font-semibold">{language === 'mr' ? 'विद्वत परिषद' : 'Academic Council'}</strong>
                         <span className="text-stone-300 text-[11px] font-normal">{language === 'mr' ? 'शैक्षणिक धोरणे, अभ्यासक्रम पुनर्रचना व परीक्षांचे नियमन.' : 'Academic policy, syllabus revision, quality standards & university examinations.'}</span>
                       </div>
                     </div>
                     <div className="p-3 rounded-xl bg-white/10 border border-white/10 flex items-start gap-2.5">
                       <span className="w-5 h-5 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">३</span>
                       <div>
-                        <strong className="text-white block font-semibold">{language === 'mr' ? 'कृषी संशोधन परिषद (Research Council)' : 'Agricultural Research Council'}</strong>
+                        <strong className="text-white block font-semibold">{language === 'mr' ? 'कृषी संशोधन परिषद' : 'Agricultural Research Council'}</strong>
                         <span className="text-stone-300 text-[11px] font-normal">{language === 'mr' ? 'स्थानिक गरजेनुसार नवीन पीक वाण, तंत्रज्ञान शिफारशी व पेटंट्सचे मूल्यमापन.' : 'Evaluation of new crop varieties, farm implements & Joint AGRESCO recommendations.'}</span>
                       </div>
                     </div>
                     <div className="p-3 rounded-xl bg-white/10 border border-white/10 flex items-start gap-2.5">
                       <span className="w-5 h-5 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">४</span>
                       <div>
-                        <strong className="text-white block font-semibold">{language === 'mr' ? 'विस्तार शिक्षण परिषद (Extension Council)' : 'Extension Education Council'}</strong>
+                        <strong className="text-white block font-semibold">{language === 'mr' ? 'विस्तार शिक्षण परिषद' : 'Extension Education Council'}</strong>
                         <span className="text-stone-300 text-[11px] font-normal">{language === 'mr' ? 'प्रयोगशाळा ते शेतीपर्यंत तंत्रज्ञान प्रसार व बियाणे वाटपाचे समन्वय.' : 'Lab-to-land outreach, certified seed supply, ATIC & KVK transfer networks.'}</span>
                       </div>
                     </div>
@@ -897,7 +897,10 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
                 <span>{language === 'mr' ? 'समाविष्ट १० जिल्हे:' : '10 Jurisdiction Districts:'}</span>
               </div>
               <div className="flex flex-wrap items-center gap-1.5 font-semibold text-slate-700">
-                {['Ahmednagar (अहिल्यानगर)', 'Pune (पुणे)', 'Kolhapur (कोल्हापूर)', 'Solapur (सोलापूर)', 'Satara (सातारा)', 'Sangli (सांगली)', 'Nashik (नाशिक)', 'Dhule (धुळे)', 'Jalgaon (जळगाव)', 'Nandurbar (नंदुरबार)'].map((dist, i) => (
+                {(language === 'mr'
+                  ? ['अहिल्यानगर', 'पुणे', 'कोल्हापूर', 'सोलापूर', 'सातारा', 'सांगली', 'नाशिक', 'धुळे', 'जळगाव', 'नंदुरबार']
+                  : ['Ahilyanagar', 'Pune', 'Kolhapur', 'Solapur', 'Satara', 'Sangli', 'Nashik', 'Dhule', 'Jalgaon', 'Nandurbar']
+                ).map((dist, i) => (
                   <span key={i} className="px-2.5 py-1 rounded-lg bg-white border border-emerald-200 text-emerald-900 text-xs shadow-2xs">
                     {dist}
                   </span>
@@ -1064,7 +1067,7 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
                 </div>
                 <div className="space-y-2">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
-                    {language === 'mr' ? 'विद्यापीठाचे ध्येयविधान (Mission Statement)' : 'Institutional Mission Statement'}
+                    {language === 'mr' ? 'विद्यापीठाचे ध्येयविधान' : 'Institutional Mission Statement'}
                   </span>
                   <blockquote className="text-sm sm:text-base md:text-lg italic font-normal leading-relaxed text-emerald-50">
                     {language === 'mr'
@@ -1079,7 +1082,7 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
             <div className="space-y-3">
               <h3 className="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2">
                 <FileCheck className="w-4 h-4 text-emerald-700" />
-                <span>{language === 'mr' ? '३ मूलभूत अधिदेश (University Mandates)' : 'Three Core Mandates'}</span>
+                <span>{language === 'mr' ? '३ मूलभूत अधिदेश' : 'Three Core Mandates'}</span>
               </h3>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -1112,7 +1115,7 @@ export const MpkvAtAGlanceView: React.FC<MpkvAtAGlanceViewProps> = ({ pageData }
             <div className="space-y-3 pt-2">
               <h3 className="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2">
                 <Target className="w-4 h-4 text-amber-700" />
-                <span>{language === 'mr' ? '८ प्रमुख संस्थात्मक उद्दिष्टे (Institutional Goals)' : 'Eight Strategic Institutional Goals'}</span>
+                <span>{language === 'mr' ? '८ प्रमुख संस्थात्मक उद्दिष्टे' : 'Eight Strategic Institutional Goals'}</span>
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

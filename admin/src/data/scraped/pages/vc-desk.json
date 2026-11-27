@@ -5,8 +5,8 @@
   "sourcePage": "vc-desk",
   "scrapedAt": "2026-11-22T20:36:22.227293",
   "title": {
-    "en": "Vice Chancellor",
-    "mr": "Vice Chancellor"
+    "en": "Vice Chancellor's Desk",
+    "mr": "मा. कुलगुरू कार्यालय"
   },
   "breadcrumb": [
     {
@@ -18,10 +18,24 @@
     },
     {
       "title": {
-        "en": "Vice Chancellor",
-        "mr": "Vice Chancellor"
+        "en": "Officers",
+        "mr": "अधिकारी"
       },
-      "href": "/VC/VCDesk"
+      "href": "/vc-desk"
+    },
+    {
+      "title": {
+        "en": "Leadership",
+        "mr": "कुलगुरू कार्यालय"
+      },
+      "href": "/vc-desk"
+    },
+    {
+      "title": {
+        "en": "Vice Chancellor's Desk",
+        "mr": "मा. कुलगुरू कार्यालय"
+      },
+      "href": "/vc-desk"
     }
   ],
   "hero": {
@@ -99,7 +113,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -683,7 +697,7 @@
       "level": "h6",
       "text": {
         "en": "Diploma (Agril. Tech. Schools)",
-        "mr": "Diploma (Agril. Tech. Schools)"
+        "mr": "कृषी तंत्र विद्यालये पदविका"
       },
       "order": 8
     },
@@ -1155,5 +1169,17 @@
     "noticeCount": 0,
     "mediaCount": 15,
     "totalRecords": 71
+  },
+  "menuId": "menu_officers",
+  "parentMenu": {
+    "id": "menu_officers",
+    "title": {
+      "en": "Officers",
+      "mr": "अधिकारी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Leadership",
+    "mr": "कुलगुरू कार्यालय"
   }
 }

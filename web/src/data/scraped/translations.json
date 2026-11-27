@@ -353,11 +353,11 @@
   },
   "Farm_Implements_&-Machineries": {
     "en": "Farm Implements & Machineries",
-    "mr": "Farm Implements & Machineries"
+    "mr": "शेती अवजारे आणि यंत्रे"
   },
   "Farm_Implements_&_Machineries": {
-    "en": "शेती अवजारे आणि यंत्र",
-    "mr": "शेती अवजारे आणि यंत्र"
+    "en": "Farm Implements & Machineries",
+    "mr": "शेती अवजारे आणि यंत्रे"
   },
   "Farmer": {
     "en": "Farmer",
@@ -600,7 +600,7 @@
     "mr": "पठार विभाग"
   },
   "Planting _Materials": {
-    "en": "लागवड साहित्य",
+    "en": "Planting Materials",
     "mr": "लागवड साहित्य"
   },
   "Planting_Material": {

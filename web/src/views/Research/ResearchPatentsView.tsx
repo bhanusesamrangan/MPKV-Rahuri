@@ -169,7 +169,7 @@ export const ResearchPatentsView: React.FC<ResearchPatentsViewProps> = ({ pageDa
       color: 'bg-amber-50/70 border-amber-300 text-amber-950',
       badgeColor: 'bg-amber-100 text-amber-950 border-amber-300',
       descEn: 'Patented mechanized separation of custard apple pulp without crushing bitter seeds, generating thin-film anti-browning flakes.',
-      descMr: 'बिया न फोडता सीताफळाचा गर वेगळा करणारे पेटंट यंत्र व गराच्या चकत्या (Flakes) तयार करण्याची पद्धती, आइस्क्रीम व डेअरीसाठी अत्यंत उपयुक्त.'
+      descMr: 'बिया न फोडता सीताफळाचा गर वेगळा करणारे पेटंट यंत्र व गराच्या चकत्या तयार करण्याची पद्धती, आइस्क्रीम व डेअरीसाठी अत्यंत उपयुक्त.'
     },
     {
       id: 9,
@@ -222,7 +222,7 @@ export const ResearchPatentsView: React.FC<ResearchPatentsViewProps> = ({ pageDa
     {
       id: 12,
       nameOfPatent: 'Whey utilization in preparation of alcoholic beverage',
-      nameMr: 'दुग्धजन्य व्हे (Whey) घटकांचा अल्कोहोलिक पेय निर्मितीमध्ये उपयोग',
+      nameMr: 'दुग्धजन्य व्हे घटकांचा अल्कोहोलिक पेय निर्मितीमध्ये उपयोग',
       dateOfGrant: '17.11.2016',
       period: '20 years',
       periodMr: '२० वर्षे',

@@ -1,12 +1,24 @@
 {
+  "menuId": "menu_farmer",
+  "parentMenu": {
+    "id": "menu_farmer",
+    "title": {
+      "en": "Farmer Services",
+      "mr": "शेतकरी सेवा"
+    }
+  },
+  "scrapedAt": "2026-11-27T05:39:39.775116+00:00",
   "slug": "seeds-availability",
   "url": "https://mpkv.ac.in/Farmer/FarmerInputes",
   "route": "/seeds-availability",
   "sourcePage": "seeds-availability",
-  "scrapedAt": "2026-11-22T20:36:22.761255",
+  "submenuGroup": {
+    "en": "Inputs",
+    "mr": "कृषि निविष्ठा"
+  },
   "title": {
-    "en": "Seeds",
-    "mr": "बियाणे"
+    "en": "Certified Seed Availability",
+    "mr": "बियाणे उपलब्धता"
   },
   "breadcrumb": [
     {
@@ -21,350 +33,72 @@
         "en": "Farmer Services",
         "mr": "शेतकरी सेवा"
       },
-      "href": "/seeds-availability"
+      "href": "/farmer/services"
     },
     {
       "title": {
-        "en": "Inputs",
-        "mr": "कृषि निविष्ठा"
-      },
-      "href": "/seeds-availability"
-    },
-    {
-      "title": {
-        "en": "Seeds",
-        "mr": "बियाणे"
+        "en": "Seeds Availability",
+        "mr": "बियाणे उपलब्धता"
       },
       "href": "/seeds-availability"
     }
   ],
   "hero": {
     "title": {
-      "en": "Certified Seed Availability",
-      "mr": "प्रमाणित बियाणे उपलब्धता"
+      "en": "Certified & Truthful Seed Availability",
+      "mr": "अधिकृत बियाणे उपलब्धता साठा"
     },
     "subtitle": {
-      "en": "Official Stock from Central Seed Processing Plant, MPKV Rahuri",
-      "mr": "मध्यवर्ती बियाणे प्रक्रिया केंद्र, मफुकृवि राहुरी येथील अधिकृत साठा"
+      "en": "Live seed stock from the Central Seed Processing Plant, MPKV Rahuri covering Cereal & Forage Seed lots.",
+      "mr": "मध्यवर्ती बियाणे प्रक्रिया केंद्र, मफुकृवि राहुरी येथील अद्ययावत सत्यप्रत व प्रमाणित बियाणे साठा."
     },
     "badge": {
-      "en": "100% Truthful / Certified",
-      "mr": "१००% सत्यप्रत व प्रमाणित बियाणे"
+      "en": "Updated: 25/11/2026 • Live Seed Stock",
+      "mr": "अद्ययावत: २५/११/२०२६ • थेट बियाणे साठा"
     }
   },
-  "contact": "02426-243345, 243279, 243051",
-  "lastUpdated": "17/11/2026",
-  "tables": [
+  "lastUpdated": "11/25/2026 4:40:09 PM",
+  "contact": "02426-243338",
+  "cerealSeeds": [
     {
-      "id": "cereal_seeds_table",
-      "caption": {
-        "en": "Cereal Seeds (तृणधान्य बियाणे)",
-        "mr": "तृणधान्य बियाणे साठा"
-      },
-      "headers": [
-        {
-          "en": "Sr. No.",
-          "mr": "अ. क्र."
-        },
-        {
-          "en": "Crop",
-          "mr": "पीक"
-        },
-        {
-          "en": "Variety",
-          "mr": "वाण"
-        },
-        {
-          "en": "Seed Type",
-          "mr": "बियाणे प्रकार"
-        },
-        {
-          "en": "Rate per Bag",
-          "mr": "दर प्रति बॅग"
-        },
-        {
-          "en": "Available Bags",
-          "mr": "उपलब्ध बॅगा"
-        },
-        {
-          "en": "Quintal",
-          "mr": "क्विंटल"
-        }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "1"
-            }
-          },
-          {
-            "text": {
-              "mr": "बरसीम",
-              "en": "बरसीम"
-            }
-          },
-          {
-            "text": {
-              "mr": "फुले -वरदान",
-              "en": "फुले -वरदान"
-            }
-          },
-          {
-            "text": {
-              "mr": "सत्यप्रत  बियाणे",
-              "en": "सत्यप्रत  बियाणे"
-            }
-          },
-          {
-            "text": {
-              "mr": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )",
-              "en": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )"
-            }
-          },
-          {
-            "text": {
-              "mr": "१५०  बॅगा",
-              "en": "१५०  बॅगा"
-            }
-          },
-          {
-            "text": {
-              "mr": "१.५  क्विं.",
-              "en": "१.५  क्विं."
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "2"
-            }
-          },
-          {
-            "text": {
-              "mr": "हरभरा",
-              "en": "हरभरा"
-            }
-          },
-          {
-            "text": {
-              "mr": "फुले -विश्वराज",
-              "en": "फुले -विश्वराज"
-            }
-          },
-          {
-            "text": {
-              "mr": "प्रमाणित बियाणे",
-              "en": "प्रमाणित बियाणे"
-            }
-          },
-          {
-            "text": {
-              "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
-              "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
-            }
-          },
-          {
-            "text": {
-              "mr": "५८ बॅगा",
-              "en": "५८ बॅगा"
-            }
-          },
-          {
-            "text": {
-              "mr": "१७.४ क्विं.",
-              "en": "१७.४ क्विं."
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "3"
-            }
-          },
-          {
-            "text": {
-              "mr": "गहू",
-              "en": "गहू"
-            }
-          },
-          {
-            "text": {
-              "mr": "फुले - अनुपम",
-              "en": "फुले - अनुपम"
-            }
-          },
-          {
-            "text": {
-              "mr": "सत्यप्रत  बियाणे",
-              "en": "सत्यप्रत  बियाणे"
-            }
-          },
-          {
-            "text": {
-              "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
-              "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
-            }
-          },
-          {
-            "text": {
-              "mr": "११० बॅगा",
-              "en": "११० बॅगा"
-            }
-          },
-          {
-            "text": {
-              "mr": "४४ क्विं.",
-              "en": "४४ क्विं."
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "4"
-            }
-          },
-          {
-            "text": {
-              "mr": "हरभरा",
-              "en": "हरभरा"
-            }
-          },
-          {
-            "text": {
-              "mr": "फुले -विक्रम",
-              "en": "फुले -विक्रम"
-            }
-          },
-          {
-            "text": {
-              "mr": "प्रमाणित बियाणे",
-              "en": "प्रमाणित बियाणे"
-            }
-          },
-          {
-            "text": {
-              "mr": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
-              "en": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )"
-            }
-          },
-          {
-            "text": {
-              "mr": "१० बॅगा",
-              "en": "१० बॅगा"
-            }
-          },
-          {
-            "text": {
-              "mr": "३  क्विं.",
-              "en": "३  क्विं."
-            }
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "5"
-            }
-          },
-          {
-            "text": {
-              "mr": "गहू",
-              "en": "गहू"
-            }
-          },
-          {
-            "text": {
-              "mr": "फुले -समाधान",
-              "en": "फुले -समाधान"
-            }
-          },
-          {
-            "text": {
-              "mr": "सत्यप्रत  बियाणे",
-              "en": "सत्यप्रत  बियाणे"
-            }
-          },
-          {
-            "text": {
-              "mr": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
-              "en": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )"
-            }
-          },
-          {
-            "text": {
-              "mr": "११६ बॅगा",
-              "en": "११६ बॅगा"
-            }
-          },
-          {
-            "text": {
-              "mr": "४६.४  क्विं",
-              "en": "४६.४  क्विं"
-            }
-          }
-        ]
-      ],
-      "rowCount": 5,
-      "columnCount": 7
+      "srNo": "1",
+      "crop": "बरसीम",
+      "variety": "फुले -वरदान",
+      "seedType": "सत्यप्रत  बियाणे",
+      "ratePerBag": "४००/-  रुपये   (  प्रती  बॅग १ किलो  )",
+      "availableBags": "१०० बॅगा",
+      "quintal": "१ क्विं."
     },
     {
-      "id": "veg_seeds_table",
-      "caption": {
-        "en": "Vegetable Seeds (भाजीपाला बियाणे)",
-        "mr": "भाजीपाला बियाणे साठा"
-      },
-      "headers": [
-        {
-          "en": "Sr. No.",
-          "mr": "अ. क्र."
-        },
-        {
-          "en": "Crop",
-          "mr": "पीक"
-        },
-        {
-          "en": "Variety",
-          "mr": "वाण"
-        },
-        {
-          "en": "Available Qty (kg)",
-          "mr": "उपलब्ध प्रमाण (किलो)"
-        },
-        {
-          "en": "Rate",
-          "mr": "दर"
-        }
-      ],
-      "rows": [],
-      "rowCount": 0,
-      "columnCount": 5
+      "srNo": "2",
+      "crop": "हरभरा",
+      "variety": "फुले -विश्वराज",
+      "seedType": "प्रमाणित बियाणे",
+      "ratePerBag": "२४००/-  रुपये   (  प्रती  बॅग ३०किलो  )",
+      "availableBags": "१० बॅगा",
+      "quintal": "३ क्विं."
+    },
+    {
+      "srNo": "3",
+      "crop": "गहू",
+      "variety": "फुले - अनुपम",
+      "seedType": "सत्यप्रत  बियाणे",
+      "ratePerBag": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
+      "availableBags": "१०० बॅगा",
+      "quintal": "४०  क्विं."
+    },
+    {
+      "srNo": "4",
+      "crop": "गहू",
+      "variety": "फुले -समाधान",
+      "seedType": "सत्यप्रत  बियाणे",
+      "ratePerBag": "२४००/-  रुपये   (  प्रती  बॅग ४०किलो  )",
+      "availableBags": "२०  बॅगा",
+      "quintal": "८  क्विं"
     }
   ],
-  "stats": {
-    "cerealVarietiesCount": 5,
-    "vegVarietiesCount": 0,
-    "tableCount": 2,
-    "totalRecords": 5
-  },
-  "menuId": "menu_farmer",
-  "parentMenu": {
-    "id": "menu_farmer",
-    "title": {
-      "en": "Farmer Services",
-      "mr": "शेतकरी सेवा"
-    }
-  },
-  "submenuGroup": {
-    "en": "Inputs",
-    "mr": "कृषि निविष्ठा"
+  "vegetableSeedsNote": {
+    "mr": "भाजीपाला बियाणे उपलब्धतासाठा (अद्यतन दिनांक: २५/११/२०२६) — सद्यस्थितीत साठा ० नोंदी.",
+    "en": "Vegetable Seeds stock table currently shows 0 listed lots as of 25/11/2026 4:40:09 PM."
   }
 }

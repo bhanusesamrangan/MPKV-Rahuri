@@ -166,7 +166,7 @@ export const ResearchSchemesView: React.FC<ResearchSchemesViewProps> = ({ pageDa
     },
     'state-schemes': {
       theme: 'state-schemes' as ResearchHeroTheme,
-      title: { en: 'Non-Plan State Schemes — Government of Maharashtra', mr: 'राज्य शासन योजनेतर संशोधन योजना (Non-Plan Schemes)' },
+      title: { en: 'Non-Plan State Schemes — Government of Maharashtra', mr: 'राज्य शासन योजनेतर संशोधन योजना' },
       subtitle: {
         en: '54 core state-funded schemes supporting station infrastructure, plant breeding, farm trials, and regional agro-climatic stations.',
         mr: 'महाराष्ट्र शासनाच्या थेट अनुदानातून विद्यापीठाच्या २७ संशोधन केंद्रांवर अविरत सुरू असलेल्या ५४ योजनेतर संशोधन योजनांची माहिती.'
@@ -181,7 +181,7 @@ export const ResearchSchemesView: React.FC<ResearchSchemesViewProps> = ({ pageDa
     },
     'funded-projects': {
       theme: 'funded-projects' as ResearchHeroTheme,
-      title: { en: 'Externally Funded Projects — Ad-hoc & Network Grants', mr: 'बाह्य अनुदानीत प्रकल्प (Externally Funded Projects)' },
+      title: { en: 'Externally Funded Projects — Ad-hoc & Network Grants', mr: 'बाह्य अनुदानीत प्रकल्प' },
       subtitle: {
         en: 'Special research initiatives funded by Chief Minister Agricultural Research Assistant Funds, Central Ministries, World Bank, and private agri-industries.',
         mr: 'मुख्यमंत्री कृषी संशोधन निधी, केंद्र शासन, जागतिक बँक आणि नामवंत कृषी संस्थांमार्फत चालणारे विशेष संशोधन प्रकल्प.'

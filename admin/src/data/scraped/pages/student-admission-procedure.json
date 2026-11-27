@@ -1,12 +1,24 @@
 {
+  "menuId": "menu_students",
+  "parentMenu": {
+    "id": "menu_students",
+    "title": {
+      "en": "Students",
+      "mr": "विद्यार्थी"
+    }
+  },
+  "submenuGroup": {
+    "en": "Welfare & Facilities",
+    "mr": "विद्यार्थी सुविधा व कल्याण"
+  },
+  "scrapedAt": "2026-11-27T05:22:00.499495+00:00",
   "slug": "student-admission-procedure",
-  "url": "/students/admission",
-  "route": "students/admission",
-  "sourcePage": "https://mpkv.ac.in/Students/AdmissionProcedure",
-  "scrapedAt": "2026-11-25T07:43:26.352Z",
+  "url": "https://mpkv.ac.in/Student/AdmissionProcedure",
+  "route": "/Student/AdmissionProcedure",
+  "sourcePage": "student-admission-procedure",
   "title": {
-    "en": "Centralized Admission Procedure (UG, PG & Ph.D.)",
-    "mr": "केंद्रीभूत प्रवेश प्रक्रिया (पदवी, पदव्युत्तर व आचार्य)"
+    "en": "Admission Procedure",
+    "mr": "प्रवेश प्रक्रिया"
   },
   "breadcrumb": [
     {
@@ -14,364 +26,184 @@
         "en": "Home",
         "mr": "मुख्यपृष्ठ"
       },
-      "url": "/"
+      "href": "/"
     },
     {
       "title": {
         "en": "Students",
         "mr": "विद्यार्थी"
       },
-      "url": "/students"
+      "href": "/students"
     },
     {
       "title": {
         "en": "Admission Procedure",
         "mr": "प्रवेश प्रक्रिया"
       },
-      "url": "/students/admission"
+      "href": "/students/admission"
     }
   ],
   "hero": {
     "title": {
-      "en": "Centralized Agriculture Admissions",
-      "mr": "केंद्रीभूत कृषी प्रवेश प्रक्रिया"
+      "en": "Admission Procedure & Eligibility Criteria",
+      "mr": "विद्यापीठ प्रवेश प्रक्रिया व पात्रता निकष"
     },
     "subtitle": {
-      "en": "Information, Eligibility Criteria, Entrance Examinations, and Online Counseling for B.Sc. (Hons) Agriculture, B.Tech., M.Sc., and Doctoral Programs",
-      "mr": "पदवी, पदव्युत्तर व आचार्य पदवी अभ्यासक्रमांचे पात्रता निकष, प्रवेश परीक्षा व राज्यस्तरीय केंद्रीभूत ऑनलाइन प्रवेश प्रक्रिया"
+      "en": "Official three-tier admission framework across MCAER State Level CAP rounds, University Degree programmes, and Non-Degree Diploma / Mali trainings.",
+      "mr": "MCAER राज्यस्तरीय प्रवेश (UG, PG, Ph.D.), विद्यापीठ स्तरीय ABM व पशुपालन पदवी तसेच कृषी पदविका आणि माळी प्रशिक्षण प्रवेश प्रक्रिया."
     },
     "badge": {
-      "en": "State CAP Admission Gateway",
-      "mr": "राज्यस्तरीय कॅप प्रवेश दालन"
+      "en": "MCAER & MPKV University Admissions",
+      "mr": "MCAER व विद्यापीठ स्तरीय प्रवेश"
     }
   },
-  "paragraphs": [
+  "tracks": [
     {
-      "text": {
-        "en": "Admissions to all Undergraduate (B.Sc. Hons Agriculture, B.Sc. Hons Horticulture, B.Tech. Agril. Engg., B.Sc. Hons Forestry, B.Tech. Food Tech, B.Sc. Hons Agri Business Management), Postgraduate (M.Sc. Agri, M.Tech.), and Doctoral (Ph.D.) degree programs across MPKV are conducted through the Centralized Admission Process (CAP) governed by the Maharashtra Council of Agricultural Education and Research (MCAER), Pune and State Common Entrance Test Cell, Maharashtra.",
-        "mr": "महात्मा फुले कृषि विद्यापीठ अंतर्गत सर्व पदवी (कृषि, उद्यानविद्या, कृषि अभियांत्रिकी, अन्न तंत्रज्ञान, कृषि व्यवसाय व्यवस्थापन), पदव्युत्तर (M.Sc. Agri, M.Tech.) आणि आचार्य (Ph.D.) अभ्यासक्रमांचे प्रवेश महाराष्ट्र कृषि शिक्षण व संशोधन परिषद (MCAER) पुणे आणि राज्य सीईटी सेलद्वारे केंद्रीभूत प्रवेश प्रक्रियेमार्फत (CAP) राबवले जातात."
+      "id": "mcaer",
+      "level": {
+        "en": "Level 01 • State Level",
+        "mr": "स्तर ०१ • राज्यस्तरीय"
       },
-      "order": 1
+      "title": {
+        "en": "Admission MCAER",
+        "mr": "MCAER स्तरावरील प्रवेश"
+      },
+      "authority": {
+        "en": "Maharashtra Council of Agricultural Education & Research",
+        "mr": "महाराष्ट्र कृषी शिक्षण व संशोधन परिषद, पुणे"
+      },
+      "desc": {
+        "en": "Admissions of following courses are conducted at MCAER level.",
+        "mr": "खालील अभ्यासक्रमांचे प्रवेश MCAER (पुणे) स्तरावर केंद्रीभूत पद्धतीने केले जातात."
+      },
+      "courses": [
+        {
+          "label": "U.G.",
+          "href": "http://www.mcaer.org/admissions.html"
+        },
+        {
+          "label": "P.G.",
+          "href": "http://www.mcaer.org/admissions.html"
+        },
+        {
+          "label": "Ph.D",
+          "href": "http://www.mcaer.org/admissions.html"
+        }
+      ]
     },
     {
-      "text": {
-        "en": "Candidates must qualify in the requisite entrance examination: MHT-CET (PCB / PCM) / NEET / JEE for Undergraduate programs, and MCAER-PG-CET / ICAR-AIEEA for Postgraduate and Doctoral programs. Online registrations, option form filling, document verification, and seat allotments occur via the state portal maha-agriadmission.in.",
-        "mr": "उमेदवारांनी पदवी प्रवेशासाठी MHT-CET (PCB/PCM) किंवा NEET/JEE परीक्षा देणे अनिवार्य असून, पदव्युत्तर व आचार्य पदवीसाठी MCAER PG-CET अथवा ICAR-AIEEA परीक्षा आवश्यक आहे. सर्व प्रवेश अर्ज, विकल्प फॉर्म व जागा वाटप राज्य शासनाच्या अधिकृत maha-agriadmission.in पोर्टलवर होते."
+      "id": "university",
+      "level": {
+        "en": "Level 02 • University Level",
+        "mr": "स्तर ०२ • विद्यापीठ स्तर"
       },
-      "order": 2
-    }
-  ],
-  "tables": [
-    {
-      "id": "table_admission_programs",
-      "caption": {
-        "en": "Degree Programs, Eligibility Criteria & Admission Channels",
-        "mr": "अभ्यासक्रम, शैक्षणिक पात्रता व प्रवेश परीक्षा तपशील"
+      "title": {
+        "en": "Admission through University",
+        "mr": "विद्यापीठ स्तरावरील पदवी प्रवेश"
       },
-      "headers": [
+      "authority": {
+        "en": "MPKV Central Campus Authority",
+        "mr": "महात्मा फुले कृषि विद्यापीठ, राहुरी"
+      },
+      "desc": {
+        "en": "Admissions of following courses are conducted at University level.",
+        "mr": "खालील विशेष अभ्यासक्रमांचे प्रवेश विद्यापीठ स्तरावर घेतले जातात."
+      },
+      "courses": [
         {
-          "en": "Sr.No",
-          "mr": "अ.क्र."
-        },
-        {
-          "en": "Degree Program",
-          "mr": "पदवी / अभ्यासक्रम"
-        },
-        {
-          "en": "Duration",
-          "mr": "कालावधी"
-        },
-        {
-          "en": "Basic Qualifying Eligibility",
-          "mr": "किमान शैक्षणिक पात्रता"
-        },
-        {
-          "en": "Qualifying Entrance Exam",
-          "mr": "पात्रता प्रवेश परीक्षा"
-        },
-        {
-          "en": "Official Admission Portal",
-          "mr": "अधिकृत प्रवेश पोर्टल"
+          "label": "U.G. (ABM & Animal Husbandry)"
         }
-      ],
-      "rows": [
-        [
-          {
-            "text": {
-              "en": "1",
-              "mr": "१"
-            }
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agriculture",
-              "mr": "बी.एस्सी. (ऑनर्स) कृषी"
-            }
-          },
-          {
-            "text": {
-              "en": "4 Years (8 Semesters)",
-              "mr": "४ वर्षे (८ सेमिस्टर)"
-            }
-          },
-          {
-            "text": {
-              "en": "12th Science (PCB/PCMB) with English",
-              "mr": "१२ वी विज्ञान (PCB/PCMB) इंग्रजीसह उत्तीर्ण"
-            }
-          },
-          {
-            "text": {
-              "en": "MHT-CET (PCB/PCM) / NEET / JEE",
-              "mr": "MHT-CET (PCB/PCM) / NEET / JEE"
-            }
-          },
-          {
-            "text": {
-              "en": "maha-agriadmission.in (Maha CAP)",
-              "mr": "maha-agriadmission.in"
-            },
-            "fileLink": "https://maha-agriadmission.in"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "2",
-              "mr": "२"
-            }
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Horticulture",
-              "mr": "बी.एस्सी. (ऑनर्स) उद्यानविद्या"
-            }
-          },
-          {
-            "text": {
-              "en": "4 Years (8 Semesters)",
-              "mr": "४ वर्षे (८ सेमिस्टर)"
-            }
-          },
-          {
-            "text": {
-              "en": "12th Science (PCB/PCMB) with English",
-              "mr": "१२ वी विज्ञान (PCB/PCMB) इंग्रजीसह उत्तीर्ण"
-            }
-          },
-          {
-            "text": {
-              "en": "MHT-CET (PCB/PCM) / NEET / JEE",
-              "mr": "MHT-CET (PCB/PCM) / NEET / JEE"
-            }
-          },
-          {
-            "text": {
-              "en": "maha-agriadmission.in (Maha CAP)",
-              "mr": "maha-agriadmission.in"
-            },
-            "fileLink": "https://maha-agriadmission.in"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "3",
-              "mr": "३"
-            }
-          },
-          {
-            "text": {
-              "en": "B.Tech. (Agricultural Engineering)",
-              "mr": "बी.टेक. (कृषि अभियांत्रिकी)"
-            }
-          },
-          {
-            "text": {
-              "en": "4 Years (8 Semesters)",
-              "mr": "४ वर्षे (८ सेमिस्टर)"
-            }
-          },
-          {
-            "text": {
-              "en": "12th Science (PCM/PCMB) with Physics, Chem, Math",
-              "mr": "१२ वी विज्ञान (भौतिक, रसायन व गणित विषयांसह)"
-            }
-          },
-          {
-            "text": {
-              "en": "MHT-CET (PCM) / JEE Main",
-              "mr": "MHT-CET (PCM) / JEE Main"
-            }
-          },
-          {
-            "text": {
-              "en": "maha-agriadmission.in (Maha CAP)",
-              "mr": "maha-agriadmission.in"
-            },
-            "fileLink": "https://maha-agriadmission.in"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "4",
-              "mr": "४"
-            }
-          },
-          {
-            "text": {
-              "en": "B.Sc. (Hons) Agri Business Management",
-              "mr": "बी.एस्सी. (ऑनर्स) कृषी व्यवसाय व्यवस्थापन"
-            }
-          },
-          {
-            "text": {
-              "en": "4 Years (8 Semesters)",
-              "mr": "४ वर्षे (८ सेमिस्टर)"
-            }
-          },
-          {
-            "text": {
-              "en": "12th Science (PCB/PCM/PCMB)",
-              "mr": "१२ वी विज्ञान (PCB/PCM/PCMB)"
-            }
-          },
-          {
-            "text": {
-              "en": "MHT-CET / NEET / JEE",
-              "mr": "MHT-CET / NEET / JEE"
-            }
-          },
-          {
-            "text": {
-              "en": "maha-agriadmission.in (Maha CAP)",
-              "mr": "maha-agriadmission.in"
-            },
-            "fileLink": "https://maha-agriadmission.in"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "5",
-              "mr": "५"
-            }
-          },
-          {
-            "text": {
-              "en": "M.Sc. (Agriculture) - 14 Disciplines",
-              "mr": "एम.एस्सी. (कृषी) - १४ विद्याशाखा"
-            }
-          },
-          {
-            "text": {
-              "en": "2 Years (4 Semesters)",
-              "mr": "२ वर्षे (४ सेमिस्टर)"
-            }
-          },
-          {
-            "text": {
-              "en": "4-Year B.Sc. (Agri/Hort) with OGPA 6.5/10",
-              "mr": "संबंधित विषयात ४ वर्षांची पदवी किमान ६.५ सीजीपीए"
-            }
-          },
-          {
-            "text": {
-              "en": "MCAER PG-CET / ICAR-AIEEA-PG",
-              "mr": "MCAER PG-CET / ICAR-AIEEA-PG"
-            }
-          },
-          {
-            "text": {
-              "en": "maha-agriadmission.in (Maha CAP)",
-              "mr": "maha-agriadmission.in"
-            },
-            "fileLink": "https://maha-agriadmission.in"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "6",
-              "mr": "६"
-            }
-          },
-          {
-            "text": {
-              "en": "M.Tech. (Agricultural Engineering)",
-              "mr": "एम.टेक. (कृषि अभियांत्रिकी)"
-            }
-          },
-          {
-            "text": {
-              "en": "2 Years (4 Semesters)",
-              "mr": "२ वर्षे (४ सेमिस्टर)"
-            }
-          },
-          {
-            "text": {
-              "en": "B.Tech. (Agril. Engg.) with OGPA 6.5/10",
-              "mr": "बी.टेक. (कृषि अभियांत्रिकी) किमान ६.५ सीजीपीए"
-            }
-          },
-          {
-            "text": {
-              "en": "MCAER PG-CET / GATE / ICAR-AIEEA",
-              "mr": "MCAER PG-CET / GATE / ICAR-AIEEA"
-            }
-          },
-          {
-            "text": {
-              "en": "maha-agriadmission.in (Maha CAP)",
-              "mr": "maha-agriadmission.in"
-            },
-            "fileLink": "https://maha-agriadmission.in"
-          }
-        ],
-        [
-          {
-            "text": {
-              "en": "7",
-              "mr": "७"
-            }
-          },
-          {
-            "text": {
-              "en": "Ph.D. (Doctoral Studies) - 12 Disciplines",
-              "mr": "आचार्य (Ph.D.) - १२ विद्याशाखा"
-            }
-          },
-          {
-            "text": {
-              "en": "3 Years (6 Semesters)",
-              "mr": "३ वर्षे (६ सेमिस्टर)"
-            }
-          },
-          {
-            "text": {
-              "en": "Relevant Master Degree with OGPA 7.0/10",
-              "mr": "संबंधित विषयात पदव्युत्तर पदवी किमान ७.० सीजीपीए"
-            }
-          },
-          {
-            "text": {
-              "en": "MCAER Ph.D. CET / ICAR-SRF",
-              "mr": "MCAER Ph.D. CET / ICAR-SRF"
-            }
-          },
-          {
-            "text": {
-              "en": "maha-agriadmission.in (Maha CAP)",
-              "mr": "maha-agriadmission.in"
-            },
-            "fileLink": "https://maha-agriadmission.in"
-          }
-        ]
-      ],
-      "rowCount": 7,
-      "columnCount": 6
+      ]
+    },
+    {
+      "id": "nondegree",
+      "level": {
+        "en": "Level 03 • Vocational & Diploma",
+        "mr": "स्तर ०३ • पदविका व प्रशिक्षण"
+      },
+      "title": {
+        "en": "Admission to Non Degree Course",
+        "mr": "पदविका व बिगर-पदवी अभ्यासक्रम"
+      },
+      "authority": {
+        "en": "MPKV Skill & Diploma Directorate",
+        "mr": "मफुकृवि पदविका शिक्षण संकुल"
+      },
+      "desc": {
+        "en": "Admissions of following courses are conducted at University level.",
+        "mr": "खालील कृषी तंत्र व प्रशिक्षण अभ्यासक्रमांचे प्रवेश विद्यापीठ स्तरावर होतात."
+      },
+      "courses": [
+        {
+          "label": "Diploma in Agricultural Technology"
+        },
+        {
+          "label": "Diploma in Agriculture Polytechnique"
+        },
+        {
+          "label": "Mali Training Course"
+        }
+      ]
     }
   ],
-  "contentBlocks": []
+  "eligibilityPdfs": [
+    {
+      "srNo": 1,
+      "tag": "Doctoral",
+      "title": {
+        "en": "Doctoral (Ph.D.) Eligibility",
+        "mr": "आचार्य (Ph.D.) प्रवेश पात्रता"
+      },
+      "href": "/media/docs/students/eligibility_doctoral.pdf"
+    },
+    {
+      "srNo": 2,
+      "tag": "Master's",
+      "title": {
+        "en": "Master's Degree Eligibility",
+        "mr": "पदव्युत्तर पात्रता"
+      },
+      "href": "/media/docs/students/eligibility_masters.pdf"
+    },
+    {
+      "srNo": 3,
+      "tag": "Bachelor's",
+      "title": {
+        "en": "Bachelor's Degree Eligibility",
+        "mr": "पदवी पात्रता"
+      },
+      "href": "/media/docs/students/eligibility_bachelors.pdf"
+    },
+    {
+      "srNo": 4,
+      "tag": "Diploma",
+      "title": {
+        "en": "Diploma Eligibility",
+        "mr": "कृषी पदविका प्रवेश पात्रता"
+      },
+      "href": "/media/docs/students/eligibility_diploma.pdf"
+    }
+  ],
+  "circulars": [
+    {
+      "srNo": 1,
+      "title": {
+        "en": "PROSPECTUS (Admission to Non-Professional course of B.Sc.(Hons)(Agricultural Business Management) For the Academic Year 2019-20)",
+        "mr": "माहितीपुस्तिका — बी.एस्सी. (ऑनर्स) कृषी व्यवसाय व्यवस्थापन (ABM) शैक्षणिक वर्ष २०१९-२०"
+      },
+      "href": ""
+    }
+  ],
+  "contact": {
+    "designation": {
+      "en": "The Deputy Registrar (Academic)",
+      "mr": "उपकुलसचिव (शैक्षणिक)"
+    },
+    "office": {
+      "en": "MPKV, Rahuri, Dist. Ahmednagar",
+      "mr": "मफुकृवि, राहुरी, जि. अहमदनगर"
+    },
+    "phone": "(02426) 243215",
+    "email": "dracdmpkv2013@rediffmail.com"
+  }
 }
