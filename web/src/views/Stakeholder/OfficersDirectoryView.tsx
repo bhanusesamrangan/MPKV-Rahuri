@@ -172,16 +172,6 @@ export const OfficersDirectoryView: React.FC<{ pageData: any }> = ({ pageData })
         </div>
       </div>
 
-      {/* Portal Deep Link Footer */}
-      <div className="px-6 py-3.5 bg-[#f7f7f3] border-t border-stone-200/70">
-        <Link
-          href={off.portalHref}
-          className="inline-flex items-center justify-between w-full text-xs font-bold text-emerald-900 hover:text-amber-800 transition-colors"
-        >
-          <span>{getTxt(off.portalLabel)}</span>
-          <ArrowRight className="w-3.5 h-3.5" />
-        </Link>
-      </div>
     </div>
   );
 
@@ -317,11 +307,6 @@ export const OfficersDirectoryView: React.FC<{ pageData: any }> = ({ pageData })
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-slate-900">
                       {getTxt(apexOfficer.name)}
                     </h2>
-                    <p className="text-xs sm:text-sm text-slate-600">
-                      {language === 'mr'
-                        ? 'महात्मा फुले कृषि विद्यापीठ, राहुरीचे सर्वोच्च कार्यकारी प्रमुख व विद्यापीठ सभागृहाचे अध्यक्ष.'
-                        : 'Executive Head of Mahatma Phule Krishi Vidyapeeth, Rahuri & Ex-Officio Chairman of Statutory Councils.'}
-                    </p>
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">

@@ -39,8 +39,8 @@ export const AlumniPortalView: React.FC<AlumniPortalViewProps> = ({ pageData }) 
         en: 'Over 117 years of historic leadership. The mother institution of agricultural education in Western India with an illustrious global fraternity.',
         mr: '११७ वर्षांहून अधिक समृद्ध ऐतिहासिक परंपरा. पश्चिम भारतातील कृषी शिक्षणाची मातृसंस्था व जगभर विस्तारलेला प्रतिष्ठित माजी विद्यार्थी वर्ग.'
       },
-      website: 'http://alumniagri.in',
-      portalLabel: 'alumniagri.in',
+      website: 'https://acpune.co.in/index.php/student/alumni-association/',
+      portalLabel: 'acpune.co.in',
       tagColor: 'bg-amber-100 text-amber-950 border-amber-300'
     },
     {
@@ -52,7 +52,7 @@ export const AlumniPortalView: React.FC<AlumniPortalViewProps> = ({ pageData }) 
         en: 'Premier hub for dryland farming leadership, bajra breeding pioneers, and agribusiness entrepreneurs across North Maharashtra.',
         mr: 'उत्तर महाराष्ट्रातील कोरडवाहू शेतीचे नेतृत्व, बाजरी पैदास तंत्रज्ञान व कृषी उद्योजक घडवणारी अग्रणी संस्था.'
       },
-      website: 'http://www.acdhule.edu.in/Home/AlumniList',
+      website: 'https://www.acdhule.edu.in/index.php?navFile=bcwCanvasShow&TYP=Alumni',
       portalLabel: 'acdhule.edu.in',
       tagColor: 'bg-emerald-100 text-emerald-950 border-emerald-300'
     },
@@ -65,13 +65,13 @@ export const AlumniPortalView: React.FC<AlumniPortalViewProps> = ({ pageData }) 
         en: 'Named after the legendary Rajarshi Chhatrapati Shahu Maharaj, pioneering sugarcane agronomists and cooperative leaders.',
         mr: 'राजर्षी छत्रपती शाहू महाराजांच्या प्रेरणेतून स्थापन, ऊस शेती तंत्रज्ञान व सहकार क्षेत्रातील दीपस्तंभ माजी विद्यार्थी.'
       },
-      website: 'http://alumniack.com',
-      portalLabel: 'alumniack.com',
+      website: 'https://www.ackolhapur.edu.in/alumni/',
+      portalLabel: 'ackolhapur.edu.in',
       tagColor: 'bg-rose-100 text-rose-950 border-rose-300'
     },
     {
       id: 'caet',
-      college: { en: 'Dr. Annasaheb Shinde CAET Alumni (Agroneers)', mr: 'डॉ. अ.शि. कृषि अभियांत्रिकी महाविद्यालय माजी विद्यार्थी संघ' },
+      college: { en: 'Dr. A.S. College of Agril. Engg. & Tech. Alumni (Agroneers)', mr: 'डॉ. अ.शि. कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय माजी विद्यार्थी संघ' },
       campus: { en: 'Rahuri Central Campus', mr: 'राहुरी मध्यवर्ती कॅम्पस' },
       established: '1969',
       legacy: {

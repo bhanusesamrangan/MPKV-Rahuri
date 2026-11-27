@@ -102,9 +102,9 @@
         "en": "University Library (Main Wing & Stack)",
         "mr": "मुख्य विद्यापीठ ग्रंथालय"
       },
-      "hours": "09:00 hrs – 17:15 hrs",
+      "hours": "9:00 AM – 6:00 PM",
       "note": {
-        "en": "Throughout the year except Sundays and public holidays (extended to 21:00 hrs on About Wing)",
+        "en": "Throughout the year except Sundays and public holidays",
         "mr": "रविवार व शासकीय सुट्ट्या वगळता वर्षभर कार्यरत"
       }
     },
@@ -189,12 +189,12 @@
   ],
   "rules": [
     {
-      "en": "The member is issued certain number of Borrower's Ticket (BT) for borrowing books. The BTs are NOT TRANSFERABLE and member is responsible for any loss of book issued against his BT. On loss of BT, member shall have to pay a fine of Rs. 10/- per BT.",
-      "mr": "सदस्यांना पुस्तक घेण्यासाठी ठराविक बॉरोअर्स तिकीट (BT) दिले जातात. ही तिकिटे हस्तांतरणीय नाहीत; तिकीट हरवल्यास प्रति BT ₹१०/- दंड आकारला जाईल."
+      "en": "The member is issued certain number of Borrower's Ticket (BT) for borrowing books. The BTs are NOT TRANSFERABLE and member is responsible for any loss or damage of a book issued against his BT.",
+      "mr": "सदस्यांना पुस्तक घेण्यासाठी ठराविक बॉरोअर्स तिकीट (BT) दिले जातात. ही तिकिटे हस्तांतरणीय नाहीत व संबंधित सदस्यावर त्याच्या तिकिटावर घेतलेल्या पुस्तकाची जबाबदारी राहील."
     },
     {
-      "en": "If the book issued to the member is not returned on or before the due date, a late fee of Rs. 1/- per day per book is charged. In case a book issued for overnight is not returned next day, a late fee of Rs. 2/- is charged per day per book.",
-      "mr": "मुदतीच्या आत पुस्तक परत न केल्यास प्रतिदिन प्रतिपुस्तक ₹१/- विलंब शुल्क आकारले जाईल. रात्रीपुरत्या पुस्तकास विलंब झाल्यास प्रतिदिन ₹२/- शुल्क लागू राहील."
+      "en": "Books issued to the member must be returned on or before the due date, and overnight issues must be returned the very next day.",
+      "mr": "मुदतीच्या आत तसेच रात्रीपुरते घेतलेले पुस्तक दुसऱ्या दिवशी वेळेत परत करणे आवश्यक राहील."
     },
     {
       "en": "Member should not mark, underline or highlight words or sentences in the book by pencil or ink.",

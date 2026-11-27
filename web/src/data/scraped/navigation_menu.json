@@ -903,7 +903,7 @@
       "en": "Alumni",
       "mr": "माजी विद्यार्थी"
     },
-    "href": "#",
+    "href": "/alumni",
     "icon": "GraduationCap",
     "children": [
       {
@@ -916,18 +916,18 @@
         "children": [
           {
             "title": {
-              "en": "College of Agriculture, Pune Alumni",
-              "mr": "कृषि महाविद्यालय, पुणे माजी विद्यार्थी संघ"
+              "en": "College of Agriculture, Pune",
+              "mr": "कृषि महाविद्यालय, पुणे"
             },
-            "href": "http://alumniagri.in",
+            "href": "https://acpune.co.in/index.php/student/alumni-association/",
             "is_external": true
           },
           {
             "title": {
-              "en": "College of Agriculture, Dhule Alumni",
-              "mr": "कृषि महाविद्यालय, धुळे माजी विद्यार्थी संघ"
+              "en": "College of Agriculture, Dhule",
+              "mr": "कृषि महाविद्यालय, धुळे"
             },
-            "href": "http://www.acdhule.edu.in/Home/AlumniList",
+            "href": "https://www.acdhule.edu.in/index.php?navFile=bcwCanvasShow&TYP=Alumni",
             "is_external": true
           },
           {
@@ -935,21 +935,21 @@
               "en": "R. C. S. M. College of Agriculture, Kolhapur",
               "mr": "रा.छ.शा.म. कृषि महाविद्यालय, कोल्हापूर"
             },
-            "href": "http://alumniack.com",
+            "href": "https://www.ackolhapur.edu.in/alumni/",
             "is_external": true
           },
           {
             "title": {
-              "en": "Dr. A.S. College of Agril. Engg., Rahuri Alumni",
-              "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी माजी विद्यार्थी संघ"
+              "en": "Dr. A.S. College of Agril. Engg. & Tech., Rahuri",
+              "mr": "डॉ. अ.शि. कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
             },
             "href": "http://www.agroneersrahuri.org",
             "is_external": true
           },
           {
             "title": {
-              "en": "Post Graduate Institute (PGI), Rahuri Alumni",
-              "mr": "पदव्युत्तर महाविद्यालय (PGI) माजी विद्यार्थी संघ"
+              "en": "Post Graduate Institute, Rahuri",
+              "mr": "पदव्युत्तर महाविद्यालय, राहुरी"
             },
             "href": "https://forms.gle/o683q2NqRjbhfa4E7",
             "is_external": true

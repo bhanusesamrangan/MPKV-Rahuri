@@ -35,6 +35,7 @@ import { IqacView } from '@/views/Stakeholder/IqacView';
 import { ExecutiveCouncilView } from '@/views/Stakeholder/ExecutiveCouncilView';
 import { OfficersDirectoryView } from '@/views/Stakeholder/OfficersDirectoryView';
 import { ContactsView } from '@/views/Stakeholder/ContactsView';
+import { VcDeskView } from '@/views/Stakeholder/VcDeskView';
 
 // Specialized Research Views
 import { ResearchAtAGlanceView } from '@/views/Research/ResearchAtAGlanceView';
@@ -706,6 +707,20 @@ export default async function CatchAllPage({ params }: PageProps) {
     fullPath === 'exconcil'
   ) {
     return <ExecutiveCouncilView pageData={page} />;
+  }
+
+  // 19l-b. Hon'ble Vice Chancellor's Desk, Secretariat & Former VCs
+  if (
+    pageSlug === 'vc-desk' ||
+    fullPath === 'vc-desk' ||
+    fullPath.startsWith('vc/')
+  ) {
+    const defaultTab = fullPath.includes('secretariat')
+      ? 'secretariat'
+      : fullPath.includes('former')
+      ? 'former'
+      : 'desk';
+    return <VcDeskView pageData={page} defaultTab={defaultTab} />;
   }
 
   // 19m. Statutory University Officers Directory (/officers/directory, /Officers/OfficersContacts)

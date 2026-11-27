@@ -169,9 +169,12 @@ export const LibraryFacilitiesView: React.FC<{ pageData: any }> = ({ pageData })
               </div>
 
               <div className="flex flex-wrap gap-2 text-xs text-sky-100/90 pt-2">
-                <span className="px-3 py-1 rounded-lg bg-white/10">Lost BT Fine: Rs. 10/-</span>
-                <span className="px-3 py-1 rounded-lg bg-white/10">Late Fee: Rs. 1/day/book</span>
-                <span className="px-3 py-1 rounded-lg bg-white/10">Overnight Late: Rs. 2/day</span>
+                <span className="px-3 py-1 rounded-lg bg-white/10">
+                  {language === 'mr' ? 'अहस्तांतरणीय पास' : 'Non-Transferable Pass'}
+                </span>
+                <span className="px-3 py-1 rounded-lg bg-white/10">
+                  {language === 'mr' ? 'नूतनीकरण सुविधा उपलब्ध' : 'Renewable if Unreserved'}
+                </span>
               </div>
             </div>
 
@@ -237,8 +240,8 @@ export const LibraryFacilitiesView: React.FC<{ pageData: any }> = ({ pageData })
             <ShieldAlert className="w-5 h-5 text-sky-800" />
             <h2 className="text-lg sm:text-xl font-bold text-slate-900">
               {language === 'mr'
-                ? 'ग्रंथालय नियम, शुल्क व पुस्तक हाताळणी संहिता'
-                : 'Library Circulation Rules, Late Fines & Book Handling Guidelines'}
+                ? 'ग्रंथालय नियम व पुस्तक हाताळणी संहिता'
+                : 'Library Circulation Rules & Book Handling Guidelines'}
             </h2>
           </div>
 

@@ -53,8 +53,8 @@
       "mr": "बियाणे, ११ रोपवाटिका, कृषी अवजारे, जैविक खते, जैविक कीटकनाशके, फुले लिक्विड मायक्रोग्रेड II आणि विद्यापीठ उत्पादने."
     },
     "badge": {
-      "en": "8 Official Categories • 5 Product PDFs",
-      "mr": "८ प्रमुख उत्पादने • ५ माहितीपत्रके"
+      "en": "8 Official Categories • Poster & Product Guides",
+      "mr": "८ प्रमुख उत्पादने • माहितीपत्रके व पोस्टर"
     }
   },
   "modalPortals": [
@@ -141,18 +141,11 @@
         "mr": "फुले लिक्विड मायक्रोग्रेड II"
       },
       "desc": {
-        "en": "MPKV patented micronutrient foliar liquid formulation correcting zinc, iron, boron & manganese deficiencies.",
-        "mr": "सूक्ष्म अन्नद्रव्यांच्या कमतरतेवर प्रभावी 'फुले लिक्विड मायक्रोग्रेड II' खताची अधिकृत माहिती."
+        "en": "MPKV government-approved Grade II micronutrient foliar liquid formulation (Fe, Zn, B, Mn, Cu, Mo) delivering 10–15% higher crop yield across cereals, pulses, oilseeds, cash crops, vegetables & fruit orchards.",
+        "mr": "लोह, जस्त, बोरॉन, मंगल, तांबे व मॉलिब्डेनमयुक्त शासकीय मान्यताप्राप्त ग्रेड II सूक्ष्म अन्नद्रव्ये पोषक द्रव खत — दोन फवारण्यांद्वारे १० ते १५% उत्पादन वाढ."
       },
-      "pdfs": [
-        {
-          "label": {
-            "en": "Phule Liquid Micrograde II Brochure (PDF)",
-            "mr": "फुले लिक्विड मायक्रोग्रेड II माहितीपत्रक"
-          },
-          "href": "/media/docs/farmer/phule_liquid_micrograde_2.pdf"
-        }
-      ]
+      "posterImage": "/media/images/farmer/phule_liquid_micrograde_2_poster.jpg",
+      "pdfs": []
     },
     {
       "id": "bakery-products",

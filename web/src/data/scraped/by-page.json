@@ -65450,8 +65450,8 @@
         "mr": "बियाणे, ११ रोपवाटिका, कृषी अवजारे, जैविक खते, जैविक कीटकनाशके, फुले लिक्विड मायक्रोग्रेड II आणि विद्यापीठ उत्पादने."
       },
       "badge": {
-        "en": "8 Official Categories • 5 Product PDFs",
-        "mr": "८ प्रमुख उत्पादने • ५ माहितीपत्रके"
+        "en": "8 Official Categories • Poster & Product Guides",
+        "mr": "८ प्रमुख उत्पादने • माहितीपत्रके व पोस्टर"
       }
     },
     "modalPortals": [
@@ -65538,18 +65538,11 @@
           "mr": "फुले लिक्विड मायक्रोग्रेड II"
         },
         "desc": {
-          "en": "MPKV patented micronutrient foliar liquid formulation correcting zinc, iron, boron & manganese deficiencies.",
-          "mr": "सूक्ष्म अन्नद्रव्यांच्या कमतरतेवर प्रभावी 'फुले लिक्विड मायक्रोग्रेड II' खताची अधिकृत माहिती."
+          "en": "MPKV government-approved Grade II micronutrient foliar liquid formulation (Fe, Zn, B, Mn, Cu, Mo) delivering 10–15% higher crop yield across cereals, pulses, oilseeds, cash crops, vegetables & fruit orchards.",
+          "mr": "लोह, जस्त, बोरॉन, मंगल, तांबे व मॉलिब्डेनमयुक्त शासकीय मान्यताप्राप्त ग्रेड II सूक्ष्म अन्नद्रव्ये पोषक द्रव खत — दोन फवारण्यांद्वारे १० ते १५% उत्पादन वाढ."
         },
-        "pdfs": [
-          {
-            "label": {
-              "en": "Phule Liquid Micrograde II Brochure (PDF)",
-              "mr": "फुले लिक्विड मायक्रोग्रेड II माहितीपत्रक"
-            },
-            "href": "/media/docs/farmer/phule_liquid_micrograde_2.pdf"
-          }
-        ]
+        "posterImage": "/media/images/farmer/phule_liquid_micrograde_2_poster.jpg",
+        "pdfs": []
       },
       {
         "id": "bakery-products",
@@ -76238,9 +76231,9 @@
           "en": "University Library (Main Wing & Stack)",
           "mr": "मुख्य विद्यापीठ ग्रंथालय"
         },
-        "hours": "09:00 hrs – 17:15 hrs",
+        "hours": "9:00 AM – 6:00 PM",
         "note": {
-          "en": "Throughout the year except Sundays and public holidays (extended to 21:00 hrs on About Wing)",
+          "en": "Throughout the year except Sundays and public holidays",
           "mr": "रविवार व शासकीय सुट्ट्या वगळता वर्षभर कार्यरत"
         }
       },
@@ -80036,7 +80029,8 @@
         },
         "emails": [
           "vcmpkv@gmail.com",
-          "vc.mpkv@nic.in"
+          "vc.mpkv@nic.in",
+          "vc.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243208",
         "fax": "+91-02426-243302",
@@ -80084,7 +80078,8 @@
           "mr": "प्रभारी संचालक संशोधन"
         },
         "emails": [
-          "dormpkv@rediffmail.com"
+          "dormpkv@rediffmail.com",
+          "dor.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243223",
         "fax": "+91-02426-243223",
@@ -80108,7 +80103,8 @@
           "mr": "प्रभारी अधिष्ठाता  (कृषि) व संचालक, शिक्षण"
         },
         "emails": [
-          "dean.mpkv@nic.in"
+          "dean.mpkv@nic.in",
+          "dean.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243206",
         "fax": "+91-02426 243 227",
@@ -134425,8 +134421,8 @@
       {
         "srNo": 1,
         "college": {
-          "en": "College of Agriculture, Pune",
-          "mr": "कृषि महाविद्यालय, पुणे"
+          "en": "Government College of Agriculture, Pune",
+          "mr": "शासकीय कृषि महाविद्यालय, पुणे"
         },
         "boys": 590,
         "girls": 432,
@@ -134435,8 +134431,8 @@
       {
         "srNo": 2,
         "college": {
-          "en": "College of Agriculture, Dhule",
-          "mr": "कृषि महाविद्यालय, धुळे"
+          "en": "Government College of Agriculture, Dhule",
+          "mr": "शासकीय कृषि महाविद्यालय, धुळे"
         },
         "boys": 436,
         "girls": 92,
@@ -134445,8 +134441,8 @@
       {
         "srNo": 3,
         "college": {
-          "en": "Rajarshee Chhatrapati Shahu Maharaj College of Agriculture, Kolhapur",
-          "mr": "राजर्षी छत्रपती शाहू महाराज कृषि महाविद्यालय, कोल्हापूर"
+          "en": "Rajarshee Chhatrapati Shahu Maharaj Government College of Agriculture, Kolhapur",
+          "mr": "राजर्षी छत्रपती शाहू महाराज शासकीय कृषि महाविद्यालय, कोल्हापूर"
         },
         "boys": 384,
         "girls": 332,
@@ -134455,8 +134451,8 @@
       {
         "srNo": 4,
         "college": {
-          "en": "College of Agriculture, Nandurbar",
-          "mr": "कृषि महाविद्यालय, नंदुरबार"
+          "en": "Government College of Agriculture, Nandurbar",
+          "mr": "शासकीय कृषि महाविद्यालय, नंदुरबार"
         },
         "boys": 90,
         "girls": 90,
@@ -134465,8 +134461,8 @@
       {
         "srNo": 5,
         "college": {
-          "en": "College of Agriculture, Karad",
-          "mr": "कृषि महाविद्यालय, कराड"
+          "en": "Government College of Agriculture, Karad",
+          "mr": "शासकीय कृषि महाविद्यालय, कराड"
         },
         "boys": 90,
         "girls": 90,
@@ -134475,8 +134471,8 @@
       {
         "srNo": 6,
         "college": {
-          "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology, Rahuri",
-          "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+          "en": "Dr. Annasaheb Shinde Government College of Agricultural Engineering & Technology, Rahuri",
+          "mr": "डॉ. अण्णासाहेब शिंदे शासकीय कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
         },
         "boys": 250,
         "girls": 104,
@@ -134485,8 +134481,8 @@
       {
         "srNo": 7,
         "college": {
-          "en": "Post Graduate Institute, Rahuri",
-          "mr": "पदव्युत्तर महाविद्यालय (PGI), राहुरी"
+          "en": "Government Post Graduate Institute, Rahuri",
+          "mr": "शासकीय पदव्युत्तर संस्था, राहुरी"
         },
         "boys": 384,
         "girls": 174,
@@ -134497,8 +134493,8 @@
       {
         "srNo": 1,
         "campus": {
-          "en": "College of Agriculture, Pune",
-          "mr": "कृषि महाविद्यालय, पुणे"
+          "en": "Government College of Agriculture, Pune",
+          "mr": "शासकीय कृषि महाविद्यालय, पुणे"
         },
         "capacity": 18
       },
@@ -188645,9 +188641,9 @@
           "en": "University Library (Main Wing & Stack)",
           "mr": "मुख्य विद्यापीठ ग्रंथालय"
         },
-        "hours": "09:00 hrs – 17:15 hrs",
+        "hours": "9:00 AM – 6:00 PM",
         "note": {
-          "en": "Throughout the year except Sundays and public holidays (extended to 21:00 hrs on About Wing)",
+          "en": "Throughout the year except Sundays and public holidays",
           "mr": "रविवार व शासकीय सुट्ट्या वगळता वर्षभर कार्यरत"
         }
       },
@@ -190266,8 +190262,8 @@
       {
         "srNo": 1,
         "college": {
-          "en": "College of Agriculture, Pune",
-          "mr": "कृषि महाविद्यालय, पुणे"
+          "en": "Government College of Agriculture, Pune",
+          "mr": "शासकीय कृषि महाविद्यालय, पुणे"
         },
         "boys": 590,
         "girls": 432,
@@ -190276,8 +190272,8 @@
       {
         "srNo": 2,
         "college": {
-          "en": "College of Agriculture, Dhule",
-          "mr": "कृषि महाविद्यालय, धुळे"
+          "en": "Government College of Agriculture, Dhule",
+          "mr": "शासकीय कृषि महाविद्यालय, धुळे"
         },
         "boys": 436,
         "girls": 92,
@@ -190286,8 +190282,8 @@
       {
         "srNo": 3,
         "college": {
-          "en": "Rajarshee Chhatrapati Shahu Maharaj College of Agriculture, Kolhapur",
-          "mr": "राजर्षी छत्रपती शाहू महाराज कृषि महाविद्यालय, कोल्हापूर"
+          "en": "Rajarshee Chhatrapati Shahu Maharaj Government College of Agriculture, Kolhapur",
+          "mr": "राजर्षी छत्रपती शाहू महाराज शासकीय कृषि महाविद्यालय, कोल्हापूर"
         },
         "boys": 384,
         "girls": 332,
@@ -190296,8 +190292,8 @@
       {
         "srNo": 4,
         "college": {
-          "en": "College of Agriculture, Nandurbar",
-          "mr": "कृषि महाविद्यालय, नंदुरबार"
+          "en": "Government College of Agriculture, Nandurbar",
+          "mr": "शासकीय कृषि महाविद्यालय, नंदुरबार"
         },
         "boys": 90,
         "girls": 90,
@@ -190306,8 +190302,8 @@
       {
         "srNo": 5,
         "college": {
-          "en": "College of Agriculture, Karad",
-          "mr": "कृषि महाविद्यालय, कराड"
+          "en": "Government College of Agriculture, Karad",
+          "mr": "शासकीय कृषि महाविद्यालय, कराड"
         },
         "boys": 90,
         "girls": 90,
@@ -190316,8 +190312,8 @@
       {
         "srNo": 6,
         "college": {
-          "en": "Dr. Annasaheb Shinde College of Agricultural Engineering & Technology, Rahuri",
-          "mr": "डॉ. अण्णासाहेब शिंदे कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
+          "en": "Dr. Annasaheb Shinde Government College of Agricultural Engineering & Technology, Rahuri",
+          "mr": "डॉ. अण्णासाहेब शिंदे शासकीय कृषि अभियांत्रिकी व तंत्रज्ञान महाविद्यालय, राहुरी"
         },
         "boys": 250,
         "girls": 104,
@@ -190326,8 +190322,8 @@
       {
         "srNo": 7,
         "college": {
-          "en": "Post Graduate Institute, Rahuri",
-          "mr": "पदव्युत्तर महाविद्यालय (PGI), राहुरी"
+          "en": "Government Post Graduate Institute, Rahuri",
+          "mr": "शासकीय पदव्युत्तर संस्था, राहुरी"
         },
         "boys": 384,
         "girls": 174,
@@ -190338,8 +190334,8 @@
       {
         "srNo": 1,
         "campus": {
-          "en": "College of Agriculture, Pune",
-          "mr": "कृषि महाविद्यालय, पुणे"
+          "en": "Government College of Agriculture, Pune",
+          "mr": "शासकीय कृषि महाविद्यालय, पुणे"
         },
         "capacity": 18
       },
@@ -193251,8 +193247,8 @@
         "mr": "बियाणे, ११ रोपवाटिका, कृषी अवजारे, जैविक खते, जैविक कीटकनाशके, फुले लिक्विड मायक्रोग्रेड II आणि विद्यापीठ उत्पादने."
       },
       "badge": {
-        "en": "8 Official Categories • 5 Product PDFs",
-        "mr": "८ प्रमुख उत्पादने • ५ माहितीपत्रके"
+        "en": "8 Official Categories • Poster & Product Guides",
+        "mr": "८ प्रमुख उत्पादने • माहितीपत्रके व पोस्टर"
       }
     },
     "modalPortals": [
@@ -193339,18 +193335,11 @@
           "mr": "फुले लिक्विड मायक्रोग्रेड II"
         },
         "desc": {
-          "en": "MPKV patented micronutrient foliar liquid formulation correcting zinc, iron, boron & manganese deficiencies.",
-          "mr": "सूक्ष्म अन्नद्रव्यांच्या कमतरतेवर प्रभावी 'फुले लिक्विड मायक्रोग्रेड II' खताची अधिकृत माहिती."
+          "en": "MPKV government-approved Grade II micronutrient foliar liquid formulation (Fe, Zn, B, Mn, Cu, Mo) delivering 10–15% higher crop yield across cereals, pulses, oilseeds, cash crops, vegetables & fruit orchards.",
+          "mr": "लोह, जस्त, बोरॉन, मंगल, तांबे व मॉलिब्डेनमयुक्त शासकीय मान्यताप्राप्त ग्रेड II सूक्ष्म अन्नद्रव्ये पोषक द्रव खत — दोन फवारण्यांद्वारे १० ते १५% उत्पादन वाढ."
         },
-        "pdfs": [
-          {
-            "label": {
-              "en": "Phule Liquid Micrograde II Brochure (PDF)",
-              "mr": "फुले लिक्विड मायक्रोग्रेड II माहितीपत्रक"
-            },
-            "href": "/media/docs/farmer/phule_liquid_micrograde_2.pdf"
-          }
-        ]
+        "posterImage": "/media/images/farmer/phule_liquid_micrograde_2_poster.jpg",
+        "pdfs": []
       },
       {
         "id": "bakery-products",
@@ -193723,7 +193712,8 @@
         },
         "emails": [
           "vcmpkv@gmail.com",
-          "vc.mpkv@nic.in"
+          "vc.mpkv@nic.in",
+          "vc.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243208",
         "fax": "+91-02426-243302",
@@ -193771,7 +193761,8 @@
           "mr": "प्रभारी संचालक संशोधन"
         },
         "emails": [
-          "dormpkv@rediffmail.com"
+          "dormpkv@rediffmail.com",
+          "dor.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243223",
         "fax": "+91-02426-243223",
@@ -193795,7 +193786,8 @@
           "mr": "प्रभारी अधिष्ठाता  (कृषि) व संचालक, शिक्षण"
         },
         "emails": [
-          "dean.mpkv@nic.in"
+          "dean.mpkv@nic.in",
+          "dean.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243206",
         "fax": "+91-02426 243 227",
@@ -193943,7 +193935,8 @@
         },
         "emails": [
           "vcmpkv@gmail.com",
-          "vc.mpkv@nic.in"
+          "vc.mpkv@nic.in",
+          "vc.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243208",
         "fax": "+91-02426-243302",
@@ -193991,7 +193984,8 @@
           "mr": "प्रभारी संचालक संशोधन"
         },
         "emails": [
-          "dormpkv@rediffmail.com"
+          "dormpkv@rediffmail.com",
+          "dor.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243223",
         "fax": "+91-02426-243223",
@@ -194015,7 +194009,8 @@
           "mr": "प्रभारी अधिष्ठाता  (कृषि) व संचालक, शिक्षण"
         },
         "emails": [
-          "dean.mpkv@nic.in"
+          "dean.mpkv@nic.in",
+          "dean.mpkv@mpkv.ac.in"
         ],
         "phone": "+91-02426-243206",
         "fax": "+91-02426 243 227",

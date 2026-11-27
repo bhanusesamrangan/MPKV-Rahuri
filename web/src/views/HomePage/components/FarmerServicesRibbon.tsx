@@ -91,7 +91,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
       subtitle: language === 'mr' ? 'रायझोबियम, अझोटोबॅक्टर व पीएसबी' : 'Rhizobium, Azotobacter & PSB cultures',
       badge: language === 'mr' ? 'मफुकृवि ब्रँड' : 'Bio-Products',
       icon: FlaskConical,
-      link: '/seeds-availability',
+      link: '/farmer/bio-fertilizers',
       isExternal: false,
       styles: {
         iconBg: 'bg-gradient-to-br from-blue-500 to-indigo-700 text-white shadow-md shadow-indigo-500/25',
@@ -108,7 +108,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
       subtitle: language === 'mr' ? 'ट्रायकोडर्मा व व्हर्टिसिलियम' : 'Trichoderma, Verticillium cultures',
       badge: language === 'mr' ? 'सेंद्रिय शेती' : 'Organic Pest Control',
       icon: Bug,
-      link: '/seeds-availability',
+      link: '/farmer/bio-pesticides',
       isExternal: false,
       styles: {
         iconBg: 'bg-gradient-to-br from-rose-500 to-pink-700 text-white shadow-md shadow-rose-500/25',
@@ -125,7 +125,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
       subtitle: language === 'mr' ? 'सूक्ष्म अन्नद्रव्ये व पोषण द्रव्ये' : 'Liquid micronutrients Grade-II',
       badge: language === 'mr' ? 'पेटंट तंत्रज्ञान' : 'Patented Tech',
       icon: Droplets,
-      link: '/seeds-availability',
+      link: '/farmer/phule-micrograde',
       isExternal: false,
       styles: {
         iconBg: 'bg-gradient-to-br from-cyan-500 to-sky-700 text-white shadow-md shadow-cyan-500/25',
@@ -142,7 +142,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
       subtitle: language === 'mr' ? 'तज्ज्ञ शास्त्रज्ञांचा थेट सल्ला' : 'Direct scientist helpline & tips',
       badge: language === 'mr' ? 'दैनिक सल्ला' : 'Daily Advisory',
       icon: HelpCircle,
-      link: '#agro-advisory',
+      link: '/farmer/advisories',
       isExternal: false,
       styles: {
         iconBg: 'bg-gradient-to-br from-amber-400 via-amber-500 to-yellow-600 text-slate-950 shadow-md shadow-amber-500/25',
@@ -156,11 +156,11 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
     {
       id: 'radio',
       title: language === 'mr' ? 'फुले कृषी वाहिनी ९०.८ FM' : 'Phule Krishi Vahini 90.8 FM',
-      subtitle: language === 'mr' ? 'मध्यवर्ती स्टुडिओ थेट प्रक्षेपण' : 'Live Community Radio broadcast',
-      badge: language === 'mr' ? 'थेट ऐका' : 'Live Broadcast',
+      subtitle: language === 'mr' ? 'मध्यवर्ती स्टुडिओ व कार्यक्रम वेळापत्रक' : 'Community Radio studio & schedule',
+      badge: language === 'mr' ? 'थेट प्रसारण' : 'Radio Studio',
       icon: Radio,
-      link: 'https://digitalradio.co.in:8020/stream',
-      isExternal: true,
+      link: '/extension/communication-center',
+      isExternal: false,
       hasLivePulse: true,
       styles: {
         iconBg: 'bg-gradient-to-br from-purple-500 to-indigo-700 text-white shadow-md shadow-purple-500/25',
@@ -173,7 +173,7 @@ export const FarmerServicesRibbon: React.FC<FarmerServicesRibbonProps> = ({ cale
     },
     {
       id: 'youtube',
-      title: language === 'mr' ? 'कृषि तंत्रज्ञान व्हिडिओं' : 'Official YouTube Channel',
+      title: language === 'mr' ? 'कृषि तंत्रज्ञान व्हिडिओ' : 'Official YouTube Channel',
       subtitle: language === 'mr' ? 'पीक प्रात्यक्षिके व शेतकरी यशोगाथा' : 'Video demonstrations & farmer talks',
       badge: language === 'mr' ? 'व्हिडिओ दालन' : 'Video Archive',
       icon: Video,
