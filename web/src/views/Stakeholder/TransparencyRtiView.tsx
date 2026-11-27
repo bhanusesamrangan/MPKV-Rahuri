@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   ShieldAlert,
@@ -26,9 +26,18 @@ import {
   AlertCircle,
   RefreshCw,
   Search,
-  Check
+  Check,
+  History,
+  Trash2
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
+import {
+  DB_KEYS,
+  GrievanceTicketRecord,
+  appendRecord,
+  clearCollection,
+  getCollection
+} from '@/lib/localDb';
 
 interface TransparencyRtiViewProps {
   pageData?: any;
@@ -60,6 +69,11 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
     department: string;
   } | null>(null);
   const [formError, setFormError] = useState<string | null>(null);
+  const [savedTickets, setSavedTickets] = useState<GrievanceTicketRecord[]>([]);
+
+  useEffect(() => {
+    setSavedTickets(getCollection<GrievanceTicketRecord>(DB_KEYS.GRIEVANCE_TICKETS));
+  }, []);
 
   // RTI Search filter
   const [rtiSearchQuery, setRtiSearchQuery] = useState('');
@@ -357,13 +371,28 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
     setIsSubmitting(true);
     setTimeout(() => {
       const randomTicket = `MPKV-GRS-2026-${Math.floor(100000 + Math.random() * 900000)}`;
+      const formattedDate = new Date().toLocaleDateString(language === 'mr' ? 'mr-IN' : 'en-IN', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric'
+      });
+      const record: GrievanceTicketRecord = {
+        id: randomTicket,
+        name: formData.name.trim(),
+        mobile: formData.mobile.trim(),
+        email: formData.email.trim(),
+        district: formData.district,
+        taluka: formData.taluka.trim(),
+        department: formData.department,
+        category: formData.category,
+        comments: formData.comments.trim(),
+        date: formattedDate
+      };
+      const updated = appendRecord(DB_KEYS.GRIEVANCE_TICKETS, record);
+      setSavedTickets(updated);
       setSubmittedTicket({
         id: randomTicket,
-        date: new Date().toLocaleDateString(language === 'mr' ? 'mr-IN' : 'en-IN', {
-          day: '2-digit',
-          month: 'short',
-          year: 'numeric'
-        }),
+        date: formattedDate,
         name: formData.name,
         department: formData.department
       });
@@ -854,6 +883,48 @@ export const TransparencyRtiView: React.FC<TransparencyRtiViewProps> = ({ pageDa
                     </div>
 
                   </form>
+                )}
+
+                {savedTickets.length > 0 && (
+                  <div className="pt-5 border-t border-stone-100 space-y-3">
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="flex items-center gap-2 text-xs font-bold text-slate-800">
+                        <History className="w-4 h-4 text-blue-800" />
+                        <span>
+                          {language === 'mr'
+                            ? `जतन केलेल्या तक्रार नोंदी (${savedTickets.length})`
+                            : `Saved Grievance Tickets (${savedTickets.length})`}
+                        </span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          clearCollection(DB_KEYS.GRIEVANCE_TICKETS);
+                          setSavedTickets([]);
+                        }}
+                        className="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-700 hover:underline cursor-pointer"
+                      >
+                        <Trash2 className="w-3 h-3" />
+                        <span>{language === 'mr' ? 'इतिहास पुसा' : 'Clear'}</span>
+                      </button>
+                    </div>
+
+                    <div className="space-y-2 max-h-52 overflow-y-auto pr-1">
+                      {savedTickets.map((t) => (
+                        <div
+                          key={t.id}
+                          className="p-3 rounded-xl bg-stone-50 border border-stone-200 text-xs flex flex-wrap items-center justify-between gap-2"
+                        >
+                          <div className="min-w-0">
+                            <span className="font-mono font-bold text-blue-900">{t.id}</span>
+                            <span className="text-stone-400 mx-1.5">•</span>
+                            <span className="font-semibold text-slate-800">{t.department}</span>
+                          </div>
+                          <span className="text-[11px] text-stone-500 font-medium">{t.date}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 )}
 
               </div>

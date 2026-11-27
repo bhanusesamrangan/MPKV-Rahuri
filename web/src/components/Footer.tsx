@@ -1,12 +1,21 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { toDevanagariDigits, trackLocalVisit } from '@/lib/localDb';
 
 export const Footer: React.FC = () => {
   const { language } = useLanguage();
+  const [visitorCount, setVisitorCount] = useState<number>(142850);
+
+  useEffect(() => {
+    setVisitorCount(trackLocalVisit(142850));
+  }, []);
+
+  const formattedCountEn = visitorCount.toLocaleString('en-IN');
+  const formattedCountMr = toDevanagariDigits(formattedCountEn);
 
   return (
     <footer className="w-full bg-[#f4f7f5] text-slate-600 text-sm border-t border-stone-200/80 mt-12 transition-colors">
@@ -268,7 +277,11 @@ export const Footer: React.FC = () => {
           <div className="flex flex-wrap items-center justify-center md:justify-end gap-2.5 sm:gap-3 text-xs text-slate-600">
             <span>{language === 'mr' ? 'शेवटचे अद्यतन: २३ नोव्हेंबर २०२६' : 'Last Updated: 23 Nov 2026'}</span>
             <span className="text-stone-300">•</span>
-            <span>{language === 'mr' ? 'एकूण दर्शक: १,४२,८५०' : 'Total Visitors: 1,42,850'}</span>
+            <span>
+              {language === 'mr'
+                ? `एकूण दर्शक: ${formattedCountMr}`
+                : `Total Visitors: ${formattedCountEn}`}
+            </span>
           </div>
 
         </div>

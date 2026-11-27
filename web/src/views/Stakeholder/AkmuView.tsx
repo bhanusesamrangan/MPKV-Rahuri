@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import {
   Cpu,
@@ -33,10 +33,19 @@ import {
   Clock,
   ArrowRight,
   Camera,
-  Building2
+  Building2,
+  History,
+  Trash2
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import fallbackAkmuData from '@/data/scraped/pages/akmu-introduction.json';
+import {
+  DB_KEYS,
+  AkmuQueryRecord,
+  appendRecord,
+  clearCollection,
+  getCollection
+} from '@/lib/localDb';
 
 interface AkmuViewProps {
   pageData?: any;
@@ -54,6 +63,11 @@ export const AkmuView: React.FC<AkmuViewProps> = ({ pageData, initialTab }) => {
   const [nqDept, setNqDept] = useState('');
   const [nqMsg, setNqMsg] = useState('');
   const [nqSubmitted, setNqSubmitted] = useState(false);
+  const [savedQueries, setSavedQueries] = useState<AkmuQueryRecord[]>([]);
+
+  useEffect(() => {
+    setSavedQueries(getCollection<AkmuQueryRecord>(DB_KEYS.AKMU_QUERIES));
+  }, []);
 
   const data = pageData?.introduction ? pageData : (fallbackAkmuData as any);
   const heroData = data?.hero || {};
@@ -92,6 +106,19 @@ export const AkmuView: React.FC<AkmuViewProps> = ({ pageData, initialTab }) => {
   const handleNetworkSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!nqName.trim() || !nqDept.trim() || !nqMsg.trim()) return;
+    const record: AkmuQueryRecord = {
+      id: `MPKV-NET-${Date.now().toString().slice(-6)}`,
+      name: nqName.trim(),
+      department: nqDept.trim(),
+      message: nqMsg.trim(),
+      submittedAt: new Date().toLocaleDateString(language === 'mr' ? 'mr-IN' : 'en-IN', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+      }),
+    };
+    const updated = appendRecord(DB_KEYS.AKMU_QUERIES, record);
+    setSavedQueries(updated);
     setNqSubmitted(true);
   };
 
@@ -739,6 +766,47 @@ export const AkmuView: React.FC<AkmuViewProps> = ({ pageData, initialTab }) => {
                     </button>
                   </div>
                 </form>
+              )}
+
+              {savedQueries.length > 0 && (
+                <div className="pt-4 mt-4 border-t border-stone-100 space-y-2.5">
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-1.5 text-xs font-bold text-stone-800">
+                      <History className="w-3.5 h-3.5 text-emerald-700" />
+                      <span>
+                        {language === 'mr'
+                          ? `जतन केलेल्या नेटवर्क नोंदी (${savedQueries.length})`
+                          : `Saved Network Requests (${savedQueries.length})`}
+                      </span>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        clearCollection(DB_KEYS.AKMU_QUERIES);
+                        setSavedQueries([]);
+                      }}
+                      className="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-700 hover:underline cursor-pointer"
+                    >
+                      <Trash2 className="w-3 h-3" />
+                      <span>{language === 'mr' ? 'पुसा' : 'Clear'}</span>
+                    </button>
+                  </div>
+                  <div className="space-y-1.5 max-h-44 overflow-y-auto pr-1">
+                    {savedQueries.map((q) => (
+                      <div
+                        key={q.id}
+                        className="p-2.5 rounded-xl bg-stone-50 border border-stone-200 text-xs flex flex-wrap items-center justify-between gap-2"
+                      >
+                        <div className="min-w-0">
+                          <span className="font-mono font-bold text-emerald-900">{q.id}</span>
+                          <span className="text-stone-400 mx-1.5">•</span>
+                          <span className="font-semibold text-stone-800">{q.department}</span>
+                        </div>
+                        <span className="text-[11px] text-stone-500">{q.submittedAt}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               )}
             </div>
 

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   ShieldAlert,
@@ -13,9 +13,18 @@ import {
   MessageSquare,
   FileCheck,
   ArrowRight,
+  History,
+  Trash2,
 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { StudentBreadcrumb } from './components/StudentBreadcrumb';
+import {
+  DB_KEYS,
+  StudentComplaintRecord,
+  appendRecord,
+  clearCollection,
+  getCollection,
+} from '@/lib/localDb';
 
 export const StudentComplaintsView: React.FC<{ pageData: any }> = ({ pageData }) => {
   const { language } = useLanguage();
@@ -28,6 +37,11 @@ export const StudentComplaintsView: React.FC<{ pageData: any }> = ({ pageData })
     message: '',
   });
   const [submittedRef, setSubmittedRef] = useState<string | null>(null);
+  const [savedComplaints, setSavedComplaints] = useState<StudentComplaintRecord[]>([]);
+
+  useEffect(() => {
+    setSavedComplaints(getCollection<StudentComplaintRecord>(DB_KEYS.STUDENT_COMPLAINTS));
+  }, []);
 
   const fields: Array<{ key: string; label: { en: string; mr: string }; placeholder: string }> =
     pageData?.formFields || [];
@@ -36,6 +50,22 @@ export const StudentComplaintsView: React.FC<{ pageData: any }> = ({ pageData })
     e.preventDefault();
     if (!formState.regNo.trim() || !formState.studentName.trim() || !formState.message.trim()) return;
     const code = `MPKV-CMP-${Date.now().toString().slice(-6)}`;
+    const record: StudentComplaintRecord = {
+      id: code,
+      regNo: formState.regNo.trim(),
+      studentName: formState.studentName.trim(),
+      contact: formState.contact.trim(),
+      collegeName: formState.collegeName.trim(),
+      degree: formState.degree.trim(),
+      message: formState.message.trim(),
+      submittedAt: new Date().toLocaleDateString(language === 'mr' ? 'mr-IN' : 'en-IN', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+      }),
+    };
+    const next = appendRecord(DB_KEYS.STUDENT_COMPLAINTS, record);
+    setSavedComplaints(next);
     setSubmittedRef(code);
   };
 
@@ -250,6 +280,49 @@ export const StudentComplaintsView: React.FC<{ pageData: any }> = ({ pageData })
                   <span>{language === 'mr' ? 'तक्रार सादर करा' : 'Submit Complaint'}</span>
                 </button>
               </form>
+            )}
+
+            {savedComplaints.length > 0 && (
+              <div className="mt-8 pt-6 border-t border-rose-100 space-y-3">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-2 text-xs font-bold text-slate-800">
+                    <History className="w-4 h-4 text-rose-700" />
+                    <span>
+                      {language === 'mr'
+                        ? `जतन केलेल्या तक्रारी (${savedComplaints.length})`
+                        : `Saved Submissions in This Browser (${savedComplaints.length})`}
+                    </span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      clearCollection(DB_KEYS.STUDENT_COMPLAINTS);
+                      setSavedComplaints([]);
+                    }}
+                    className="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-700 hover:underline cursor-pointer"
+                  >
+                    <Trash2 className="w-3 h-3" />
+                    <span>{language === 'mr' ? 'इतिहास पुसा' : 'Clear'}</span>
+                  </button>
+                </div>
+
+                <div className="space-y-2 max-h-56 overflow-y-auto pr-1">
+                  {savedComplaints.map((rec) => (
+                    <div
+                      key={rec.id}
+                      className="p-3 rounded-xl bg-[#fdf7f8] border border-rose-200/70 text-xs flex flex-wrap items-center justify-between gap-2"
+                    >
+                      <div className="min-w-0">
+                        <span className="font-mono font-bold text-rose-900">{rec.id}</span>
+                        <span className="text-stone-400 mx-1.5">•</span>
+                        <span className="font-semibold text-slate-800">{rec.studentName}</span>
+                        <span className="text-stone-500 ml-1.5">({rec.regNo})</span>
+                      </div>
+                      <span className="text-[11px] text-stone-500 font-medium">{rec.submittedAt}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             )}
           </div>
         </div>
